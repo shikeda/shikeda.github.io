@@ -1,0 +1,19 @@
+baseURL = 'https://shikeda.github.io/'
+languageCode = 'jp'
+title = 'HDIC project'
+DefaultContentLanguage = "jp"
+theme = "hugo-book"
+
+hasCJKLanguage = true
+metaDataFormat = "yaml"
+
+
+publishDir = "docs"
+
+canonifyurls = true
+
+defaultContentLanguage = "jp"
+defaultContentLanguageInSubdir= false
+enableMissingTranslationPlaceholders = false
+
+
