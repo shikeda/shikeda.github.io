@@ -22,7 +22,7 @@
       <pubDate>Wed, 05 Jan 2022 07:18:54 +0900</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/table-of-contents/data-structure/</guid>
-      <description>項目データファイルのヘッダの記述内容 # 観智院本類聚名義抄(KRM)の項目は掲出字と注文とからなる。 KRM項目のデータはKRM.tsvに格納さ</description>
+      <description>項目の構造 # 項目の構造(Item structure)を図示すれば次のようになる。左側の本文は 模写したものである。 項目は掲出字(headwor</description>
     </item>
     
     <item>
@@ -103,7 +103,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/table-of-contents/def-input/6/</guid>
-      <description>掲出字補注 # 掲出字の周囲に施された注記を掲出字補注と呼ぶ。 掲出字の声点と片仮名音注 # 説明 掲出字に施され音読みを示す声点と片仮名は注文（KR_</description>
+      <description>その他 # 「その他」では、掲出字補注について説明する。 掲出字補注とは 掲出字の周囲に施された注記を指す。 掲出字の声点と片仮名音注 # 説明 掲出字に施</description>
     </item>
     
     <item>
@@ -121,8 +121,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/hidden/</guid>
-      <description>This page is hidden in menu #  Quondam non pater est dignior ille Eurotas #  Latent te facies #  Lorem markdownum arma ignoscas vocavit quoque ille texit mandata mentis ultimus, frementes, qui in vel. Hippotades Peleus pennas conscia cuiquam Caeneus quas.
- Pater demittere evincitque reddunt Maxime adhuc pressit huc Danaas quid freta Soror ego Luctus linguam saxa ultroque prior Tatiumque inquit Saepe liquitur subita superata dederat Anius sudor  Cum honorum Latona #  O fallor in sustinui iussorum equidem.</description>
+      <description>This page is hidden in menu #  </description>
     </item>
     
   </channel>

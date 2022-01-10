@@ -22,7 +22,7 @@
       <pubDate>Wed, 05 Jan 2022 07:18:54 +0900</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/table-of-contents/data-structure/</guid>
-      <description>項目データファイルのヘッダの記述内容 # 観智院本類聚名義抄(KRM)の項目は掲出字と注文とからなる。 KRM項目のデータはKRM.tsvに格納さ</description>
+      <description>項目の構造 # 項目の構造(Item structure)を図示すれば次のようになる。左側の本文は 模写したものである。 項目は掲出字(headwor</description>
     </item>
     
     <item>

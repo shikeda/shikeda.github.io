@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="jp" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="項目データファイルのヘッダの記述内容 # 観智院本類聚名義抄(KRM)の項目は掲出字と注文とからなる。 KRM項目のデータはKRM.tsvに格納さ">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="項目データ構造" />
+<meta property="og:description" content="項目データファイルのヘッダの記述内容 # 観智院本類聚名義抄(KRM)の項目は掲出字と注文とからなる。 KRM項目のデータはKRM.tsvに格納さ" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://shikeda.github.io/docs/notes/krm-database/data-structure/" /><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2022-01-05T07:18:54+09:00" />
+<meta property="article:modified_time" content="2022-01-05T07:18:54+09:00" />
+
+<title>項目データ構造 | HDIC project</title>
+<link rel="manifest" href="https://shikeda.github.io/manifest.json">
+<link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
+  <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.e210b174def600b85a5cc35530b54531c8213efbce002461506d67a53b8319a7.js" integrity="sha256-4hCxdN72ALhaXMNVMLVFMcghPvvOACRhUG1npTuDGac=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="https://shikeda.github.io/"><span>HDIC project</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="検索" aria-label="検索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/" class="">about HDIC</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-database/" class="">観智院本類聚名義抄</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-database/overview/" class="">概要</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-database/data-structure/" class=" active">項目データ構造</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-database/item-input/" class="">項目データ入力</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-database/headword-input/" class="">掲出字データ入力の詳細</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e988b34bd5e426c2e1f69345cb814053" class="toggle"  />
+    <label for="section-e988b34bd5e426c2e1f69345cb814053" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-database/def-input/" class="">注文データ入力の詳細</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-database/def-input/1/" class="">共通</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-database/def-input/2/" class="">字体注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-database/def-input/3/" class="">音注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-database/def-input/4/" class="">義注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-database/def-input/5/" class="">和訓</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-database/def-input/6/" class="">その他</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://shikeda.github.io/posts/" >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="https://shikeda.github.io/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>項目データ構造</strong>
+
+  <label for="toc-control">
+    
+    <img src="https://shikeda.github.io/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#項目データファイルのヘッダの記述内容">項目データファイルのヘッダの記述内容</a></li>
+    <li><a href="#tsvファイルの例">TSVファイルの例</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h2 id="項目データファイルのヘッダの記述内容">
+  項目データファイルのヘッダの記述内容
+  <a class="anchor" href="#%e9%a0%85%e7%9b%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e3%83%98%e3%83%83%e3%83%80%e3%81%ae%e8%a8%98%e8%bf%b0%e5%86%85%e5%ae%b9">#</a>
+</h2>
+<p>観智院本類聚名義抄(KRM)の項目は掲出字と注文とからなる。
+KRM項目のデータはKRM.tsvに格納される。
+ヘッダの記述内容は次のとおりである。</p>
+<table>
+<thead>
+<tr>
+<th>No</th>
+<th>名称</th>
+<th>内容・書式</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>KRID_n</td>
+<td>掲出項目の通し番号。Fに5桁の数字を付す。一部、追加項目にはb番号を追加する。</td>
+</tr>
+<tr>
+<td>2</td>
+<td>KRID_sn</td>
+<td>掲出字の通し番号。Sに5桁の数字を付す。S00227、S09507、S10953は重複2回につきKRID_nにb番号を付す、S28358は重複3回につきKRID_nにbc番号を付す。</td>
+</tr>
+<tr>
+<td>3</td>
+<td>KR2ID</td>
+<td>風間書房版の項目ID。K・巻数（2桁）・ページ数（3桁）・行数（1桁）・段数（1桁）を示す。一段に複数項目ある場合は字順（1桁）を項目IDとして追加する。</td>
+</tr>
+<tr>
+<td>4</td>
+<td>KRID</td>
+<td>掲出字ID。K・巻数（2桁）・風間書房版ページ数（3桁）・行数（1桁）・段数（1桁）・字順（1桁）を示す。掲出字が単字形式のものは最後の字順を0とする。複字形式のものは1, 2 ,…nとする。一段に複数項目ある場合は単字形式でも1, 2 ,…nとする。</td>
+</tr>
+<tr>
+<td>5</td>
+<td>KR_Tenri_p</td>
+<td>八木書店版の掲出字ID。T・巻数（a/b/c）・ページ数（3桁数）・行数（1桁）・段数（1桁）・字順（1桁）を示す。最後の字順の示し方は掲出字IDの場合に同じとする。八木書店刊行の天理図書館善本叢書(新・旧)による。</td>
+</tr>
+<tr>
+<td>6</td>
+<td>KR_vol_name</td>
+<td>巻。「仏上」「仏中」「仏下本」「仏下末」「法上」「法中」「法下」「僧上」「僧中」「僧下」の10 巻を示す</td>
+</tr>
+<tr>
+<td>7</td>
+<td>KR_radical</td>
+<td>部首名。「人、彳、辵」から「風、酉、雑」までの120部を示す。</td>
+</tr>
+<tr>
+<td>8</td>
+<td>KR_vol_radical</td>
+<td>巻。v・巻数（1-10）#・部首番号（1-120）を示す。v1#1(第1帖第1)〜v10#120(第10帖第120)。第1帖(仏上)〜第10帖(僧下)。</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Entry</td>
+<td>掲出字。「康煕字典体」（Kangxi Zidian glyph）に包摂（subsumption）するのを原則として入力した掲出字。複字形式の場合は／（全角スラッシュ）で区切り、省略符号「｜」がある場合、ー（長音符）を用いて、その後の（）（全角括弧）内に該当字を入力する。掲出字補注の内容は注文（KR_def）に入力する。</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Entry_original</td>
+<td>原字形に近い掲出字。「原字形に近い掲出字」（original character form, 原本字形相近字頭字形）を示す必要があると池田が判断したものを入力し、必要がない掲出字は「〇」で入力する。</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Def</td>
+<td>注文。	字体注、音注、義注、和訓など。スペースで区切る。注文の本文を入力する。原則として「康熙字典体」に包摂した字形を入力する。defはdefinitionの意。</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Remarks</td>
+<td>備考。注文（Def）に入力できない情報を注記する。</td>
+</tr>
+</tbody>
+</table>
+<h2 id="tsvファイルの例">
+  TSVファイルの例
+  <a class="anchor" href="#tsv%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%be%8b">#</a>
+</h2>
+<pre tabindex="0"><code>
+
+</code></pre></article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#項目データファイルのヘッダの記述内容">項目データファイルのヘッダの記述内容</a></li>
+    <li><a href="#tsvファイルの例">TSVファイルの例</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

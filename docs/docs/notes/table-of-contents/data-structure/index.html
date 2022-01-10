@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="項目データファイルのヘッダの記述内容 # 観智院本類聚名義抄(KRM)の項目は掲出字と注文とからなる。 KRM項目のデータはKRM.tsvに格納さ">
+<meta name="description" content="項目の構造 # 項目の構造(Item structure)を図示すれば次のようになる。左側の本文は 模写したものである。 項目は掲出字(headwor">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="項目データ構造" />
-<meta property="og:description" content="項目データファイルのヘッダの記述内容 # 観智院本類聚名義抄(KRM)の項目は掲出字と注文とからなる。 KRM項目のデータはKRM.tsvに格納さ" />
+<meta property="og:description" content="項目の構造 # 項目の構造(Item structure)を図示すれば次のようになる。左側の本文は 模写したものである。 項目は掲出字(headwor" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shikeda.github.io/docs/notes/table-of-contents/data-structure/" /><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2022-01-05T07:18:54+09:00" />
@@ -17,7 +17,7 @@
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.f6e09fa83cb8b83c5cc397a66a8e84b641027653379dc6be25ba6bc37ae73088.js" integrity="sha256-9uCfqDy4uDxcw5emao6EtkECdlM3nca&#43;Jbprw3rnMIg=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.7d7459dae72b6311ebf8fdd987a174e1894d8d9c12c00d2213c154e7c0c10c81.js" integrity="sha256-fXRZ2ucrYxHr&#43;P3Zh6F04YlNjZwSwA0iE8FU58DBDIE=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -313,8 +313,10 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
+    <li><a href="#項目の構造">項目の構造</a></li>
     <li><a href="#項目データファイルのヘッダの記述内容">項目データファイルのヘッダの記述内容</a></li>
     <li><a href="#tsvファイルの例">TSVファイルの例</a></li>
+    <li><a href="#excelファイルの例">Excelファイルの例</a></li>
   </ul>
 </nav>
 
@@ -327,7 +329,31 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h2 id="項目データファイルのヘッダの記述内容">
+  <article class="markdown"><h2 id="項目の構造">
+  項目の構造
+  <a class="anchor" href="#%e9%a0%85%e7%9b%ae%e3%81%ae%e6%a7%8b%e9%80%a0">#</a>
+</h2>
+<p>項目の構造(Item structure)を図示すれば次のようになる。左側の本文は
+模写したものである。</p>
+<p><img src="https://shikeda.github.io/images/krm-item-structure.png" alt="item structure" /></p>
+<p>項目は掲出字(headword)と注文(definition, annotation)からなる。</p>
+<p>掲出字は単字形式(single character form)と複字形式(plural charactor form)とがある。
+複字形式の掲出字は、熟語または異体字の併記である。</p>
+<p>注文は、音注(pronunciation)、漢文義注(Chinese meaning)、和訓(Japanese reading)、
+Glyph(字体注)からなる。漢文義注は、義注、漢文意味注ということもある。
+誤解を生じない限り、単に義注とすることが多い。
+和訓は和訓注ということもある。</p>
+<p>図示した「覲」を例にして説明すると、次のようになる。</p>
+<pre><code>掲出字：覲
+注文：音僅(R)　ミル(LH)　マミユ(HLH)　和後ン(@L)
+注文の要素
+    音注：音僅(R)
+    和訓：ミル(LH)
+    和訓：マミユ(HLH)
+    音注：和後ン(@L)
+</code></pre>
+<p>その他、掲出字の周囲に施された漢文義注、片仮名などがあり、これらを掲出字補注と呼ぶ。</p>
+<h2 id="項目データファイルのヘッダの記述内容">
   項目データファイルのヘッダの記述内容
   <a class="anchor" href="#%e9%a0%85%e7%9b%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e3%83%98%e3%83%83%e3%83%80%e3%81%ae%e8%a8%98%e8%bf%b0%e5%86%85%e5%ae%b9">#</a>
 </h2>
@@ -409,9 +435,39 @@ KRM項目のデータはKRM.tsvに格納される。
   TSVファイルの例
   <a class="anchor" href="#tsv%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%be%8b">#</a>
 </h2>
-<pre tabindex="0"><code>
+<p>次はTSVファイルの例である。</p>
+<pre tabindex="0"><code>F00001	S00001	K0100131	K01001310	Ta023310	仏上	人	v1#1	人	〇	音仁(L&quot;)「ニン」　ヒト(HL)　ワレ(LL)　サネ　マホル　ユク	
+F00002	S00002	K0100133	K01001331	Ta023331	仏上	人	v1#1	一／人	〇／〇	ヒトリ(LH@)	
+F00003	S00004	K0100134	K01001341	Ta023341	仏上	人	v1#1	二／人	〇／〇	フタリ(HHL)	高山寺本になし。岡田研究183頁。
+F00004	S00006	K0100141	K01001411	Ta023411	仏上	人	v1#1	五／ー（人）	〇／〇	イトリ(LHL)	
+F00005	S00008	K0100142	K01001421	Ta023421	仏上	人	v1#1	ー（人）／等	〇／〇	ヒトヽモ(HHH&quot;H)	
+F00006	S00010	K0100143	K01001431	Ta023431	仏上	人	v1#1	湯／ー（人）	〇／〇	ユヱ(L@)	
+F00007	S00012	K0100144	K01001441	Ta023441	仏上	人	v1#1	真／人	〇／〇	マフト(HHL)	
+F00008	S00014	K0100151	K01001511	Ta023511	仏上	人	v1#1	漁／ー（人）	〇／〇	アマ(LL)	
+F00009	S00016	K0100152	K01001521	Ta023521	仏上	人	v1#1	海／ー（人）	〇／〇	同上	高山寺本は次項に「人魚　イヲノナ」あり。高山寺本が観智院本より以前である説の反例（岡田研究182頁）。池田按：蓮成院本は「分註式」で「人魚」あり。
+F00010	S00018	K0100153	K01001531	Ta023531	仏上	人	v1#1	盗／ー（人）	〇／〇	ヌスヒト	
+F00011	S00020	K0100154	K01001541	Ta023541	仏上	人	v1#1	不／良／人	〇／〇／〇	同上	
+F00012	S00023	K0100161	K01001611	Ta023611	仏上	人	v1#1	毛／ー（人）	〇／〇	ヱヒス	
+F00013	S00025	K0100162	K01001621	Ta023621	仏上	人	v1#1	白／ー（人）	〇／〇	シレモノ	
+F00014	S00027	K0100163	K01001631	Ta023631	仏上	人	v1#1	桃／ー（人）	〇／〇	モヽノサニ(@@@LL)	
+F00015	S00029	K0100164	K01001641	Ta023641	仏上	人	v1#1	ー（人）／參	〇／参	カノニケクサ(LLLL&quot;H&quot;L)	
+F00016	S00031	K0100171	K01001710	Ta023710	仏上	人	v1#1	佛	〇	音費(R)「ヒ」　ホノカナリ　又符「フ」弗(S)「フツ」反　ホトケ　ヲホキニス-ナリ(LLHLH-@@)　タチマチ　又音弼(S)「ヒチ」　タスク(LLH)　和音部ツ	高山寺本「佛」が本文冒頭にり、これを穏当で自然な順序としたのが観智院本と解釈。岡田研究187頁。
+F00017	S00032	K0100174	K01001740	Ta023740	仏上	人	v1#1	仏	〇	俗佛字　又見別字	
+F00018	S00033	K0100181	K01001811	Ta023811	仏上	人	v1#1	仿／佛	〇／〇	ホノカナリ　上芳往反　*ホノカナリ　ヲホツカナシ　ナラフ　カタヒク　イカル　下音費	高山寺本の記載法、「佛」の熟字訓の後に「仿ー」とあり「乱暴な遣り方」。岡田研究186頁。
+F00019	S00035	K0100184	K01001840	Ta023840	仏上	人	v1#1	㑂	〇	或作髣正	
+F00020	S00036	K0100211	K01002111	Ta024111	仏上	人	v1#1	仿／像	〇／〇	ホノカナリ　下在下	
+F00021	S00038	K0100212	K01002120	Ta024120	仏上	人	v1#1	㐻	〇	内(R)「タイ」納二音	
+F00022	S00039	K0100213	K01002130	Ta024130	仏上	人	v1#1	僧	〇	蘇曽(F)反　カハラク(HHHL&quot;)　ネムコロ　サトル　和音ソウ(LL-N)	
+F00023	S00040	K0100221	K01002210	Ta024210	仏上	人	v1#1	傮	〇	遭(L)「サウ」曹(L)「サウ」二音　終也	
+F00024	S00041	K0100222	K01002220	Ta024220	仏上	人	v1#1	⿰亻胃	〇	音謂(R)「ヰ」　胃也　サソフ	
 
-</code></pre></article>
+</code></pre><h2 id="excelファイルの例">
+  Excelファイルの例
+  <a class="anchor" href="#excel%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%be%8b">#</a>
+</h2>
+<p>次は上記のTSVファイルをExcelに読み込んだものである。</p>
+<p><img src="https://shikeda.github.io/images/item-excel-sample.png" alt="item structure" /></p>
+</article>
  
       
 
@@ -452,8 +508,10 @@ KRM項目のデータはKRM.tsvに格納される。
   
 <nav id="TableOfContents">
   <ul>
+    <li><a href="#項目の構造">項目の構造</a></li>
     <li><a href="#項目データファイルのヘッダの記述内容">項目データファイルのヘッダの記述内容</a></li>
     <li><a href="#tsvファイルの例">TSVファイルの例</a></li>
+    <li><a href="#excelファイルの例">Excelファイルの例</a></li>
   </ul>
 </nav>
 

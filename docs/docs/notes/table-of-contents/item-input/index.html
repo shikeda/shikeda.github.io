@@ -17,7 +17,7 @@
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.f6e09fa83cb8b83c5cc397a66a8e84b641027653379dc6be25ba6bc37ae73088.js" integrity="sha256-9uCfqDy4uDxcw5emao6EtkECdlM3nca&#43;Jbprw3rnMIg=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.7d7459dae72b6311ebf8fdd987a174e1894d8d9c12c00d2213c154e7c0c10c81.js" integrity="sha256-fXRZ2ucrYxHr&#43;P3Zh6F04YlNjZwSwA0iE8FU58DBDIE=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -353,7 +353,17 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#unicode%e3%81%ab%e3%82%88%e3%82%8b%e7%ac%a6%e5%8f%b7%e5%8c%96">#</a>
 </h3>
 <p><strong>説明</strong></p>
+<p>UnicodeのバージョンによりCJK統合漢字の数は異なる。
+HDICプロジェクトとしては2014年にスタートしており、
+当初、基本に据えたのは2015年のUnicode 8.0.0であり、
+使用できる漢字の数は、
+CJK統合漢字とCJK統合漢字拡張A-Eの80,358字である。
+その後も拡張が続いており、90,000字を超えるところまで
+きている。ただ、Unicodeに収録されても、実際に画面に表示したり、
+印刷したりして使えるようになるのは時間がかかるようである。JCK統合漢字
+拡張Eまでを可能な限り利用し、拡張F以降は、備考欄などに注記するにとどめている。</p>
 <p>Unicodeによっても入力できない例は、当面、漢字の部品を組み合せて示すIDS漢字構成記述文字列（Ideographic Description Sequence, 表意文字描述序列）により入力する。これをIDS入力と呼ぶ。
+IDSは12字(⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻)のIDC漢字構成記述文字(Ideographic Description Character)を使用して示される。
 IDSのデータは守岡知彦がCHISEで構築・公開しているものを利用・参照している。</p>
 <p>IDSでも表現できない文字は■または〓を入力する。これをゲタ入力と呼ぶ。
 虫損・判読不能の説明も参照されたい。</p>
@@ -361,10 +371,20 @@ IDSのデータは守岡知彦がCHISEで構築・公開しているものを利
 これをβ入力と呼ぶ。</p>
 <p><strong>入力例</strong></p>
 <pre><code>1. ⿰亻胃
-2. 正β
+2. ⿰亻⿱𡈼儿
+3. ⿺辶秋
+4. 正β
+5. 再β／再γ
+6. ⿰日重 U+2C047(𬁇)
 </code></pre>
-<p>1はIDS入力の例であり、人偏に胃を書く字体を示す。
-2はβ入力の例であり、匸の中にヽが横に二つの字体を示す。</p>
+<p>1はIDS入力の例であり、人偏に胃を書く字体を示す。</p>
+<p>2は凭(U+51ED)の異体字かと思われるが、原文字形を再現する必要がある場合には入力例の
+ように示す。これは複数のIDCを使用した例でもある。</p>
+<p>3は辶に秋を書く字体を示す。</p>
+<p>4はβ入力の例であり、匸の中にヽが横に二つの字体を示す。</p>
+<p>5は再とその異体字が2種使われており、IDSで表現しがたく、βとγを用いて簡略に示す例である。</p>
+<p>6の⿰日重はCJK統合漢字拡張EのU+2C047(𬁇)にあるが、
+ユーザの環境により表示されないことがある。</p>
 <hr>
 <h3 id="glyphwikiの利用">
   GlyphWikiの利用
