@@ -9,37 +9,37 @@
     <lastBuildDate>Sun, 09 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://shikeda.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>概要</title>
-      <link>https://shikeda.github.io/docs/notes/table-of-contents/overview/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/overview/</link>
       <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/table-of-contents/overview/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/overview/</guid>
       <description>ここでは、諸本、編者、成立、価値、構成、出典、諸本の影印・索引、 参考文献などに関して、『類聚名義抄』の概要を述べる。 諸本 # 諸本は、原撰本と広</description>
     </item>
     
     <item>
       <title>項目データ構造</title>
-      <link>https://shikeda.github.io/docs/notes/table-of-contents/data-structure/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/data-structure/</link>
       <pubDate>Wed, 05 Jan 2022 07:18:54 +0900</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/table-of-contents/data-structure/</guid>
-      <description>項目の構造 # 項目の構造(Item structure)を図示すれば次のようになる。左側の本文は 模写したものである。 項目は掲出字(headwor</description>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/data-structure/</guid>
+      <description>項目の構造 # 項目の構造(Item structure) を図示すれば次のようになる。左側の本文は 模写したものである。 項目は掲出字(headword)と注文(def</description>
     </item>
     
     <item>
       <title>項目データ入力</title>
-      <link>https://shikeda.github.io/docs/notes/table-of-contents/item-input/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/item-input/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/table-of-contents/item-input/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/item-input/</guid>
       <description>項目データの入力 # 観智院本類聚名義抄(KRM)の項目データの入力方法を解説する。 項目は掲出字と注文とからなる。 ここでは掲出字の入力と注文の入</description>
     </item>
     
     <item>
       <title>掲出字データ入力の詳細</title>
-      <link>https://shikeda.github.io/docs/notes/table-of-contents/headword-input/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/headword-input/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/table-of-contents/headword-input/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/headword-input/</guid>
       <description>掲出字データ入力の詳細 # ここでは掲出字の入力の方法の詳細を説明する。 なお、1.2 項目データの入力での説明を繰り返したところがある。 Unico</description>
     </item>
     
@@ -54,55 +54,55 @@
     
     <item>
       <title>共通</title>
-      <link>https://shikeda.github.io/docs/notes/table-of-contents/def-input/1/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/def-input/1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/table-of-contents/def-input/1/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/1/</guid>
       <description>共通 # 字体注、音注、義注、和訓、掲出字補注に共通する事項は次のとおりである。 書字方向 # 説明 縦書きを横書きに改める。 字体 # 説明 漢字と仮名は原則</description>
     </item>
     
     <item>
       <title>字体注</title>
-      <link>https://shikeda.github.io/docs/notes/table-of-contents/def-input/2/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/def-input/2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/table-of-contents/def-input/2/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/2/</guid>
       <description>字体注 # 字体の認定 # 説明 字体注原文の異体字は掲出字の字体との関係を慎重に検討した上で原文に近い字体とするか通行の字体とするかを判断する。 字体</description>
     </item>
     
     <item>
       <title>音注</title>
-      <link>https://shikeda.github.io/docs/notes/table-of-contents/def-input/3/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/def-input/3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/table-of-contents/def-input/3/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/3/</guid>
       <description>音注 # 音注の種類 # 説明 音注は、反切（fanqie）、類音注（similar pronunciation annotation by character）、仮名音注（pronunciation annotation</description>
     </item>
     
     <item>
       <title>義注</title>
-      <link>https://shikeda.github.io/docs/notes/table-of-contents/def-input/4/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/def-input/4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/table-of-contents/def-input/4/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/4/</guid>
       <description>義注(漢文意味注) # 異体字の処理 # 説明 原文の略字と異体字は通行の字体に改める。 入力例 ヽ→也 省略符号 # 説明 省略符号の「｜」符は、長音符（ー, U</description>
     </item>
     
     <item>
       <title>和訓</title>
-      <link>https://shikeda.github.io/docs/notes/table-of-contents/def-input/5/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/table-of-contents/def-input/5/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</guid>
       <description>和訓 # 小字の片仮名 # 説明 片仮名に付された小字の片仮名（和訓の活用形・及び異形態など）は大字の部分と小字の部分をハイフンマイナス（-, U+00</description>
     </item>
     
     <item>
       <title>その他</title>
-      <link>https://shikeda.github.io/docs/notes/table-of-contents/def-input/6/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/def-input/6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/table-of-contents/def-input/6/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/6/</guid>
       <description>その他 # 「その他」では、掲出字補注について説明する。 掲出字補注とは 掲出字の周囲に施された注記を指す。 掲出字の声点と片仮名音注 # 説明 掲出字に施</description>
     </item>
     
