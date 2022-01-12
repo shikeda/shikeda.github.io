@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="jp" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="掲出字データ入力の詳細 # ここでは掲出字の入力の方法の詳細を説明する。 なお、1.2 項目データの入力での説明を繰り返したところがある。 Unico">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="掲出字データ入力の詳細" />
+<meta property="og:description" content="掲出字データ入力の詳細 # ここでは掲出字の入力の方法の詳細を説明する。 なお、1.2 項目データの入力での説明を繰り返したところがある。 Unico" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://shikeda.github.io/docs/notes/krm-main/headword-input/" /><meta property="article:section" content="docs" />
+
+
+
+<title>掲出字データ入力の詳細 | HDIC project</title>
+<link rel="manifest" href="https://shikeda.github.io/manifest.json">
+<link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
+  <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.f7319a0a4f9f5548c41565e1eacb0829171a2665b501179c5176778f4e8d3cac.js" integrity="sha256-9zGaCk&#43;fVUjEFWXh6ssIKRcaJmW1ARecUXZ3j06NPKw=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="https://shikeda.github.io/"><span>HDIC project</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="検索" aria-label="検索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/" class="">about HDIC</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/" class="">観智院本類聚名義抄</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/overview/" class="">概要</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/data-structure/" class="">項目データ構造</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/item-input/" class="">項目データ入力</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/headword-input/" class=" active">掲出字データ入力の詳細</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5f943c704f36df21275c834ecdfcf18f" class="toggle"  />
+    <label for="section-5f943c704f36df21275c834ecdfcf18f" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/def-input/" class="">注文データ入力の詳細</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/def-input/1/" class="">共通</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/def-input/2/" class="">字体注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/def-input/3/" class="">音注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/def-input/4/" class="">義注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/def-input/5/" class="">和訓</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/def-input/6/" class="">その他</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://shikeda.github.io/posts/" >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="https://shikeda.github.io/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>掲出字データ入力の詳細</strong>
+
+  <label for="toc-control">
+    
+    <img src="https://shikeda.github.io/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#掲出字データ入力の詳細">掲出字データ入力の詳細</a>
+      <ul>
+        <li><a href="#unicodeによる符号化">Unicodeによる符号化</a></li>
+        <li><a href="#glyphwikiの利用">GlyphWikiの利用</a></li>
+        <li><a href="#虫損判読不能">虫損・判読不能</a></li>
+        <li><a href="#複字形式の掲出字">複字形式の掲出字</a></li>
+        <li><a href="#省略符号">省略符号</a></li>
+        <li><a href="#踊り字">踊り字</a></li>
+        <li><a href="#脱字">脱字</a></li>
+        <li><a href="#誤字">誤字</a></li>
+        <li><a href="#本文訂正の符号">本文訂正の符号</a></li>
+        <li><a href="#掲出字に施された声点等の註記">掲出字に施された声点等の註記</a></li>
+        <li><a href="#複字形式の掲出字id">複字形式の掲出字ID</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h2 id="掲出字データ入力の詳細">
+  掲出字データ入力の詳細
+  <a class="anchor" href="#%e6%8e%b2%e5%87%ba%e5%ad%97%e3%83%87%e3%83%bc%e3%82%bf%e5%85%a5%e5%8a%9b%e3%81%ae%e8%a9%b3%e7%b4%b0">#</a>
+</h2>
+<p>ここでは掲出字の入力の方法の詳細を説明する。
+なお、1.2 項目データの入力での説明を繰り返したところがある。</p>
+<h3 id="unicodeによる符号化">
+  Unicodeによる符号化
+  <a class="anchor" href="#unicode%e3%81%ab%e3%82%88%e3%82%8b%e7%ac%a6%e5%8f%b7%e5%8c%96">#</a>
+</h3>
+<p><strong>説明</strong></p>
+<p>およそ次の方法によりUnicodeによる符号化を行う。</p>
+<ul>
+<li>Unicodeによっても入力できない例は、当面、漢字の部品を組み合せて示す
+IDS漢字構成記述文字列（Ideographic Description Sequence）
+により入力し、IDSでも表現できない文字は■を入力する。</li>
+<li>IDSは漢字構成記述文字(Ideographic Description Character)により示す。</li>
+<li>IDSのデータは守岡知彦が<a href="https://www.chise.org/ids-find">CHISE IDS検索</a>で
+構築・公開しているものを利用・参照している。</li>
+<li>IDCは⿰	⿱	⿲	⿳	⿴	⿵	⿶	⿷	⿸	⿹	⿺	⿻の12字である。</li>
+<li>IDSで表現しにくい区別は近い字形とβ、γ等とを組み合せて記述することもある。</li>
+</ul>
+<p><strong>入力例</strong></p>
+<pre><code>1. ⿰亻胃
+2. ⿰亻⿱𡈼儿
+3. ⿺辶秋
+4. 正β
+5. 再β／再γ
+6. ⿰日重 U+2C047(𬁇)
+</code></pre>
+<p>1はIDS入力の例であり、人偏に胃を書く字体を示す。</p>
+<p>2は凭(U+51ED)の異体字かと思われるが、原文字形を再現する必要がある場合には入力例の
+ように示す。これは複数のIDCを使用した例でもある。</p>
+<p>3は辶に秋を書く字体を示す。</p>
+<p>4はβ入力の例であり、匸の中にヽが横に二つの字体を示す。</p>
+<p>5は再とその異体字が2種使われており、IDSで表現しがたく、βとγを用いて簡略に示す例である。</p>
+<p>6の⿰日重はCJK統合漢字拡張EのU+2C047(𬁇)にあるが、
+ユーザの環境により表示されないことがある。</p>
+<h3 id="glyphwikiの利用">
+  GlyphWikiの利用
+  <a class="anchor" href="#glyphwiki%e3%81%ae%e5%88%a9%e7%94%a8">#</a>
+</h3>
+<p><strong>説明</strong></p>
+<p><strong>入力例</strong></p>
+<h3 id="虫損判読不能">
+  虫損・判読不能
+  <a class="anchor" href="#%e8%99%ab%e6%90%8d%e5%88%a4%e8%aa%ad%e4%b8%8d%e8%83%bd">#</a>
+</h3>
+<p><strong>説明</strong></p>
+<p>虫損（insect holes）で判読できない字や点画が複雑すぎてIDSの表現が困難な字を「■」（黒い四角, U+25A0）として入力する。虫損が一部で判読可能な字は「□(某)」のように示す。</p>
+<p><strong>入力例</strong></p>
+<h3 id="複字形式の掲出字">
+  複字形式の掲出字
+  <a class="anchor" href="#%e8%a4%87%e5%ad%97%e5%bd%a2%e5%bc%8f%e3%81%ae%e6%8e%b2%e5%87%ba%e5%ad%97">#</a>
+</h3>
+<p><strong>説明</strong></p>
+<p>複字形式の掲出字の異体字併記と熟語は、掲出字を「／」（全角スラッシュ, U+FF0F）で区切って入力する。</p>
+<p><strong>入力例</strong></p>
+<pre><code>異体字併記：翛／倐／倏／翛β
+熟語：一／人
+熟語：不／良／人
+</code></pre>
+<h3 id="省略符号">
+  省略符号
+  <a class="anchor" href="#%e7%9c%81%e7%95%a5%e7%ac%a6%e5%8f%b7">#</a>
+</h3>
+<p><strong>説明</strong></p>
+<p>熟語の掲出字に見える省略符号（omission mark）「｜」は、被注字（annotated headword, 被釋字）或いは前掲する掲出字を代用する時に使用される符号で、「ー」（長音符, U+30FC）を用いて入力し、その後の「（）」（全角括弧）内に該当字を入力する。</p>
+<p><strong>入力例</strong></p>
+<pre><code>五／ー（人）、...、真／人、漁／ー（人）、海／ー（人）
+</code></pre>
+<h3 id="踊り字">
+  踊り字
+  <a class="anchor" href="#%e8%b8%8a%e3%82%8a%e5%ad%97">#</a>
+</h3>
+<p><strong>説明</strong></p>
+<p>複字形式の掲出字に使われる踊り字（repetition mark, 疊字符）は「〻」（二の字点, U+303B）を用いることとし、「々」（同の字点, U+3005）を用いない。</p>
+<p><strong>入力例</strong></p>
+<pre><code>曽／ー（祖）／〻（母）
+</code></pre>
+<h3 id="脱字">
+  脱字
+  <a class="anchor" href="#%e8%84%b1%e5%ad%97">#</a>
+</h3>
+<p><strong>説明</strong></p>
+<p>脱字（omitted character, 脫字）であることが明らかな掲出字は、「［］」（全角の角括弧）に入れて示す。</p>
+<p><strong>入力例</strong></p>
+<pre><code>将／[指]
+</code></pre>
+<p><strong>入力例</strong></p>
+<pre><code>是／[以]
+不／奈／[何]
+将／為／[便]
+嘻／[囉]
+奢／[侈]
+奚／[如]
+孕／[婦]
+娣／[婦]
+嘻／[囉]
+比／[目]
+将／[指]
+磬／[控]
+䴏／[豆]
+桃／花／[石]
+樹／[神]
+革／[葱]
+</code></pre>
+<h3 id="誤字">
+  誤字
+  <a class="anchor" href="#%e8%aa%a4%e5%ad%97">#</a>
+</h3>
+<p><strong>説明</strong>
+誤字（miswritten character, 誤字）であることが明らかな掲出字は、
+校訂済みの字体をEntryに、原文の字体をEntry_originalに示し、備考欄に校訂の根拠を示す。</p>
+<p><strong>入力例</strong></p>
+<pre><code>Entry   Entry_original  Remarks
+向／後  〇／ー（彴）    掲出字は「向後」とすべきを誤る。岡田研究193-194頁に「ー」使用は高山寺本が適切との指摘あり。
+姡  活  掲出字は誤写。高山寺本・蓮成院本・西念寺本「姡」に作るにより改める。
+</code></pre>
+<h3 id="本文訂正の符号">
+  本文訂正の符号
+  <a class="anchor" href="#%e6%9c%ac%e6%96%87%e8%a8%82%e6%ad%a3%e3%81%ae%e7%ac%a6%e5%8f%b7">#</a>
+</h3>
+<p><strong>説明</strong></p>
+<p>本文訂正の符号は、転倒符、見消符、補入符がある。</p>
+<ul>
+<li>転倒符（reverse mark, 顛倒符）は複字形式の掲出字の順序を正すものである。</li>
+<li>見消符（deletion mark, 抹消符）は正しい掲出字を傍書（side note, 旁記）するものである。</li>
+<li>補入符（interpolation mark, 補入符）は掲出項目の順序を正すものである。</li>
+<li>本文入力は、訂正の符号によって正しい内容に修正ものを本文を入力し、備考欄にその詳細を記載する。</li>
+</ul>
+<p>次の入力例では、注ごとに詳しい説明を施している。
+項目データでは、どの箇所を訂正したのか、分かりにくいので、
+注文の種類ごとに分割したデータとして、公開する予定である。</p>
+<p><strong>入力例</strong></p>
+<pre><code>Entry   Def Remarks
+儻／儻  コヒネカハクハ  西端誤写諸例54頁③文字のいれかわり818。高山寺本「コネヒカハクハ」の「ヒ」の右肩に転倒符あり、文字のいれかわりの誤りは解消済み（草川昇「類聚名義抄和訓小考」29頁）。
+拻  不定「ウシヽ歟」相撃    正宗索引「ウシヽ」に「ウシヽはホシヽの誤か、完の草ホシヽと見たるか言の誤なり」、「フ」に「字鏡に音灰不言相撃とある不字か。これは研究もの」。草川和訓集成「ウシヽ」で採録。池田按：原文「フ定相撃」の「定」の左に朱見消して右に朱で「ウシヽ歟」を記載。漢字を仮名と誤認して案語を加えたもの。
+倩  シヘタク    「ヘ」は「タ」の右に補入。正宗索引「シヘタク」、正宗索引補正「シタ-へリ」（シタリのへの右に小字へ）。草川和訓集成「シヘタク」で立項、高山寺本・西念寺本「シヘタク」とする。
+</code></pre>
+<h3 id="掲出字に施された声点等の註記">
+  掲出字に施された声点等の註記
+  <a class="anchor" href="#%e6%8e%b2%e5%87%ba%e5%ad%97%e3%81%ab%e6%96%bd%e3%81%95%e3%82%8c%e3%81%9f%e5%a3%b0%e7%82%b9%e7%ad%89%e3%81%ae%e8%a8%bb%e8%a8%98">#</a>
+</h3>
+<p><strong>説明</strong></p>
+<p>掲出字に施された声点・仮名字音、傍訓、漢文注記、異本注記は、「掲出字補注」とし、それぞれ◎、⦿、◇、▲を付して示す。</p>
+<p><strong>入力例</strong></p>
+<pre><code>Entry   Def
+版／ー（位）    ◎版「ヘム」　シルシノキ(HH@@@)
+⿰虫⿱龶囬／(中略)／虱／(以下略)   ⦿虱「キサヽ」　十四字俗　ハへ　シラミ
+朿  ◇朿「来歟」　音刺
+⿺辶⿱一誰  ▲⿺辶⿱一誰「羅カ」　メクル
+</code></pre>
+<h3 id="複字形式の掲出字id">
+  複字形式の掲出字ID
+  <a class="anchor" href="#%e8%a4%87%e5%ad%97%e5%bd%a2%e5%bc%8f%e3%81%ae%e6%8e%b2%e5%87%ba%e5%ad%97id">#</a>
+</h3>
+<p><strong>説明</strong></p>
+<p>複字形式の掲出字IDは一番目の掲出字IDを代表として示し、二番目以降の掲出字IDは公開するCSV形式のデータでは省略する。</p>
+<p><strong>入力例</strong></p>
+<p>掲出項目「AB」の「A」の掲出字IDがK08084411、「B」の掲出字IDがK08084412とすると、公開するTSV形式のデータでは「A」の掲出字IDのK08084411だけ表示している。</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#掲出字データ入力の詳細">掲出字データ入力の詳細</a>
+      <ul>
+        <li><a href="#unicodeによる符号化">Unicodeによる符号化</a></li>
+        <li><a href="#glyphwikiの利用">GlyphWikiの利用</a></li>
+        <li><a href="#虫損判読不能">虫損・判読不能</a></li>
+        <li><a href="#複字形式の掲出字">複字形式の掲出字</a></li>
+        <li><a href="#省略符号">省略符号</a></li>
+        <li><a href="#踊り字">踊り字</a></li>
+        <li><a href="#脱字">脱字</a></li>
+        <li><a href="#誤字">誤字</a></li>
+        <li><a href="#本文訂正の符号">本文訂正の符号</a></li>
+        <li><a href="#掲出字に施された声点等の註記">掲出字に施された声点等の註記</a></li>
+        <li><a href="#複字形式の掲出字id">複字形式の掲出字ID</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

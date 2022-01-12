@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>観智院本類聚名義抄 on HDIC project</title>
+    <link>https://shikeda.github.io/docs/notes/krm-main/</link>
+    <description>Recent content in 観智院本類聚名義抄 on HDIC project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Sun, 09 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://shikeda.github.io/docs/notes/krm-main/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>概要</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/overview/</link>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/overview/</guid>
+      <description>ここでは、諸本、編者、成立、価値、構成、出典、諸本の影印・索引、 参考文献などに関して、『類聚名義抄』の概要を述べる。 諸本 # 諸本は、原撰本と広</description>
+    </item>
+    
+    <item>
+      <title>項目データ構造</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/data-structure/</link>
+      <pubDate>Wed, 05 Jan 2022 07:18:54 +0900</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/data-structure/</guid>
+      <description>項目の構造 # 項目の構造(Item structure) を図示すれば次のようになる。左側の本文は 模写したものである。 項目は掲出字(headword)と注文(def</description>
+    </item>
+    
+    <item>
+      <title>項目データ入力</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/item-input/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/item-input/</guid>
+      <description>項目データの入力 # 観智院本類聚名義抄(KRM)の項目データの入力方法を解説する。 項目は掲出字と注文とからなる。 ここでは掲出字の入力と注文の入</description>
+    </item>
+    
+    <item>
+      <title>掲出字データ入力の詳細</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/headword-input/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/headword-input/</guid>
+      <description>掲出字データ入力の詳細 # ここでは掲出字の入力の方法の詳細を説明する。 なお、1.2 項目データの入力での説明を繰り返したところがある。 Unico</description>
+    </item>
+    
+  </channel>
+</rss>
