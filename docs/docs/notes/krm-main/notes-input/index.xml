@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>注釈データ入力の詳細 on HDIC project</title>
+    <link>https://shikeda.github.io/docs/notes/krm-main/notes-input/</link>
+    <description>Recent content in 注釈データ入力の詳細 on HDIC project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language><atom:link href="https://shikeda.github.io/docs/notes/krm-main/notes-input/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>基本方針</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-input/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-input/1/</guid>
+      <description>項目の構造と注文数の概略を示し、一つの 項目を例に説明しながら、注釈作成の基本方針を示す。 項目の構造と注文数 # 項目は掲出字と注文からなる。 注文</description>
+    </item>
+    
+    <item>
+      <title>掲出字</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-input/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-input/2/</guid>
+      <description>準備中</description>
+    </item>
+    
+    <item>
+      <title>字体注</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-input/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-input/3/</guid>
+      <description>準備中</description>
+    </item>
+    
+    <item>
+      <title>音注</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-input/4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-input/4/</guid>
+      <description>準備中</description>
+    </item>
+    
+    <item>
+      <title>義注</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-input/5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-input/5/</guid>
+      <description>準備中。</description>
+    </item>
+    
+    <item>
+      <title>和訓</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-input/6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-input/6/</guid>
+      <description>準備中。</description>
+    </item>
+    
+  </channel>
+</rss>
