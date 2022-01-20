@@ -4,6 +4,7 @@ weight: 4
 bookToc: true
 ---
 
+
 ## 掲出字データ入力の詳細
 
 ここでは掲出字の入力の方法の詳細を説明する。
@@ -27,9 +28,6 @@ IDS漢字構成記述文字列（Ideographic Description Sequence）
 
 
 
-
-
-
 **入力例**
 
     1. ⿰亻胃
@@ -38,7 +36,6 @@ IDS漢字構成記述文字列（Ideographic Description Sequence）
     4. 正β
     5. 再β／再γ
     6. ⿰日重 U+2C047(𬁇)
-
 
 1はIDS入力の例であり、人偏に胃を書く字体を示す。
 
@@ -56,10 +53,40 @@ IDS漢字構成記述文字列（Ideographic Description Sequence）
 
 ### GlyphWikiの利用
 
-**説明**
+上地宏一氏のGlyphWikiで原文に
+近似した明朝体の字形を表示するために
+GlyphWiki（上地宏一氏）を利用する。
+
+次にはmarkdownの記法で示す。
 
 **入力例**
 
+```markdown
+![正β](https://glyphwiki.org/glyph/hdic_hkrm-01075140.png)
+```
+
+とすると、次のように表示される。
+
+![正β](https://glyphwiki.org/glyph/hdic_hkrm-01075140.png)
+
+これでは文字サイズが大きいので、小さいサイズを使う場合には
+
+```markdown
+![正β](https://glyphwiki.org/glyph/hdic_hkrm-01075140.50px.png)
+```
+とすれば、次のように表示される。
+
+![正β](https://glyphwiki.org/glyph/hdic_hkrm-01075140.50px.png)
+
+なお、ファイル名hdic_hkrm-01075140.pngは、HDICデータベースの
+KRM(観智院本類聚名義抄)の01075140であることを表している。
+
+01075140の01は仏上、
+075は75ページ、140は1行4段目の単字項目であることを示している。
+
+サイズを指定して
+{{< figure src="https://glyphwiki.org/glyph/hdic_hkrm-01075140.png" title="" class="center" width="24" height="24" >}}
+のように表示する方法もあるが、説明は省略する。
 ### 虫損・判読不能
 
 **説明**
@@ -79,6 +106,7 @@ IDS漢字構成記述文字列（Ideographic Description Sequence）
     異体字併記：翛／倐／倏／翛β
     熟語：一／人
     熟語：不／良／人
+
 
 ### 省略符号
 
@@ -109,11 +137,6 @@ IDS漢字構成記述文字列（Ideographic Description Sequence）
 
 **入力例**
 
-    将／[指]
-
-
-**入力例**
-
     是／[以]
     不／奈／[何]
     将／為／[便]
@@ -130,6 +153,7 @@ IDS漢字構成記述文字列（Ideographic Description Sequence）
     桃／花／[石]
     樹／[神]
     革／[葱]
+
 
 ### 誤字
 
@@ -148,7 +172,6 @@ IDS漢字構成記述文字列（Ideographic Description Sequence）
 ### 本文訂正の符号
 
 **説明**
-
 
 本文訂正の符号は、転倒符、見消符、補入符がある。
 
@@ -169,7 +192,6 @@ IDS漢字構成記述文字列（Ideographic Description Sequence）
     倩  シヘタク    「ヘ」は「タ」の右に補入。正宗索引「シヘタク」、正宗索引補正「シタ-へリ」（シタリのへの右に小字へ）。草川和訓集成「シヘタク」で立項、高山寺本・西念寺本「シヘタク」とする。
 
 
-
 ### 掲出字に施された声点等の註記
 
 **説明**
@@ -180,18 +202,14 @@ IDS漢字構成記述文字列（Ideographic Description Sequence）
 
     Entry   Def
     版／ー（位）    ◎版「ヘム」　シルシノキ(HH@@@)
-    ⿰虫⿱龶囬／(中略)／虱／(以下略)   ⦿虱「キサヽ」　十四字俗　ハへ　シラミ
+⿰虫⿱龶囬／(中略)／虱／(以下略)   ⦿虱「キサヽ」　十四字俗　ハへ　シラミ
     朿  ◇朿「来歟」　音刺
     ⿺辶⿱一誰  ▲⿺辶⿱一誰「羅カ」　メクル
-
-
 
 ### 複字形式の掲出字ID
 
 **説明**
 
 複字形式の掲出字IDは一番目の掲出字IDを代表として示し、二番目以降の掲出字IDは公開するCSV形式のデータでは省略する。
-
-**入力例**
 
 掲出項目「AB」の「A」の掲出字IDがK08084411、「B」の掲出字IDがK08084412とすると、公開するTSV形式のデータでは「A」の掲出字IDのK08084411だけ表示している。

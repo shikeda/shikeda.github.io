@@ -26,14 +26,19 @@ weight: 10
 - [項目データ入力](/docs/notes/krm-main/item-input/)
 - [掲出字データ入力の詳細](/docs/notes/krm-main/headword-input/)
 - [注文データ入力の詳細](/docs/notes/krm-main/def-input/)
-    - [共通](/docs/notes/krm-main/def-input/1/)
+    - [基本方針](/docs/notes/krm-main/def-input/1/)
     - [字体注](/docs/notes/krm-main/def-input/2/)
     - [音注](/docs/notes/krm-main/def-input/3/)
     - [義注](/docs/notes/krm-main/def-input/4/)
     - [和訓](/docs/notes/krm-main/def-input/5/)
     - [その他](/docs/notes/krm-main/def-input/6/)
-
-
+- [注釈データ入力の詳細](/docs/notes/krm-main/notes-input/)
+    - [基本方針](/docs/notes/krm-main/notes-input/1/)
+    - [掲出字](/docs/notes/krm-main/notes-input/2/)
+    - [字体注](/docs/notes/krm-main/notes-input/3/)
+    - [音注](/docs/notes/krm-main/notes-input/4/)
+    - [義注](/docs/notes/krm-main/notes-input/5/)
+    - [和訓](/docs/notes/krm-main/notes-input/6/)
 
 
 ### データベース構築の工程
