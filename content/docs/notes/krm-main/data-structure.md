@@ -13,6 +13,9 @@ bookToc: true
 
 ![item structure](/images/krm-item-structure.png)
 
+貴重図書複製会（1937）による影印が国会図書館デジタルコレクションで公開されている。
+[該当ページ](https://dl.ndl.go.jp/info:ndljp/pid/2586892/44)の左側に上記の原文が確認できる。
+
 項目は**掲出字**(headword)と**注文**(definition, annotation)からなる。
 
 注文は、**音注**(pronunciation)、**漢文義注**(Chinese meaning)、
