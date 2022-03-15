@@ -17,7 +17,7 @@
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.9f86e1219bee9ea6c3f19f0ca093cb87e57460c17a4f4cf26fffd2525af44749.js" integrity="sha256-n4bhIZvunqbD8Z8MoJPLh&#43;V0YMF6T0zyb//SUlr0R0k=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.6e6f5a6450817fa05c915718b84ba3735a1f3f35c77893c4b04ca88be24f066d.js" integrity="sha256-bm9aZFCBf6BckVcYuEujc1ofPzXHeJPEsEyoi&#43;JPBm0=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -381,7 +381,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
 
 
  
@@ -486,12 +486,12 @@ IDS漢字構成記述文字列（Ideographic Description Sequence）
 GlyphWiki（上地宏一氏）を利用する。</p>
 <p>次にはmarkdownの記法で示す。</p>
 <p><strong>入力例</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">![<span style="color:#f92672">正β</span>](<span style="color:#a6e22e">https://glyphwiki.org/glyph/hdic_hkrm-01075140.png</span>)
-</code></pre></div><p>とすると、次のように表示される。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">正β</span>](<span style="color:#a6e22e">https://glyphwiki.org/glyph/hdic_hkrm-01075140.png</span>)
+</span></span></code></pre></div><p>とすると、次のように表示される。</p>
 <p><img src="https://glyphwiki.org/glyph/hdic_hkrm-01075140.png" alt="正β" /></p>
 <p>これでは文字サイズが大きいので、小さいサイズを使う場合には</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">![<span style="color:#f92672">正β</span>](<span style="color:#a6e22e">https://glyphwiki.org/glyph/hdic_hkrm-01075140.50px.png</span>)
-</code></pre></div><p>とすれば、次のように表示される。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">正β</span>](<span style="color:#a6e22e">https://glyphwiki.org/glyph/hdic_hkrm-01075140.50px.png</span>)
+</span></span></code></pre></div><p>とすれば、次のように表示される。</p>
 <p><img src="https://glyphwiki.org/glyph/hdic_hkrm-01075140.50px.png" alt="正β" /></p>
 <p>なお、ファイル名hdic_hkrm-01075140.pngは、HDICデータベースの
 KRM(観智院本類聚名義抄)の01075140であることを表している。</p>
@@ -631,7 +631,7 @@ KRM(観智院本類聚名義抄)の01075140であることを表している。<
 
 
 
-  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+  <script>(function(){function e(n){const e=window.getSelection(),t=document.createRange();t.selectNodeContents(n),e.removeAllRanges(),e.addRange(t)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
 
 
  
