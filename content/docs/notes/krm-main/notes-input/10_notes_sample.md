@@ -122,7 +122,7 @@ KRM.tsvで公開している掲出項目(Entry)を「建／䢖 」のように�
 #### K0106214 𨑭 
 ![𨑭](https://glyphwiki.org/glyph/sarashina_hkrm-01062140.50px.png)
 
-（
+（本文）
 丑連反　安行也　トコロ
 
 （注）
