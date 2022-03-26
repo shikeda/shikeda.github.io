@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="義注(漢文意味注) # 異体字の処理 # 説明 原文の略字と異体字は通行の字体に改める。 入力例 ヽ→也 省略符号 # 説明 省略符号の「｜」符は、長音符（ー, U">
+<meta name="description" content="義注(漢文意味注) # 異体字の処理 # 説明 原文の略字と異体字は通行の字体に改める。 入力例 ヽ --&gt; 也 省略符号 # 説明 省略符号の「｜」符は、長音符（ー, U">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="義注" />
-<meta property="og:description" content="義注(漢文意味注) # 異体字の処理 # 説明 原文の略字と異体字は通行の字体に改める。 入力例 ヽ→也 省略符号 # 説明 省略符号の「｜」符は、長音符（ー, U" />
+<meta property="og:description" content="義注(漢文意味注) # 異体字の処理 # 説明 原文の略字と異体字は通行の字体に改める。 入力例 ヽ --&gt; 也 省略符号 # 説明 省略符号の「｜」符は、長音符（ー, U" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shikeda.github.io/docs/notes/krm-main/def-input/4/" /><meta property="article:section" content="docs" />
 
@@ -17,7 +17,7 @@
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.9866890a0c8415db05d419c93d762a66fa9d3a2778b8af0db96a88ed2ca29f4d.js" integrity="sha256-mGaJCgyEFdsF1BnJPXYqZvqdOid4uK8NuWqI7Syin00=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.c2a65662a9ecedb1e7f7e936466f2f8cdd9653e62080fd05bd084875770c3309.js" integrity="sha256-wqZWYqns7bHn9&#43;k2Rm8vjN2WU&#43;YggP0FvQhIdXcMMwk=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -456,26 +456,54 @@ https://github.com/alex-shpak/hugo-book
 <p><strong>説明</strong>
 原文の略字と異体字は通行の字体に改める。</p>
 <p><strong>入力例</strong></p>
-<pre><code>ヽ→也
+<pre><code>ヽ --&gt; 也
 </code></pre>
 <h3 id="省略符号">
   省略符号
   <a class="anchor" href="#%e7%9c%81%e7%95%a5%e7%ac%a6%e5%8f%b7">#</a>
 </h3>
 <p><strong>説明</strong>
-省略符号の「｜」符は、長音符（ー, U+30FC）で示す。該当字の（）内注記は省略する。</p>
+省略符号の「｜」符は、長音符（ー, U+30FC）で示す。
+該当字の（）内注記は原則として省略する。</p>
+<pre><code>靆ー
+</code></pre>
+<p>これは掲出字が「靆」であり、ーに代入すると、
+「靉靆」という語になる。「靉靆」は雲がたなびく意である。
+「靉」と「靆」は去声代韻であり、韻を同じくする畳韻の
+連語である。これを連文という。連文により漢語の意味を示している。</p>
+<pre><code>瓔ー
+</code></pre>
+<p>掲出字は「珞」であるから、「瓔珞」という語となり、
+珠玉などで飾った首飾りや腕輪の意味を表す。</p>
 <h3 id="合符">
   合符
   <a class="anchor" href="#%e5%90%88%e7%ac%a6">#</a>
 </h3>
 <p><strong>説明</strong>
-合符（compound mark, 連字符）はハイフンマイナス（-, U+002D）で表す。</p>
+合符（compound mark, 連字符）はハイフンマイナス（-, U+002D）で表す。
+例は僅少である。</p>
+<pre><code>媊  箭(R)貲二音　又煎(L)音　太-白-星
+</code></pre>
+<p>掲出字「媊」の注文末尾に「太-白-星」と見える。
+「太白星」とは金星のことである。</p>
 <h3 id="漢字に付された和訓">
   漢字に付された和訓
   <a class="anchor" href="#%e6%bc%a2%e5%ad%97%e3%81%ab%e4%bb%98%e3%81%95%e3%82%8c%e3%81%9f%e5%92%8c%e8%a8%93">#</a>
 </h3>
 <p><strong>説明</strong>
-漢字に付された小字の片仮名（和訓）はそのまま「」の中に入力する。二つ以上ある場合は種類ごとに「」を分けて表すこととし、記載の順序は漢字に付された小字の片仮名（音注）の場合と同じとする。</p>
+漢字に付された小字の片仮名（和訓）はそのまま「」の中に入力する。
+小字の和訓は〈〉に入れる。例は僅少である。</p>
+<pre><code>琢「ミカク」玉工也
+</code></pre>
+<p>掲出字「玊」の注文中に見える例であり、「琢」の右傍に「ミカク」の和訓を付している。</p>
+<pre><code>圏〈ヲリ〉
+</code></pre>
+<p>掲出字「檻」の注文に見える例であり、「圏」の下に小字で和訓を付している。</p>
+<p>和訓が二つ以上ある場合は種類ごとに「」を分けて表すこととし、記載の順序は漢字に付された小字の片仮名（音注）の場合と同じとする。二つ以上の片仮名音注を記載する例は多いが、和訓には該当例を見出していない。</p>
+<p>ただ、次のような例がある。</p>
+<pre><code>ー「タヘ」「平歟」趹「ハシル」追「ヲオフ」蹤「ニクルヲ」
+</code></pre>
+<p>掲出字「要」の注文中に見える例である。例文とその和訓を示している。</p>
 </article>
  
       

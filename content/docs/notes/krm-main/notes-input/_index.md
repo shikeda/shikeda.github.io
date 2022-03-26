@@ -24,3 +24,4 @@ bookCollapseSection: true
     - [音注](/docs/notes/krm-main/notes-input/4/)
     - [義注](/docs/notes/krm-main/notes-input/5/)
     - [和訓](/docs/notes/krm-main/notes-input/6/)
+    - [注釈の例](/docs/notes/krm-main/notes-input/10_notes_sample/)
