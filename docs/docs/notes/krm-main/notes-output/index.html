@@ -3,20 +3,20 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
+<meta name="description" content="はじめに # LuaTeX &#43; 花園明朝 &#43; GlyphWiki &#43; sfkanbun.sty の環境で古辞書の翻刻と注釈の組版を行う方法をまとめる。 LuaTeXはTeX Live、エディターはVS Codeを">
 <meta name="theme-color" content="#FFFFFF">
-<meta name="color-scheme" content="light dark"><meta property="og:title" content="観智院本" />
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="翻刻・注釈の組版の設定" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://shikeda.github.io/tags/%E8%A6%B3%E6%99%BA%E9%99%A2%E6%9C%AC/" />
+<meta property="og:url" content="https://shikeda.github.io/docs/notes/krm-main/notes-output/" />
 
-<title>観智院本 | HDIC project</title>
+<title>翻刻・注釈の組版の設定 | HDIC project</title>
 <link rel="manifest" href="https://shikeda.github.io/manifest.json">
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
   <script defer src="https://shikeda.github.io/jp.search.min.7a895e4c14f7ece673668a5344607f7b1246dbe920a2cdf845e9e6941a1ba5ec.js" integrity="sha256-eoleTBT37OZzZopTRGB/exJG2&#43;kgos34RenmlBobpew=" crossorigin="anonymous"></script>
-<link rel="alternate" type="application/rss+xml" href="https://shikeda.github.io/tags/%E8%A6%B3%E6%99%BA%E9%99%A2%E6%9C%AC/index.xml" title="HDIC project" />
+<link rel="alternate" type="application/rss+xml" href="https://shikeda.github.io/docs/notes/krm-main/notes-output/index.xml" title="HDIC project" />
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -357,9 +357,9 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-edb14a0187b5e0fdbdb1ac31b8ba7c2f" class="toggle"  />
+    <input type="checkbox" id="section-edb14a0187b5e0fdbdb1ac31b8ba7c2f" class="toggle" checked />
     <label for="section-edb14a0187b5e0fdbdb1ac31b8ba7c2f" class="flex justify-between">
-      <a href="https://shikeda.github.io/docs/notes/krm-main/notes-output/" class="">翻刻・注釈の組版の設定</a>
+      <a href="https://shikeda.github.io/docs/notes/krm-main/notes-output/" class="active">翻刻・注釈の組版の設定</a>
     </label>
   
 
@@ -481,7 +481,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="https://shikeda.github.io/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>観智院本</strong>
+  <strong>翻刻・注釈の組版の設定</strong>
 
   <label for="toc-control">
     
@@ -494,59 +494,15 @@ https://github.com/alex-shpak/hugo-book
   
   <aside class="hidden clearfix">
     
-  <nav>
+  
+<nav id="TableOfContents">
   <ul>
-  
-    
-    <li class="book-section-flat">
-      <strong>Categories</strong>
-      <ul>
-      
-        <li class="flex justify-between">
-          <a href="https://shikeda.github.io/categories/hdic/">HDIC</a>
-          <span>1</span>
-        </li>
-      
-        <li class="flex justify-between">
-          <a href="https://shikeda.github.io/categories/krm/">KRM</a>
-          <span>1</span>
-        </li>
-      
-      </ul>
-    </li>
-    
-  
-    
-    <li class="book-section-flat">
-      <strong>Tags</strong>
-      <ul>
-      
-        <li class="flex justify-between">
-          <a href="https://shikeda.github.io/tags/github/">GitHub</a>
-          <span>1</span>
-        </li>
-      
-        <li class="flex justify-between">
-          <a href="https://shikeda.github.io/tags/hugo/">Hugo</a>
-          <span>1</span>
-        </li>
-      
-        <li class="flex justify-between">
-          <a href="https://shikeda.github.io/tags/%E5%90%8D%E7%BE%A9%E6%8A%84/">名義抄</a>
-          <span>1</span>
-        </li>
-      
-        <li class="flex justify-between">
-          <a href="https://shikeda.github.io/tags/%E8%A6%B3%E6%99%BA%E9%99%A2%E6%9C%AC/">観智院本</a>
-          <span>1</span>
-        </li>
-      
-      </ul>
-    </li>
-    
-  
+    <li><a href="#はじめに">はじめに</a></li>
+    <li><a href="#翻刻注釈の組版">翻刻・注釈の組版</a></li>
+    <li><a href="#組版ソフトの条件">組版ソフトの条件</a></li>
   </ul>
 </nav>
+
 
 
   </aside>
@@ -556,45 +512,76 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  
-  <article class="markdown book-post">
-    <h2>
-      <a href="https://shikeda.github.io/posts/krmnotes001/">KRM本文翻刻のサイトを開設</a>
-    </h2>
-    
-  <h5>January 6, 2022</h5>
-
-
-
-  
-  <div>
-    
-      <a href="https://shikeda.github.io/categories/krm/">KRM</a>, 
-      <a href="https://shikeda.github.io/categories/hdic/">HDIC</a>
-  </div>
-  
-
-  
-  <div>
-    
-      <a href="https://shikeda.github.io/tags/%E5%90%8D%E7%BE%A9%E6%8A%84/">名義抄</a>, 
-      <a href="https://shikeda.github.io/tags/%E8%A6%B3%E6%99%BA%E9%99%A2%E6%9C%AC/">観智院本</a>, 
-      <a href="https://shikeda.github.io/tags/hugo/">Hugo</a>, 
-      <a href="https://shikeda.github.io/tags/github/">GitHub</a>
-  </div>
-  
-
-
-
-
-    <p>平安時代漢字字書総合データベース(HDIC)は 2014年にスタートしたが、代表者の 退職に伴い、公開方法の見直しが必要となった。 また、収録した
-        <a href="https://shikeda.github.io/posts/krmnotes001/">...</a>
-      
-    </p>
-  </article>
-  
-
-  
+  <article class="markdown"><h2 id="はじめに">
+  はじめに
+  <a class="anchor" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">#</a>
+</h2>
+<p>LuaTeX + 花園明朝 + GlyphWiki + sfkanbun.sty
+の環境で古辞書の翻刻と注釈の組版を行う方法をまとめる。</p>
+<p>LuaTeXはTeX Live、エディターはVS Codeを
+使うことを推奨する。TeX LiveとVS Codeのインストールから
+使い方までは、Webに多数出ているので、省略する。</p>
+<h2 id="翻刻注釈の組版">
+  翻刻・注釈の組版
+  <a class="anchor" href="#%e7%bf%bb%e5%88%bb%e6%b3%a8%e9%87%88%e3%81%ae%e7%b5%84%e7%89%88">#</a>
+</h2>
+<p>作成した翻刻と注釈は、Webで表示したり、
+検索したりすことができる。</p>
+<p>それとは別にWebの内容を著作の形で見やすく組版する
+方法を検討する。</p>
+<p>Webのコンテンツは、マークダウンで書いてあるので、
+これを適切なフォーマットに変換することで対応する。</p>
+<p>ここではLuaLaTeXを使った方法について、備忘録として
+記載しておく。</p>
+<h2 id="組版ソフトの条件">
+  組版ソフトの条件
+  <a class="anchor" href="#%e7%b5%84%e7%89%88%e3%82%bd%e3%83%95%e3%83%88%e3%81%ae%e6%9d%a1%e4%bb%b6">#</a>
+</h2>
+<p>古辞書や訓点資料は、難しい漢字が多く、
+割注、傍訓など本文が複雑である。</p>
+<p>難字の表示・印刷は、次の二つを
+簡単に使えるのが条件となる</p>
+<ol>
+<li>花園明朝</li>
+<li>GlypWiki</li>
+</ol>
+<p>この二つを簡単に利用するには、
+LuaLaTeXがよさそうである。
+upLaTeXでも使えそうだが、
+使えるように設定するのに苦労しそうである。</p>
+<p>割注、傍訓など複雑な組版んついては、
+マクロファイルで対応する。
+いくつかのものが公表されている。</p>
+<ol>
+<li>訓点資料用スタイル・ファイル  kunten2e.sty</li>
+<li>sfkanbunパッケージ (漢文) sfkanbun.sty</li>
+</ol>
+<p>どちらもupLaTeXで利用できる。
+しかし、LuaLaTeXではそのまま使えない。
+いろいろ調べてみると、sfkanbun.styを
+LuaLaTeXで利用できるようにファイルを書き換えれば
+よいことが分かった。書き換えはほんの僅かである。</p>
+<p>LaTeXで文書ファイルを作成していたのは、
+20年以上前である。
+その時には、次の組み合わせを利用していた。</p>
+<ol>
+<li>訓点資料用スタイル・ファイル kunten2e.sty</li>
+<li>今昔文字鏡 mojikyo.sty</li>
+</ol>
+<p>この二つで書いたLaTeXの文書ファイルを
+若干の手直しをすることで使えるようにすると
+便利である。
+つまり、古いLaTeXの文書ファイルの再利用が簡単な
+方がいい。</p>
+<p>kunten2e.styからsfkanbun.styへの移行は
+割に簡単そうである。</p>
+<p>mojikyo.styは、Unicodeの漢字が自由に使えない
+時は便利であったが、現在は、Unicodeの漢字を
+そのまま入力・処理できるので、使う必要はない。</p>
+<p>花園明朝を使えるようにして、
+GlypWikiをLuaLaTeXに対応した
+bxglypwiki.styを使えばよい。</p>
+</article>
  
       
 
@@ -619,6 +606,10 @@ https://github.com/alex-shpak/hugo-book
 
       
   
+  <div class="book-comments">
+
+</div>
+  
  
 
       <label for="menu-control" class="hidden book-menu-overlay"></label>
@@ -628,59 +619,15 @@ https://github.com/alex-shpak/hugo-book
     <aside class="book-toc">
       <div class="book-toc-content">
         
-  <nav>
+  
+<nav id="TableOfContents">
   <ul>
-  
-    
-    <li class="book-section-flat">
-      <strong>Categories</strong>
-      <ul>
-      
-        <li class="flex justify-between">
-          <a href="https://shikeda.github.io/categories/hdic/">HDIC</a>
-          <span>1</span>
-        </li>
-      
-        <li class="flex justify-between">
-          <a href="https://shikeda.github.io/categories/krm/">KRM</a>
-          <span>1</span>
-        </li>
-      
-      </ul>
-    </li>
-    
-  
-    
-    <li class="book-section-flat">
-      <strong>Tags</strong>
-      <ul>
-      
-        <li class="flex justify-between">
-          <a href="https://shikeda.github.io/tags/github/">GitHub</a>
-          <span>1</span>
-        </li>
-      
-        <li class="flex justify-between">
-          <a href="https://shikeda.github.io/tags/hugo/">Hugo</a>
-          <span>1</span>
-        </li>
-      
-        <li class="flex justify-between">
-          <a href="https://shikeda.github.io/tags/%E5%90%8D%E7%BE%A9%E6%8A%84/">名義抄</a>
-          <span>1</span>
-        </li>
-      
-        <li class="flex justify-between">
-          <a href="https://shikeda.github.io/tags/%E8%A6%B3%E6%99%BA%E9%99%A2%E6%9C%AC/">観智院本</a>
-          <span>1</span>
-        </li>
-      
-      </ul>
-    </li>
-    
-  
+    <li><a href="#はじめに">はじめに</a></li>
+    <li><a href="#翻刻注釈の組版">翻刻・注釈の組版</a></li>
+    <li><a href="#組版ソフトの条件">組版ソフトの条件</a></li>
   </ul>
 </nav>
+
 
  
       </div>

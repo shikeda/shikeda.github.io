@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>翻刻・注釈の組版の設定 on HDIC project</title>
+    <link>https://shikeda.github.io/docs/notes/krm-main/notes-output/</link>
+    <description>Recent content in 翻刻・注釈の組版の設定 on HDIC project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language><atom:link href="https://shikeda.github.io/docs/notes/krm-main/notes-output/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>花園明朝の設定</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-output/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-output/1/</guid>
+      <description>前提 # TeX Liveが使えるように設定しておく。 花園明朝の設定 # 花園フォント # 花園明朝のフォントをパソコンにインストールしておく。 ブラウザでの確</description>
+    </item>
+    
+    <item>
+      <title>GlyphWikiの設定</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-output/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-output/2/</guid>
+      <description>GlyphWikiの設定 # BXglyphwiki パッケージバンドル # 花園フォントをLuaLaTeXで使うには、 BXglyphwiki パッケージバンドルを参考にする。 toyjackに</description>
+    </item>
+    
+    <item>
+      <title>sfkanbun.styの設定</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-output/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-output/3/</guid>
+      <description>sfkanbun.styの設定 # 訓点資料用スタイル・ファイル（kunten2e.sty）は、 upLaTeXであれば使えるが、 LuaLaTeX</description>
+    </item>
+    
+    <item>
+      <title>VS CodeとTeX Live</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-output/4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-output/4/</guid>
+      <description>VS CodeとTeX Live # VS Code (Visual Studio Code) はMicrosoftが 開発しているWindows、Linux、macOS、web用のソースコードエディタであ</description>
+    </item>
+    
+  </channel>
+</rss>
