@@ -17,7 +17,7 @@
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.7a895e4c14f7ece673668a5344607f7b1246dbe920a2cdf845e9e6941a1ba5ec.js" integrity="sha256-eoleTBT37OZzZopTRGB/exJG2&#43;kgos34RenmlBobpew=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.fb1052162566cc4060fde3c793724fb021a76663fa04c8fb3c337f7ba576d556.js" integrity="sha256-&#43;xBSFiVmzEBg/ePHk3JPsCGnZmP6BMj7PDN/e6V21VY=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -538,37 +538,31 @@ sfkanbun.styのマクロを対応させて、TeXのソースファイルの
 </h3>
 <p>双行とは割注のことである。</p>
 <p>kunten2e.styでは、次のように入力する。</p>
-<pre><code>\sougyou{右行}{左行}
-</code></pre>
-<p>sfkanbun.styでは、多行割を用いる。</p>
-<pre><code>\tagyobox{項目１ \\ 項目２ \\ ...}
-</code></pre>
-<p>割注は、項目１と項目２とで十分なので、次のような
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\sougyou</span>{右行}{左行}
+</span></span></code></pre></div><p>sfkanbun.styでは、多行割を用いる。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\tagyobox</span>{項目１ <span style="color:#66d9ef">\\</span> 項目２ <span style="color:#66d9ef">\\</span> ...}
+</span></span></code></pre></div><p>割注は、項目１と項目２とで十分なので、次のような
 コマンドを定義しておく。</p>
-<pre><code>\newcommand{\sougyou}[2]{\tagyobox{#1 \\ #2}}
-</code></pre>
-<h3 id="副双行">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\newcommand</span>{<span style="color:#66d9ef">\sougyou</span>}[2]{<span style="color:#66d9ef">\tagyobox</span>{#1 <span style="color:#66d9ef">\\</span> #2}}
+</span></span></code></pre></div><h3 id="副双行">
   副双行
   <a class="anchor" href="#%e5%89%af%e5%8f%8c%e8%a1%8c">#</a>
 </h3>
 <p>副双行とは、双行中にさらに双行を作るものである。
 kunten2e.styでは次のように入力する。</p>
-<pre><code>\hukusougyou{右行}{左行}
-</code></pre>
-<p>これは、sfkanbun.styの複多行割で対応できる。</p>
-<pre><code>\fukutagyobox{項目１ \\ 項目２ \\ ...}
-</code></pre>
-<p>副双行は、項目１と項目２とで十分なので、次のような
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\hukusougyou</span>{右行}{左行}
+</span></span></code></pre></div><p>これは、sfkanbun.styの複多行割で対応できる。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\fukutagyobox</span>{項目１ <span style="color:#66d9ef">\\</span> 項目２ <span style="color:#66d9ef">\\</span> ...}
+</span></span></code></pre></div><p>副双行は、項目１と項目２とで十分なので、次のような
 コマンドを定義しておく。</p>
-<p>\newcommand{\hukusougyou}[2]{\fukutagyobox{#1 \ #2}}</p>
-<h2 id="送り仮名返り点">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\newcommand</span>{<span style="color:#66d9ef">\hukusougyou</span>}[2]{<span style="color:#66d9ef">\fukutagyobox</span>{#1 <span style="color:#66d9ef">\\</span> #2}}
+</span></span></code></pre></div><h2 id="送り仮名返り点">
   送り仮名、返り点
   <a class="anchor" href="#%e9%80%81%e3%82%8a%e4%bb%ae%e5%90%8d%e8%bf%94%e3%82%8a%e7%82%b9">#</a>
 </h2>
 <p>sfkanbun.styの\kundokuが便利である。</p>
-<pre><code>\kundoku[制御]{親文字}{ルビ}{送りがな}{返り点}[肩返り点](句読点)
-</code></pre>
-<p>(句読点)はオプション。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\kundoku</span><span style="color:#a6e22e">[制御]</span>{親文字}{ルビ}{送りがな}{返り点}[肩返り点](句読点)
+</span></span></code></pre></div><p>(句読点)はオプション。</p>
 <h2 id="ルビ">
   ルビ
   <a class="anchor" href="#%e3%83%ab%e3%83%93">#</a>
@@ -576,15 +570,13 @@ kunten2e.styでは次のように入力する。</p>
 <p>ルビを使うマクロはいくつかものがある。
 いろいろ試したが、luatexja-ruby.styを
 使うことにした。</p>
-<pre><code>\ltjruby[⟨option⟩]{親|文|字}{おや|も|じ}
-</code></pre>
-<p>\rubyという別名も定義されている。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\ltjruby</span><span style="color:#a6e22e">[⟨option⟩]</span>{親|文|字}{おや|も|じ}
+</span></span></code></pre></div><p>\rubyという別名も定義されている。</p>
 <p>経緯はわすれたが、\ukunというコマンドを
 定義してルビを付けていたので、次のように
 して元のファイルの書き換えをしないようにした。</p>
-<pre><code>\newcommand{\ukun}[2]{\ltjruby{#1}{#2}}
-</code></pre>
-<p>\ukunを\rubyに一括変換してもよい。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\newcommand</span>{<span style="color:#66d9ef">\ukun</span>}[2]{<span style="color:#66d9ef">\ltjruby</span>{#1}{#2}}
+</span></span></code></pre></div><p>\ukunを\rubyに一括変換してもよい。</p>
 </article>
  
       
