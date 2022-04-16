@@ -80,5 +80,5 @@ mojikyo.styは、Unicodeの漢字が自由に使えない
 
 花園明朝を使えるようにして、
 GlypWikiをLuaLaTeXに対応した
-bxglypwiki.styを使えばよい。
+bxglypwiki.styを使えばよいだろう。
 
