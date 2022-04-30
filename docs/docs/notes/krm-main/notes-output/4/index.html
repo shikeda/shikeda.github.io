@@ -17,7 +17,7 @@
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.369ccd672e101f414761a015941d22194dcb2209a2e7c5c85b86374024819102.js" integrity="sha256-NpzNZy4QH0FHYaAVlB0iGU3LIgmi58XIW4Y3QCSBkQI=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.678a92f1b03dff6e2c4686f769f7c2ba6951921503597c936ecd5e0859e23dae.js" integrity="sha256-Z4qS8bA9/24sRob3affCumlRkhUDWXyTbs1eCFniPa4=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -519,6 +519,12 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#論文題目著者名の設定">論文題目・著者名の設定</a></li>
         <li><a href="#注番号表示">注番号表示</a></li>
         <li><a href="#参考文献一覧形式">参考文献一覧形式</a></li>
+        <li><a href="#注と参考文献の順序">注と参考文献の順序</a></li>
+      </ul>
+    </li>
+    <li><a href="#翻刻本文の作成">翻刻本文の作成</a>
+      <ul>
+        <li><a href="#花園明朝とグリフウィキ">花園明朝とグリフウィキ</a></li>
       </ul>
     </li>
   </ul>
@@ -563,6 +569,7 @@ https://github.com/alex-shpak/hugo-book
 <li><a href="https://adbird.hatenablog.com/archive/category/LaTeX">adbird（広告鳥） 備忘録</a></li>
 <li><a href="http://www.let.osaka-u.ac.jp/~kinsui/tex/top.htm">金水敏 TeX のページ</a></li>
 <li><a href="http://www.let.osaka-u.ac.jp/~kinsui/tex/hokok98/1213c/c.html">『訓点語と訓点資料』用スタイル・ファイル</a></li>
+<li><a href="http://xyoshiki.web.fc2.com/texindex3.html">TeX Part3 文字・記号・数式、その他</a></li>
 </ul>
 <h2 id="jlreqのテンプレート">
   jlreqのテンプレート
@@ -603,7 +610,9 @@ https://github.com/alex-shpak/hugo-book
 <p>実際の設定。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\documentclass</span>[
 </span></span><span style="display:flex;"><span>lualatex,                   <span style="color:#75715e">% lualatexを使う
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>report,                     <span style="color:#75715e">% デフォルトは横書きのarticle相当、report、bookもある
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>report,                     <span style="color:#75715e">% デフォルトは横書きのarticle相当
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                            <span style="color:#75715e">% report、book、ltjtarticleもある。
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>                            <span style="color:#75715e">% 縦書き論文はtateを指定するだけでもよい。
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>tate,                       <span style="color:#75715e">% 縦書き、デフォルトは横書き
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>oneside,                    <span style="color:#75715e">% 奇数/偶数ページを同じレイアウト、articleとreportでのデフォルト
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">%twoside,                   % 奇数/偶数ページを異なるレイアウト、bookでのデフォルト
@@ -735,15 +744,16 @@ https://github.com/alex-shpak/hugo-book
 </ul>
 <p>後注の\endnoteは、デフォルトでは\sectionの最後
 に出力される。</p>
-<p>\jlreqsetupにendnote_positionを渡すことで制御できる。
-\chapterの最後に出力するように設定。</p>
+<p>\jlreqsetupにendnote_positionを渡すことで制御できる。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\jlreqsetup</span>{
-</span></span><span style="display:flex;"><span>endnote_position={_chapter}
+</span></span><span style="display:flex;"><span>endnote_position={_chapter,_section}
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>注は、(1)の形式で出力される。</p>
 <p>endnote_position={_chapter,_section}とすると、
 \chapterと\sectionの直前に出力。</p>
-<p>翻刻本文の後に、注を付ける時は、_sectionが便利。</p>
+<p>本文と参考文献の間に注の一覧を付ける場合は、
+\theendnotesで挿入箇所を指定してやればよい
+（endnote_positionの指定はいらない）。</p>
 <h3 id="参考文献一覧形式">
   参考文献一覧形式
   <a class="anchor" href="#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae%e4%b8%80%e8%a6%a7%e5%bd%a2%e5%bc%8f">#</a>
@@ -755,10 +765,166 @@ https://github.com/alex-shpak/hugo-book
 <li>参考文献一覧形式（shomeilist 環境）</li>
 <li>丸括弧による注記（ポイントを落として表示する。\skakko）</li>
 </ul>
-<p>凡例一覧形式は、enumerate環境を設定することで
+<p>凡例一覧形式は、enumerate環境、またはlist環境を設定することで
 対応する。</p>
-<p>参考文献一覧形式と丸括弧による注記は、bibtexで対応できそうである。</p>
-</article>
+<p>丸括弧による注記（ポイントを落として表示する）のは、ポイントを
+落とさない方式もあるので、後回しにする。</p>
+<p>参考文献一覧形式と丸括弧による注記は、bibtexで対応できる。</p>
+<p>プリアンブルに次を記載してnatbib.styを読み込む。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#75715e">% bibtexで参考文献を作成する場合に必要
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">\usepackage</span>{natbib}
+</span></span></code></pre></div><p>論文末尾の参考文献の見出しがBibliographyと表示されることがある。
+その時は、次のように明示的に指定すればよい。
+文書クラスのreportを仕様しているので、bibnameを指定している。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#75715e">% bibtexで参考文献を作成する場合に必要
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">\usepackage</span>{natbib}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">%\renewcommand{\refname}{参考文献} % 論文型クラスの場合
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">\renewcommand</span>{<span style="color:#66d9ef">\bibname</span>}{{<span style="color:#66d9ef">\Large</span> 参考文献}} <span style="color:#75715e">% 書籍/報告書型クラスの場合
+</span></span></span></code></pre></div><p>文字サイズが気に入らないときは、適宜変更する。ここでは\Largeにした。</p>
+<p>\end{document}の前あたりで、使用する論文のstyleと
+論文一覧のbibファイルを指定する。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\bibliographystyle</span>{tate} <span style="color:#75715e">% 論文のスタイル・ファイル
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">\bibliography</span>{tate}      <span style="color:#75715e">% 使用するbibファイル
+</span></span></span></code></pre></div><p>\bibliographystyleは拡張子がbst、
+\bibliographyは拡張子がbibになる。</p>
+<p>bstファイルは、英語文献用のものはたくさんあるが、日本語用は
+多くない。ここでは、jecon.bstを使う。
+jecon.bstは、経済学用のBibTeXスタイル・ファイルである。
+これをカスタマイズして使う。ファイル名は任意のものでよい。
+ここではtate.bstとした。</p>
+<p>bibファイルは、次のような形式のファイルである。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>@article{池田証寿1995図書寮本類聚名義抄と類音決,
+</span></span><span style="display:flex;"><span>author = {池田, 証寿},
+</span></span><span style="display:flex;"><span>title = {図書寮本類聚名義抄と類音決},
+</span></span><span style="display:flex;"><span>journal = {訓点語と訓点資料},
+</span></span><span style="display:flex;"><span>publisher = {訓点語学会},
+</span></span><span style="display:flex;"><span>year = {1995},
+</span></span><span style="display:flex;"><span>volume = {96},
+</span></span><span style="display:flex;"><span>number = {},
+</span></span><span style="display:flex;"><span>pages = {26--37},
+</span></span><span style="display:flex;"><span>Yomi = {いけだしょうじゅ},
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>@incollection{池田証寿2020高山寺の古辞書音義,
+</span></span><span style="display:flex;"><span>author = {池田, 証寿},
+</span></span><span style="display:flex;"><span>booktitle = {高山寺経蔵の形成と伝承},
+</span></span><span style="display:flex;"><span>editor = {高山寺典籍文書綜合調査団},
+</span></span><span style="display:flex;"><span>isbn = {9784762936463},
+</span></span><span style="display:flex;"><span>pages = {79--98},
+</span></span><span style="display:flex;"><span>publisher = {東京：汲古書院},
+</span></span><span style="display:flex;"><span>title = {高山寺の古辞書音義},
+</span></span><span style="display:flex;"><span>year = {2020},
+</span></span><span style="display:flex;"><span>Yomi = {いけだしょうじゅ},
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>jecon.bstではyomiのフィールドがあって、これをキーにして
+日本語の五十音順に並べ替えることができる。</p>
+<h3 id="注と参考文献の順序">
+  注と参考文献の順序
+  <a class="anchor" href="#%e6%b3%a8%e3%81%a8%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae%e3%81%ae%e9%a0%86%e5%ba%8f">#</a>
+</h3>
+<p>人文系の論文では、本文の後に「注」が来て、最後に
+「参考文献」のリストを記載することが多い。</p>
+<p>本文と参考文献の間に注の一覧を付ける場合は、
+\theendnotesで挿入箇所を指定してやればよい
+（endnote_positionの指定はいらない）。</p>
+<p>（注）や〈注〉などの見出しは、適宜付け加え、
+行間も\vspace{}で調整する。</p>
+<h2 id="翻刻本文の作成">
+  翻刻本文の作成
+  <a class="anchor" href="#%e7%bf%bb%e5%88%bb%e6%9c%ac%e6%96%87%e3%81%ae%e4%bd%9c%e6%88%90">#</a>
+</h2>
+<h3 id="花園明朝とグリフウィキ">
+  花園明朝とグリフウィキ
+  <a class="anchor" href="#%e8%8a%b1%e5%9c%92%e6%98%8e%e6%9c%9d%e3%81%a8%e3%82%b0%e3%83%aa%e3%83%95%e3%82%a6%e3%82%a3%e3%82%ad">#</a>
+</h3>
+<p>花園明朝が使えるように設定。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\usepackage</span>{luatexja-fontspec}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% BMPはHanaMinA, SIPはHanaMinB, ただし可能ならIPAexMincho
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">% で置き換える, という設定
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">\setmainjfont</span>[AltFont={
+</span></span><span style="display:flex;"><span>  {Range=&#34;20000-&#34;2FFFF, Font=HanaMinB},
+</span></span><span style="display:flex;"><span>  {Range=&#34;0080-&#34;FFFF, Font=IPAexMincho},
+</span></span><span style="display:flex;"><span>}]{HanaMinA}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% 花園明朝AFDKO版 2017-06-20
+</span></span></span></code></pre></div><p>グリフウィキが使えるように設定。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#75715e">% グリフウィキを使うのにも必要
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">\usepackage</span><span style="color:#a6e22e">[luatex]</span>{graphicx}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% グリフウィキで登録された漢字字形を利用，lualatexで使用
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">% texソース・ファイルと同じフォルダにbxglyphwiki.luaをおいておくこと
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">\usepackage</span><span style="color:#a6e22e">[luatex]</span>{bxglyphwiki}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% 書式例　\GWI{zihai-021005}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>~~
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>bxglyphwiki.styは他のスタイル・ファイルと相性が
+</span></span><span style="display:flex;"><span>悪いことがあるらしい。うまく行かないときは、
+</span></span><span style="display:flex;"><span>他のスタイル・ファイルを外したり、順序を入れ替えたり、
+</span></span><span style="display:flex;"><span>調整してください。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>### sfkanbunパッケージ (漢文) sfkanbun.sty 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>藤田眞作氏作成のスタイルファイルを利用する。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[TeX/LaTeX Applications by Shinsaku Fujita](http://xymtex.com/fujitas2/texlatex/index.html)の「縦組パッケージファイル」から入手する。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>そのままではLuaLaTeXで使えないので、[Re: LuaLaTeXで漢文の訓点を使いたい](https://oku.edu.mie-u.ac.jp/tex/mod/forum/discuss.php?d=2655&amp;parent=15518)を参考にして手を加える。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>また、<span style="color:#66d9ef">\nointerlineskip</span>の前に<span style="color:#66d9ef">\par</span>を追加しておいたほうがよさそうである。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>ファイル名はsfkanbun.styのままでもよいが、紛らわしくなる可能性があるので、
+</span></span><span style="display:flex;"><span>sfkanbun-lua.styにリネームしておく。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sfkanbun.styの内部処理で必要になるjdkintou.styも
+</span></span><span style="display:flex;"><span>上記した藤田眞作氏のサイトから入手して、
+</span></span><span style="display:flex;"><span>同じフォルダに入れておく。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>kunten2e.styでは<span style="color:#66d9ef">\sougyou</span>（双行）で指定する。
+</span></span><span style="display:flex;"><span>これに対してsfkanbun.styでは<span style="color:#66d9ef">\tagyobox</span>（多行割）で指定する。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>kunten2e.styの
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\sougyou</span>で作成したTeXファイルが多いので、
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\sougyou</span>で<span style="color:#66d9ef">\tagyobox</span>が使えるように設定する。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>また、kunten2e.styの
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\hukusougyou</span>（複双行）は<span style="color:#66d9ef">\fukutagyobox</span>（複多行割）
+</span></span><span style="display:flex;"><span>が使えるように設定する。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>~~~tex
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\usepackage</span>{sfkanbun-lua}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% 多行割（kunten2e.styのsougyouに対応させる）
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">% 文字の大きさ\scriptsize(可変)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">% \tagyobox{項目１ \\ 項目２ \\ ...}
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">\newcommand</span>{<span style="color:#66d9ef">\sougyou</span>}[2]{<span style="color:#66d9ef">\tagyobox</span>{#1 <span style="color:#66d9ef">\\</span> #2}}
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% 複多行割（kunten2e.styのhukusougyouに対応させる）
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">\newcommand</span>{<span style="color:#66d9ef">\hukusougyou</span>}[2]{<span style="color:#66d9ef">\fukutagyobox</span>{#1 <span style="color:#66d9ef">\\</span> #2}}
+</span></span></code></pre></div><p>次は入力例。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>新字鏡云醍𨟾<span style="color:#66d9ef">\sougyou</span>{同勅礼反}{平下酒也}醐餬<span style="color:#66d9ef">\sougyou</span>{同侯孤}{反䬫餬□}<span style="color:#66d9ef">\\</span>
+</span></span><span style="display:flex;"><span>	玉篇云醍<span style="color:#66d9ef">\sougyou</span>{他禮切酒紅色}{又音提　} 醐 <span style="color:#66d9ef">\sougyou</span>{戸吾切}{醍醐也} 䣫𨟾 <span style="color:#66d9ef">\sougyou</span>{上音离下}{音秖乳腐}<span style="color:#66d9ef">\\</span>
+</span></span></code></pre></div><p><a href="http://xymtex.com/fujitas/kanbun/kanbunex.html">漢文の訓点文の組版</a>から、
+藤田眞作氏のサンプルを少しご覧に入れる。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>顔淵・季路<span style="color:#66d9ef">\kundoku</span>{侍}{}{ス}{}(。)
+</span></span><span style="display:flex;"><span>子<span style="color:#66d9ef">\kundoku</span>{曰}{}{ハク}{}(、)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\kundoku</span>{盍}{なん}{ゾ}{三}&lt;ルト&gt;
+</span></span><span style="display:flex;"><span>各<span style="color:#66d9ef">\ninojiten\kundoku</span>{言}{}{ハ}{二}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\kundoku</span>{爾}{なんぢ}{ノ}{}
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\kundoku</span>{志}{}{ヲ}{一}(。)
+</span></span></code></pre></div><p>書式は次のとおり。</p>
+<pre><code>\kundoku[制御]{親文字}{ルビ}{送りがな}{返り点}[肩返り点](句読点)
+</code></pre>
+<p>これでかなりのことができそうである。</p>
+<p>次はその例。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\Large</span>{後}<span style="color:#66d9ef">\tagyobox</span>{<span style="color:#66d9ef">\vspace</span>{0.5<span style="color:#66d9ef">\zw</span>}
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\kundoku</span>{后}{＼}{}{}六 <span style="color:#66d9ef">\\</span> <span style="color:#66d9ef">\vspace</span>{0.5<span style="color:#66d9ef">\zw</span>} 
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\kundoku</span>{ノ}{＼}{}{}チ　
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\kundoku</span>{ウ}{＼}{}{}シロ　
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\kundoku</span>{シ}{＼}{}{}リへ <span style="color:#66d9ef">\vspace</span>{0.5<span style="color:#66d9ef">\zw</span>} <span style="color:#66d9ef">\\</span> 
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\kundoku</span>{オ}{＼}{}{}ク<span style="color:#66d9ef">\kundoku</span>{レ}{ル}{}{} タリ　
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\kundoku</span>{オ}{＼}{}{}クラ<span style="color:#66d9ef">\kundoku</span>{ス}{レ}{}{} <span style="color:#66d9ef">\vspace</span>{0.5<span style="color:#66d9ef">\zw</span>} <span style="color:#66d9ef">\\</span> 
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\kundoku</span>{オ}{＼}{}{}コタル　
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\kundoku</span>{オ}{＼}{}{}ソシ　
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">\kundoku</span>{禾}{＼}{}{}コ<span style="color:#66d9ef">\kundoku</span>{オ}{レ}{}{} <span style="color:#66d9ef">\vspace</span>{0.5<span style="color:#66d9ef">\zw</span>} <span style="color:#66d9ef">\\</span> 
+</span></span><span style="display:flex;"><span>    　　　　　<span style="color:#66d9ef">\kundoku</span>{𢓵}{＼}{}{}
+</span></span><span style="display:flex;"><span>    }
+</span></span></code></pre></div></article>
  
       
 
@@ -807,6 +973,12 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#論文題目著者名の設定">論文題目・著者名の設定</a></li>
         <li><a href="#注番号表示">注番号表示</a></li>
         <li><a href="#参考文献一覧形式">参考文献一覧形式</a></li>
+        <li><a href="#注と参考文献の順序">注と参考文献の順序</a></li>
+      </ul>
+    </li>
+    <li><a href="#翻刻本文の作成">翻刻本文の作成</a>
+      <ul>
+        <li><a href="#花園明朝とグリフウィキ">花園明朝とグリフウィキ</a></li>
       </ul>
     </li>
   </ul>
