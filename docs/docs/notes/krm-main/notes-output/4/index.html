@@ -17,7 +17,7 @@
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.ee0ef06767ee5d1b85d44a81e1edc864b0e9605e3df35154023f8f5476740b13.js" integrity="sha256-7g7wZ2fuXRuF1EqB4e3IZLDpYF4981FUAj&#43;PVHZ0CxM=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.14ea6fc4fc210635fd6ec3180149aceeda513e59610a5806fe1400236df0de8b.js" integrity="sha256-FOpvxPwhBjX9bsMYAUms7tpRPllhClgG/hQAI23w3os=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -525,6 +525,8 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#翻刻本文の作成">翻刻本文の作成</a>
       <ul>
         <li><a href="#花園明朝とグリフウィキ">花園明朝とグリフウィキ</a></li>
+        <li><a href="#sfkanbunパッケージ-漢文-sfkanbunsty">sfkanbunパッケージ (漢文) sfkanbun.sty</a></li>
+        <li><a href="#訓点資料用スタイルファイル--kunten2esty">訓点資料用スタイル・ファイル  kunten2e.sty</a></li>
       </ul>
     </li>
   </ul>
@@ -854,43 +856,32 @@ jecon.bstは、経済学用のBibTeXスタイル・ファイルである。
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">% texソース・ファイルと同じフォルダにbxglyphwiki.luaをおいておくこと
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">\usepackage</span><span style="color:#a6e22e">[luatex]</span>{bxglyphwiki}
 </span></span><span style="display:flex;"><span><span style="color:#75715e">% 書式例　\GWI{zihai-021005}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>~~
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>bxglyphwiki.styは他のスタイル・ファイルと相性が
-</span></span><span style="display:flex;"><span>悪いことがあるらしい。うまく行かないときは、
-</span></span><span style="display:flex;"><span>他のスタイル・ファイルを外したり、順序を入れ替えたり、
-</span></span><span style="display:flex;"><span>調整してください。
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>### sfkanbunパッケージ (漢文) sfkanbun.sty 
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>藤田眞作氏作成のスタイルファイルを利用する。
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>[TeX/LaTeX Applications by Shinsaku Fujita](http://xymtex.com/fujitas2/texlatex/index.html)の「縦組パッケージファイル」から入手する。
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>そのままではLuaLaTeXで使えないので、[Re: LuaLaTeXで漢文の訓点を使いたい](https://oku.edu.mie-u.ac.jp/tex/mod/forum/discuss.php?d=2655&amp;parent=15518)を参考にして手を加える。
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>また、<span style="color:#66d9ef">\nointerlineskip</span>の前に<span style="color:#66d9ef">\par</span>を追加しておいたほうがよさそうである。
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>ファイル名はsfkanbun.styのままでもよいが、紛らわしくなる可能性があるので、
-</span></span><span style="display:flex;"><span>sfkanbun-lua.styにリネームしておく。
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>sfkanbun.styの内部処理で必要になるjdkintou.styも
-</span></span><span style="display:flex;"><span>上記した藤田眞作氏のサイトから入手して、
-</span></span><span style="display:flex;"><span>同じフォルダに入れておく。
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>kunten2e.styでは<span style="color:#66d9ef">\sougyou</span>（双行）で指定する。
-</span></span><span style="display:flex;"><span>これに対してsfkanbun.styでは<span style="color:#66d9ef">\tagyobox</span>（多行割）で指定する。
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>kunten2e.styの
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\sougyou</span>で作成したTeXファイルが多いので、
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\sougyou</span>で<span style="color:#66d9ef">\tagyobox</span>が使えるように設定する。
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>また、kunten2e.styの
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\hukusougyou</span>（複双行）は<span style="color:#66d9ef">\fukutagyobox</span>（複多行割）
-</span></span><span style="display:flex;"><span>が使えるように設定する。
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>~~~tex
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\usepackage</span>{sfkanbun-lua}
+</span></span></span></code></pre></div><p>bxglyphwiki.styは他のスタイル・ファイルと相性が
+悪いことがあるらしい。うまく行かないときは、
+他のスタイル・ファイルを外したり、順序を入れ替えたり、
+調整してください。</p>
+<h3 id="sfkanbunパッケージ-漢文-sfkanbunsty">
+  sfkanbunパッケージ (漢文) sfkanbun.sty
+  <a class="anchor" href="#sfkanbun%e3%83%91%e3%83%83%e3%82%b1%e3%83%bc%e3%82%b8-%e6%bc%a2%e6%96%87-sfkanbunsty">#</a>
+</h3>
+<p>藤田眞作氏作成のスタイルファイルを利用する。</p>
+<p><a href="http://xymtex.com/fujitas2/texlatex/index.html">TeX/LaTeX Applications by Shinsaku Fujita</a>の「縦組パッケージファイル」から入手する。</p>
+<p>そのままではLuaLaTeXで使えないので、<a href="https://oku.edu.mie-u.ac.jp/tex/mod/forum/discuss.php?d=2655&amp;parent=15518">Re: LuaLaTeXで漢文の訓点を使いたい</a>を参考にして手を加える。</p>
+<p>また、\nointerlineskipの前に\parを追加しておいたほうがよさそうである。</p>
+<p>ファイル名はsfkanbun.styのままでもよいが、紛らわしくなる可能性があるので、
+sfkanbun-lua.styにリネームしておく。</p>
+<p>sfkanbun.styの内部処理で必要になるjdkintou.styも
+上記した藤田眞作氏のサイトから入手して、
+同じフォルダに入れておく。</p>
+<p>kunten2e.styでは\sougyou（双行）で指定する。
+これに対してsfkanbun.styでは\tagyobox（多行割）で指定する。</p>
+<p>kunten2e.styの
+\sougyouで作成したTeXファイルが多いので、
+\sougyouで\tagyoboxが使えるように設定する。</p>
+<p>また、kunten2e.styの
+\hukusougyou（複双行）は\fukutagyobox（複多行割）
+が使えるように設定する。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\usepackage</span>{sfkanbun-lua}
 </span></span><span style="display:flex;"><span><span style="color:#75715e">% 多行割（kunten2e.styのsougyouに対応させる）
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">% 文字の大きさ\scriptsize(可変)
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">% \tagyobox{項目１ \\ 項目２ \\ ...}
@@ -927,6 +918,30 @@ jecon.bstは、経済学用のBibTeXスタイル・ファイルである。
 </span></span><span style="display:flex;"><span>    }
 </span></span></code></pre></div><p>そうすると、次のように組み上がる。</p>
 <p><img src="https://shikeda.github.io/images/jikyo-sample1.png" alt="古辞書「後」の翻字" /></p>
+<h3 id="訓点資料用スタイルファイル--kunten2esty">
+  訓点資料用スタイル・ファイル  kunten2e.sty
+  <a class="anchor" href="#%e8%a8%93%e7%82%b9%e8%b3%87%e6%96%99%e7%94%a8%e3%82%b9%e3%82%bf%e3%82%a4%e3%83%ab%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab--kunten2esty">#</a>
+</h3>
+<p>ここまでやってきて、2005年頃に作成したTeXの
+ファイルを見ると、newcommnadで定義し直すのが
+面倒になってきた。</p>
+<p>2005年頃のファイルは、金水敏氏のkunten2e.styを
+使っているので、コマンドはそのまま使えるように
+検討してみた。</p>
+<p>どうやら、
+金水敏氏のkunten2e.styをLuaLaTeXで使うには変更が必要のようである。</p>
+<p>次のような変更を加えた。</p>
+<pre><code>\kanjiskip --&gt; \ltjgetparameter{kanjiskip}
+\xkanjiskip --&gt; \ltjgetparameter{xkanjiskip}
+zw --&gt; \zw
+zh --&gt; \zh
+</code></pre>
+<p>他に変更が必要な箇所があるかもしれないが、当面はこれで進める。</p>
+<p>ファイル名は、kunten2e-lua.styに変更した。</p>
+<p>sfkanbun.styでは次の変更も行った。</p>
+<pre><code>\nointerlineskip --&gt; \par\nointerlineskip
+</code></pre>
+<p>kunten2e.styでは該当箇所がない。</p>
 </article>
  
       
@@ -982,6 +997,8 @@ jecon.bstは、経済学用のBibTeXスタイル・ファイルである。
     <li><a href="#翻刻本文の作成">翻刻本文の作成</a>
       <ul>
         <li><a href="#花園明朝とグリフウィキ">花園明朝とグリフウィキ</a></li>
+        <li><a href="#sfkanbunパッケージ-漢文-sfkanbunsty">sfkanbunパッケージ (漢文) sfkanbun.sty</a></li>
+        <li><a href="#訓点資料用スタイルファイル--kunten2esty">訓点資料用スタイル・ファイル  kunten2e.sty</a></li>
       </ul>
     </li>
   </ul>
