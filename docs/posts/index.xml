@@ -6,7 +6,7 @@
     <description>Recent content in Blog on HDIC project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Thu, 06 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://shikeda.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jul 2022 06:19:50 +0900</lastBuildDate><atom:link href="https://shikeda.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KRMの入力方法</title>
       <link>https://shikeda.github.io/posts/input-method/</link>
@@ -14,6 +14,15 @@
       
       <guid>https://shikeda.github.io/posts/input-method/</guid>
       <description>注文データ入力の詳細 # 次の6種に分類して入力方法の詳細を説明する。 共通 字体注 音注 義注 和訓 掲出字補注 共通 # 字体注、音注、義注、和訓、掲出字補注</description>
+    </item>
+    
+    <item>
+      <title>HDICの進捗</title>
+      <link>https://shikeda.github.io/posts/krmnotes002/</link>
+      <pubDate>Thu, 07 Jul 2022 06:19:50 +0900</pubDate>
+      
+      <guid>https://shikeda.github.io/posts/krmnotes002/</guid>
+      <description>そういえば今日は七夕ですね。</description>
     </item>
     
     <item>
