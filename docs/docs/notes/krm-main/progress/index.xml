@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>進捗状況 on HDIC project</title>
+    <link>https://shikeda.github.io/docs/notes/krm-main/progress/</link>
+    <description>Recent content in 進捗状況 on HDIC project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    
+	<atom:link href="https://shikeda.github.io/docs/notes/krm-main/progress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>集計</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/progress/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/progress/1/</guid>
+      <description>集計 掲出字 字体注 音注 義注 和訓</description>
+    </item>
+    
+    <item>
+      <title>和訓</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/progress/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/progress/2/</guid>
+      <description>和訓 日国IDの付与状況 和訓数 総数 ID付与済 パーセント 仏上 4,104 3,475 84.67% 仏中 4,237 3,675 86.74% 仏下本 4,344 3,511 80.82% 仏下末 1,559 1,309 83.96% 法上 4,211 3,498 83.07% 法中 4,446 3,659 82.30% 法下 3,989 3,285 82.35% 僧上 3,994 3,364 84.23% 僧中</description>
+    </item>
+    
+  </channel>
+</rss>

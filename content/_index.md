@@ -78,4 +78,4 @@ HDICデータベースの構築と公開は、御所蔵の寺院・研究機関�
 サポートしていただいた。ここに記して感謝申し上げる。
 
 
-© 2015-2022  HDIC Database Project.  This work was supported by JSPS KAKENHI Grant Number 25370506, 16H03422, 19H00526.
+© 2015-2024  HDIC Database Project.  This work was supported by JSPS KAKENHI Grant Number 25370506, 16H03422, 19H00526, 23K17500.
