@@ -9,13 +9,13 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://shikeda.github.io/posts/" />
-
+<meta property="og:updated_time" content="2022-01-06T00:00:00+00:00" />
 <title>Blog | HDIC project</title>
 <link rel="manifest" href="https://shikeda.github.io/manifest.json">
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.6eb5127b53a7b9e30bc9b0345e59b9eb9be0fe11601dbf6585de6fe5a1392270.js" integrity="sha256-brUSe1OnueMLybA0Xlm565vg/hFgHb9lhd5v5aE5InA=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.4b35aa2550fa99e42d178598d94375891647621cc65d94e111a3274ea2970c08.js" integrity="sha256-SzWqJVD6meQtF4WY2UN1iRZHYhzGXZThEaMnTqKXDAg=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://shikeda.github.io/posts/index.xml" title="HDIC project" />
 <!--
 Made with Book Theme
@@ -479,7 +479,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
 
 
  
@@ -586,7 +586,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-    <p>注文データ入力の詳細 # 次の6種に分類して入力方法の詳細を説明する。 共通 字体注 音注 義注 和訓 掲出字補注 共通 # 字体注、音注、義注、和訓、掲出字補注
+    <p>注文データ入力の詳細 次の6種に分類して入力方法の詳細を説明する。 共通 字体注 音注 義注 和訓 掲出字補注 共通 字体注、音注、義注、和訓、掲出字補注に共
         <a href="https://shikeda.github.io/posts/input-method/">...</a>
       
     </p>
@@ -604,18 +604,18 @@ https://github.com/alex-shpak/hugo-book
   
   <div>
     
-      <a href="https://shikeda.github.io/categories/krm/">KRM</a>, 
-      <a href="https://shikeda.github.io/categories/hdic/">HDIC</a>
+      <a href="https://shikeda.github.io/categories/hdic/">HDIC</a>, 
+      <a href="https://shikeda.github.io/categories/krm/">KRM</a>
   </div>
   
 
   
   <div>
     
-      <a href="https://shikeda.github.io/tags/%E5%90%8D%E7%BE%A9%E6%8A%84/">名義抄</a>, 
-      <a href="https://shikeda.github.io/tags/%E8%A6%B3%E6%99%BA%E9%99%A2%E6%9C%AC/">観智院本</a>, 
+      <a href="https://shikeda.github.io/tags/github/">GitHub</a>, 
       <a href="https://shikeda.github.io/tags/hugo/">Hugo</a>, 
-      <a href="https://shikeda.github.io/tags/github/">GitHub</a>
+      <a href="https://shikeda.github.io/tags/%E5%90%8D%E7%BE%A9%E6%8A%84/">名義抄</a>, 
+      <a href="https://shikeda.github.io/tags/%E8%A6%B3%E6%99%BA%E9%99%A2%E6%9C%AC/">観智院本</a>
   </div>
   
 
@@ -630,6 +630,8 @@ https://github.com/alex-shpak/hugo-book
   
 
   
+
+
  
       
 
@@ -645,7 +647,8 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+  <script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script>
 
 
  

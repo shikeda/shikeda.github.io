@@ -3,21 +3,19 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="項目データの入力 # 観智院本類聚名義抄(KRM)の項目データの入力方法を解説する。 項目は掲出字と注文とからなる。 ここでは掲出字の入力と注文の入">
+<meta name="description" content="項目データの入力 観智院本類聚名義抄(KRM)の項目データの入力方法を解説する。 項目は掲出字と注文とからなる。 ここでは掲出字の入力と注文の入力">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="項目データ入力" />
-<meta property="og:description" content="項目データの入力 # 観智院本類聚名義抄(KRM)の項目データの入力方法を解説する。 項目は掲出字と注文とからなる。 ここでは掲出字の入力と注文の入" />
+<meta property="og:description" content="項目データの入力 観智院本類聚名義抄(KRM)の項目データの入力方法を解説する。 項目は掲出字と注文とからなる。 ここでは掲出字の入力と注文の入力" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://shikeda.github.io/docs/notes/krm-main/item-input/" /><meta property="article:section" content="docs" />
-
-
+<meta property="og:url" content="https://shikeda.github.io/docs/notes/krm-main/item-input/" />
 
 <title>項目データ入力 | HDIC project</title>
 <link rel="manifest" href="https://shikeda.github.io/manifest.json">
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.6eb5127b53a7b9e30bc9b0345e59b9eb9be0fe11601dbf6585de6fe5a1392270.js" integrity="sha256-brUSe1OnueMLybA0Xlm565vg/hFgHb9lhd5v5aE5InA=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.4b35aa2550fa99e42d178598d94375891647621cc65d94e111a3274ea2970c08.js" integrity="sha256-SzWqJVD6meQtF4WY2UN1iRZHYhzGXZThEaMnTqKXDAg=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -480,7 +478,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
 
 
  
@@ -538,17 +536,11 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h2 id="項目データの入力">
-  項目データの入力
-  <a class="anchor" href="#%e9%a0%85%e7%9b%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%81%ae%e5%85%a5%e5%8a%9b">#</a>
-</h2>
+  <article class="markdown"><h2 id="項目データの入力">項目データの入力</h2>
 <p>観智院本類聚名義抄(KRM)の項目データの入力方法を解説する。</p>
 <p>項目は掲出字と注文とからなる。
 ここでは掲出字の入力と注文の入力とに共通する事項を説明する。</p>
-<h3 id="unicodeによる符号化">
-  Unicodeによる符号化
-  <a class="anchor" href="#unicode%e3%81%ab%e3%82%88%e3%82%8b%e7%ac%a6%e5%8f%b7%e5%8c%96">#</a>
-</h3>
+<h3 id="unicodeによる符号化">Unicodeによる符号化</h3>
 <p><strong>説明</strong></p>
 <p>UnicodeのバージョンによりCJK統合漢字の数は異なる。
 HDICプロジェクトとしては2014年にスタートしており、
@@ -570,48 +562,36 @@ IDSのデータは守岡知彦がCHISEで構築・公開しているものを利
 <pre><code>IDS入力の例：⿰亻胃
 βの例：正β(匸の中にヽが横に二つの字体)
 </code></pre>
-<h3 id="glyphwikiの利用">
-  GlyphWikiの利用
-  <a class="anchor" href="#glyphwiki%e3%81%ae%e5%88%a9%e7%94%a8">#</a>
-</h3>
+<h3 id="glyphwikiの利用">GlyphWikiの利用</h3>
 <p><strong>説明</strong></p>
 <p>上地宏一氏のGlyphWikiで原文に
 近似した明朝体の字形を表示するために
 GlyphWiki（上地宏一氏）を利用する。</p>
 <p>次にはmarkdownの記法で示す。</p>
 <p><strong>入力例</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">正β</span>](<span style="color:#a6e22e">https://glyphwiki.org/glyph/hdic_hkrm-01075140.png</span>)
-</span></span></code></pre></div><p>とすると、次のように表示される。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">![<span style="color:#f92672">正β</span>](<span style="color:#a6e22e">https://glyphwiki.org/glyph/hdic_hkrm-01075140.png</span>)
+</code></pre></div><p>とすると、次のように表示される。</p>
 <p><img src="https://glyphwiki.org/glyph/hdic_hkrm-01075140.png" alt="正β" /></p>
 <p>これでは文字サイズが大きいので、小さいサイズを使う場合には</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">正β</span>](<span style="color:#a6e22e">https://glyphwiki.org/glyph/hdic_hkrm-01075140.50px.png</span>)
-</span></span></code></pre></div><p>とすれば、次のように表示される。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">![<span style="color:#f92672">正β</span>](<span style="color:#a6e22e">https://glyphwiki.org/glyph/hdic_hkrm-01075140.50px.png</span>)
+</code></pre></div><p>とすれば、次のように表示される。</p>
 <p><img src="https://glyphwiki.org/glyph/hdic_hkrm-01075140.50px.png" alt="正β" /></p>
 <hr>
-<h3 id="虫損判読不能">
-  虫損・判読不能
-  <a class="anchor" href="#%e8%99%ab%e6%90%8d%e5%88%a4%e8%aa%ad%e4%b8%8d%e8%83%bd">#</a>
-</h3>
+<h3 id="虫損判読不能">虫損・判読不能</h3>
 <p><strong>説明</strong></p>
 <p>虫損（insect holes）で判読できない字や点画が複雑すぎてIDSの表現が困難な字を
 「■」（黒い四角, U+25A0）として入力する。
 虫損が一部で判読可能な字は「□(某)」のように示す。</p>
 <p><strong>入力例</strong></p>
 <hr>
-<h3 id="複字形式の掲出字">
-  複字形式の掲出字
-  <a class="anchor" href="#%e8%a4%87%e5%ad%97%e5%bd%a2%e5%bc%8f%e3%81%ae%e6%8e%b2%e5%87%ba%e5%ad%97">#</a>
-</h3>
+<h3 id="複字形式の掲出字">複字形式の掲出字</h3>
 <p><strong>説明</strong></p>
 <p>複字形式の掲出字の異体字併記と熟語は、掲出字を「／」（全角スラッシュ, U+FF0F）で区切って入力する。</p>
 <p><strong>入力例</strong></p>
 <pre><code>異体字併記：翛／倐／倏／翛β
 熟語：一／人
 </code></pre>
-<h3 id="省略符号">
-  省略符号
-  <a class="anchor" href="#%e7%9c%81%e7%95%a5%e7%ac%a6%e5%8f%b7">#</a>
-</h3>
+<h3 id="省略符号">省略符号</h3>
 <p><strong>説明</strong>
 熟語の掲出字に見える省略符号（omission mark）「｜」は、
 被注字（annotated headword, 被釋字）或いは前掲する掲出字を代用する時に使用される符号で、
@@ -619,30 +599,21 @@ GlyphWiki（上地宏一氏）を利用する。</p>
 <p><strong>入力例</strong></p>
 <pre><code>五／ー（人）
 </code></pre>
-<h3 id="踊り字">
-  踊り字
-  <a class="anchor" href="#%e8%b8%8a%e3%82%8a%e5%ad%97">#</a>
-</h3>
+<h3 id="踊り字">踊り字</h3>
 <p><strong>説明</strong></p>
 <p>複字形式の掲出字に使われる踊り字（repetition mark, 疊字符）は
 「〻」（二の字点, U+303B）を用いることとし、「々」（同の字点, U+3005）を用いない。</p>
 <p><strong>入力例</strong></p>
 <pre><code>曽／ー（祖）／〻（母）
 </code></pre>
-<h3 id="脱字">
-  脱字
-  <a class="anchor" href="#%e8%84%b1%e5%ad%97">#</a>
-</h3>
+<h3 id="脱字">脱字</h3>
 <p><strong>説明</strong></p>
 <p>脱字（omitted character, 脫字）であることが明らかな掲出字は、
 「［］」（全角の角括弧）に入れて示す。</p>
 <p><strong>入力例</strong></p>
 <pre><code>将／[指]
 </code></pre>
-<h3 id="誤字">
-  誤字
-  <a class="anchor" href="#%e8%aa%a4%e5%ad%97">#</a>
-</h3>
+<h3 id="誤字">誤字</h3>
 <p><strong>説明</strong>
 誤字（miswritten character, 誤字）であることが明らかな掲出字は、
 校訂済みの字体をEntryに、原文の字体をEntry_originalに示し、備考欄に校訂の根拠を示す。</p>
@@ -650,10 +621,7 @@ GlyphWiki（上地宏一氏）を利用する。</p>
 <pre><code>Entry   Entry_original  Remarks
 向／後  〇／ー（彴）    掲出字は「向後」とすべきを誤る。岡田研究193-194頁に「ー」使用は高山寺本が適切との指摘あり。
 </code></pre>
-<h3 id="本文訂正の符号">
-  本文訂正の符号
-  <a class="anchor" href="#%e6%9c%ac%e6%96%87%e8%a8%82%e6%ad%a3%e3%81%ae%e7%ac%a6%e5%8f%b7">#</a>
-</h3>
+<h3 id="本文訂正の符号">本文訂正の符号</h3>
 <p><strong>説明</strong></p>
 <p>転倒符（reverse mark, 顛倒符）を施して複字形式の掲出字の順序を正したり、見消符（deletion mark, 抹消符）を施して正しい掲出字を傍書（side note, 旁記）したり、補入符（interpolation mark, 補入符）を用いて掲出項目の順序を正したりすることがある。これらは正しい内容に修正して本文を入力する。</p>
 <p>次の入力例では、注ごとに詳しい説明を施している。
@@ -663,16 +631,10 @@ GlyphWiki（上地宏一氏）を利用する。</p>
 <pre><code>Entry   Def Remarks
 儻／儻  コヒネカハクハ  西端誤写諸例54頁③文字のいれかわり818。高山寺本「コネヒカハクハ」の「ヒ」の右肩に転倒符あり、文字のいれかわりの誤りは解消済み（草川昇「類聚名義抄和訓小考」29頁）。
 </code></pre>
-<h3 id="掲出字に施された声点等の注記">
-  掲出字に施された声点等の注記
-  <a class="anchor" href="#%e6%8e%b2%e5%87%ba%e5%ad%97%e3%81%ab%e6%96%bd%e3%81%95%e3%82%8c%e3%81%9f%e5%a3%b0%e7%82%b9%e7%ad%89%e3%81%ae%e6%b3%a8%e8%a8%98">#</a>
-</h3>
+<h3 id="掲出字に施された声点等の注記">掲出字に施された声点等の注記</h3>
 <p><strong>説明</strong></p>
 <p>掲出字に施された声点・仮名字音、傍訓、漢文注記、異本注記は、「掲出字補注」とし、それぞれ◎、⦿、◇、▲を付して示す。</p>
-<h3 id="複字形式の掲出字id">
-  複字形式の掲出字ID
-  <a class="anchor" href="#%e8%a4%87%e5%ad%97%e5%bd%a2%e5%bc%8f%e3%81%ae%e6%8e%b2%e5%87%ba%e5%ad%97id">#</a>
-</h3>
+<h3 id="複字形式の掲出字id">複字形式の掲出字ID</h3>
 <p><strong>説明</strong></p>
 <p>複字形式の掲出字IDは一番目の掲出字IDを代表として示し、
 二番目以降の掲出字IDは公開するTSV形式のデータでは省略する。</p>
@@ -694,7 +656,8 @@ GlyphWiki（上地宏一氏）を利用する。</p>
 
 
 
-  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+  <script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script>
 
 
  

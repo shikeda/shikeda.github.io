@@ -6,14 +6,18 @@
     <description>Recent content in Introduction on HDIC project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Sun, 09 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://shikeda.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Jan 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shikeda.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>概要</title>
       <link>https://shikeda.github.io/docs/notes/krm-main/overview/</link>
       <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/overview/</guid>
-      <description>ここでは、諸本、編者、成立、価値、構成、出典、諸本の影印・索引、 参考文献などに関して、『類聚名義抄』の概要を述べる。 諸本 # 諸本は、原撰本と広</description>
+      <description>ここでは、諸本、編者、成立、価値、構成、出典、諸本の影印・索引、 参考文献などに関して、『類聚名義抄』の概要を述べる。 諸本 諸本は、原撰本と広益</description>
     </item>
     
     <item>
@@ -22,7 +26,7 @@
       <pubDate>Wed, 05 Jan 2022 07:18:54 +0900</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/data-structure/</guid>
-      <description>項目の構造 # 項目の構造(Item structure) を図示すれば次のようになる。左側の本文は 模写したものである。 貴重図書複製会（1937）による影印が国会図書</description>
+      <description>項目の構造 項目の構造(Item structure) を図示すれば次のようになる。左側の本文は 模写したものである。 貴重図書複製会（1937）による影印が国会図書館</description>
     </item>
     
     <item>
@@ -31,7 +35,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/item-input/</guid>
-      <description>項目データの入力 # 観智院本類聚名義抄(KRM)の項目データの入力方法を解説する。 項目は掲出字と注文とからなる。 ここでは掲出字の入力と注文の入</description>
+      <description>項目データの入力 観智院本類聚名義抄(KRM)の項目データの入力方法を解説する。 項目は掲出字と注文とからなる。 ここでは掲出字の入力と注文の入力</description>
     </item>
     
     <item>
@@ -40,7 +44,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/headword-input/</guid>
-      <description>掲出字データ入力の詳細 # ここでは掲出字の入力の方法の詳細を説明する。 なお、1.2 項目データの入力での説明を繰り返したところがある。 Unico</description>
+      <description>掲出字データ入力の詳細 ここでは掲出字の入力の方法の詳細を説明する。 なお、1.2 項目データの入力での説明を繰り返したところがある。 Unicod</description>
     </item>
     
     <item>
@@ -49,7 +53,7 @@
       <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/posts/input-method/</guid>
-      <description>注文データ入力の詳細 # 次の6種に分類して入力方法の詳細を説明する。 共通 字体注 音注 義注 和訓 掲出字補注 共通 # 字体注、音注、義注、和訓、掲出字補注</description>
+      <description>注文データ入力の詳細 次の6種に分類して入力方法の詳細を説明する。 共通 字体注 音注 義注 和訓 掲出字補注 共通 字体注、音注、義注、和訓、掲出字補注に共</description>
     </item>
     
     <item>
@@ -58,7 +62,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/1/</guid>
-      <description>基本方針 # 字体注、音注、義注、和訓、掲出字補注に共通する事項は次のとおりである。 書字方向 # 説明 縦書きを横書きに改める。 字体 # 説明 漢字と仮名は</description>
+      <description>基本方針 字体注、音注、義注、和訓、掲出字補注に共通する事項は次のとおりである。 書字方向 説明 縦書きを横書きに改める。 字体 説明 漢字と仮名は原則と</description>
     </item>
     
     <item>
@@ -67,7 +71,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/2/</guid>
-      <description>字体注 # 字体の認定 # 説明 字体注原文の異体字は掲出字の字体との関係を慎重に検討した上で原文に近い字体とするか通行の字体とするかを判断する。 字体</description>
+      <description>字体注 字体の認定 説明 字体注原文の異体字は掲出字の字体との関係を慎重に検討した上で原文に近い字体とするか通行の字体とするかを判断する。 字体注記</description>
     </item>
     
     <item>
@@ -76,7 +80,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/notes-input/1/</guid>
-      <description>項目の構造と注文数の概略を示し、一つの 項目を例に説明しながら、注釈作成の基本方針を示す。 項目の構造と注文数 # 項目は掲出字と注文からなる。 注文</description>
+      <description>項目の構造と注文数の概略を示し、一つの 項目を例に説明しながら、注釈作成の基本方針を示す。 項目の構造と注文数 項目は掲出字と注文からなる。 注文は</description>
     </item>
     
     <item>
@@ -85,7 +89,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/3/</guid>
-      <description>音注 # 音注の種類 # 説明 音注は、反切（fanqie）、類音注（similar pronunciation annotation by character）、仮名音注（pronunciation annotation</description>
+      <description>音注 音注の種類 説明 音注は、反切（fanqie）、類音注（similar pronunciation annotation by character）、仮名音注（pronunciation annotation by k</description>
     </item>
     
     <item>
@@ -94,7 +98,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/notes-input/2/</guid>
-      <description>掲出字 # ここでは、誤字、脱字、衍字、補入、埋字、代用符号、踊り字などについて解説し、 掲出項目数の算出を行う。 誤字 # 掲出字の誤字の例をいくつか</description>
+      <description>掲出字 ここでは、誤字、脱字、衍字、補入、埋字、代用符号、踊り字などについて解説し、 掲出項目数の算出を行う。 誤字 掲出字の誤字の例をいくつかあげ</description>
     </item>
     
     <item>
@@ -103,7 +107,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/4/</guid>
-      <description>義注(漢文意味注) # 異体字の処理 # 説明 原文の略字と異体字は通行の字体に改める。 入力例 ヽ --&amp;gt; 也 省略符号 # 説明 省略符号の「｜」符は、長音符（ー, U</description>
+      <description>義注(漢文意味注) 異体字の処理 説明 原文の略字と異体字は通行の字体に改める。 入力例 ヽ --&amp;gt; 也 省略符号 説明 省略符号の「｜」符は、長音符（ー, U+30</description>
     </item>
     
     <item>
@@ -112,7 +116,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</guid>
-      <description>和訓 # 小字の片仮名 # 説明 片仮名に付された小字の片仮名（和訓の活用形・及び異形態など）は大字の部分と小字の部分をハイフンマイナス（-, U+00</description>
+      <description>和訓 小字の片仮名 説明 片仮名に付された小字の片仮名（和訓の活用形・及び異形態など）は大字の部分と小字の部分をハイフンマイナス（-, U+002D</description>
     </item>
     
     <item>
@@ -121,7 +125,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/notes-input/3/</guid>
-      <description>字体注 # ここでは、「正」「通」「俗」などの注記の種類と これらの注記と注記対象字との記載状況を解説する。 また、「滴」を例にして記載内容の検討を</description>
+      <description>字体注 ここでは、「正」「通」「俗」などの注記の種類と これらの注記と注記対象字との記載状況を解説する。 また、「滴」を例にして記載内容の検討を行</description>
     </item>
     
     <item>
@@ -130,7 +134,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/6/</guid>
-      <description>その他 # 「その他」では、掲出字補注について説明する。 掲出字補注とは 掲出字の周囲に施された注記を指す。 掲出字の声点と片仮名音注 # 説明 掲出字に施</description>
+      <description>その他 「その他」では、掲出字補注について説明する。 掲出字補注とは 掲出字の周囲に施された注記を指す。 掲出字の声点と片仮名音注 説明 掲出字に施され</description>
     </item>
     
     <item>
@@ -139,7 +143,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/notes-input/4/</guid>
-      <description>音注 # 音注の検討では、広韻の音注との比較が基本となる。 原撰本名義抄では、東宮切韻の引用頻度が高く、 切韻系韻書に由来する音注が改編本でも多くな</description>
+      <description>音注 音注の検討では、広韻の音注との比較が基本となる。 原撰本名義抄では、東宮切韻の引用頻度が高く、 切韻系韻書に由来する音注が改編本でも多くなっ</description>
     </item>
     
     <item>
@@ -148,7 +152,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/notes-input/5/</guid>
-      <description>義注 # 義注とは、漢字を用いた意義注記のことである。漢文義注ともいう。 義注の文字数 # 観智院本類聚名義抄には、約12,600の義注がある。これを</description>
+      <description>義注 義注とは、漢字を用いた意義注記のことである。漢文義注ともいう。 義注の文字数 観智院本類聚名義抄には、約12,600の義注がある。これを義注</description>
     </item>
     
     <item>
@@ -157,7 +161,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/notes-input/6/</guid>
-      <description>和訓 # ここでは、まず、略称を用いる参考文献とその他の参考文献をあげる。 次に、和訓の同定に関して、若干の例をあげて解説する。 参考文献 # 略称を用</description>
+      <description>和訓 ここでは、まず、略称を用いる参考文献とその他の参考文献をあげる。 次に、和訓の同定に関して、若干の例をあげて解説する。 参考文献 略称を用いる</description>
     </item>
     
     <item>
@@ -166,7 +170,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/notes-input/10_notes_sample/</guid>
-      <description>前書き # 注釈の試作 # 注釈をどのように作成するか、さらに 作成した注釈をどのように公表するかは 現在、検討中である。 試みに、注釈の例を作成してみた</description>
+      <description>前書き 注釈の試作 注釈をどのように作成するか、さらに 作成した注釈をどのように公表するかは 現在、検討中である。 試みに、注釈の例を作成してみた。 ご</description>
     </item>
     
     <item>
@@ -175,7 +179,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/notes-output/1/</guid>
-      <description>前提 # TeX Liveが使えるように設定しておく。 花園明朝の設定 # 花園フォント # 花園明朝のフォントをパソコンにインストールしておく。 ブラウザでの確</description>
+      <description>前提 TeX Liveが使えるように設定しておく。 花園明朝の設定 花園フォント 花園明朝のフォントをパソコンにインストールしておく。 ブラウザでの確認 たと</description>
     </item>
     
     <item>
@@ -184,7 +188,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/notes-output/2/</guid>
-      <description>GlyphWikiの設定 # BXglyphwiki パッケージバンドル # 花園フォントをLuaLaTeXで使うには、 BXglyphwiki パッケージバンドルを参考にする。 toyjackに</description>
+      <description>GlyphWikiの設定 BXglyphwiki パッケージバンドル 花園フォントをLuaLaTeXで使うには、 BXglyphwiki パッケージバンドルを参考にする。 toyjackによる</description>
     </item>
     
     <item>
@@ -193,7 +197,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/notes-output/3/</guid>
-      <description>sfkanbun.styの設定 # 訓点資料用スタイル・ファイル（kunten2e.sty）は、 upLaTeXであれば使えるが、 LuaLaTeX</description>
+      <description>sfkanbun.styの設定 訓点資料用スタイル・ファイル（kunten2e.sty）は、 upLaTeXであれば使えるが、 LuaLaTeXで</description>
     </item>
     
     <item>
@@ -202,7 +206,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/notes-output/4/</guid>
-      <description>VS CodeとTeX Live # VS Code (Visual Studio Code) はMicrosoftが 開発しているWindows、Linux、macOS、web用のソースコードエディタであ</description>
+      <description>VS CodeとTeX Live VS Code (Visual Studio Code) はMicrosoftが 開発しているWindows、Linux、macOS、web用のソースコードエディタである</description>
     </item>
     
     <item>
@@ -211,7 +215,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/notes-output/5/</guid>
-      <description>よく使うオンラインツールのリンク # Kanji Database Project 漢字データベースプロジェクト CHISE IDS find 漢字検索 HNG単字検索 GlyphWiki グリフウィキ Han Morphism System Ver.0.3.1 篇韻データベース The SAT D</description>
+      <description>よく使うオンラインツールのリンク Kanji Database Project 漢字データベースプロジェクト CHISE IDS find 漢字検索 HNG単字検索 GlyphWiki グリフウィキ Han Morphism System Ver.0.3.1 篇韻データベース The SAT Da</description>
     </item>
     
     <item>
@@ -229,7 +233,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/hidden/</guid>
-      <description> This page is hidden in menu # </description>
+      <description>This page is hidden in menu </description>
     </item>
     
   </channel>

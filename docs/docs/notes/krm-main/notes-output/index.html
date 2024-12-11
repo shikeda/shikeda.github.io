@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="はじめに # LuaTeX &#43; 花園明朝 &#43; GlyphWiki &#43; sfkanbun.sty の環境で古辞書の翻刻と注釈の組版を行う方法をまとめる。 LuaTeXはTeX Live、エディターはVS Codeを">
+<meta name="description" content="はじめに LuaTeX &#43; 花園明朝 &#43; GlyphWiki &#43; sfkanbun.sty の環境で古辞書の翻刻と注釈の組版を行う方法をまとめる。 LuaTeXはTeX Live、エディターはVS Codeを 使">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="翻刻・注釈の組版の設定" />
 <meta property="og:description" content="" />
@@ -13,9 +13,9 @@
 <title>翻刻・注釈の組版の設定 | HDIC project</title>
 <link rel="manifest" href="https://shikeda.github.io/manifest.json">
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.6eb5127b53a7b9e30bc9b0345e59b9eb9be0fe11601dbf6585de6fe5a1392270.js" integrity="sha256-brUSe1OnueMLybA0Xlm565vg/hFgHb9lhd5v5aE5InA=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.4b35aa2550fa99e42d178598d94375891647621cc65d94e111a3274ea2970c08.js" integrity="sha256-SzWqJVD6meQtF4WY2UN1iRZHYhzGXZThEaMnTqKXDAg=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://shikeda.github.io/docs/notes/krm-main/notes-output/index.xml" title="HDIC project" />
 <!--
 Made with Book Theme
@@ -479,7 +479,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
 
 
  
@@ -525,19 +525,13 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h2 id="はじめに">
-  はじめに
-  <a class="anchor" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">#</a>
-</h2>
+  <article class="markdown"><h2 id="はじめに">はじめに</h2>
 <p>LuaTeX + 花園明朝 + GlyphWiki + sfkanbun.sty
 の環境で古辞書の翻刻と注釈の組版を行う方法をまとめる。</p>
 <p>LuaTeXはTeX Live、エディターはVS Codeを
 使うことを推奨する。TeX LiveとVS Codeのインストールから
 使い方までは、Webに多数出ているので、省略する。</p>
-<h2 id="翻刻注釈の組版">
-  翻刻・注釈の組版
-  <a class="anchor" href="#%e7%bf%bb%e5%88%bb%e6%b3%a8%e9%87%88%e3%81%ae%e7%b5%84%e7%89%88">#</a>
-</h2>
+<h2 id="翻刻注釈の組版">翻刻・注釈の組版</h2>
 <p>作成した翻刻と注釈は、Webで表示したり、
 検索したりすことができる。</p>
 <p>それとは別にWebの内容を著作の形で見やすく組版する
@@ -546,10 +540,7 @@ https://github.com/alex-shpak/hugo-book
 これを適切なフォーマットに変換することで対応する。</p>
 <p>ここではLuaLaTeXを使った方法について、備忘録として
 記載しておく。</p>
-<h2 id="組版ソフトの条件">
-  組版ソフトの条件
-  <a class="anchor" href="#%e7%b5%84%e7%89%88%e3%82%bd%e3%83%95%e3%83%88%e3%81%ae%e6%9d%a1%e4%bb%b6">#</a>
-</h2>
+<h2 id="組版ソフトの条件">組版ソフトの条件</h2>
 <p>古辞書や訓点資料は、難しい漢字が多く、
 割注、傍訓など本文が複雑である。</p>
 <p>難字の表示・印刷は、次の二つを
@@ -610,7 +601,8 @@ bxglypwiki.styを使えばよいだろう。</p>
 
 
 
-  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+  <script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script>
 
 
  

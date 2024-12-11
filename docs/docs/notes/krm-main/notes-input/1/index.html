@@ -3,21 +3,19 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="項目の構造と注文数の概略を示し、一つの 項目を例に説明しながら、注釈作成の基本方針を示す。 項目の構造と注文数 # 項目は掲出字と注文からなる。 注文">
+<meta name="description" content="項目の構造と注文数の概略を示し、一つの 項目を例に説明しながら、注釈作成の基本方針を示す。 項目の構造と注文数 項目は掲出字と注文からなる。 注文は">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="基本方針" />
-<meta property="og:description" content="項目の構造と注文数の概略を示し、一つの 項目を例に説明しながら、注釈作成の基本方針を示す。 項目の構造と注文数 # 項目は掲出字と注文からなる。 注文" />
+<meta property="og:description" content="項目の構造と注文数の概略を示し、一つの 項目を例に説明しながら、注釈作成の基本方針を示す。 項目の構造と注文数 項目は掲出字と注文からなる。 注文は" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://shikeda.github.io/docs/notes/krm-main/notes-input/1/" /><meta property="article:section" content="docs" />
-
-
+<meta property="og:url" content="https://shikeda.github.io/docs/notes/krm-main/notes-input/1/" />
 
 <title>基本方針 | HDIC project</title>
 <link rel="manifest" href="https://shikeda.github.io/manifest.json">
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.6eb5127b53a7b9e30bc9b0345e59b9eb9be0fe11601dbf6585de6fe5a1392270.js" integrity="sha256-brUSe1OnueMLybA0Xlm565vg/hFgHb9lhd5v5aE5InA=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.4b35aa2550fa99e42d178598d94375891647621cc65d94e111a3274ea2970c08.js" integrity="sha256-SzWqJVD6meQtF4WY2UN1iRZHYhzGXZThEaMnTqKXDAg=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -480,7 +478,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
 
 
  
@@ -540,10 +538,7 @@ https://github.com/alex-shpak/hugo-book
       
   <article class="markdown"><p>項目の構造と注文数の概略を示し、一つの
 項目を例に説明しながら、注釈作成の基本方針を示す。</p>
-<h2 id="項目の構造と注文数">
-  項目の構造と注文数
-  <a class="anchor" href="#%e9%a0%85%e7%9b%ae%e3%81%ae%e6%a7%8b%e9%80%a0%e3%81%a8%e6%b3%a8%e6%96%87%e6%95%b0">#</a>
-</h2>
+<h2 id="項目の構造と注文数">項目の構造と注文数</h2>
 <p>項目は<strong>掲出字</strong>と<strong>注文</strong>からなる。</p>
 <p>注文は、さらに<strong>音注</strong>、<strong>漢文義注</strong>、
 <strong>和訓</strong>、
@@ -577,14 +572,8 @@ graph LR
     C-->H(その他)---O[約1,300]
 </p>
 
-<h2 id="本文読解">
-  本文読解
-  <a class="anchor" href="#%e6%9c%ac%e6%96%87%e8%aa%ad%e8%a7%a3">#</a>
-</h2>
-<h3 id="項目の例">
-  項目の例
-  <a class="anchor" href="#%e9%a0%85%e7%9b%ae%e3%81%ae%e4%be%8b">#</a>
-</h3>
+<h2 id="本文読解">本文読解</h2>
+<h3 id="項目の例">項目の例</h3>
 <p>「覲」を例にして項目の内容を見てみよう。</p>
 <pre><code>掲出字：覲
 注文：音僅(R)　ミル(LH)　マミユ(HLH)　和後ン(@L)
@@ -596,10 +585,7 @@ graph LR
 </code></pre>
 <p>この項目では、一つの掲出字「覲」に対して、音注が二つ、和訓が二つ記載されている。</p>
 <p>以下、掲出字、音注、和訓の順に若干の解説を加える。</p>
-<h3 id="掲出字">
-  掲出字
-  <a class="anchor" href="#%e6%8e%b2%e5%87%ba%e5%ad%97">#</a>
-</h3>
+<h3 id="掲出字">掲出字</h3>
 <p>掲出字は「覲」と翻刻したが、原文の字形をGlyphWikiで
 再現すると、<img src="https://glyphwiki.org/glyph/hdic-tanki01_hkrm-02081630.50px.png" alt="覲" />になっている。</p>
 <p>「覲」のGlypWikiの情報は<a href="https://glyphwiki.org/wiki/u50c5">https://glyphwiki.org/wiki/u50c5</a>に記載されている。そこには様々なグリフが登録されているので、
@@ -612,24 +598,15 @@ graph LR
 <p>しかし、テキストベースの注釈作成では、読みにくくなるので、 IDSを使った方法が現実的であろう。
 先の<img src="https://glyphwiki.org/glyph/hdic-tanki01_hkrm-02081630.50px.png" alt="覲" />は
 ⿰⿳艹口土見のように示す。</p>
-<h3 id="音注の検討">
-  音注の検討
-  <a class="anchor" href="#%e9%9f%b3%e6%b3%a8%e3%81%ae%e6%a4%9c%e8%a8%8e">#</a>
-</h3>
-<h4 id="広韻">
-  広韻
-  <a class="anchor" href="#%e5%ba%83%e9%9f%bb">#</a>
-</h4>
+<h3 id="音注の検討">音注の検討</h3>
+<h4 id="広韻">広韻</h4>
 <p>「覲」は『広韻』（以下、広韻と表記）の去声震韻に掲出され、義注と「見也」とし、
 小韻「僅」に「渠遴切」と記される。</p>
 <p>「覲」を例にすると、注釈としては次の二つの記載方法がある。</p>
 <pre><code>1. 音注のみを示す場合：「覲」は広韻に「渠遴切」（去声震韻、僅）とあり。
 2. 音注義注を示す場合：「覲」は広韻に「見也」（去声震韻、僅：渠遴切）とあり。
 </code></pre>
-<h4 id="正音">
-  正音
-  <a class="anchor" href="#%e6%ad%a3%e9%9f%b3">#</a>
-</h4>
+<h4 id="正音">正音</h4>
 <p>観智院本の最初の音注は、同音字注で「音僅(R)」と記される。
 これは広韻去声震韻の小韻字「僅」に合致する。
 Rは去声を示す符号であり、声調も一致している。</p>
@@ -639,10 +616,7 @@ Rは去声を示す符号であり、声調も一致している。</p>
 のように音注のみを示せば十分であろう。</p>
 <p>なお「音」字は、原文では略字の「亠」が用いられているが、通行の字体に
 直して示す方針とする。</p>
-<h4 id="和音">
-  和音
-  <a class="anchor" href="#%e5%92%8c%e9%9f%b3">#</a>
-</h4>
+<h4 id="和音">和音</h4>
 <p>もう一つの音注は「和後ン(@L)」とあり、和音が「後ン(@L)」であることを
 示す。和音の「和」は、原文では略字「禾」が用いられているが、これもまた
 通行の字体に直して示す方針とする。</p>
@@ -666,29 +640,20 @@ SAT（大正新脩大蔵経データベース）で確認すると、「覲」�
 法華経と大般若経での出現の有無を記し、
 石山寺本『大般若経字抄』か『大般若経音訓』逸文の内容を
 記載し、考証を加える程度であろう。</p>
-<h3 id="和訓の検討">
-  和訓の検討
-  <a class="anchor" href="#%e5%92%8c%e8%a8%93%e3%81%ae%e6%a4%9c%e8%a8%8e">#</a>
-</h3>
+<h3 id="和訓の検討">和訓の検討</h3>
 <p>和訓は「ミル(LH)」と「マミユ(HLH)」の二つが記載される。</p>
 <p>「覲」は説文解字・見部に「諸侯秋朝曰覲，勞王事。从見堇聲」
 （諸侯、秋に朝するを覲と曰う、王事に労するなり、見に
 従い、堇の聲）とあって、謁見する、引見する、の意味の「ミル」である。</p>
 <p>周禮·春官・大宗伯に「春見曰朝、夏見曰宗、秋見曰覲、冬見曰遇、時見曰會、殷見曰同。」（康煕字典による）とあるのが参考になる。</p>
-<h2 id="注釈の作成">
-  注釈の作成
-  <a class="anchor" href="#%e6%b3%a8%e9%87%88%e3%81%ae%e4%bd%9c%e6%88%90">#</a>
-</h2>
+<h2 id="注釈の作成">注釈の作成</h2>
 <p>以上のような内容を注釈として記載して行くのが理想である。
 しかし、約32,600項目と約86,800注文、合計約119,400の要素について
 考証を加えるには多大の時間と労力を要する。</p>
 <p>研究の蓄積が充実しているのは、第一に和訓、第二に音注である。
 字体注と漢文義注に関する研究は少ない。
 そこで和訓については、次のページにて諸先学の研究成果を取り込むことを手始めに行うこととする。</p>
-<h3 id="和訓の注釈">
-  和訓の注釈
-  <a class="anchor" href="#%e5%92%8c%e8%a8%93%e3%81%ae%e6%b3%a8%e9%87%88">#</a>
-</h3>
+<h3 id="和訓の注釈">和訓の注釈</h3>
 <p>声点が施された和訓は言及のある論考が多い。また、
 文選訓のように、出典を特定できる和訓も少なくない。</p>
 <p>次に掲げる著作は、和訓の語形の認定に関して、必ず参照すべきものである。
@@ -704,10 +669,7 @@ SAT（大正新脩大蔵経データベース）で確認すると、「覲」�
 <p>&ndash; <strong>色葉略注</strong> 佐藤喜代治『色葉字類抄略注』（上・中・下）明治書院、1995</p>
 <p>&ndash; <strong>訓点語辞典</strong> 吉田金彦・築島裕・石塚晴通・月本雅幸『訓点語辞典』東京堂出版、2001</p>
 <p>同訓の漢字が多い場合は、主要なものに限り、記載した。</p>
-<h3 id="音注の注釈">
-  音注の注釈
-  <a class="anchor" href="#%e9%9f%b3%e6%b3%a8%e3%81%ae%e6%b3%a8%e9%87%88">#</a>
-</h3>
+<h3 id="音注の注釈">音注の注釈</h3>
 <p>音注については、広韻と照合することが第一に必要である。それを土台として
 声点、仮名音注、和音注、呉音注を分析することとする。広韻に見えない掲出も
 多いので、『篆隷万象名義』、原本『玉篇』残巻、宋本『玉篇』、『龍龕手鑑』、『一切経音義』
@@ -728,7 +690,8 @@ SAT（大正新脩大蔵経データベース）で確認すると、「覲」�
 
 
 
-  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+  <script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script>
 
 
  

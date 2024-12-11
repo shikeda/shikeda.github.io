@@ -5,14 +5,18 @@
     <link>https://shikeda.github.io/docs/notes/krm-main/def-input/</link>
     <description>Recent content in 注文データ入力の詳細 on HDIC project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>jp</language><atom:link href="https://shikeda.github.io/docs/notes/krm-main/def-input/index.xml" rel="self" type="application/rss+xml" />
+    <language>jp</language>
+    
+	<atom:link href="https://shikeda.github.io/docs/notes/krm-main/def-input/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>基本方針</title>
       <link>https://shikeda.github.io/docs/notes/krm-main/def-input/1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/1/</guid>
-      <description>基本方針 # 字体注、音注、義注、和訓、掲出字補注に共通する事項は次のとおりである。 書字方向 # 説明 縦書きを横書きに改める。 字体 # 説明 漢字と仮名は</description>
+      <description>基本方針 字体注、音注、義注、和訓、掲出字補注に共通する事項は次のとおりである。 書字方向 説明 縦書きを横書きに改める。 字体 説明 漢字と仮名は原則と</description>
     </item>
     
     <item>
@@ -21,7 +25,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/2/</guid>
-      <description>字体注 # 字体の認定 # 説明 字体注原文の異体字は掲出字の字体との関係を慎重に検討した上で原文に近い字体とするか通行の字体とするかを判断する。 字体</description>
+      <description>字体注 字体の認定 説明 字体注原文の異体字は掲出字の字体との関係を慎重に検討した上で原文に近い字体とするか通行の字体とするかを判断する。 字体注記</description>
     </item>
     
     <item>
@@ -30,7 +34,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/3/</guid>
-      <description>音注 # 音注の種類 # 説明 音注は、反切（fanqie）、類音注（similar pronunciation annotation by character）、仮名音注（pronunciation annotation</description>
+      <description>音注 音注の種類 説明 音注は、反切（fanqie）、類音注（similar pronunciation annotation by character）、仮名音注（pronunciation annotation by k</description>
     </item>
     
     <item>
@@ -39,7 +43,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/4/</guid>
-      <description>義注(漢文意味注) # 異体字の処理 # 説明 原文の略字と異体字は通行の字体に改める。 入力例 ヽ --&amp;gt; 也 省略符号 # 説明 省略符号の「｜」符は、長音符（ー, U</description>
+      <description>義注(漢文意味注) 異体字の処理 説明 原文の略字と異体字は通行の字体に改める。 入力例 ヽ --&amp;gt; 也 省略符号 説明 省略符号の「｜」符は、長音符（ー, U+30</description>
     </item>
     
     <item>
@@ -48,7 +52,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</guid>
-      <description>和訓 # 小字の片仮名 # 説明 片仮名に付された小字の片仮名（和訓の活用形・及び異形態など）は大字の部分と小字の部分をハイフンマイナス（-, U+00</description>
+      <description>和訓 小字の片仮名 説明 片仮名に付された小字の片仮名（和訓の活用形・及び異形態など）は大字の部分と小字の部分をハイフンマイナス（-, U+002D</description>
     </item>
     
     <item>
@@ -57,7 +61,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/6/</guid>
-      <description>その他 # 「その他」では、掲出字補注について説明する。 掲出字補注とは 掲出字の周囲に施された注記を指す。 掲出字の声点と片仮名音注 # 説明 掲出字に施</description>
+      <description>その他 「その他」では、掲出字補注について説明する。 掲出字補注とは 掲出字の周囲に施された注記を指す。 掲出字の声点と片仮名音注 説明 掲出字に施され</description>
     </item>
     
   </channel>

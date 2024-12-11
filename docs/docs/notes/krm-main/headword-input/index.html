@@ -3,21 +3,19 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="掲出字データ入力の詳細 # ここでは掲出字の入力の方法の詳細を説明する。 なお、1.2 項目データの入力での説明を繰り返したところがある。 Unico">
+<meta name="description" content="掲出字データ入力の詳細 ここでは掲出字の入力の方法の詳細を説明する。 なお、1.2 項目データの入力での説明を繰り返したところがある。 Unicod">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="掲出字データ入力の詳細" />
-<meta property="og:description" content="掲出字データ入力の詳細 # ここでは掲出字の入力の方法の詳細を説明する。 なお、1.2 項目データの入力での説明を繰り返したところがある。 Unico" />
+<meta property="og:description" content="掲出字データ入力の詳細 ここでは掲出字の入力の方法の詳細を説明する。 なお、1.2 項目データの入力での説明を繰り返したところがある。 Unicod" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://shikeda.github.io/docs/notes/krm-main/headword-input/" /><meta property="article:section" content="docs" />
-
-
+<meta property="og:url" content="https://shikeda.github.io/docs/notes/krm-main/headword-input/" />
 
 <title>掲出字データ入力の詳細 | HDIC project</title>
 <link rel="manifest" href="https://shikeda.github.io/manifest.json">
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.6eb5127b53a7b9e30bc9b0345e59b9eb9be0fe11601dbf6585de6fe5a1392270.js" integrity="sha256-brUSe1OnueMLybA0Xlm565vg/hFgHb9lhd5v5aE5InA=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.4b35aa2550fa99e42d178598d94375891647621cc65d94e111a3274ea2970c08.js" integrity="sha256-SzWqJVD6meQtF4WY2UN1iRZHYhzGXZThEaMnTqKXDAg=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -480,7 +478,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
 
 
  
@@ -538,16 +536,10 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h2 id="掲出字データ入力の詳細">
-  掲出字データ入力の詳細
-  <a class="anchor" href="#%e6%8e%b2%e5%87%ba%e5%ad%97%e3%83%87%e3%83%bc%e3%82%bf%e5%85%a5%e5%8a%9b%e3%81%ae%e8%a9%b3%e7%b4%b0">#</a>
-</h2>
+  <article class="markdown"><h2 id="掲出字データ入力の詳細">掲出字データ入力の詳細</h2>
 <p>ここでは掲出字の入力の方法の詳細を説明する。
 なお、1.2 項目データの入力での説明を繰り返したところがある。</p>
-<h3 id="unicodeによる符号化">
-  Unicodeによる符号化
-  <a class="anchor" href="#unicode%e3%81%ab%e3%82%88%e3%82%8b%e7%ac%a6%e5%8f%b7%e5%8c%96">#</a>
-</h3>
+<h3 id="unicodeによる符号化">Unicodeによる符号化</h3>
 <p><strong>説明</strong></p>
 <p>およそ次の方法によりUnicodeによる符号化を行う。</p>
 <ul>
@@ -576,42 +568,34 @@ IDS漢字構成記述文字列（Ideographic Description Sequence）
 <p>5は再とその異体字が2種使われており、IDSで表現しがたく、βとγを用いて簡略に示す例である。</p>
 <p>6の⿰日重はCJK統合漢字拡張EのU+2C047(𬁇)にあるが、
 ユーザの環境により表示されないことがある。</p>
-<h3 id="glyphwikiの利用">
-  GlyphWikiの利用
-  <a class="anchor" href="#glyphwiki%e3%81%ae%e5%88%a9%e7%94%a8">#</a>
-</h3>
+<h3 id="glyphwikiの利用">GlyphWikiの利用</h3>
 <p>上地宏一氏のGlyphWikiで原文に
 近似した明朝体の字形を表示するために
 GlyphWiki（上地宏一氏）を利用する。</p>
 <p>次にはmarkdownの記法で示す。</p>
 <p><strong>入力例</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">正β</span>](<span style="color:#a6e22e">https://glyphwiki.org/glyph/hdic_hkrm-01075140.png</span>)
-</span></span></code></pre></div><p>とすると、次のように表示される。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">![<span style="color:#f92672">正β</span>](<span style="color:#a6e22e">https://glyphwiki.org/glyph/hdic_hkrm-01075140.png</span>)
+</code></pre></div><p>とすると、次のように表示される。</p>
 <p><img src="https://glyphwiki.org/glyph/hdic_hkrm-01075140.png" alt="正β" /></p>
 <p>これでは文字サイズが大きいので、小さいサイズを使う場合には</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">正β</span>](<span style="color:#a6e22e">https://glyphwiki.org/glyph/hdic_hkrm-01075140.50px.png</span>)
-</span></span></code></pre></div><p>とすれば、次のように表示される。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">![<span style="color:#f92672">正β</span>](<span style="color:#a6e22e">https://glyphwiki.org/glyph/hdic_hkrm-01075140.50px.png</span>)
+</code></pre></div><p>とすれば、次のように表示される。</p>
 <p><img src="https://glyphwiki.org/glyph/hdic_hkrm-01075140.50px.png" alt="正β" /></p>
 <p>なお、ファイル名hdic_hkrm-01075140.pngは、HDICデータベースの
 KRM(観智院本類聚名義抄)の01075140であることを表している。</p>
 <p>01075140の01は仏上、
 075は75ページ、140は1行4段目の単字項目であることを示している。</p>
 <p>サイズを指定して
-<figure class="center"><img src="https://glyphwiki.org/glyph/hdic_hkrm-01075140.png" width="24" height="24"/>
+<figure class="center">
+    <img src="https://glyphwiki.org/glyph/hdic_hkrm-01075140.png" width="24" height="24"/> 
 </figure>
 
 のように表示する方法もあるが、説明は省略する。</p>
-<h3 id="虫損判読不能">
-  虫損・判読不能
-  <a class="anchor" href="#%e8%99%ab%e6%90%8d%e5%88%a4%e8%aa%ad%e4%b8%8d%e8%83%bd">#</a>
-</h3>
+<h3 id="虫損判読不能">虫損・判読不能</h3>
 <p><strong>説明</strong></p>
 <p>虫損（insect holes）で判読できない字や点画が複雑すぎてIDSの表現が困難な字を「■」（黒い四角, U+25A0）として入力する。虫損が一部で判読可能な字は「□(某)」のように示す。</p>
 <p><strong>入力例</strong></p>
-<h3 id="複字形式の掲出字">
-  複字形式の掲出字
-  <a class="anchor" href="#%e8%a4%87%e5%ad%97%e5%bd%a2%e5%bc%8f%e3%81%ae%e6%8e%b2%e5%87%ba%e5%ad%97">#</a>
-</h3>
+<h3 id="複字形式の掲出字">複字形式の掲出字</h3>
 <p><strong>説明</strong></p>
 <p>複字形式の掲出字の異体字併記と熟語は、掲出字を「／」（全角スラッシュ, U+FF0F）で区切って入力する。</p>
 <p><strong>入力例</strong></p>
@@ -619,28 +603,19 @@ KRM(観智院本類聚名義抄)の01075140であることを表している。<
 熟語：一／人
 熟語：不／良／人
 </code></pre>
-<h3 id="省略符号">
-  省略符号
-  <a class="anchor" href="#%e7%9c%81%e7%95%a5%e7%ac%a6%e5%8f%b7">#</a>
-</h3>
+<h3 id="省略符号">省略符号</h3>
 <p><strong>説明</strong></p>
 <p>熟語の掲出字に見える省略符号（omission mark）「｜」は、被注字（annotated headword, 被釋字）或いは前掲する掲出字を代用する時に使用される符号で、「ー」（長音符, U+30FC）を用いて入力し、その後の「（）」（全角括弧）内に該当字を入力する。</p>
 <p><strong>入力例</strong></p>
 <pre><code>五／ー（人）、...、真／人、漁／ー（人）、海／ー（人）
 </code></pre>
-<h3 id="踊り字">
-  踊り字
-  <a class="anchor" href="#%e8%b8%8a%e3%82%8a%e5%ad%97">#</a>
-</h3>
+<h3 id="踊り字">踊り字</h3>
 <p><strong>説明</strong></p>
 <p>複字形式の掲出字に使われる踊り字（repetition mark, 疊字符）は「〻」（二の字点, U+303B）を用いることとし、「々」（同の字点, U+3005）を用いない。</p>
 <p><strong>入力例</strong></p>
 <pre><code>曽／ー（祖）／〻（母）
 </code></pre>
-<h3 id="脱字">
-  脱字
-  <a class="anchor" href="#%e8%84%b1%e5%ad%97">#</a>
-</h3>
+<h3 id="脱字">脱字</h3>
 <p><strong>説明</strong></p>
 <p>脱字（omitted character, 脫字）であることが明らかな掲出字は、「［］」（全角の角括弧）に入れて示す。</p>
 <p><strong>入力例</strong></p>
@@ -661,10 +636,7 @@ KRM(観智院本類聚名義抄)の01075140であることを表している。<
 樹／[神]
 革／[葱]
 </code></pre>
-<h3 id="誤字">
-  誤字
-  <a class="anchor" href="#%e8%aa%a4%e5%ad%97">#</a>
-</h3>
+<h3 id="誤字">誤字</h3>
 <p><strong>説明</strong>
 誤字（miswritten character, 誤字）であることが明らかな掲出字は、
 校訂済みの字体をEntryに、原文の字体をEntry_originalに示し、備考欄に校訂の根拠を示す。</p>
@@ -673,10 +645,7 @@ KRM(観智院本類聚名義抄)の01075140であることを表している。<
 向／後  〇／ー（彴）    掲出字は「向後」とすべきを誤る。岡田研究193-194頁に「ー」使用は高山寺本が適切との指摘あり。
 姡  活  掲出字は誤写。高山寺本・蓮成院本・西念寺本「姡」に作るにより改める。
 </code></pre>
-<h3 id="本文訂正の符号">
-  本文訂正の符号
-  <a class="anchor" href="#%e6%9c%ac%e6%96%87%e8%a8%82%e6%ad%a3%e3%81%ae%e7%ac%a6%e5%8f%b7">#</a>
-</h3>
+<h3 id="本文訂正の符号">本文訂正の符号</h3>
 <p><strong>説明</strong></p>
 <p>本文訂正の符号は、転倒符、見消符、補入符がある。</p>
 <ul>
@@ -694,10 +663,7 @@ KRM(観智院本類聚名義抄)の01075140であることを表している。<
 拻  不定「ウシヽ歟」相撃    正宗索引「ウシヽ」に「ウシヽはホシヽの誤か、完の草ホシヽと見たるか言の誤なり」、「フ」に「字鏡に音灰不言相撃とある不字か。これは研究もの」。草川和訓集成「ウシヽ」で採録。池田按：原文「フ定相撃」の「定」の左に朱見消して右に朱で「ウシヽ歟」を記載。漢字を仮名と誤認して案語を加えたもの。
 倩  シヘタク    「ヘ」は「タ」の右に補入。正宗索引「シヘタク」、正宗索引補正「シタ-へリ」（シタリのへの右に小字へ）。草川和訓集成「シヘタク」で立項、高山寺本・西念寺本「シヘタク」とする。
 </code></pre>
-<h3 id="掲出字に施された声点等の註記">
-  掲出字に施された声点等の註記
-  <a class="anchor" href="#%e6%8e%b2%e5%87%ba%e5%ad%97%e3%81%ab%e6%96%bd%e3%81%95%e3%82%8c%e3%81%9f%e5%a3%b0%e7%82%b9%e7%ad%89%e3%81%ae%e8%a8%bb%e8%a8%98">#</a>
-</h3>
+<h3 id="掲出字に施された声点等の註記">掲出字に施された声点等の註記</h3>
 <p><strong>説明</strong></p>
 <p>掲出字に施された声点・仮名字音、傍訓、漢文注記、異本注記は、「掲出字補注」とし、それぞれ◎、⦿、◇、▲を付して示す。</p>
 <p><strong>入力例</strong></p>
@@ -707,10 +673,7 @@ KRM(観智院本類聚名義抄)の01075140であることを表している。<
 <p>⿰虫⿱龶囬／(中略)／虱／(以下略)   ⦿虱「キサヽ」　十四字俗　ハへ　シラミ
 朿  ◇朿「来歟」　音刺
 ⿺辶⿱一誰  ▲⿺辶⿱一誰「羅カ」　メクル</p>
-<h3 id="複字形式の掲出字id">
-  複字形式の掲出字ID
-  <a class="anchor" href="#%e8%a4%87%e5%ad%97%e5%bd%a2%e5%bc%8f%e3%81%ae%e6%8e%b2%e5%87%ba%e5%ad%97id">#</a>
-</h3>
+<h3 id="複字形式の掲出字id">複字形式の掲出字ID</h3>
 <p><strong>説明</strong></p>
 <p>複字形式の掲出字IDは一番目の掲出字IDを代表として示し、二番目以降の掲出字IDは公開するCSV形式のデータでは省略する。</p>
 <p>掲出項目「AB」の「A」の掲出字IDがK08084411、「B」の掲出字IDがK08084412とすると、公開するTSV形式のデータでは「A」の掲出字IDのK08084411だけ表示している。</p>
@@ -730,7 +693,8 @@ KRM(観智院本類聚名義抄)の01075140であることを表している。<
 
 
 
-  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+  <script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script>
 
 
  

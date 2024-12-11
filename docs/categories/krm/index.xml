@@ -6,7 +6,11 @@
     <description>Recent content in KRM on HDIC project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Thu, 06 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://shikeda.github.io/categories/krm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Jan 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shikeda.github.io/categories/krm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>KRM本文翻刻のサイトを開設</title>
       <link>https://shikeda.github.io/posts/krmnotes001/</link>

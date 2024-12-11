@@ -3,21 +3,19 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="GlyphWikiの設定 # BXglyphwiki パッケージバンドル # 花園フォントをLuaLaTeXで使うには、 BXglyphwiki パッケージバンドルを参考にする。 toyjackに">
+<meta name="description" content="GlyphWikiの設定 BXglyphwiki パッケージバンドル 花園フォントをLuaLaTeXで使うには、 BXglyphwiki パッケージバンドルを参考にする。 toyjackによる">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="GlyphWikiの設定" />
-<meta property="og:description" content="GlyphWikiの設定 # BXglyphwiki パッケージバンドル # 花園フォントをLuaLaTeXで使うには、 BXglyphwiki パッケージバンドルを参考にする。 toyjackに" />
+<meta property="og:description" content="GlyphWikiの設定 BXglyphwiki パッケージバンドル 花園フォントをLuaLaTeXで使うには、 BXglyphwiki パッケージバンドルを参考にする。 toyjackによる" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://shikeda.github.io/docs/notes/krm-main/notes-output/2/" /><meta property="article:section" content="docs" />
-
-
+<meta property="og:url" content="https://shikeda.github.io/docs/notes/krm-main/notes-output/2/" />
 
 <title>GlyphWikiの設定 | HDIC project</title>
 <link rel="manifest" href="https://shikeda.github.io/manifest.json">
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.6eb5127b53a7b9e30bc9b0345e59b9eb9be0fe11601dbf6585de6fe5a1392270.js" integrity="sha256-brUSe1OnueMLybA0Xlm565vg/hFgHb9lhd5v5aE5InA=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.4b35aa2550fa99e42d178598d94375891647621cc65d94e111a3274ea2970c08.js" integrity="sha256-SzWqJVD6meQtF4WY2UN1iRZHYhzGXZThEaMnTqKXDAg=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -480,7 +478,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
 
 
  
@@ -530,74 +528,62 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h2 id="glyphwikiの設定">
-  GlyphWikiの設定
-  <a class="anchor" href="#glyphwiki%e3%81%ae%e8%a8%ad%e5%ae%9a">#</a>
-</h2>
-<h3 id="bxglyphwiki-パッケージバンドル">
-  BXglyphwiki パッケージバンドル
-  <a class="anchor" href="#bxglyphwiki-%e3%83%91%e3%83%83%e3%82%b1%e3%83%bc%e3%82%b8%e3%83%90%e3%83%b3%e3%83%89%e3%83%ab">#</a>
-</h3>
+  <article class="markdown"><h2 id="glyphwikiの設定">GlyphWikiの設定</h2>
+<h3 id="bxglyphwiki-パッケージバンドル">BXglyphwiki パッケージバンドル</h3>
 <p>花園フォントをLuaLaTeXで使うには、
 <a href="https://github.com/zr-tex8r/BXglyphwiki">BXglyphwiki パッケージバンドル</a>を参考にする。</p>
 <p>toyjackによる<a href="https://github.com/toyjack/template_lualatex_wikiglyphwiki">テンプレートファイル</a>が出ている。</p>
-<h3 id="lualatexでbxglyphwikiを使うサンプルファイル">
-  LuaLaTeXでbxglyphwikiを使うサンプルファイル
-  <a class="anchor" href="#lualatex%e3%81%a7bxglyphwiki%e3%82%92%e4%bd%bf%e3%81%86%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab">#</a>
-</h3>
+<h3 id="lualatexでbxglyphwikiを使うサンプルファイル">LuaLaTeXでbxglyphwikiを使うサンプルファイル</h3>
 <p>次は、花園フォントに加えて、
 GlyphWikiの作字を使うサンプルファイル。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\documentclass</span>{jlreq}
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\usepackage</span>{luatexja-fontspec}
-</span></span><span style="display:flex;"><span><span style="color:#75715e">% BMPはHanaMinA, SIPはHanaMinB, ただし可能ならIPAexMincho
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">% で置き換える, という設定
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">\setmainjfont</span>[AltFont={
-</span></span><span style="display:flex;"><span>  {Range=&#34;20000-&#34;2FFFF, Font=HanaMinB},
-</span></span><span style="display:flex;"><span>  {Range=&#34;0080-&#34;FFFF, Font=IPAexMincho},
-</span></span><span style="display:flex;"><span>}]{HanaMinA}
-</span></span><span style="display:flex;"><span><span style="color:#75715e">% 花園明朝AFDKO版 2017-06-20
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">%%%%%%%%%%%%%%%% ここからがグリフウィキの設定
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">% グリフウィキを使うのにも必要
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">\usepackage</span><span style="color:#a6e22e">[luatex]</span>{graphicx}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">% グリフウィキで登録された漢字字形を利用，lualatexで使用
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">% \GWI{zihai-021005}
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">% texソース・ファイルと同じフォルダにbxglyphwiki.luaをおいておくこと
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">\usepackage</span><span style="color:#a6e22e">[luatex]</span>{bxglyphwiki}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\begin</span>{document}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>これはGlyphWikiの「壽 (u58fd)」の例。
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>(u58fd-g) (=zihai-024114)は<span style="color:#66d9ef">\GWI</span>{u58fd-g}、
-</span></span><span style="display:flex;"><span>(u58fd-itaiji-009)は<span style="color:#66d9ef">\GWI</span>{u58fd-itaiji-009}、
-</span></span><span style="display:flex;"><span>(u58fd-itaiji-010)は<span style="color:#66d9ef">\GWI</span>{u58fd-itaiji-010}
-</span></span><span style="display:flex;"><span>と表示される。
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\end</span>{document}
-</span></span></code></pre></div><p>うまくできているようなら、このサンプルファイルを
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-tex" data-lang="tex"><span style="color:#66d9ef">\documentclass</span>{jlreq}
+<span style="color:#66d9ef">\usepackage</span>{luatexja-fontspec}
+<span style="color:#75715e">% BMPはHanaMinA, SIPはHanaMinB, ただし可能ならIPAexMincho
+</span><span style="color:#75715e">% で置き換える, という設定
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">\setmainjfont</span>[AltFont={
+  {Range=&#34;20000-&#34;2FFFF, Font=HanaMinB},
+  {Range=&#34;0080-&#34;FFFF, Font=IPAexMincho},
+}]{HanaMinA}
+<span style="color:#75715e">% 花園明朝AFDKO版 2017-06-20
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">%%%%%%%%%%%%%%%% ここからがグリフウィキの設定
+</span><span style="color:#75715e">% グリフウィキを使うのにも必要
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">\usepackage</span><span style="color:#a6e22e">[luatex]</span>{graphicx}
+
+<span style="color:#75715e">% グリフウィキで登録された漢字字形を利用，lualatexで使用
+</span><span style="color:#75715e">% \GWI{zihai-021005}
+</span><span style="color:#75715e">% texソース・ファイルと同じフォルダにbxglyphwiki.luaをおいておくこと
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">\usepackage</span><span style="color:#a6e22e">[luatex]</span>{bxglyphwiki}
+
+<span style="color:#66d9ef">\begin</span>{document}
+
+これはGlyphWikiの「壽 (u58fd)」の例。
+
+(u58fd-g) (=zihai-024114)は<span style="color:#66d9ef">\GWI</span>{u58fd-g}、
+(u58fd-itaiji-009)は<span style="color:#66d9ef">\GWI</span>{u58fd-itaiji-009}、
+(u58fd-itaiji-010)は<span style="color:#66d9ef">\GWI</span>{u58fd-itaiji-010}
+と表示される。
+
+
+<span style="color:#66d9ef">\end</span>{document}
+</code></pre></div><p>うまくできているようなら、このサンプルファイルを
 適宜加工して行く。</p>
-<h3 id="注意点">
-  注意点
-  <a class="anchor" href="#%e6%b3%a8%e6%84%8f%e7%82%b9">#</a>
-</h3>
+<h3 id="注意点">注意点</h3>
 <p>言語学の番号付き例文を示すのに、gb4e.styがよく
 使われている。これは、
 同時に配布されているcgloss4e.styとともに使用する。
 しかし、bxglyphwiki.styとの相性が悪い。</p>
 <p>gb4e.styの使用を取りやめて、番号付き例文は、
 enumerate環境を使う。次はその例。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\begin</span>{enumerate}
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">\setcounter</span>{enumi}{5}
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">\item</span>　<span style="color:#66d9ef">\label</span>{ex:02-6}
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">\begin</span>{enumerate}
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">\item</span> 滂沲　（省略）　沱　類云正（図書寮本、水部、8頁、『類音決』を引用）<span style="color:#66d9ef">\label</span>{ex:02-6a}
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">\item</span> 潜潛　干云上谷下正（図書寮本、水部、13頁、「干」は『干禄字書』の略称、「谷」は「俗」の略字）<span style="color:#66d9ef">\label</span>{ex:02-6b}
-</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">\end</span>{enumerate}
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">\end</span>{enumerate}
-</span></span></code></pre></div><p>この例だと、(6)(6a)(6b)のように番号を対応させることができる。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-tex" data-lang="tex"><span style="color:#66d9ef">\begin</span>{enumerate}
+	<span style="color:#66d9ef">\setcounter</span>{enumi}{5}
+	<span style="color:#66d9ef">\item</span>　<span style="color:#66d9ef">\label</span>{ex:02-6}
+	<span style="color:#66d9ef">\begin</span>{enumerate}
+	<span style="color:#66d9ef">\item</span> 滂沲　（省略）　沱　類云正（図書寮本、水部、8頁、『類音決』を引用）<span style="color:#66d9ef">\label</span>{ex:02-6a}
+	<span style="color:#66d9ef">\item</span> 潜潛　干云上谷下正（図書寮本、水部、13頁、「干」は『干禄字書』の略称、「谷」は「俗」の略字）<span style="color:#66d9ef">\label</span>{ex:02-6b}
+	<span style="color:#66d9ef">\end</span>{enumerate}
+<span style="color:#66d9ef">\end</span>{enumerate}
+</code></pre></div><p>この例だと、(6)(6a)(6b)のように番号を対応させることができる。</p>
 </article>
  
       
@@ -614,7 +600,8 @@ enumerate環境を使う。次はその例。</p>
 
 
 
-  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+  <script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script>
 
 
  
