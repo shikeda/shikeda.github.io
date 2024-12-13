@@ -11,21 +11,66 @@
     
     
     <item>
-      <title>集計</title>
+      <title>掲出字</title>
       <link>https://shikeda.github.io/docs/notes/krm-main/progress/1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/progress/1/</guid>
-      <description>集計 掲出字 字体注 音注 義注 和訓</description>
+      <description>掲出字 かなり分かりにくいですが、 注釈データ入力の詳細 &amp;gt; 掲出字 &amp;gt; 掲出項目数 &amp;gt; 部首毎の掲出項目数と掲出字数のまとめ で見ることができます。 たどりに</description>
     </item>
     
     <item>
-      <title>和訓</title>
+      <title>注文</title>
       <link>https://shikeda.github.io/docs/notes/krm-main/progress/2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/progress/2/</guid>
+      <description>注文 注文種類 頻度集計 百分率 字体注 13,352 15.39% 音注 24,145 27.82% 義注 12,648 14.57% 和訓 35,381 40.77% その他～無注 1,253 1.44% 小計 86,779 100.00% 2024年12月12日現在（以下同）。 次には声点の有無の</description>
+    </item>
+    
+    <item>
+      <title>字体注</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/progress/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/progress/3/</guid>
+      <description>字体注 準備中。</description>
+    </item>
+    
+    <item>
+      <title>音注</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/progress/4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/progress/4/</guid>
+      <description>音注 準備中。</description>
+    </item>
+    
+    <item>
+      <title>義注</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/progress/5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/progress/5/</guid>
+      <description>義注 準備中。</description>
+    </item>
+    
+    <item>
+      <title>和訓</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/progress/6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/progress/6/</guid>
       <description>和訓 日国IDの付与状況 和訓数 総数 ID付与済 パーセント 仏上 4,104 3,475 84.67% 仏中 4,237 3,675 86.74% 仏下本 4,344 3,511 80.82% 仏下末 1,559 1,309 83.96% 法上 4,211 3,498 83.07% 法中 4,446 3,659 82.30% 法下 3,989 3,285 82.35% 僧上 3,994 3,364 84.23% 僧中</description>
+    </item>
+    
+    <item>
+      <title>その他</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/progress/7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/progress/7/</guid>
+      <description>その他</description>
     </item>
     
   </channel>
