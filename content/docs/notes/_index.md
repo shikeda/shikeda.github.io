@@ -109,4 +109,4 @@ The headwords are being processed in two ways. One is to input the headwords usi
 對於漢字字書的字頭部份，將計算機可處理的文字及從原文逐字截出的圖像做為對象進行數據化。對於對字音・字義・字形所進行説明的註釋的部份，則利用計算機可處理的文字進行輸入。
 
 ---------------
-© 2022  HDIC Database Project.  This work was supported by JSPS KAKENHI Grant Number 25370506, 16H03422, 19H00526.
+© 2022-2024  HDIC Database Project.  This work was supported by JSPS KAKENHI Grant Number 25370506, 16H03422, 19H00526, 23K17500.
