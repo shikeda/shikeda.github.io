@@ -68,10 +68,6 @@
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</loc>
-  </url>
-  
-  <url>
     <loc>https://shikeda.github.io/docs/notes/krm-main/notes-input/3/</loc>
   </url>
   
@@ -152,6 +148,34 @@
   </url>
   
   <url>
+    <loc>https://shikeda.github.io/docs/notes/krm-main/case-study/</loc>
+  </url>
+  
+  <url>
+    <loc>https://shikeda.github.io/docs/notes/krm-main/case-study/1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://shikeda.github.io/docs/notes/krm-main/case-study/2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://shikeda.github.io/docs/notes/krm-main/case-study/3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://shikeda.github.io/docs/notes/krm-main/case-study/4/</loc>
+  </url>
+  
+  <url>
+    <loc>https://shikeda.github.io/docs/notes/krm-main/case-study/5/</loc>
+  </url>
+  
+  <url>
+    <loc>https://shikeda.github.io/docs/notes/krm-main/case-study/6/</loc>
+  </url>
+  
+  <url>
     <loc>https://shikeda.github.io/docs/</loc>
     <lastmod>2022-01-09T00:00:00+00:00</lastmod>
   </url>
@@ -213,6 +237,10 @@
   
   <url>
     <loc>https://shikeda.github.io/docs/notes/hidden/</loc>
+  </url>
+  
+  <url>
+    <loc>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</loc>
   </url>
   
 </urlset>

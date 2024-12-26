@@ -111,15 +111,6 @@
     </item>
     
     <item>
-      <title>和訓</title>
-      <link>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</guid>
-      <description>和訓 小字の片仮名 説明 片仮名に付された小字の片仮名（和訓の活用形・及び異形態など）は大字の部分と小字の部分をハイフンマイナス（-, U+002D</description>
-    </item>
-    
-    <item>
       <title>字体注</title>
       <link>https://shikeda.github.io/docs/notes/krm-main/notes-input/3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -282,6 +273,60 @@
     </item>
     
     <item>
+      <title>事例研究1</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/case-study/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/case-study/1/</guid>
+      <description>和訓「ウゴク」の調査 池田証寿 2024年12月22日～26日 はじめに 観智院本『類聚名義抄』（以下、名義抄）の注釈を進める参考とするため、次の点</description>
+    </item>
+    
+    <item>
+      <title>事例研究2</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/case-study/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/case-study/2/</guid>
+      <description>準備中</description>
+    </item>
+    
+    <item>
+      <title>事例研究3</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/case-study/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/case-study/3/</guid>
+      <description>準備中</description>
+    </item>
+    
+    <item>
+      <title>事例研究4</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/case-study/4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/case-study/4/</guid>
+      <description>準備中</description>
+    </item>
+    
+    <item>
+      <title>事例研究</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/case-study/5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/case-study/5/</guid>
+      <description>準備中</description>
+    </item>
+    
+    <item>
+      <title>事例研究6</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/case-study/6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/case-study/6/</guid>
+      <description>準備中</description>
+    </item>
+    
+    <item>
       <title>KRM本文翻刻のサイトを開設</title>
       <link>https://shikeda.github.io/posts/krmnotes001/</link>
       <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
@@ -297,6 +342,15 @@
       
       <guid>https://shikeda.github.io/docs/notes/hidden/</guid>
       <description>This page is hidden in menu </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</guid>
+      <description>title: &amp;ldquo;事例研究5&amp;rdquo; weight: 55 bookFlatSection: false bookToc: true bookHidden: false bookCollapseSection: false bookComments: false bookSearchExclude: false 準備中</description>
     </item>
     
   </channel>

@@ -47,21 +47,21 @@
     </item>
     
     <item>
-      <title>和訓</title>
-      <link>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</guid>
-      <description>和訓 小字の片仮名 説明 片仮名に付された小字の片仮名（和訓の活用形・及び異形態など）は大字の部分と小字の部分をハイフンマイナス（-, U+002D</description>
-    </item>
-    
-    <item>
       <title>その他</title>
       <link>https://shikeda.github.io/docs/notes/krm-main/def-input/6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/6/</guid>
       <description>その他 「その他」では、掲出字補注について説明する。 掲出字補注とは 掲出字の周囲に施された注記を指す。 掲出字の声点と片仮名音注 説明 掲出字に施され</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</guid>
+      <description>title: &amp;ldquo;事例研究5&amp;rdquo; weight: 55 bookFlatSection: false bookToc: true bookHidden: false bookCollapseSection: false bookComments: false bookSearchExclude: false 準備中</description>
     </item>
     
   </channel>
