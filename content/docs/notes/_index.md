@@ -3,6 +3,7 @@ weight: 1
 bookFlatSection: true
 title: "about HDIC"
 ---
+# このサイトについて
 
 ## HDICとは
 

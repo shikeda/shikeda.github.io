@@ -17,7 +17,7 @@
       <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/overview/</guid>
-      <description>ここでは、諸本、編者、成立、価値、構成、出典、諸本の影印・索引、 参考文献などに関して、『類聚名義抄』の概要を述べる。 諸本 諸本は、原撰本と広益</description>
+      <description>『類聚名義抄』の概要 ここでは、諸本、編者、成立、価値、構成、出典、諸本の影印・索引、 参考文献などに関して、『類聚名義抄』の概要を述べる。 諸本</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Wed, 05 Jan 2022 07:18:54 +0900</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/data-structure/</guid>
-      <description>項目の構造 項目の構造(Item structure) を図示すれば次のようになる。左側の本文は 模写したものである。 貴重図書複製会（1937）による影印が国会図書館</description>
+      <description>項目データ構造 観智院本類聚名義抄(KRM)の項目データの構造を解説する。 項目の構造 項目の構造(Item structure) を図示すれば次のようになる。左側の本</description>
     </item>
     
     <item>
@@ -108,6 +108,15 @@
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/4/</guid>
       <description>義注(漢文意味注) 異体字の処理 説明 原文の略字と異体字は通行の字体に改める。 入力例 ヽ --&amp;gt; 也 省略符号 説明 省略符号の「｜」符は、長音符（ー, U+30</description>
+    </item>
+    
+    <item>
+      <title>和訓</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</guid>
+      <description>和訓 小字の片仮名 説明 片仮名に付された小字の片仮名（和訓の活用形・及び異形態など）は大字の部分と小字の部分をハイフンマイナス（-, U+002D</description>
     </item>
     
     <item>
@@ -342,15 +351,6 @@
       
       <guid>https://shikeda.github.io/docs/notes/hidden/</guid>
       <description>This page is hidden in menu </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</guid>
-      <description>title: &amp;ldquo;事例研究5&amp;rdquo; weight: 55 bookFlatSection: false bookToc: true bookHidden: false bookCollapseSection: false bookComments: false bookSearchExclude: false 準備中</description>
     </item>
     
   </channel>

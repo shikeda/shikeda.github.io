@@ -17,7 +17,7 @@
       <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/overview/</guid>
-      <description>ここでは、諸本、編者、成立、価値、構成、出典、諸本の影印・索引、 参考文献などに関して、『類聚名義抄』の概要を述べる。 諸本 諸本は、原撰本と広益</description>
+      <description>『類聚名義抄』の概要 ここでは、諸本、編者、成立、価値、構成、出典、諸本の影印・索引、 参考文献などに関して、『類聚名義抄』の概要を述べる。 諸本</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Wed, 05 Jan 2022 07:18:54 +0900</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/data-structure/</guid>
-      <description>項目の構造 項目の構造(Item structure) を図示すれば次のようになる。左側の本文は 模写したものである。 貴重図書複製会（1937）による影印が国会図書館</description>
+      <description>項目データ構造 観智院本類聚名義抄(KRM)の項目データの構造を解説する。 項目の構造 項目の構造(Item structure) を図示すれば次のようになる。左側の本</description>
     </item>
     
     <item>
