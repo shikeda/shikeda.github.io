@@ -3,6 +3,7 @@ bookCollapseSection: true
 title: 翻刻・注釈の組版の設定
 weight: 30
 ---
+# 翻刻・注釈の組版の設定
 
 ## はじめに
 
