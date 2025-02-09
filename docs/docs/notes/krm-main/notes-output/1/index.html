@@ -15,7 +15,7 @@
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.f8a486dd046f5b4111a6452e23604200babad37d0bba6ead973c167ae6c6a22e.js" integrity="sha256-&#43;KSG3QRvW0ERpkUuI2BCALq6030Lum6tlzwWeubGoi4=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.b7f88fca3ca0d8d1d134de83256957b09ab0d9ffd826b29cb9985e3c8fcafc4d.js" integrity="sha256-t/iPyjyg2NHRNN6DJWlXsJqw2f/YJrKcuZhePI/K/E0=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -768,11 +768,19 @@ Chromeで
 を見てください。</p>
 <p>漢字の一覧が表示されているかを確認。</p>
 <h3 id="花園フォントをtexliveにインストール">花園フォントをTexLiveにインストール</h3>
-<p>次にtoyjack&rsquo;blogの<a href="https://toyjack.net/2020/11/25/setting-hanazono-font-with-lualatex/">LuaLaTexでのフォントフォールバック</a>のページを参照して、
-TeX Live に花園フォントをインストール。</p>
+<p>TeX Live での font の追加は、texmf-localディレクトリの下のfontsにいれる。
+fontsの中にopyetypeディレクトリがあるので、その中に入れれば大丈夫。
+システムによってはfontsの場所が違うことがある。</p>
+<p>私は、Windows 11 にWSLでUbuntuを入れて、TeX Liveをインストールした環境にしたが、
+これだと</p>
+<p>/usr/local/texlive/texmf-local/fonts/opentype/hanazono</p>
+<p>に HanaMinA.ttfと HanaMinB.ttfを入れた。</p>
 <h3 id="lualatexのサンプルファイル">LuaLaTeXのサンプルファイル</h3>
 <p>次をsample1.texなどと名前を付けて保存し、
 LuaLaTeXでpdfファイルを生成する。</p>
+<pre><code>$ lualatex sample1.tex
+</code></pre><p>短いテキストだが、ちょっと時間がかかる。
+といっても1分かそこらだが、瞬時に生成されるわけではない。</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-tex" data-lang="tex"><span style="color:#66d9ef">\documentclass</span>{jlreq}
 <span style="color:#66d9ef">\usepackage</span>{luatexja-fontspec}
 <span style="color:#75715e">% BMPはHanaMinA, SIPはHanaMinB, ただし可能ならIPAexMincho
