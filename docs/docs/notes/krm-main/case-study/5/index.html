@@ -15,7 +15,7 @@
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.378bebc0da692cf9354118e18cfade6bea264bceeefc06bb22806f1936ba27b2.js" integrity="sha256-N4vrwNppLPk1QRjhjPrea&#43;omS87u/Aa7IoBvGTa6J7I=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.b2fdd8e33bf5a0bd24d8d21b195c4890e6bac4424c4efdf8c40ee60920daa2d4.js" integrity="sha256-sv3Y4zv1oL0k2NIbGVxIkOa6xEJMTv34xA7mCSDaotQ=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -765,7 +765,11 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#備考">備考</a></li>
       </ul>
     </li>
-    <li><a href="#観智院本名義抄krmの音注の種類">観智院本名義抄（KRM）の音注の種類</a></li>
+    <li><a href="#観智院本名義抄krmの音注の種類">観智院本名義抄（KRM）の音注の種類</a>
+      <ul>
+        <li><a href="#類音注の整理">類音注の整理</a></li>
+      </ul>
+    </li>
     <li><a href="#単字_見出しの扱い">単字_見出しの扱い</a>
       <ul>
         <li><a href="#異体字併記の場合">異体字併記の場合</a></li>
@@ -1115,6 +1119,14 @@ DHSJRは漢字音研究のためのデータなので、広韻にあれば、そ
 DHSJRは漢語の研究に資することを必要なので、異体字に関する情報は割愛して、
 異体字併記の項目は、代表とする字のみを記載するのがよさそうである。
 異体字に関する情報は、必要に応じて「備考」に記載することにする。</p>
+<p>さらに、「単字_出現形」に誤写あるいは異体字の通用が疑われる場合がある。これは元の字形を「単字_出現形」に、
+校訂した字形を「単字_見出し」とすることで対応する。
+たとえば、「⿰火句」は音注「許于反」とあるが、広韻にない。
+これは龍龕手鏡(巻2火部平声)に「㶷：俗許于反」とあることから、
+名義抄の「⿰火句」は「㶷」の同字または誤写が疑われるものである。</p>
+<p>異体字が別項目に記載され、「正」の字形には音注がないが、「正」のない字形に音注が加えられる場合がある。
+たとえば「⿱⿰号乕土」に「音浩」とあるが、次の項目「㙱」に「正」の注記がある場合である。
+これは「単字_見出し」を「㙱」、「単字_出現形」を「⿱⿰号乕土」とする。</p>
 <p>次は熟語項目の場合である。</p>
 <p>たとえば、「侏／𪝥」の見出しの「𪝥」は康熙字典体「儒」であるので、
 「単字_見出し」を「儒」、単字_出現形を「𪝥」としてもよい。
@@ -1498,6 +1510,7 @@ DHSJRに収録の色葉字類抄で類似の例を探してみると次のよう
 は「鷦鷯」となるので、類音注は焦遼二音」とするのがよいであろう。
 ただし、仮名音注と声点を省くのはひと手間かかるので、当面は「焦(L)「セウ」遼(L)「レウ」二音」の
 ままに記載しておく。</p>
+<p>「音鴛之上声」「魂之去声」のように声調も示すものは、「その他」としておく。</p>
 <h3 id="節博士">節博士</h3>
 <blockquote>
 <p>声明等音楽資料に付される博士譜など</p>
@@ -1508,6 +1521,7 @@ DHSJRに収録の色葉字類抄で類似の例を探してみると次のよう
 <p>その他の音注</p>
 </blockquote>
 <p>声調を記す用語「又平」「去声」などが該当する。</p>
+<p>「音鴛之上声」「魂之去声」のように声調も示すものも「その他」とする。</p>
 <h3 id="出現位置">出現位置</h3>
 <blockquote>
 <p>資料内の単字・漢語の所在</p>
@@ -1559,6 +1573,60 @@ DHSJRに収録の色葉字類抄で類似の例を探してみると次のよう
 <li>反切上字 + 声点 + 仮名音注</li>
 <li>反切下字 + 声点 + 仮名音注</li>
 </ol>
+<p>DHSJRの音注の種類は、次の五つ。</p>
+<ol>
+<li>仮名注</li>
+<li>反切</li>
+<li>類音</li>
+<li>節博士</li>
+<li>その他</li>
+</ol>
+<p>名義抄に節博士はないので、これは無視できる。</p>
+<p>「平」「又去」のような声調の注記は、DHSJRでは「その他」に記載しているので、
+それに従う。</p>
+<p>また、「和同」「音同上」「呉同」などは、前出の音注に同じことを示す注記であるが、
+これらは「その他」に記載することとする。</p>
+<p>仮名注、音注、類音、その他の四つについて、エクセルのフィルター機能を使いながら、
+目視で整理した結果は次のとおりである。</p>
+<h3 id="類音注の整理">類音注の整理</h3>
+<p>類音注の形式を整理するため、
+手始めに声点や仮名音注のない形式について検討する。</p>
+<p>ChatGTPで次の質問をした。</p>
+<pre><code>◯を任意の漢字1字として、関数はどのように書けばよいですか。上音◯、下音◯、又◯音、◯音、音◯
+</code></pre>
+<p>回答は次のとおり。</p>
+<pre><code>Excelで「◯」を任意の漢字1字として、以下の形式を持つデータを検索する関数を考えます。
+対象の形式：
+
+上音◯
+下音◯
+又◯音
+◯音
+音◯
+
+方法1: COUNTIF 関数を使う（簡易検索）
+COUNTIF関数を使えば、特定のパターンを持つセルを検索できます。
+ワイルドカード ? を使うことで「任意の1文字」を表現できます。
+
+=COUNTIF(A:A, &quot;上音?&quot;) + COUNTIF(A:A, &quot;下音?&quot;) + COUNTIF(A:A, &quot;又?音&quot;) + COUNTIF(A:A, &quot;?音&quot;) + COUNTIF(A:A, &quot;音?&quot;)
+この式は、A列の中から指定のパターンに一致するセルの数を返します。
+</code></pre>
+<p>この方法で「類音」の列をチェックしたところ、次の例が抜けていることが分かった。</p>
+<p>◯◯◯三音
+又音◯
+又◯
+俗云◯◯
+◯◯二音
+和◯
+和音◯
+呉◯
+呉音◯</p>
+<p>これらを追加。</p>
+<pre><code>=COUNTIF(I2, &quot;上音?&quot;) + COUNTIF(I2, &quot;下音?&quot;) + COUNTIF(I2, &quot;又?音&quot;) + COUNTIF(I2, &quot;?音&quot;) + COUNTIF(I2, &quot;音?&quot;) + COUNTIF(I2,&quot;??二音&quot;) + COUNTIF(I2, &quot;和?&quot;) + COUNTIF(I2, &quot;和音?&quot;) + COUNTIF(I2, &quot;呉?&quot;) + COUNTIF(I2, &quot;呉音?&quot;)
+</code></pre>
+<p>Copilotだと次の式が出た。</p>
+<pre><code>=IF(AND(MID(I2, 1, 1) = &quot;音&quot;, LEN(I2) = 2, ISNUMBER(MATCH(UNICODE(MID(I2, 2, 1)), SEQUENCE(20902, 1, 19968), 0))), 1, 0)
+</code></pre>
 <h2 id="単字_見出しの扱い">単字_見出しの扱い</h2>
 <h3 id="異体字併記の場合">異体字併記の場合</h3>
 <p>異体字を併記する項目は、採用法方法として次の二つが考えられる。</p>
@@ -1662,7 +1730,11 @@ document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("clic
         <li><a href="#備考">備考</a></li>
       </ul>
     </li>
-    <li><a href="#観智院本名義抄krmの音注の種類">観智院本名義抄（KRM）の音注の種類</a></li>
+    <li><a href="#観智院本名義抄krmの音注の種類">観智院本名義抄（KRM）の音注の種類</a>
+      <ul>
+        <li><a href="#類音注の整理">類音注の整理</a></li>
+      </ul>
+    </li>
     <li><a href="#単字_見出しの扱い">単字_見出しの扱い</a>
       <ul>
         <li><a href="#異体字併記の場合">異体字併記の場合</a></li>
