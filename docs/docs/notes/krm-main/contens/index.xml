@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>公開データの概要 on HDIC project</title>
+    <link>https://shikeda.github.io/docs/notes/krm-main/contens/</link>
+    <description>Recent content in 公開データの概要 on HDIC project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    
+	<atom:link href="https://shikeda.github.io/docs/notes/krm-main/contens/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>krm_main</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/contens/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/contens/1/</guid>
+      <description>krm_main krm_main.json KRM.tsv </description>
+    </item>
+    
+    <item>
+      <title>krm_wakun</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/contens/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/contens/2/</guid>
+      <description>krm_wakun krm_wakun.json KRM_wakun.tsv </description>
+    </item>
+    
+    <item>
+      <title>krm_definitions</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/contens/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/contens/3/</guid>
+      <description>krm_definitions krm_definitions.json KRM_definitions.tsv </description>
+    </item>
+    
+    <item>
+      <title>KRM_ndl.tsv</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/contens/4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/contens/4/</guid>
+      <description>KRM.tsv </description>
+    </item>
+    
+    <item>
+      <title>krm_ndl</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/contens/5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/contens/5/</guid>
+      <description>krm_ndl KRM_ndl.tsv </description>
+    </item>
+    
+  </channel>
+</rss>

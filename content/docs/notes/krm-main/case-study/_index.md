@@ -11,7 +11,7 @@ bookCollapseSection: true
 # bookSearchExclude: false
 ---
 
-## 事例研究
+# 事例研究
 
 1. [和訓「ウゴク」の調査](/docs/notes/krm-main/case-study/1/)　
 2. [和訓「ミル」の調査](/docs/notes/krm-main/case-study/2/)　

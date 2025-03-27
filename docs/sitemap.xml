@@ -13,16 +13,20 @@
   </url>
   
   <url>
+    <loc>https://shikeda.github.io/docs/notes/krm-main/contens/</loc>
+  </url>
+  
+  <url>
     <loc>https://shikeda.github.io/docs/notes/krm-main/data-structure/</loc>
     <lastmod>2022-01-05T07:18:54+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/item-input/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm-main/headword-input/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/headword-input/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm-main/item-input/</loc>
   </url>
   
   <url>
@@ -36,7 +40,27 @@
   </url>
   
   <url>
+    <loc>https://shikeda.github.io/docs/notes/krm-main/contens/1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://shikeda.github.io/docs/notes/krm-main/contens/2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://shikeda.github.io/docs/notes/krm-main/contens/3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://shikeda.github.io/docs/notes/krm-main/contens/4/</loc>
+  </url>
+  
+  <url>
     <loc>https://shikeda.github.io/docs/notes/krm-main/def-input/</loc>
+  </url>
+  
+  <url>
+    <loc>https://shikeda.github.io/docs/notes/krm-main/contens/5/</loc>
   </url>
   
   <url>
@@ -241,6 +265,10 @@
   
   <url>
     <loc>https://shikeda.github.io/docs/notes/hidden/</loc>
+  </url>
+  
+  <url>
+    <loc>https://shikeda.github.io/docs/notes/krm-main/def-input/7/</loc>
   </url>
   
 </urlset>

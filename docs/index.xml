@@ -26,16 +26,7 @@
       <pubDate>Wed, 05 Jan 2022 07:18:54 +0900</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/data-structure/</guid>
-      <description>項目データ構造 観智院本類聚名義抄(KRM)の項目データの構造を解説する。 項目の構造 項目の構造(Item structure) を図示すれば次のようになる。左側の本</description>
-    </item>
-    
-    <item>
-      <title>項目データ入力</title>
-      <link>https://shikeda.github.io/docs/notes/krm-main/item-input/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://shikeda.github.io/docs/notes/krm-main/item-input/</guid>
-      <description>項目データの入力 観智院本類聚名義抄(KRM)の項目データの入力方法を解説する。 項目は掲出字と注文とからなる。 ここでは掲出字の入力と注文の入力</description>
+      <description>項目データ構造 観智院本類聚名義抄（KRM）の項目データの構造を解説する。 項目の構造 項目の構造（Item structure） を図示すれば次のよ</description>
     </item>
     
     <item>
@@ -48,12 +39,66 @@
     </item>
     
     <item>
+      <title>項目データ入力</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/item-input/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/item-input/</guid>
+      <description>項目データの入力 観智院本類聚名義抄(KRM)の項目データの入力方法を解説する。 項目は掲出字と注文とからなる。 ここでは掲出字の入力と注文の入力</description>
+    </item>
+    
+    <item>
       <title>KRMの入力方法</title>
       <link>https://shikeda.github.io/posts/input-method/</link>
       <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/posts/input-method/</guid>
       <description>注文データ入力の詳細 次の6種に分類して入力方法の詳細を説明する。 共通 字体注 音注 義注 和訓 掲出字補注 共通 字体注、音注、義注、和訓、掲出字補注に共</description>
+    </item>
+    
+    <item>
+      <title>krm_main</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/contens/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/contens/1/</guid>
+      <description>krm_main krm_main.json KRM.tsv </description>
+    </item>
+    
+    <item>
+      <title>krm_wakun</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/contens/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/contens/2/</guid>
+      <description>krm_wakun krm_wakun.json KRM_wakun.tsv </description>
+    </item>
+    
+    <item>
+      <title>krm_definitions</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/contens/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/contens/3/</guid>
+      <description>krm_definitions krm_definitions.json KRM_definitions.tsv </description>
+    </item>
+    
+    <item>
+      <title>KRM_ndl.tsv</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/contens/4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/contens/4/</guid>
+      <description>KRM.tsv </description>
+    </item>
+    
+    <item>
+      <title>krm_ndl</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/contens/5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/contens/5/</guid>
+      <description>krm_ndl KRM_ndl.tsv </description>
     </item>
     
     <item>
@@ -351,6 +396,15 @@
       
       <guid>https://shikeda.github.io/docs/notes/hidden/</guid>
       <description>This page is hidden in menu </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/def-input/7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/7/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -15,7 +15,7 @@
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.b2fdd8e33bf5a0bd24d8d21b195c4890e6bac4424c4efdf8c40ee60920daa2d4.js" integrity="sha256-sv3Y4zv1oL0k2NIbGVxIkOa6xEJMTv34xA7mCSDaotQ=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.9b157b70faaf6b4659cfe662d25eda320300f9b583872c701838ae777643cd93.js" integrity="sha256-mxV7cPqva0ZZz&#43;Zi0l7aMgMA&#43;bWDhyxwGDiud3ZDzZM=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -106,6 +106,92 @@ https://github.com/alex-shpak/hugo-book
   
 
   
+    <input type="checkbox" id="section-ba55c9a05a7b5dc41bc2384f75f56a0b" class="toggle"  />
+    <label for="section-ba55c9a05a7b5dc41bc2384f75f56a0b" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/contens/" class="">公開データの概要</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/1/" class="">krm_main</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/2/" class="">krm_wakun</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/3/" class="">krm_definitions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/4/" class="">KRM_ndl.tsv</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/5/" class="">krm_ndl</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
     <a href="https://shikeda.github.io/docs/notes/krm-main/data-structure/" class="">項目データ構造</a>
   
 
@@ -119,7 +205,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/docs/notes/krm-main/item-input/" class="">項目データ入力</a>
+    <a href="https://shikeda.github.io/docs/notes/krm-main/headword-input/" class="">掲出字データ入力の詳細</a>
   
 
         </li>
@@ -132,7 +218,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/docs/notes/krm-main/headword-input/" class="">掲出字データ入力の詳細</a>
+    <a href="https://shikeda.github.io/docs/notes/krm-main/item-input/" class="">項目データ入力</a>
   
 
         </li>
@@ -230,6 +316,8 @@ https://github.com/alex-shpak/hugo-book
   
 
         </li>
+      
+    
       
     
   </ul>
@@ -741,6 +829,8 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#片仮名の踊り字">片仮名の踊り字</a></li>
     <li><a href="#声点">声点</a>
       <ul>
+        <li><a href="#濁音">濁音</a></li>
+        <li><a href="#鼻音符号">鼻音符号</a></li>
         <li><a href="#声点の部分加点">声点の部分加点</a></li>
         <li><a href="#声点と小字片仮名の混在">声点と小字片仮名の混在</a></li>
       </ul>
@@ -782,12 +872,19 @@ https://github.com/alex-shpak/hugo-book
 片仮名の踊り字は片仮名繰り返し符号（ヽ, U+30FD）で表し、くの字点（〳〵, U+3033及びU+3035）は反復する文字の個数分を片仮名繰り返し符号で表す。</p>
 <h2 id="声点">声点</h2>
 <p><strong>説明</strong>
-和訓注の声点（accent mark）は漢字音注と同様の方法で表す。ただし、一字ごとに声点を付す漢字音注とは異なり、和訓は分かち書き若しくは改行で区切られている一つのまとまり（形態素、語および句）を一単位としてまとめて表す。</p>
+和訓注の声点（accent mark, tone mark）は漢字音注と同様の方法で表す。ただし、一字ごとに声点を付す漢字音注とは異なり、和訓は分かち書き若しくは改行で区切られている一つのまとまり（形態素、語および句）を一単位としてまとめて表す。</p>
+<h3 id="濁音">濁音</h3>
+<p><strong>説明</strong>
+濁音符号（voiced consonant mark）は双点で示されるが、これは英字V（U+0056）で示す。（2025年3月25日記）</p>
+<h3 id="鼻音符号">鼻音符号</h3>
+<p><strong>説明</strong>
+鼻音符号（nasal mark, 鼻音符）は(N)で示す。（2025年3月25日記）</p>
 <h3 id="声点の部分加点">声点の部分加点</h3>
 <p><strong>説明</strong>
-声点が和訓の一部分のみに施されている場合は、声点が施されていない箇所を半角のアットマーク（@, U+0040）で表す。漢字は一字ずつ、和訓は合わせて表示する。</p>
+声点が和訓の一部分のみに施されている場合は、声点が施されていない箇所を半角のアンダーバー（_, U+005F）で表す。漢字は一字ずつ、和訓は合わせて表示する。</p>
+<p>従来は半角のアットマーク（@, U+0040）を用いていたが、これを変更した。（2025年3月27日記）。</p>
 <p><strong>入力例</strong></p>
-<pre><code>ソナヘ物(LL@@)
+<pre><code>ソナヘ物(LL__)
 </code></pre>
 <h3 id="声点と小字片仮名の混在">声点と小字片仮名の混在</h3>
 <p><strong>説明</strong>声点と小字の片仮名が混在する場合は、カッコ内の声点の表示の後に読点（、）で区切り小字の片仮名を示す。</p>
@@ -795,7 +892,7 @@ https://github.com/alex-shpak/hugo-book
 <p><strong>説明</strong>
 漢文意味注の漢字に付された小字の片仮名（和訓）はそのまま「」の中に入力する。二つ以上ある場合は種類ごとに「」を分けて表すこととし、記載の順序は漢字に付された小字の片仮名（音注）の場合と同じとする。</p>
 <p><strong>入力例</strong></p>
-<pre><code>トヽマル(LL&quot;HL、マ-ム)
+<pre><code>トヽマル(LLVHL、マ-ム)
 </code></pre>
 </article>
  
@@ -845,6 +942,8 @@ document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("clic
     <li><a href="#片仮名の踊り字">片仮名の踊り字</a></li>
     <li><a href="#声点">声点</a>
       <ul>
+        <li><a href="#濁音">濁音</a></li>
+        <li><a href="#鼻音符号">鼻音符号</a></li>
         <li><a href="#声点の部分加点">声点の部分加点</a></li>
         <li><a href="#声点と小字片仮名の混在">声点と小字片仮名の混在</a></li>
       </ul>
