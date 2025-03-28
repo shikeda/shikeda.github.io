@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="krm_main krm_main.json KRM.tsv ">
+<meta name="description" content="krm_main 観智院本類聚名義抄（以下、名義抄）デーベースの中核となるファイルを解説する。 従来公開していたのは、KRM.tsvという名称のTSVファイル">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="krm_main" />
-<meta property="og:description" content="krm_main krm_main.json KRM.tsv " />
+<meta property="og:description" content="krm_main 観智院本類聚名義抄（以下、名義抄）デーベースの中核となるファイルを解説する。 従来公開していたのは、KRM.tsvという名称のTSVファイル" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shikeda.github.io/docs/notes/krm-main/contens/1/" />
 
@@ -15,7 +15,7 @@
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.9b157b70faaf6b4659cfe662d25eda320300f9b583872c701838ae777643cd93.js" integrity="sha256-mxV7cPqva0ZZz&#43;Zi0l7aMgMA&#43;bWDhyxwGDiud3ZDzZM=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.4e25a24a05a78ddbc29c4268b63a4696f0fca482f394b3b631ddf1a5300b266f.js" integrity="sha256-TiWiSgWnjdvCnEJotjpGlvD8pILzlLO2Md3xpTALJm8=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -135,7 +135,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/2/" class="">krm_wakun</a>
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/2/" class="">krm_notes</a>
   
 
         </li>
@@ -148,7 +148,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/3/" class="">krm_definitions</a>
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/3/" class="">krm_wakun</a>
   
 
         </li>
@@ -161,7 +161,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/4/" class="">KRM_ndl.tsv</a>
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/4/" class="">krm_definitions</a>
   
 
         </li>
@@ -174,7 +174,20 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/5/" class="">krm_ndl</a>
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/5/" class="">krm_pronunciations</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/6/" class="">krm_ndl</a>
   
 
         </li>
@@ -821,12 +834,7 @@ https://github.com/alex-shpak/hugo-book
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#krm_mainjson">krm_main.json</a></li>
-    <li><a href="#krmtsv">KRM.tsv</a></li>
-  </ul>
-</nav>
+<nav id="TableOfContents"></nav>
 
 
 
@@ -838,8 +846,140 @@ https://github.com/alex-shpak/hugo-book
       
       
   <article class="markdown"><h1 id="krm_main">krm_main</h1>
-<h2 id="krm_mainjson">krm_main.json</h2>
-<h2 id="krmtsv">KRM.tsv</h2>
+<p>観智院本類聚名義抄（以下、名義抄）デーベースの中核となるファイルを解説する。
+従来公開していたのは、KRM.tsvという名称のTSVファイルである。</p>
+<p>掲出字、注文、巻、部首、風間書房版と天理善本叢書版の所在などに関する情報を
+収録する。</p>
+<p>2025年3月に、カラム名、声点の表示法の仕様を変更した。仕様変更後の
+ファイルであることを明示するために、krm_main.tsvという名称にした。
+これにはJSON形式も用意した。</p>
+<p>新旧のカラム名を対照すれば次のようになる。</p>
+<table>
+<thead>
+<tr>
+<th>New Column Name (v1.2.0)</th>
+<th>Old Column Name (v1.1.347)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>entry_id</td>
+<td>KRID_n</td>
+</tr>
+<tr>
+<td>hanzi_id</td>
+<td>KRID_sn</td>
+</tr>
+<tr>
+<td>kazama_entry_location</td>
+<td>KR2ID</td>
+</tr>
+<tr>
+<td>kazama_hanzi_location</td>
+<td>KRID</td>
+</tr>
+<tr>
+<td>tenri_location</td>
+<td>KR_Tenri_p</td>
+</tr>
+<tr>
+<td>volume_name</td>
+<td>KR_vol_name</td>
+</tr>
+<tr>
+<td>radical_name</td>
+<td>KR_radical</td>
+</tr>
+<tr>
+<td>volume_radical_index</td>
+<td>KR_vol_radical</td>
+</tr>
+<tr>
+<td>hanzi_entry</td>
+<td>Entry</td>
+</tr>
+<tr>
+<td>original_entry</td>
+<td>Entry_original</td>
+</tr>
+<tr>
+<td>definition</td>
+<td>Def</td>
+</tr>
+<tr>
+<td>-</td>
+<td>Remarks</td>
+</tr>
+</tbody>
+</table>
+<p>Remarksは次のkrm_notesにまとめることとして、省略した。</p>
+<p>次に、カラム名の内容を英語と日本語で説明する。</p>
+<table>
+<thead>
+<tr>
+<th>New Column Name (v1.2.0)</th>
+<th>English explanation</th>
+<th>Japanese explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>entry_id</td>
+<td>A heading item ID formed by a 5-digit numeric ID starting with &lsquo;F&rsquo;, followed by &lsquo;_00&rsquo;.</td>
+<td>Fで始まる5桁の数値に_00を加えた見出し項目ID。</td>
+</tr>
+<tr>
+<td>hanzi_id</td>
+<td>A heading Hanzi ID consisting of a 5-digit numeric ID starting with &lsquo;S&rsquo;.</td>
+<td>Sで始まる5桁の数値からなる見出し漢字ID。</td>
+</tr>
+<tr>
+<td>kazama_entry_location</td>
+<td>ID including location information (Kazama edition: K, Book(volume), page(xxx), line(y), column(zz)), ranked 1, 2, &hellip;, n for multiple entries in a column. Where Book(volume) represents the volume number, page(xxx) the page number, line(y) the line number, and column(zz) the column number.</td>
+<td>位置情報（風間版：K、冊子（巻）、ページ（xxx）、行（y）、列（zz））を含むID。列に複数のエントリがある場合は、1、2、&hellip;、n の順位になる。</td>
+</tr>
+<tr>
+<td>kazama_hanzi_location</td>
+<td>ID including location information (Kazama edition: K, Book(volume), page(xxx), line(y), column(zz)), ranked 0 for single-character headwords, and 1, 2, &hellip;, n for multiple-character headwords or entries in a column. Where Book(volume) represents the volume number, page(xxx) the page number, line(y) the line number, and column(zz) the column number.</td>
+<td>K・巻数(2桁)・風間書房版ページ数(3桁)・行数(1桁)・段数(1桁)・字順(1桁)を示すID。掲出字が単字なら字順は0、複字なら1, 2, &hellip;, n。一段に複数項目あれば単字でも1, 2, &hellip;, n。</td>
+</tr>
+<tr>
+<td>tenri_location</td>
+<td>Location information from the Tenri edition (T, volume(volume letters), page(xxx), line(y), column(zz)). Where volume(volume letters) represents the volume letters, page(xxx) the page number, line(y) the line number, and column(zz) the column number.</td>
+<td>八木書店版の掲出字ID。T・巻数（a/b/c）・ページ数（3桁数）・行数（1桁）・段数（1桁）・字順（1桁）を示す。最後の字順の示し方は掲出字IDの場合に同じとする。八木書店『天理図書館善本叢書』に基づく。</td>
+</tr>
+<tr>
+<td>volume_name</td>
+<td>Name of the volume, consisting of 10 volumes: 仏上, 仏中, 仏末本, 仏末下, 法上, 法中, 法下, 僧上, 僧中, and 僧下.</td>
+<td>巻名。「仏上」「仏中」「仏下本」「仏下末」「法上」「法中」「法下」「僧上」「僧中」「僧下」の10 巻を示す。</td>
+</tr>
+<tr>
+<td>radical_name</td>
+<td>Hanzi name of the radical, consisting of 160 radicals ranging from 人 to 雑, used to classify Hanzi characters.</td>
+<td>部首名。「人、彳、辵」から「風、酉、雑」までの120部を示す。</td>
+</tr>
+<tr>
+<td>volume_radical_index</td>
+<td>Volume and radical number, ranging from v1#1 to v10#120, indicating the location of the entry within the text.</td>
+<td>巻。v・巻数（1-10）#・部首番号（1-120）を示す。v1#1(第1帖第1)〜v10#120(第10帖第120)。第1帖(仏上)〜第10帖(僧下)。</td>
+</tr>
+<tr>
+<td>hanzi_entry</td>
+<td>Collated Hanzi characters, standardized to the Kangxi dictionary form, including Unicode-representable variant forms.</td>
+<td>原文の漢字を校訂したもの。康熙字典体とするのを原則としたが、Unicodeで入力できる新字体（通用字体、俗字体）を残すこともある。複数の漢字からなる見出し項目の場合は、／（全角スラッシュ）で区切り、省略符号「｜」がある場合、ー（長音符）を用いて、その後の（）（全角括弧）内に該当字を入力する。</td>
+</tr>
+<tr>
+<td>original_entry</td>
+<td>Original Hanzi character representations, retaining errors from the original text, with non-Unicode variants expressed using IDS or 〓.</td>
+<td>原字形に近い見出し文字。池田が必要と判断したものは「原字形に近い掲出字」として入力し、不要な場合は「〇」を入力。</td>
+</tr>
+<tr>
+<td>definition</td>
+<td>Includes glyph annotations, pronunciation annotations, meaning annotations, Japanese readings (wakun), and other relevant notes, separated by spaces. As a general rule, character forms included in the &ldquo;Kangxi Dictionary style&rdquo; should be used.</td>
+<td>注文は、字体注、音注、義注、和訓、その他からなる。これらをスペース区切りで入力。原則として「康熙字典体」に含まれる字形を入力。</td>
+</tr>
+</tbody>
+</table>
 </article>
  
       
@@ -880,12 +1020,7 @@ document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("clic
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#krm_mainjson">krm_main.json</a></li>
-    <li><a href="#krmtsv">KRM.tsv</a></li>
-  </ul>
-</nav>
+<nav id="TableOfContents"></nav>
 
 
  

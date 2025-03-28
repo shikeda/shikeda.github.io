@@ -16,43 +16,52 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/contens/1/</guid>
-      <description>krm_main krm_main.json KRM.tsv </description>
+      <description>krm_main 観智院本類聚名義抄（以下、名義抄）デーベースの中核となるファイルを解説する。 従来公開していたのは、KRM.tsvという名称のTSVファイル</description>
     </item>
     
     <item>
-      <title>krm_wakun</title>
+      <title>krm_notes</title>
       <link>https://shikeda.github.io/docs/notes/krm-main/contens/2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/contens/2/</guid>
-      <description>krm_wakun krm_wakun.json KRM_wakun.tsv </description>
+      <description>krm_notes KRM_def.tsvファイルに詳細な注釈情報を追加したファイルkrm_notes.tsvを作成した。 これは、TSV形式とJSON形式で用</description>
     </item>
     
     <item>
-      <title>krm_definitions</title>
+      <title>krm_wakun</title>
       <link>https://shikeda.github.io/docs/notes/krm-main/contens/3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/contens/3/</guid>
-      <description>krm_definitions krm_definitions.json KRM_definitions.tsv </description>
+      <description>krm_wakun これは、名義抄デーベースのKRM.tsvから和訓を抜き出して、 和訓の異形を整理し、異体字との対応を調整したデータである。 和訓に関する校勘と</description>
     </item>
     
     <item>
-      <title>KRM_ndl.tsv</title>
+      <title>krm_definitions</title>
       <link>https://shikeda.github.io/docs/notes/krm-main/contens/4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/contens/4/</guid>
-      <description>KRM.tsv </description>
+      <description>krm_definitions 名義抄の注文には、和訓だけではなく、字体注、音注、意義注などの要素を含んでいる。 これらの校勘と出典考証を行うために、注文の各要素を出現順に</description>
     </item>
     
     <item>
-      <title>krm_ndl</title>
+      <title>krm_pronunciations</title>
       <link>https://shikeda.github.io/docs/notes/krm-main/contens/5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm-main/contens/5/</guid>
-      <description>krm_ndl KRM_ndl.tsv </description>
+      <description>krm_pronunciations 名義抄の音注は、反切、類音注、仮名注があり、それらに声点が施されることも多い。 日本漢字音のデータベースとしては、加藤大鶴氏らによる 「資料横</description>
+    </item>
+    
+    <item>
+      <title>krm_ndl</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/contens/6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/contens/6/</guid>
+      <description>krm_ndl 国会図書館デジタルコレクションで公開している 観智院本類聚名義抄の画像へのリンクを整理したものである。 観智院本類聚名義抄の所在と国会図書館デ</description>
     </item>
     
   </channel>
