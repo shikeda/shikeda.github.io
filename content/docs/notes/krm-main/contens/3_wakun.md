@@ -57,7 +57,7 @@ Remarksはkrm_notesにまとめることとして、省略した。
 
 次に、カラム名の内容を英語と日本語で説明する。
 
-| New Column Name (v1.2.0)            | English explanation                                                                                                                                                                                                                                                                               | Japanese explanation                                                                         |
+| New Column Name (v1.2.0)      | English explanation               | Japanese explanation            |
 |-------------------------|-------------|--------------------|
 | wakun_id                | Wakun ID, extracted from kr_definition_sequence_id, containing only entries where the type of order is Japanese reading (wakun). Variant forms are appended with 'b', 'c', 'd'.        | 和訓ID。kr_definition_sequence_idから、注文の種類が和訓のものだけを取り出したもの。変異形を追加したものには末尾にa, b, c, dを付した。        |
 | definition_seq_id       | 5-digit numeric ID starting with 'F', sequentially assigned to heading entries. Definition components under each heading are ordered based on their appearance, and order indicators like _01, _02, etc., are appended accordingly. The heading itself is appended with _00.                      | 連番で与えられるFで始まる5桁の見出しの数値IDに加えて、見出しの下に記される注文の各要素を出現順に区分し、出現の順番に_01、_02のように追加したもの。見出しには_00を追加する。 |
