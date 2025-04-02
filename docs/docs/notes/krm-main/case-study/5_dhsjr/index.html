@@ -1,0 +1,2034 @@
+<!DOCTYPE html>
+<html lang="jp" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="DHSJRとの連携 (Collaboration with DHSJR) DHSJRとは DHSJRとは「資料横断的な漢字音・漢語音データベース」の 英語名&quot;Database of Historical Sino-Japanese Readings&rdquo; に">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="DHSJRとの連携" />
+<meta property="og:description" content="DHSJRとの連携 (Collaboration with DHSJR) DHSJRとは DHSJRとは「資料横断的な漢字音・漢語音データベース」の 英語名&quot;Database of Historical Sino-Japanese Readings&rdquo; に" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://shikeda.github.io/docs/notes/krm-main/case-study/5_dhsjr/" />
+
+<title>DHSJRとの連携 | HDIC project</title>
+<link rel="manifest" href="https://shikeda.github.io/manifest.json">
+<link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
+  <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.5208958dc9b071b0c78d9dcdfd5784854a2e212096c74756c0eaeefa030140ae.js" integrity="sha256-UgiVjcmwcbDHjZ3N/VeEhUouISCWx0dWwOru&#43;gMBQK4=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="https://shikeda.github.io/"><span>HDIC project</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="検索" aria-label="検索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/" class="">about HDIC</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/" class="">観智院本類聚名義抄</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/overview/" class="">概要</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ba55c9a05a7b5dc41bc2384f75f56a0b" class="toggle"  />
+    <label for="section-ba55c9a05a7b5dc41bc2384f75f56a0b" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/contens/" class="">公開データの概要</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/1_main/" class="">krm_main</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/2_notes/" class="">krm_notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/3_wakun/" class="">krm_wakun</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/4_definitions/" class="">krm_definitions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/5_pronunciations/" class="">krm_pronunciations</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/6_ndl/" class="">krm_ndl</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/data-structure/" class="">項目データ構造</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/headword-input/" class="">掲出字データ入力の詳細</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/item-input/" class="">項目データ入力</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5f943c704f36df21275c834ecdfcf18f" class="toggle"  />
+    <label for="section-5f943c704f36df21275c834ecdfcf18f" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/def-input/" class="">注文データ入力の詳細</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/def-input/1/" class="">基本方針</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/def-input/2/" class="">字体注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/def-input/3/" class="">音注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/def-input/4/" class="">義注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/def-input/5/" class="">和訓</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/def-input/6/" class="">その他</a>
+  
+
+        </li>
+      
+    
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c11d7b768d2064ccf0fe6fe2322d5537" class="toggle"  />
+    <label for="section-c11d7b768d2064ccf0fe6fe2322d5537" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/notes-input/" class="">注釈データ入力の詳細</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-input/1/" class="">基本方針</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-input/2/" class="">掲出字</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-input/3/" class="">字体注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-input/4/" class="">音注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-input/5/" class="">義注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-input/6/" class="">和訓</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-input/10_notes_sample/" class="">注釈の例</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-edb14a0187b5e0fdbdb1ac31b8ba7c2f" class="toggle"  />
+    <label for="section-edb14a0187b5e0fdbdb1ac31b8ba7c2f" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/notes-output/" class="">翻刻・注釈の組版の設定</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-output/1/" class="">花園明朝の設定</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-output/2/" class="">GlyphWikiの設定</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-output/3/" class="">sfkanbun.styの設定</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-output/4/" class="">VS CodeとTeX Live</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-output/5/" class="">オンラインツール</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c1882d4a8e3a2d9278ee55d72cc4538d" class="toggle"  />
+    <label for="section-c1882d4a8e3a2d9278ee55d72cc4538d" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/progress/" class="">進捗状況</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/progress/1/" class="">掲出字</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-8ed854edddaeff1df79aab6cfa9cfaa2" class="toggle"  />
+    <label for="section-8ed854edddaeff1df79aab6cfa9cfaa2" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/progress/2/" class="">注文</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-1bdf4058fe4e409d7c436530795d1894" class="toggle"  />
+    <label for="section-1bdf4058fe4e409d7c436530795d1894" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/progress/3/" class="">字体注</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-47fc0bf4a878124bab75c3668c759dc7" class="toggle"  />
+    <label for="section-47fc0bf4a878124bab75c3668c759dc7" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/progress/4/" class="">音注</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c8d153a0df00ea333638990a520c4be2" class="toggle"  />
+    <label for="section-c8d153a0df00ea333638990a520c4be2" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/progress/5/" class="">義注</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/progress/6/" class="">和訓</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-80b45462d59801c55827ab3f46b0bbd2" class="toggle"  />
+    <label for="section-80b45462d59801c55827ab3f46b0bbd2" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/progress/7/" class="">その他</a>
+    </label>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-3a0cf2dd2bc6282d54b880b1ef1f2193" class="toggle" checked />
+    <label for="section-3a0cf2dd2bc6282d54b880b1ef1f2193" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/case-study/" class="">事例研究</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/case-study/1_ugoku/" class="">和訓「ウゴク」の調査</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/case-study/2_miru/" class="">和訓「ミル」の調査</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/case-study/3_wakun_uf/" class="">和訓の使用頻度</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/case-study/4_kana_split/" class="">同仮名異語の区別</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/case-study/5_dhsjr/" class=" active">DHSJRとの連携</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/case-study/6/" class="">準備中</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://shikeda.github.io/posts/" >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="https://shikeda.github.io/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>DHSJRとの連携</strong>
+
+  <label for="toc-control">
+    
+    <img src="https://shikeda.github.io/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#dhsjrとは">DHSJRとは</a></li>
+    <li><a href="#dhsjr収録の辞書音義">DHSJR収録の辞書音義</a></li>
+    <li><a href="#dhsjrのデータ列の構成">DHSJRのデータ列の構成</a></li>
+    <li><a href="#dhsjrとの対応策">DHSJRとの対応策</a>
+      <ul>
+        <li><a href="#id">ID</a></li>
+        <li><a href="#資料番号">資料番号</a></li>
+        <li><a href="#資料名">資料名</a></li>
+        <li><a href="#資料内漢字番号">資料内漢字番号</a></li>
+        <li><a href="#資料内漢語番号">資料内漢語番号</a></li>
+        <li><a href="#単字_見出し">単字_見出し</a></li>
+        <li><a href="#単字_出現形">単字_出現形</a></li>
+        <li><a href="#漢語_見出し">漢語_見出し</a></li>
+        <li><a href="#漢語_出現形">漢語_出現形</a></li>
+        <li><a href="#漢語_alphabet">漢語_alphabet</a></li>
+        <li><a href="#語種">語種</a></li>
+        <li><a href="#漢語内位置">漢語内位置</a></li>
+        <li><a href="#単字長">単字長</a></li>
+        <li><a href="#声点">声点</a></li>
+        <li><a href="#声点型">声点型</a></li>
+        <li><a href="#仮名注">仮名注</a></li>
+        <li><a href="#仮名型">仮名型</a></li>
+        <li><a href="#反切">反切</a></li>
+        <li><a href="#類音">類音</a></li>
+        <li><a href="#節博士">節博士</a></li>
+        <li><a href="#その他">その他</a></li>
+        <li><a href="#出現位置">出現位置</a></li>
+        <li><a href="#備考">備考</a></li>
+      </ul>
+    </li>
+    <li><a href="#観智院本名義抄krmの音注の種類">観智院本名義抄（KRM）の音注の種類</a>
+      <ul>
+        <li><a href="#類音注の整理">類音注の整理</a></li>
+      </ul>
+    </li>
+    <li><a href="#単字_見出しの扱い">単字_見出しの扱い</a>
+      <ul>
+        <li><a href="#異体字併記の場合">異体字併記の場合</a></li>
+        <li><a href="#熟語二字以上の漢語の場合">熟語（二字以上の漢語）の場合</a></li>
+        <li><a href="#その他-1">その他</a></li>
+      </ul>
+    </li>
+    <li><a href="#音注の点検の意義">音注の点検の意義</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="dhsjrとの連携-collaboration-with-dhsjr">DHSJRとの連携 (Collaboration with DHSJR)</h1>
+<h2 id="dhsjrとは">DHSJRとは</h2>
+<p>DHSJRとは「資料横断的な漢字音・漢語音データベース」の
+英語名&quot;Database of Historical Sino-Japanese Readings&rdquo;
+に基づく略称である。DHSJRのプロジェクトは、
+早稲田大学の加藤大鶴氏がリーダーとなって推進しており、
+<a href="https://dhsjr.w.waseda.jp/">https://dhsjr.w.waseda.jp/</a>
+で構築した全データが公開されている。</p>
+<p>以下、DHSJRの用例は、2024年5月29日公開のバージョンによる。</p>
+<p>このデータベースの目的は、次のように記されている。</p>
+<blockquote>
+<p>本データベース（略称：DHSJR）は、平安・鎌倉期～現代までの文献資料に現われる漢字音・漢語音を、字音注記（仮名注、声点、反切、類音注、節博士等）に即して検索可能とするものです。</p>
+</blockquote>
+<p>DHSJR構築の背景としては、これまで、個別具体的資料に基づく高度な漢字音史研究の成果があったが、
+多様な研究成果を横断的に見直して俯瞰的な視点から整理して新たな研究領域を見出そうとする
+プロジェクトである。</p>
+<p>日本漢字音史の資料の多様性は、次の三点にあり、この観点を踏まえたDBの設計を行ったとされる。</p>
+<blockquote>
+<ol>
+<li>漢文直読・訓読資料、和化漢文資料、和文資料など文献資料の位相差による漢字音・漢語音の位相的多様性</li>
+<li>単漢字単位と漢字連接単位という異なる単位における字音の単位的多様性</li>
+<li>中国語原音およびそれを受容した日本語社会における平安・鎌倉期から近世期〜現代までの字音・漢語音韻史の通史的多様性</li>
+</ol>
+</blockquote>
+<p>2024年5月29日現在、56文献、約27万2千300字（延字数）を格納しているとのことである。</p>
+<p>中国音韻史研究においては、切韻系韻書に基づく中国中古音の再構がなされており、
+論者により用語や再構の音価に相違があるとは言え、広韻と韻鏡という共通の基準があり、
+その枠組はほぼ確立していると言える。</p>
+<p>日本国内では、鈴木慎吾氏の<a href="https://suzukish.sakura.ne.jp/search/">篇韻データベース（PYDB）</a>
+がよく知られているが、これには、
+上古音、切韻・廣韻・中古音、玉篇のデータベースが公開されている。切韻・廣韻・中古音には次の三つが収録されており、
+内容の正確性、検索閲覧の利便性に優れている。</p>
+<ul>
+<li><a href="https://suzukish.sakura.ne.jp/search/inkyo/index.php">Web韻圖～廣韻檢索～（漢語中古音の理解のために&hellip;）</a></li>
+<li><a href="https://suzukish.sakura.ne.jp/search/qieyun/index.php">『切韻』諸本輯覽（作成中）</a></li>
+<li><a href="https://suzukish.sakura.ne.jp/search/qieyun_yiwen/search_top.php">『切韻』佚文檢索</a></li>
+</ul>
+<p>これに対して日本漢字音史においては、研究者により整理方法がまちまちであり、なかなか手を付けるのが
+難しい分野である。
+こうした状況を打開するプロジェクトとしてDHSJRは画期的である。</p>
+<p>20年ほど前に湯沢質幸氏を代表者とする科学研究費基盤研究(B)
+<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-13410123/">「日本漢字音データベース(大字音表)作成のための基礎的研究」</a>が
+あって、「日本漢字音研究者の研究上の便宜を図るためのソフトの開発」がなされたというが、
+現在、そのソフトを利用する情報は容易に見つからない。
+また、「将来における日本漢字音データベース(大字音表)の完成を目指して国内外の漢字音資料の調査を行い」と
+見えるので、日本漢字音データベース(大字音表)が構築されたことが分かる。
+しかし、現在、日本漢字音データベース(大字音表)のデータは、公開されていないようである。</p>
+<p>湯沢質幸氏らによる大字音表のプロジェクトは、2001年度から2004年度まで行われているが、
+この時期のコンピュータの環境を振り返ってみると、UnicodeのCJK統合漢字がやっと
+使えるようになった時期である。技術的な制約のある時期のプロジェクトとして画期的であったが、
+現在のコンピュータの環境にあった漢字音のデータが求められる。</p>
+<p>ところで、名義抄のデータベース化は、
+田島毓堂氏を代表とする科学研究費総合研究(A)
+<a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-63301058/">「類聚名義抄の注釈的研究ー電算機利用によるー」</a>
+があった。研究期間は、1988年度から1989年度まである。
+このプロジェクトは、JIS漢字約6,000字しか利用できない環境でなされたものであり、極めて先駆的な研究であった。
+このデータベースは、蓮成院本類聚名義抄を底本として、データベース化と読解作業を行ったものであるが、
+構築したデータベースは公開されなかったようである。</p>
+<h2 id="dhsjr収録の辞書音義">DHSJR収録の辞書音義</h2>
+<p>DHSJRの<a href="https://dhsjr.w.waseda.jp/?page_id=14">文献資料一覧</a>を見ると、2024年5月29日公開のバージョンには
+辞書音義としては、次の5点が収録されている。</p>
+<ul>
+<li>20-043-01「金光明最勝王経音義」大東急記念文庫蔵</li>
+<li>20-044-01「法華経音」九条家蔵</li>
+<li>30-017-01「色葉字類抄」前田育徳会尊経閣文庫蔵</li>
+<li>40-045-01「法華経音訓」東洋文庫蔵、心空版</li>
+<li>50-029-01「浄土三部経音義」龍谷大学図書館蔵</li>
+</ul>
+<p>名義抄は未収録となっている。名義抄は日本漢字音史研究の重要資料であり、
+これを追加することが期待される。</p>
+<p>名義抄の全文テキストデータは、KRM.tsvとして公開しており、
+注文に分解したデータもKRM_definitions.tsvとして公開している。
+KRM_definitions.tsvから音注を抜き出して、DHSJRのフォーマットに揃える
+必要がある。</p>
+<p>以下、KRM_definitions.tsvをKRMと表記して説明することがある。</p>
+<h2 id="dhsjrのデータ列の構成">DHSJRのデータ列の構成</h2>
+<p><a href="https://dhsjr.w.waseda.jp/?page_id=19">データ列の構成</a>は次のようになっており、
+23の項目（列）を設定している。</p>
+<p>KRMと対応をとることができそうな項目、問題なさそうな項目は太字としておく。</p>
+<ul>
+<li>ID：単字ごとのユニークID（統合データのみ）</li>
+<li><strong>資料番号</strong>：資料ID</li>
+<li><strong>資料名</strong></li>
+<li><strong>資料内漢字番号</strong>：漢字の資料内出現順の通し番号</li>
+<li><strong>資料内漢語番号</strong>：漢語の資料内出現順の通し番号</li>
+<li><strong>単字_見出し</strong>：音注が付された漢字の見出し列。JIS漢字第2水準の範囲内の字体は康熙字典体に正規化。（「見出し」列の正規化に関する注意事項）</li>
+<li><strong>単字_出現形</strong>：音注が付された漢字。原則的に入力者の表記方針による。助詞、音合符などが表記される場合もある。</li>
+<li><strong>漢語_見出し</strong>：音注が付された漢字を含む漢語の見出し列。JIS漢字第2水準の範囲内の字体は康熙字典体に正規化。 （「見出し」列の正規化に関する注意事項）</li>
+<li><strong>漢語_出現形</strong>：音注が付された漢字を含む漢語。単字_出現形に同じ。</li>
+<li>漢語_alphabet：欧文による漢語の表記がある場合に入力されている</li>
+<li>語種：混種語がある場合に、語種を示す。ただし入力者によって対応はまちまちである。</li>
+<li><strong>漢語内位置</strong>：漢語内での単字の位置。例えば1文字目ならば”1”。</li>
+<li>単字長：単字の拍数（この項目はほとんど入力できていない。今後の検討課題である）</li>
+<li><strong>声点</strong>：単字に対する四声（平上去入）、六声（平平軽上去入軽入）及び清濁</li>
+<li><strong>声点型</strong>：漢語に対する声点の組合せ。声点がない単字については＊で表す。</li>
+<li><strong>仮名注</strong>：仮名表記による字音注（仮名反切を含む）</li>
+<li><strong>仮名型</strong>：漢語に対する仮名注の組合せ。仮名注がない単字については＊で表す。</li>
+<li><strong>反切</strong>：単字に対する反切注</li>
+<li><strong>類音</strong>：単字に対する類音注</li>
+<li>節博士：声明等音楽資料に付される博士譜など</li>
+<li><strong>その他</strong>：その他の音注</li>
+<li><strong>出現位置</strong>：資料内の単字・漢語の所在</li>
+<li><strong>備考</strong>：注記すべき事柄</li>
+</ul>
+<p>次にDHSJR収録の色葉字類抄の例を示す。
+資料番号（30-017-01）と資料名（色葉字類抄_尊経閣文庫_三巻本）は字数が多く、表が見づらくなるので、省略する。</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>資料内漢字番号</th>
+<th>資料内漢語番号</th>
+<th>単字_見出し</th>
+<th>単字_出現形</th>
+<th>漢語_見出し</th>
+<th>漢語_出現形</th>
+<th>漢語_alphabet</th>
+<th>語種</th>
+<th>漢語内位置</th>
+<th>単字長</th>
+<th>声点</th>
+<th>声点型</th>
+<th>仮名注</th>
+<th>仮名型</th>
+<th>反切</th>
+<th>類音</th>
+<th>節博士</th>
+<th>その他</th>
+<th>出現位置</th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>30-017-01-000001</td>
+<td>1</td>
+<td>1</td>
+<td>且</td>
+<td>且</td>
+<td>且千</td>
+<td>且千</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td>シヤ</td>
+<td>シヤ＊</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1/001b/3</td>
+<td></td>
+</tr>
+<tr>
+<td>30-017-01-000002</td>
+<td>2</td>
+<td>2</td>
+<td>雷</td>
+<td>雷</td>
+<td>雷</td>
+<td>雷</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td>平</td>
+<td>平</td>
+<td>ライ</td>
+<td>ライ</td>
+<td></td>
+<td></td>
+<td></td>
+<td>イカツチ 又作\PMO{042518}</td>
+<td>1/002a/3</td>
+<td></td>
+</tr>
+<tr>
+<td>30-017-01-000003</td>
+<td>3</td>
+<td>3</td>
+<td>雷</td>
+<td>雷</td>
+<td>雷公</td>
+<td>雷公</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td></td>
+<td>平</td>
+<td>平平</td>
+<td>ライ</td>
+<td>ライコウ</td>
+<td></td>
+<td></td>
+<td></td>
+<td>同</td>
+<td>1/002a/3</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="dhsjrとの対応策">DHSJRとの対応策</h2>
+<p>DHSJRの<a href="https://dhsjr.w.waseda.jp/?page_id=19">データ列の構成</a>に示された23の項目の順に、
+KRMのデータの対応方法、加工方法を検討する。</p>
+<h3 id="id">ID</h3>
+<p>IDは単字ごとのユニークID（統合データのみ）とされる。
+公開された統合データを見ると資料番号（資料ID）に資料内漢字番号を加えたものとなっている。</p>
+<p>先に例示した色葉字類抄の例で言うと、
+IDは30-017-01-000001であるが、30-017-01が資料番号（資料ID）、000001が資料内漢字番号に一致しており、
+両者をハイフン（-）で繋いでいる。</p>
+<p>資料番号（資料ID）はDHSJR側が設定するものなので、HDICのKRMデータは資料内漢字番号を用意すればよい。</p>
+<h3 id="資料番号">資料番号</h3>
+<blockquote>
+<p>資料ID</p>
+</blockquote>
+<p>資料番号（資料ID）はDHSJR側が設定する。30-017-01のように三つの要素をハイフン（-）で繋いでいる。
+一定のルールがあるようだが、最初の30は年代・時代、次の017は資料、最後の01は写本・版本の種類を示すようである。</p>
+<p>名義抄は、原撰本系に図書寮本があり、改編本系に観智院本、高山寺本、蓮成院本、西念寺本、宝菩提院本がある。</p>
+<p>たとえば、次のようになるであろう。未定のものはxxxまたはxxxyとした。</p>
+<ul>
+<li>
+<p>原撰本系</p>
+<ul>
+<li>図書寮本 30-xxx-01</li>
+</ul>
+</li>
+<li>
+<p>改編本系</p>
+<ul>
+<li>観智院本 30-xxy-01</li>
+<li>高山寺本 30-xxy-02</li>
+<li>蓮成院本 30-xxy-03</li>
+<li>西念寺本 30-xxy-04</li>
+<li>宝菩提院本 30-xxy-05</li>
+</ul>
+</li>
+</ul>
+<h3 id="資料名">資料名</h3>
+<p>DHSJRの色葉字類抄は「色葉字類抄_尊経閣文庫_三巻本」となっており、
+これにならえば、「類聚名義抄_天理図書館_観智院本」となる。</p>
+<p>前述のIDに追記すれば次のようになる。</p>
+<ul>
+<li>
+<p>原撰本系</p>
+<ul>
+<li>図書寮本 30-xxx-01 類聚名義抄_宮内庁書陵部_図書寮本</li>
+</ul>
+</li>
+<li>
+<p>改編本系</p>
+<ul>
+<li>観智院本 30-xxy-01 類聚名義抄_天理図書館_観智院本</li>
+<li>高山寺本 30-xxy-02 三宝類字集_天理図書館_高山寺本</li>
+<li>蓮成院本 30-xxy-03 三宝類聚名義抄_鎮国守国神社_蓮成院本</li>
+<li>西念寺本 30-xxy-04 類聚名義抄_天理図書館_西念寺本</li>
+<li>宝菩提院本 30-xxy-05 類聚名義抄_東寺宝菩提院_宝菩提院本</li>
+</ul>
+</li>
+</ul>
+<p>（追記2025/2/18）
+DHSJR代表者の加藤大鶴氏に問い合わせたところ、
+048以降が空いているとのことなので、この番号を予約させていただいた。
+また、原撰本系と改編本系のように諸本を分類して番号を与えることは
+していないとのことなので、以下の案を出しておく。</p>
+<ul>
+<li>図書寮本 30-048-01 類聚名義抄_宮内庁書陵部_図書寮本</li>
+<li>観智院本 30-048-02 類聚名義抄_天理図書館_観智院本</li>
+<li>高山寺本 30-048-03 三宝類字集_天理図書館_高山寺本</li>
+<li>蓮成院本 30-048-04 三宝類聚名義抄_鎮国守国神社_蓮成院本</li>
+<li>西念寺本 30-048-05 類聚名義抄_天理図書館_西念寺本</li>
+<li>宝菩提院本 30-048-06 類聚名義抄_東寺宝菩提院_宝菩提院本</li>
+</ul>
+<p>（追記はここまで）</p>
+<h3 id="資料内漢字番号">資料内漢字番号</h3>
+<blockquote>
+<p>漢字の資料内出現順の通し番号</p>
+</blockquote>
+<p>KRMでは機械的に処理することが可能である。</p>
+<h3 id="資料内漢語番号">資料内漢語番号</h3>
+<blockquote>
+<p>漢語の資料内出現順の通し番号</p>
+</blockquote>
+<p>KRMでは機械的に処理することが可能である。</p>
+<h3 id="単字_見出し">単字_見出し</h3>
+<blockquote>
+<p>音注が付された漢字の見出し列。JIS漢字第2水準の範囲内の字体は康熙字典体に正規化。（「見出し」列の正規化に関する注意事項）</p>
+</blockquote>
+<p>名義抄が単字の見出しの場合、約24,000の音注付き見出しのうち、約18,000はそのまま転記すればよい。
+残る約6,000字は、異体字か、熟語であり、個別の対応が必要となる。</p>
+<p>異体字が併記されるのは約3,700である。
+たとえば、「靜／静」、「卝／丱」のような場合は、康熙字典体があればそれを採用すればよい。</p>
+<p>「靜／静」は「靜」を採用する。</p>
+<p>「卝／丱」は注に「今正」とあるので、「正」に対応する「丱」
+を採用すればよさそうであるが、「卝」は広韻「呼䁝切」（上声梗韻）、
+「丱」は「古患切」（去声諫韻）と別字である。名義抄の音注は「古患」「音慣(R)」とあって
+「丱」に対応する。名義抄は「卝／丱」の次の項目「卝」に「礦字」とあり、
+「呼䁝切」（上声梗韻）に対応している。
+「卝」は「丱」に通用して用いられることがあるので、「今正」のような字体注が施されたと
+考えられる。</p>
+<p>異体字併記の約3,700は個別に判断して行くことが必要になるが、ある程度は機械的な処理ができそうである。</p>
+<p>「⿰黄王／黈」のように、IDSで表現した漢字と、Unicodeで符号位置が割り当てられている場合は、
+Unicodeの漢字を採用すればよい。</p>
+<p>「⿺更与／⿺更與」のように、IDSで表現した漢字だけの場合は、どちらかを採用することになる。
+この手のものは、諸字書に見えない僻字であり、龍龕手鏡のような字書との比較には
+役立つが、日本漢字音史研究にはほとんど役に立たない。どちらをとっても大過ないものと考えられる。</p>
+<p>現在のDHSJRには、異なり字数6,487字、延べ字数164,913字が収録されている。</p>
+<h3 id="単字_出現形">単字_出現形</h3>
+<blockquote>
+<p>音注が付された漢字。原則的に入力者の表記方針による。助詞、音合符などが表記される場合もある。</p>
+</blockquote>
+<p>これはほとんどの場合、「単字_見出し」をそのまま転記するのでよいと思われる。</p>
+<p>しかし、異体字の扱いが問題となる場合がある。</p>
+<p>これは、名義抄で異体字を併記する項目（異体字項目）の場合と二字以上の漢語からなる項目（熟語項目）に異体字が用いられる場合が問題となる。</p>
+<p>たとえば、「磺／礦」に反切「古猛反」と仮名注「和火ウ」が見える。
+「磺」と「礦」とは異体字の関係であるが、名義抄に字体注記はなく、いずれが「正」であるか
+判断できない。広韻を見ると「礦」を収録しているが、「磺」を収録していない。そこで
+「単字_見出し」を「礦」とすることができる。
+DHSJRは漢字音研究のためのデータなので、広韻にあれば、その見出しを採用するのが適切である。</p>
+<p>そこまではよいが、「単字_出現形」はどうするか。</p>
+<p>これは、「単字_見出し」と同じ内容を記載するやり方と、異体字併記の内容をそのまま記載するやり方とが
+考えられる。</p>
+<p>「単字_見出し」が決定しているのであれば、単字_出現形をこれと同じ内容にするのは簡単である。</p>
+<p>「出現形」の部分に拘るなら、異体字併記としておくのがよいが、そうすると次の「漢語_見出し」
+の扱いが面倒になる。形式から異体字併記なのか、熟語なのか、両者の区別がつかない。
+DHSJRは漢語の研究に資することを必要なので、異体字に関する情報は割愛して、
+異体字併記の項目は、代表とする字のみを記載するのがよさそうである。
+異体字に関する情報は、必要に応じて「備考」に記載することにする。</p>
+<p>さらに、「単字_出現形」に誤写あるいは異体字の通用が疑われる場合がある。これは元の字形を「単字_出現形」に、
+校訂した字形を「単字_見出し」とすることで対応する。
+たとえば、「⿰火句」は音注「許于反」とあるが、広韻にない。
+これは龍龕手鏡(巻2火部平声)に「㶷：俗許于反」とあることから、
+名義抄の「⿰火句」は「㶷」の同字または誤写が疑われるものである。</p>
+<p>異体字が別項目に記載され、「正」の字形には音注がないが、「正」のない字形に音注が加えられる場合がある。
+たとえば「⿱⿰号乕土」に「音浩」とあるが、次の項目「㙱」に「正」の注記がある場合である。
+これは「単字_見出し」を「㙱」、「単字_出現形」を「⿱⿰号乕土」とする。</p>
+<p>次は熟語項目の場合である。</p>
+<p>たとえば、「侏／𪝥」の見出しの「𪝥」は康熙字典体「儒」であるので、
+「単字_見出し」を「儒」、単字_出現形を「𪝥」としてもよい。
+後述の「漢語_見出し」は「侏儒」、漢語_出現形は「侏𪝥」となる。</p>
+<p>日本漢字音史研究の資料としては、恐らくどちらでもよいであろうが、
+入力方針としては、「単字_見出し」は康熙字典体かそれに近いもの、
+単字_出現形は原文の字形がUnicodeにあればそれを採用することとし、
+Unicodeにないものは、IDSにより表現することにしよう。</p>
+<h3 id="漢語_見出し">漢語_見出し</h3>
+<blockquote>
+<p>音注が付された漢字を含む漢語の見出し列。JIS漢字第2水準の範囲内の字体は康熙字典体に正規化。 （「見出し」列の正規化に関する注意事項）</p>
+</blockquote>
+<p>「単字_見出し」と同じ入力方針とする。</p>
+<h3 id="漢語_出現形">漢語_出現形</h3>
+<blockquote>
+<p>音注が付された漢字を含む漢語。単字_出現形に同じ。</p>
+</blockquote>
+<p>「単字_出現形」と同じ入力方針とする。</p>
+<h3 id="漢語_alphabet">漢語_alphabet</h3>
+<blockquote>
+<p>欧文による漢語の表記がある場合に入力されている</p>
+</blockquote>
+<p>DHSJRでは、和英語林集成第三版のローマ字が入力されている。</p>
+<h3 id="語種">語種</h3>
+<blockquote>
+<p>混種語がある場合に、語種を示す。ただし入力者によって対応はまちまちである。</p>
+</blockquote>
+<p>DHSJRでは西方指南抄_専修寺が3例、和英語林集成第三版が255例見えた。説明のとおり、すべて混種語である。</p>
+<h3 id="漢語内位置">漢語内位置</h3>
+<blockquote>
+<p>漢語内での単字の位置。例えば1文字目ならば”1”。</p>
+</blockquote>
+<p>「単字_出現形」で例に挙げた「侏／𪝥」の音注の情報は、KRMで次のように記述されている。</p>
+<table>
+<thead>
+<tr>
+<th>KRID_no</th>
+<th>KR2ID</th>
+<th>Entry</th>
+<th>Def</th>
+<th>Def_code</th>
+<th>Def_name</th>
+<th>Word_form</th>
+<th>JK_URL</th>
+<th>Remarks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>F00661_01</td>
+<td>K0102842</td>
+<td>侏／𪝥</td>
+<td>音朱(L)𣽈</td>
+<td>215</td>
+<td>音注声点有_類音注等</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Defの欄に記載した音注には「音朱(L)𣽈」とあり、これは
+「侏」の類音注が「朱」、「𪝥」の類音注が「𣽈」であって、「朱」には平声(L)の声点が加えられている。
+これをDHSJRの形式で書き換えてみると次のようになる。
+「単字_見出し」から「類音」までの範囲で示す。「漢語_alphabet」は略す。</p>
+<table>
+<thead>
+<tr>
+<th>単字_見出し</th>
+<th>単字_出現形</th>
+<th>漢語_見出し</th>
+<th>漢語_出現形</th>
+<th>語種</th>
+<th>漢語内位置</th>
+<th>単字長</th>
+<th>声点</th>
+<th>声点型</th>
+<th>仮名注</th>
+<th>仮名型</th>
+<th>反切</th>
+<th>類音</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>侏</td>
+<td>侏</td>
+<td>侏儒</td>
+<td>侏𪝥</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td>平</td>
+<td>平＊</td>
+<td></td>
+<td></td>
+<td></td>
+<td>音朱(L)𣽈</td>
+</tr>
+<tr>
+<td>儒</td>
+<td>𪝥</td>
+<td>侏儒</td>
+<td>侏𪝥</td>
+<td></td>
+<td>2</td>
+<td></td>
+<td></td>
+<td>平＊</td>
+<td></td>
+<td></td>
+<td></td>
+<td>音朱(L)𣽈</td>
+</tr>
+</tbody>
+</table>
+<p>KRM_definitions.tsvは1行であるが、二字漢語（熟語）の上字と下字に音注が施されている場合、
+DHSJR形式では2行とする必要がある。</p>
+<p>さらに、「漢語内位置」について、
+「侏」は1、「儒」は2をそれぞれ新たに追記する必要がある。</p>
+<p>「声点」と「声点型」は原文「音朱(L)𣽈」の内容から、上記のようになると思われる。
+声点が施されていない場合、全角の＊を用いるようなので、それに合わせてみた。</p>
+<p>「類音」について、原文「音朱(L)𣽈」とあるものを「音朱(L)」と「𣽈」とに分けて
+記載する方式と、「音朱(L)𣽈」を漢語に対する音注と見てそのまま記載する方式が
+ある。
+DHSJRに収録の色葉字類抄で類似の例を探してみると次のようになっている。「漢語_alphabet」は略す。</p>
+<table>
+<thead>
+<tr>
+<th>単字_見出し</th>
+<th>単字_出現形</th>
+<th>漢語_見出し</th>
+<th>漢語_出現形</th>
+<th>語種</th>
+<th>漢語内位置</th>
+<th>単字長</th>
+<th>声点</th>
+<th>声点型</th>
+<th>仮名注</th>
+<th>仮名型</th>
+<th>反切</th>
+<th>類音</th>
+<th>節博士</th>
+<th>その他</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>黏</td>
+<td>黏</td>
+<td>黏臍</td>
+<td>黏臍</td>
+<td></td>
+<td>1</td>
+<td></td>
+<td>平濁</td>
+<td>平濁去</td>
+<td>テム</td>
+<td>テムセイ</td>
+<td></td>
+<td>添齊二音</td>
+<td></td>
+<td>添齊二音</td>
+<td></td>
+</tr>
+<tr>
+<td>臍</td>
+<td>臍</td>
+<td>黏臍</td>
+<td>黏臍</td>
+<td></td>
+<td>2</td>
+<td></td>
+<td>去</td>
+<td>平濁去</td>
+<td>セイ</td>
+<td>テムセイ</td>
+<td></td>
+<td>添齊二音</td>
+<td></td>
+<td>添齊二音</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>これは二字漢語「黏臍」の例であるが、
+「類音」の欄は「添齊二音」を記載している。
+同じ内容を「その他」の欄にも記載しているのは、類音注の形式が通常と異なると判断したためであろうか。</p>
+<h3 id="単字長">単字長</h3>
+<blockquote>
+<p>単字の拍数（この項目はほとんど入力できていない。今後の検討課題である）</p>
+</blockquote>
+<p>「ほとんど入力できていない」とのことであるが、DHSJR収録の18文献に記載が認められる。</p>
+<table>
+<thead>
+<tr>
+<th>資料番号</th>
+<th>資料名</th>
+<th>例数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>20-001-01</td>
+<td>大般若波羅蜜多経_根津美術館</td>
+<td>13899</td>
+</tr>
+<tr>
+<td>30-010-01</td>
+<td>阿弥陀経_西本願寺</td>
+<td>2906</td>
+</tr>
+<tr>
+<td>30-012-01</td>
+<td>群書治要_金沢文庫_経部</td>
+<td>3802</td>
+</tr>
+<tr>
+<td>30-015-01</td>
+<td>浄土三経往生文類_西本願寺</td>
+<td>535</td>
+</tr>
+<tr>
+<td>30-019-01</td>
+<td>一念多念文意_東本願寺</td>
+<td>1764</td>
+</tr>
+<tr>
+<td>30-020-01</td>
+<td>尊号眞像銘文_法雲寺_略本</td>
+<td>2471</td>
+</tr>
+<tr>
+<td>30-020-02</td>
+<td>尊号眞像銘文_専修寺_広本</td>
+<td>4644</td>
+</tr>
+<tr>
+<td>30-021-01</td>
+<td>西方指南抄_専修寺</td>
+<td>20090</td>
+</tr>
+<tr>
+<td>30-022-01</td>
+<td>唯信鈔文意_専修寺_正月十一日本</td>
+<td>1836</td>
+</tr>
+<tr>
+<td>30-022-02</td>
+<td>唯信鈔文意_専修寺_正月二十七日本</td>
+<td>1963</td>
+</tr>
+<tr>
+<td>30-023-01</td>
+<td>唯信鈔_専修寺_平仮名本</td>
+<td>46</td>
+</tr>
+<tr>
+<td>30-023-02</td>
+<td>唯信抄_西本願寺</td>
+<td>1571</td>
+</tr>
+<tr>
+<td>30-023-03</td>
+<td>唯信鈔_專修寺</td>
+<td>1881</td>
+</tr>
+<tr>
+<td>30-039-03</td>
+<td>魚山六巻帖九方便</td>
+<td>359</td>
+</tr>
+<tr>
+<td>30-040-01</td>
+<td>専修大学図書館本和漢朗詠集</td>
+<td>4089</td>
+</tr>
+<tr>
+<td>30-040-02</td>
+<td>岩瀬文庫蔵延慶二年識語本和漢朗詠集</td>
+<td>738</td>
+</tr>
+<tr>
+<td>40-045-01</td>
+<td>東洋文庫本法華経音訓</td>
+<td>2206</td>
+</tr>
+<tr>
+<td>70-042-01</td>
+<td>和英語林集成第三版</td>
+<td>26669</td>
+</tr>
+</tbody>
+</table>
+<p>KRMに「単字長」に関する情報はないので、
+当面、空欄としておく。</p>
+<h3 id="声点">声点</h3>
+<blockquote>
+<p>単字に対する四声（平上去入）、六声（平平軽上去入軽入）及び清濁</p>
+</blockquote>
+<p>KRMでは、ローマ字により次のように示している。</p>
+<table>
+<thead>
+<tr>
+<th>記号</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>平</td>
+<td>L</td>
+</tr>
+<tr>
+<td>平軽</td>
+<td>F</td>
+</tr>
+<tr>
+<td>上</td>
+<td>H</td>
+</tr>
+<tr>
+<td>去</td>
+<td>R</td>
+</tr>
+<tr>
+<td>入</td>
+<td>T</td>
+</tr>
+<tr>
+<td>入軽</td>
+<td>S</td>
+</tr>
+<tr>
+<td>濁</td>
+<td>&quot;</td>
+</tr>
+</tbody>
+</table>
+<p>これをDHSJRの形式に変換する必要がある。</p>
+<h3 id="声点型">声点型</h3>
+<blockquote>
+<p>漢語に対する声点の組合せ。声点がない単字については＊で表す。</p>
+</blockquote>
+<p>KRMでは声点がない単字はを@で示しているので、これを＊に変換する。</p>
+<h3 id="仮名注">仮名注</h3>
+<blockquote>
+<p>仮名表記による字音注（仮名反切を含む）</p>
+</blockquote>
+<p>これは、KRMでいうところの仮名注に該当する。
+漢字を用いて拗音を示す「正　和者ウ」「曠　和火ウ」、
+濁音を示す「堂　俗云堕ウ」のような例も仮名注とする。</p>
+<p>DHSJRにいう「仮名反切」がどのようなものが該当するか、
+例を探せなかったが、KRMの処理で問題になることはなさそうである。</p>
+<h3 id="仮名型">仮名型</h3>
+<blockquote>
+<p>漢語に対する仮名注の組合せ。仮名注がない単字については＊で表す。</p>
+</blockquote>
+<p>＊を用いて仮名注がないことを示す点は、変換が必要である。</p>
+<h3 id="反切">反切</h3>
+<blockquote>
+<p>単字に対する反切注</p>
+</blockquote>
+<p>「◯◯反」「◯◯△△二反」のような反切形式は問題がない。
+反切上字や反切下字に仮名注が見えることがある。
+たとえば「併」に「蒲鼎(H)「テイ」反」と記載されている。
+この「テイ」は反切下字「鼎」に対する音注である。「鼎」には平声の声点も施されている。
+「鼎」に平声点があり、仮名注「テイ」があることを別の項目とする必要がある。</p>
+<p>しかしこれは別の作業となるので、反切字に対する音注を整理することは後回しとしたい。</p>
+<p>「蒲鼎(H)「テイ」反」の例で言えば、DHSJRの「反切」欄に「蒲鼎反」を記載するのは問題ない。
+では、「声点」はどうすればよいか。「＊上」としておくのがよいであろうか。DHSJRの方針を確認したいところである。</p>
+<h3 id="類音">類音</h3>
+<blockquote>
+<p>単字に対する類音注</p>
+</blockquote>
+<p>「音◯」「◯音」の形式が大半である、問題は少ない。</p>
+<p>二字漢語（熟語）に「二音」をつけて「◯△二音」「二音〇△」の形式となることがある。
+たとえば、「鷦鷯」に「焦(L)「セウ」遼(L)「レウ」二音」とあって、「鷦」の類音注「焦」と「鷯」の
+類音注「遼」を同時に示している。こうした例の場合、「漢語_見出し」と「漢語_出現形」
+は「鷦鷯」となるので、類音注は焦遼二音」とするのがよいであろう。
+ただし、仮名注と声点を省くのはひと手間かかるので、当面は「焦(L)「セウ」遼(L)「レウ」二音」の
+ままに記載しておく。</p>
+<p>「音鴛之上声」「魂之去声」のように声調も示すものは、「その他」としておく。</p>
+<h3 id="節博士">節博士</h3>
+<blockquote>
+<p>声明等音楽資料に付される博士譜など</p>
+</blockquote>
+<p>これは該当する例がない。</p>
+<h3 id="その他">その他</h3>
+<blockquote>
+<p>その他の音注</p>
+</blockquote>
+<p>声調を記す用語「又平」「去声」などが該当する。</p>
+<p>「音鴛之上声」「魂之去声」のように声調も示すものも「その他」とする。</p>
+<h3 id="出現位置">出現位置</h3>
+<blockquote>
+<p>資料内の単字・漢語の所在</p>
+</blockquote>
+<p>KRMでは、風間書房版により帖数、頁数、行数、段数、字数を示している。
+たとえば、K0804311は風間書房版影印本の僧上（8）、43頁、1行、1字目を示す。</p>
+<p>帖数は仏上を01、仏中を02、仏下本を03、仏下末を04
+法上を05、法中を06、法下を07、僧上を08、僧中を09、僧下を10とする。</p>
+<p>頁数は3桁で示し、1頁なら001、55頁なら、120頁なら120とする。</p>
+<p>行数は8行まで、段数は4段までである。字数も10字を超えることはない。それぞれ1桁を割り当てる。</p>
+<h3 id="備考">備考</h3>
+<blockquote>
+<p>注記すべき事柄</p>
+</blockquote>
+<p>音注の出典考証は、広韻等を参照して進捗している。どの程度まで
+記載するかは検討の余地がある。</p>
+<h2 id="観智院本名義抄krmの音注の種類">観智院本名義抄（KRM）の音注の種類</h2>
+<p>（以下、後日修正追加の予定）</p>
+<p>名義抄には約24,000の音注がある。これには、反切、類音注、仮名注の3種が主なものであるが、
+これらに声点が施される。</p>
+<p>反切と類音注は漢字により表記され、仮名注は片仮名により表記される。</p>
+<p>音注の形式は複合的であり、反切、類音注、仮名注の3種の組み合わせは次のようになる。</p>
+<ol>
+<li>反切</li>
+<li>反切 + 仮名注</li>
+<li>類音注</li>
+<li>類音注 + 仮名注</li>
+</ol>
+<p>さらに声点が施されることがあるから、上の4種は次のように細分される。</p>
+<ol>
+<li>反切</li>
+<li>反切 + 声点</li>
+<li>反切 + 仮名注</li>
+<li>反切 + 声点 + 仮名注</li>
+<li>類音注</li>
+<li>類音注 + 声点</li>
+<li>類音注 + 仮名注</li>
+<li>類音注 + 声点 + 仮名注</li>
+</ol>
+<p>反切は、反切上字と反切下字に声点を施すものがある。反切の4種は更に9種に細分される。</p>
+<ol>
+<li>反切</li>
+<li>反切上字 + 声点</li>
+<li>反切下字 + 声点</li>
+<li>反切上字 + 仮名注</li>
+<li>反切下字 + 仮名注</li>
+<li>反切上字 + 声点 + 仮名注</li>
+<li>反切下字 + 声点 + 仮名注</li>
+<li>反切上字 + 声点 + 仮名注</li>
+<li>反切下字 + 声点 + 仮名注</li>
+</ol>
+<p>この他に字体注や義注の漢字に声点を付した例がある。字体注に声点を付したのは20例、
+義注に声点を付したのは5例、義注の漢字に音注を付したのが10例である。</p>
+<p>DHSJRの音注の種類は、次の五つ。</p>
+<ol>
+<li>仮名注</li>
+<li>反切</li>
+<li>類音</li>
+<li>節博士</li>
+<li>その他</li>
+</ol>
+<p>名義抄に節博士はないので、これは無視できる。</p>
+<p>「平」「又去」のような声調の注記は、DHSJRでは「その他」に記載しているので、
+それに従う。</p>
+<p>また、「和同」「音同上」「呉同」などは、前出の音注に同じことを示す注記であるが、
+これらは「その他」に記載することとする。</p>
+<p>仮名注、音注、類音、その他の四つについて、エクセルのフィルター機能を使いながら、
+目視で整理した結果は次のとおりである。分類は不十分であり、正確な数値ではないが、
+大まかな傾向をみるために示してみる。</p>
+<table>
+<thead>
+<tr>
+<th>音注種類</th>
+<th>例数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>仮名注</td>
+<td>2,299</td>
+</tr>
+<tr>
+<td>反切</td>
+<td>10,016</td>
+</tr>
+<tr>
+<td>類音</td>
+<td>12,398</td>
+</tr>
+<tr>
+<td>その他</td>
+<td>483</td>
+</tr>
+<tr>
+<td>合計</td>
+<td>25,159</td>
+</tr>
+</tbody>
+</table>
+<p>反切や類音注に仮名が施されることがあり、これを
+仮名注として重複して数えているので、音注約24,000よりも
+多くなっている。</p>
+<h3 id="類音注の整理">類音注の整理</h3>
+<p>類音注の形式を整理するため、
+手始めに声点や仮名注のない形式について検討する。</p>
+<p>類音注の種類はおよそ次の4種である。</p>
+<ol>
+<li>類音注</li>
+<li>類音注 + 声点</li>
+<li>類音注 + 仮名注</li>
+<li>類音注 + 声点 + 仮名注</li>
+</ol>
+<p>音注の種類の認定に問題あるものを残すが、現時点での
+分類により数値を出してみると次のようになる。</p>
+<table>
+<thead>
+<tr>
+<th>類音注の種類</th>
+<th>例数</th>
+<th>百分率</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1. 類音注</td>
+<td>9,537</td>
+<td>76.9%</td>
+</tr>
+<tr>
+<td>2. 類音注 + 声点</td>
+<td>2,212</td>
+<td>17.8%</td>
+</tr>
+<tr>
+<td>3. 類音注 + 仮名注</td>
+<td>150</td>
+<td>1.2%</td>
+</tr>
+<tr>
+<td>4. 類音注 + 声点 + 仮名注</td>
+<td>499</td>
+<td>4.0%</td>
+</tr>
+<tr>
+<td>合計</td>
+<td>12,398</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table>
+<p>DHSJRのデータ構造では、声点、声点型、仮名注、仮名型、反切、類音を設定している。</p>
+<p>このデータ構造に記入するのに、1の類音注（のみ）、2の類音注＋声点、3の類音注＋仮名注は問題が生じない。</p>
+<p>しかし、4の 類音注 + 声点 + 仮名注ではいささか具合が悪くなる。ほとんどの場合、声点は類音注に
+対してのものであるが、稀に仮名注に対しても声点が施されることがある。</p>
+<p>また、声点の欄と類音の欄が離れており、途中に仮名注、反切があり、声点の欄の内容が
+類音に対するものとは理解しにくい。</p>
+<p>具体例を見てみよう。
+たとえば、F00762_01のIDを与えた「優」には「音憂（L）「イウ」」と見える。これを
+DHSJRのフォーマットで入力しようとするとどうなるか。
+次に、HDSJRの
+関連部分を取り出して示す。</p>
+<table>
+<thead>
+<tr>
+<th>単字_見出し</th>
+<th>声点</th>
+<th>声点型</th>
+<th>仮名注</th>
+<th>仮名型</th>
+<th>反切</th>
+<th>類音</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>優</td>
+<td>平</td>
+<td>平</td>
+<td>イウ</td>
+<td></td>
+<td></td>
+<td>音憂</td>
+</tr>
+</tbody>
+</table>
+<p>声点は類音の「憂」に施されているが、この形式だと、仮名注「イウ」に施されている
+ようにも見える。「イウ」は2文字なので、「平＊」か「＊平」になるはずだから、
+仮名注でなく類音に対する声点であるというように理解するのは、少しむずかしいように思う。</p>
+<p>二つのレコードを用意して明示的に対応するのが分かりやすい。</p>
+<table>
+<thead>
+<tr>
+<th>単字_見出し</th>
+<th>声点</th>
+<th>声点型</th>
+<th>仮名注</th>
+<th>仮名型</th>
+<th>反切</th>
+<th>類音</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>優</td>
+<td>平</td>
+<td>平</td>
+<td></td>
+<td></td>
+<td></td>
+<td>音憂</td>
+</tr>
+<tr>
+<td>優</td>
+<td></td>
+<td></td>
+<td>イウ</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>次にkrm_main.jsonとkrm_notes.jsonとの連携をとるにはどうすればよいか。
+「優」にはF00762_01のIDを与えており、krm_main.jsonとkrm_notes.jsonで
+名義抄の注文に対するIDに加えて、音注（仮名注、反切、類音）に対するIDを
+用意する必要がある。</p>
+<table>
+<thead>
+<tr>
+<th>注文ID</th>
+<th>音注ID</th>
+<th>単字_見出し</th>
+<th>声点</th>
+<th>声点型</th>
+<th>仮名注</th>
+<th>仮名型</th>
+<th>反切</th>
+<th>類音</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>F00762_01</td>
+<td></td>
+<td>優</td>
+<td>平</td>
+<td>平</td>
+<td></td>
+<td></td>
+<td></td>
+<td>音憂</td>
+</tr>
+<tr>
+<td>F00762_01</td>
+<td></td>
+<td>優</td>
+<td></td>
+<td></td>
+<td>イウ</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>音武（L-HV）「フ」「ム（H）」</p>
+<h2 id="単字_見出しの扱い">単字_見出しの扱い</h2>
+<h3 id="異体字併記の場合">異体字併記の場合</h3>
+<p>異体字を併記する項目は、採用法方法として次の二つが考えられる。</p>
+<ol>
+<li>すべてを「単字_見出し」として採用する</li>
+<li>代表の見出しをひとつだけ採用する</li>
+</ol>
+<p>たとえば「萍／蓱」は「上通下正　音屏(L)　ウキクサ(HH@@)	」とあるが、
+「萍」と「蓱」とを「単字_見出し」とする1の方法である。
+これだとレコード数が膨大になり、漢字音史研究の資料とする目的から
+すると、他の日本漢字音資料に例のない漢字ばかりとなり、
+有用でない情報を大量に取り込むこととなる。</p>
+<p>2は代表の見出しだけをとるもので、たとえば「萍／蓱」の
+字体注「上通下正」により「正」とされる「蓱」を「単字_見出し」として採用する方法である。
+これに、
+字体注がない場合は、広韻にある見出しを優先するという方法を追加する。つまり、次の二つの条件を
+勘案して、ひとつだけ採用することとする。</p>
+<ol>
+<li>KRMで「正」注記の対象となる見出し</li>
+<li>広韻にある見出し</li>
+</ol>
+<p>以上はUnicodeに見出しの漢字がある場合のことであるが、それがない場合は、適宜、
+判断してIDS形式のままに記載しておく。</p>
+<p>たとえば、「𠾧／嘼／⿳凹⿱甲一口」は注に「或今正」とあるが、「正」の字体はIDSでしか表現できないので、
+「今」の字体である「𠾧」か「嘼」が採用の候補である。
+「𠾧」は広韻になく、「嘼」は広韻にあるので、後者「嘼」を採用する。</p>
+<h3 id="熟語二字以上の漢語の場合">熟語（二字以上の漢語）の場合</h3>
+<h3 id="その他-1">その他</h3>
+<p>名義抄の見出しに声点だけがあるものは、「その他」とする。
+KRMでは「◎節(S)」のように記載し、
+「節」に入声の声点が施されていることを示す。</p>
+<h2 id="音注の点検の意義">音注の点検の意義</h2>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#dhsjrとは">DHSJRとは</a></li>
+    <li><a href="#dhsjr収録の辞書音義">DHSJR収録の辞書音義</a></li>
+    <li><a href="#dhsjrのデータ列の構成">DHSJRのデータ列の構成</a></li>
+    <li><a href="#dhsjrとの対応策">DHSJRとの対応策</a>
+      <ul>
+        <li><a href="#id">ID</a></li>
+        <li><a href="#資料番号">資料番号</a></li>
+        <li><a href="#資料名">資料名</a></li>
+        <li><a href="#資料内漢字番号">資料内漢字番号</a></li>
+        <li><a href="#資料内漢語番号">資料内漢語番号</a></li>
+        <li><a href="#単字_見出し">単字_見出し</a></li>
+        <li><a href="#単字_出現形">単字_出現形</a></li>
+        <li><a href="#漢語_見出し">漢語_見出し</a></li>
+        <li><a href="#漢語_出現形">漢語_出現形</a></li>
+        <li><a href="#漢語_alphabet">漢語_alphabet</a></li>
+        <li><a href="#語種">語種</a></li>
+        <li><a href="#漢語内位置">漢語内位置</a></li>
+        <li><a href="#単字長">単字長</a></li>
+        <li><a href="#声点">声点</a></li>
+        <li><a href="#声点型">声点型</a></li>
+        <li><a href="#仮名注">仮名注</a></li>
+        <li><a href="#仮名型">仮名型</a></li>
+        <li><a href="#反切">反切</a></li>
+        <li><a href="#類音">類音</a></li>
+        <li><a href="#節博士">節博士</a></li>
+        <li><a href="#その他">その他</a></li>
+        <li><a href="#出現位置">出現位置</a></li>
+        <li><a href="#備考">備考</a></li>
+      </ul>
+    </li>
+    <li><a href="#観智院本名義抄krmの音注の種類">観智院本名義抄（KRM）の音注の種類</a>
+      <ul>
+        <li><a href="#類音注の整理">類音注の整理</a></li>
+      </ul>
+    </li>
+    <li><a href="#単字_見出しの扱い">単字_見出しの扱い</a>
+      <ul>
+        <li><a href="#異体字併記の場合">異体字併記の場合</a></li>
+        <li><a href="#熟語二字以上の漢語の場合">熟語（二字以上の漢語）の場合</a></li>
+        <li><a href="#その他-1">その他</a></li>
+      </ul>
+    </li>
+    <li><a href="#音注の点検の意義">音注の点検の意義</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

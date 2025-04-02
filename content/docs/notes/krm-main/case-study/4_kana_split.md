@@ -9,7 +9,7 @@ weight: 54
 # bookSearchExclude: false
 ---
 
-# 同仮名異語の区別
+# 同仮名異語の区別 (Kana Homograph Distinction)
 
 池田証寿
 

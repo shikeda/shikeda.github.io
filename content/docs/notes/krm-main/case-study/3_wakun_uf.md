@@ -8,7 +8,7 @@ weight: 53
 # bookComments: false
 # bookSearchExclude: false
 ---
-# 和訓の使用頻度
+# 和訓の使用頻度 (use frequency of wakun)
 
 池田　証寿
 2025年1月12日～13日

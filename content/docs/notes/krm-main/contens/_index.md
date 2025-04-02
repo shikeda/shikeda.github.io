@@ -40,4 +40,9 @@ KRMを付していたが、仕様変更後のファイルは、krmを付すこ�
 krm_main、krm_notes、krm_wakunの三つのテーブルの関係を図示すれば
 次のようになる。
 
-![ER図](/images/krmer.drawio.png)
+![ER diagram](/images/krmer.drawio.png)
+
+
+さらにkrm_notes.jsonは次に図示するような入れ子構造を持っている。
+
+![ER_notes図](/images/krm_notes_er.drawio.png)
