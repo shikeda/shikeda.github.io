@@ -22,7 +22,14 @@ weight: 10
 ### 内容
 
 - [概要](/docs/notes/krm-main/overview/)
+- [公開データの概要](/docs/notes/krm-main/data-structure/)
 - [項目データ構造](/docs/notes/krm-main/data-structure/)
+    - [krm_main](/docs/notes/krm-main/contens/1_main/)
+    - [krm_notes](/docs/notes/krm-main/contens/2_notes/)
+    - [krm_wakun](/docs/notes/krm-main/contens/3_wakun/)
+    - [krm_definitions](/docs/notes/krm-main/contens/4_definitions/)
+    - [krm_pronunciations](/docs/notes/krm-main/contens/5_pronunciations/)
+    - [krm_ndl](/docs/notes/krm-main/contens/6_ndl/)
 - [項目データ入力](/docs/notes/krm-main/item-input/)
 - [掲出字データ入力の詳細](/docs/notes/krm-main/headword-input/)
 - [注文データ入力の詳細](/docs/notes/krm-main/def-input/)

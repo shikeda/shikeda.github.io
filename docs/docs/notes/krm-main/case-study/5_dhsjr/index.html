@@ -15,7 +15,7 @@
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.5208958dc9b071b0c78d9dcdfd5784854a2e212096c74756c0eaeefa030140ae.js" integrity="sha256-UgiVjcmwcbDHjZ3N/VeEhUouISCWx0dWwOru&#43;gMBQK4=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.5c159c600bc5a91efc7cc36f0705f4817ef3cedf11b02d99b32c0ffb8032bf50.js" integrity="sha256-XBWcYAvFqR78fMNvBwX0gX7zzt8RsC2ZsywP&#43;4Ayv1A=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -869,6 +869,8 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#観智院本名義抄krmの音注の種類">観智院本名義抄（KRM）の音注の種類</a>
       <ul>
         <li><a href="#類音注の整理">類音注の整理</a></li>
+        <li><a href="#反切の整理">反切の整理</a></li>
+        <li><a href="#仮名注の整理">仮名注の整理</a></li>
       </ul>
     </li>
     <li><a href="#単字_見出しの扱い">単字_見出しの扱い</a>
@@ -1574,7 +1576,8 @@ DHSJRに収録の色葉字類抄で類似の例を探してみると次のよう
 <blockquote>
 <p>漢語に対する声点の組合せ。声点がない単字については＊で表す。</p>
 </blockquote>
-<p>KRMでは声点がない単字はを@で示しているので、これを＊に変換する。</p>
+<p>KRMでは声点がない単字はを@で示しているので、これを＊に変換する。
+（アットマーク“@”は、2025年3月に仕様変更してアンダーバー“_”を用いることした。）</p>
 <h3 id="仮名注">仮名注</h3>
 <blockquote>
 <p>仮名表記による字音注（仮名反切を含む）</p>
@@ -1776,7 +1779,7 @@ DHSJRに収録の色葉字類抄で類似の例を探してみると次のよう
 </table>
 <p>DHSJRのデータ構造では、声点、声点型、仮名注、仮名型、反切、類音を設定している。</p>
 <p>このデータ構造に記入するのに、1の類音注（のみ）、2の類音注＋声点、3の類音注＋仮名注は問題が生じない。</p>
-<p>しかし、4の 類音注 + 声点 + 仮名注ではいささか具合が悪くなる。ほとんどの場合、声点は類音注に
+<p>しかし、4の類音注 + 声点 + 仮名注ではいささか具合が悪くなる。ほとんどの場合、声点は類音注に
 対してのものであるが、稀に仮名注に対しても声点が施されることがある。</p>
 <p>また、声点の欄と類音の欄が離れており、途中に仮名注、反切があり、声点の欄の内容が
 類音に対するものとは理解しにくい。</p>
@@ -1867,7 +1870,7 @@ DHSJRのフォーマットで入力しようとするとどうなるか。
 <tbody>
 <tr>
 <td>F00762_01</td>
-<td></td>
+<td>F00762_01</td>
 <td>優</td>
 <td>平</td>
 <td>平</td>
@@ -1878,7 +1881,7 @@ DHSJRのフォーマットで入力しようとするとどうなるか。
 </tr>
 <tr>
 <td>F00762_01</td>
-<td></td>
+<td>F00762_01a</td>
 <td>優</td>
 <td></td>
 <td></td>
@@ -1889,7 +1892,394 @@ DHSJRのフォーマットで入力しようとするとどうなるか。
 </tr>
 </tbody>
 </table>
-<p>音武（L-HV）「フ」「ム（H）」</p>
+<p>この例では、二つの区分した一方に、注文IDと同じIDを
+もう一方にa番号を追加した。</p>
+<p>音武（L-HV）「フ」「ム（H）」の場合は次のようになる。ここでは末尾にaとbを追加している。</p>
+<table>
+<thead>
+<tr>
+<th>注文ID</th>
+<th>音注ID</th>
+<th>単字_見出し</th>
+<th>声点</th>
+<th>声点型</th>
+<th>仮名注</th>
+<th>仮名型</th>
+<th>反切</th>
+<th>類音</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>F00841_01</td>
+<td>F00841_01</td>
+<td>侮</td>
+<td>平／上濁</td>
+<td>平／上</td>
+<td></td>
+<td></td>
+<td></td>
+<td>音武</td>
+</tr>
+<tr>
+<td>F00841_01</td>
+<td>F00841_01a</td>
+<td>侮</td>
+<td></td>
+<td></td>
+<td>フ</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>F00841_01</td>
+<td>F00841_01b</td>
+<td>侮</td>
+<td>上</td>
+<td>上</td>
+<td>ム</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>音注は三つの要素に区分される。二つ以上の音注IDが必要になった場合は、
+順にa、b、cを付すこととする。</p>
+<p>以上の例は、4の類音注 + 声点 + 仮名注の例であるが、全体では499例を数える。
+約500例について音注IDを区分することとなる。</p>
+<h3 id="反切の整理">反切の整理</h3>
+<p>もう一度反切の種類を示してみよう。</p>
+<ol>
+<li>反切</li>
+<li>反切 + 声点</li>
+<li>反切 + 仮名注</li>
+<li>反切 + 声点 + 仮名注</li>
+</ol>
+<p>反切を反切上字と反切下字の場合分けると更に種類が多くなる。</p>
+<ol>
+<li>反切</li>
+<li>反切上字 + 声点</li>
+<li>反切下字 + 声点</li>
+<li>反切上字 + 仮名注</li>
+<li>反切下字 + 仮名注</li>
+<li>反切上字 + 声点 + 仮名注</li>
+<li>反切下字 + 声点 + 仮名注</li>
+<li>反切上字 + 声点 + 仮名注</li>
+<li>反切下字 + 声点 + 仮名注</li>
+</ol>
+<p>しかし、ここに示した9種のパターンを調査するのは手間がかかるので、
+大まかな傾向を見るために、最初の4種のパターンを調査してみた。</p>
+<p>反切ありの約1000例の出現パターンはおよそ次のように
+なった。</p>
+<ul>
+<li>仮名注あり かつ 声点あり: 26例</li>
+<li>仮名注あり かつ 声点なし: 39例</li>
+<li>仮名注なし かつ 声点あり: 923例</li>
+<li>仮名注なし かつ 声点なし: 9,027例</li>
+</ul>
+<p>先の分類に合わせて示せば、次のとおりである。</p>
+<ol>
+<li>反切 &ndash; 9,027例</li>
+<li>反切 + 声点 &ndash; 923例</li>
+<li>反切 + 仮名注 &ndash; 39例</li>
+<li>反切 + 声点 + 仮名注 &ndash; 26例</li>
+</ol>
+<p>1が大半の例であり、これらは注文IDと音注IDとが1対1対応である。
+2、3、4は、注文IDと音注IDとが1対多対応になる。</p>
+<p>いくつか例示してみよう。</p>
+<ol>
+<li>辵　丑略反</li>
+<li>邏　盧賀（R）反</li>
+<li>避　裨豉「シ」反</li>
+<li>佛　又符「フ」弗（S）「フツ」反</li>
+</ol>
+<p>説明の都合上、最初に上記の番号 (no)を示す。</p>
+<table>
+<thead>
+<tr>
+<th>no</th>
+<th>注文ID</th>
+<th>音注ID</th>
+<th>単字_見出し</th>
+<th>声点</th>
+<th>声点型</th>
+<th>仮名注</th>
+<th>仮名型</th>
+<th>反切</th>
+<th>類音</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>F01041_01</td>
+<td>F01041_01</td>
+<td>辵</td>
+<td>　</td>
+<td></td>
+<td></td>
+<td></td>
+<td>丑略反</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>F01058_01</td>
+<td>F01058_01</td>
+<td>邏</td>
+<td>＊去</td>
+<td>＊去</td>
+<td></td>
+<td></td>
+<td>盧賀反</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>F01361_01</td>
+<td>F01361_01</td>
+<td>避</td>
+<td>　</td>
+<td>　</td>
+<td></td>
+<td></td>
+<td>裨豉反</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>F01361_01</td>
+<td>F01361_01a</td>
+<td>豉</td>
+<td>　</td>
+<td>　</td>
+<td>シ</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>F00016_03</td>
+<td>F00016_03</td>
+<td>佛</td>
+<td>＊入</td>
+<td>＊入</td>
+<td></td>
+<td></td>
+<td>符弗反</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>F00016_03</td>
+<td>F00016_03a</td>
+<td>符</td>
+<td>　</td>
+<td>　</td>
+<td>フ</td>
+<td>フ</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>F00016_03</td>
+<td>F00016_03b</td>
+<td>弗</td>
+<td>　入</td>
+<td>　入</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>1の「辵」は反切「丑略反」だけなので問題ない。<br>
+2の「邏」は反切「盧賀反」に加えて反切下字が「去」の声点であることを示す必要がある。
+これはDHSJRの方針次第だが、反切上字と反切下字の声点を続けて記入してみた。<br>
+3の「避」は反切「裨豉反」に加えて反切下字「豉」に仮名注「シ」があるものである。
+前者は「単字_見出し」を「避」とし、後者は「単字_見出し」を「豉」とすることで対応させた。<br>
+4の「佛」は反切、声点、仮名注が複合するものである。上に示したように三つに区分した。</p>
+<h3 id="仮名注の整理">仮名注の整理</h3>
+<p>仮名注は約2,300例である。</p>
+<p>最終的な分類には至っていないので、現時点での暫定的な分類とその数値を次に示す。</p>
+<table>
+<thead>
+<tr>
+<th>no</th>
+<th>仮名注</th>
+<th>声点</th>
+<th>反切</th>
+<th>類音</th>
+<th>その他</th>
+<th>例数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>有</td>
+<td>有</td>
+<td>有</td>
+<td>有</td>
+<td>有</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2</td>
+<td>有</td>
+<td>有</td>
+<td>有</td>
+<td>有</td>
+<td>無</td>
+<td>0</td>
+</tr>
+<tr>
+<td>3</td>
+<td>有</td>
+<td>有</td>
+<td>有</td>
+<td>無</td>
+<td>有</td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong>4</strong></td>
+<td><strong>有</strong></td>
+<td><strong>有</strong></td>
+<td><strong>有</strong></td>
+<td>無</td>
+<td>無</td>
+<td>27</td>
+</tr>
+<tr>
+<td>5</td>
+<td>有</td>
+<td>有</td>
+<td>無</td>
+<td>有</td>
+<td>有</td>
+<td>0</td>
+</tr>
+<tr>
+<td><strong>6</strong></td>
+<td><strong>有</strong></td>
+<td><strong>有</strong></td>
+<td>無</td>
+<td><strong>有</strong></td>
+<td>無</td>
+<td>495</td>
+</tr>
+<tr>
+<td>7</td>
+<td>有</td>
+<td>有</td>
+<td>無</td>
+<td>無</td>
+<td>無</td>
+<td>892</td>
+</tr>
+<tr>
+<td>8</td>
+<td>有</td>
+<td>無</td>
+<td>有</td>
+<td>有</td>
+<td>有</td>
+<td>0</td>
+</tr>
+<tr>
+<td>9</td>
+<td>有</td>
+<td>無</td>
+<td>有</td>
+<td>有</td>
+<td>無</td>
+<td>0</td>
+</tr>
+<tr>
+<td>10</td>
+<td>有</td>
+<td>無</td>
+<td>有</td>
+<td>無</td>
+<td>有</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>11</strong></td>
+<td><strong>有</strong></td>
+<td>無</td>
+<td><strong>有</strong></td>
+<td>無</td>
+<td>無</td>
+<td>11</td>
+</tr>
+<tr>
+<td><strong>12</strong></td>
+<td><strong>有</strong></td>
+<td>無</td>
+<td>無</td>
+<td><strong>有</strong></td>
+<td>有</td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>13</strong></td>
+<td><strong>有</strong></td>
+<td>無</td>
+<td>無</td>
+<td><strong>有</strong></td>
+<td>無</td>
+<td>143</td>
+</tr>
+<tr>
+<td>14</td>
+<td>有</td>
+<td>無</td>
+<td>無</td>
+<td>無</td>
+<td>無</td>
+<td>712</td>
+</tr>
+<tr>
+<td><strong>15</strong></td>
+<td><strong>有</strong></td>
+<td><strong>有</strong></td>
+<td>無</td>
+<td>無</td>
+<td><strong>有</strong></td>
+<td>14</td>
+</tr>
+<tr>
+<td>16</td>
+<td>有</td>
+<td>無</td>
+<td>無</td>
+<td>無</td>
+<td>有</td>
+<td>2</td>
+</tr>
+<tr>
+<td>合計</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>2,298</td>
+</tr>
+</tbody>
+</table>
+<p>番号を<strong>太字</strong>とした<strong>4</strong>、<strong>6</strong>、<strong>11</strong>、<strong>12</strong>、<strong>13</strong>、<strong>15</strong>は
+仮名注と声点・反切・類音・その他の対応が1対多になるものである。
+およそ679例ある。
+すなわち、これらは注文IDと音注IDとの対応が1対多になるのである。</p>
+<p>1対多となるレコードはあらかじめ準備しておくのがよい。</p>
 <h2 id="単字_見出しの扱い">単字_見出しの扱い</h2>
 <h3 id="異体字併記の場合">異体字併記の場合</h3>
 <p>異体字を併記する項目は、採用法方法として次の二つが考えられる。</p>
@@ -1897,7 +2287,7 @@ DHSJRのフォーマットで入力しようとするとどうなるか。
 <li>すべてを「単字_見出し」として採用する</li>
 <li>代表の見出しをひとつだけ採用する</li>
 </ol>
-<p>たとえば「萍／蓱」は「上通下正　音屏(L)　ウキクサ(HH@@)	」とあるが、
+<p>たとえば「萍／蓱」は「上通下正　音屏(L)　ウキクサ(HH__)	」とあるが、
 「萍」と「蓱」とを「単字_見出し」とする1の方法である。
 これだとレコード数が膨大になり、漢字音史研究の資料とする目的から
 すると、他の日本漢字音資料に例のない漢字ばかりとなり、
@@ -1997,6 +2387,8 @@ document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("clic
     <li><a href="#観智院本名義抄krmの音注の種類">観智院本名義抄（KRM）の音注の種類</a>
       <ul>
         <li><a href="#類音注の整理">類音注の整理</a></li>
+        <li><a href="#反切の整理">反切の整理</a></li>
+        <li><a href="#仮名注の整理">仮名注の整理</a></li>
       </ul>
     </li>
     <li><a href="#単字_見出しの扱い">単字_見出しの扱い</a>
