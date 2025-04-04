@@ -15,7 +15,7 @@
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.8e9cd37037437655f21f823c5303aaefc3c5fb5e8e3a2946fb19613a487d1cb2.js" integrity="sha256-jpzTcDdDdlXyH4I8UwOq78PF&#43;16OOilG&#43;xlhOkh9HLI=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.de96f66ba30c7311d268ffdc468553f7c4717a21de6981590374bbeba8da9288.js" integrity="sha256-3pb2a6MMcxHSaP/cRoVT98RxeiHeaYFZA3S766jakog=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -871,6 +871,7 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#類音注の整理">類音注の整理</a></li>
         <li><a href="#反切の整理">反切の整理</a></li>
         <li><a href="#仮名注の整理">仮名注の整理</a></li>
+        <li><a href="#音注の整理">音注の整理</a></li>
       </ul>
     </li>
     <li><a href="#単字_見出しの扱い">単字_見出しの扱い</a>
@@ -880,7 +881,14 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#その他-1">その他</a></li>
       </ul>
     </li>
-    <li><a href="#音注の点検の意義">音注の点検の意義</a></li>
+    <li><a href="#音注の加工">音注の加工</a>
+      <ul>
+        <li><a href="#大雑把な音注の分類">大雑把な音注の分類</a></li>
+        <li><a href="#注文idと音注id">注文IDと音注ID</a></li>
+        <li><a href="#仮名注の処理">仮名注の処理</a></li>
+        <li><a href="#音注idpronunciation_idの追加規則">音注ID（pronunciation_id）の追加規則</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -1644,7 +1652,10 @@ DHSJRに収録の色葉字類抄で類似の例を探してみると次のよう
 <p>音注の出典考証は、広韻等を参照して進捗している。どの程度まで
 記載するかは検討の余地がある。</p>
 <h2 id="観智院本名義抄krmの音注の種類">観智院本名義抄（KRM）の音注の種類</h2>
-<p>（以下、後日修正追加の予定）</p>
+<p>以下に記す内容は、DHSJRとの連携を図るために行った、作業上のメモである。</p>
+<p>DHSJRとの連携がとれれば、もっと簡潔にまとめることができるはずである。
+試行錯誤をそのまま書いているので、非常に読みにくい。
+その点はご容赦願いたい。</p>
 <p>名義抄には約24,000の音注がある。これには、反切、類音注、仮名注の3種が主なものであるが、
 これらに声点が施される。</p>
 <p>反切と類音注は漢字により表記され、仮名注は片仮名により表記される。</p>
@@ -1981,10 +1992,10 @@ DHSJRのフォーマットで入力しようとするとどうなるか。
 </ul>
 <p>先の分類に合わせて示せば、次のとおりである。</p>
 <ol>
-<li>反切 &ndash; 9,027例</li>
-<li>反切 + 声点 &ndash; 923例</li>
-<li>反切 + 仮名注 &ndash; 39例</li>
-<li>反切 + 声点 + 仮名注 &ndash; 26例</li>
+<li>反切:  9,027例</li>
+<li>反切 + 声点: 923例</li>
+<li>反切 + 仮名注: 39例</li>
+<li>反切 + 声点 + 仮名注: 26例</li>
 </ol>
 <p>1が大半の例であり、これらは注文IDと音注IDとが1対1対応である。
 2、3、4は、注文IDと音注IDとが1対多対応になる。</p>
@@ -2106,7 +2117,8 @@ DHSJRのフォーマットで入力しようとするとどうなるか。
 4の「佛」は反切、声点、仮名注が複合するものである。上に示したように三つに区分した。</p>
 <h3 id="仮名注の整理">仮名注の整理</h3>
 <p>仮名注は約2,300例である。</p>
-<p>最終的な分類には至っていないので、現時点での暫定的な分類とその数値を次に示す。</p>
+<p>最終的な分類には至っていないので、現時点での暫定的な分類とその数値を次に示す。
+“✓”を記入したのは、該当例があることを示し、空欄は該当例がないことをを示す。</p>
 <table>
 <thead>
 <tr>
@@ -2122,146 +2134,146 @@ DHSJRのフォーマットで入力しようとするとどうなるか。
 <tbody>
 <tr>
 <td>1</td>
-<td>有</td>
-<td>有</td>
-<td>有</td>
-<td>有</td>
-<td>有</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 <td>0</td>
 </tr>
 <tr>
 <td>2</td>
-<td>有</td>
-<td>有</td>
-<td>有</td>
-<td>有</td>
-<td>無</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
 <td>0</td>
 </tr>
 <tr>
 <td>3</td>
-<td>有</td>
-<td>有</td>
-<td>有</td>
-<td>無</td>
-<td>有</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+<td>✓</td>
 <td>0</td>
 </tr>
 <tr>
 <td><strong>4</strong></td>
-<td><strong>有</strong></td>
-<td><strong>有</strong></td>
-<td><strong>有</strong></td>
-<td>無</td>
-<td>無</td>
-<td>27</td>
+<td><strong>✓</strong></td>
+<td><strong>✓</strong></td>
+<td><strong>✓</strong></td>
+<td></td>
+<td></td>
+<td><strong>27</strong></td>
 </tr>
 <tr>
 <td>5</td>
-<td>有</td>
-<td>有</td>
-<td>無</td>
-<td>有</td>
-<td>有</td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
 <td>0</td>
 </tr>
 <tr>
 <td><strong>6</strong></td>
-<td><strong>有</strong></td>
-<td><strong>有</strong></td>
-<td>無</td>
-<td><strong>有</strong></td>
-<td>無</td>
-<td>495</td>
+<td><strong>✓</strong></td>
+<td><strong>✓</strong></td>
+<td></td>
+<td><strong>✓</strong></td>
+<td></td>
+<td><strong>495</strong></td>
 </tr>
 <tr>
 <td>7</td>
-<td>有</td>
-<td>有</td>
-<td>無</td>
-<td>無</td>
-<td>無</td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td></td>
 <td>892</td>
 </tr>
 <tr>
 <td>8</td>
-<td>有</td>
-<td>無</td>
-<td>有</td>
-<td>有</td>
-<td>有</td>
+<td>✓</td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
 <td>0</td>
 </tr>
 <tr>
 <td>9</td>
-<td>有</td>
-<td>無</td>
-<td>有</td>
-<td>有</td>
-<td>無</td>
+<td>✓</td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
 <td>0</td>
 </tr>
 <tr>
 <td>10</td>
-<td>有</td>
-<td>無</td>
-<td>有</td>
-<td>無</td>
-<td>有</td>
+<td>✓</td>
+<td></td>
+<td>✓</td>
+<td></td>
+<td>✓</td>
 <td>1</td>
 </tr>
 <tr>
 <td><strong>11</strong></td>
-<td><strong>有</strong></td>
-<td>無</td>
-<td><strong>有</strong></td>
-<td>無</td>
-<td>無</td>
-<td>11</td>
+<td><strong>✓</strong></td>
+<td></td>
+<td><strong>✓</strong></td>
+<td></td>
+<td></td>
+<td><strong>11</strong></td>
 </tr>
 <tr>
 <td><strong>12</strong></td>
-<td><strong>有</strong></td>
-<td>無</td>
-<td>無</td>
-<td><strong>有</strong></td>
-<td>有</td>
-<td>1</td>
+<td><strong>✓</strong></td>
+<td></td>
+<td></td>
+<td><strong>✓</strong></td>
+<td>✓</td>
+<td><strong>1</strong></td>
 </tr>
 <tr>
 <td><strong>13</strong></td>
-<td><strong>有</strong></td>
-<td>無</td>
-<td>無</td>
-<td><strong>有</strong></td>
-<td>無</td>
-<td>143</td>
+<td><strong>✓</strong></td>
+<td></td>
+<td></td>
+<td><strong>✓</strong></td>
+<td></td>
+<td><strong>143</strong></td>
 </tr>
 <tr>
 <td>14</td>
-<td>有</td>
-<td>無</td>
-<td>無</td>
-<td>無</td>
-<td>無</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 <td>712</td>
 </tr>
 <tr>
 <td><strong>15</strong></td>
-<td><strong>有</strong></td>
-<td><strong>有</strong></td>
-<td>無</td>
-<td>無</td>
-<td><strong>有</strong></td>
-<td>14</td>
+<td><strong>✓</strong></td>
+<td><strong>✓</strong></td>
+<td></td>
+<td></td>
+<td><strong>✓</strong></td>
+<td><strong>14</strong></td>
 </tr>
 <tr>
 <td>16</td>
-<td>有</td>
-<td>無</td>
-<td>無</td>
-<td>無</td>
-<td>有</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td></td>
+<td>✓</td>
 <td>2</td>
 </tr>
 <tr>
@@ -2280,6 +2292,204 @@ DHSJRのフォーマットで入力しようとするとどうなるか。
 およそ691例ある。
 すなわち、これらは注文IDと音注IDとの対応が1対多になるのである。</p>
 <p>1対多となるレコードはあらかじめ準備しておくのがよい。</p>
+<h3 id="音注の整理">音注の整理</h3>
+<p>音注の種類は、声点、仮名注、反切、類音、その他である。</p>
+<p>この5種類が1対多となるレコードは扱いが面倒である。これは、
+類音注、反切、仮名注を順に検討してきてはっきりした。</p>
+<p>ただ、パターンが複雑になるので、1対多となるレコードがどれくらいになるか、
+予備的に調査シておく必要がある。
+仮名注はさきほどの検討から約690という数値を出した。</p>
+<p>いま、作業用に使っているExcelのデータでは、
+該当例がないことを示すのに“#N/A”を入れているので、その有無をチェックすれば
+仮名注、反切、類音、その他があるかどうかを判定できる。</p>
+<p>声点は必ず全角文字の“（”と“）”とで括っているので、“（”の有無をチェックすれば
+声点があるかどうかを判定できる。</p>
+<p>そこで、次のような条件を立てた。</p>
+<ol>
+<li>仮名注を含む音注に声点があれば、2を返し、なければ1を返す。仮名注がなければ0を返す。</li>
+<li>反切を含む音注に声点があれば、20を返し、なければ10を返す。反切がなければ0を返す。</li>
+<li>類音を含む音注に声点があれば、200を返し、なければ100を返す。類音がなければ0を返す。</li>
+<li>その他を含む音注に声点があれば、400を返し、なければ0を返す。類音がなければ0を返す。</li>
+<li>上記1から4までの戻り値を合計し、3桁の数値に揃えるため、100を加算。</li>
+</ol>
+<p>この条件をEexcelの関数を使って記入すると次のようになる。</p>
+<pre><code>=IF(ISNA(R2), 0, IF(AND(NOT(ISNA(R2)), NOT(ISERROR(FIND(&quot;（&quot;,R2)))), 2, 1)) + IF(ISNA(T2), 0, IF(AND(NOT(ISNA(T2)), NOT(ISERROR(FIND(&quot;（&quot;,T2)))), 20, 10)) + IF(ISNA(U2), 0, IF(AND(NOT(ISNA(U2)), NOT(ISERROR(FIND(&quot;（&quot;,U2)))), 200, 100)) + IF(ISNA(Z2), 0, IF(AND(NOT(ISNA(Z2)), NOT(ISERROR(FIND(&quot;（&quot;,Z2)))), 400, 0)) + 100
+</code></pre><p>ちなみに、自分で考えるのは面倒なので、生成AI（今回はGemini 2.0）に頼みました。</p>
+<p>もっとスマートな方法があるだろうが、ここで時間をとってもしかたないので、
+これで切り抜ける。</p>
+<p>結果を整理すると、およそ次の表になった。</p>
+<table>
+<thead>
+<tr>
+<th>分類</th>
+<th>例数</th>
+<th>声点</th>
+<th>仮名注</th>
+<th>反切</th>
+<th>類音</th>
+<th>その他</th>
+<th>レコード追加</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>9542</td>
+<td></td>
+<td></td>
+<td></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>110</td>
+<td>9044</td>
+<td></td>
+<td></td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>300</td>
+<td>2216</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td>✓</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>120</td>
+<td>931</td>
+<td>✓</td>
+<td></td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>102</td>
+<td>904</td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>101</td>
+<td>715</td>
+<td></td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>302</td>
+<td>495</td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+<td>✓</td>
+<td></td>
+<td>495</td>
+</tr>
+<tr>
+<td>100</td>
+<td>451</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>✓</td>
+<td></td>
+</tr>
+<tr>
+<td>201</td>
+<td>144</td>
+<td></td>
+<td>✓</td>
+<td></td>
+<td>✓</td>
+<td></td>
+<td>144</td>
+</tr>
+<tr>
+<td>122</td>
+<td>27</td>
+<td>✓</td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td>27</td>
+</tr>
+<tr>
+<td>111</td>
+<td>12</td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td>12</td>
+</tr>
+<tr>
+<td>500</td>
+<td>7</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td></td>
+<td>✓</td>
+<td>7</td>
+</tr>
+<tr>
+<td>210</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+<td>2</td>
+</tr>
+<tr>
+<td>502</td>
+<td>2</td>
+<td>✓</td>
+<td>✓</td>
+<td></td>
+<td></td>
+<td>✓</td>
+<td>2</td>
+</tr>
+<tr>
+<td>合計</td>
+<td>24,492</td>
+<td>4,580</td>
+<td>2,297</td>
+<td>10,016</td>
+<td>12,399</td>
+<td>458</td>
+<td>689</td>
+</tr>
+</tbody>
+</table>
+<p>仮名注で約690という数値を出していたが、追加が必要なレコードは
+それとほぼ同数となった。</p>
+<p>これは、反切と類音注を併記する例は、二つに分離していたので、
+異なる音注を併記するのは、仮名注と反切、仮名注と類音、仮名注とその他となるためである。</p>
+<p>反切と類音を併記するのは、2例であったが、これはDHSJRのフォーマットでは
+一つのレコードに記入できるが、念のため二つのレコードを用意することとする。</p>
 <h2 id="単字_見出しの扱い">単字_見出しの扱い</h2>
 <h3 id="異体字併記の場合">異体字併記の場合</h3>
 <p>異体字を併記する項目は、採用法方法として次の二つが考えられる。</p>
@@ -2311,7 +2521,348 @@ DHSJRのフォーマットで入力しようとするとどうなるか。
 <p>名義抄の見出しに声点だけがあるものは、「その他」とする。
 KRMでは「◎節(S)」のように記載し、
 「節」に入声の声点が施されていることを示す。</p>
-<h2 id="音注の点検の意義">音注の点検の意義</h2>
+<h2 id="音注の加工">音注の加工</h2>
+<h3 id="大雑把な音注の分類">大雑把な音注の分類</h3>
+<p>音注の種類は、仮名注、反切、類音、その他の4種である。これに声点を
+加えると5種になる。</p>
+<p>名義抄の音注は、大まかに仮名注、反切、類音、その他の4種に分類済みである。
+先に類音注、反切、仮名注の順に整理の方法を検討してきたが、これは
+大雑把に分類したデータに基づく。</p>
+<p>名義抄の冒頭「人」には「音仁（LV）「ニン」」の音注が施されている。
+大雑把な分類では、仮名注と類音注に同じ内容を転記しただけである。</p>
+<p>よって、仮名注に「ニン」、類音注に「音仁」、声点に「LV」を転記する必要がある。</p>
+<p>DHSJRの仕様に合わせると、声点は、「LV」を変換して「平濁」としなければならない。</p>
+<h3 id="注文idと音注id">注文IDと音注ID</h3>
+<p>これまでは、注文IDと音注IDという用語で説明してきた。
+HDICで作成しようとしているJSON形式のファイルkrm_pronunciations.jsonでは、
+音注IDをpronunciation_idとし、
+注文IDをdefinition_seq_idとしている。</p>
+<p>JSON形式のファイルkrm_pronunciations.jsonと同内容を
+krm_pronunciations.tsvのファイル名でも作成する。</p>
+<p>krm_pronunciations.jsonを生成する前の段階では、
+作業用のExcelファイルによって行っている。
+内部用であるが、ファイル名はKRM_pron20250404.xlsxのようにしている。
+ファイル名の前半KRM_pronは、音注に関するファイルであることを示す。
+ファイル名の後半20250404は、年月日であり、バージョン管理のために示す。</p>
+<p>このKRM_pron20250404.xlsxでは、カラム名が仕様変更前の旧形式である。</p>
+<p>音注ID（pronunciation_id）は、KRID_pron_noであり、
+注文ID（definition_seq_id）は、KRID_noである。</p>
+<p>ややこしいことこの上ないが、もっぱら自分の覚えのために書いているので、
+ご容赦願いたい。</p>
+<p>「人」に「音仁（LV）「ニン」」とある例でいうと、
+仮名注の欄と類音の欄に現状では「音仁（LV）「ニン」」と入力されている。
+これを仮名注の欄に「ニン」、類音の欄に「音仁」、声点の欄に「平濁」を入力したい。</p>
+<p>一つ一つ判断しながら行うことは、大変なので、プログラムを作って、前処理して、
+それを確認・修正するという手順を踏むことにする。</p>
+<h3 id="仮名注の処理">仮名注の処理</h3>
+<p>まず仮名注を処理しよう。カラム名仮名注から、仮名の音注のみを
+取り出して、カラム名仮名表記に書き出す、ということを考えた。</p>
+<p>これは生成AIを用いてPythonのコードを作成してもらった。
+使用する生成AIはGemini 2.0である。
+プロンプト（prompt、指示文、質問文）は次のとおりとした。</p>
+<pre><code>エクセルのファイルから、以下の操作をしたいのですが、pythonプログラムを書いていただくことはできますか。
+1. excelのファイル名はKRM_pron20250404.xlsx、対象となるシート名はKRM_DHSJR_formatです。
+2. KRM_DHSJR_formatのシートのカラム名“KRID_pron_no”は“F00001_01”のような内容です。
+3. KRM_DHSJR_formatのシートのカラム名“仮名注”は“音仁（LV）「ニン」”のような内容です。
+4. カラム名“仮名注”の内容ら全角文字の“「“と”」”の間にある片仮名の文字を取り出して、カラム名&quot;仮名表記&quot;に書き出す。
+5. 具体例でいえば、（処理前）のデータを（処理後）のデータに書き出してほしい。半角空白で区切っています。
+（処理前）（必要部分のみ）
+KRID_pron_no 仮名注
+F00001_01 音仁（LV）「ニン」
+（処理後）
+KRID_pron_no 仮名注 仮名表記
+F00001_01 音仁（LV）「ニン」 ニン
+6. 書き出すexcelのファイル名はkana_output.xlsx、シート名は“kana”とします。
+
+この条件で大丈夫でしょうか。よろしくお願いします。
+</code></pre><p>Geminiは「はい、ご提示いただいた条件でPythonプログラムを作成できます。以下にプログラムを示します」と言って、次のPythonのコードを書いてくれた。</p>
+<pre><code>import pandas as pd
+import re
+
+# 1. ファイルとシート名の指定
+input_file = 'KRM_pron20250404.xlsx'
+input_sheet = 'KRM_DHSJR_format'
+output_file = 'kana_output.xlsx'
+output_sheet = 'kana'
+
+try:
+    # 2. Excelファイルの読み込み
+    df = pd.read_excel(input_file, sheet_name=input_sheet)
+
+    # 4. 新しいカラム &quot;仮名表記&quot; を追加 (初期値は空文字列)
+    df['仮名表記'] = ''
+
+    # 5. &quot;仮名注&quot; カラムの内容から片仮名を取り出して &quot;仮名表記&quot; に書き出す
+    def extract_kana(kana_note):
+        if isinstance(kana_note, str):
+            match = re.search(r'「([ァ-ンー]+)」', kana_note)
+            if match:
+                return match.group(1)
+        return ''
+
+    df['仮名表記'] = df['仮名注'].apply(extract_kana)
+
+    # 6. 書き出すExcelファイルの作成と保存
+    with pd.ExcelWriter(output_file) as writer:
+        df.to_excel(writer, sheet_name=output_sheet, index=False)
+
+    print(f&quot;処理完了: {output_file} のシート '{output_sheet}' に結果を書き出しました。&quot;)
+
+except FileNotFoundError:
+    print(f&quot;エラー: ファイル '{input_file}' が見つかりません。&quot;)
+except KeyError as e:
+    print(f&quot;エラー: シート名 '{input_sheet}' またはカラム名 '{e}' がファイルに存在しません。&quot;)
+except Exception as e:
+    print(f&quot;予期せぬエラーが発生しました: {e}&quot;)
+</code></pre><p>ExcelデータをいったんTSVファイルかCSVファイルにして、
+awkやperlでコードを書いてもらってもいいが、
+PythonはExcelのファイルを直接扱えるので便利である。
+pandasというライブラリを最初に読み込むことが必要ですが、
+かなり楽です。</p>
+<h3 id="音注idpronunciation_idの追加規則">音注ID（pronunciation_id）の追加規則</h3>
+<p>音注が一つだけしか出現しない注文では、
+注文IDと音注IDとは1対1で対応するので、
+同じもので問題ない。</p>
+<p>注文IDと音注IDとが1対多となる場合はどうするか。</p>
+<p>「人」に「音仁（LV）「ニン」」とある例でいうと、
+これは、注文ID（definition_seq_id、旧KRID_no）が
+F00001_01であるが、音注ID（pronunciation_id、旧KRID_pron_no）
+は「音仁（LV）」に対してのものと「ニン」に対してのものの二つを
+用意する必要がある。</p>
+<p>仮名注「ニン」は、直接的には「仁」に対する音注であるが、同時に
+「人」に対する音注でもある。</p>
+<p>次のように、1行にまとめてしまうと、声点が「人」に施されているのか、
+「仁」に施されているのか、不明瞭である。</p>
+<table>
+<thead>
+<tr>
+<th>no</th>
+<th>注文ID</th>
+<th>音注ID</th>
+<th>単字_見出し</th>
+<th>声点</th>
+<th>声点型</th>
+<th>仮名注</th>
+<th>仮名型</th>
+<th>反切</th>
+<th>類音</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>F00001_01</td>
+<td>F00001_01</td>
+<td>人</td>
+<td>平濁　</td>
+<td>平濁</td>
+<td>ニン</td>
+<td>ニン</td>
+<td></td>
+<td>音仁</td>
+</tr>
+</tbody>
+</table>
+<p>次のように2行に分けることもできる。</p>
+<table>
+<thead>
+<tr>
+<th>no</th>
+<th>注文ID</th>
+<th>音注ID</th>
+<th>単字_見出し</th>
+<th>声点</th>
+<th>声点型</th>
+<th>仮名注</th>
+<th>仮名型</th>
+<th>反切</th>
+<th>類音</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>F00001_01</td>
+<td>F00001_01</td>
+<td>人</td>
+<td>平濁　</td>
+<td>平濁</td>
+<td></td>
+<td></td>
+<td></td>
+<td>音仁</td>
+</tr>
+<tr>
+<td>2</td>
+<td>F00001_01</td>
+<td>F00001_01b</td>
+<td>仁</td>
+<td>平濁</td>
+<td>平濁</td>
+<td>ニン</td>
+<td>ニン</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>しかし、これでは、「仁」の声点が「平濁」であり、同じ行に「ニン」を配置するのは
+清濁に関わる整合性がとれない。</p>
+<p>そこで3行に分ければ、掲出字（被注字）と、音注（仮名注、声点、類音）との対応は明確になる。</p>
+<table>
+<thead>
+<tr>
+<th>no</th>
+<th>注文ID</th>
+<th>音注ID</th>
+<th>単字_見出し</th>
+<th>声点</th>
+<th>声点型</th>
+<th>仮名注</th>
+<th>仮名型</th>
+<th>反切</th>
+<th>類音</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>F00001_01</td>
+<td>F00001_01</td>
+<td>人</td>
+<td>平濁　</td>
+<td>平濁</td>
+<td></td>
+<td></td>
+<td></td>
+<td>音仁</td>
+</tr>
+<tr>
+<td>2</td>
+<td>F00001_01</td>
+<td>F00001_01b</td>
+<td>仁</td>
+<td>平濁</td>
+<td>平濁</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>F00001_01</td>
+<td>F00001_01c</td>
+<td>仁</td>
+<td></td>
+<td></td>
+<td>ニン</td>
+<td>ニン</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>音注IDが複数必要な場合、注文IDにb, c, &hellip;, nを追加することで行う。</p>
+<p>音注を記載する順位は次のとおりである。</p>
+<ol>
+<li>掲出字（被注字）に対する仮名注と声点があればこれらを優先し、同一行に記載。</li>
+<li>注文として施される音注（仮名注、類音、反切、その他）を 掲出字（被注字）に対する音注として別行に記載。</li>
+<li>類音、反切、その他に用いる漢字に施される仮名または声点は、注記対象字を変更して、別行に記載。</li>
+</ol>
+<p>1の掲出字（被注字）に対して直接仮名注と声点がある例はそれほど多くない。
+たとえば、
+「蹟」に「◎蹟（S）「セキ」」とある例が該当する。HDIC収録の
+KRMデータベースでは掲出字そのものに施される音注（声点、仮名注）であることを
+示すのに二重丸“◎”を用いて示している。</p>
+<p>「蹟」に「◎蹟（S）「セキ」」とある例は次のように記載される。</p>
+<table>
+<thead>
+<tr>
+<th>no</th>
+<th>注文ID</th>
+<th>音注ID</th>
+<th>単字_見出し</th>
+<th>声点</th>
+<th>声点型</th>
+<th>仮名注</th>
+<th>仮名型</th>
+<th>反切</th>
+<th>類音</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>F13740_01</td>
+<td>F13740_01</td>
+<td>蹟</td>
+<td>入 　</td>
+<td>入</td>
+<td>セキ</td>
+<td>セキ</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>次に2と3の場合を見てみよう。</p>
+<p>「佛」に施される音注「又符「フ」弗（S）「フツ」反」は2と3に該当する例であり、
+これは次のように記載される。</p>
+<table>
+<thead>
+<tr>
+<th>no</th>
+<th>注文ID</th>
+<th>音注ID</th>
+<th>単字_見出し</th>
+<th>声点</th>
+<th>声点型</th>
+<th>仮名注</th>
+<th>仮名型</th>
+<th>反切</th>
+<th>類音</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>F00016_03</td>
+<td>F00016_03</td>
+<td>佛</td>
+<td>　</td>
+<td></td>
+<td></td>
+<td></td>
+<td>符弗反</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>F00016_03</td>
+<td>F00016_03b</td>
+<td>符</td>
+<td>＊</td>
+<td>＊</td>
+<td>フ</td>
+<td>フ</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>F00016_03</td>
+<td>F00016_03c</td>
+<td>弗</td>
+<td>入</td>
+<td>入</td>
+<td>フツ</td>
+<td>フツ</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 </article>
  
       
@@ -2389,6 +2940,7 @@ document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("clic
         <li><a href="#類音注の整理">類音注の整理</a></li>
         <li><a href="#反切の整理">反切の整理</a></li>
         <li><a href="#仮名注の整理">仮名注の整理</a></li>
+        <li><a href="#音注の整理">音注の整理</a></li>
       </ul>
     </li>
     <li><a href="#単字_見出しの扱い">単字_見出しの扱い</a>
@@ -2398,7 +2950,14 @@ document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("clic
         <li><a href="#その他-1">その他</a></li>
       </ul>
     </li>
-    <li><a href="#音注の点検の意義">音注の点検の意義</a></li>
+    <li><a href="#音注の加工">音注の加工</a>
+      <ul>
+        <li><a href="#大雑把な音注の分類">大雑把な音注の分類</a></li>
+        <li><a href="#注文idと音注id">注文IDと音注ID</a></li>
+        <li><a href="#仮名注の処理">仮名注の処理</a></li>
+        <li><a href="#音注idpronunciation_idの追加規則">音注ID（pronunciation_id）の追加規則</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
