@@ -161,10 +161,10 @@ The *Ruiju Myōgishō* of the Kanchi-in manuscript is an old handwritten manuscr
 HDIC's online information provision consists of three parts: the main site, the search screen, and the text data. The main site is available at the following URL and summarizes the overview of the Integrated Database of Hanzi Dictionaries in Early Japan (HDIC) (in Japanese, Chinese, and English), a list of research results, links to related sites, etc.
 [https://hdic.jp](https://hdic.jp)
 
-The search screen is available at the following URL, where you can use the HDIC Viewer to search the Integrated Database of Hanzi Dictionaries in Early Japan (HDIC). The HDIC Viewer is maintained and managed by [Dr. Liu Guanwei](https://researchmap.jp/liuguanwei?lang=en) and allows searches not only on personal computers but also on smartphones.
+The search screen is available at the following URL, where you can use the HDIC Viewer to search the Integrated Database of Hanzi Dictionaries in Early Japan (HDIC). The HDIC Viewer is maintained and managed by [Liu Guanwei](https://researchmap.jp/liuguanwei?lang=en) and allows searches not only on personal computers but also on smartphones.
 [https://viewer.hdic.jp](https://viewer.hdic.jp)
 
-We would like to express our gratitude to [Dr. Tomohiko Morioka](https://researchmap.jp/morioka_tomohiko?lang=en) for his technical support in maintaining and managing the hdic.jp website.
+We would like to express our gratitude to [Tomohiko Morioka](https://researchmap.jp/morioka_tomohiko?lang=en) for his technical support in maintaining and managing the hdic.jp website.
 
 The text data is available at the following URL, where we publish the text files created by the Integrated Database of Hanzi Dictionaries in Early Japan (HDIC). 
 
