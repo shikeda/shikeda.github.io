@@ -2,8 +2,9 @@
 title: 観智院本類聚名義抄
 weight: 10
 ---
+# 類聚名義抄
 
-## 類聚名義抄
+## はじめに
 
 『類聚名義抄』は日本古辞書の雄編として名高い。 
 書名の読み方は「るいじゅみょうぎしょう」である。
@@ -16,10 +17,10 @@ weight: 10
 観智院本について、その項目の構造を解説し、
 その後、観智院本の本文入力方法の詳細を述べる。
 
-なお、ここでの解説は。
+なお、ここでの解説は、
 池田証壽・劉冠偉・鄭門鎬・張馨方・李媛「観智院本『類聚名義抄』全文テキストデータベース―その構築方法と掲出項目数等の計量―」(『訓点語と訓点資料』144、2020)を再構成したものである。
 
-### 内容
+## 内容
 
 - [概要](/docs/notes/krm-main/overview/)
 - [公開データの概要](/docs/notes/krm-main/data-structure/)
@@ -48,7 +49,7 @@ weight: 10
     - [和訓](/docs/notes/krm-main/notes-input/6/)
 
 
-### データベース構築の工程
+## データベース構築の工程
 
 観智院本『類聚名義抄』は古写本であり、その掲出字は難字が極めて多いので、次の手順によりデータベース構築を進めた。
 
@@ -65,28 +66,122 @@ weight: 10
 
 **第六段階**：完成した観智院本『類聚名義抄』データベースをインターネットで公開し、検索サービスを行う。
 
-#### インターネットでの情報提供
+## インターネットでの情報提供
 
 HDICのインターネットでの情報提供は、メインサイト、検索画面及びテキストデータの三つからなる。
 メインサイトは次のURLで、平安漢字字書総合データベース（HDIC）の概要（日本語、中国語、英語）と研究成果のリスト、関連サイトのリンク等をまとめている。
 
-https://hdic.jp
+[https://hdic.jp](https://hdic.jp)
 
 検索画面は次のURLで、平安漢字字書総合データベース（HDIC）を検索するHDIC Viewerを利用できる。HDIC Viewerは劉冠偉が維持・管理を行っており、パソコンの他、スマートフォンでの検索を可能としている。
 
 
-https://viewer.hdic.jp
+[https://viewer.hdic.jp](https://viewer.hdic.jp)
 
 hdic.jpのサイトの維持・管理には、守岡知彦氏による技術支援を受けていおり、感謝申し上げる。
 
-テキストデータは次のURLで、平安漢字字書総合データベース（HDIC）で作成したテキストファイルを公開している。データの修正の記録を保存し、『篆隷万象名義』と『新撰字鏡』の全文テキストデータベースの最新版を提供している。
+テキストデータは次のURLで、
+平安漢字字書総合データベース（HDIC）で作成したテキストファイルを公開している。
+データの修正の記録を保存し、宋本『玉篇』、高山寺本『篆隷万象名義』、天治本『新撰字鏡』の全文テキストデータベースの最新版を提供している。
 
-https://github.com/shikeda/HDIC
+[https://github.com/shikeda/HDIC](https://github.com/shikeda/HDIC)
 
-以上のURLは将来において変更の可能性が高い。構築したデータの維持と管理は大きな課題である。
+観智院本『類聚名義抄』は、2025年3月に仕様変更を行い、
+その全文テキストデータベースの最新版は次のURLで提供している。
 
-### 謝辞
+[https://github.com/shikeda/HDIC/tree/master/v1.2](https://github.com/shikeda/HDIC/tree/master/v1.2)
+
+以上のURLは将来において変更の可能性がある。
+構築したデータの維持と管理は大きな課題である。
+
+
+## 謝辞
 
 観智院本『類聚名義抄』全文テキストデータベースの構築と公開は、天理図書館当局から特別に御許可を賜り推進しているものであり、天理図書館善本叢書の版元である八木書店各位にも格別の御配慮を賜っている。ここに記して感謝の意を表する。
 
+#  Ruiju Myōgi shō
 
+## Introduction
+
+The *Ruiju Myōgishō* is renowned as a masterpiece among old Japanese dictionaries. The book title is read as "ruiju myōgishō." It is said that the title was formed by taking "Ruiju" from Minamoto no Shitagō's Wamyō Ruijushō and "Myōgi" from Kūkai's *Tenrei Banshō Myōgi*.
+
+
+Here, we will first describe the outline of the *Ruiju Myōgishō* and its various versions. Next, regarding the Kanchi-in manuscript, which is the only extant complete manuscript of the *Ruiju Myōgishō*, we will explain the structure of its entries, and then describe the details of the input method for the text of the Kanchi-in manuscript.
+
+Furthermore, the explanation here is a reconstruction of Ikeda Shoju, Liu Guanwei, Jun Munho, Zhang Xinfang, and Li Yuan, "Full-text Database of *Ruiju Myogi-sho*, Kanchi-in MS : A Look at Development Methods and Calculating the Number of Headwords." (*Kuntengo to Kuten Shiryō* 144, 2020).
+
+## Content
+
+- [Overview](/docs/notes/krm-main/overview/)
+- [Overview of Public Data](/docs/notes/krm-main/data-structure/)
+- [Item Data Structure](/docs/notes/krm-main/data-structure/)
+    - [krm_main](/docs/notes/krm-main/contens/1_main/)
+    - [krm_notes](/docs/notes/krm-main/contens/2_notes/)
+    - [krm_wakun](/docs/notes/krm-main/contens/3_wakun/)
+    - [krm_definitions](/docs/notes/krm-main/contens/4_definitions/)
+    - [krm_pronunciations](/docs/notes/krm-main/contens/5_pronunciations/)
+    - [krm_ndl](/docs/notes/krm-main/contens/6_ndl/)
+- [Item Data Input](/docs/notes/krm-main/item-input/)
+- [Details of Headword Data Input](/docs/notes/krm-main/headword-input/)
+- [Details of Definitions Data Input](/docs/notes/krm-main/def-input/)
+    - [Basic Policy](/docs/notes/krm-main/def-input/1/)
+    - [Glyph Annotations](/docs/notes/krm-main/def-input/2/)
+    - [Pronunciation Annotations](/docs/notes/krm-main/def-input/3/)
+    - [Meaning Annotations](/docs/notes/krm-main/def-input/4/)
+    - [Japanese Reading](/docs/notes/krm-main/def-input/5/)
+    - [Other](/docs/notes/krm-main/def-input/6/)
+- [Details of My Notes Data Input (currently notes, aiming for comprehensive commentary)](/docs/notes/krm-main/notes-input/)
+    - [Basic Policy](/docs/notes/krm-main/notes-input/1/)
+    - [Headword](/docs/notes/krm-main/notes-input/2/)
+    - [Glyph Notes](/docs/notes/krm-main/notes-input/3/)
+    - [Pronunciation Notes](/docs/notes/krm-main/notes-input/4/)
+    - [Meaning Notes](/docs/notes/krm-main/notes-input/5/)
+    - [Japanese Reading Notes](/docs/notes/krm-main/notes-input/6/)
+
+## Database Construction Process
+
+The *Ruiju Myōgishō* of the Kanchi-in manuscript is an old handwritten manuscript, and because it contains an extremely large number of difficult characters, we proceeded with database construction using the following steps.
+
+**Step 1:** Scan the facsimile edition and cut out each listed character to create an image database of the *Ruiju Myōgishō* of the Kanchi-in manuscript. The image files of the listed characters are named according to the location of the listed character. This image file name will later be used as the listed character ID.
+
+
+**Step 2:** Add the location information to the existing *Tenrei Banshō Myōgi* database by referring to the "Kanji Index" included in Atsuo Masamune's *Ruiju Myōgishō Volume 2* (Kazama Shobō, 1955). Input the location information from the "Kanji Index" into the *Tenrei Banshō Myōgishō* data rearranged in the order of the *Dai Kanwa Jiten* index numbers compiled by Tetsuji Morohashi. Then, rearrange it according to the order of locations in the Kanchi-in manuscript, collate it with the text of the Kanchi-in manuscript, and add the page numbers and character order of the Kanchi-in manuscript that are not found in the "Kanji Index."
+
+**Step 3:** Take in various information included in the *Tenrei Banshō Myōgishō* database (*Dai Kanwa Jiten* index numbers, Unicode numbers, kanji characters, location information in the *Tenrei Banshō Myōgishō*) and the corresponding location information of the *Ruiju Myōgishō* Kanchi-in manuscript created in Step 2, into the *Ruiju Myōgishō* Kanchi-in manuscript image database (created in Step 1) to create an input database for the *Ruiju Myōgishō* Kanchi-in manuscript text.
+
+**Step 4:** While referring to the facsimile edition of the *Ruiju Myōgishō* Kanchi-in manuscript (Tenri Library Rare Books Series, Japanese Books Section, Volumes 32-34) and the *Ruiju Myōgishō* Kanchi-in manuscript image database, add the text information for the listed characters and their explanations ("chūmon/chūbun") to the input database for the *Ruiju Myōgishō* Kanchi-in manuscript text created in Step 3.
+
+**Step 5:** Integrate the *Ruiju Myōgishō* Kanchi-in manuscript image database and the *Ruiju Myōgishō* Kanchi-in manuscript text database to form the *Ruiju Myōgishō* Kanchi-in manuscript database. Then, check and revise the text content using the newly published color facsimile edition of the *Ruiju Myōgishō* Kanchi-in manuscript (New Tenri Library Rare Books Series, Volumes 9-11). When checking the text content, also distinguish between compound word entries and variant character entries in the listed items, and distinguish between font annotations, pronunciation annotations, meaning annotations, and Japanese glosses in the explanations, and add this information.
+
+**Step 6:** Publish the completed *Ruiju Myōgishō* Kanchi-in manuscript database on the internet and provide a search service.
+
+
+## Online Information Provision
+
+HDIC's online information provision consists of three parts: the main site, the search screen, and the text data. The main site is available at the following URL and summarizes the overview of the Integrated Database of Hanzi Dictionaries in Early Japan (HDIC) (in Japanese, Chinese, and English), a list of research results, links to related sites, etc.
+[https://hdic.jp](https://hdic.jp)
+
+The search screen is available at the following URL, where you can use the HDIC Viewer to search the Integrated Database of Hanzi Dictionaries in Early Japan (HDIC). The HDIC Viewer is maintained and managed by [Dr. Liu Guanwei](https://researchmap.jp/liuguanwei?lang=en) and allows searches not only on personal computers but also on smartphones.
+[https://viewer.hdic.jp](https://viewer.hdic.jp)
+
+We would like to express our gratitude to [Dr. Tomohiko Morioka](https://researchmap.jp/morioka_tomohiko?lang=en) for his technical support in maintaining and managing the hdic.jp website.
+
+The text data is available at the following URL, where we publish the text files created by the Integrated Database of Hanzi Dictionaries in Early Japan (HDIC). 
+
+We preserve records of data revisions and provide the latest versions of the full-text databases for the Song Dynasty edition of the *Yupian*, the Kozanji manuscript of the *Tenrei Banshō Myōgi*, and the Tenji manuscript of the *Shinsen Jikyō*.
+
+[https://github.com/shikeda/HDIC](https://github.com/shikeda/HDIC)
+
+
+The *Ruiju Myōgishō* of the Kanchi-in manuscript underwent a specification change in March 2025, and the latest version of its full-text database is available at the following URL:
+
+[https://github.com/shikeda/HDIC/tree/master/v1.2](https://github.com/shikeda/HDIC/tree/master/v1.2)
+
+Please note that the above URLs are subject to change in the future.
+Maintaining and managing the constructed data is a significant challenge.
+
+## Acknowledgements
+
+The construction and publication of the full-text database of the *Ruiju Myōgishō* of the Kanchi-in manuscript are being carried out with special permission from the authorities of Tenri Library, and we have also received exceptional consideration from Yagi Shoten, the publisher of the Tenri Library Rare Books Series. We hereby express our gratitude for this.
+
+This work was supported by JSPS KAKENHI Grant Number 16H03422, 19H00526 and 23K17500.

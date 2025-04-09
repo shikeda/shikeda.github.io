@@ -1,5 +1,5 @@
 ---
-title: "概要"
+title: "類聚名義抄の概要"
 weight: 1
 date: 2022-01-09
 # bookFlatSection: false
@@ -10,7 +10,7 @@ bookToc: true
 # bookSearchExclude: false
 ---
 
-# 『類聚名義抄』の概要
+# 類聚名義抄の概要
 
 ここでは、諸本、編者、成立、価値、構成、出典、諸本の影印・索引、
 参考文献などに関して、『類聚名義抄』の概要を述べる。
