@@ -99,7 +99,7 @@ hdic.jpのサイトの維持・管理には、守岡知彦氏による技術支�
 
 観智院本『類聚名義抄』全文テキストデータベースの構築と公開は、天理図書館当局から特別に御許可を賜り推進しているものであり、天理図書館善本叢書の版元である八木書店各位にも格別の御配慮を賜っている。ここに記して感謝の意を表する。
 
-#  Ruiju Myōgi shō
+#  Ruiju Myōgishō
 
 ## Introduction
 
@@ -110,7 +110,7 @@ Here, we will first describe the outline of the *Ruiju Myōgishō* and its vario
 
 Furthermore, the explanation here is a reconstruction of Ikeda Shoju, Liu Guanwei, Jun Munho, Zhang Xinfang, and Li Yuan, "Full-text Database of *Ruiju Myogi-sho*, Kanchi-in MS : A Look at Development Methods and Calculating the Number of Headwords." (*Kuntengo to Kuten Shiryō* 144, 2020).
 
-## Content
+## Contents
 
 - [Overview](/docs/notes/krm-main/overview/)
 - [Overview of Public Data](/docs/notes/krm-main/data-structure/)
