@@ -1,4 +1,5 @@
 ---
+bookCollapseSection: true
 title: 項目データモデル
 weight: 3
 bookToc: true

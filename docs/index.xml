@@ -21,15 +21,6 @@
     </item>
     
     <item>
-      <title>項目データ構造</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/entry_data_model/1_data_structure/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://shikeda.github.io/docs/notes/krm_main/entry_data_model/1_data_structure/</guid>
-      <description>項目データ構造 ここでは、観智院本『類聚名義抄』（以下、名義抄と略） の項目の構造と項目の形式を取り上げて解説する。 まず、掲出字・注文等の用語（</description>
-    </item>
-    
-    <item>
       <title>掲出字データ入力の詳細</title>
       <link>https://shikeda.github.io/docs/notes/krm_main/headword_input/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -39,21 +30,30 @@
     </item>
     
     <item>
-      <title>項目の種類</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/entry_data_model/2_types_of_entries/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://shikeda.github.io/docs/notes/krm_main/entry_data_model/2_types_of_entries/</guid>
-      <description>項目の種類 Types of Entries 掲出字の形式 掲出字は単字形式（single character form）と 複字形式（plural charactor form）とがある。 複字形式の掲出字は、熟語</description>
-    </item>
-    
-    <item>
       <title>項目データ入力</title>
       <link>https://shikeda.github.io/docs/notes/krm_main/item_input/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/notes/krm_main/item_input/</guid>
       <description>項目データの入力 観智院本類聚名義抄(KRM)の項目データの入力方法を解説する。 項目は掲出字と注文とからなる。 ここでは掲出字の入力と注文の入力</description>
+    </item>
+    
+    <item>
+      <title>項目データ構造</title>
+      <link>https://shikeda.github.io/docs/notes/krm_main/entry_data_model/1_data_structure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm_main/entry_data_model/1_data_structure/</guid>
+      <description>項目データ構造 ここでは、観智院本『類聚名義抄』（以下、名義抄と略） の項目の構造と項目の形式を取り上げて解説する。 まず、掲出字・注文等の用語（</description>
+    </item>
+    
+    <item>
+      <title>項目の種類</title>
+      <link>https://shikeda.github.io/docs/notes/krm_main/entry_data_model/2_types_of_entries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm_main/entry_data_model/2_types_of_entries/</guid>
+      <description>項目の種類 Types of Entries 掲出字の形式 掲出字は単字形式（single character form）と 複字形式（plural charactor form）とがある。 複字形式の掲出字は、熟語</description>
     </item>
     
     <item>
