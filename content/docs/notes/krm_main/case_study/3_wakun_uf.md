@@ -8,7 +8,7 @@ weight: 53
 # bookComments: false
 # bookSearchExclude: false
 ---
-# 和訓の使用頻度 (Use Frequency of Wakun)
+# 和訓の使用頻度 (Wakun Usage Frequency)
 
 池田　証寿 (Ikeda Shoju)  
 2025年1月12日～13日  

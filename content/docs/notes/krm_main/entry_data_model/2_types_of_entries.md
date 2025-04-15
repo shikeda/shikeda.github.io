@@ -1,45 +1,20 @@
 ---
-title: 項目データ構造
-weight: 3
-date: 2022-01-05T07:18:54+09:00
-bookToc: true
+title: "項目の種類"
+weight: 4
+# bookFlatSection: false
+# bookToc: true
+# bookHidden: false
+# bookCollapseSection: false
+# bookComments: false
+# bookSearchExclude: false
 ---
-# 項目データ構造
 
-観智院本類聚名義抄（KRM）の項目データの構造を解説する。
-
-
-## 項目の構造
-
-**項目の構造**（Item structure）
-を図示すれば次のようになる。左側の本文は
-模写したものである。
-
-![item structure](/images/krm-item-structure.png)
-
-貴重図書複製会（1937）による影印が国会図書館デジタルコレクションで公開されている。
-[該当ページ]（https://dl.ndl.go.jp/info:ndljp/pid/2586892/44）の左側に上記の原文が確認できる。
-
-項目は**掲出字**（headword）と**注文**（definition, annotation）からなる。
-
-注文は、**音注**（pronunciation）、**漢文義注**（Chinese meaning）、
-**和訓**（Japanese reading）、
-**字体注**（glyph annotation）からなる。漢文義注は、義注、漢文意味注ということもある。
-誤解を生じない限り、単に**義注**とすることが多い。
-和訓は和訓注ということもある。
-
-図示した「覲」を例にして説明すると、次のようになる。
-
-    掲出字：覲
-    注文：音僅（R）　ミル（LH）　マミユ（HLH）　和後ン（_L）
-        注文の要素
-            音注：音僅（R）
-            和訓：ミル（LH）
-            和訓：マミユ（HLH）
-            音注：和後ン（_L）
+# 項目の種類
 
 
-その他、掲出字の周囲に施された漢文義注、片仮名などがあり、これらを**掲出字補注**と呼ぶ。
+
+# Types of Entries
+
 
 ## 掲出字の形式
 

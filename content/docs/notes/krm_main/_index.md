@@ -22,31 +22,31 @@ weight: 10
 
 ## 内容
 
-- [概要](/docs/notes/krm-main/overview/)
-- [公開データの概要](/docs/notes/krm-main/data-structure/)
-- [項目データ構造](/docs/notes/krm-main/data-structure/)
-    - [krm_main](/docs/notes/krm-main/contens/1_main/)
-    - [krm_notes](/docs/notes/krm-main/contens/2_notes/)
-    - [krm_wakun](/docs/notes/krm-main/contens/3_wakun/)
-    - [krm_definitions](/docs/notes/krm-main/contens/4_definitions/)
-    - [krm_pronunciations](/docs/notes/krm-main/contens/5_pronunciations/)
-    - [krm_ndl](/docs/notes/krm-main/contens/6_ndl/)
-- [項目データ入力](/docs/notes/krm-main/item-input/)
-- [掲出字データ入力の詳細](/docs/notes/krm-main/headword-input/)
-- [注文データ入力の詳細](/docs/notes/krm-main/def-input/)
-    - [基本方針](/docs/notes/krm-main/def-input/1/)
-    - [字体注](/docs/notes/krm-main/def-input/2/)
-    - [音注](/docs/notes/krm-main/def-input/3/)
-    - [義注](/docs/notes/krm-main/def-input/4/)
-    - [和訓](/docs/notes/krm-main/def-input/5/)
-    - [その他](/docs/notes/krm-main/def-input/6/)
-- [注釈データ入力の詳細](/docs/notes/krm-main/notes-input/)
-    - [基本方針](/docs/notes/krm-main/notes-input/1/)
-    - [掲出字](/docs/notes/krm-main/notes-input/2/)
-    - [字体注](/docs/notes/krm-main/notes-input/3/)
-    - [音注](/docs/notes/krm-main/notes-input/4/)
-    - [義注](/docs/notes/krm-main/notes-input/5/)
-    - [和訓](/docs/notes/krm-main/notes-input/6/)
+- [概要](/docs/notes/krm_main/overview/)
+- [公開データの概要](/docs/notes/krm_main/data_structure/)
+- [項目データ構造](/docs/notes/krm_main/data_structure/)
+    - [krm_main](/docs/notes/krm_main/contens/1_main/)
+    - [krm_notes](/docs/notes/krm_main/contens/2_notes/)
+    - [krm_wakun](/docs/notes/krm_main/contens/3_wakun/)
+    - [krm_definitions](/docs/notes/krm_main/contens/4_definitions/)
+    - [krm_pronunciations](/docs/notes/krm_main/contens/5_pronunciations/)
+    - [krm_ndl](/docs/notes/krm_main/contens/6_ndl/)
+- [項目データ入力](/docs/notes/krm_main/item_input/)
+- [掲出字データ入力の詳細](/docs/notes/krm_main/headword-input/)
+- [注文データ入力の詳細](/docs/notes/krm_main/def_input/)
+    - [基本方針](/docs/notes/krm_main/def_input/1/)
+    - [字体注](/docs/notes/krm_main/def_input/2/)
+    - [音注](/docs/notes/krm_main/def_input/3/)
+    - [義注](/docs/notes/krm_main/def_input/4/)
+    - [和訓](/docs/notes/krm_main/def_input/5/)
+    - [その他](/docs/notes/krm_main/def_input/6/)
+- [注釈データ入力の詳細](/docs/notes/krm_main/notes_input/)
+    - [基本方針](/docs/notes/krm_main/notes_input/1/)
+    - [掲出字](/docs/notes/krm_main/notes_input/2/)
+    - [字体注](/docs/notes/krm_main/notes_input/3/)
+    - [音注](/docs/notes/krm_main/notes_input/4/)
+    - [義注](/docs/notes/krm_main/notes_input/5/)
+    - [和訓](/docs/notes/krm_main/notes_input/6/)
 
 
 ## データベース構築の工程
@@ -99,7 +99,7 @@ hdic.jpのサイトの維持・管理には、守岡知彦氏による技術支�
 
 観智院本『類聚名義抄』全文テキストデータベースの構築と公開は、天理図書館当局から特別に御許可を賜り推進しているものであり、天理図書館善本叢書の版元である八木書店各位にも格別の御配慮を賜っている。ここに記して感謝の意を表する。
 
-#  Ruiju Myōgishō
+#  *Ruiju Myōgishō*
 
 ## Introduction
 
@@ -112,31 +112,31 @@ Furthermore, the explanation here is a reconstruction of Ikeda Shoju, Liu Guanwe
 
 ## Contents
 
-- [Overview](/docs/notes/krm-main/overview/)
-- [Overview of Public Data](/docs/notes/krm-main/data-structure/)
-- [Item Data Structure](/docs/notes/krm-main/data-structure/)
-    - [krm_main](/docs/notes/krm-main/contens/1_main/)
-    - [krm_notes](/docs/notes/krm-main/contens/2_notes/)
-    - [krm_wakun](/docs/notes/krm-main/contens/3_wakun/)
-    - [krm_definitions](/docs/notes/krm-main/contens/4_definitions/)
-    - [krm_pronunciations](/docs/notes/krm-main/contens/5_pronunciations/)
-    - [krm_ndl](/docs/notes/krm-main/contens/6_ndl/)
-- [Item Data Input](/docs/notes/krm-main/item-input/)
-- [Details of Headword Data Input](/docs/notes/krm-main/headword-input/)
-- [Details of Definitions Data Input](/docs/notes/krm-main/def-input/)
-    - [Basic Policy](/docs/notes/krm-main/def-input/1/)
-    - [Glyph Annotations](/docs/notes/krm-main/def-input/2/)
-    - [Pronunciation Annotations](/docs/notes/krm-main/def-input/3/)
-    - [Meaning Annotations](/docs/notes/krm-main/def-input/4/)
-    - [Japanese Reading](/docs/notes/krm-main/def-input/5/)
-    - [Other](/docs/notes/krm-main/def-input/6/)
-- [Details of My Notes Data Input (currently notes, aiming for comprehensive commentary)](/docs/notes/krm-main/notes-input/)
-    - [Basic Policy](/docs/notes/krm-main/notes-input/1/)
-    - [Headword](/docs/notes/krm-main/notes-input/2/)
-    - [Glyph Notes](/docs/notes/krm-main/notes-input/3/)
-    - [Pronunciation Notes](/docs/notes/krm-main/notes-input/4/)
-    - [Meaning Notes](/docs/notes/krm-main/notes-input/5/)
-    - [Japanese Reading Notes](/docs/notes/krm-main/notes-input/6/)
+- [Overview](/docs/notes/krm_main/overview/)
+- [Overview of Public Data](/docs/notes/krm_main/data_structure/)
+- [Item Data Structure](/docs/notes/krm_main/data_structure/)
+    - [krm_main](/docs/notes/krm_main/contens/1_main/)
+    - [krm_notes](/docs/notes/krm_main/contens/2_notes/)
+    - [krm_wakun](/docs/notes/krm_main/contens/3_wakun/)
+    - [krm_definitions](/docs/notes/krm_main/contens/4_definitions/)
+    - [krm_pronunciations](/docs/notes/krm_main/contens/5_pronunciations/)
+    - [krm_ndl](/docs/notes/krm_main/contens/6_ndl/)
+- [Item Data Input](/docs/notes/krm_main/item_input/)
+- [Details of Headword Data Input](/docs/notes/krm_main/headword-input/)
+- [Details of Definitions Data Input](/docs/notes/krm_main/def_input/)
+    - [Basic Policy](/docs/notes/krm_main/def_input/1/)
+    - [Glyph Annotations](/docs/notes/krm_main/def_input/2/)
+    - [Pronunciation Annotations](/docs/notes/krm_main/def_input/3/)
+    - [Meaning Annotations](/docs/notes/krm_main/def_input/4/)
+    - [Japanese Reading](/docs/notes/krm_main/def_input/5/)
+    - [Other](/docs/notes/krm_main/def_input/6/)
+- [Details of My Notes Data Input (currently notes, aiming for comprehensive commentary)](/docs/notes/krm_main/notes_input/)
+    - [Basic Policy](/docs/notes/krm_main/notes_input/1/)
+    - [Headword](/docs/notes/krm_main/notes_input/2/)
+    - [Glyph Notes](/docs/notes/krm_main/notes_input/3/)
+    - [Pronunciation Notes](/docs/notes/krm_main/notes_input/4/)
+    - [Meaning Notes](/docs/notes/krm_main/notes_input/5/)
+    - [Japanese Reading Notes](/docs/notes/krm_main/notes_input/6/)
 
 ## Database Construction Process
 
@@ -184,4 +184,4 @@ Maintaining and managing the constructed data is a significant challenge.
 
 The construction and publication of the full-text database of the *Ruiju Myōgishō* of the Kanchi-in manuscript are being carried out with special permission from the authorities of Tenri Library, and we have also received exceptional consideration from Yagi Shoten, the publisher of the Tenri Library Rare Books Series. We hereby express our gratitude for this.
 
-This work was supported by JSPS KAKENHI Grant Number 16H03422, 19H00526 and 23K17500.
+This work was supported by JSPS KAKENHI Grant Numbers 16H03422, 19H00526 and 23K17500.

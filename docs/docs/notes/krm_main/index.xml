@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>観智院本類聚名義抄 on HDIC project</title>
+    <link>https://shikeda.github.io/docs/notes/krm_main/</link>
+    <description>Recent content in 観智院本類聚名義抄 on HDIC project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    <lastBuildDate>Sun, 09 Jan 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://shikeda.github.io/docs/notes/krm_main/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>類聚名義抄の概要</title>
+      <link>https://shikeda.github.io/docs/notes/krm_main/overview/</link>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm_main/overview/</guid>
+      <description>類聚名義抄の概要 ここでは、諸本、編者、成立、価値、構成、出典、諸本の影印・索引、 参考文献などに関して、『類聚名義抄』の概要を述べる。 諸本 諸本</description>
+    </item>
+    
+    <item>
+      <title>掲出字データ入力の詳細</title>
+      <link>https://shikeda.github.io/docs/notes/krm_main/headword_input/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm_main/headword_input/</guid>
+      <description>掲出字データ入力の詳細 ここでは掲出字の入力の方法の詳細を説明する。 なお、1.2 項目データの入力での説明を繰り返したところがある。 Unicod</description>
+    </item>
+    
+    <item>
+      <title>項目データ入力</title>
+      <link>https://shikeda.github.io/docs/notes/krm_main/item_input/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm_main/item_input/</guid>
+      <description>項目データの入力 観智院本類聚名義抄(KRM)の項目データの入力方法を解説する。 項目は掲出字と注文とからなる。 ここでは掲出字の入力と注文の入力</description>
+    </item>
+    
+  </channel>
+</rss>

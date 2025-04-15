@@ -8,29 +8,36 @@
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/overview/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/overview/</loc>
     <lastmod>2022-01-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/contens/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/contens/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/data-structure/</loc>
-    <lastmod>2022-01-05T07:18:54+09:00</lastmod>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/entry_data_model/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/headword-input/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/entry_data_model/1_data_structure/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/item-input/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/headword_input/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/entry_data_model/2_types_of_entries/</loc>
+  </url>
+  
+  <url>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/item_input/</loc>
+  </url>
+  
+  <url>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/</loc>
     <lastmod>2022-01-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -40,171 +47,171 @@
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/contens/1_main/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/contens/1_main/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/contens/2_notes/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/contens/2_notes/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/contens/3_wakun/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/contens/3_wakun/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/contens/4_definitions/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/contens/4_definitions/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/def-input/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/def_input/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/contens/5_pronunciations/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/contens/5_pronunciations/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/contens/6_ndl/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/contens/6_ndl/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/def-input/1/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/def_input/1/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/def-input/2/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/def_input/2/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-input/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/notes_input/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-input/1/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/notes_input/1/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/def-input/3/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/def_input/3/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-input/2/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/notes_input/2/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/def-input/4/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/def_input/4/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/def_input/5/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-input/3/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/notes_input/3/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/def-input/6/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/def_input/6/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-input/4/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/notes_input/4/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-input/5/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/notes_input/5/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-input/6/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/notes_input/6/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-input/10_notes_sample/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/notes_input/10_notes_sample/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-output/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/notes_output/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-output/1/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/notes_output/1/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-output/2/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/notes_output/2/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-output/3/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/notes_output/3/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-output/4/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/notes_output/4/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-output/5/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/notes_output/5/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/progress/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/progress/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/progress/1/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/progress/1/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/progress/2/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/progress/2/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/progress/3/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/progress/3/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/progress/4/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/progress/4/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/progress/5/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/progress/5/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/progress/6/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/progress/6/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/progress/7/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/progress/7/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/case-study/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/case_study/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/case-study/1_ugoku/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/case_study/1_ugoku/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/case-study/2_miru/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/case_study/2_miru/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/case-study/3_wakun_uf/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/case_study/3_wakun_uf/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/case-study/4_kana_split/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/case_study/4_kana_split/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/case-study/5_dhsjr/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/case_study/5_dhsjr/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/case-study/6/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/case_study/6/</loc>
   </url>
   
   <url>
@@ -272,7 +279,7 @@
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/def-input/7/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm_main/def_input/7/</loc>
   </url>
   
 </urlset>
