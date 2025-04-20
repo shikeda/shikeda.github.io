@@ -8,7 +8,9 @@ bookCollapseSection: true
 # bookComments: false
 # bookSearchExclude: false
 ---
-# **類聚名義抄の概要**
+# **資料紹介**
+
+## **類聚名義抄の概要**
 
 **池田　証寿**
 
@@ -33,7 +35,7 @@ bookCollapseSection: true
 - [参考文献](/docs/notes/krm_main/overview/1_overview#参考文献)
 
 
-# **Overview of the *Ruijū Myōgishō***
+## **Overview of the *Ruijū Myōgishō***
 
 **Ikeda Shōju**
 
