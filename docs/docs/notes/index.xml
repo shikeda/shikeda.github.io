@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>about HDIC on HDIC project</title>
+    <title>類聚名義抄 on HDIC project</title>
     <link>https://shikeda.github.io/docs/notes/</link>
-    <description>Recent content in about HDIC on HDIC project</description>
+    <description>Recent content in 類聚名義抄 on HDIC project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp</language>
-    <lastBuildDate>Sun, 09 Jan 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://shikeda.github.io/docs/notes/index.xml" rel="self" type="application/rss+xml" />
     

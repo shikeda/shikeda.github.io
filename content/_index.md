@@ -123,5 +123,76 @@ The construction and public release of the HDIC database are being carried out w
 
 In the construction and public release of this database, we received tremendous support from Harumichi Ishizuka, Makoto Ōtsuki, Teiji Kosukegawa, Seiichi Nakai, Tomokazu Takada, Kiyonori Nagasaki, and Tomohiko Morioka. We also received various forms of support from colleagues at the Faculty of Humanities and Human Sciences, Hokkaido University Graduate School (our former affiliation). We would like to express our sincere gratitude here.
 
-© 2015-2025  HDIC Database Project.  This work was supported by JSPS KAKENHI Grant Numbers 25370506, 16H03422, 19H00526 and 23K17500.
+
+
+## 平安時代漢字字書総合データベース編纂委員会(2014)
+
+以下、2014年に平安時代漢字字書総合データベース編纂委員会を
+設置した際に公表した内容を転載しておく。
+
+### 平安時代漢字字書総合データベース編纂委員会
+
+平安時代漢字字書総合データベース編纂委員会は、日本の平安時代に編纂された漢字字書を総合したデータベースを編纂することを目的とする。
+対象とする漢字字書は、日本・平安時代の漢字字書である次の４点である。
+
+1. 高山寺本『篆隷万象名義』
+2. 天治本『新撰字鏡』
+3. 図書寮本『類聚名義抄』
+4. 観智院本『類聚名義抄』
+
+
+本データベースは、これらの漢字字書に見える掲出字と注文とを電子テキスト化し、自在に検索するシステムを構築し、それを公開することによって学術研究の発展に資することを意図している。
+また、このデータベースには、次に掲げる中国側の漢字字書の情報を含めている。
+
+1. 原本『玉篇』残巻
+2. 宋本『玉篇』(『大広益会玉篇』)
+3. 高麗本『龍龕手鏡』
+
+漢字字書の掲出字は、コンピュータで入力処理が可能な文字と、原文から一文字ごとに切り出した画像とを対象としてデータベース化を進める。発音・意味・字形を説明する注文の部分は、コンピュータで入力処理が可能な文字を入力する。
+
+-------------
+
+### The Editorial Committee of HDIC Database Project
+
+The Editorial Committee of HDIC Database Project, was founded for the purpose of compiling an unified database of early Japanese dictionaries, named the Integrated Database of Hanzi Dictionaries in Early Japan (abbreviated as HDIC).
+The Database includes,
+
+1. Kōsan-ji manuscript *Tenrei Banshō Meigi*
+2. Tenji manuscript *Shinsen Jikyō*
+3. Zushoryō manuscript *Ruiju Myōgishō*
+4. Kanchi-in manuscript *Ruiju Myōgishō*
+
+We are currently inputting the headwords and annotation text of these Hanzi Dictionaries, in order to construct an inquiry system. By opening this system to the public, we intend to make a significant contribution to the development of academic research.
+A sub-database of dictionaries, compiled in China, including,
+
+5. Original *Yupian* manuscript fragment(s)
+6. Song edition *Yupian (Daguang Yihui Yupian)*
+7. Goryeo edition *Longkan Shoujing*
+
+is also being independently constructed by the research group.
+The headwords are being processed in two ways. One is to input the headwords using the computer-readable characters, and the other is to cut a picture of each head word down from a photocopy of the original books. The annotation text, which refers to the pronunciation, meaning and variants of each headword, is inputted using computer-readable text.
+
+### 平安時代漢字字書綜合數據庫編撰委員會
+
+平安時代漢字字書綜合數據庫編撰委員會，宗旨在於推進，編撰於日本平安時代的漢字字書的綜合數據庫的構建。
+作為構建對象的日本平安時代的漢字字書包括如下四部。
+
+1. 高山寺本《篆隸萬象名義》
+2. 天治本《新撰字鏡》
+3. 圖書寮本《類聚名義抄》
+4. 觀智院本《類聚名義抄》
+
+本數據庫，對見於如上漢字字書的字頭及註釋進行電子化，構建可自如檢索的系統，並且將其公開。旨在有助於推進學術研究的發展。
+另，本數據庫也包含了編撰於中國的漢字字書，具體如下。
+
+5. 原本《玉篇》殘巻
+6. 宋本《玉篇》(《大廣益會玉篇》)
+7. 高麗本『龍龕手鏡』
+
+對於漢字字書的字頭部份，將計算機可處理的文字及從原文逐字截出的圖像做為對象進行數據化。對於對字音・字義・字形所進行説明的註釋的部份，則利用計算機可處理的文字進行輸入。
+
+-------------
+
+© 2022-2025  HDIC Database Project.  This work was supported by JSPS KAKENHI Grant Numbers 25370506, 16H03422, 19H00526 and 23K17500.
+
 

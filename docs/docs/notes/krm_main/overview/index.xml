@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>資料紹介 on HDIC project</title>
+    <link>https://shikeda.github.io/docs/notes/krm_main/overview/</link>
+    <description>Recent content in 資料紹介 on HDIC project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    
+	<atom:link href="https://shikeda.github.io/docs/notes/krm_main/overview/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>類聚名義抄の概要</title>
+      <link>https://shikeda.github.io/docs/notes/krm_main/overview/1_overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm_main/overview/1_overview/</guid>
+      <description>類聚名義抄の概要 池田 証寿 初版公開日：2022年11月15日 最終更新日：2025年4月20日 ここでは、諸本、編者、成立、価値、構成、出典、諸本</description>
+    </item>
+    
+    <item>
+      <title>Overview of the Ruijū Myōgishō</title>
+      <link>https://shikeda.github.io/docs/notes/krm_main/overview/2_overview_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm_main/overview/2_overview_en/</guid>
+      <description>Overview of the Ruijū Myōgishō Ikeda Shōju Date published: 20 April 2025 This section provides an overview of the Ruijū Myōgishō, detailing its extant manuscripts, presumed compiler and provenance, scholarly significance, structural organization, textual sources, available facsimiles and indices, as well as pertinent</description>
+    </item>
+    
+  </channel>
+</rss>

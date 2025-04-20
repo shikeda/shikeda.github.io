@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="項目データモデル ここでは、観智院本『類聚名義抄』の「項目データ構造」と「項目の種類」とを解説する。 「項目データ構造」では、項目の構造と項目の">
+<meta name="description" content="項目データモデル 観智院本『類聚名義抄』について、 まず、「項目データ構造」として、 項目の内部構成要素である掲出字・音注・和訓など具体例（画像・">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="項目データモデル" />
 <meta property="og:description" content="" />
@@ -15,7 +15,7 @@
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.0b72528010a06076a5b2e29bf6696d34a1e810d23a397f1ae2d44ff81ff23bd5.js" integrity="sha256-C3JSgBCgYHalsuKb9mltNKHoENI6OX8a4tRP&#43;B/yO9U=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.c69987df41a16884a435c29bc289113f91dd033865160afc0667033370db6986.js" integrity="sha256-xpmH30GhaISkNcKbwokRP5HdAzhlFgr8BmcDM3DbaYY=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://shikeda.github.io/docs/notes/krm_main/entry_data_model/index.xml" title="HDIC project" />
 <!--
 Made with Book Theme
@@ -68,7 +68,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/docs/notes/" class="">about HDIC</a>
+    <a href="https://shikeda.github.io/docs/notes/" class="">類聚名義抄</a>
   
 
           
@@ -81,7 +81,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/docs/notes/krm_main/" class="">観智院本類聚名義抄</a>
+    <span>Contents</span>
   
 
           
@@ -94,8 +94,42 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/docs/notes/krm_main/overview/" class="">類聚名義抄の概要</a>
+    <input type="checkbox" id="section-877114660bc91e33452dbc07bfbc525f" class="toggle"  />
+    <label for="section-877114660bc91e33452dbc07bfbc525f" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm_main/overview/" class="">資料紹介</a>
+    </label>
   
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm_main/overview/1_overview/" class="">類聚名義抄の概要</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm_main/overview/2_overview_en/" class="">Overview of the Ruijū Myōgishō</a>
+  
+
+        </li>
+      
+    
+  </ul>
 
         </li>
       
@@ -253,8 +287,13 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/docs/notes/krm_main/headword_input/" class="">掲出字データ入力の詳細</a>
+    <a href="https://shikeda.github.io/docs/notes/krm_main/item_input/" class="">項目データ入力</a>
   
+
+          
+  <ul>
+    
+  </ul>
 
         </li>
       
@@ -266,8 +305,13 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/docs/notes/krm_main/item_input/" class="">項目データ入力</a>
+    <a href="https://shikeda.github.io/docs/notes/krm_main/headword_input/" class="">掲出字データ入力の詳細</a>
   
+
+          
+  <ul>
+    
+  </ul>
 
         </li>
       
@@ -881,21 +925,23 @@ https://github.com/alex-shpak/hugo-book
       
       
   <article class="markdown"><h1 id="項目データモデル">項目データモデル</h1>
-<p>ここでは、観智院本『類聚名義抄』の「項目データ構造」と「項目の種類」とを解説する。</p>
-<p>「項目データ構造」では、項目の構造と項目の形式を取り上げる。
-項目の構造は、項目の内部構成要素である掲出字、音注、和訓などに触れる。
-項目の形式は、掲出字が１字か多字かなどに触れる。</p>
-<p>「項目の種類」では、基本的な項目、補足的な項目などの種類を取り上げる。</p>
+<p>観智院本『類聚名義抄』について、
+まず、「項目データ構造」として、
+項目の内部構成要素である掲出字・音注・和訓など具体例（画像・翻刻）をあげ、
+項目構造の抽象化と視覚化（図示）を行う。</p>
+<p>次に「項目の種類」として、基本的な項目、補足的な項目などの種類を取り上げて解説する。</p>
+<p>さらに、「文字表記に関する概念」として、書体・字体・字形、異体字、形近字を解説する。</p>
+<p>最後に項目データファイルの内容と具体例の提示、Githubを利用した公開・更新の方法に触れる。</p>
 <ul>
 <li><a href="https://shikeda.github.io/docs/notes/krm_main/entry_data_model/1_data_structure/">項目データ構造</a></li>
 <li><a href="https://shikeda.github.io/docs/notes/krm_main/entry_data_model/2_types_of_entries/">項目の種類</a></li>
 </ul>
 <h1 id="entry-data-model">Entry Data Model</h1>
-<p>This section explains the <strong>Entry Data Structure</strong> and the <strong>Types of Entries</strong> found in the Kanchi-in manuscript <em>Ruiju Myōgishō</em>.</p>
-<p>The &ldquo;Entry Data Structure&rdquo; part covers the <strong>structure of an entry</strong> and the <strong>format of an entry</strong>.</p>
-<p>The <strong>structure of an entry</strong> discusses its internal components, such as the headword, phonetic glosses, and <em>wakun</em>.</p>
-<p>The <strong>format of an entry</strong> refers to whether the headword consists of a single character or multiple characters.</p>
-<p>The &ldquo;Types of Entries&rdquo; section discusses the different kinds, such as basic entries and supplementary entries.</p>
+<p>Regarding the Kanchi-in manuscript <em>Ruiju Myōgishō</em>:</p>
+<p>First, under <strong>Entry Data Structure</strong>, we present the internal components of an entry (such as Headword, Phonetic Gloss, and <em>Wakun</em>) using specific examples (visual representations and transcriptions), and provide an abstracted and visualized diagram of the entry structure.</p>
+<p>Next, under <strong>Types of Entries</strong>, different kinds, such as basic entries and supplementary entries, are discussed.</p>
+<p>Furthermore, under <strong>Concepts Related to Character Notation</strong>, script styles, character types, character forms (glyphs), variant characters, and graphically similar characters are explained.</p>
+<p>Finally, we cover the <strong>Entry Data Files</strong>, including their content, specific examples, and the methods used for publication and updates via GitHub.</p>
 <ul>
 <li><a href="https://shikeda.github.io/docs/notes/krm_main/entry_data_model/1_data_structure/">Entry Data Structure</a></li>
 <li><a href="https://shikeda.github.io/docs/notes/krm_main/entry_data_model/2_types_of_entries/">Types of Entries</a></li>

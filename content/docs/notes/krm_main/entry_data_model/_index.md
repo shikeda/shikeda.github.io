@@ -7,13 +7,17 @@ bookToc: true
 # 項目データモデル
 
 
-ここでは、観智院本『類聚名義抄』の「項目データ構造」と「項目の種類」とを解説する。
+観智院本『類聚名義抄』について、
+まず、「項目データ構造」として、
+項目の内部構成要素である掲出字・音注・和訓など具体例（画像・翻刻）をあげ、
+項目構造の抽象化と視覚化（図示）を行う。
 
-「項目データ構造」では、項目の構造と項目の形式を取り上げる。
-項目の構造は、項目の内部構成要素である掲出字、音注、和訓などに触れる。
-項目の形式は、掲出字が１字か多字かなどに触れる。
+次に「項目の種類」として、基本的な項目、補足的な項目などの種類を取り上げて解説する。
 
-「項目の種類」では、基本的な項目、補足的な項目などの種類を取り上げる。
+さらに、「文字表記に関する概念」として、書体・字体・字形、異体字、形近字を解説する。
+
+最後に項目データファイルの内容と具体例の提示、Githubを利用した公開・更新の方法に触れる。
+
 
 
 - [項目データ構造](/docs/notes/krm_main/entry_data_model/1_data_structure/)
@@ -21,15 +25,18 @@ bookToc: true
 
 # Entry Data Model
 
-This section explains the **Entry Data Structure** and the **Types of Entries** found in the Kanchi-in manuscript *Ruiju Myōgishō*. 
 
-The "Entry Data Structure" part covers the **structure of an entry** and the **format of an entry**.
+Regarding the Kanchi-in manuscript *Ruiju Myōgishō*:
 
-The **structure of an entry** discusses its internal components, such as the headword, phonetic glosses, and *wakun*.
+First, under **Entry Data Structure**, we present the internal components of an entry (such as Headword, Phonetic Gloss, and *Wakun*) using specific examples (visual representations and transcriptions), and provide an abstracted and visualized diagram of the entry structure.
 
-The **format of an entry** refers to whether the headword consists of a single character or multiple characters.
+Next, under **Types of Entries**, different kinds, such as basic entries and supplementary entries, are discussed.
 
-The "Types of Entries" section discusses the different kinds, such as basic entries and supplementary entries.
+Furthermore, under **Concepts Related to Character Notation**, script styles, character types, character forms (glyphs), variant characters, and graphically similar characters are explained.
+
+Finally, we cover the **Entry Data Files**, including their content, specific examples, and the methods used for publication and updates via GitHub.
+
+
 
 - [Entry Data Structure](/docs/notes/krm_main/entry_data_model/1_data_structure/)
 - [Types of Entries](/docs/notes/krm_main/entry_data_model/2_types_of_entries/)

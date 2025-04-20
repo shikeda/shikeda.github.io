@@ -1,6 +1,6 @@
 ---
 title: 掲出字データ入力の詳細
-weight: 4
+weight: 5
 bookToc: true
 ---
 
