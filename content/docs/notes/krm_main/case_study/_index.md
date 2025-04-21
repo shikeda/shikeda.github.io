@@ -21,12 +21,12 @@ bookCollapseSection: true
 事例研究として次のトピックを取り上げる。順次、内容を追加してゆく予定である。
 
 
-1. [和訓「ウゴク」の調査](/docs/notes/krm-main/case-study/1_ugoku/)　
-2. [和訓「ミル」の調査](/docs/notes/krm-main/case-study/2_miru/)　
-3. [和訓の使用頻度](/docs/notes/krm-main/case-study/3_wakun/)　
-4. [同仮名異語の区別](/docs/notes/krm-main/case-study/4_kana_split/)　
-5. [DHSJRとの連携](/docs/notes/krm-main/case-study/5_dhsjr/)
-6. [準備中](/docs/notes/krm-main/case-study/6/)
+1. [和訓「ウゴク」の調査](/docs/notes/krm_main/case_study/1_ugoku/)　
+2. [和訓「ミル」の調査](/docs/notes/krm_main/case_study/2_miru/)　
+3. [和訓の使用頻度](/docs/notes/krm_main/case_study/3_wakun_uf/)　
+4. [同仮名異語の区別](/docs/notes/krm_main/case_study/4_kana_split/)　
+5. [DHSJRとの連携](/docs/notes/krm_main/case_study/5_dhsjr/)
+6. [準備中](/docs/notes/krm_main/case_study/6/)
 
 
 # Historical Research on Japanese: A Case Study of the Kanchi-in Manuscript of the Ruiju Myōgishō
@@ -44,9 +44,9 @@ The following topics will be addressed as case studies. We plan to add content s
 * For the phonetic notations, I have provided the Japanese terms along with their English equivalents where applicable, for clarity.
 
 
-1. [Investigating Wakun "Ugoku"](/docs/notes/krm-main/case-study/1_ugoku/)　
-2. [Investigating Wakun "Miru"](/docs/notes/krm-main/case-study/2_miru/)　
-3. [Wakun Usage Frequency](/docs/notes/krm-main/case-study/3_wakun/)　
-4. [Homograph Distinction](/docs/notes/krm-main/case-study/4_kana_split/)　
-5. [DHSJR Collaboration](/docs/notes/krm-main/case-study/5_dhsjr/)
-6. [Under preparation](/docs/notes/krm-main/case-study/6/)
+1. [Investigating Wakun "Ugoku"](/docs/notes/krm_main/case_study/1_ugoku/)　
+2. [Investigating Wakun "Miru"](/docs/notes/krm_main/case_study/2_miru/)　
+3. [Wakun Usage Frequency](/docs/notes/krm_main/case_study/3_wakun_uf/)　
+4. [Homograph Distinction](/docs/notes/krm_main/case_study/4_kana_split/)　
+5. [DHSJR Collaboration](/docs/notes/krm_main/case_study/5_dhsjr/)
+6. [Under preparation](/docs/notes/krm_main/case_study/6/)
