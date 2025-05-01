@@ -34,7 +34,7 @@ krm_notes.tsvを新とし、KRM_definitions.tsvを旧として、両者のカラ
 
 次に、カラム名の内容を英語と日本語で説明する。
 
-| New Column Name (v1.2.0) | English explanation          | Japanese explanation             |
+| New Column Name (v1.2.0) | English Explanation          | Japanese Explanation             |
 |--------------------------|-----------------------------------|----------------|
 | definition_seq_id        | 5-digit numeric ID starting with 'F', sequentially assigned to heading entries. Definition components under each heading are ordered based on their appearance, and order indicators like _01, _02, etc., are appended accordingly. The heading itself is appended with _00.                      | 連番で与えられるFで始まる5桁の見出しの数値IDに加えて、見出しの下に記される注文の各要素を出現順に区分し、出現の順番に_01、_02のように追加したもの。見出しには_00を追加する。 |
 | kazama_entry_location    | ID including location information (Kazama edition: K, Book(volume), page(xxx), line(y), column(zz)), ranked 1, 2, ..., n for multiple entries in a column. Where Book(volume) represents the volume number, page(xxx) the page number, line(y) the line number, and column(zz) the column number. | 位置情報（風間版：K、冊子（巻）、ページ（xxx）、行（y）、列（zz））を含むID。列に複数のエントリがある場合は、1、2、...、n の順位になる。                 |

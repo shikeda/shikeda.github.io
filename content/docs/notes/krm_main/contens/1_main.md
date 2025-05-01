@@ -43,7 +43,7 @@ Remarksは次のkrm_notesにまとめることとして、省略した。
 
 次に、カラム名の内容を英語と日本語で説明する。
 
-| New Column Name (v1.2.0) | English explanation           | Japanese explanation                    |
+| New Column Name (v1.2.0) | English Explanation           | Japanese Explanation                    |
 |--------------------------|-----------------------------|-------------------------------------------|
 | entry_id                 | A heading item ID formed by a 5-digit numeric ID starting with 'F', followed by '_00'.               | Fで始まる5桁の数値に_00を加えた見出し項目ID。     |
 | hanzi_id                 | A heading Hanzi ID consisting of a 5-digit numeric ID starting with 'S'.           | Sで始まる5桁の数値からなる見出し漢字ID。         |

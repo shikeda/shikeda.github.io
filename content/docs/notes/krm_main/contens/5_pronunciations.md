@@ -44,7 +44,7 @@ DHSJRから英語の説明が公表されるまでの暫定的な措置である
 
 HDIC独自のカラム名は**太字**とした。
 
-| DHSJR  | HDIC | key         | English explanation     | Japanese explanation         |
+| DHSJR  | HDIC | Key         | English Explanation     | Japanese Explanation         |
 |-------------|----------------------------|-------------|------|----------------------|
 | ID        | dhsjr_id      |             | DHSJR unique ID for each single character (integrated data only)     | 単字ごとのユニークID（統合データのみ）    |
 | **音注ID**        | **pronunciation_id**     | Primary Key | Pronunciation annotation ID, extracted from definition_sequence_id, containing only entries where the type of order is pronunciation annotation. Variant forms are appended with 'b', 'c'.    | 音注ID。kr_definition_sequence_idから、注文の種類が音注のものだけを取り出したもの。変異形を追加したものには末尾にxを付した。 |
