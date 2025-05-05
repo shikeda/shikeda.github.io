@@ -15,7 +15,7 @@
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.728f43aa02ff16d29c2e00a80c523b8c3e6f393ada6d03ddb6f3e09aac7b04b9.js" integrity="sha256-co9DqgL/FtKcLgCoDFI7jD5vOTrabQPdtvPgmqx7BLk=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.cdf269c7d87e3651b0549c17e6c7a555f739576b4badcfc4bc318c2e04e38e7c.js" integrity="sha256-zfJpx9h&#43;NlGwVJwX5selVfc5V2tLrc/EvDGMLgTjjnw=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -961,7 +961,7 @@ https://github.com/alex-shpak/hugo-book
 <table>
 <thead>
 <tr>
-<th>New Column Name (v1.2.0)</th>
+<th>New Column Name (v1.2.5)</th>
 <th>Old Column Name (v1.1.347)</th>
 </tr>
 </thead>
@@ -975,11 +975,11 @@ https://github.com/alex-shpak/hugo-book
 <td>KRID_sn</td>
 </tr>
 <tr>
-<td>kazama_entry_location</td>
+<td>-</td>
 <td>KR2ID</td>
 </tr>
 <tr>
-<td>kazama_hanzi_location</td>
+<td>kazama_location</td>
 <td>KRID</td>
 </tr>
 <tr>
@@ -1016,12 +1016,14 @@ https://github.com/alex-shpak/hugo-book
 </tr>
 </tbody>
 </table>
+<p>KR2IDは省略し、kazama_locationをKRIDに対応させた。</p>
 <p>Remarksは次のkrm_notesにまとめることとして、省略した。</p>
-<p>次に、カラム名の内容を英語と日本語で説明する。</p>
+<p>次に、カラム名の内容を英語と日本語で説明する。ここではv1.2.5の内容を
+記載する。</p>
 <table>
 <thead>
 <tr>
-<th>New Column Name (v1.2.0)</th>
+<th>New Column Name (v1.2.5)</th>
 <th>English Explanation</th>
 <th>Japanese Explanation</th>
 </tr>
@@ -1029,8 +1031,8 @@ https://github.com/alex-shpak/hugo-book
 <tbody>
 <tr>
 <td>entry_id</td>
-<td>A heading item ID formed by a 5-digit numeric ID starting with &lsquo;F&rsquo;, followed by &lsquo;_00&rsquo;.</td>
-<td>Fで始まる5桁の数値に_00を加えた見出し項目ID。</td>
+<td>A heading item ID formed by a 5-digit numeric ID starting with &lsquo;F&rsquo;.</td>
+<td>Fで始まる5桁の数値からなる見出し項目ID。</td>
 </tr>
 <tr>
 <td>hanzi_id</td>
@@ -1038,19 +1040,14 @@ https://github.com/alex-shpak/hugo-book
 <td>Sで始まる5桁の数値からなる見出し漢字ID。</td>
 </tr>
 <tr>
-<td>kazama_entry_location</td>
-<td>ID including location information (Kazama edition: K, Book(volume), page(xxx), line(y), column(zz)), ranked 1, 2, &hellip;, n for multiple entries in a column. Where Book(volume) represents the volume number, page(xxx) the page number, line(y) the line number, and column(zz) the column number.</td>
-<td>位置情報（風間版：K、冊子（巻）、ページ（xxx）、行（y）、列（zz））を含むID。列に複数のエントリがある場合は、1、2、&hellip;、n の順位になる。</td>
-</tr>
-<tr>
-<td>kazama_hanzi_location</td>
-<td>ID including location information (Kazama edition: K, Book(volume), page(xxx), line(y), column(zz)), ranked 0 for single-character headwords, and 1, 2, &hellip;, n for multiple-character headwords or entries in a column. Where Book(volume) represents the volume number, page(xxx) the page number, line(y) the line number, and column(zz) the column number.</td>
-<td>K・巻数(2桁)・風間書房版ページ数(3桁)・行数(1桁)・段数(1桁)・字順(1桁)を示すID。掲出字が単字なら字順は0、複字なら1, 2, &hellip;, n。一段に複数項目あれば単字でも1, 2, &hellip;, n。</td>
+<td>kazama_location</td>
+<td>An ID indicating K + Volume (2 digits) + Kazama Edition Page (3 digits) + Line (1 digit) + Segment (1 digit) + 字順 (1 digit). Details of the rules for assigning 字順 are defined separately.</td>
+<td>K・巻数（2桁）・風間版頁数（3桁）・行数（1桁）、段数（1桁）、字順（1桁）を示すID。字順付与のルールの詳細は別に定める。</td>
 </tr>
 <tr>
 <td>tenri_location</td>
-<td>Location information from the Tenri edition (T, volume(volume letters), page(xxx), line(y), column(zz)). Where volume(volume letters) represents the volume letters, page(xxx) the page number, line(y) the line number, and column(zz) the column number.</td>
-<td>八木書店版の掲出字ID。T・巻数（a/b/c）・ページ数（3桁数）・行数（1桁）・段数（1桁）・字順（1桁）を示す。最後の字順の示し方は掲出字IDの場合に同じとする。八木書店『天理図書館善本叢書』に基づく。</td>
+<td>An ID indicating T + Volume (a/b/c) + Tenri Edition Page (3 digits) + Line (1 digit) + Segment (1 digit) + 字順 (1 digit). Details of the rules for assigning 字順 are defined separately.</td>
+<td>T・巻数（a/b/c）・天理版頁数（3桁）・行数（1桁）・段数（1桁）・字順（1桁）を示す。字順付与のルールの詳細は別に定める。</td>
 </tr>
 <tr>
 <td>volume_name</td>
@@ -1069,13 +1066,13 @@ https://github.com/alex-shpak/hugo-book
 </tr>
 <tr>
 <td>hanzi_entry</td>
-<td>Corrected hanzi are principally in the Kangxi Dictionary form. Unicode simplified characters (common-use characters, popular variants) may also be retained. Multiple-kanji headwords are separated by / (full-width slash). The abbreviation symbol &ldquo;｜&rdquo; is represented by &ldquo;ー&rdquo; (long vowel mark), with the corresponding character in parentheses.</td>
-<td>校訂漢字は原則、康熙字典体。Unicodeの新字体（通用字体・俗字体）は残すことも可。複数漢字の見出しは／で区切る。省略符号「｜」はーで示し、（）に該当字。</td>
+<td>The collated headword characters principally use Kangxi Dictionary form, including Unicode simplified characters (common-use forms, popular variants). For characters not included in Unicode, they are represented by the following methods: If representable by combining kanji components, input using IDS (Ideographic Description Sequence). For specific kanji or their components, if representation by IDS or standard Unicode is difficult, use simplified notations based on the entity reference systems of CHISE and GlyphWiki (e.g., CDP-8C55, koseki-00001). Characters not representable by any of the above methods, or characters unreadable in the original text (worm-eaten, etc.), are input as &lsquo;■&rsquo; (black square). Headwords consisting of multiple kanji are separated by &lsquo;／&rsquo; (full-width slash). The abbreviation symbol &lsquo;｜&rsquo; is indicated by &lsquo;ー&rsquo; (long vowel mark), and the corresponding character is appended in full-width parentheses ().</td>
+<td>校訂漢字は原則、康熙字典体（Unicodeの新字体（通用字体・俗字体）を含む）を用いる。Unicodeに収録されていない漢字については、以下の方法で表現する。漢字の部品の組み合わせで表現可能な場合は、IDS（漢字構成記述文字列）で入力する。特定の漢字やその部品で、IDSまたは標準Unicodeで表現が困難な場合は、CHISEおよびGlyphWikiの実体参照方式に基づいた簡略表記（例：CDP-8C55, koseki-00001）を用いる。上記のいずれの方法でも表現できない文字や、原典で判読不能な文字（虫損等）は、「■」（黒い四角）で入力する。複数漢字の見出しは「／」（全角スラッシュ）で区切る。省略符号「｜」は「ー」（長音符）で示し、全角括弧（）内に該当字を付記する。</td>
 </tr>
 <tr>
 <td>original_entry</td>
-<td>Headword close to original form. Errors as is. Non-Unicode variants: IDS or ■. Like hanzi_entry, &ldquo;〇&rdquo; if no original-glyph headword needed.</td>
-<td>原字形に準拠した見出し字。誤字はそのまま。Unicode外の異体字はIDS/■で表記。hanzi_entryに準じ、原字形の掲出字が不要なら「〇」。</td>
+<td>Headword based on the original character form. Errors are left as is. The representation of kanji outside Unicode follows the rules for hanzi_entry. If the original-form headword is not needed, &lsquo;〇&rsquo; is used.</td>
+<td>原字形に準拠した見出し字。誤字はそのまま。Unicode外の漢字の表現はhanzi_entryに準じる。原字形の掲出字が不要なら「〇」。</td>
 </tr>
 <tr>
 <td>definition</td>
