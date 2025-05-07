@@ -15,12 +15,12 @@ title: 公開データの概要
 [https://github.com/shikeda/HDIC](https://github.com/shikeda/HDIC)
 で公開している観智院本類聚名義抄のデータについて、その概要を解説する。
 
-- [krm_main](/docs/notes/krm_main/contens/1_main/)
-- [krm_notes](/docs/notes/krm_main/contens/2_notes/)　
-- [krm_wakun](/docs/notes/krm_main/contens/3_wakun/)　
-- [krm_definitions](/docs/notes/krm_main/contens/4_definitions/)　
-- [krm_pronunciations](/docs/notes/krm_main/contens/5_pronunciations/)　
-- [krm_ndl](/docs/notes/krm_main/contens/6_ndl/)　
+- [krm_main](/docs/notes/krm-main/contens/1-main/)
+- [krm_notes](/docs/notes/krm-main/contens/2-notes/)　
+- [krm_wakun](/docs/notes/krm-main/contens/3-wakun/)　
+- [krm_definitions](/docs/notes/krm-main/contens/4-definitions/)　
+- [krm_pronunciations](/docs/notes/krm-main/contens/5-pronunciations/)　
+- [krm_ndl](/docs/notes/krm-main/contens/6-ndl/)　
 
 2025年3月に大幅な仕様変更を行った。従来の公開ファイルは、
 KRMを付していたが、仕様変更後のファイルは、krmを付すことに

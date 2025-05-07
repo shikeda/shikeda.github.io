@@ -12,56 +12,92 @@
     
     
     <item>
-      <title>類聚名義抄の概要</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/overview/1_overview/</link>
+      <title>掲出字・項目構造とID体系</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/item-input/1-id/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/overview/1_overview/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/item-input/1-id/</guid>
+      <description>掲出字・項目構造とID体系 このセクションでは、名義抄の項目の構造と、それを識別するためのID体系について説明する。 掲出字と掲出項目の定義 掲出</description>
+    </item>
+    
+    <item>
+      <title>類聚名義抄の概要</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/overview/1-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/overview/1-overview/</guid>
       <description>類聚名義抄の概要 池田 証寿 初版公開日：2022年11月15日 最終更新日：2025年4月20日 ここでは、諸本、編者、成立、価値、構成、出典、諸本</description>
     </item>
     
     <item>
       <title>Overview of the Ruijū Myōgishō</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/overview/2_overview_en/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/overview/2-overview-en/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/overview/2_overview_en/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/overview/2-overview-en/</guid>
       <description>Overview of the Ruijū Myōgishō Ikeda Shōju Date published: 20 April 2025 This section provides an overview of the Ruijū Myōgishō, detailing its extant manuscripts, presumed compiler and provenance, scholarly significance, structural organization, textual sources, available facsimiles and indices, as well as pertinent</description>
     </item>
     
     <item>
-      <title>項目データ構造</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/entry_data_model/1_data_structure/</link>
+      <title>文字の符号化と表現</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/item-input/2-char/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/entry_data_model/1_data_structure/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/item-input/2-char/</guid>
+      <description>文字の符号化と表現 Unicodeによる文字の符号化 UnicodeのバージョンによりCJK統合漢字の数は異なる。 HDICプロジェクトとしては2</description>
+    </item>
+    
+    <item>
+      <title>原典に見られる問題への対応</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/item-input/3-handling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/item-input/3-handling/</guid>
+      <description>原典に見られる問題への対応 原典に見られる問題への対応 虫損・判読不能 虫損（insect holes）で判読できない字や点画が複雑すぎてIDSの表</description>
+    </item>
+    
+    <item>
+      <title>項目データ構造</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/entry-data-model/1-data-structure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/entry-data-model/1-data-structure/</guid>
       <description>項目データ構造 ここでは、観智院本『類聚名義抄』（以下、名義抄と略） の項目の構造と項目の形式を取り上げて解説する。 まず、掲出字・注文等の用語（</description>
     </item>
     
     <item>
-      <title>項目の種類</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/entry_data_model/2_types_of_entries/</link>
+      <title>原典に見られる特定の符号・注記</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/item-input/4-notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/entry_data_model/2_types_of_entries/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/item-input/4-notes/</guid>
+      <description>原典に見られる特定の符号・注記 省略符号 熟語の掲出字に見える省略符号（omission mark）「｜」は、 被注字（annotated headword, 被釋字）</description>
+    </item>
+    
+    <item>
+      <title>項目の種類</title>
+      <link>https://shikeda.github.io/docs/notes/krm-main/entry-data-model/2-types-of-entries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm-main/entry-data-model/2-types-of-entries/</guid>
       <description>項目の種類 Types of Entries 掲出字の形式 掲出字は単字形式（single character form）と 複字形式（plural charactor form）とがある。 複字形式の掲出字は、熟語</description>
     </item>
     
     <item>
       <title>文字表記に関する概念</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/entry_data_model/3_concepts_char/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/entry-data-model/3-concepts-char/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/entry_data_model/3_concepts_char/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/entry-data-model/3-concepts-char/</guid>
       <description>文字表記に関する概念 書体・字体・字形 「書体」「字体」「字形」の用語は 石塚晴通『図書寮本 日本書紀 研究篇』（汲古書院、1984）の定義に従う。 書</description>
     </item>
     
     <item>
       <title>項目データファイルの公開・更新</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/entry_data_model/4_data_example/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/entry-data-model/4-data-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/entry_data_model/4_data_example/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/entry-data-model/4-data-example/</guid>
       <description>項目データファイルの公開・更新 項目データファイルの例 左から順に翻刻を示すと次のようになる。所在情報は簡略化して示す。 No KR_ID KR_vol_radical KR_vol_name KR_radical Entry Entry_original KR_def 1 K08084810 v8#8 僧</description>
     </item>
     
@@ -76,334 +112,334 @@
     
     <item>
       <title>krm_main</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/contens/1_main/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/contens/1-main/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/contens/1_main/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/contens/1-main/</guid>
       <description>krm_main 観智院本類聚名義抄（以下、名義抄）デーベースの中核となるファイルを解説する。 従来公開していたのは、KRM.tsvという名称のTSVファイル</description>
     </item>
     
     <item>
       <title>krm_notes</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/contens/2_notes/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/contens/2-notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/contens/2_notes/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/contens/2-notes/</guid>
       <description>krm_notes KRM_definitions.tsvファイルに詳細な注釈情報を追加したファイルkrm_notes.tsvを作成した。 これは、TSV形式と</description>
     </item>
     
     <item>
       <title>krm_wakun</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/contens/3_wakun/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/contens/3-wakun/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/contens/3_wakun/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/contens/3-wakun/</guid>
       <description>krm_wakun これは、名義抄デーベースのKRM.tsvから和訓を抜き出して、 和訓の異形を整理し、異体字との対応を調整したデータである。 和訓に関する校勘と</description>
     </item>
     
     <item>
       <title>krm_definitions</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/contens/4_definitions/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/contens/4-definitions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/contens/4_definitions/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/contens/4-definitions/</guid>
       <description>krm_definitions 名義抄の注文には、和訓だけではなく、字体注、音注、意義注などの要素を含んでいる。 これらの校勘と出典考証を行うために、注文の各要素を出現順に</description>
     </item>
     
     <item>
       <title>krm_pronunciations</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/contens/5_pronunciations/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/contens/5-pronunciations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/contens/5_pronunciations/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/contens/5-pronunciations/</guid>
       <description>krm_pronunciations 観智院本類聚名義抄（以下、名義抄）の音注は、 反切、類音注、仮名注があり、それらに声点が施されることも多い。 日本漢字音のデータベースとしては</description>
     </item>
     
     <item>
       <title>krm_ndl</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/contens/6_ndl/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/contens/6-ndl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/contens/6_ndl/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/contens/6-ndl/</guid>
       <description>krm_ndl 国会図書館デジタルコレクションで公開している 観智院本類聚名義抄の画像へのリンクを整理したものである。 観智院本類聚名義抄の所在と国会図書館デ</description>
     </item>
     
     <item>
       <title>基本方針</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/def_input/1/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/def-input/1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/def_input/1/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/1/</guid>
       <description>基本方針 字体注、音注、義注、和訓、掲出字補注に共通する事項は次のとおりである。 書字方向 説明 縦書きを横書きに改める。 字体 説明 漢字と仮名は原則と</description>
     </item>
     
     <item>
       <title>字体注</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/def_input/2/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/def-input/2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/def_input/2/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/2/</guid>
       <description>字体注 字体の認定 説明 字体注原文の異体字は掲出字の字体との関係を慎重に検討した上で原文に近い字体とするか通行の字体とするかを判断する。 字体注記</description>
     </item>
     
     <item>
       <title>基本方針</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/notes_input/1/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-input/1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/notes_input/1/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-input/1/</guid>
       <description>基本方針 項目の構造と注文数の概略を示し、一つの 項目を例に説明しながら、注釈作成の基本方針を示す。 項目の構造と注文数 項目は掲出字と注文からなる</description>
     </item>
     
     <item>
       <title>音注</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/def_input/3/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/def-input/3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/def_input/3/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/3/</guid>
       <description>音注 音注の種類 説明 音注は、反切（fanqie）、類音注（similar pronunciation annotation by character）、仮名音注（pronunciation annotation by k</description>
     </item>
     
     <item>
       <title>掲出字</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/notes_input/2/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-input/2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/notes_input/2/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-input/2/</guid>
       <description>掲出字 ここでは、誤字、脱字、衍字、補入、埋字、代用符号、踊り字などについて解説し、 掲出項目数の算出を行う。 誤字 掲出字の誤字の例をいくつかあげ</description>
     </item>
     
     <item>
       <title>義注</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/def_input/4/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/def-input/4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/def_input/4/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/4/</guid>
       <description>義注(漢文意味注) 異体字の処理 説明 原文の略字と異体字は通行の字体に改める。 入力例 ヽ --&amp;gt; 也 省略符号 説明 省略符号の「｜」符は、長音符（ー, U+30</description>
     </item>
     
     <item>
       <title>和訓</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/def_input/5/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/def_input/5/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</guid>
       <description>和訓 小字の片仮名 説明 片仮名に付された小字の片仮名（和訓の活用形・及び異形態など）は大字の部分と小字の部分をハイフンマイナス（-, U+002D</description>
     </item>
     
     <item>
       <title>字体注</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/notes_input/3/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-input/3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/notes_input/3/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-input/3/</guid>
       <description>字体注 ここでは、「正」「通」「俗」などの注記の種類と これらの注記と注記対象字との記載状況を解説する。 また、「滴」を例にして記載内容の検討を行</description>
     </item>
     
     <item>
       <title>その他</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/def_input/6/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/def-input/6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/def_input/6/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/6/</guid>
       <description>その他 「その他」では、掲出字補注について説明する。 掲出字補注とは 掲出字の周囲に施された注記を指す。 掲出字の声点と片仮名音注 説明 掲出字に施され</description>
     </item>
     
     <item>
       <title>音注</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/notes_input/4/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-input/4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/notes_input/4/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-input/4/</guid>
       <description>音注 音注の検討では、広韻の音注との比較が基本となる。 原撰本名義抄では、東宮切韻の引用頻度が高く、 切韻系韻書に由来する音注が改編本でも多くなっ</description>
     </item>
     
     <item>
       <title>義注</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/notes_input/5/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-input/5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/notes_input/5/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-input/5/</guid>
       <description>義注 義注とは、漢字を用いた意義注記のことである。漢文義注ともいう。 義注の文字数 観智院本類聚名義抄には、約12,600の義注がある。これを義注</description>
     </item>
     
     <item>
       <title>和訓</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/notes_input/6/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-input/6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/notes_input/6/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-input/6/</guid>
       <description>和訓 ここでは、まず、略称を用いる参考文献とその他の参考文献をあげる。 次に、和訓の同定に関して、若干の例をあげて解説する。 参考文献 略称を用いる</description>
     </item>
     
     <item>
       <title>注釈の例</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/notes_input/10_notes_sample/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-input/10-notes-sample/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/notes_input/10_notes_sample/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-input/10-notes-sample/</guid>
       <description>注釈の例 前書き 注釈の試作 注釈をどのように作成するか、さらに 作成した注釈をどのように公表するかは 現在、検討中である。 試みに、注釈の例を作成して</description>
     </item>
     
     <item>
       <title>花園明朝の設定</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/notes_output/1/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-output/1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/notes_output/1/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-output/1/</guid>
       <description>前提 TeX Liveが使えるように設定しておく。 花園明朝の設定 花園フォント 花園明朝のフォントをパソコンにインストールしておく。 ブラウザでの確認 たと</description>
     </item>
     
     <item>
       <title>GlyphWikiの設定</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/notes_output/2/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-output/2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/notes_output/2/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-output/2/</guid>
       <description>GlyphWikiの設定 BXglyphwiki パッケージバンドル 花園フォントをLuaLaTeXで使うには、 BXglyphwiki パッケージバンドルを参考にする。 toyjackによる</description>
     </item>
     
     <item>
       <title>sfkanbun.styの設定</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/notes_output/3/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-output/3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/notes_output/3/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-output/3/</guid>
       <description>sfkanbun.styの設定 訓点資料用スタイル・ファイル（kunten2e.sty）は、 upLaTeXであれば使えるが、 LuaLaTeXで</description>
     </item>
     
     <item>
       <title>VS CodeとTeX Live</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/notes_output/4/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-output/4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/notes_output/4/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-output/4/</guid>
       <description>VS CodeとTeX Live VS Code (Visual Studio Code) はMicrosoftが 開発しているWindows、Linux、macOS、web用のソースコードエディタである</description>
     </item>
     
     <item>
       <title>オンラインツール</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/notes_output/5/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/notes-output/5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/notes_output/5/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/notes-output/5/</guid>
       <description>よく使うオンラインツールのリンク Kanji Database Project 漢字データベースプロジェクト CHISE IDS find 漢字検索 HNG単字検索 GlyphWiki グリフウィキ Han Morphism System Ver.0.3.1 篇韻データベース The SAT Da</description>
     </item>
     
     <item>
       <title>掲出字</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/progress/1/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/progress/1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/progress/1/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/progress/1/</guid>
       <description>掲出字 かなり分かりにくいですが、 注釈データ入力の詳細 &amp;gt; 掲出字 &amp;gt; 掲出項目数 &amp;gt; 部首毎の掲出項目数と掲出字数のまとめ で見ることができます。 これは、</description>
     </item>
     
     <item>
       <title>注文</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/progress/2/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/progress/2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/progress/2/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/progress/2/</guid>
       <description>注文 注文種類 頻度集計 百分率 字体注 13,352 15.39% 音注 24,145 27.82% 義注 12,648 14.57% 和訓 35,381 40.77% その他 1,253 1.44% 小計 86,779 100.00% 2024年12月12日現在（以下同）。 次には声点の有無の状況を</description>
     </item>
     
     <item>
       <title>字体注</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/progress/3/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/progress/3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/progress/3/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/progress/3/</guid>
       <description>字体注 2024年12月11日現在のデータによってその詳細を説明する。 声点の有無 声点の有無 頻度 百分率 字体注声点有 20 0.15% 字体注声点無 13,332 99.85% 小計 13,352 100.00%</description>
     </item>
     
     <item>
       <title>音注</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/progress/4/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/progress/4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/progress/4/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/progress/4/</guid>
       <description>音注 2024年12月11日現在のデータによってその詳細を説明する。 声点の有無 声点の有無 頻度 百分率 音注声点有 4,462 18.48% 音注声点無 19,683 81.52% 小計 24,145 100.00% 音注に声</description>
     </item>
     
     <item>
       <title>義注</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/progress/5/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/progress/5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/progress/5/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/progress/5/</guid>
       <description>義注 2024年12月12日現在 声点の有無 頻度 百分率 義注声点有 6 0.05% 義注声点無 12,642 99.95% 小計 12,648 100.00%</description>
     </item>
     
     <item>
       <title>和訓</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/progress/6/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/progress/6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/progress/6/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/progress/6/</guid>
       <description>和訓 日国IDの付与状況 和訓数 総数 ID付与済 パーセント 仏上 4,104 3,475 84.67% 仏中 4,237 3,675 86.74% 仏下本 4,344 3,511 80.82% 仏下末 1,559 1,309 83.96% 法上 4,211 3,498 83.07% 法中 4,446 3,659 82.30% 法下 3,989 3,285 82.35% 僧上 3,994 3,364 84.23% 僧中</description>
     </item>
     
     <item>
       <title>その他</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/progress/7/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/progress/7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/progress/7/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/progress/7/</guid>
       <description>その他 2024年12月12日現在 分類 頻度 百分率 未詳 211 16.84% 参照注 181 14.45% 出典注記 25 2.00% 補注 64 5.11% その他上記以外 151 12.05% 未勘 105 8.38% 無注 516 41.18% 小計 1,253 100.00%</description>
     </item>
     
     <item>
       <title>和訓「ウゴク」の調査</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/case_study/1_ugoku/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/case-study/1-ugoku/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/case_study/1_ugoku/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/case-study/1-ugoku/</guid>
       <description>和訓「ウゴク」の調査 池田証寿 2024年12月22日～26日 はじめに 観智院本『類聚名義抄』（以下、名義抄）の注釈を進める参考とするため、次の点</description>
     </item>
     
     <item>
       <title>和訓「ミル」の調査</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/case_study/2_miru/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/case-study/2-miru/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/case_study/2_miru/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/case-study/2-miru/</guid>
       <description>和訓「ミル」の調査 池田 証寿 2025年1月4日～11日 はじめに 和訓「ミル」を例として、『日本国語大辞典 第二版』（ジャパンナレッジ版、「日国」と</description>
     </item>
     
     <item>
       <title>和訓の使用頻度</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/case_study/3_wakun_uf/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/case-study/3-wakun-uf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/case_study/3_wakun_uf/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/case-study/3-wakun-uf/</guid>
       <description>和訓の使用頻度 (Wakun Usage Frequency) 池田 証寿 (Ikeda Shoju) 2025年1月12日～13日 2025年4月10日改訂、英訳追加 はじめに (Introduction) 2024年12月11日現在のKRM_</description>
     </item>
     
     <item>
       <title>同仮名異語の区別</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/case_study/4_kana_split/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/case-study/4-kana-split/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/case_study/4_kana_split/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/case-study/4-kana-split/</guid>
       <description>同仮名異語の区別 (Kana Homograph Distinction) 池田証寿 2025年1月13日～2月11日 はじめに 和訓「ツク」を例にして同仮名異語の区別を検証する。 和訓「ウゴク」の調査</description>
     </item>
     
     <item>
       <title>DHSJRとの連携</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/case_study/5_dhsjr/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/case-study/5-dhsjr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/case_study/5_dhsjr/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/case-study/5-dhsjr/</guid>
       <description>DHSJRとの連携 (Collaboration with DHSJR) DHSJRとは DHSJRとは「資料横断的な漢字音・漢語音データベース」の 英語名&amp;quot;Database of Historical Sino-Japanese Readings&amp;rdquo; に</description>
     </item>
     
     <item>
       <title>準備中</title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/case_study/6/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/case-study/6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/case_study/6/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/case-study/6/</guid>
       <description>準備中</description>
     </item>
     
@@ -427,10 +463,10 @@
     
     <item>
       <title></title>
-      <link>https://shikeda.github.io/docs/notes/krm_main/def_input/7/</link>
+      <link>https://shikeda.github.io/docs/notes/krm-main/def-input/7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm_main/def_input/7/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm-main/def-input/7/</guid>
       <description></description>
     </item>
     

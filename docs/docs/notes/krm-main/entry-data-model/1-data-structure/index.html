@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html lang="jp" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="項目データ構造 ここでは、観智院本『類聚名義抄』（以下、名義抄と略） の項目の構造と項目の形式を取り上げて解説する。 まず、掲出字・注文等の用語（">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="項目データ構造" />
+<meta property="og:description" content="項目データ構造 ここでは、観智院本『類聚名義抄』（以下、名義抄と略） の項目の構造と項目の形式を取り上げて解説する。 まず、掲出字・注文等の用語（" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://shikeda.github.io/docs/notes/krm-main/entry-data-model/1-data-structure/" />
+
+<title>項目データ構造 | HDIC project</title>
+<link rel="manifest" href="https://shikeda.github.io/manifest.json">
+<link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
+  <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.7c3c97a44ccfddacf3c5bb0a79ff0840599f10095bca8f9cbb4ea616f4ff2458.js" integrity="sha256-fDyXpEzP3azzxbsKef8IQFmfEAlbyo&#43;cu06mFvT/JFg=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="https://shikeda.github.io/"><span>HDIC project</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="検索" aria-label="検索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/" class="">類聚名義抄</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span>Contents</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-484fe48c7e8c401e626190e10795da18" class="toggle"  />
+    <label for="section-484fe48c7e8c401e626190e10795da18" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/overview/" class="">資料紹介</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/overview/1-overview/" class="">類聚名義抄の概要</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/overview/2-overview-en/" class="">Overview of the Ruijū Myōgishō</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ba55c9a05a7b5dc41bc2384f75f56a0b" class="toggle"  />
+    <label for="section-ba55c9a05a7b5dc41bc2384f75f56a0b" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/contens/" class="">公開データの概要</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/1-main/" class="">krm_main</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/2-notes/" class="">krm_notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/3-wakun/" class="">krm_wakun</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/4-definitions/" class="">krm_definitions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/5-pronunciations/" class="">krm_pronunciations</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/contens/6-ndl/" class="">krm_ndl</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2956e85e93fe9e1e5460a9edc5b3362c" class="toggle" checked />
+    <label for="section-2956e85e93fe9e1e5460a9edc5b3362c" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/entry-data-model/" class="">項目データモデル</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/entry-data-model/1-data-structure/" class=" active">項目データ構造</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/entry-data-model/2-types-of-entries/" class="">項目の種類</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/entry-data-model/3-concepts-char/" class="">文字表記に関する概念</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/entry-data-model/4-data-example/" class="">項目データファイルの公開・更新</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-db68974ceb0699aeec208ce63acc5ac6" class="toggle"  />
+    <label for="section-db68974ceb0699aeec208ce63acc5ac6" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/item-input/" class="">項目データ入力</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/item-input/1-id/" class="">掲出字・項目構造とID体系</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/item-input/2-char/" class="">文字の符号化と表現</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/item-input/3-handling/" class="">原典に見られる問題への対応</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/item-input/4-notes/" class="">原典に見られる特定の符号・注記</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/headword-input/" class="">掲出字データ入力の詳細</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5f943c704f36df21275c834ecdfcf18f" class="toggle"  />
+    <label for="section-5f943c704f36df21275c834ecdfcf18f" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/def-input/" class="">注文データ入力の詳細</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/def-input/1/" class="">基本方針</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/def-input/2/" class="">字体注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/def-input/3/" class="">音注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/def-input/4/" class="">義注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/def-input/5/" class="">和訓</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/def-input/6/" class="">その他</a>
+  
+
+        </li>
+      
+    
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c11d7b768d2064ccf0fe6fe2322d5537" class="toggle"  />
+    <label for="section-c11d7b768d2064ccf0fe6fe2322d5537" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/notes-input/" class="">注釈データ入力の詳細</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-input/1/" class="">基本方針</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-input/2/" class="">掲出字</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-input/3/" class="">字体注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-input/4/" class="">音注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-input/5/" class="">義注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-input/6/" class="">和訓</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-input/10-notes-sample/" class="">注釈の例</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-edb14a0187b5e0fdbdb1ac31b8ba7c2f" class="toggle"  />
+    <label for="section-edb14a0187b5e0fdbdb1ac31b8ba7c2f" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/notes-output/" class="">翻刻・注釈の組版の設定</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-output/1/" class="">花園明朝の設定</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-output/2/" class="">GlyphWikiの設定</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-output/3/" class="">sfkanbun.styの設定</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-output/4/" class="">VS CodeとTeX Live</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/notes-output/5/" class="">オンラインツール</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c1882d4a8e3a2d9278ee55d72cc4538d" class="toggle"  />
+    <label for="section-c1882d4a8e3a2d9278ee55d72cc4538d" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/progress/" class="">進捗状況</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/progress/1/" class="">掲出字</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-8ed854edddaeff1df79aab6cfa9cfaa2" class="toggle"  />
+    <label for="section-8ed854edddaeff1df79aab6cfa9cfaa2" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/progress/2/" class="">注文</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-1bdf4058fe4e409d7c436530795d1894" class="toggle"  />
+    <label for="section-1bdf4058fe4e409d7c436530795d1894" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/progress/3/" class="">字体注</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-47fc0bf4a878124bab75c3668c759dc7" class="toggle"  />
+    <label for="section-47fc0bf4a878124bab75c3668c759dc7" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/progress/4/" class="">音注</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c8d153a0df00ea333638990a520c4be2" class="toggle"  />
+    <label for="section-c8d153a0df00ea333638990a520c4be2" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/progress/5/" class="">義注</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/progress/6/" class="">和訓</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-80b45462d59801c55827ab3f46b0bbd2" class="toggle"  />
+    <label for="section-80b45462d59801c55827ab3f46b0bbd2" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/progress/7/" class="">その他</a>
+    </label>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-3a0cf2dd2bc6282d54b880b1ef1f2193" class="toggle"  />
+    <label for="section-3a0cf2dd2bc6282d54b880b1ef1f2193" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm-main/case-study/" class="">事例研究</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/case-study/1-ugoku/" class="">和訓「ウゴク」の調査</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/case-study/2-miru/" class="">和訓「ミル」の調査</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/case-study/3-wakun-uf/" class="">和訓の使用頻度</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/case-study/4-kana-split/" class="">同仮名異語の区別</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/case-study/5-dhsjr/" class="">DHSJRとの連携</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm-main/case-study/6/" class="">準備中</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://shikeda.github.io/posts/" >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="https://shikeda.github.io/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>項目データ構造</strong>
+
+  <label for="toc-control">
+    
+    <img src="https://shikeda.github.io/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#項目の構造">項目の構造</a>
+      <ul>
+        <li><a href="#用語の説明">用語の説明</a></li>
+        <li><a href="#項目の例画像">項目の例（画像）</a></li>
+        <li><a href="#項目の構造の図示">項目の構造の図示</a></li>
+        <li><a href="#項目の例翻刻">項目の例（翻刻）</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#entry-structure">Entry Structure</a>
+      <ul>
+        <li><a href="#terminology">Terminology</a></li>
+        <li><a href="#example-entry-image">Example Entry (Image)</a></li>
+        <li><a href="#entry-structure-diagram">Entry Structure Diagram</a></li>
+        <li><a href="#example-entry-transcription">Example Entry (Transcription)</a></li>
+      </ul>
+    </li>
+    <li><a href="#entry-format">Entry Format</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="項目データ構造">項目データ構造</h1>
+<p>ここでは、観智院本『類聚名義抄』（以下、名義抄と略）
+の項目の構造と項目の形式を取り上げて解説する。</p>
+<p>まず、掲出字・注文等の用語（概念）を定義し、
+次に実際の項目の例を画像（模写）として掲げ、
+その項目の構造を抽象化・図式化して示し、
+最後に画像として示した項目の翻刻データを示す。</p>
+<h2 id="項目の構造">項目の構造</h2>
+<h3 id="用語の説明">用語の説明</h3>
+<p>名義抄の項目を構成する要素を表現するための用語を次に説明する。
+以前に英訳した用語を再検討し、それらを（）内のように改めた。</p>
+<p><strong>項目</strong> (Entry) は<strong>掲出字</strong> (Headword) と<strong>注文</strong> (Original Glosses) からなる。</p>
+<p>掲出字は、見出し、見出字、標字、標出字とも呼ばれる。中国語では字頭と呼ぶ。</p>
+<p>注文は、<strong>音注</strong> (Phonetic Gloss) 、<strong>漢文義注</strong> (Semantic Gloss in Chinese)、
+<strong>和訓</strong> (Japanese native reading)、
+<strong>字体注</strong> (Notes on Character Form) 、<strong>その他</strong> (Other) からなる。</p>
+<p>漢文義注は、義注、漢文意味注ということもある。
+誤解を生じない限り、単に<strong>義注</strong>とすることが多い。</p>
+<p>和訓は、訓読みのことであり、和訓注ということもある。</p>
+<p>掲出字の周囲に施された漢文義注、片仮名などがあり、これらは<strong>掲出字補注</strong>と呼ぶことができる。
+これらはその内容に応じて、音注、和訓等に分類した。データ化に際しては、
+掲出字補注であることが明白となるような措置をとった（詳細後述）。</p>
+<p>その他は、「<strong>未詳</strong>」とするもの、<strong>伝写上の注記</strong>、注文の種類が判断できないものなどである。</p>
+<h3 id="項目の例画像">項目の例（画像）</h3>
+<p>次は、名義抄の具体例として、「加復」と「ー之」、「助」とその異体字、「功」の三つの
+項目を模写して示したものである。</p>
+<figure>
+    <img src="https://shikeda.github.io/images/krm-item-sample1.png"
+         alt="entry structure" width="500px"/> 
+</figure>
+
+<h3 id="項目の構造の図示">項目の構造の図示</h3>
+<p>次は、掲出字と注文のすべての要素が揃った項目の構造を図示したものである。</p>
+
+
+<script src="https://shikeda.github.io/mermaid.min.js"></script>
+
+  <script>mermaid.initialize({
+  "flowchart": {
+    "useMaxWidth":true
+  },
+  "theme": "default"
+}
+)</script>
+
+
+
+
+<p class="mermaid">
+graph TB
+    A(項目)
+    A--->B(掲出字)
+    A--->C(注文)
+    C--->D(字体注)
+    C--->E(音注)
+    C--->F(義注)
+    C--->G(和訓)
+    C--->H(その他)
+</p>
+
+<h3 id="項目の例翻刻">項目の例（翻刻）</h3>
+<p>次に、項目の例（画像）に挙げた三つの例を翻刻したものを示す。</p>
+<p>まず、基本的な要素を備えた「功」を取り上げる。</p>
+<blockquote>
+<p>功　音工（L-R）「コウ（_N）」「クウ（_N）」　續也　事也　成也　タシカニ（LHLH）　𭃄歟</p>
+</blockquote>
+<ul>
+<li>掲出字：功</li>
+<li>注文の要素
+<ul>
+<li>音注：音工（L-R）「コウ（_N）」「クウ（_N）」</li>
+<li>義注：續也　事也　成也</li>
+<li>和訓：タシカニ（LHLH）</li>
+<li>字体注：𭃄歟</li>
+</ul>
+</li>
+</ul>
+<p>このようにすると、掲出字と注文の要素との関係が分かりやすいであろう。
+ただし、この項目の内容を詳細に説明するには多くの字数が必要である。
+鍵括弧「」は補足的注記であり、
+丸括弧()の中に示した符号は、声点と鼻音符号をローマ字に置き換えたものである。
+その詳細は<a href="https://shikeda.github.io/docs/notes/krm_main/def_input/">注文データ入力の詳細</a>を参照してもらうこととして、
+ここでは省略する。</p>
+<p>「功」の例と同様に、「加復」と「ー之」は次のように翻刻できる。</p>
+<blockquote>
+<p>加復　シカノミナラス
+ー之　同</p>
+</blockquote>
+<ul>
+<li>掲出字：加復</li>
+<li>注文の要素
+<ul>
+<li>和訓：シカノミナラス</li>
+</ul>
+</li>
+<li>掲出字：ー（加）之</li>
+<li>注文の要素
+<ul>
+<li>和訓：同（シカノミナラス）</li>
+</ul>
+</li>
+</ul>
+<p>「ー之」の「ー」は直前の掲出字に用いられる「加」を代用した表記であるので、
+掲出字「ー（加）之」と記載してみた。</p>
+<p>最後に「助」とその異体字は次のように示される。</p>
+<blockquote>
+<p>⿰目力	鉏據反　タスク（LL_）　マサル（HH_）　ハサム　和自ヨ（_L）<br>
+𦔳助	今正</p>
+</blockquote>
+<ul>
+<li>掲出字：⿰目力</li>
+<li>注文の要素
+<ul>
+<li>音注：鉏據反</li>
+<li>和訓：タスク（LL_）　マサル（HH_）　ハサム</li>
+<li>音注：和自ヨ（_L）</li>
+</ul>
+</li>
+<li>掲出字：𦔳助</li>
+<li>注文の要素
+<ul>
+<li>字体注：今正</li>
+</ul>
+</li>
+</ul>
+<p>「加復」と「ー之」、「助」とその異体字の注文内容の解説は
+多くの字数を必要とするので、ここでは割愛する。</p>
+<h1 id="entry-data-structure">Entry Data Structure</h1>
+<p>Here, we explain the <strong>entry structure</strong> and <strong>entry format</strong> of the Kanchi-in manuscript <em>Ruiju Myōgishō</em> (hereafter abbreviated as <em>Myōgishō</em>).</p>
+<p>First, we define key terms (concepts) such as <strong>Headword</strong> and <strong>Original Glosses</strong>. Next, we present a <strong>visual example</strong> of an actual entry example. Then, we provide a diagram illustrating its structure. Finally, we show the transcribed data corresponding to the example entry shown in the image.</p>
+<h2 id="entry-structure">Entry Structure</h2>
+<h3 id="terminology">Terminology</h3>
+<p>The terminology used to describe the elements composing an entry in the <em>Myōgishō</em> is explained below.
+We have reconsidered previously translated English terms and revised them as shown below in parentheses.</p>
+<p>An <strong>Entry</strong> consists of a <strong>Headword</strong> and the <strong>Original Glosses</strong>.</p>
+<p><strong>Headword</strong> is also referred to in Japanese as <em>midashi</em>, <em>midashiji</em>, <em>hyōji</em>, or <em>hyōshutsuji</em>. In Chinese, the corresponding term is <em>zìtóu</em> (字頭).</p>
+<p>The <strong>Original Glosses</strong> comprise: <strong>Phonetic Gloss</strong>, <strong>Semantic Gloss in Chinese</strong>, <em><strong>Wakun</strong></em> (Japanese native reading), <strong>Note on Character Form</strong>, and <strong>Other</strong>.</p>
+<p><strong>Semantic Gloss in Chinese</strong> is sometimes also referred to as <em>Gichū</em> or <em>Kanbun Imichū</em>. Provided there is no risk of ambiguity, it is often simply referred to as <em><strong>Gichū</strong></em>.</p>
+<p><em><strong>Wakun</strong></em> refers to <em>kun&rsquo;yomi</em> (Japanese native readings) and may sometimes be called <em><strong>Wakunchū</strong></em>.</p>
+<p>There are semantic glosses (in Chinese), katakana phonetic notations, etc., written around the headword; these can be termed <strong>Supplementary Headword Annotations</strong> (掲出字補注 <em>Keishutsuji Hochū</em>). According to their content, these were classified into the main categories such as <strong>Phonetic Gloss</strong> or <em><strong>Wakun</strong></em>. During data creation, measures were taken to clearly identify these as Supplementary Headword Annotations (details to follow).</p>
+<p>The <strong>Other</strong> category includes items such as: those marked &lsquo;<strong>unclear</strong>&rsquo; (未詳 <em>mishō</em>), <strong>notes related to textual transmission</strong> (scribal notes), and glosses whose type could not be determined.</p>
+<h3 id="example-entry-image">Example Entry (Image)</h3>
+<p>Below, we present visual representations of three example entries from the Myōgishō: &lsquo;加復&rsquo;, &lsquo;ー之&rsquo;, &lsquo;助&rsquo; and its variant forms, and &lsquo;功&rsquo;.</p>
+<figure>
+    <img src="https://shikeda.github.io/images/krm-item-sample1.png"
+         alt="entry structure" width="500px"/> 
+</figure>
+
+<h3 id="entry-structure-diagram">Entry Structure Diagram</h3>
+<p>The diagram below illustrates the structure of a complete entry, featuring all components associated with the Headword and the Original Glosses.</p>
+
+
+<p class="mermaid">
+graph TB
+    A(Main Item)--->B(Headword)
+    A-->C("Original Gloss")
+    C-->D("Note on Character Form")
+    C-->E(Phonetic Gloss)
+    C-->F("Semantic Gloss (in Chinese)")
+    C-->G("Wakun (Japanese native reading)")
+    C-->H(Other)
+</p>
+
+<h3 id="example-entry-transcription">Example Entry (Transcription)</h3>
+<p>First, let&rsquo;s consider the entry for &lsquo;功&rsquo;, which includes the basic components.</p>
+<blockquote>
+<p>功　音工 (L-R)「コウ (_N)」「クウ (_N)」　續也　事也　成也　タシカニ (LHLH)　𭃄歟</p>
+</blockquote>
+<ul>
+<li><strong>Headword:</strong> 功</li>
+<li><strong>Elements of Original Glosses:</strong>
+<ul>
+<li><strong>Phonetic Gloss:</strong> 音工 (L-R)「コウ (_N)」「クウ (_N)」</li>
+<li><strong>Semantic Gloss:</strong> 續也　事也　成也</li>
+<li><strong><em>Wakun</em>:</strong> タシカニ (LHLH)</li>
+<li><strong>Note on Character Form:</strong> 𭃄歟</li>
+</ul>
+</li>
+</ul>
+<p>Presented this way, the relationship between the <strong>Headword</strong> and the elements of the <strong>Original Glosses</strong> should be clear.
+However, explaining the content of this entry in detail would be lengthy.
+The brackets「 」indicate supplementary notes, and the symbols shown within parentheses ( ) are Roman letter representations of the original tone marks and nasal sound symbols.
+Detailed explanations are omitted here; please refer to <a href="https://www.google.com/search?q=/docs/notes/krm_main/def_input/">Details of Original Gloss Data Input</a> for further information.</p>
+<p>Similar to the example for &lsquo;功&rsquo;, the entries for &lsquo;加復&rsquo; and &lsquo;ー之&rsquo; can be transcribed as follows:</p>
+<blockquote>
+<p>加復　シカノミナラス
+ー之　同</p>
+</blockquote>
+<ul>
+<li><strong>Headword:</strong> 加復</li>
+<li><strong>Elements of Original Glosses:</strong>
+<ul>
+<li><strong><em>Wakun</em>:</strong> シカノミナラス</li>
+</ul>
+</li>
+<li><strong>Headword:</strong> ー(加)之</li>
+<li><strong>Elements of Original Glosses:</strong>
+<ul>
+<li><strong><em>Wakun</em>:</strong> 同 (Same as above: シカノミナラス)</li>
+</ul>
+</li>
+</ul>
+<p>Since the &lsquo;ー&rsquo; in &lsquo;ー之&rsquo; is a notation substituting for &lsquo;加&rsquo; from the preceding headword, we have represented this headword in the breakdown as &lsquo;ー(加)之&rsquo;.</p>
+<p>Finally, the entry for &lsquo;助&rsquo; and its variant form(s) is shown as follows:</p>
+<blockquote>
+<p>⿰目力    鉏據反　タスク（LL_）　マサル（HH_）　ハサム　和自ヨ（_L）<br>
+𦔳助     今正</p>
+</blockquote>
+<ul>
+<li><strong>Headword:</strong> ⿰目力</li>
+<li><strong>Elements of Original Glosses:</strong>
+<ul>
+<li><strong>Phonetic Gloss:</strong> 鉏據反</li>
+<li><strong><em>Wakun</em>:</strong> タスク (LL_), マサル (HH_), ハサム</li>
+<li><strong>Phonetic Gloss:</strong> 和自ヨ (_L)</li>
+</ul>
+</li>
+<li><strong>Headword:</strong> 𦔳助</li>
+<li><strong>Elements of Original Glosses:</strong>
+<ul>
+<li><strong>Note on Character Form:</strong> 今正</li>
+</ul>
+</li>
+</ul>
+<p>A detailed explanation of the content of the original glosses for &lsquo;加復&rsquo;, &lsquo;ー之&rsquo;, and &lsquo;助&rsquo; and its variant form(s) would require considerable space and is therefore omitted here.</p>
+<h2 id="entry-format">Entry Format</h2>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#項目の構造">項目の構造</a>
+      <ul>
+        <li><a href="#用語の説明">用語の説明</a></li>
+        <li><a href="#項目の例画像">項目の例（画像）</a></li>
+        <li><a href="#項目の構造の図示">項目の構造の図示</a></li>
+        <li><a href="#項目の例翻刻">項目の例（翻刻）</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#entry-structure">Entry Structure</a>
+      <ul>
+        <li><a href="#terminology">Terminology</a></li>
+        <li><a href="#example-entry-image">Example Entry (Image)</a></li>
+        <li><a href="#entry-structure-diagram">Entry Structure Diagram</a></li>
+        <li><a href="#example-entry-transcription">Example Entry (Transcription)</a></li>
+      </ul>
+    </li>
+    <li><a href="#entry-format">Entry Format</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

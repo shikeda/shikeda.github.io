@@ -20,10 +20,10 @@ bookToc: true
 
 
 
-- [項目データ構造](/docs/notes/krm_main/entry_data_model/1_data_structure/)
-- [項目の種類](/docs/notes/krm_main/entry_data_model/2_types_of_entries/)
-- [文字表記に関する概念](/docs/notes/krm_main/entry_data_model/3_concepts_char/)
-- [項目データファイルの公開・更新](/docs/notes/krm_main/entry_data_model/4_data_example/)
+- [項目データ構造](/docs/notes/krm-main/entry-data-model/1-data-structure/)
+- [項目の種類](/docs/notes/krm-main/entry-data-model/2-types-of-entries/)
+- [文字表記に関する概念](/docs/notes/krm-main/entry-data-model/3-concepts-char/)
+- [項目データファイルの公開・更新](/docs/notes/krm-main/entry-data-model/4-data-example/)
 # Entry Data Model
 
 
@@ -39,7 +39,7 @@ Finally, we cover the **Entry Data Files**, including their content, specific ex
 
 
 
-- [Entry Data Structure](/docs/notes/krm_main/entry_data_model/1_data_structure/)
-- [Types of Entries](/docs/notes/krm_main/entry_data_model/2_types_of_entries/)
-- [Concepts Related to Character Notation](/docs/notes/krm_main/entry_data_model/3_concepts_char/)
-- [Entry Data Fiels](/docs/notes/krm_main/entry_data_model/4_data_example/)
+- [Entry Data Structure](/docs/notes/krm-main/entry-data-model/1-data-structure/)
+- [Types of Entries](/docs/notes/krm-main/entry-data-model/2-types-of-entries/)
+- [Concepts Related to Character Notation](/docs/notes/krm-main/entry-data-model/3-concepts-char/)
+- [Entry Data Fiels](/docs/notes/krm-main/entry-data-model/4-data-example/)
