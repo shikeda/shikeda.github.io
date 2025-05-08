@@ -24,6 +24,8 @@ bookToc: true
 - [項目の種類](/docs/notes/krm-main/entry-data-model/2-types-of-entries/)
 - [文字表記に関する概念](/docs/notes/krm-main/entry-data-model/3-concepts-char/)
 - [項目データファイルの公開・更新](/docs/notes/krm-main/entry-data-model/4-data-example/)
+
+
 # Entry Data Model
 
 

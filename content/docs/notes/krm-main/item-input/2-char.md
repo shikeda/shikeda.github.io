@@ -11,8 +11,6 @@ weight: 3
 
 # 文字の符号化と表現
 
-
-
 ## Unicodeによる文字の符号化
 
 UnicodeのバージョンによりCJK統合漢字の数は異なる。
@@ -33,17 +31,21 @@ Unicode外の文字は、次の三つの方法で表現する。
 - β方式
 
 **IDS方式**は
-漢字の部品の組み合わせで表現可能な場合に、IDS（漢字構成記述文字列）で記述する方式である。
+漢字の部品の組み合わせで表現可能な場合に、IDS（漢字構成記述文字列、Ideographic Description Sequence）で記述する方式である。
+IDSのデータは守岡知彦氏が[CHISE IDS検索](https://www.chise.org/ids-find)で構築・公開しているものを利用・参照している。
 
-**例:**   
-- IDS方式の例：⿰亻胃
+IDSはIDC（漢字構成記述文字、Ideographic Description Character）により示す。
+IDCは⿰ ⿱ ⿲ ⿳ ⿴ ⿵ ⿶ ⿷ ⿸ ⿹ ⿺ ⿻の12字である。
+
+**例**   
+- IDS方式の例：⿰亻胃（人偏に胃を書く字形）、⿰亻⿱𡈼儿（凭の異体字、複数のIDCを使用した例）
 
 IDS方式で表現が困難な場合は、次のいずれかの方法を用いる。
 
 **実体参照方式**は
-CHISEおよびGlyphWikiの実体参照方式に基づいた表記（例：CDP-8958, koseki-007510）で記述する方式である。
+CHISEおよびGlyphWikiの実体参照方式に基づいた表記で記述する方式である。
 
-**例:**  
+**例**  
 - CHISEの実体参照方式：⿺辶&CDP-8C66; (延の異体字、&CDP-8C66;は𠂢の右下部分の字形、𧘇に近似した字形)  
 - GlyphWikiの実体参照方式：koseki-007510 (𠇾の右上にヽの字形)
 
@@ -51,7 +53,7 @@ CHISEおよびGlyphWikiの実体参照方式に基づいた表記（例：CDP-89
 **β方式**は
 近い字形とβ、γ等とを組み合せて記述する方式である。
 
-**例:**   
+**例**   
 - β方式の例：正β (匸の中にヽが横に二つの字形)
 
 
@@ -78,9 +80,9 @@ hdic_hkrm-を冠し、掲出字IDの数値部分を組み合わせて
 たとえば、K01075140の掲出字IDのGlyphWikiのグリフ番号は
 hdic_hkrm-01075140となる。
 
-次にはmarkdownの記法で示す。
+次にはMarkdownの記法で示す。
 
-**例:**
+**例**
 
 ```markdown
 ![正β](https://glyphwiki.org/glyph/hdic_hkrm-01075140.png)
@@ -98,4 +100,17 @@ hdic_hkrm-01075140となる。
 とすれば、次のように表示される。
 
 ![正β](https://glyphwiki.org/glyph/hdic_hkrm-01075140.50px.png)
+
+なお、ファイル名hdic_hkrm-01075140.pngは、HDICデータベースの KRM（観智院本類聚名義抄）の01075140であることを表している。
+
+01075140の01は巻1（仏上）、 075は75頁、140は1行4段目の単字項目であることを示している。
+
+サイズを指定して表示するには
+
+
+{{&lt; figure src="https://glyphwiki.org/glyph/hdic_hkrm-01075140.png" title="" class="center" width="24" height="24" &gt;}}
+
+とすると、
+{{< figure src="https://glyphwiki.org/glyph/hdic_hkrm-01075140.png" title="" class="center" width="24" height="24" >}}
+のように表示される。
 

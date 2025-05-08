@@ -15,7 +15,7 @@
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.7c3c97a44ccfddacf3c5bb0a79ff0840599f10095bca8f9cbb4ea616f4ff2458.js" integrity="sha256-fDyXpEzP3azzxbsKef8IQFmfEAlbyo&#43;cu06mFvT/JFg=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.a8fab52c072b57aa5628d2735e9407693d51c6e293dad54e2744719b2ab290aa.js" integrity="sha256-qPq1LAcrV6pWKNJzXpQHaT1RxuKT2tVOJ0RxmyqykKo=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -354,42 +354,11 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/docs/notes/krm-main/item-input/3-handling/" class="">原典に見られる問題への対応</a>
+    <a href="https://shikeda.github.io/docs/notes/krm-main/item-input/3-handling/" class="">書写・表記・注記における問題と対応</a>
   
 
         </li>
       
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://shikeda.github.io/docs/notes/krm-main/item-input/4-notes/" class="">原典に見られる特定の符号・注記</a>
-  
-
-        </li>
-      
-    
-  </ul>
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://shikeda.github.io/docs/notes/krm-main/headword-input/" class="">掲出字データ入力の詳細</a>
-  
-
-          
-  <ul>
     
   </ul>
 
@@ -1027,7 +996,7 @@ https://github.com/alex-shpak/hugo-book
 単字による<strong>単字形式</strong>と、複字による<strong>複字形式</strong>との二つがある。</p>
 <p>複字形式には、<strong>熟語</strong>のものと<strong>異体字併記</strong>のものがある。</p>
 <p>次に単字形式、複字形式の2種の例をいくつか示す。</p>
-<p><strong>例:</strong></p>
+<p><strong>例</strong></p>
 <ul>
 <li>単字形式：人、何</li>
 <li>複字形式（熟語）：一人、二人、何如、如何</li>
@@ -1105,19 +1074,22 @@ K形式。</p>
 </ul>
 </li>
 <li><strong>ケース2: その段に項目が二つ以上ある場合</strong>
-    - その段の<strong>最初の項目</strong>であれば、字順は <strong>1</strong> 。
-    - その段の<strong>2番目以降の項目</strong>であれば、字順は <strong>その項目の最初の文字が、段の先頭から数えて何番目に出現するか</strong> を示す（段の先頭を1字目として数えた通し番号）。</li>
+<ul>
+<li>その段の<strong>最初の項目</strong>であれば、字順は <strong>1</strong> 。</li>
+<li>その段の<strong>2番目以降の項目</strong>であれば、字順は <strong>その項目の最初の文字が、段の先頭から数えて何番目に出現するか</strong> を示す（段の先頭を1字目として数えた通し番号）。</li>
+</ul>
+</li>
 </ul>
 <p>一つの段に「A」「BC」とあり、Aが段の1字目、Bが2字目、Cが3字目の場合とする。項目BCは2番目の項目、その最初の文字はB、そのBは段の2字目である。よってCDの字順は2となる。
 また、一つの段に「AB」「CD」とあり、Aが段の1字目、Bが2字目、Cが3字目、Dが4字目の場合とする。項目CDは2番目の項目、その最初の文字はC、そのCは段の3字目である。よってCDの字順は3となる。</p>
-<p><strong>例:</strong></p>
+<p><strong>例</strong></p>
 <ul>
-<li><code>K01001310</code>: (単字項目、1段1項目) 巻1 頁1 行3 段1 <strong>字順0</strong></li>
-<li><code>K08084411</code>: (複字項目、1段1項目) 巻8 頁84 行4 段1 <strong>字順1</strong></li>
-<li><code>K01004241</code>: (段内に複数項目ある場合の<strong>最初の項目</strong>) 巻1 頁4 行2 段4 <strong>字順1</strong></li>
-<li><code>K01004242</code>: (段内に複数項目ある場合の<strong>段内の2字目から始まる項目</strong>) 巻1 頁4 行2 段4 <strong>字順2</strong></li>
-<li><code>K01008341</code>: (段内に複数項目ある場合の<strong>最初の項目</strong>) 巻1 頁8 行3 段4 <strong>字順1</strong></li>
-<li><code>K01008343</code>: (段内に複数項目ある場合の<strong>段内の3字目から始まる項目</strong>) 巻1 頁8 行3 段4 <strong>字順3</strong></li>
+<li>K01001310: (単字項目、1段1項目) 巻1 頁1 行3 段1 <strong>字順0</strong></li>
+<li>K08084411: (複字項目、1段1項目) 巻8 頁84 行4 段1 <strong>字順1</strong></li>
+<li>K01004241: (段内に複数項目ある場合の<strong>最初の項目</strong>) 巻1 頁4 行2 段4 <strong>字順1</strong></li>
+<li>K01004242: (段内に複数項目ある場合の<strong>段内の2字目から始まる項目</strong>) 巻1 頁4 行2 段4 <strong>字順2</strong></li>
+<li>K01008341: (段内に複数項目ある場合の<strong>最初の項目</strong>) 巻1 頁8 行3 段4 <strong>字順1</strong></li>
+<li>K01008343: (段内に複数項目ある場合の<strong>段内の3字目から始まる項目</strong>) 巻1 頁8 行3 段4 <strong>字順3</strong></li>
 </ul>
 <p><strong>目的</strong>：風間版における掲出項目の所在地を示す。主に使用される1段1項目、頻繁に出現する多段1項目、そして稀な1段多項目といった、様々な掲出項目の配置パターンすべてに対応できるよう、文字位置の表示ルールに基づいて定められている。</p>
 <p><strong>出典</strong>：正宗敦夫編『類聚名義抄　第一巻』（風間書房、1954年）に基づく。</p>
@@ -1143,19 +1115,22 @@ T形式。</p>
 </ul>
 </li>
 <li><strong>ケース2: その段に項目が二つ以上ある場合</strong>
-    - その段落の<strong>最初の項目</strong>であれば、字順は <strong>1</strong> 。
-    - その段落の<strong>2番目以降の項目</strong>であれば、字順は <strong>その項目の最初の文字が、段落の先頭から数えて何番目に出現するか</strong> を示す（段の先頭を1字目として数えた通し番号）。</li>
+<ul>
+<li>その段落の<strong>最初の項目</strong>であれば、字順は <strong>1</strong> 。</li>
+<li>その段落の<strong>2番目以降の項目</strong>であれば、字順は <strong>その項目の最初の文字が、段落の先頭から数えて何番目に出現するか</strong> を示す（段の先頭を1字目として数えた通し番号）。</li>
+</ul>
+</li>
 </ul>
 <p>天理版所在の示し方は、風間版所在の示し方と同様の考え方に基づいている。風間版所在の説明に用いた例を
 天理版所在として示すと次のようになる。</p>
-<p><strong>例:</strong></p>
+<p><strong>例</strong></p>
 <ul>
-<li><code>Ta023310</code>: (単字項目、1段1項目) 上巻 頁23 行3 段1 <strong>字順0</strong></li>
-<li><code>Tc090411</code>: (複字項目、1段1項目) 下巻 頁90 行4 段1 <strong>字順1</strong></li>
-<li><code>Ta026241</code>: (段内に複数項目ある場合の<strong>最初の項目</strong>) 上巻 頁26 行2 段4 <strong>字順1</strong></li>
-<li><code>Ta026242</code>: (段内に複数項目ある場合の<strong>段内の2字目から始まる項目</strong>) 上巻 頁26 行2 段4 <strong>字順2</strong></li>
-<li><code>Ta030341</code>: (段内に複数項目ある場合の<strong>最初の項目</strong>) 上巻 頁30 行3 段4 <strong>字順1</strong></li>
-<li><code>Ta030343</code>: (段内に複数項目ある場合の<strong>段内の3字目から始まる項目</strong>) 上巻 頁30 行3 段4 <strong>字順3</strong></li>
+<li>Ta023310: (単字項目、1段1項目) 上巻 頁23 行3 段1 <strong>字順0</strong></li>
+<li>Tc090411: (複字項目、1段1項目) 下巻 頁90 行4 段1 <strong>字順1</strong></li>
+<li>Ta026241: (段内に複数項目ある場合の<strong>最初の項目</strong>) 上巻 頁26 行2 段4 <strong>字順1</strong></li>
+<li>Ta026242: (段内に複数項目ある場合の<strong>段内の2字目から始まる項目</strong>) 上巻 頁26 行2 段4 <strong>字順2</strong></li>
+<li>Ta030341: (段内に複数項目ある場合の<strong>最初の項目</strong>) 上巻 頁30 行3 段4 <strong>字順1</strong></li>
+<li>Ta030343: (段内に複数項目ある場合の<strong>段内の3字目から始まる項目</strong>) 上巻 頁30 行3 段4 <strong>字順3</strong></li>
 </ul>
 <p><strong>目的</strong>：天理版における掲出項目の所在地を示す。
 主に使用される1段1項目、頻繁に出現する多段1項目、そして稀な1段多項目といった、様々な掲出項目の配置パターンすべてに対応できるよう、文字位置の表示ルールに基づいて定められている。</p>
@@ -1166,7 +1141,7 @@ T形式。</p>
 ここでは複字形式の場合の入力方法について説明する。</p>
 <p>複字形式の掲出項目に見える異体字併記と熟語は、掲出字を「／」（全角スラッシュ, U+FF0F）で区切って入力する。</p>
 <p>掲出項目が「／」を含めば、それは複字形式であることを示し、用いられる「／」の数は複字形式の掲出字数を示す。</p>
-<p><strong>例:</strong></p>
+<p><strong>例</strong></p>
 <ul>
 <li>異体字併記：翛／倐／倏／翛β</li>
 <li>熟語：一／人</li>
@@ -1181,20 +1156,20 @@ T形式。</p>
 <p><strong>TSVカラムとIDの対応:</strong></p>
 <p>主要なTSVファイルには、次のカラムにそれぞれのIDが格納される。</p>
 <ul>
-<li><code>entry_id</code>: 掲出項目ID (F形式)</li>
-<li><code>hanzi_id</code>: 掲出字ID (S形式)</li>
-<li><code>kazama_location</code>: 風間版所在 (K形式)</li>
-<li><code>tenri_location</code>: 天理版所在 (T形式)</li>
+<li>entry_id: 掲出項目ID (F形式)</li>
+<li>hanzi_id: 掲出字ID (S形式)</li>
+<li>kazama_location: 風間版所在 (K形式)</li>
+<li>tenri_location: 天理版所在 (T形式)</li>
 </ul>
 <p>上記以外のID（例: 項目を構成する2番目以降の掲出字IDや所在ID）は、この主要ファイルには直接格納されず、
 別のマッピングテーブル（krm_headword_chars.tsv）で参照できる。</p>
 <p><strong>複字形式の項目のデータ表現ルール</strong></p>
 <ul>
-<li>複字形式の掲出項目（異体字併記や熟語）は、<code>hanzi_entry</code> カラムに全角のスラッシュ('／')区切りで文字列として格納される。</li>
+<li>複字形式の掲出項目（異体字併記や熟語）は、hanzi_entry カラムに全角のスラッシュ('／')区切りで文字列として格納される。</li>
 <li>IDの表現に関しては、複字形式の掲出項目に対応するメインのTSV行には、その項目の先頭文字に関連するIDのみが表示される。</li>
 <li>項目を構成する2番目以降の文字に関するID（S形式、K形式、T形式）は、このメインの行では省略される。</li>
 </ul>
-<p><strong>例:</strong><br>
+<p><strong>例</strong><br>
 掲出項目「AB」（構成：A + B）があり、それぞれのIDが次の通りであるとする。</p>
 <ul>
 <li>掲出項目ID: F25121</li>
@@ -1205,11 +1180,11 @@ T形式。</p>
 <table>
 <thead>
 <tr>
-<th align="left"><code>entry_id</code></th>
-<th align="left"><code>hanzi_id</code></th>
-<th align="left"><code>hanzi_entry</code></th>
-<th align="left"><code>kazama_location</code></th>
-<th align="left"><code>tenri_location</code></th>
+<th align="left">entry_id</th>
+<th align="left">hanzi_id</th>
+<th align="left">hanzi_entry</th>
+<th align="left">kazama_location</th>
+<th align="left">tenri_location</th>
 </tr>
 </thead>
 <tbody>

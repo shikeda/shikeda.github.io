@@ -17,10 +17,18 @@ title: 注文データ入力の詳細
 
 次に字体注、音注、義注、和訓、その他の順に入力方法を解説する。
 
-- [注文データ入力の詳細](/docs/notes/krm_main/def_input/)
-    - [基本方針](/docs/notes/krm_main/def_input/1/)
-    - [字体注](/docs/notes/krm_main/def_input/2/)
-    - [音注](/docs/notes/krm_main/def_input/3/)
-    - [義注](/docs/notes/krm_main/def_input/4/)
-    - [和訓](/docs/notes/krm_main/def_input/5/)
-    - [その他](/docs/notes/krm_main/def_input/6/)
+- [注文データ入力の詳細](/docs/notes/krm-main/def-input/)
+    - [基本方針](/docs/notes/krm-main/def-input/1/)
+    - [字体注](/docs/notes/krm-main/def-input/2/)
+    - [音注](/docs/notes/krm-main/def-input/3/)
+    - [義注](/docs/notes/krm-main/def-input/4/)
+    - [和訓](/docs/notes/krm-main/def-input/5/)
+    - [その他](/docs/notes/krm-main/def-input/6/)
+
+このセクションの内容は、
+[項目データ入力](/docs/notes/krm-main/item-input/)の
+[文字の符号化と表現](/docs/notes/krm-main/item-input/2-char/)と
+[書写・表記・注記における問題と対応](/docs/notes/krm-main/item-input/3-handling/)
+とに統合整理した。
+
+後日、一括削除の予定である。
