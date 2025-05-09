@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>項目データ入力 on HDIC project</title>
+    <link>https://shikeda.github.io/docs/notes/krm/04-entry-input/</link>
+    <description>Recent content in 項目データ入力 on HDIC project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    
+	<atom:link href="https://shikeda.github.io/docs/notes/krm/04-entry-input/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>掲出字・項目構造とID体系</title>
+      <link>https://shikeda.github.io/docs/notes/krm/04-entry-input/1-id/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm/04-entry-input/1-id/</guid>
+      <description>掲出字・項目構造とID体系 このセクションでは、名義抄の項目の構造と、それを識別するためのID体系について説明する。 掲出字と掲出項目の定義 掲出</description>
+    </item>
+    
+    <item>
+      <title>文字の符号化と表現</title>
+      <link>https://shikeda.github.io/docs/notes/krm/04-entry-input/2-char/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm/04-entry-input/2-char/</guid>
+      <description>文字の符号化と表現 Unicodeによる文字の符号化 UnicodeのバージョンによりCJK統合漢字の数は異なる。 HDICプロジェクトとしては2</description>
+    </item>
+    
+    <item>
+      <title>書写・表記・注記における問題と対応</title>
+      <link>https://shikeda.github.io/docs/notes/krm/04-entry-input/04-03-handling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm/04-entry-input/04-03-handling/</guid>
+      <description>書写・表記・注記における問題と対応 (Problems and Handling in Writing, Notation, and Annotations) 名義抄は漢字の字書であり、その内容を正確に解読し、テキスト化するには、原典である 名義抄に見</description>
+    </item>
+    
+  </channel>
+</rss>

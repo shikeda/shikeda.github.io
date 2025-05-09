@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>公開データの概要 on HDIC project</title>
+    <link>https://shikeda.github.io/docs/notes/krm/02-data-overview/</link>
+    <description>Recent content in 公開データの概要 on HDIC project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>jp</language>
+    
+	<atom:link href="https://shikeda.github.io/docs/notes/krm/02-data-overview/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>krm_main</title>
+      <link>https://shikeda.github.io/docs/notes/krm/02-data-overview/02-01-main/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm/02-data-overview/02-01-main/</guid>
+      <description>krm_main 観智院本類聚名義抄（以下、名義抄）デーベースの中核となるファイルを解説する。 従来公開していたのは、KRM.tsv という名称のTSVファイル</description>
+    </item>
+    
+    <item>
+      <title>krm_notes</title>
+      <link>https://shikeda.github.io/docs/notes/krm/02-data-overview/02-02-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm/02-data-overview/02-02-notes/</guid>
+      <description>krm_notes KRM_definitions.tsv ファイルに詳細な注釈情報を追加したファイル krm_notes.tsv を作成した。 これは、TSV形式とJSON形式で用意した。 2025年3月の仕様変更後のファイル</description>
+    </item>
+    
+    <item>
+      <title>krm_headword_chars</title>
+      <link>https://shikeda.github.io/docs/notes/krm/02-data-overview/02-03-headword_chars/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm/02-data-overview/02-03-headword_chars/</guid>
+      <description>krm_headword_chars 準備中</description>
+    </item>
+    
+    <item>
+      <title>krm_wakun</title>
+      <link>https://shikeda.github.io/docs/notes/krm/02-data-overview/02-04-wakun/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm/02-data-overview/02-04-wakun/</guid>
+      <description>krm_wakun これは、名義抄デーベースの KRM.tsv から和訓を抜き出して、 和訓の異形を整理し、異体字との対応を調整したデータである。 和訓に関する校勘と出典考証は krm_notes</description>
+    </item>
+    
+    <item>
+      <title>krm_definitions</title>
+      <link>https://shikeda.github.io/docs/notes/krm/02-data-overview/02-05-definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm/02-data-overview/02-05-definitions/</guid>
+      <description>krm_definitions 名義抄の注文には、和訓だけではなく、字体注、音注、意義注などの要素を含んでいる。 これらの校勘と出典考証を行うために、注文の各要素を出現順に</description>
+    </item>
+    
+    <item>
+      <title>krm_pronunciations</title>
+      <link>https://shikeda.github.io/docs/notes/krm/02-data-overview/02-06-pronunciations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm/02-data-overview/02-06-pronunciations/</guid>
+      <description>krm_pronunciations 観智院本類聚名義抄（以下、名義抄）の音注は、 反切、類音注、仮名注があり、それらに声点が施されることも多い。 日本漢字音のデータベースとしては</description>
+    </item>
+    
+    <item>
+      <title>krm_ndl</title>
+      <link>https://shikeda.github.io/docs/notes/krm/02-data-overview/02-07-ndl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/notes/krm/02-data-overview/02-07-ndl/</guid>
+      <description>krm_ndl 国会図書館デジタルコレクションで公開している 観智院本類聚名義抄の画像へのリンクを整理したものである。 観智院本類聚名義抄の所在と国会図書館デ</description>
+    </item>
+    
+  </channel>
+</rss>

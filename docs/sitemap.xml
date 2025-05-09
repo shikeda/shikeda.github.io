@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/overview/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/01-introduction/</loc>
   </url>
   
   <url>
@@ -11,51 +11,51 @@
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/contens/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/02-data-overview/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/item-input/1-id/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/04-entry-input/1-id/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/overview/1-overview/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/01-introduction/01-01-introduction/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/overview/2-overview-en/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/01-introduction/01-02-introduction-en/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/item-input/2-char/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/04-entry-input/2-char/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/entry-data-model/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/03-entry-data-model/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/item-input/3-handling/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/04-entry-input/04-03-handling/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/item-input/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/04-entry-input/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/entry-data-model/1-data-structure/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/03-entry-data-model/03-01-data-structure/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/entry-data-model/2-types-of-entries/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/03-entry-data-model/03-02-types-of-entries/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/entry-data-model/3-concepts-char/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/03-entry-data-model/03-03-concepts-char/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/entry-data-model/4-data-example/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/03-entry-data-model/03-04-data-example/</loc>
   </url>
   
   <url>
@@ -64,171 +64,147 @@
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/contens/1-main/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/02-data-overview/02-01-main/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/contens/2-notes/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/02-data-overview/02-02-notes/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/contens/3-wakun/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/02-data-overview/02-03-headword_chars/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/contens/4-definitions/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/02-data-overview/02-04-wakun/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/def-input/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/02-data-overview/02-05-definitions/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/contens/5-pronunciations/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/02-data-overview/02-06-pronunciations/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/contens/6-ndl/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/05-annotation-policy/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/def-input/1/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/02-data-overview/02-07-ndl/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/def-input/2/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/05-annotation-policy/05-01-basic-policy/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-input/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/05-annotation-policy/05-02-headword-count/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-input/1/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/05-annotation-policy/05-03-jitaichu-formats/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/def-input/3/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/05-annotation-policy/05-04-onchu-problems/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-input/2/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/05-annotation-policy/05-05-gichu-quantity/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/def-input/4/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/05-annotation-policy/05-06-wakun-materials/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/def-input/5/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/05-annotation-policy/05-07-annotation-examples/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-input/3/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/06-typesetting/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/def-input/6/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/06-typesetting/06-01-hanazono-mincho/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-input/4/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/06-typesetting/06-02-glypwiki/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-input/5/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/06-typesetting/06-03-sfkanbun-sty/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-input/6/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/06-typesetting/06-04-vscode-texlive/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-input/10-notes-sample/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/06-typesetting/06-05-online-tools/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-output/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/07-progress/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-output/1/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/07-progress/1/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-output/2/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/07-progress/2/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-output/3/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/07-progress/3/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-output/4/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/07-progress/4/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/notes-output/5/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/07-progress/5/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/progress/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/07-progress/6/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/progress/1/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/07-progress/7/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/progress/2/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/08-case-studies/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/progress/3/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/08-case-studies/1-ugoku/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/progress/4/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/08-case-studies/2-miru/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/progress/5/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/08-case-studies/3-wakun-uf/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/progress/6/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/08-case-studies/4-kana-split/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/progress/7/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/08-case-studies/5-dhsjr/</loc>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/case-study/</loc>
-  </url>
-  
-  <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/case-study/1-ugoku/</loc>
-  </url>
-  
-  <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/case-study/2-miru/</loc>
-  </url>
-  
-  <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/case-study/3-wakun-uf/</loc>
-  </url>
-  
-  <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/case-study/4-kana-split/</loc>
-  </url>
-  
-  <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/case-study/5-dhsjr/</loc>
-  </url>
-  
-  <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/case-study/6/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/08-case-studies/6/</loc>
   </url>
   
   <url>
@@ -291,11 +267,7 @@
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/def-input/7/</loc>
-  </url>
-  
-  <url>
-    <loc>https://shikeda.github.io/docs/notes/krm-main/</loc>
+    <loc>https://shikeda.github.io/docs/notes/krm/</loc>
   </url>
   
   <url>
