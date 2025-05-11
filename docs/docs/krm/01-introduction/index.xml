@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>資料紹介 on HDIC project</title>
+    <link>https://shikeda.github.io/docs/krm/01-introduction/</link>
+    <description>Recent content in 資料紹介 on HDIC project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://shikeda.github.io/docs/krm/01-introduction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>類聚名義抄の概要</title>
+      <link>https://shikeda.github.io/docs/krm/01-introduction/01-01-introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/krm/01-introduction/01-01-introduction/</guid>
+      <description>類聚名義抄の概要 池田 証寿 初版公開日：2022年11月15日 最終更新日：2025年4月20日 ここでは、諸本、編者、成立、価値、構成、出典、諸本</description>
+    </item>
+    
+  </channel>
+</rss>

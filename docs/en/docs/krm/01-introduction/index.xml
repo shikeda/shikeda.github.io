@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overview on HDIC project</title>
+    <link>https://shikeda.github.io/en/docs/krm/01-introduction/</link>
+    <description>Recent content in Overview on HDIC project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://shikeda.github.io/en/docs/krm/01-introduction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview of the Ruiju Myōgishō</title>
+      <link>https://shikeda.github.io/en/docs/krm/01-introduction/01-01-introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/en/docs/krm/01-introduction/01-01-introduction/</guid>
+      <description>Overview of the Ruiju Myōgishō Ikeda Shōju Date published: 20 April 2025 This section provides an overview of the Ruiju Myōgishō, detailing its extant manuscripts, presumed compiler and provenance, scholarly significance, structural organization, textual sources, available facsimiles and indices, as well as pertinent secondary literature. Manuscript Traditions Compiler Date of Compilation</description>
+    </item>
+    
+  </channel>
+</rss>

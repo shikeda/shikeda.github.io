@@ -5,8 +5,7 @@
     <link>https://shikeda.github.io/posts/</link>
     <description>Recent content in Blog on HDIC project</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>jp</language>
-    <lastBuildDate>Thu, 06 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 May 2025 18:27:43 +0900</lastBuildDate>
     
 	<atom:link href="https://shikeda.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,6 +17,24 @@
       
       <guid>https://shikeda.github.io/posts/input-method/</guid>
       <description>注文データ入力の詳細 次の6種に分類して入力方法の詳細を説明する。 共通 字体注 音注 義注 和訓 掲出字補注 共通 字体注、音注、義注、和訓、掲出字補注に共</description>
+    </item>
+    
+    <item>
+      <title>Hugo Book I18n Notes</title>
+      <link>https://shikeda.github.io/posts/hugo-book-i18n-notes/</link>
+      <pubDate>Sat, 10 May 2025 18:27:43 +0900</pubDate>
+      
+      <guid>https://shikeda.github.io/posts/hugo-book-i18n-notes/</guid>
+      <description>Hugo Book テーマにおける多言語対応と言語切替リンク設置まとめ 1. 言語設定（config.toml） defaultContentLanguage = &amp;#34;ja&amp;#34; defaultContentLanguageInSubdir = true [languages] [languages.ja] languageName = &amp;#34;Japanese&amp;#34; weight = 1 [languages.en] languageName = &amp;#34;English&amp;#34; weight = 2 defaultContentLanguageInSubdir = true に</description>
+    </item>
+    
+    <item>
+      <title>コードブロックの配色調整</title>
+      <link>https://shikeda.github.io/posts/custom-css-setting/</link>
+      <pubDate>Sat, 10 May 2025 05:56:42 +0900</pubDate>
+      
+      <guid>https://shikeda.github.io/posts/custom-css-setting/</guid>
+      <description>Hugo Book でのカスタム CSS 設定手順 目的 コードブロックの背景色と文字色を、図や全体の配色と調和するように変更する。 1. custom.css の作成と設置 パス： static/css/custom.css 内容（例）：</description>
     </item>
     
     <item>

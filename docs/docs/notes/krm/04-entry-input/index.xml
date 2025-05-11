@@ -12,19 +12,19 @@
     
     <item>
       <title>掲出字・項目構造とID体系</title>
-      <link>https://shikeda.github.io/docs/notes/krm/04-entry-input/1-id/</link>
+      <link>https://shikeda.github.io/docs/notes/krm/04-entry-input/04-01-id/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm/04-entry-input/1-id/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm/04-entry-input/04-01-id/</guid>
       <description>掲出字・項目構造とID体系 このセクションでは、名義抄の項目の構造と、それを識別するためのID体系について説明する。 掲出字と掲出項目の定義 掲出</description>
     </item>
     
     <item>
       <title>文字の符号化と表現</title>
-      <link>https://shikeda.github.io/docs/notes/krm/04-entry-input/2-char/</link>
+      <link>https://shikeda.github.io/docs/notes/krm/04-entry-input/04-02-char/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shikeda.github.io/docs/notes/krm/04-entry-input/2-char/</guid>
+      <guid>https://shikeda.github.io/docs/notes/krm/04-entry-input/04-02-char/</guid>
       <description>文字の符号化と表現 Unicodeによる文字の符号化 UnicodeのバージョンによりCJK統合漢字の数は異なる。 HDICプロジェクトとしては2</description>
     </item>
     

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on HDIC project</title>
+    <link>https://shikeda.github.io/en/</link>
+    <description>Recent content in Introduction on HDIC project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://shikeda.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overview of the Ruiju Myōgishō</title>
+      <link>https://shikeda.github.io/en/docs/krm/01-introduction/01-01-introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/en/docs/krm/01-introduction/01-01-introduction/</guid>
+      <description>Overview of the Ruiju Myōgishō Ikeda Shōju Date published: 20 April 2025 This section provides an overview of the Ruiju Myōgishō, detailing its extant manuscripts, presumed compiler and provenance, scholarly significance, structural organization, textual sources, available facsimiles and indices, as well as pertinent secondary literature. Manuscript Traditions Compiler Date of Compilation</description>
+    </item>
+    
+    <item>
+      <title>krm_main</title>
+      <link>https://shikeda.github.io/en/docs/krm/02-data-overview/02-01-main/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-01-main/</guid>
+      <description>krm_main Under preparation. This section describes the core files of the database for the Kanchi-in manuscript of the Ruiju Mōgishō (hereinafter &amp;ldquo;Myōgishō&amp;quot;). Previously, the released file was a TSV file named KRM.tsv. It contains information regarding head characters, full definitions, volume, radical,</description>
+    </item>
+    
+    <item>
+      <title>krm_notes</title>
+      <link>https://shikeda.github.io/en/docs/krm/02-data-overview/02-02-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-02-notes/</guid>
+      <description>krm_notes A new file, krm_notes.tsv, has been created, containing detailed annotation information added to the KRM_def.tsv file. This is available in both TSV and JSON formats. To explicitly indicate that these are the filenames after the specification change in March 2025, lowercase &amp;ldquo;krm&amp;rdquo; was used instead of uppercase &amp;ldquo;KRM,&amp;rdquo; resulting in the names krm_notes.tsv and krm_notes.json. Considering krm_notes.tsv as the new file and KRM_definitions.tsv as the old file, the comparison</description>
+    </item>
+    
+    <item>
+      <title>krm_headword_chars</title>
+      <link>https://shikeda.github.io/en/docs/krm/02-data-overview/02-03-headword-chars/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-03-headword-chars/</guid>
+      <description>krm_headword_chars Headwords in the Myōgishō can consist of single characters or multiple characters (multi-character compounds). The krm_headword_chars data file lists all headwords from the Myōgishō, ordered according to the sequence of items in the Myōgishō and by the order of appearance of characters within each item. In the</description>
+    </item>
+    
+    <item>
+      <title>krm_wakun</title>
+      <link>https://shikeda.github.io/en/docs/krm/02-data-overview/02-04-wakun/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-04-wakun/</guid>
+      <description>krm_wakun This data is derived by extracting wakun from the KRM.tsv file of the Myōgishō database, organizing variant forms of the wakun, and adjusting their correspondence with variant characters (itai-ji). Collation and textual research related to wakun are documented in krm_notes, so they are omitted here. In wakun, different readings may be written alongside the main reading as annotations. For example, the wakun</description>
+    </item>
+    
+    <item>
+      <title>krm_definitions</title>
+      <link>https://shikeda.github.io/en/docs/krm/02-data-overview/02-05-definitions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-05-definitions/</guid>
+      <description>krm_definitions The definitions in the Myōgishō include not only wakun but also elements such as glyph annotations, pronunciation annotations, and meaning annotations.
+This file contains records created by categorizing each element of the definitions according to their order of appearance, assigning them numbers based on this order, and classifying the types of definitions. This was done for the purpose of collation and textual research.
+The file previously made public was KRM_definitions.</description>
+    </item>
+    
+    <item>
+      <title>krm_pronunciations</title>
+      <link>https://shikeda.github.io/en/docs/krm/02-data-overview/02-06-pronunciations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-06-pronunciations/</guid>
+      <description>krm_pronunciations Under preparation.</description>
+    </item>
+    
+    <item>
+      <title>krm_ndl</title>
+      <link>https://shikeda.github.io/en/docs/krm/02-data-overview/02-07-ndl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-07-ndl/</guid>
+      <description>krm_ndl Under preparation. This file compiles links to the images of the Kanchi-in manuscript of the Ruiju Myōgishō that are publicly available in the National Diet Library Digital Collections. This data cross-references the locations within the Kanchi-in manuscript of the Ruiju Myōgishō with their corresponding URLs in the National Diet Library Digital Collections. The file name</description>
+    </item>
+    
+  </channel>
+</rss>

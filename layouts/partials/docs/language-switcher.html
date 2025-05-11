@@ -1,0 +1,8 @@
+{{ $currentLang := .Site.Language.Lang }}
+{{ range .Translations }}
+  {{ if eq .Lang "ja" }}
+    <a href="{{ .RelPermalink }}">日本語</a>
+  {{ else if eq .Lang "en" }}
+    <a href="{{ .RelPermalink }}">English</a>
+  {{ end }}
+{{ end }}

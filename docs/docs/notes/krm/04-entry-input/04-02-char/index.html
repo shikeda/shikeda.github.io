@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="jp" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="文字の符号化と表現 Unicodeによる文字の符号化 UnicodeのバージョンによりCJK統合漢字の数は異なる。 HDICプロジェクトとしては2">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="文字の符号化と表現" />
+<meta property="og:description" content="文字の符号化と表現 Unicodeによる文字の符号化 UnicodeのバージョンによりCJK統合漢字の数は異なる。 HDICプロジェクトとしては2" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://shikeda.github.io/docs/notes/krm/04-entry-input/04-02-char/" />
+
+<title>文字の符号化と表現 | HDIC project</title>
+<link rel="manifest" href="https://shikeda.github.io/manifest.json">
+<link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
+  <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.3c84b1e64eaf8132a1ae528d29b543027869c77853d37876c2053c0bcc2ad989.js" integrity="sha256-PISx5k6vgTKhrlKNKbVDAnhpx3hT03h2wgU8C8wq2Yk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="https://shikeda.github.io/"><span>HDIC project</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="検索" aria-label="検索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/" class="">類聚名義抄</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span>Contents</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7f361ac32a638d6dba8a5cd2a0cac54c" class="toggle"  />
+    <label for="section-7f361ac32a638d6dba8a5cd2a0cac54c" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/01-introduction/" class="">資料紹介</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/01-introduction/01-01-introduction/" class="">類聚名義抄の概要</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/01-introduction/01-02-introduction-en/" class="">Overview of the Ruijū Myōgishō</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ad2aadf72434b126c75ea9211a58ea9f" class="toggle"  />
+    <label for="section-ad2aadf72434b126c75ea9211a58ea9f" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/02-data-overview/" class="">公開データの概要</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/02-data-overview/02-01-main/" class="">krm_main</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/02-data-overview/02-02-notes/" class="">krm_notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/02-data-overview/02-03-headword_chars/" class="">krm_headword_chars</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/02-data-overview/02-04-wakun/" class="">krm_wakun</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/02-data-overview/02-05-definitions/" class="">krm_definitions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/02-data-overview/02-06-pronunciations/" class="">krm_pronunciations</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/02-data-overview/02-07-ndl/" class="">krm_ndl</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-bc9798fbec4e6712c1f403a3037983d7" class="toggle"  />
+    <label for="section-bc9798fbec4e6712c1f403a3037983d7" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/03-entry-data-model/" class="">項目データモデル</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/03-entry-data-model/03-01-data-structure/" class="">項目データ構造</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/03-entry-data-model/03-02-types-of-entries/" class="">項目の種類</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/03-entry-data-model/03-03-concepts-char/" class="">文字表記に関する概念</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/03-entry-data-model/03-04-data-example/" class="">項目データファイルの公開・更新</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ab93066a8f8522adc7d39e5be12ba328" class="toggle" checked />
+    <label for="section-ab93066a8f8522adc7d39e5be12ba328" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/04-entry-input/" class="">項目データ入力</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/04-entry-input/04-01-id/" class="">掲出字・項目構造とID体系</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/04-entry-input/04-02-char/" class=" active">文字の符号化と表現</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/04-entry-input/04-03-handling/" class="">書写・表記・注記における問題と対応</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4dd77a43dea3dbf231ddade6e54412c7" class="toggle"  />
+    <label for="section-4dd77a43dea3dbf231ddade6e54412c7" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/05-annotation-policy/" class="">注釈データ入力の詳細</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/05-annotation-policy/05-01-basic-policy/" class="">基本方針</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/05-annotation-policy/05-02-headword-count/" class="">掲出字</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/05-annotation-policy/05-03-jitaichu-formats/" class="">字体注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/05-annotation-policy/05-04-onchu-problems/" class="">音注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/05-annotation-policy/05-05-gichu-quantity/" class="">義注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/05-annotation-policy/05-06-wakun-materials/" class="">和訓</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/05-annotation-policy/05-07-annotation-examples/" class="">注釈の例</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e56eb1cd2945a6e703d5fee18da73452" class="toggle"  />
+    <label for="section-e56eb1cd2945a6e703d5fee18da73452" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/06-typesetting/" class="">翻刻・注釈の組版の設定</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/06-typesetting/06-01-hanazono-mincho/" class="">花園明朝の設定</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/06-typesetting/06-02-glypwiki/" class="">GlyphWikiの設定</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/06-typesetting/06-03-sfkanbun-sty/" class="">sfkanbun.styの設定</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/06-typesetting/06-04-vscode-texlive/" class="">VS CodeとTeX Live</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/06-typesetting/06-05-online-tools/" class="">オンラインツール</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c271504959a610238992e93d768aa097" class="toggle"  />
+    <label for="section-c271504959a610238992e93d768aa097" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/07-progress/" class="">進捗状況</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/07-progress/1/" class="">掲出字</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-3069158738b3167884208de43f8a41e1" class="toggle"  />
+    <label for="section-3069158738b3167884208de43f8a41e1" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/07-progress/2/" class="">注文</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-330f4d2e95330813e00c6b6d5d28f7c7" class="toggle"  />
+    <label for="section-330f4d2e95330813e00c6b6d5d28f7c7" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/07-progress/3/" class="">字体注</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-25f1167b1349398c6fcac744157c23e5" class="toggle"  />
+    <label for="section-25f1167b1349398c6fcac744157c23e5" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/07-progress/4/" class="">音注</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-3a795292eb0c318655f472388a1dcbd1" class="toggle"  />
+    <label for="section-3a795292eb0c318655f472388a1dcbd1" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/07-progress/5/" class="">義注</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/07-progress/6/" class="">和訓</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2c6f8d2964e4dfa61188789a9fd1749a" class="toggle"  />
+    <label for="section-2c6f8d2964e4dfa61188789a9fd1749a" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/07-progress/7/" class="">その他</a>
+    </label>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-db222cdf608ae7ed7bc01623c2671c0f" class="toggle"  />
+    <label for="section-db222cdf608ae7ed7bc01623c2671c0f" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/08-case-studies/" class="">事例研究</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/08-case-studies/1-ugoku/" class="">和訓「ウゴク」の調査</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/08-case-studies/2-miru/" class="">和訓「ミル」の調査</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/08-case-studies/3-wakun-uf/" class="">和訓の使用頻度</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/08-case-studies/4-kana-split/" class="">同仮名異語の区別</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/08-case-studies/5-dhsjr/" class="">DHSJRとの連携</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/08-case-studies/6/" class="">準備中</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://shikeda.github.io/posts/" >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="https://shikeda.github.io/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>文字の符号化と表現</strong>
+
+  <label for="toc-control">
+    
+    <img src="https://shikeda.github.io/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#unicodeによる文字の符号化">Unicodeによる文字の符号化</a></li>
+    <li><a href="#unicode外の文字の表現">Unicode外の文字の表現</a></li>
+    <li><a href="#glyphwikiの利用">GlyphWikiの利用</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="文字の符号化と表現">文字の符号化と表現</h1>
+<h2 id="unicodeによる文字の符号化">Unicodeによる文字の符号化</h2>
+<p>UnicodeのバージョンによりCJK統合漢字の数は異なる。
+HDICプロジェクトとしては2014年にスタートしており、当初、基本に据えたのは2015年のUnicode 8.0.0であり、使用できる漢字の数は、
+CJK統合漢字とCJK統合漢字拡張A-Eの80,358字である。
+その後も拡張が続いており、90,000字を超えるところまで
+きている。ただ、Unicodeに収録されても、実際に画面に表示したり、
+印刷したりして使えるようになるのは時間がかかるようである。JCK統合漢字
+拡張Eまでを可能な限り利用し、拡張F以降は、備考欄などに注記するにとどめている。</p>
+<h2 id="unicode外の文字の表現">Unicode外の文字の表現</h2>
+<p>Unicode外の文字とは、Unicodeに収録されていない漢字のことである。
+Unicode外の文字は、次の三つの方法で表現する。</p>
+<ul>
+<li>IDS方式</li>
+<li>実体参照方式</li>
+<li>β方式</li>
+</ul>
+<p><strong>IDS方式</strong>は
+漢字の部品の組み合わせで表現可能な場合に、IDS（漢字構成記述文字列、Ideographic Description Sequence）で記述する方式である。
+IDSのデータは守岡知彦氏が<a href="https://www.chise.org/ids-find">CHISE IDS検索</a>で構築・公開しているものを利用・参照している。</p>
+<p>IDSはIDC（漢字構成記述文字、Ideographic Description Character）により示す。
+IDCは⿰ ⿱ ⿲ ⿳ ⿴ ⿵ ⿶ ⿷ ⿸ ⿹ ⿺ ⿻の12字である。</p>
+<p><strong>例</strong></p>
+<ul>
+<li>IDS方式の例：⿰亻胃（人偏に胃を書く字形）、⿰亻⿱𡈼儿（凭の異体字、複数のIDCを使用した例）</li>
+</ul>
+<p>IDS方式で表現が困難な場合は、次のいずれかの方法を用いる。</p>
+<p><strong>実体参照方式</strong>は
+CHISEおよびGlyphWikiの実体参照方式に基づいた表記で記述する方式である。</p>
+<p><strong>例</strong></p>
+<ul>
+<li>CHISEの実体参照方式：⿺辶&amp;CDP-8C66; (延の異体字、&amp;CDP-8C66;は𠂢の右下部分の字形、𧘇に近似した字形)</li>
+<li>GlyphWikiの実体参照方式：koseki-007510 (𠇾の右上にヽの字形)</li>
+</ul>
+<p><strong>β方式</strong>は
+近い字形とβ、γ等とを組み合せて記述する方式である。</p>
+<p><strong>例</strong></p>
+<ul>
+<li>β方式の例：正β (匸の中にヽが横に二つの字形)</li>
+</ul>
+<p>上記のいずれの方法でも表現できない文字や、原典で判読不能な文字（虫損等）は、「■」（黒い四角）で記述する。
+原典で判読不能な文字の詳細は「虫損・判読不能」のセクションを参照。</p>
+<h2 id="glyphwikiの利用">GlyphWikiの利用</h2>
+<p>近似した明朝体の字形を表示するために
+GlyphWiki（上地宏一氏）を利用すれば、
+近似した明朝体の字形を表示することができる。</p>
+<p>GlyphWikiを利用した名義抄の掲出字の字形の作成は、作業中であり、
+完成していないが、参考に記しておく。</p>
+<p>GlyphWikiのグリフ番号を、上述した掲出字IDに対応させることで、
+類聚名義抄の掲出字を明朝体字形で表現する。</p>
+<p>GlyphWikiのグリフ番号は、このプロジェクトの略称であるHDICと
+観智院本名義抄の略称（KRM）を組み合わせたプリフィックス
+hdic_hkrm-を冠し、掲出字IDの数値部分を組み合わせて
+表現する。</p>
+<p>たとえば、K01075140の掲出字IDのGlyphWikiのグリフ番号は
+hdic_hkrm-01075140となる。</p>
+<p>次にはMarkdownの記法で示す。</p>
+<p><strong>例</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">![<span style="color:#f92672">正β</span>](<span style="color:#a6e22e">https://glyphwiki.org/glyph/hdic_hkrm-01075140.png</span>)
+</code></pre></div><p>とすると、次のように表示される。</p>
+<p><img src="https://glyphwiki.org/glyph/hdic_hkrm-01075140.png" alt="正β" /></p>
+<p>これでは文字サイズが大きいので、小さいサイズを使う場合には</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">![<span style="color:#f92672">正β</span>](<span style="color:#a6e22e">https://glyphwiki.org/glyph/hdic_hkrm-01075140.50px.png</span>)
+</code></pre></div><p>とすれば、次のように表示される。</p>
+<p><img src="https://glyphwiki.org/glyph/hdic_hkrm-01075140.50px.png" alt="正β" /></p>
+<p>なお、ファイル名hdic_hkrm-01075140.pngは、HDICデータベースの KRM（観智院本類聚名義抄）の01075140であることを表している。</p>
+<p>01075140の01は巻1（仏上）、 075は75頁、140は1行4段目の単字項目であることを示している。</p>
+<p>サイズを指定して表示するには</p>
+<p>{{&lt; figure src=&quot;https://glyphwiki.org/glyph/hdic_hkrm-01075140.png&rdquo; title=&rdquo;&rdquo; class=&quot;center&rdquo; width=&quot;24&rdquo; height=&quot;24&rdquo; &gt;}}</p>
+<p>とすると、
+<figure class="center">
+    <img src="https://glyphwiki.org/glyph/hdic_hkrm-01075140.png" width="24" height="24"/> 
+</figure>
+
+のように表示される。</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#unicodeによる文字の符号化">Unicodeによる文字の符号化</a></li>
+    <li><a href="#unicode外の文字の表現">Unicode外の文字の表現</a></li>
+    <li><a href="#glyphwikiの利用">GlyphWikiの利用</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

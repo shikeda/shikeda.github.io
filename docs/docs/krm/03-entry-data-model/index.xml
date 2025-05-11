@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>項目データモデル on HDIC project</title>
+    <link>https://shikeda.github.io/docs/krm/03-entry-data-model/</link>
+    <description>Recent content in 項目データモデル on HDIC project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://shikeda.github.io/docs/krm/03-entry-data-model/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>項目データ構造</title>
+      <link>https://shikeda.github.io/docs/krm/03-entry-data-model/03-01-data-structure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/krm/03-entry-data-model/03-01-data-structure/</guid>
+      <description>項目データ構造 ここでは、観智院本『類聚名義抄』（以下、名義抄と略） の項目の構造と項目の形式を取り上げて解説する。 まず、掲出字・注文等の用語（</description>
+    </item>
+    
+    <item>
+      <title>項目の種類</title>
+      <link>https://shikeda.github.io/docs/krm/03-entry-data-model/03-02-types-of-entries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/krm/03-entry-data-model/03-02-types-of-entries/</guid>
+      <description>項目の種類 このセクションでは、類聚名義抄の項目をどのような基準で分類し、それぞれどのような特徴を持つか説明する。 掲出字形式による分類 これは、</description>
+    </item>
+    
+    <item>
+      <title>文字表記に関する概念</title>
+      <link>https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/</guid>
+      <description>文字表記に関する概念 書体・字体・字形 「書体」「字体」「字形」の用語は 石塚晴通『図書寮本 日本書紀 研究篇』（汲古書院、1984）の定義に従う。 書</description>
+    </item>
+    
+    <item>
+      <title>項目データファイルの公開・更新</title>
+      <link>https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/</guid>
+      <description>項目データファイルの公開・更新 項目データファイルの例 左から順に翻刻を示すと次のようになる。所在情報は簡略化して示す。 No KR_ID KR_vol_radical KR_vol_name KR_radical Entry Entry_original KR_def 1 K08084810 v8#8 僧</description>
+    </item>
+    
+  </channel>
+</rss>

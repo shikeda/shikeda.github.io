@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>翻刻・注釈の組版の設定 on HDIC project</title>
+    <link>https://shikeda.github.io/docs/krm/06-typesetting/</link>
+    <description>Recent content in 翻刻・注釈の組版の設定 on HDIC project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://shikeda.github.io/docs/krm/06-typesetting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>花園明朝の設定</title>
+      <link>https://shikeda.github.io/docs/krm/06-typesetting/06-01-hanazono-mincho/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/krm/06-typesetting/06-01-hanazono-mincho/</guid>
+      <description>前提 TeX Liveが使えるように設定しておく。 花園明朝の設定 花園フォント 花園明朝のフォントをパソコンにインストールしておく。 ブラウザでの確認 たと</description>
+    </item>
+    
+    <item>
+      <title>GlyphWikiの設定</title>
+      <link>https://shikeda.github.io/docs/krm/06-typesetting/06-02-glypwiki/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/krm/06-typesetting/06-02-glypwiki/</guid>
+      <description>GlyphWikiの設定 BXglyphwiki パッケージバンドル 花園フォントをLuaLaTeXで使うには、 BXglyphwiki パッケージバンドルを参考にする。 toyjackによる</description>
+    </item>
+    
+    <item>
+      <title>sfkanbun.styの設定</title>
+      <link>https://shikeda.github.io/docs/krm/06-typesetting/06-03-sfkanbun-sty/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/krm/06-typesetting/06-03-sfkanbun-sty/</guid>
+      <description>sfkanbun.styの設定 訓点資料用スタイル・ファイル（kunten2e.sty）は、 upLaTeXであれば使えるが、 LuaLaTeXで</description>
+    </item>
+    
+    <item>
+      <title>VS CodeとTeX Live</title>
+      <link>https://shikeda.github.io/docs/krm/06-typesetting/06-04-vscode-texlive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/krm/06-typesetting/06-04-vscode-texlive/</guid>
+      <description>VS CodeとTeX Live VS Code (Visual Studio Code) はMicrosoftが 開発しているWindows、Linux、macOS、web用のソースコードエディタである</description>
+    </item>
+    
+    <item>
+      <title>オンラインツール</title>
+      <link>https://shikeda.github.io/docs/krm/06-typesetting/06-05-online-tools/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shikeda.github.io/docs/krm/06-typesetting/06-05-online-tools/</guid>
+      <description>よく使うオンラインツールのリンク Kanji Database Project 漢字データベースプロジェクト CHISE IDS find 漢字検索 HNG単字検索 GlyphWiki グリフウィキ Han Morphism System Ver.0.3.1 篇韻データベース The SAT Da</description>
+    </item>
+    
+  </channel>
+</rss>

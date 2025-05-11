@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html lang="jp" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="掲出字・項目構造とID体系 このセクションでは、名義抄の項目の構造と、それを識別するためのID体系について説明する。 掲出字と掲出項目の定義 掲出">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="掲出字・項目構造とID体系" />
+<meta property="og:description" content="掲出字・項目構造とID体系 このセクションでは、名義抄の項目の構造と、それを識別するためのID体系について説明する。 掲出字と掲出項目の定義 掲出" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://shikeda.github.io/docs/notes/krm/04-entry-input/04-01-id/" />
+
+<title>掲出字・項目構造とID体系 | HDIC project</title>
+<link rel="manifest" href="https://shikeda.github.io/manifest.json">
+<link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
+  <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.3c84b1e64eaf8132a1ae528d29b543027869c77853d37876c2053c0bcc2ad989.js" integrity="sha256-PISx5k6vgTKhrlKNKbVDAnhpx3hT03h2wgU8C8wq2Yk=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="https://shikeda.github.io/"><span>HDIC project</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="検索" aria-label="検索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/" class="">類聚名義抄</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span>Contents</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7f361ac32a638d6dba8a5cd2a0cac54c" class="toggle"  />
+    <label for="section-7f361ac32a638d6dba8a5cd2a0cac54c" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/01-introduction/" class="">資料紹介</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/01-introduction/01-01-introduction/" class="">類聚名義抄の概要</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/01-introduction/01-02-introduction-en/" class="">Overview of the Ruijū Myōgishō</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ad2aadf72434b126c75ea9211a58ea9f" class="toggle"  />
+    <label for="section-ad2aadf72434b126c75ea9211a58ea9f" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/02-data-overview/" class="">公開データの概要</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/02-data-overview/02-01-main/" class="">krm_main</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/02-data-overview/02-02-notes/" class="">krm_notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/02-data-overview/02-03-headword_chars/" class="">krm_headword_chars</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/02-data-overview/02-04-wakun/" class="">krm_wakun</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/02-data-overview/02-05-definitions/" class="">krm_definitions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/02-data-overview/02-06-pronunciations/" class="">krm_pronunciations</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/02-data-overview/02-07-ndl/" class="">krm_ndl</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-bc9798fbec4e6712c1f403a3037983d7" class="toggle"  />
+    <label for="section-bc9798fbec4e6712c1f403a3037983d7" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/03-entry-data-model/" class="">項目データモデル</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/03-entry-data-model/03-01-data-structure/" class="">項目データ構造</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/03-entry-data-model/03-02-types-of-entries/" class="">項目の種類</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/03-entry-data-model/03-03-concepts-char/" class="">文字表記に関する概念</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/03-entry-data-model/03-04-data-example/" class="">項目データファイルの公開・更新</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ab93066a8f8522adc7d39e5be12ba328" class="toggle" checked />
+    <label for="section-ab93066a8f8522adc7d39e5be12ba328" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/04-entry-input/" class="">項目データ入力</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/04-entry-input/04-01-id/" class=" active">掲出字・項目構造とID体系</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/04-entry-input/04-02-char/" class="">文字の符号化と表現</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/04-entry-input/04-03-handling/" class="">書写・表記・注記における問題と対応</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4dd77a43dea3dbf231ddade6e54412c7" class="toggle"  />
+    <label for="section-4dd77a43dea3dbf231ddade6e54412c7" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/05-annotation-policy/" class="">注釈データ入力の詳細</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/05-annotation-policy/05-01-basic-policy/" class="">基本方針</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/05-annotation-policy/05-02-headword-count/" class="">掲出字</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/05-annotation-policy/05-03-jitaichu-formats/" class="">字体注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/05-annotation-policy/05-04-onchu-problems/" class="">音注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/05-annotation-policy/05-05-gichu-quantity/" class="">義注</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/05-annotation-policy/05-06-wakun-materials/" class="">和訓</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/05-annotation-policy/05-07-annotation-examples/" class="">注釈の例</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e56eb1cd2945a6e703d5fee18da73452" class="toggle"  />
+    <label for="section-e56eb1cd2945a6e703d5fee18da73452" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/06-typesetting/" class="">翻刻・注釈の組版の設定</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/06-typesetting/06-01-hanazono-mincho/" class="">花園明朝の設定</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/06-typesetting/06-02-glypwiki/" class="">GlyphWikiの設定</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/06-typesetting/06-03-sfkanbun-sty/" class="">sfkanbun.styの設定</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/06-typesetting/06-04-vscode-texlive/" class="">VS CodeとTeX Live</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/06-typesetting/06-05-online-tools/" class="">オンラインツール</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c271504959a610238992e93d768aa097" class="toggle"  />
+    <label for="section-c271504959a610238992e93d768aa097" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/07-progress/" class="">進捗状況</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/07-progress/1/" class="">掲出字</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-3069158738b3167884208de43f8a41e1" class="toggle"  />
+    <label for="section-3069158738b3167884208de43f8a41e1" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/07-progress/2/" class="">注文</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-330f4d2e95330813e00c6b6d5d28f7c7" class="toggle"  />
+    <label for="section-330f4d2e95330813e00c6b6d5d28f7c7" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/07-progress/3/" class="">字体注</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-25f1167b1349398c6fcac744157c23e5" class="toggle"  />
+    <label for="section-25f1167b1349398c6fcac744157c23e5" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/07-progress/4/" class="">音注</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-3a795292eb0c318655f472388a1dcbd1" class="toggle"  />
+    <label for="section-3a795292eb0c318655f472388a1dcbd1" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/07-progress/5/" class="">義注</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/07-progress/6/" class="">和訓</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2c6f8d2964e4dfa61188789a9fd1749a" class="toggle"  />
+    <label for="section-2c6f8d2964e4dfa61188789a9fd1749a" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/07-progress/7/" class="">その他</a>
+    </label>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-db222cdf608ae7ed7bc01623c2671c0f" class="toggle"  />
+    <label for="section-db222cdf608ae7ed7bc01623c2671c0f" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/notes/krm/08-case-studies/" class="">事例研究</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/08-case-studies/1-ugoku/" class="">和訓「ウゴク」の調査</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/08-case-studies/2-miru/" class="">和訓「ミル」の調査</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/08-case-studies/3-wakun-uf/" class="">和訓の使用頻度</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/08-case-studies/4-kana-split/" class="">同仮名異語の区別</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/08-case-studies/5-dhsjr/" class="">DHSJRとの連携</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/notes/krm/08-case-studies/6/" class="">準備中</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://shikeda.github.io/posts/" >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="https://shikeda.github.io/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>掲出字・項目構造とID体系</strong>
+
+  <label for="toc-control">
+    
+    <img src="https://shikeda.github.io/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#掲出字と掲出項目の定義">掲出字と掲出項目の定義</a></li>
+    <li><a href="#掲出項目の配置の原則と例外">掲出項目の配置の原則と例外</a></li>
+    <li><a href="#名義抄のid体系">名義抄のID体系</a>
+      <ul>
+        <li><a href="#idの種類">IDの種類</a></li>
+        <li><a href="#各カラムの関係性">各カラムの関係性</a></li>
+        <li><a href="#主要idの詳細形式">主要IDの詳細形式</a></li>
+        <li><a href="#掲出字の入力方法">掲出字の入力方法</a></li>
+        <li><a href="#データ表現におけるidの扱い">データ表現におけるIDの扱い</a></li>
+        <li><a href="#掲出字の詳細情報マッピングテーブルへ移譲">掲出字の詳細情報（マッピングテーブル）へ移譲</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="掲出字項目構造とid体系">掲出字・項目構造とID体系</h1>
+<p>このセクションでは、名義抄の項目の構造と、それを識別するためのID体系について説明する。</p>
+<h2 id="掲出字と掲出項目の定義">掲出字と掲出項目の定義</h2>
+<p><strong>掲出字</strong>（Headword Character(s)）とは、見出しの漢字そのものである。
+<strong>掲出項目</strong>（Entry）とは、辞書の項目単位である。</p>
+<p>名義抄において一つの掲出項目は、<strong>単字</strong>または<strong>複字</strong>（多字）からなる。</p>
+<p>掲出項目の立て方には、
+単字による<strong>単字形式</strong>と、複字による<strong>複字形式</strong>との二つがある。</p>
+<p>複字形式には、<strong>熟語</strong>のものと<strong>異体字併記</strong>のものがある。</p>
+<p>次に単字形式、複字形式の2種の例をいくつか示す。</p>
+<p><strong>例</strong></p>
+<ul>
+<li>単字形式：人、何</li>
+<li>複字形式（熟語）：一人、二人、何如、如何</li>
+<li>複字形式（異体字併記）：爲為、羱𦍘</li>
+</ul>
+<p>複字形式の熟語と異体字併記との区別は、注文の記述によって決定される。
+異体字併記の例に示した「爲為」は、その注文に「正今」とあり、「爲」が「正」、「為」が「今」の異体関係となることが分かる。
+同様に「羱𦍘」も注文に「正俗」とあり、「羱」が「正」、「𦍘」が「俗」の異体関係となることが分かる。</p>
+<h2 id="掲出項目の配置の原則と例外">掲出項目の配置の原則と例外</h2>
+<p>名義抄の1頁は、8行4段から構成される。
+言い換えれば、1頁には縦8行、横4列、合計32個の記入欄が配置される。</p>
+<p>1項目は、1個の記入欄に記述される1段1項目が圧倒的多数を占める。</p>
+<p>説明が長文となる場合は、2個以上の記入欄を使用して記述され、
+2段以上になったり、2行以上になったりすることとなる。
+この多段1項目の例も頻繁に出現する。
+説明が長文でも1頁を超えて記述されることはない。
+つまり、1個の記入欄に記入される項目は1項目以下であるのが原則である。</p>
+<p>例外として1段の中に2項目が記述されることがある。
+この1段多項目は、全体からみたら、1％にもならない。</p>
+<p>以上の原則と例外を踏まえて、名義抄のID体系を解説する。
+名義抄のID体系の説明が複雑となるが、それは1段の中に2項目が記述されることに起因しているので、
+このデータの利用者は、特にこの点に注意されたい。</p>
+<h2 id="名義抄のid体系">名義抄のID体系</h2>
+<h3 id="idの種類">IDの種類</h3>
+<p>名義抄のデータでは、主に次のカラムにより項目や文字位置を管理する。</p>
+<ul>
+<li>掲出項目ID (entry_id - 例: F00001) F形式</li>
+<li>掲出字ID (hanzi_id - 例: S00001) S形式</li>
+<li>風間版所在 (kazama_location - 例: K0100131) K形式</li>
+<li>天理版所在 (tenri_location - 例: Ta023310) T形式</li>
+</ul>
+<h3 id="各カラムの関係性">各カラムの関係性</h3>
+<p>掲出項目ID (entry_id) は、それを構成する一つ以上の掲出字ID (hanzi_id) を識別する。</p>
+<p>掲出字ID (hanzi_id) は、データ上の各文字位置を一意に識別する主キーである。</p>
+<p>各掲出字ID (hanzi_id) には、対応する所在ID（風間版、天理版）が紐づく。</p>
+<p>この4種のIDの設定により、名義抄の掲出項目の多様性に対応した上で、
+複数の影印本の利用が容易となる。そのため、
+F形式、S形式、K形式、T形式の説明は重複を厭わず、その都度行っている。</p>
+<h3 id="主要idの詳細形式">主要IDの詳細形式</h3>
+<h4 id="掲出項目id-entry_id--f形式">掲出項目ID (entry_id / F形式)</h4>
+<p><strong>形式</strong>：
+掲出項目ID（entry_id）はFで始まる5桁の数値。F00001からF32604までの連番である。
+一部、追加した掲出項目にはb番号を付す。
+なお、このb番号は、次の掲出字IDに付すことがあるが、それとは無関係に付されるものである。</p>
+<p><strong>目的</strong>：
+名義抄の一項目を一意に識別する。</p>
+<h4 id="掲出字id-hanzi_id--s形式">掲出字ID (hanzi_id / S形式)</h4>
+<p><strong>形式</strong>：
+掲出字ID（hanzi_id）はSに始まる5桁の数値。S00001からS42328までの連番。
+S形式。
+一部、追加した掲出字にはb番号を付す。
+なお、このb番号は、前述の掲出項目IDに付すことがあるが、それとは無関係に付されるものである。</p>
+<p><strong>目的</strong>：
+データ上の各掲出字（文字位置）を一意に識別する主キーである。</p>
+<p><strong>補足</strong>
+2字目以降の掲出字を含めたすべての掲出字IDを一覧したデータは別に用意する（krm_headword_chars.tsv、詳細は別に述べる）。</p>
+<h4 id="風間版所在-kazama_location--k形式">風間版所在 (kazama_location / K形式)：</h4>
+<p><strong>形式</strong>：
+K + 巻数(2桁) + 風間版頁数(3桁) + 行数(1桁) + 段数(1桁) + 字順 (1桁)。
+K形式。</p>
+<p><strong>字順 (1桁):</strong>
+その段における、項目の種類と出現順序に基づいて付与される番号である。
+字順は文字単位の基準であるが、項目の先頭文字の位置を用いて
+掲出項目の所在地を示す。</p>
+<p>字順が文字単位の基準を用いているのは、特に、
+1段（1マスとも言える）の記入欄に2個以上の掲出項目が記述されるという、
+掲出項目の配置の例外に対処するためである。</p>
+<p>字順を文字単位の基準を代表として用いるために、次の
+字順決定のルールを定める。</p>
+<ul>
+<li><strong>ケース1: その段に項目が一つのみの場合</strong>
+<ul>
+<li>その項目が単字項目であれば、字順は <strong>0</strong> 。</li>
+<li>その項目が複字項目であれば、字順は <strong>1</strong> 。</li>
+</ul>
+</li>
+<li><strong>ケース2: その段に項目が二つ以上ある場合</strong>
+<ul>
+<li>その段の<strong>最初の項目</strong>であれば、字順は <strong>1</strong> 。</li>
+<li>その段の<strong>2番目以降の項目</strong>であれば、字順は <strong>その項目の最初の文字が、段の先頭から数えて何番目に出現するか</strong> を示す（段の先頭を1字目として数えた通し番号）。</li>
+</ul>
+</li>
+</ul>
+<p>一つの段に「A」「BC」とあり、Aが段の1字目、Bが2字目、Cが3字目の場合とする。項目BCは2番目の項目、その最初の文字はB、そのBは段の2字目である。よってCDの字順は2となる。
+また、一つの段に「AB」「CD」とあり、Aが段の1字目、Bが2字目、Cが3字目、Dが4字目の場合とする。項目CDは2番目の項目、その最初の文字はC、そのCは段の3字目である。よってCDの字順は3となる。</p>
+<p><strong>例</strong></p>
+<ul>
+<li>K01001310: (単字項目、1段1項目) 巻1 頁1 行3 段1 <strong>字順0</strong></li>
+<li>K08084411: (複字項目、1段1項目) 巻8 頁84 行4 段1 <strong>字順1</strong></li>
+<li>K01004241: (段内に複数項目ある場合の<strong>最初の項目</strong>) 巻1 頁4 行2 段4 <strong>字順1</strong></li>
+<li>K01004242: (段内に複数項目ある場合の<strong>段内の2字目から始まる項目</strong>) 巻1 頁4 行2 段4 <strong>字順2</strong></li>
+<li>K01008341: (段内に複数項目ある場合の<strong>最初の項目</strong>) 巻1 頁8 行3 段4 <strong>字順1</strong></li>
+<li>K01008343: (段内に複数項目ある場合の<strong>段内の3字目から始まる項目</strong>) 巻1 頁8 行3 段4 <strong>字順3</strong></li>
+</ul>
+<p><strong>目的</strong>：風間版における掲出項目の所在地を示す。主に使用される1段1項目、頻繁に出現する多段1項目、そして稀な1段多項目といった、様々な掲出項目の配置パターンすべてに対応できるよう、文字位置の表示ルールに基づいて定められている。</p>
+<p><strong>出典</strong>：正宗敦夫編『類聚名義抄　第一巻』（風間書房、1954年）に基づく。</p>
+<h4 id="天理版所在-tenri_location--t形式">天理版所在 (tenri_location / T形式)</h4>
+<p>天理版所在は、風間版所在のK形式の決定方法と同様の考えに従い、
+形式、字順、目的を次のように定める。</p>
+<p><strong>形式</strong>：T + 巻数（a/b/c） + ページ数（3桁） + 行数（1桁） + 段数(1桁) + 字順 (1桁) 。
+T形式。</p>
+<p><strong>字順 (1桁):</strong>
+その段における、項目の種類と出現順序に基づいて付与される番号である。
+字順は文字単位の基準であるが、この文字単位の基準を代表として用いて
+掲出項目の所在地を示す。</p>
+<p>字順が文字単位の基準を用いているのは、特に、
+1段（1マスとも言える）の記入欄に2個以上の掲出項目が記述されるという、
+掲出項目の配置の例外に対処するためである。</p>
+<p>字順を文字単位の基準を代表として用いるために、次の
+字順決定のルールを定める。</p>
+<ul>
+<li><strong>ケース1: その段に項目が一つのみの場合</strong>
+<ul>
+<li>その項目が単字項目であれば、字順は <strong>0</strong> 。</li>
+<li>その項目が複字項目であれば、字順は <strong>1</strong> 。</li>
+</ul>
+</li>
+<li><strong>ケース2: その段に項目が二つ以上ある場合</strong>
+<ul>
+<li>その段落の<strong>最初の項目</strong>であれば、字順は <strong>1</strong> 。</li>
+<li>その段落の<strong>2番目以降の項目</strong>であれば、字順は <strong>その項目の最初の文字が、段落の先頭から数えて何番目に出現するか</strong> を示す（段の先頭を1字目として数えた通し番号）。</li>
+</ul>
+</li>
+</ul>
+<p>天理版所在の示し方は、風間版所在の示し方と同様の考え方に基づいている。風間版所在の説明に用いた例を
+天理版所在として示すと次のようになる。</p>
+<p><strong>例</strong></p>
+<ul>
+<li>Ta023310: (単字項目、1段1項目) 上巻 頁23 行3 段1 <strong>字順0</strong></li>
+<li>Tc090411: (複字項目、1段1項目) 下巻 頁90 行4 段1 <strong>字順1</strong></li>
+<li>Ta026241: (段内に複数項目ある場合の<strong>最初の項目</strong>) 上巻 頁26 行2 段4 <strong>字順1</strong></li>
+<li>Ta026242: (段内に複数項目ある場合の<strong>段内の2字目から始まる項目</strong>) 上巻 頁26 行2 段4 <strong>字順2</strong></li>
+<li>Ta030341: (段内に複数項目ある場合の<strong>最初の項目</strong>) 上巻 頁30 行3 段4 <strong>字順1</strong></li>
+<li>Ta030343: (段内に複数項目ある場合の<strong>段内の3字目から始まる項目</strong>) 上巻 頁30 行3 段4 <strong>字順3</strong></li>
+</ul>
+<p><strong>目的</strong>：天理版における掲出項目の所在地を示す。
+主に使用される1段1項目、頻繁に出現する多段1項目、そして稀な1段多項目といった、様々な掲出項目の配置パターンすべてに対応できるよう、文字位置の表示ルールに基づいて定められている。</p>
+<p><strong>出典</strong>：『類聚名義抄　仏・法・僧』（天理図書館善本叢書和書之部第32-34巻、天理大学出版部・八木書店発売）に基づく。</p>
+<h3 id="掲出字の入力方法">掲出字の入力方法</h3>
+<p>掲出字は、hanzi_entryカラムに入力する。</p>
+<p>掲出項目は単字形式と複字形式があるが、単字形式は特に問題にならないので、
+ここでは複字形式の場合の入力方法について説明する。</p>
+<p>複字形式の掲出項目に見える異体字併記と熟語は、掲出字を「／」（全角スラッシュ, U+FF0F）で区切って入力する。</p>
+<p>掲出項目が「／」を含めば、それは複字形式であることを示し、用いられる「／」の数は複字形式の掲出字数を示す。</p>
+<p><strong>例</strong></p>
+<ul>
+<li>異体字併記：翛／倐／倏／翛β</li>
+<li>熟語：一／人</li>
+</ul>
+<p>Unicodeを利用した文字の入力方法については、
+<a href="https://shikeda.github.io/docs/notes/krm-main/item-input/#%e6%96%87%e5%ad%97%e3%81%ae%e7%ac%a6%e5%8f%b7%e5%8c%96%e3%81%a8%e8%a1%a8%e7%8f%be">文字の符号化と表現</a>を参照されたい。</p>
+<h3 id="データ表現におけるidの扱い">データ表現におけるIDの扱い</h3>
+<p>名義抄の主要な項目データ（例：krm_main.tsv）はTSV形式で公開される。
+このセクションでは、各IDがTSVファイル上でどのように表現されるか、特に複字形式の場合の表現ルールについて説明する。
+他のセクション（主要IDの詳細形式、掲出字の入力方法、掲出字の詳細情報（マッピングテーブル）へ移譲）と
+説明が重複するところがあるが、TSV形式のデータ処理には重要な情報となるので、再度まとめる。</p>
+<p><strong>TSVカラムとIDの対応:</strong></p>
+<p>主要なTSVファイルには、次のカラムにそれぞれのIDが格納される。</p>
+<ul>
+<li>entry_id: 掲出項目ID (F形式)</li>
+<li>hanzi_id: 掲出字ID (S形式)</li>
+<li>kazama_location: 風間版所在 (K形式)</li>
+<li>tenri_location: 天理版所在 (T形式)</li>
+</ul>
+<p>上記以外のID（例: 項目を構成する2番目以降の掲出字IDや所在ID）は、この主要ファイルには直接格納されず、
+別のマッピングテーブル（krm_headword_chars.tsv）で参照できる。</p>
+<p><strong>複字形式の項目のデータ表現ルール</strong></p>
+<ul>
+<li>複字形式の掲出項目（異体字併記や熟語）は、hanzi_entry カラムに全角のスラッシュ('／')区切りで文字列として格納される。</li>
+<li>IDの表現に関しては、複字形式の掲出項目に対応するメインのTSV行には、その項目の先頭文字に関連するIDのみが表示される。</li>
+<li>項目を構成する2番目以降の文字に関するID（S形式、K形式、T形式）は、このメインの行では省略される。</li>
+</ul>
+<p><strong>例</strong><br>
+掲出項目「AB」（構成：A + B）があり、それぞれのIDが次の通りであるとする。</p>
+<ul>
+<li>掲出項目ID: F25121</li>
+<li>Aの掲出字ID: S31590 (風間版所在: K08084411, 天理版所在: Tc090411)</li>
+<li>Bの掲出字ID: S31591 (風間版所在: K08084412, 天理版所在: Tc090412)</li>
+</ul>
+<p>この項目がTSVファイルで表示される際は、メインの行は次のようになる。関連するカラムのみ示す。</p>
+<table>
+<thead>
+<tr>
+<th align="left">entry_id</th>
+<th align="left">hanzi_id</th>
+<th align="left">hanzi_entry</th>
+<th align="left">kazama_location</th>
+<th align="left">tenri_location</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">F25121</td>
+<td align="left">S31590</td>
+<td align="left">AB</td>
+<td align="left">K08084411</td>
+<td align="left">Tc090411</td>
+</tr>
+</tbody>
+</table>
+<p>この行には、項目ID、<strong>先頭文字の</strong>掲出字ID、項目全体の文字列、そして<strong>先頭文字の</strong>所在IDのみが含まれていることが分かる。</p>
+<h3 id="掲出字の詳細情報マッピングテーブルへ移譲">掲出字の詳細情報（マッピングテーブル）へ移譲</h3>
+<p>掲出字に関する次の情報のすべてをマッピングテーブル（krm_headword_chars.tsv）へ移譲する。</p>
+<ul>
+<li>各掲出字ID（S形式）に対応する、より詳細な位置情報（K形式、T形式）のリスト全体</li>
+<li>個々の掲出字（S形式）に対応する、切り抜き画像ファイル名</li>
+<li>個々の掲出字（S形式）に対応する、GlyphWikiのグリフ番号</li>
+</ul>
+<p>これらの情報が必要な利用者は、krm_headword_chars.tsv を参照する必要がある。</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function select(element){const selection=window.getSelection();const range=document.createRange();range.selectNodeContents(element);selection.removeAllRanges();selection.addRange(range);}
+document.querySelectorAll("pre code").forEach(code=>{code.addEventListener("click",function(event){select(code.parentElement);if(navigator.clipboard){navigator.clipboard.writeText(code.parentElement.textContent);}});});})();</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#掲出字と掲出項目の定義">掲出字と掲出項目の定義</a></li>
+    <li><a href="#掲出項目の配置の原則と例外">掲出項目の配置の原則と例外</a></li>
+    <li><a href="#名義抄のid体系">名義抄のID体系</a>
+      <ul>
+        <li><a href="#idの種類">IDの種類</a></li>
+        <li><a href="#各カラムの関係性">各カラムの関係性</a></li>
+        <li><a href="#主要idの詳細形式">主要IDの詳細形式</a></li>
+        <li><a href="#掲出字の入力方法">掲出字の入力方法</a></li>
+        <li><a href="#データ表現におけるidの扱い">データ表現におけるIDの扱い</a></li>
+        <li><a href="#掲出字の詳細情報マッピングテーブルへ移譲">掲出字の詳細情報（マッピングテーブル）へ移譲</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

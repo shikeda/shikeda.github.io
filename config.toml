@@ -1,19 +1,42 @@
 baseURL = 'https://shikeda.github.io/'
-languageCode = 'jp'
 title = 'HDIC project'
-DefaultContentLanguage = "jp"
+# languageCode = 'ja' # 不要（defaultContentLanguageで指定するため）
 theme = "hugo-book"
 
 hasCJKLanguage = true
-metaDataFormat = "yaml"
+# metaDataFormat = "yaml" # YAMLはデフォルトなので省略可。明示的に残すのはOK。
 
-
-publishDir = "docs"
+publishDir = "docs" # GitHub Pagesで docs ディレクトリを使う場合の設定
 
 canonifyurls = true
 
-defaultContentLanguage = "jp"
-defaultContentLanguageInSubdir= false
+DefaultContentLanguage = "ja" 
+defaultContentLanguageInSubdir = false
+
+# ====== 多言語設定 ======
+[languages]
+  [languages.ja]
+    languageName = "Japanese"
+    # その他のjaに関する設定（例: weight, paramsなど）
+
+  [languages.en]
+    languageName = "English"
+    # その他のenに関する設定（例: weight, paramsなど）
+    # weight = 1 # メニュー表示順などで使うことがあります
+
+# デフォルト言語の指定（[languages] の後にまとめて書くのが一般的）
+defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = false # デフォルト言語のコンテンツをサブディレクトリに入れない（ルートに配置する）
+
+# 翻訳が見つからない場合のプレースホルダ表示設定
 enableMissingTranslationPlaceholders = false
 
-
+# ====== 各種設定 (Themes, Modules, etc.) ======
+# 必要に応じて、テーマ固有の設定やモジュールの設定などをここに追加します。
+# [params]
+#   someThemeSetting = "value"
+#
+# [module]
+#   [module.hugoVersion]
+#     extended = true
+#     min = "0.XX.0"

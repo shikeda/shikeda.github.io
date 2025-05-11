@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Hugo Book テーマにおける多言語対応と言語切替リンク設置まとめ 1. 言語設定（config.toml） defaultContentLanguage = &#34;ja&#34; defaultContentLanguageInSubdir = true [languages] [languages.ja] languageName = &#34;Japanese&#34; weight = 1 [languages.en] languageName = &#34;English&#34; weight = 2 defaultContentLanguageInSubdir = true に">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Hugo Book I18n Notes" />
+<meta property="og:description" content="Hugo Book テーマにおける多言語対応と言語切替リンク設置まとめ 1. 言語設定（config.toml） defaultContentLanguage = &#34;ja&#34; defaultContentLanguageInSubdir = true [languages] [languages.ja] languageName = &#34;Japanese&#34; weight = 1 [languages.en] languageName = &#34;English&#34; weight = 2 defaultContentLanguageInSubdir = true に" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://shikeda.github.io/posts/hugo-book-i18n-notes/" />
+<meta property="article:published_time" content="2025-05-10T18:27:43+09:00" />
+<meta property="article:modified_time" content="2025-05-10T18:27:43+09:00" />
+<title>Hugo Book I18n Notes | HDIC project</title>
+<link rel="manifest" href="https://shikeda.github.io/manifest.json">
+<link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
+  <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
+  <script defer src="https://shikeda.github.io/ja.search.min.cdc8ec079e9d5f695e067ed2573b957cc6fb2ce38e60cdca74c82473477775c6.js" integrity="sha256-zcjsB56dX2leBn7SVzuVfMb7LOOOYM3KdMgkc0d3dcY=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+--><link rel="stylesheet" href="https://shikeda.github.io/css/custom.css">
+
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="https://shikeda.github.io/"><span>HDIC project</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="検索" aria-label="検索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="https://shikeda.github.io/svg/translate.svg" class="book-icon" alt="Languages" />
+        Japanese
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="https://shikeda.github.io/en/">
+          English
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/" class="">類聚名義抄</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a21083d16b1033005535f30a6adb809d" class="toggle"  />
+    <label for="section-a21083d16b1033005535f30a6adb809d" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/krm/01-introduction/" class="">資料紹介</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/01-introduction/01-01-introduction/" class="">類聚名義抄の概要</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2e6fd25066f114a98e4b09e805ed204b" class="toggle"  />
+    <label for="section-2e6fd25066f114a98e4b09e805ed204b" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/krm/02-data-overview/" class="">公開データの概要</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/02-data-overview/02-01-main/" class="">krm_main</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/02-data-overview/02-02-notes/" class="">krm_notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/02-data-overview/02-03-headword-chars/" class="">krm_headword_chars</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/02-data-overview/02-04-wakun/" class="">krm_wakun</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/02-data-overview/02-05-definitions/" class="">krm_definitions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/02-data-overview/02-06-pronunciations/" class="">krm_pronunciations</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/02-data-overview/02-07-ndl/" class="">krm_ndl</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-18330968ac10ed524dce7f905e2fa9d1" class="toggle"  />
+    <label for="section-18330968ac10ed524dce7f905e2fa9d1" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/krm/03-entry-data-model/" class="">項目データモデル</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-01-data-structure/" class="">項目データ構造</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-02-types-of-entries/" class="">項目の種類</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/" class="">文字表記に関する概念</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/" class="">項目データファイルの公開・更新</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-87498ea6c2fdc839c09536ef19d5a883" class="toggle"  />
+    <label for="section-87498ea6c2fdc839c09536ef19d5a883" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/krm/04-entry-input/" class="">項目データ入力</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/04-entry-input/04-01-id/" class="">掲出字・項目構造とID体系</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/04-entry-input/04-02-char/" class="">文字の符号化と表現</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/04-entry-input/04-03-handling/" class="">書写・表記・注記における問題と対応</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-39c26421ded02df06731534e5d5cacfa" class="toggle"  />
+    <label for="section-39c26421ded02df06731534e5d5cacfa" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/krm/05-annotation-policy/" class="">注釈データ入力の詳細</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-01-basic-policy/" class="">注釈作成の基本方針と分析対象</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-02-headword-count/" class="">掲出字数の算出</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-03-jitaichu-formats/" class="">字体注の種類と記載形式</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-04-onchu-problems/" class="">音注の種類と解読上の問題点 </a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-05-gichu-quantity/" class="">義注の種類と数量</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-06-wakun-materials/" class="">和訓注釈のための基礎資料</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-07-annotation-examples/" class="">注釈記述の具体例</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2054f4dcf4d1ba0e9581ece684b97620" class="toggle"  />
+    <label for="section-2054f4dcf4d1ba0e9581ece684b97620" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/krm/06-typesetting/" class="">翻刻・注釈の組版の設定</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/06-typesetting/06-01-hanazono-mincho/" class="">花園明朝の設定</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/06-typesetting/06-02-glypwiki/" class="">GlyphWikiの設定</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/06-typesetting/06-03-sfkanbun-sty/" class="">sfkanbun.styの設定</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/06-typesetting/06-04-vscode-texlive/" class="">VS CodeとTeX Live</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/06-typesetting/06-05-online-tools/" class="">オンラインツール</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-068bca7cdf62bb4073989d04fb272c5f" class="toggle"  />
+    <label for="section-068bca7cdf62bb4073989d04fb272c5f" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/krm/07-progress/" class="">進捗状況</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/07-progress/1/" class="">掲出字</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-8ecff4a73c783ca4af30f28f5ced37f8" class="toggle"  />
+    <label for="section-8ecff4a73c783ca4af30f28f5ced37f8" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/krm/07-progress/2/" class="">注文</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9aee308d6f9532469c1ece02c9f90131" class="toggle"  />
+    <label for="section-9aee308d6f9532469c1ece02c9f90131" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/krm/07-progress/3/" class="">字体注</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-a88ef6983007c1e8fbf4941fe09cbc74" class="toggle"  />
+    <label for="section-a88ef6983007c1e8fbf4941fe09cbc74" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/krm/07-progress/4/" class="">音注</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-751568650f602cad77aa4532b10449ad" class="toggle"  />
+    <label for="section-751568650f602cad77aa4532b10449ad" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/krm/07-progress/5/" class="">義注</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/07-progress/6/" class="">和訓</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-db5bf744eff1048f662aceb446bb111a" class="toggle"  />
+    <label for="section-db5bf744eff1048f662aceb446bb111a" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/krm/07-progress/7/" class="">その他</a>
+    </label>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-7c9a5edc9c2c64d48c02f42cd8f71940" class="toggle"  />
+    <label for="section-7c9a5edc9c2c64d48c02f42cd8f71940" class="flex justify-between">
+      <a href="https://shikeda.github.io/docs/krm/08-case-studies/" class="">事例研究</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/08-case-studies/1-ugoku/" class="">和訓「ウゴク」の調査</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/08-case-studies/2-miru/" class="">和訓「ミル」の調査</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/08-case-studies/3-wakun-uf/" class="">和訓の使用頻度</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/08-case-studies/4-kana-split/" class="">同仮名異語の区別</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/08-case-studies/5-dhsjr/" class="">DHSJRとの連携</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/08-case-studies/6/" class="">準備中</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://shikeda.github.io/posts/" >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+
+    <div style="text-align: right; padding: 1rem;">
+      
+
+
+    </div>
+
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="https://shikeda.github.io/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Hugo Book I18n Notes</strong>
+
+  <label for="toc-control">
+    
+    <img src="https://shikeda.github.io/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-言語設定configtoml">1. 言語設定（<code>config.toml</code>）</a></li>
+    <li><a href="#2-コンテンツ構成">2. コンテンツ構成</a></li>
+    <li><a href="#3-言語切替リンクの作成">3. 言語切替リンクの作成</a>
+      <ul>
+        <li><a href="#layoutspartialsdocslanguage-switcherhtml"><code>layouts/partials/docs/language-switcher.html</code></a></li>
+      </ul>
+    </li>
+    <li><a href="#4-baseofhtml-に挿入するコードヘッダ部分">4. <code>baseof.html</code> に挿入するコード（ヘッダ部分）</a>
+      <ul>
+        <li><a href="#layouts_defaultbaseofhtml-の修正"><code>layouts/_default/baseof.html</code> の修正</a></li>
+      </ul>
+    </li>
+    <li><a href="#5-注意点">5. 注意点</a></li>
+    <li><a href="#6-不要なテンプレートの整理">6. 不要なテンプレートの整理</a></li>
+    <li><a href="#7-よくあるエラーと対処">7. よくあるエラーと対処</a></li>
+    <li><a href="#参考">参考</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown">
+  <h1>
+    <a href="https://shikeda.github.io/posts/hugo-book-i18n-notes/">Hugo Book I18n Notes</a>
+  </h1>
+  
+  <h5>May 10, 2025</h5>
+
+
+
+  
+
+  
+
+
+
+<h1 id="hugo-book-テーマにおける多言語対応と言語切替リンク設置まとめ">Hugo Book テーマにおける多言語対応と言語切替リンク設置まとめ</h1>
+<h2 id="1-言語設定configtoml">1. 言語設定（<code>config.toml</code>）</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#a6e22e">defaultContentLanguage</span> = <span style="color:#e6db74">&#34;ja&#34;</span>
+<span style="color:#a6e22e">defaultContentLanguageInSubdir</span> = <span style="color:#66d9ef">true</span>
+
+[<span style="color:#a6e22e">languages</span>]
+  [<span style="color:#a6e22e">languages</span>.<span style="color:#a6e22e">ja</span>]
+    <span style="color:#a6e22e">languageName</span> = <span style="color:#e6db74">&#34;Japanese&#34;</span>
+    <span style="color:#a6e22e">weight</span> = <span style="color:#ae81ff">1</span>
+
+  [<span style="color:#a6e22e">languages</span>.<span style="color:#a6e22e">en</span>]
+    <span style="color:#a6e22e">languageName</span> = <span style="color:#e6db74">&#34;English&#34;</span>
+    <span style="color:#a6e22e">weight</span> = <span style="color:#ae81ff">2</span>
+</code></pre></div><ul>
+<li><code>defaultContentLanguageInSubdir = true</code> にすることで、デフォルト言語（日本語）も <code>/ja/</code> サブディレクトリに配置され、明示的な切替が可能になります。</li>
+</ul>
+<hr>
+<h2 id="2-コンテンツ構成">2. コンテンツ構成</h2>
+<ul>
+<li><code>content/</code> フォルダ内に <code>_index.ja.md</code> と <code>_index.en.md</code> を用意。</li>
+<li>各言語ごとに対応する <code>.md</code> ファイルを準備すると <code>.Translations</code> が有効に機能します。</li>
+</ul>
+<p>例：</p>
+<pre><code>content/
+  _index.ja.md
+  _index.en.md
+  docs/
+    krm/
+      _index.ja.md
+      _index.en.md
+</code></pre><hr>
+<h2 id="3-言語切替リンクの作成">3. 言語切替リンクの作成</h2>
+<h3 id="layoutspartialsdocslanguage-switcherhtml"><code>layouts/partials/docs/language-switcher.html</code></h3>
+<pre><code class="language-gohtml" data-lang="gohtml">{{ $currentLang := .Site.Language.Lang }}
+{{ range .Translations }}
+  {{ if eq .Lang &quot;ja&quot; }}
+    &lt;a href=&quot;{{ .RelPermalink }}&quot;&gt;日本語&lt;/a&gt;
+  {{ else if eq .Lang &quot;en&quot; }}
+    &lt;a href=&quot;{{ .RelPermalink }}&quot;&gt;English&lt;/a&gt;
+  {{ end }}
+{{ end }}
+</code></pre><blockquote>
+<p><code>.Translations</code> は現在のページと同じファイルパスの他言語ページを配列で保持します。</p>
+</blockquote>
+<hr>
+<h2 id="4-baseofhtml-に挿入するコードヘッダ部分">4. <code>baseof.html</code> に挿入するコード（ヘッダ部分）</h2>
+<h3 id="layouts_defaultbaseofhtml-の修正"><code>layouts/_default/baseof.html</code> の修正</h3>
+<pre><code class="language-gohtml" data-lang="gohtml">&lt;div class=&quot;book-page&quot;&gt;
+
+  &lt;div style=&quot;text-align: right; padding: 1rem;&quot;&gt;
+    {{ partial &quot;docs/language-switcher.html&quot; . }}
+  &lt;/div&gt;
+
+  &lt;header class=&quot;book-header&quot;&gt;
+</code></pre><blockquote>
+<p>サイドバーの上や本文の前に挿入して、切り替えリンクを表示します。</p>
+</blockquote>
+<hr>
+<h2 id="5-注意点">5. 注意点</h2>
+<ul>
+<li><code>.Translations</code> が動作するためには、対応する言語のページが存在している必要があります。</li>
+<li>ページが一方の言語にしか存在しない場合、そのページ上ではリンクは表示されません。</li>
+</ul>
+<hr>
+<h2 id="6-不要なテンプレートの整理">6. 不要なテンプレートの整理</h2>
+<ul>
+<li><code>layouts/partials/docs/header.html</code> が残っていると、<code>baseof.html</code> の <code>{{ template &quot;header&quot; . }}</code> によって古い内容が干渉することがあります。</li>
+<li>不要であれば削除または中身を整理してください。</li>
+</ul>
+<hr>
+<h2 id="7-よくあるエラーと対処">7. よくあるエラーと対処</h2>
+<ul>
+<li>
+<p><strong>エラー内容</strong>：</p>
+<pre><code>can't evaluate field GetByLang in type page.Pages
+</code></pre><p>→ 原因：<code>.Translations</code> に対して <code>GetByLang</code> メソッドは存在しないため、<code>range</code> で処理する必要があります。</p>
+</li>
+</ul>
+<hr>
+<h2 id="参考">参考</h2>
+<ul>
+<li>Hugo 多言語サイト公式ガイド: <a href="https://gohugo.io/content-management/multilingual/">https://gohugo.io/content-management/multilingual/</a></li>
+<li>Hugo Book テーマ: <a href="https://github.com/alex-shpak/hugo-book">https://github.com/alex-shpak/hugo-book</a></li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-言語設定configtoml">1. 言語設定（<code>config.toml</code>）</a></li>
+    <li><a href="#2-コンテンツ構成">2. コンテンツ構成</a></li>
+    <li><a href="#3-言語切替リンクの作成">3. 言語切替リンクの作成</a>
+      <ul>
+        <li><a href="#layoutspartialsdocslanguage-switcherhtml"><code>layouts/partials/docs/language-switcher.html</code></a></li>
+      </ul>
+    </li>
+    <li><a href="#4-baseofhtml-に挿入するコードヘッダ部分">4. <code>baseof.html</code> に挿入するコード（ヘッダ部分）</a>
+      <ul>
+        <li><a href="#layouts_defaultbaseofhtml-の修正"><code>layouts/_default/baseof.html</code> の修正</a></li>
+      </ul>
+    </li>
+    <li><a href="#5-注意点">5. 注意点</a></li>
+    <li><a href="#6-不要なテンプレートの整理">6. 不要なテンプレートの整理</a></li>
+    <li><a href="#7-よくあるエラーと対処">7. よくあるエラーと対処</a></li>
+    <li><a href="#参考">参考</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

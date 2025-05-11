@@ -15,7 +15,7 @@
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/jp.search.min.f5f43a7383305a24f291c69bca799eb6cf813502932315b3dcb9e6ced6bff2b2.js" integrity="sha256-9fQ6c4MwWiTykcabynmets&#43;BNQKTIxWz3Lnmzta/8rI=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/jp.search.min.3c84b1e64eaf8132a1ae528d29b543027869c77853d37876c2053c0bcc2ad989.js" integrity="sha256-PISx5k6vgTKhrlKNKbVDAnhpx3hT03h2wgU8C8wq2Yk=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://shikeda.github.io/docs/notes/krm/04-entry-input/index.xml" title="HDIC project" />
 <!--
 Made with Book Theme
@@ -342,7 +342,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/docs/notes/krm/04-entry-input/1-id/" class="">掲出字・項目構造とID体系</a>
+    <a href="https://shikeda.github.io/docs/notes/krm/04-entry-input/04-01-id/" class="">掲出字・項目構造とID体系</a>
   
 
         </li>
@@ -355,7 +355,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/docs/notes/krm/04-entry-input/2-char/" class="">文字の符号化と表現</a>
+    <a href="https://shikeda.github.io/docs/notes/krm/04-entry-input/04-02-char/" class="">文字の符号化と表現</a>
   
 
         </li>
@@ -890,17 +890,17 @@ https://github.com/alex-shpak/hugo-book
 <p>観智院本類聚名義抄(KRM)の項目データの入力方法を解説する。
 以下、観智院本類聚名義抄を名義抄またはKRMと呼ぶ。</p>
 <p>項目は掲出字と注文とからなる。
-ここでは、名義抄の主要な項目データ（例：krm-main.tsv）について、掲出字の入力と注文の入力とに共通する事項を中心に解説する。</p>
-<p>この文書で説明する入力規則のうち、<strong>文字の表現方法</strong>に関する規則（Unicode外の文字、特殊記号など）は、krm-notesをはじめとする他の公開データにも共通して適用される場合がある。公開データ全体の構成やファイル形式の詳細については、<a href="https://shikeda.github.io/docs/notes/krm-main/contens/">公開データの概要</a>を参照されたい。</p>
-<p>公開データは、TSV形式を主に用いるが、内容の可読性を配慮してJSON形式にしたものもある。</p>
-<p>まず、<strong>掲出字・項目構造とID体系</strong>について解説する。KRMデータのID体系は複雑なので、利用者は注意深く読んでもらいたい。
-次にUnicodeを利用した<strong>文字の符号化と表現</strong>を解説する。Unicodeによって表現できない文字の扱いは複数の方式を併用しているので、その点も解説した。
+ここでは、名義抄の主要な項目データ（例：<code>krm-main.tsv</code>）について、掲出字の入力と注文の入力とに共通する事項を中心に解説する。</p>
+<p>この文書で説明する入力規則のうち、<strong>文字の表現方法</strong>に関する規則（Unicode外の文字、特殊記号など）は、<code>krm-notes</code> をはじめとする他の公開データにも共通して適用される場合がある。公開データ全体の構成やファイル形式の詳細については、<a href="https://shikeda.github.io/docs/notes/krm/02-data-overview/">公開データの概要</a>を参照されたい。</p>
+<p>公開データは、TSV 形式を主に用いるが、内容の可読性を配慮して JSON 形式にしたものもある。</p>
+<p>まず、<strong>掲出字・項目構造とID体系</strong>について解説する。KRM データのID体系は複雑なので、利用者は注意深く読んでもらいたい。
+次にUnicodeを利用した<strong>文字の符号化と表現</strong>を解説する。Unicode によって表現できない文字の扱いは複数の方式を併用しているので、その点も解説した。
 最後に、誤字・脱字など<strong>書写上の問題</strong>、省略符号や踊り字など<strong>文字・語の表記形式</strong>、
 割注、小字注記など<strong>付加注記・レイアウト</strong>を整理して、<strong>書写・表記・注記における問題</strong>と対応をまとめる。</p>
 <ul>
-<li><a href="https://shikeda.github.io/docs/notes/krm-main/item-input/1-id/">掲出字・項目構造とID体系</a></li>
-<li><a href="https://shikeda.github.io/docs/notes/krm-main/item-input/2-char/">文字の符号化と表現</a></li>
-<li><a href="https://shikeda.github.io/docs/notes/krm-main/item-input/3-handling/">書写・表記・注記における問題と対応</a></li>
+<li><a href="https://shikeda.github.io/docs/notes/krm/04-entry-input/04-01-id/">掲出字・項目構造とID体系</a></li>
+<li><a href="https://shikeda.github.io/docs/notes/krm/04-entry-input/04-02-char/">文字の符号化と表現</a></li>
+<li><a href="https://shikeda.github.io/docs/notes/krm/04-entry-input/04-03-handling/">書写・表記・注記における問題と対応</a></li>
 </ul>
 </article>
  

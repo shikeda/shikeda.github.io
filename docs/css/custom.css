@@ -1,0 +1,15 @@
+/* コードブロックの色調整（青紫系に） */
+pre code {
+  background-color: #f3f0ff !important;  /* やや白に近い淡い青紫 */
+  color: #000 !important;
+}
+
+pre {
+  background-color: #f3f0ff !important;
+}
+
+.book-header .language-switcher {
+  display: inline-block;
+  margin-left: auto;
+  font-size: 0.9rem;
+}
