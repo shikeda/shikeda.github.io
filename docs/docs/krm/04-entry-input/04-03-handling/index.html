@@ -15,7 +15,7 @@
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/ja.search.min.cdc8ec079e9d5f695e067ed2573b957cc6fb2ce38e60cdca74c82473477775c6.js" integrity="sha256-zcjsB56dX2leBn7SVzuVfMb7LOOOYM3KdMgkc0d3dcY=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/ja.search.min.345d5a90ce8caf70a950cd3f533b9d3681e6f86c9877e09a6d04073394080487.js" integrity="sha256-NF1akM6Mr3CpUM0/UzudNoHm&#43;GyYd&#43;CabQQHM5QIBIc=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -260,8 +260,8 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-18330968ac10ed524dce7f905e2fa9d1" class="toggle"  />
-    <label for="section-18330968ac10ed524dce7f905e2fa9d1" class="flex justify-between">
+    <input type="checkbox" id="section-50dada2b95228fd7e2d86c8977b17302" class="toggle"  />
+    <label for="section-50dada2b95228fd7e2d86c8977b17302" class="flex justify-between">
       <a href="https://shikeda.github.io/docs/krm/03-entry-data-model/" class="">項目データモデル</a>
     </label>
   
@@ -915,6 +915,7 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#改行空白">改行・空白</a></li>
         <li><a href="#補入注文">補入注文</a></li>
         <li><a href="#無注記">無注記</a></li>
+        <li><a href="#掲出字補注">掲出字補注</a></li>
         <li><a href="#その他の注意すべき事例">その他の注意すべき事例</a></li>
       </ul>
     </li>
@@ -1200,6 +1201,25 @@ https://github.com/alex-shpak/hugo-book
 <p>補入注文（supplementary definition, 補入注文）は適切と判断した位置に記載する。</p>
 <h3 id="無注記">無注記</h3>
 <p>注文が存しない場合は、（無）で表す。全角の丸括弧（）を用いる。</p>
+<h3 id="掲出字補注">掲出字補注</h3>
+<p>掲出字に対して施された注記を掲出字補注と呼ぶ。
+掲出字に直接施された声点と片仮名音注、掲出字に直接施された傍訓と返点、注文末尾の異本注記である。
+これらをまとめて説明する。</p>
+<p><strong>掲出字の声点と片仮名音注</strong></p>
+<p>掲出字に施され音読みを示す声点と片仮名は注文の最初に二重丸（◎，U+25CE）と被注字を付してその直後に記載する。声点は( )の中に略称で示し、片仮名は「　」を付す。</p>
+<p><strong>掲出字の傍訓と返点</strong></p>
+<p>掲出字に施され訓読を示す傍訓と返点は丸中黒（⦿, U+29BF）と被注字を、掲出字に施された漢文注記（反切、意義注、字体注、出典注記）はひし形（◇, U+25CF）と被注字を、掲出字に施された異本注記は黒三角（▲, U+25B2）と被注字を付してその直後に「」に入れて記載する。</p>
+<p><strong>注文末尾の異本注記</strong></p>
+<p>注文の末尾に追記された掲出字に対する異本注記は、注文末尾に▲を付し、その内容を「」に入れて示す。</p>
+<p><strong>記載の順序</strong></p>
+<p>掲出字補注四種を併記する必要がある場合には、◎音読み、⦿訓読み、◇漢文注、▲異本注記の順に記載する。</p>
+<p><strong>例</strong></p>
+<ul>
+<li>◎純「ト（L）ン（H）」</li>
+<li>⦿虱「キサヽ」</li>
+<li>◇⿱惟乃「手歟」</li>
+<li>▲⿲骨石辛「𩪧イ」</li>
+</ul>
 <h3 id="その他の注意すべき事例">その他の注意すべき事例</h3>
 <p><strong>判読注</strong></p>
 <p>編者の判読注（decipherment note, 解讀注記）を( )に入れて示すことがある。</p>
@@ -1290,6 +1310,7 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#改行空白">改行・空白</a></li>
         <li><a href="#補入注文">補入注文</a></li>
         <li><a href="#無注記">無注記</a></li>
+        <li><a href="#掲出字補注">掲出字補注</a></li>
         <li><a href="#その他の注意すべき事例">その他の注意すべき事例</a></li>
       </ul>
     </li>

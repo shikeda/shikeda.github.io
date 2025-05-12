@@ -45,6 +45,20 @@
   </url>
   
   <url>
+    <loc>https://shikeda.github.io/en/docs/krm/03-entry-data-model/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shikeda.github.io/docs/krm/03-entry-data-model/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/"
+                />
+  </url>
+  
+  <url>
     <loc>https://shikeda.github.io/en/docs/krm/01-introduction/01-01-introduction/</loc>
     <xhtml:link
                 rel="alternate"
@@ -55,6 +69,48 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://shikeda.github.io/en/docs/krm/01-introduction/01-01-introduction/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-01-data-structure/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-02-types-of-entries/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-02-types-of-entries/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-02-types-of-entries/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-03-concepts-char/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-03-concepts-char/"
                 />
   </url>
   
@@ -181,6 +237,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://shikeda.github.io/en/docs/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/"
                 />
   </url>
   

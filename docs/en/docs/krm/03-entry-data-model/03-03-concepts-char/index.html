@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Concepts Related to Character Notation Under preparation. 書体・字体・字形 「書体」「字体」「字形」の用語は 石塚晴通『図書寮本 日本書紀 研究篇』（汲古書院、1984）の定義に従う。 書体 &mdash; 漢">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Concepts Related to Character Notation" />
+<meta property="og:description" content="Concepts Related to Character Notation Under preparation. 書体・字体・字形 「書体」「字体」「字形」の用語は 石塚晴通『図書寮本 日本書紀 研究篇』（汲古書院、1984）の定義に従う。 書体 &mdash; 漢" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-03-concepts-char/" />
+
+<title>Concepts Related to Character Notation | HDIC project</title>
+<link rel="manifest" href="https://shikeda.github.io/manifest.json">
+<link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
+  <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/" title="文字表記に関する概念">
+<link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
+  <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.566b186a5c649814e58120287ecbaa12c0544532bf2b60f21f36ae3ae7b9ea07.js" integrity="sha256-VmsYalxkmBTlgSAofsuqEsBURTK/K2DyHzauOue56gc=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+--><link rel="stylesheet" href="https://shikeda.github.io/css/custom.css">
+
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="https://shikeda.github.io/en/"><span>HDIC project</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="https://shikeda.github.io/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/">
+          Japanese
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/" class="">Ruiju Myogisho</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-192191ec609e1f023e064fb2a66ac34d" class="toggle"  />
+    <label for="section-192191ec609e1f023e064fb2a66ac34d" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/01-introduction/" class="">Overview</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/01-introduction/01-01-introduction/" class="">Overview of the Ruiju Myōgishō</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-55a7e9d6b991c6fecee19e08156caca3" class="toggle"  />
+    <label for="section-55a7e9d6b991c6fecee19e08156caca3" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/" class="">Overview of Published Data</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-01-main/" class="">krm_main</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-02-notes/" class="">krm_notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-03-headword-chars/" class="">krm_headword_chars</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-04-wakun/" class="">krm_wakun</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-05-definitions/" class="">krm_definitions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-06-pronunciations/" class="">krm_pronunciations</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-07-ndl/" class="">krm_ndl</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c0a1d6c4ee20825c9c1df910d750678a" class="toggle" checked />
+    <label for="section-c0a1d6c4ee20825c9c1df910d750678a" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/" class="">Entry Data Model</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/" class="">Entry Data Structure</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-02-types-of-entries/" class="">Types of Entries</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-03-concepts-char/" class=" active">Concepts Related to Character Notation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/" class="">Examples of Entry Data Files</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+
+    <div style="text-align: right; padding: 1rem;">
+      
+
+  
+    <a href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/">日本語</a>
+  
+
+
+    </div>
+
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="https://shikeda.github.io/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Concepts Related to Character Notation</strong>
+
+  <label for="toc-control">
+    
+    <img src="https://shikeda.github.io/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#書体字体字形">書体・字体・字形</a></li>
+        <li><a href="#異体字">異体字</a></li>
+        <li><a href="#形近字">形近字</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="concepts-related-to-character-notation">Concepts Related to Character Notation</h1>
+<p>Under preparation.</p>
+<h3 id="書体字体字形">書体・字体・字形</h3>
+<p>「書体」「字体」「字形」の用語は
+石塚晴通『図書寮本 日本書紀 研究篇』（汲古書院、1984）の定義に従う。</p>
+<ul>
+<li><strong>書体</strong> &mdash; 漢字の形に於て存在する社会共通の様式。多くは其の漢字資料の目的により決まる。楷書・草書等</li>
+<li><strong>字体</strong> &mdash; 書体内に於て存在する一々の漢字の社会共通の基準</li>
+<li><strong>字形</strong> &mdash; 字体内に於て認識する一々の漢字の書写された形そのもの</li>
+</ul>
+<p>「書体」「字体」「字形」を階層的に捉える点がこの定義の特徴である。</p>
+<h3 id="異体字">異体字</h3>
+<p><strong>異体字</strong>（variant glyph）は「字体」レベルにおいて、「正字」に対応する概念である。
+石塚晴通「漢字字体の日本的標準」（『国語と国文学』76（5）、1999）
+などに示される漢字字体史研究のモデルでは、漢字字体の標準は
+時代・地域により変遷するという考えをとっており、
+**漢字字体規範データベース（HNG）**はそのモデルの実証を意図するものである。
+HNGは<a href="https://www.hng-data.org">漢字字体規範史データセット</a>で利用できる。</p>
+<p>異体字は「正字」でない字体を指すのが一般の理解であるが、石塚のモデルでは、時代・地域により、漢字字体の標準、すなわち「正字」が相違するのであるから、あらかじめ「正字」と「異体字」とを区別することができない。ここでは、異体字を漢字字体のバリエーションとして捉え、「正」「俗」「通」「或」等の字体注記（字級）が施されていれば異体字を示していると判断する。</p>
+<p>「正」「俗」等の字体注記を<strong>字級</strong>（glyph class）と呼ぶのは、
+李景遠『隋唐字様學研究』（國立臺灣師範大學國文研究所博士論文、1997）による。</p>
+<h3 id="形近字">形近字</h3>
+<p><strong>形近字</strong>（similar glyph character）とは、字形が近似しているが別字であるものである。類形別字あるいは類形異字と呼ばれる。観智院本『類聚名義抄』の研究では、
+酒井憲二「類聚名義抄の字順と部首排列」（『本邦辞書史論叢』三省堂、1967）
+が部首内の字順について「類似字形排列」を見出しているが、
+これは、異体字および形近字が連続して掲出されると言い換えることができる。</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/">日本語</a>
+  
+
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#書体字体字形">書体・字体・字形</a></li>
+        <li><a href="#異体字">異体字</a></li>
+        <li><a href="#形近字">形近字</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

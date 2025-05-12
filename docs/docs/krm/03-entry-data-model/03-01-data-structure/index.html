@@ -13,9 +13,10 @@
 <title>項目データ構造 | HDIC project</title>
 <link rel="manifest" href="https://shikeda.github.io/manifest.json">
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
+  <link rel="alternate" hreflang="en" href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/" title="Entry Data Structure">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/ja.search.min.cdc8ec079e9d5f695e067ed2573b957cc6fb2ce38e60cdca74c82473477775c6.js" integrity="sha256-zcjsB56dX2leBn7SVzuVfMb7LOOOYM3KdMgkc0d3dcY=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/ja.search.min.345d5a90ce8caf70a950cd3f533b9d3681e6f86c9877e09a6d04073394080487.js" integrity="sha256-NF1akM6Mr3CpUM0/UzudNoHm&#43;GyYd&#43;CabQQHM5QIBIc=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -54,6 +55,8 @@ https://github.com/alex-shpak/hugo-book
   
 
 
+  
+
 
 <ul class="book-languages">
   <li>
@@ -68,7 +71,7 @@ https://github.com/alex-shpak/hugo-book
     <ul>
       
       <li>
-        <a href="https://shikeda.github.io/en/">
+        <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/">
           English
         </a>
       </li>
@@ -260,8 +263,8 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-18330968ac10ed524dce7f905e2fa9d1" class="toggle" checked />
-    <label for="section-18330968ac10ed524dce7f905e2fa9d1" class="flex justify-between">
+    <input type="checkbox" id="section-50dada2b95228fd7e2d86c8977b17302" class="toggle" checked />
+    <label for="section-50dada2b95228fd7e2d86c8977b17302" class="flex justify-between">
       <a href="https://shikeda.github.io/docs/krm/03-entry-data-model/" class="">項目データモデル</a>
     </label>
   
@@ -860,6 +863,10 @@ https://github.com/alex-shpak/hugo-book
     <div style="text-align: right; padding: 1rem;">
       
 
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/">English</a>
+  
+
 
     </div>
 
@@ -895,17 +902,6 @@ https://github.com/alex-shpak/hugo-book
       </ul>
     </li>
   </ul>
-
-  <ul>
-    <li><a href="#entry-structure">Entry Structure</a>
-      <ul>
-        <li><a href="#terminology">Terminology</a></li>
-        <li><a href="#example-entry-image">Example Entry (Image)</a></li>
-        <li><a href="#entry-structure-diagram">Entry Structure Diagram</a></li>
-        <li><a href="#example-entry-transcription">Example Entry (Transcription)</a></li>
-      </ul>
-    </li>
-  </ul>
 </nav>
 
 
@@ -926,19 +922,25 @@ https://github.com/alex-shpak/hugo-book
 最後に画像として示した項目の翻刻データを示す。</p>
 <h2 id="項目の構造">項目の構造</h2>
 <h3 id="用語の説明">用語の説明</h3>
-<p>名義抄の項目を構成する要素を表現するための用語を次に説明する。
-以前に英訳した用語を再検討し、それらを（）内のように改めた。</p>
+<p>名義抄の項目を構成する要素を表現するための用語を次に説明する。</p>
+<p>このセクションで括弧内に示した英訳の用語は
+文献学的な観点から定義されており、そのためデータで使用されるカラム名や他のセクションの用語とは時折バリエーションが生じることがある。</p>
 <p><strong>項目</strong> (Entry) は<strong>掲出字</strong> (Headword) と<strong>注文</strong> (Original Glosses) からなる。</p>
 <p>掲出字は、見出し、見出字、標字、標出字とも呼ばれる。中国語では字頭と呼ぶ。</p>
 <p>注文は、<strong>音注</strong> (Phonetic Gloss) 、<strong>漢文義注</strong> (Semantic Gloss in Chinese)、
 <strong>和訓</strong> (Japanese native reading)、
 <strong>字体注</strong> (Notes on Character Form) 、<strong>その他</strong> (Other) からなる。</p>
+<p>音注は、反切、類音注、片仮名音注、声点、その他の注記により施される。</p>
 <p>漢文義注は、義注、漢文意味注ということもある。
 誤解を生じない限り、単に<strong>義注</strong>とすることが多い。</p>
-<p>和訓は、訓読みのことであり、和訓注ということもある。</p>
+<p>和訓は、訓読みのことであり、和訓注ということもある。
+片仮名により記される。「モノ」は「物」の略字「牜」、「コト」は合字「ヿ」を用いることがある。
+万葉仮名を用いる例が1例ある（「木賊」に「度久佐」）。</p>
+<p>字体注は、「正」「俗」等の字体規範を表す用語により注記される。</p>
 <p>掲出字の周囲に施された漢文義注、片仮名などがあり、これらは<strong>掲出字補注</strong>と呼ぶことができる。
 これらはその内容に応じて、音注、和訓等に分類した。データ化に際しては、
-掲出字補注であることが明白となるような措置をとった（詳細後述）。</p>
+掲出字補注であることが明白となるような措置をとった
+（「項目データ入力」セクションの「書写・表記・注記における問題と対応」の「掲出字補注」を参照）。</p>
 <p>その他は、「<strong>未詳</strong>」とするもの、<strong>伝写上の注記</strong>、注文の種類が判断できないものなどである。</p>
 <h3 id="項目の例画像">項目の例（画像）</h3>
 <p>次は、名義抄の具体例として、「加復」と「ー之」、「助」とその異体字、「功」の三つの
@@ -1042,107 +1044,16 @@ graph TB
 </ul>
 <p>「加復」と「ー之」、「助」とその異体字の注文内容の解説は
 多くの字数を必要とするので、ここでは割愛する。</p>
-<h1 id="entry-data-structure">Entry Data Structure</h1>
-<p>Here, we explain the <strong>entry structure</strong> and <strong>entry format</strong> of the Kanchi-in manuscript <em>Ruiju Myōgishō</em> (hereafter abbreviated as <em>Myōgishō</em>).</p>
-<p>First, we define key terms (concepts) such as <strong>Headword</strong> and <strong>Original Glosses</strong>. Next, we present a <strong>visual example</strong> of an actual entry example. Then, we provide a diagram illustrating its structure. Finally, we show the transcribed data corresponding to the example entry shown in the image.</p>
-<h2 id="entry-structure">Entry Structure</h2>
-<h3 id="terminology">Terminology</h3>
-<p>The terminology used to describe the elements composing an entry in the <em>Myōgishō</em> is explained below.
-We have reconsidered previously translated English terms and revised them as shown below in parentheses.</p>
-<p>An <strong>Entry</strong> consists of a <strong>Headword</strong> and the <strong>Original Glosses</strong>.</p>
-<p><strong>Headword</strong> is also referred to in Japanese as <em>midashi</em>, <em>midashiji</em>, <em>hyōji</em>, or <em>hyōshutsuji</em>. In Chinese, the corresponding term is <em>zìtóu</em> (字頭).</p>
-<p>The <strong>Original Glosses</strong> comprise: <strong>Phonetic Gloss</strong>, <strong>Semantic Gloss in Chinese</strong>, <em><strong>Wakun</strong></em> (Japanese native reading), <strong>Note on Character Form</strong>, and <strong>Other</strong>.</p>
-<p><strong>Semantic Gloss in Chinese</strong> is sometimes also referred to as <em>Gichū</em> or <em>Kanbun Imichū</em>. Provided there is no risk of ambiguity, it is often simply referred to as <em><strong>Gichū</strong></em>.</p>
-<p><em><strong>Wakun</strong></em> refers to <em>kun&rsquo;yomi</em> (Japanese native readings) and may sometimes be called <em><strong>Wakunchū</strong></em>.</p>
-<p>There are semantic glosses (in Chinese), katakana phonetic notations, etc., written around the headword; these can be termed <strong>Supplementary Headword Annotations</strong> (掲出字補注 <em>Keishutsuji Hochū</em>). According to their content, these were classified into the main categories such as <strong>Phonetic Gloss</strong> or <em><strong>Wakun</strong></em>. During data creation, measures were taken to clearly identify these as Supplementary Headword Annotations (details to follow).</p>
-<p>The <strong>Other</strong> category includes items such as: those marked &lsquo;<strong>unclear</strong>&rsquo; (未詳 <em>mishō</em>), <strong>notes related to textual transmission</strong> (scribal notes), and glosses whose type could not be determined.</p>
-<h3 id="example-entry-image">Example Entry (Image)</h3>
-<p>Below, we present visual representations of three example entries from the Myōgishō: &lsquo;加復&rsquo;, &lsquo;ー之&rsquo;, &lsquo;助&rsquo; and its variant forms, and &lsquo;功&rsquo;.</p>
-<figure>
-    <img src="https://shikeda.github.io/images/krm-item-sample1.png"
-         alt="entry structure" width="500px"/> 
-</figure>
-
-<h3 id="entry-structure-diagram">Entry Structure Diagram</h3>
-<p>The diagram below illustrates the structure of a complete entry, featuring all components associated with the Headword and the Original Glosses.</p>
-
-
-<p class="mermaid">
-graph TB
-    A(Main Item)--->B(Headword)
-    A-->C("Original Gloss")
-    C-->D("Note on Character Form")
-    C-->E(Phonetic Gloss)
-    C-->F("Semantic Gloss (in Chinese)")
-    C-->G("Wakun (Japanese native reading)")
-    C-->H(Other)
-</p>
-
-<h3 id="example-entry-transcription">Example Entry (Transcription)</h3>
-<p>First, let&rsquo;s consider the entry for <code>功</code>, which includes the basic components.</p>
-<p><strong>Example:</strong></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">功　音工 (L-R)「コウ (_N)」「クウ (_N)」　續也　事也　成也　タシカニ (LHLH)　𭃄歟
-</code></pre></div><ul>
-<li><strong>Headword:</strong> 功</li>
-<li><strong>Elements of Original Glosses:</strong>
-<ul>
-<li><strong>Phonetic Gloss:</strong> 音工 (L-R)「コウ (_N)」「クウ (_N)」</li>
-<li><strong>Semantic Gloss:</strong> 續也　事也　成也</li>
-<li><strong><em>Wakun</em>:</strong> タシカニ (LHLH)</li>
-<li><strong>Note on Character Form:</strong> 𭃄歟</li>
-</ul>
-</li>
-</ul>
-<p>Presented this way, the relationship between the <strong>Headword</strong> and the elements of the <strong>Original Glosses</strong> should be clear.
-However, explaining the content of this entry in detail would be lengthy.
-The brackets「 」indicate supplementary notes, and the symbols shown within parentheses ( ) are Roman letter representations of the original tone marks and nasal sound symbols.
-Detailed explanations are omitted here; please refer to <a href="https://www.google.com/search?q=/docs/notes/krm_main/def_input/">Details of Original Gloss Data Input</a> for further information.</p>
-<p>Similar to the example for &lsquo;功&rsquo;, the entries for &lsquo;加復&rsquo; and &lsquo;ー之&rsquo; can be transcribed as follows:</p>
-<p><strong>Example:</strong></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">加復　シカノミナラス
-ー之　同
-</code></pre></div><ul>
-<li><strong>Headword:</strong> 加復</li>
-<li><strong>Elements of Original Glosses:</strong>
-<ul>
-<li><strong><em>Wakun</em>:</strong> シカノミナラス</li>
-</ul>
-</li>
-<li><strong>Headword:</strong> ー(加)之</li>
-<li><strong>Elements of Original Glosses:</strong>
-<ul>
-<li><strong><em>Wakun</em>:</strong> 同 (Same as above: シカノミナラス)</li>
-</ul>
-</li>
-</ul>
-<p>Since the &lsquo;ー&rsquo; in &lsquo;ー之&rsquo; is a notation substituting for &lsquo;加&rsquo; from the preceding headword, we have represented this headword in the breakdown as &lsquo;ー(加)之&rsquo;.</p>
-<p>Finally, the entry for &lsquo;助&rsquo; and its variant form(s) is shown as follows:</p>
-<p><strong>Example:</strong></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">⿰目力    鉏據反　タスク（LL_）　マサル（HH_）　ハサム　和自ヨ（_L）  
-𦔳助     今正
-</code></pre></div><ul>
-<li><strong>Headword:</strong> ⿰目力</li>
-<li><strong>Elements of Original Glosses:</strong>
-<ul>
-<li><strong>Phonetic Gloss:</strong> 鉏據反</li>
-<li><strong><em>Wakun</em>:</strong> タスク (LL_), マサル (HH_), ハサム</li>
-<li><strong>Phonetic Gloss:</strong> 和自ヨ (_L)</li>
-</ul>
-</li>
-<li><strong>Headword:</strong> 𦔳助</li>
-<li><strong>Elements of Original Glosses:</strong>
-<ul>
-<li><strong>Note on Character Form:</strong> 今正</li>
-</ul>
-</li>
-</ul>
-<p>A detailed explanation of the content of the original glosses for &lsquo;加復&rsquo;, &lsquo;ー之&rsquo;, and &lsquo;助&rsquo; and its variant form(s) would require considerable space and is therefore omitted here.</p>
 </article>
  
       
 
       <footer class="book-footer">
         
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/">English</a>
   
 
 
@@ -1175,17 +1086,6 @@ Detailed explanations are omitted here; please refer to <a href="https://www.goo
         <li><a href="#項目の例画像">項目の例（画像）</a></li>
         <li><a href="#項目の構造の図示">項目の構造の図示</a></li>
         <li><a href="#項目の例翻刻">項目の例（翻刻）</a></li>
-      </ul>
-    </li>
-  </ul>
-
-  <ul>
-    <li><a href="#entry-structure">Entry Structure</a>
-      <ul>
-        <li><a href="#terminology">Terminology</a></li>
-        <li><a href="#example-entry-image">Example Entry (Image)</a></li>
-        <li><a href="#entry-structure-diagram">Entry Structure Diagram</a></li>
-        <li><a href="#example-entry-transcription">Example Entry (Transcription)</a></li>
       </ul>
     </li>
   </ul>

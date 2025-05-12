@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Entry Data Structure This section explains the structure and format of entries in the Kanchi-in manuscript of the Ruiju Myōgishō (hereinafter Myōgishō). It begins by defining key terms (and related concepts) such as Headword (掲出字) and Original Glosses (注文). Next, an example of an actual entry">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Entry Data Structure" />
+<meta property="og:description" content="Entry Data Structure This section explains the structure and format of entries in the Kanchi-in manuscript of the Ruiju Myōgishō (hereinafter Myōgishō). It begins by defining key terms (and related concepts) such as Headword (掲出字) and Original Glosses (注文). Next, an example of an actual entry" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/" />
+
+<title>Entry Data Structure | HDIC project</title>
+<link rel="manifest" href="https://shikeda.github.io/manifest.json">
+<link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
+  <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-01-data-structure/" title="項目データ構造">
+<link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
+  <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.566b186a5c649814e58120287ecbaa12c0544532bf2b60f21f36ae3ae7b9ea07.js" integrity="sha256-VmsYalxkmBTlgSAofsuqEsBURTK/K2DyHzauOue56gc=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+--><link rel="stylesheet" href="https://shikeda.github.io/css/custom.css">
+
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="https://shikeda.github.io/en/"><span>HDIC project</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="https://shikeda.github.io/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-01-data-structure/">
+          Japanese
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/" class="">Ruiju Myogisho</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-192191ec609e1f023e064fb2a66ac34d" class="toggle"  />
+    <label for="section-192191ec609e1f023e064fb2a66ac34d" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/01-introduction/" class="">Overview</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/01-introduction/01-01-introduction/" class="">Overview of the Ruiju Myōgishō</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-55a7e9d6b991c6fecee19e08156caca3" class="toggle"  />
+    <label for="section-55a7e9d6b991c6fecee19e08156caca3" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/" class="">Overview of Published Data</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-01-main/" class="">krm_main</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-02-notes/" class="">krm_notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-03-headword-chars/" class="">krm_headword_chars</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-04-wakun/" class="">krm_wakun</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-05-definitions/" class="">krm_definitions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-06-pronunciations/" class="">krm_pronunciations</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-07-ndl/" class="">krm_ndl</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-c0a1d6c4ee20825c9c1df910d750678a" class="toggle" checked />
+    <label for="section-c0a1d6c4ee20825c9c1df910d750678a" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/" class="">Entry Data Model</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/" class=" active">Entry Data Structure</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-02-types-of-entries/" class="">Types of Entries</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-03-concepts-char/" class="">Concepts Related to Character Notation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/" class="">Examples of Entry Data Files</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+
+    <div style="text-align: right; padding: 1rem;">
+      
+
+  
+    <a href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-01-data-structure/">日本語</a>
+  
+
+
+    </div>
+
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="https://shikeda.github.io/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Entry Data Structure</strong>
+
+  <label for="toc-control">
+    
+    <img src="https://shikeda.github.io/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#structure-of-entries">Structure of Entries</a>
+      <ul>
+        <li><a href="#explanation-of-terms">Explanation of Terms</a></li>
+        <li><a href="#examples-of-entries-images">Examples of Entries (Images)</a></li>
+        <li><a href="#diagram-of-entry-structure">Diagram of Entry Structure</a></li>
+        <li><a href="#example-of-an-entry-transcription">Example of an Entry (Transcription)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="entry-data-structure">Entry Data Structure</h1>
+<p>This section explains the structure and format of entries in the Kanchi-in manuscript of the <em>Ruiju Myōgishō</em> (hereinafter <em>Myōgishō</em>).</p>
+<p>It begins by defining key terms (and related concepts) such as <strong>Headword</strong> (掲出字) and <strong>Original Glosses</strong> (注文). Next, an example of an actual entry is presented as an image (a facsimile). The structure of this entry is then illustrated in an abstract and diagrammatic form. Finally, a transcription of the entry shown in the image is provided.</p>
+<h2 id="structure-of-entries">Structure of Entries</h2>
+<h3 id="explanation-of-terms">Explanation of Terms</h3>
+<p>The following explains the terms used to describe the constituent elements of entries in the <em>Myōgishō</em>.</p>
+<p>The terminology herein is defined from a philological viewpoint, which may occasionally result in variations from the column names used in the data or terms in other sections.</p>
+<p>An <strong>Entry</strong> consists of a <strong>Headword</strong> and <strong>Original Glosses</strong>.</p>
+<p>A <strong>Headword</strong> (掲出字, <em>keishutsuji</em>) is also referred to as <em>midashi</em>, <em>midashiji</em>, <em>hyōji</em>, or <em>hyōshutsushi</em>. In Chinese, it is called <em>zìtóu</em> (字頭).</p>
+<p><strong>Original Glosses</strong> consist of the following components: <strong>Phonetic Gloss</strong> (音注, <em>onchū</em>), <strong>Semantic Gloss in Chinese</strong> (義注, <em>gichū</em>), <strong>Japanese native reading</strong> (和訓, <em>wakun</em>), <strong>Notes on Character Form</strong> (字体注, <em>jitaichū</em>), and <strong>Other</strong>.</p>
+<p>A <strong>Phonetic Gloss</strong> is provided through methods such as <em>fanqie</em> spelling (反切), similar pronunciation annotation by character (類音注), pronunciation annotation by kana (片仮名音注), <em>shōten</em> (声点, tone marks), and other notations.</p>
+<p>A <strong>Semantic Gloss in Chinese</strong> is also sometimes referred to as <em>gichū</em> (義注, semantic gloss) or <em>kanbun imichū</em> (漢文意味注, semantic gloss in Chinese). Unless it causes misunderstanding, it is often simply referred to as <strong>Semantic Gloss</strong> (義注).</p>
+<p>A <strong>Japanese native reading</strong> (<em>wakun</em>) refers to <em>kun&rsquo;yomi</em> (native Japanese readings of Chinese characters) and is also sometimes called <em>wakunchū</em> (Japanese native reading glosses). It is generally written in Katakana. For example, &lsquo;mono&rsquo; may be written with the abbreviated character &lsquo;牜&rsquo; (a variant of 物), and &lsquo;koto&rsquo; may use the ligature &lsquo;ヿ&rsquo;. There is one instance where <em>Man&rsquo;yōgana</em> is used (e.g., &lsquo;度久佐&rsquo; for &lsquo;木賊&rsquo;).</p>
+<p><strong>Notes on Character Form</strong> are indicated using terms such as &lsquo;正&rsquo; (standard) or &lsquo;俗&rsquo; (popular).</p>
+<p>There are semantic glosses in Chinese, Katakana, etc., written around the headword; these can be termed <strong>Supplementary Headword Annotations</strong> (掲出字補注 <em>Keishutsuji Hochū</em>). These have been classified into Phonetic Glosses, Japanese native readings (<em>wakun</em>), etc., according to their content. In the process of data conversion, measures were taken to clearly identify them as Supplementary Headword Annotations (see &ldquo;Supplementary Headword Annotations&rdquo; under &ldquo;Issues and Treatments in Transcription, Notation, and Annotation&rdquo; in the &ldquo;Entry Data Input&rdquo; section).</p>
+<p><strong>Other</strong> includes items marked as <strong>unknown</strong> (未詳), <strong>notes on textual transmission</strong> (伝写上の注記), and cases where the type of gloss could not be determined.</p>
+<h3 id="examples-of-entries-images">Examples of Entries (Images)</h3>
+<p>The following presents facsimile reproductions of entries from the <em>Myōgishō</em> as specific examples, including &lsquo;功&rsquo;, &lsquo;加復&rsquo;, &lsquo;ー之&rsquo;, and &lsquo;助&rsquo; (along with its variant characters).</p>
+<figure>
+    <img src="https://shikeda.github.io/images/krm-item-sample1.png"
+         alt="entry structure" width="500px"/> 
+</figure>
+
+<h3 id="diagram-of-entry-structure">Diagram of Entry Structure</h3>
+<p>The following is a diagram illustrating the structure of an entry that contains all elements of a <strong>Headword</strong> and its <strong>Original Glosses</strong>.</p>
+
+
+<script src="https://shikeda.github.io/mermaid.min.js"></script>
+
+  <script>mermaid.initialize({
+  "flowchart": {
+    "useMaxWidth":true
+  },
+  "theme": "default"
+}
+)</script>
+
+
+
+
+<p class="mermaid">
+graph TB
+    A(Entry)
+    A--->B(Headword)
+    A--->C(Original Glosses)
+    C--->D(Notes on Character Form)
+    C--->E(Phonetic Gloss)
+    C--->F(Semantic Gloss in Chinese)
+    C--->G(Japanese native reading)
+    C--->H(Other)
+</p>
+
+<h3 id="example-of-an-entry-transcription">Example of an Entry (Transcription)</h3>
+<p>Next, we present transcriptions of the examples shown in the images of sample entries.</p>
+<p>First, let&rsquo;s consider &ldquo;功,&rdquo; an entry that includes the basic elements.</p>
+<p><strong>Example</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">功　音工（L-R）「コウ（_N）」「クウ（_N）」　續也　事也　成也　タシカニ（LHLH）　𭃄歟
+</code></pre></div><ul>
+<li>Headword: 功</li>
+<li>Elements of the glosses:
+<ul>
+<li>Phonetic gloss: 音工（L-R）「コウ（_N）」「クウ（_N）」</li>
+<li>Semantic gloss: 續也　事也　成也</li>
+<li>Japanese native reading: タシカニ（LHLH）</li>
+<li>Note on character form: 𭃄歟</li>
+</ul>
+</li>
+</ul>
+<p>This structure should clearly illustrate the relationship between the headword and the elements of the glosses.
+However, a detailed explanation of this entry&rsquo;s content would require considerable text.
+The Japanese quotation marks (<em>kagi-kakko</em>) 「」 enclose supplementary notes, and the symbols shown in parentheses () are Romanized representations of tone marks and nasal sound symbols.
+For further details, please see &ldquo;<a href="https://shikeda.github.io/docs/krm/04-entry-input/04-03-handling/">Handling Issues in Transcription, Notation, and Annotation</a>&rdquo; within &ldquo;<a href="https://shikeda.github.io/docs/krm/04-entry-input/">Entry Data Input</a>&quot;; such details are omitted here.</p>
+<p>Similar to the example of &ldquo;功,&rdquo; &ldquo;加復&rdquo; and &ldquo;ー之&rdquo; can be transcribed as follows.</p>
+<p><strong>Example</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">加復　シカノミナラス  
+ー之　同
+</code></pre></div><ul>
+<li>Headword: 加復</li>
+<li>Elements of the glosses:
+<ul>
+<li>Japanese native reading: シカノミナラス</li>
+</ul>
+</li>
+<li>Headword: ー（加）之</li>
+<li>Elements of the glosses:
+<ul>
+<li>Japanese native reading: 同（i.e., same as above: シカノミナラス）</li>
+</ul>
+</li>
+</ul>
+<p>Since the &ldquo;ー&rdquo; in &ldquo;ー之&rdquo; is a notation substituting for &ldquo;加,&rdquo; which is used in the preceding headword, it is here written as the headword &ldquo;ー（加）之.&rdquo;</p>
+<p>Lastly, &ldquo;助&rdquo; and its variant characters are shown as follows.</p>
+<p><strong>Example</strong></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">⿰目力	鉏據反　タスク（LL_）　マサル（HH_）　ハサム　和自ヨ（_L）  
+𦔳助	今正
+</code></pre></div><ul>
+<li>Headword: ⿰目力</li>
+<li>Elements of the glosses:
+<ul>
+<li>Phonetic gloss: 鉏據反</li>
+<li>Japanese native reading: タスク（LL_）　マサル（HH_）　ハサム</li>
+<li>Phonetic gloss: 和自ヨ（_L）</li>
+</ul>
+</li>
+<li>Headword: 𦔳助</li>
+<li>Elements of the glosses:
+<ul>
+<li>Note on character form: 今正</li>
+</ul>
+</li>
+</ul>
+<p>Explaining the content of the glosses for &ldquo;加復,&rdquo; &ldquo;ー之,&rdquo; and for &ldquo;助&rdquo; and its variant characters would require considerable text, so it is omitted here.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+
+  
+    <a href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-01-data-structure/">日本語</a>
+  
+
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#structure-of-entries">Structure of Entries</a>
+      <ul>
+        <li><a href="#explanation-of-terms">Explanation of Terms</a></li>
+        <li><a href="#examples-of-entries-images">Examples of Entries (Images)</a></li>
+        <li><a href="#diagram-of-entry-structure">Diagram of Entry Structure</a></li>
+        <li><a href="#example-of-an-entry-transcription">Example of an Entry (Transcription)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
