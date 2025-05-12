@@ -44,7 +44,7 @@ weight: 1
     - [項目データ構造](/docs/krm/03-entry-data-model/03-01-data-structure/)
     - [項目の種類](/docs/krm/03-entry-data-model/03-02-types-of-entries/)
     - [文字表記に関する概念](/docs/krm/03-entry-data-model/03-03-concepts-char/)
-    - [項目データファイルの公開・更新](/docs/krm/03-entry-data-model/03-04-data-example/)
+    - [項目データファイルの例](/docs/krm/03-entry-data-model/03-04-data-example/)
 - [項目データ入力](/docs/krm/entry-input/)
     - [掲出字・項目構造とID体系](/docs/krm/entry-input/1-id/)
     - [文字の符号化と表現](/docs/krm/entry-input/2-char/)
