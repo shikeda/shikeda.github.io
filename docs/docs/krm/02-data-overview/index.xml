@@ -15,7 +15,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/krm/02-data-overview/02-01-main/</guid>
-      <description>krm_main 観智院本類聚名義抄（以下、名義抄）デーベースの中核となるファイルを解説する。 従来公開していたのは、KRM.tsv という名称のTSVファイル</description>
+      <description>krm_main 概要とファイル形式 観智院本類聚名義抄（以下、名義抄）デーベースの中核となるファイルを解説する。 従来公開していたのは、KRM.tsv という名</description>
     </item>
     
     <item>
@@ -24,7 +24,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/docs/krm/02-data-overview/02-02-notes/</guid>
-      <description>krm_notes KRM_definitions.tsv ファイルに詳細な注釈情報を追加したファイル krm_notes.tsv を作成した。 これは、TSV形式とJSON形式で用意した。 2025年3月の仕様変更後のファイル</description>
+      <description>krm_notes 概要とファイル形式 KRM_definitions.tsv ファイルに詳細な注釈情報を追加したファイル krm_notes.tsv を作成した。 これは、TSV形式とJSON形式で用意した。 2025年3月の仕</description>
     </item>
     
     <item>

@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="krm_notes A new file, krm_notes.tsv, has been created, containing detailed annotation information added to the KRM_def.tsv file. This is available in both TSV and JSON formats. To explicitly indicate that these are the filenames after the specification change in March 2025, lowercase &ldquo;krm&rdquo; was used instead of uppercase &ldquo;KRM,&rdquo; resulting in the names krm_notes.tsv and krm_notes.json. Considering krm_notes.tsv as the new file and KRM_definitions.tsv as the old file, the comparison">
+<meta name="description" content="krm_notes Overview and file formats A new file, krm_notes.tsv, has been created, containing detailed annotation information added to the KRM_definitions.tsv file. This is available in both TSV and JSON formats. To explicitly indicate that these are the filenames after the specification change in March 2025, lowercase &ldquo;krm&rdquo; was used instead of uppercase &ldquo;KRM,&rdquo; resulting in the names krm_notes.tsv and krm_notes.json. Column name comparison This section compares the column names in">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="krm_notes" />
-<meta property="og:description" content="krm_notes A new file, krm_notes.tsv, has been created, containing detailed annotation information added to the KRM_def.tsv file. This is available in both TSV and JSON formats. To explicitly indicate that these are the filenames after the specification change in March 2025, lowercase &ldquo;krm&rdquo; was used instead of uppercase &ldquo;KRM,&rdquo; resulting in the names krm_notes.tsv and krm_notes.json. Considering krm_notes.tsv as the new file and KRM_definitions.tsv as the old file, the comparison" />
+<meta property="og:description" content="krm_notes Overview and file formats A new file, krm_notes.tsv, has been created, containing detailed annotation information added to the KRM_definitions.tsv file. This is available in both TSV and JSON formats. To explicitly indicate that these are the filenames after the specification change in March 2025, lowercase &ldquo;krm&rdquo; was used instead of uppercase &ldquo;KRM,&rdquo; resulting in the names krm_notes.tsv and krm_notes.json. Column name comparison This section compares the column names in" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shikeda.github.io/en/docs/krm/02-data-overview/02-02-notes/" />
 
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/02-data-overview/02-02-notes/" title="krm_notes">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/en.search.min.566b186a5c649814e58120287ecbaa12c0544532bf2b60f21f36ae3ae7b9ea07.js" integrity="sha256-VmsYalxkmBTlgSAofsuqEsBURTK/K2DyHzauOue56gc=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.cad1f15a259621647d8bf712c5c4f97fccee4bb549dc032f4f793f686b366d0a.js" integrity="sha256-ytHxWiWWIWR9i/cSxcT5f8zuS7VJ3AMvT3k/aGs2bQo=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -395,7 +395,23 @@ https://github.com/alex-shpak/hugo-book
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview-and-file-formats">Overview and file formats</a></li>
+    <li><a href="#column-name-comparison">Column name comparison</a>
+      <ul>
+        <li><a href="#comparison-with-krm_definitionstsv-v1155">Comparison with KRM_definitions.tsv (v1.1.55)</a></li>
+        <li><a href="#incorporation-of-krmtsv-v11347-content">Incorporation of KRM.tsv (v1.1.347) content</a></li>
+      </ul>
+    </li>
+    <li><a href="#data-structure-er-diagram-and-json-implementation">Data Structure: ER Diagram and JSON Implementation</a>
+      <ul>
+        <li><a href="#example-json">Example JSON:</a></li>
+      </ul>
+    </li>
+    <li><a href="#description-of-each-column">Description of each column</a></li>
+  </ul>
+</nav>
 
 
 
@@ -407,14 +423,18 @@ https://github.com/alex-shpak/hugo-book
       
       
   <article class="markdown"><h1 id="krm_notes">krm_notes</h1>
-<p>A new file, <code>krm_notes.tsv</code>, has been created, containing detailed annotation information added to the <code>KRM_def.tsv</code> file.</p>
+<h2 id="overview-and-file-formats">Overview and file formats</h2>
+<p>A new file, <code>krm_notes.tsv</code>, has been created, containing detailed annotation information added to the <code>KRM_definitions.tsv</code> file.</p>
 <p>This is available in both TSV and JSON formats. To explicitly indicate that these are the filenames after the specification change in March 2025, lowercase &ldquo;krm&rdquo; was used instead of uppercase &ldquo;KRM,&rdquo; resulting in the names <code>krm_notes.tsv</code> and <code>krm_notes.json</code>.</p>
-<p>Considering <code>krm_notes.tsv</code> as the new file and <code>KRM_definitions.tsv</code> as the old file, the comparison of their column names is as follows:</p>
+<h2 id="column-name-comparison">Column name comparison</h2>
+<p>This section compares the column names in the new <code>krm_notes.tsv</code> (v1.2.6) with those in the previous files it replaces or incorporates data from.</p>
+<h3 id="comparison-with-krm_definitionstsv-v1155">Comparison with KRM_definitions.tsv (v1.1.55)</h3>
+<p>The following table shows the correspondence between columns primarily related to definition details derived from the previous definitions file:</p>
 <table>
 <thead>
 <tr>
-<th>New Column Name (v1.2.6)</th>
-<th>Old Column Name (v1.1.55)</th>
+<th>New Column Name (krm_notes v1.2.6)</th>
+<th>Old Column Name (KRM_definitions v1.1.55)</th>
 </tr>
 </thead>
 <tbody>
@@ -443,17 +463,18 @@ https://github.com/alex-shpak/hugo-book
 <td>Def_name</td>
 </tr>
 <tr>
-<td>remarks_definition</td>
+<td>remarks</td>
 <td>Remarks</td>
 </tr>
 </tbody>
 </table>
-<p>Furthermore, we decided to incorporate the contents of <code>KRM.tsv</code> into <code>krm_notes</code>. Comparing the column names of both will result in the following.</p>
+<h3 id="incorporation-of-krmtsv-v11347-content">Incorporation of KRM.tsv (v1.1.347) content</h3>
+<p>The new <code>krm_notes.tsv</code> also incorporates information previously stored in <code>KRM.tsv</code>. The corresponding column names are compared below:</p>
 <table>
 <thead>
 <tr>
-<th>New Column Name (v1.2.6)</th>
-<th>Old Column Name (v1.1.347)</th>
+<th>New Column Name (krm_notes v1.2.6)</th>
+<th>Old Column Name (KRM v1.1.347)</th>
 </tr>
 </thead>
 <tbody>
@@ -483,8 +504,39 @@ https://github.com/alex-shpak/hugo-book
 </tr>
 </tbody>
 </table>
-<p>As mentioned earlier, the internal structure of <code>krm_notes</code> has the following nested format.</p>
+<h2 id="data-structure-er-diagram-and-json-implementation">Data Structure: ER Diagram and JSON Implementation</h2>
+<p>The JSON representation of <code>krm_notes</code> utilizes a nested format, as detailed below.</p>
 <p><img src="https://shikeda.github.io/images/krm_notes_er.drawio.png" alt="ER_notes diagram" /></p>
+<p>In the <strong>ER diagram</strong>, the <code>krm_notes</code> table is shown as a child table linked to <code>krm_main</code> (as detailed in the <a href="./02-01-main">krm_main section</a>) by <code>entry_id</code>. However, in the <strong>actual JSON data</strong>, the equivalent of the <code>krm_notes</code> table is not flat: instead, it is implemented as a <strong>nested array of objects</strong> under the key <code>&quot;definitions&quot;</code> within each top-level record (referred to as a <code>krm_main</code> conceptual record).</p>
+<p>Each object inside the <code>definitions</code> array corresponds to a definition note and contains the following fields:</p>
+<ul>
+<li><code>definition_seq_id</code></li>
+<li><code>definition_elements</code></li>
+<li><code>definition_type_code</code></li>
+<li><code>definition_type_name</code></li>
+<li><code>remarks</code></li>
+</ul>
+<p>This structure can be conceptually represented in the ER diagram as follows:</p>
+<ul>
+<li>The <strong><code>krm_main</code> table</strong> has a <strong>one-to-many relationship</strong> with a conceptual <code>definitions</code> or <code>notes</code> table.</li>
+<li>In the JSON representation, the <strong>definitions are embedded as an array of objects</strong> within each <code>krm_main</code> object, rather than being stored in a separate flat table.</li>
+</ul>
+<h3 id="example-json">Example JSON:</h3>
+<pre><code>{
+  &quot;entry_id&quot;: &quot;F00001&quot;,
+  ...
+  &quot;definitions&quot;: [
+    {
+      &quot;definition_seq_id&quot;: &quot;F00001_01&quot;,
+      &quot;definition_elements&quot;: &quot;音仁（LV）「ニン」&quot;,
+      &quot;definition_type_code&quot;: 215,
+      &quot;definition_type_name&quot;: &quot;音注声点有_類音注等&quot;,
+      &quot;remarks&quot;: &quot;広韻「如鄰切」...&quot;
+    },
+    ...
+  ]
+}
+</code></pre><h2 id="description-of-each-column">Description of each column</h2>
 <p>Next, the content of the column names will be explained.</p>
 <table>
 <thead>
@@ -500,15 +552,15 @@ https://github.com/alex-shpak/hugo-book
 </tr>
 <tr>
 <td>definition_seq_id</td>
-<td>5-digit numeric ID starting with &lsquo;F&rsquo;, sequentially assigned to heading entries. Definition components under each heading are ordered based on their appearance, and order indicators like _01, _02, etc., are appended accordingly. The heading itself is appended with _00.</td>
+<td>An identifier for each definition component, typically formed by appending a sequential suffix (e.g., _00, _01, _02) to the corresponding entry_id. The _00 suffix often denotes the main heading or an overall entry note, while _01, _02, etc., identify subsequent, ordered definition elements.</td>
 </tr>
 <tr>
 <td>kazama_location</td>
-<td>An ID indicating K + Volume (2 digits) + Kazama Edition Page (3 digits) + Line (1 digit) + Segment (1 digit) + 字順 (1 digit). Details of the rules for assigning 字順 are defined separately.</td>
+<td>An ID indicating K + Volume (2 digits) + Kazama Edition Page (3 digits) + Line (1 digit) + Segment (1 digit) + Character order (字順, <em>jijun</em>) (1 digit). Details of the rules for assigning Character order are defined separately.</td>
 </tr>
 <tr>
 <td>tenri_location</td>
-<td>An ID indicating T + Volume (a/b/c) + Tenri Edition Page (3 digits) + Line (1 digit) + Segment (1 digit) + 字順 (1 digit). Details of the rules for assigning 字順 are defined separately.</td>
+<td>An ID indicating T + Volume (a/b/c) + Tenri Edition Page (3 digits) + Line (1 digit) + Segment (1 digit) + Character order (字順, <em>jijun</em>) (1 digit). Details of the rules for assigning Character order are defined separately.</td>
 </tr>
 <tr>
 <td>volume_name</td>
@@ -532,7 +584,7 @@ https://github.com/alex-shpak/hugo-book
 </tr>
 <tr>
 <td>definition_elements</td>
-<td>Extracted components from the full definition, classified into 5 categories: glyph annotations, pronunciation annotations, meaning annotations, Japanese readings (wakun), and others, one component per entry.</td>
+<td>Extracted components from the full definition, classified into 5 categories: glyph annotations, pronunciation annotations, meaning annotations, Japanese readings (wakun), and others, one component per definition record (i.e., per object in the definitions array in JSON).</td>
 </tr>
 <tr>
 <td>definition_type_code</td>
@@ -540,7 +592,7 @@ https://github.com/alex-shpak/hugo-book
 </tr>
 <tr>
 <td>definition_type_name</td>
-<td>Indicates which of the following five categories the definition type belongs to: glyph annotation, pronunciation annotation, meaning annotation, wakun, and others.</td>
+<td>Indicates which of the following five categories the definition type belongs to: glyph annotation, pronunciation annotation, meaning annotation, Japanese readings (<em>wakun</em>), and others.</td>
 </tr>
 <tr>
 <td>remarks</td>
@@ -582,7 +634,23 @@ https://github.com/alex-shpak/hugo-book
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview-and-file-formats">Overview and file formats</a></li>
+    <li><a href="#column-name-comparison">Column name comparison</a>
+      <ul>
+        <li><a href="#comparison-with-krm_definitionstsv-v1155">Comparison with KRM_definitions.tsv (v1.1.55)</a></li>
+        <li><a href="#incorporation-of-krmtsv-v11347-content">Incorporation of KRM.tsv (v1.1.347) content</a></li>
+      </ul>
+    </li>
+    <li><a href="#data-structure-er-diagram-and-json-implementation">Data Structure: ER Diagram and JSON Implementation</a>
+      <ul>
+        <li><a href="#example-json">Example JSON:</a></li>
+      </ul>
+    </li>
+    <li><a href="#description-of-each-column">Description of each column</a></li>
+  </ul>
+</nav>
 
 
  

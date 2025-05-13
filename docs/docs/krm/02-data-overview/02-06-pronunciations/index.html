@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="en" href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-06-pronunciations/" title="krm_pronunciations">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/ja.search.min.345d5a90ce8caf70a950cd3f533b9d3681e6f86c9877e09a6d04073394080487.js" integrity="sha256-NF1akM6Mr3CpUM0/UzudNoHm&#43;GyYd&#43;CabQQHM5QIBIc=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/ja.search.min.bd596d58b2f1c8ab93229d45ada2ba220dfeeba19ba684f93d66bbd918154f9e.js" integrity="sha256-vVltWLLxyKuTIp1FraK6Ig3&#43;66GbpoT5PWa72RgVT54=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -955,7 +955,7 @@ DHSJR から英語の説明が公表されるまでの暫定的な措置であ�
 <td><strong>注文ID</strong></td>
 <td><strong>definition_seq_id</strong></td>
 <td>Foreign Key</td>
-<td>5-digit numeric ID starting with &lsquo;F&rsquo;, sequentially assigned to heading entries. Definition components under each heading are ordered based on their appearance, and order indicators like _01, _02, etc., are appended accordingly. The heading itself is appended with _00.</td>
+<td>An identifier for each definition component, typically formed by appending a sequential suffix (e.g., _00, _01, _02) to the corresponding entry_id. The _00 suffix often denotes the main heading or an overall entry note, while _01, _02, etc., identify subsequent, ordered definition elements.</td>
 <td>連番で与えられるFで始まる5桁の見出しの数値IDに加えて、見出しの下に記される注文の各要素を出現順に区分し、出現の順番に_01、_02のように追加したもの。見出しには_00を追加する。</td>
 </tr>
 <tr>

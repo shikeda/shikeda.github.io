@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="krm_notes KRM_definitions.tsv ファイルに詳細な注釈情報を追加したファイル krm_notes.tsv を作成した。 これは、TSV形式とJSON形式で用意した。 2025年3月の仕様変更後のファイル">
+<meta name="description" content="krm_notes 概要とファイル形式 KRM_definitions.tsv ファイルに詳細な注釈情報を追加したファイル krm_notes.tsv を作成した。 これは、TSV形式とJSON形式で用意した。 2025年3月の仕">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="krm_notes" />
-<meta property="og:description" content="krm_notes KRM_definitions.tsv ファイルに詳細な注釈情報を追加したファイル krm_notes.tsv を作成した。 これは、TSV形式とJSON形式で用意した。 2025年3月の仕様変更後のファイル" />
+<meta property="og:description" content="krm_notes 概要とファイル形式 KRM_definitions.tsv ファイルに詳細な注釈情報を追加したファイル krm_notes.tsv を作成した。 これは、TSV形式とJSON形式で用意した。 2025年3月の仕" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shikeda.github.io/docs/krm/02-data-overview/02-02-notes/" />
 
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="en" href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-02-notes/" title="krm_notes">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/ja.search.min.345d5a90ce8caf70a950cd3f533b9d3681e6f86c9877e09a6d04073394080487.js" integrity="sha256-NF1akM6Mr3CpUM0/UzudNoHm&#43;GyYd&#43;CabQQHM5QIBIc=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/ja.search.min.bd596d58b2f1c8ab93229d45ada2ba220dfeeba19ba684f93d66bbd918154f9e.js" integrity="sha256-vVltWLLxyKuTIp1FraK6Ig3&#43;66GbpoT5PWa72RgVT54=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -891,7 +891,23 @@ https://github.com/alex-shpak/hugo-book
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#概要とファイル形式">概要とファイル形式</a></li>
+    <li><a href="#カラム名対照">カラム名対照</a>
+      <ul>
+        <li><a href="#comparison-with-krm_definitionstsv-v1155">Comparison with KRM_definitions.tsv (v1.1.55)</a></li>
+        <li><a href="#krmtsv-v11347-の内容の取り込み">KRM.tsv (v1.1.347) の内容の取り込み</a></li>
+      </ul>
+    </li>
+    <li><a href="#データ構造er図とjsonにおける実装">データ構造：ER図とJSONにおける実装</a>
+      <ul>
+        <li><a href="#jsonデータ構造の例">JSONデータ構造の例</a></li>
+      </ul>
+    </li>
+    <li><a href="#各カラムの説明">各カラムの説明</a></li>
+  </ul>
+</nav>
 
 
 
@@ -903,24 +919,23 @@ https://github.com/alex-shpak/hugo-book
       
       
   <article class="markdown"><h1 id="krm_notes">krm_notes</h1>
+<h2 id="概要とファイル形式">概要とファイル形式</h2>
 <p><code>KRM_definitions.tsv</code> ファイルに詳細な注釈情報を追加したファイル <code>krm_notes.tsv</code> を作成した。
 これは、TSV形式とJSON形式で用意した。
 2025年3月の仕様変更後のファイル名であることを明示的に示すため、
 大文字の KRM ではなく小文字の krm を用いて
 <code>krm_notes.tsv</code> と <code>krm_notes.json</code> という名称とした。</p>
+<h2 id="カラム名対照">カラム名対照</h2>
+<h3 id="comparison-with-krm_definitionstsv-v1155">Comparison with KRM_definitions.tsv (v1.1.55)</h3>
 <p><code>krm_notes.tsv</code> を新とし、<code>KRM_definitions.tsv</code> を旧として、両者のカラム名を対照すれば次のようになる。</p>
 <table>
 <thead>
 <tr>
-<th>New Column Name (v1.2.6)</th>
-<th>Old Column Name (v1.1.55)</th>
+<th>New Column Name (krm_notes v1.2.6)</th>
+<th>Old Column Name (KRM_definitions v1.1.55)</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>entry_id</td>
-<td>KRID_n</td>
-</tr>
 <tr>
 <td>definition_seq_id</td>
 <td>KRID_no</td>
@@ -928,6 +943,42 @@ https://github.com/alex-shpak/hugo-book
 <tr>
 <td>kazama_location</td>
 <td>KRID</td>
+</tr>
+<tr>
+<td>hanzi_entry</td>
+<td>Entry</td>
+</tr>
+<tr>
+<td>definition_elements</td>
+<td>Def</td>
+</tr>
+<tr>
+<td>definition_type_code</td>
+<td>Def_code</td>
+</tr>
+<tr>
+<td>definition_type_name</td>
+<td>Def_name</td>
+</tr>
+<tr>
+<td>remarks</td>
+<td>Remarks</td>
+</tr>
+</tbody>
+</table>
+<h3 id="krmtsv-v11347-の内容の取り込み">KRM.tsv (v1.1.347) の内容の取り込み</h3>
+<p>さらに <code>KRM.tsv</code> の内容を <code>krm_notes</code> に取り込むことにした。両者のカラム名を対照すれば次のようになる。</p>
+<table>
+<thead>
+<tr>
+<th>New Column Name (krm_notes v1.2.6)</th>
+<th>Old Column Name (KRM v1.1.347)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>entry_id</td>
+<td>KRID_n</td>
 </tr>
 <tr>
 <td>tenri_location</td>
@@ -946,34 +997,43 @@ https://github.com/alex-shpak/hugo-book
 <td>KR_vol_radical</td>
 </tr>
 <tr>
-<td>hanzi_entry</td>
-<td>Entry</td>
-</tr>
-<tr>
 <td>original_entry</td>
 <td>Entry_original</td>
 </tr>
-<tr>
-<td>definition_elements</td>
-<td>Def</td>
-</tr>
-<tr>
-<td>definition_type_code</td>
-<td>Def_code</td>
-</tr>
-<tr>
-<td>definition_type_name</td>
-<td>Def_name</td>
-</tr>
-<tr>
-<td>remarks_definition</td>
-<td>Remarks</td>
-</tr>
 </tbody>
 </table>
+<h2 id="データ構造er図とjsonにおける実装">データ構造：ER図とJSONにおける実装</h2>
 <p>前述したように、
 <code>krm_notes</code> の内部は次のような入れ子構造となっている。</p>
 <p><img src="https://shikeda.github.io/images/krm_notes_er.drawio.png" alt="ER_notes diagram" /></p>
+<p>ER図においては、<code>krm_notes</code> テーブルは <code>krm_main</code> テーブルと <code>entry_id</code> によって関連づけられた子テーブルとして表現されている。一方、実際の JSON データでは、この <code>krm_notes</code> に相当する情報は平坦なテーブル構造ではなく、各 <code>krm_main</code> オブジェクト内に <code>&quot;definitions&quot;</code> というキーでまとめられた<strong>入れ子の配列</strong>として実装されている。</p>
+<p>この <code>&quot;definitions&quot;</code> 配列には、以下のフィールドをもつ定義オブジェクトが複数格納されている：</p>
+<ul>
+<li>definition_seq_id</li>
+<li>definition_elements</li>
+<li>definition_type_code</li>
+<li>definition_type_name</li>
+<li>remarks</li>
+</ul>
+<p>この構造は、ER図において次のように概念的に対応づけることができる。</p>
+<p><strong><code>krm_main</code> テーブル</strong>は、概念上<strong>複数の定義（notes）をもつ一対多の関係</strong>を形成している。</p>
+<p>ただし、<strong>実際の JSON 実装では定義項目は別テーブルとして独立しておらず</strong>、<code>krm_main</code> の各レコード内に <code>&quot;definitions&quot;</code> というキーの下でまとめて<strong>入れ子構造</strong>で保持されている。</p>
+<h3 id="jsonデータ構造の例">JSONデータ構造の例</h3>
+<pre><code>{
+  &quot;entry_id&quot;: &quot;F00001&quot;,
+  ...
+  &quot;definitions&quot;: [
+    {
+      &quot;definition_seq_id&quot;: &quot;F00001_01&quot;,
+      &quot;definition_elements&quot;: &quot;音仁（LV）「ニン」&quot;,
+      &quot;definition_type_code&quot;: 215,
+      &quot;definition_type_name&quot;: &quot;音注声点有_類音注等&quot;,
+      &quot;remarks&quot;: &quot;広韻「如鄰切」...&quot;
+    },
+    ...
+  ]
+}
+</code></pre><h2 id="各カラムの説明">各カラムの説明</h2>
 <p>次に、カラム名の内容を日本語で説明する。</p>
 <table>
 <thead>
@@ -1071,7 +1131,23 @@ https://github.com/alex-shpak/hugo-book
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#概要とファイル形式">概要とファイル形式</a></li>
+    <li><a href="#カラム名対照">カラム名対照</a>
+      <ul>
+        <li><a href="#comparison-with-krm_definitionstsv-v1155">Comparison with KRM_definitions.tsv (v1.1.55)</a></li>
+        <li><a href="#krmtsv-v11347-の内容の取り込み">KRM.tsv (v1.1.347) の内容の取り込み</a></li>
+      </ul>
+    </li>
+    <li><a href="#データ構造er図とjsonにおける実装">データ構造：ER図とJSONにおける実装</a>
+      <ul>
+        <li><a href="#jsonデータ構造の例">JSONデータ構造の例</a></li>
+      </ul>
+    </li>
+    <li><a href="#各カラムの説明">各カラムの説明</a></li>
+  </ul>
+</nav>
 
 
  

@@ -365,17 +365,17 @@
   
   <url>
     <loc>https://shikeda.github.io/posts/</loc>
-    <lastmod>2025-05-10T18:27:43+09:00</lastmod>
+    <lastmod>2025-05-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://shikeda.github.io/posts/hugo-book-i18n-notes/</loc>
-    <lastmod>2025-05-10T18:27:43+09:00</lastmod>
+    <loc>https://shikeda.github.io/posts/mermaid/</loc>
+    <lastmod>2025-05-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://shikeda.github.io/</loc>
-    <lastmod>2025-05-10T18:27:43+09:00</lastmod>
+    <lastmod>2025-05-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -386,6 +386,11 @@
                 hreflang="ja"
                 href="https://shikeda.github.io/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://shikeda.github.io/posts/hugo-book-i18n-notes/</loc>
+    <lastmod>2025-05-10T18:27:43+09:00</lastmod>
   </url>
   
   <url>

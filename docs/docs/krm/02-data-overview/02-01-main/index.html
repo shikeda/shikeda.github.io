@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="krm_main 観智院本類聚名義抄（以下、名義抄）デーベースの中核となるファイルを解説する。 従来公開していたのは、KRM.tsv という名称のTSVファイル">
+<meta name="description" content="krm_main 概要とファイル形式 観智院本類聚名義抄（以下、名義抄）デーベースの中核となるファイルを解説する。 従来公開していたのは、KRM.tsv という名">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="krm_main" />
-<meta property="og:description" content="krm_main 観智院本類聚名義抄（以下、名義抄）デーベースの中核となるファイルを解説する。 従来公開していたのは、KRM.tsv という名称のTSVファイル" />
+<meta property="og:description" content="krm_main 概要とファイル形式 観智院本類聚名義抄（以下、名義抄）デーベースの中核となるファイルを解説する。 従来公開していたのは、KRM.tsv という名" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shikeda.github.io/docs/krm/02-data-overview/02-01-main/" />
 
@@ -16,7 +16,7 @@
   <link rel="alternate" hreflang="en" href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-01-main/" title="krm_main">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.e62c87c0a5f78618c1d9654bac000b57fdba292e359cd3ae3a97d4774328868d.css" integrity="sha256-5iyHwKX3hhjB2WVLrAALV/26KS41nNOuOpfUd0Moho0=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/ja.search.min.345d5a90ce8caf70a950cd3f533b9d3681e6f86c9877e09a6d04073394080487.js" integrity="sha256-NF1akM6Mr3CpUM0/UzudNoHm&#43;GyYd&#43;CabQQHM5QIBIc=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/ja.search.min.bd596d58b2f1c8ab93229d45ada2ba220dfeeba19ba684f93d66bbd918154f9e.js" integrity="sha256-vVltWLLxyKuTIp1FraK6Ig3&#43;66GbpoT5PWa72RgVT54=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -891,7 +891,13 @@ https://github.com/alex-shpak/hugo-book
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#概要とファイル形式">概要とファイル形式</a></li>
+    <li><a href="#カラム名対照">カラム名対照</a></li>
+    <li><a href="#各カラムの説明">各カラムの説明</a></li>
+  </ul>
+</nav>
 
 
 
@@ -903,6 +909,7 @@ https://github.com/alex-shpak/hugo-book
       
       
   <article class="markdown"><h1 id="krm_main">krm_main</h1>
+<h2 id="概要とファイル形式">概要とファイル形式</h2>
 <p>観智院本類聚名義抄（以下、名義抄）デーベースの中核となるファイルを解説する。
 従来公開していたのは、<code>KRM.tsv</code> という名称のTSVファイルである。</p>
 <p>掲出字、注文、巻、部首、風間書房版と天理善本叢書版の所在などに関する情報を
@@ -910,6 +917,7 @@ https://github.com/alex-shpak/hugo-book
 <p>2025年3月に、カラム名、声点の表示法の仕様を変更した。仕様変更後の
 ファイルであることを明示するために、<code>krm_main.tsv</code> という名称にした。
 これにはJSON形式も用意した。</p>
+<h2 id="カラム名対照">カラム名対照</h2>
 <p>新旧のカラム名を対照すれば次のようになる。</p>
 <table>
 <thead>
@@ -971,6 +979,7 @@ https://github.com/alex-shpak/hugo-book
 </table>
 <p><code>KR2ID</code> は省略し、<code>kazama_location</code> を <code>KRID</code> に対応させた。</p>
 <p><code>Remarks</code> は次の <code>krm_notes</code> にまとめることとして、省略した。</p>
+<h2 id="各カラムの説明">各カラムの説明</h2>
 <p>次に、カラム名の内容を日本語で説明する。ここでは <code>v1.2.5</code>の内容を
 記載する。</p>
 <table>
@@ -1057,7 +1066,13 @@ https://github.com/alex-shpak/hugo-book
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#概要とファイル形式">概要とファイル形式</a></li>
+    <li><a href="#カラム名対照">カラム名対照</a></li>
+    <li><a href="#各カラムの説明">各カラムの説明</a></li>
+  </ul>
+</nav>
 
 
  

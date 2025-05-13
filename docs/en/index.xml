@@ -51,7 +51,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-01-main/</guid>
-      <description>krm_main Under preparation. This section describes the core files of the database for the Kanchi-in manuscript of the Ruiju Mōgishō (hereinafter &amp;ldquo;Myōgishō&amp;quot;). Previously, the released file was a TSV file named KRM.tsv. It contains information regarding head characters, full definitions, volume, radical,</description>
+      <description>krm_main Overview and file formats This section describes the core files of the database for the Kanchi-in manuscript of the Ruiju Mōgishō (hereinafter &amp;ldquo;Myōgishō&amp;quot;). Previously, the released file was a TSV file named KRM.tsv. It contains information regarding head characters, full definitions,</description>
     </item>
     
     <item>
@@ -60,7 +60,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-02-notes/</guid>
-      <description>krm_notes A new file, krm_notes.tsv, has been created, containing detailed annotation information added to the KRM_def.tsv file. This is available in both TSV and JSON formats. To explicitly indicate that these are the filenames after the specification change in March 2025, lowercase &amp;ldquo;krm&amp;rdquo; was used instead of uppercase &amp;ldquo;KRM,&amp;rdquo; resulting in the names krm_notes.tsv and krm_notes.json. Considering krm_notes.tsv as the new file and KRM_definitions.tsv as the old file, the comparison</description>
+      <description>krm_notes Overview and file formats A new file, krm_notes.tsv, has been created, containing detailed annotation information added to the KRM_definitions.tsv file. This is available in both TSV and JSON formats. To explicitly indicate that these are the filenames after the specification change in March 2025, lowercase &amp;ldquo;krm&amp;rdquo; was used instead of uppercase &amp;ldquo;KRM,&amp;rdquo; resulting in the names krm_notes.tsv and krm_notes.json. Column name comparison This section compares the column names in</description>
     </item>
     
     <item>
