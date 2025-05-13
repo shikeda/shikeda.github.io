@@ -33,7 +33,10 @@ enableMissingTranslationPlaceholders = false
 
 # ====== 各種設定 (Themes, Modules, etc.) ======
 # 必要に応じて、テーマ固有の設定やモジュールの設定などをここに追加します。
-# [params]
+[params]
+    BookMermaid = true
+[markup.goldmark.renderer]
+  unsafe = true
 #   someThemeSetting = "value"
 #
 # [module]

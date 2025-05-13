@@ -10,36 +10,90 @@ weight: 12
 ---
 # krm_notes
 
+## 概要とファイル形式
+
 `KRM_definitions.tsv` ファイルに詳細な注釈情報を追加したファイル `krm_notes.tsv` を作成した。
 これは、TSV形式とJSON形式で用意した。
 2025年3月の仕様変更後のファイル名であることを明示的に示すため、
 大文字の KRM ではなく小文字の krm を用いて
 `krm_notes.tsv` と `krm_notes.json` という名称とした。
 
+
+## カラム名対照
+
+
+### Comparison with KRM_definitions.tsv (v1.1.55)
+
 `krm_notes.tsv` を新とし、`KRM_definitions.tsv` を旧として、両者のカラム名を対照すれば次のようになる。
 
-
-
-| New Column Name (v1.2.6) | Old Column Name (v1.1.55) |
+| New Column Name (krm_notes v1.2.6) | Old Column Name (KRM_definitions v1.1.55) |
 |--------------------------|----------------------------|
-| entry_id                 | KRID_n	                    |
 | definition_seq_id        | KRID_no                    |
-| kazama_location          | KRID                      |
-| tenri_location           | KR_Tenri_p                |
-| volume_name              | KR_vol_name               |
-| radical_name             | KR_radical                |
-| volume_radical_index     | KR_vol_radical            |
+| kazama_location          | KRID                       |
 | hanzi_entry              | Entry                      |
-| original_entry           | Entry_original            |
 | definition_elements      | Def                        |
 | definition_type_code     | Def_code                   |
 | definition_type_name     | Def_name                   |
-| remarks_definition       | Remarks                    |
+| remarks                  | Remarks                    |
+
+### KRM.tsv (v1.1.347) の内容の取り込み
+
+さらに `KRM.tsv` の内容を `krm_notes` に取り込むことにした。両者のカラム名を対照すれば次のようになる。
+
+
+| New Column Name (krm_notes v1.2.6) | Old Column Name (KRM v1.1.347) |
+|--------------------------|----------------------------|
+| entry_id                 | KRID_n                     |
+| tenri_location           | KR_Tenri_p                 |
+| volume_name              | KR_vol_name                |
+| radical_name             | KR_radical                 |
+| volume_radical_index     | KR_vol_radical             |
+| original_entry           | Entry_original             |
+
+
+
+## データ構造：ER図とJSONにおける実装
 
 前述したように、
 `krm_notes` の内部は次のような入れ子構造となっている。
 
 ![ER_notes diagram](/images/krm_notes_er.drawio.png)
+
+ER図においては、`krm_notes` テーブルは `krm_main` テーブルと `entry_id` によって関連づけられた子テーブルとして表現されている。一方、実際の JSON データでは、この `krm_notes` に相当する情報は平坦なテーブル構造ではなく、各 `krm_main` オブジェクト内に `"definitions"` というキーでまとめられた**入れ子の配列**として実装されている。
+
+この `"definitions"` 配列には、以下のフィールドをもつ定義オブジェクトが複数格納されている：
+
+- definition_seq_id
+- definition_elements
+- definition_type_code
+- definition_type_name
+- remarks
+
+この構造は、ER図において次のように概念的に対応づけることができる。
+
+**`krm_main` テーブル**は、概念上**複数の定義（notes）をもつ一対多の関係**を形成している。
+
+ただし、**実際の JSON 実装では定義項目は別テーブルとして独立しておらず**、`krm_main` の各レコード内に `"definitions"` というキーの下でまとめて**入れ子構造**で保持されている。
+
+### JSONデータ構造の例
+```
+{
+  "entry_id": "F00001",
+  ...
+  "definitions": [
+    {
+      "definition_seq_id": "F00001_01",
+      "definition_elements": "音仁（LV）「ニン」",
+      "definition_type_code": 215,
+      "definition_type_name": "音注声点有_類音注等",
+      "remarks": "広韻「如鄰切」..."
+    },
+    ...
+  ]
+}
+```
+
+## 各カラムの説明
 
 次に、カラム名の内容を日本語で説明する。
 

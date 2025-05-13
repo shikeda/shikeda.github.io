@@ -48,7 +48,7 @@ HDIC独自のカラム名は**太字**とした。
 |-------------|----------------------------|-------------|------|----------------------|
 | ID        | dhsjr_id      |             | DHSJR unique ID for each single character (integrated data only)     | 単字ごとのユニークID（統合データのみ）    |
 | **音注ID**        | **pronunciation_id**     | Primary Key | Pronunciation annotation ID, extracted from definition_sequence_id, containing only entries where the type of order is pronunciation annotation. Variant forms are appended with 'b', 'c'.    | 音注ID。kr_definition_sequence_idから、注文の種類が音注のものだけを取り出したもの。変異形を追加したものには末尾にxを付した。 |
-| **注文ID**        | **definition_seq_id**     | Foreign Key | 5-digit numeric ID starting with 'F', sequentially assigned to heading entries. Definition components under each heading are ordered based on their appearance, and order indicators like _01, _02, etc., are appended accordingly. The heading itself is appended with _00. | 連番で与えられるFで始まる5桁の見出しの数値IDに加えて、見出しの下に記される注文の各要素を出現順に区分し、出現の順番に_01、_02のように追加したもの。見出しには_00を追加する。 |
+| **注文ID**        | **definition_seq_id**     | Foreign Key | An identifier for each definition component, typically formed by appending a sequential suffix (e.g., _00, _01, _02) to the corresponding entry_id. The _00 suffix often denotes the main heading or an overall entry note, while _01, _02, etc., identify subsequent, ordered definition elements. | 連番で与えられるFで始まる5桁の見出しの数値IDに加えて、見出しの下に記される注文の各要素を出現順に区分し、出現の順番に_01、_02のように追加したもの。見出しには_00を追加する。 |
 | 資料番号        | material_id      |             | Material ID  | 資料ID       |
 | 資料名         | material_name      |             | Name of the material      | 資料の名称  |
 | 資料内漢字番号     | material_charcter_index   |             | Sequential number of character appearance in the material    | 漢字の資料内出現順の通し番号      |

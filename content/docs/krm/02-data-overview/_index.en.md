@@ -67,7 +67,7 @@ The following ER diagram shows the relationship between the three tables: krm_ma
 
 ![ER diagram.](/images/krmer.drawio.png)
 
-Moreover, krm_notes.json has a nested structure as shown in the following diagram.
+Please note that the `krm_notes.json` file has a nested structure: each record contains an array of definitions rather than a flat list of rows. For more details on the internal structure of `krm_notes.json`, see the [dedicated page](./02-02-notes/).
 
 ![ER_notes diagram](/images/krm_notes_er.drawio.png)
 

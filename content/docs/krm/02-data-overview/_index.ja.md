@@ -56,11 +56,13 @@ KRMを付していたが、仕様変更後のファイルは、krmを付すこ�
 
 ## ER図
 
-krm_main、krm_notes、krm_wakunの三つのテーブルの関係を図示すれば 次のようになる。
+次のER図は、krm_main、krm_notes、krm_wakun の三つのテーブル間の関係を示したものである。
 
-![ER図](/images/krmer.drawio.png)
+![ER diagram.](/images/krmer.drawio.png)
 
-さらにkrm_notes.jsonは次に図示するような入れ子構造を持っている。
+なお、krm_notes.json は入れ子構造を持つデータであり、各レコードは複数の定義（definitions）の配列を内部に含んでいる。
+この詳細な構造については、[別ページ](./02-02-notes)にて説明する。
+
 
 ![ER_notes図](/images/krm_notes_er.drawio.png)
 
