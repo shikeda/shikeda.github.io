@@ -7,7 +7,6 @@ weight: 3
 # bookCollapseSection: false
 # bookComments: false
 # bookSearchExclude: false
-lang: "en"
 ---
 
 # Overview of the *Ruiju Myōgishō*

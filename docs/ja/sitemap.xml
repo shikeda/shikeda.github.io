@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://shikeda.github.io/docs/krm/01-introduction/</loc>
     <xhtml:link
@@ -14,9 +13,7 @@
                 hreflang="ja"
                 href="https://shikeda.github.io/docs/krm/01-introduction/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/</loc>
     <xhtml:link
                 rel="alternate"
@@ -28,9 +25,19 @@
                 hreflang="ja"
                 href="https://shikeda.github.io/docs/krm/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://shikeda.github.io/docs/krm/04-entry-input/04-01-id/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-01-id/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shikeda.github.io/docs/krm/04-entry-input/04-01-id/"
+                />
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/02-data-overview/</loc>
     <xhtml:link
                 rel="alternate"
@@ -42,13 +49,7 @@
                 hreflang="ja"
                 href="https://shikeda.github.io/docs/krm/02-data-overview/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://shikeda.github.io/docs/krm/04-entry-input/04-01-id/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/01-introduction/01-01-introduction/</loc>
     <xhtml:link
                 rel="alternate"
@@ -60,13 +61,7 @@
                 hreflang="ja"
                 href="https://shikeda.github.io/docs/krm/01-introduction/01-01-introduction/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://shikeda.github.io/docs/krm/04-entry-input/04-02-char/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/03-entry-data-model/</loc>
     <xhtml:link
                 rel="alternate"
@@ -78,17 +73,19 @@
                 hreflang="ja"
                 href="https://shikeda.github.io/docs/krm/03-entry-data-model/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://shikeda.github.io/docs/krm/04-entry-input/04-03-handling/</loc>
-  </url>
-  
-  <url>
-    <loc>https://shikeda.github.io/docs/krm/04-entry-input/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://shikeda.github.io/docs/krm/04-entry-input/04-02-char/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-02-char/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shikeda.github.io/docs/krm/04-entry-input/04-02-char/"
+                />
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/03-entry-data-model/03-01-data-structure/</loc>
     <xhtml:link
                 rel="alternate"
@@ -100,9 +97,31 @@
                 hreflang="ja"
                 href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-01-data-structure/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://shikeda.github.io/docs/krm/04-entry-input/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shikeda.github.io/en/docs/krm/04-entry-input/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shikeda.github.io/docs/krm/04-entry-input/"
+                />
+  </url><url>
+    <loc>https://shikeda.github.io/docs/krm/04-entry-input/04-03-handling/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-03-handling/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shikeda.github.io/docs/krm/04-entry-input/04-03-handling/"
+                />
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/03-entry-data-model/03-02-types-of-entries/</loc>
     <xhtml:link
                 rel="alternate"
@@ -114,23 +133,7 @@
                 hreflang="ja"
                 href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-02-types-of-entries/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-03-concepts-char/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/"
-                />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/</loc>
     <xhtml:link
                 rel="alternate"
@@ -142,14 +145,22 @@
                 hreflang="ja"
                 href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-03-concepts-char/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/"
+                />
+  </url><url>
     <loc>https://shikeda.github.io/posts/input-method/</loc>
     <lastmod>2022-01-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/02-data-overview/02-01-main/</loc>
     <xhtml:link
                 rel="alternate"
@@ -161,9 +172,7 @@
                 hreflang="ja"
                 href="https://shikeda.github.io/docs/krm/02-data-overview/02-01-main/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/02-data-overview/02-02-notes/</loc>
     <xhtml:link
                 rel="alternate"
@@ -175,9 +184,7 @@
                 hreflang="ja"
                 href="https://shikeda.github.io/docs/krm/02-data-overview/02-02-notes/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/02-data-overview/02-03-headword-chars/</loc>
     <xhtml:link
                 rel="alternate"
@@ -189,9 +196,7 @@
                 hreflang="ja"
                 href="https://shikeda.github.io/docs/krm/02-data-overview/02-03-headword-chars/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/02-data-overview/02-04-wakun/</loc>
     <xhtml:link
                 rel="alternate"
@@ -203,9 +208,7 @@
                 hreflang="ja"
                 href="https://shikeda.github.io/docs/krm/02-data-overview/02-04-wakun/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/02-data-overview/02-05-definitions/</loc>
     <xhtml:link
                 rel="alternate"
@@ -217,9 +220,7 @@
                 hreflang="ja"
                 href="https://shikeda.github.io/docs/krm/02-data-overview/02-05-definitions/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/02-data-overview/02-06-pronunciations/</loc>
     <xhtml:link
                 rel="alternate"
@@ -231,13 +232,19 @@
                 hreflang="ja"
                 href="https://shikeda.github.io/docs/krm/02-data-overview/02-06-pronunciations/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/05-annotation-policy/</loc>
-  </url>
-  
-  <url>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shikeda.github.io/docs/krm/05-annotation-policy/"
+                />
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/02-data-overview/02-07-ndl/</loc>
     <xhtml:link
                 rel="alternate"
@@ -249,131 +256,139 @@
                 hreflang="ja"
                 href="https://shikeda.github.io/docs/krm/02-data-overview/02-07-ndl/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/05-annotation-policy/05-01-basic-policy/</loc>
-  </url>
-  
-  <url>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-01-basic-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-01-basic-policy/"
+                />
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/05-annotation-policy/05-02-headword-count/</loc>
-  </url>
-  
-  <url>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-02-headword-count/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-02-headword-count/"
+                />
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/05-annotation-policy/05-03-jitaichu-formats/</loc>
-  </url>
-  
-  <url>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-03-jitaichu-formats/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-03-jitaichu-formats/"
+                />
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/05-annotation-policy/05-04-onchu-problems/</loc>
-  </url>
-  
-  <url>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-04-onchu-problems/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-04-onchu-problems/"
+                />
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/05-annotation-policy/05-05-gichu-quantity/</loc>
-  </url>
-  
-  <url>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-05-gichu-quantity/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-05-gichu-quantity/"
+                />
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/05-annotation-policy/05-06-wakun-materials/</loc>
-  </url>
-  
-  <url>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-06-wakun-materials/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-06-wakun-materials/"
+                />
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/05-annotation-policy/05-07-annotation-examples/</loc>
-  </url>
-  
-  <url>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-07-annotation-examples/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-07-annotation-examples/"
+                />
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/06-typesetting/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/06-typesetting/06-01-hanazono-mincho/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/06-typesetting/06-02-glypwiki/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/06-typesetting/06-03-sfkanbun-sty/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/06-typesetting/06-04-vscode-texlive/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/06-typesetting/06-05-online-tools/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/07-progress/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/07-progress/1/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/07-progress/2/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/07-progress/3/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/07-progress/4/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/07-progress/5/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/07-progress/6/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/07-progress/7/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/08-case-studies/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/08-case-studies/1-ugoku/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/08-case-studies/2-miru/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/08-case-studies/3-wakun-uf/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/08-case-studies/4-kana-split/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/08-case-studies/5-dhsjr/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/docs/krm/08-case-studies/6/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/posts/</loc>
     <lastmod>2025-05-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/posts/mermaid/</loc>
     <lastmod>2025-05-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/</loc>
     <lastmod>2025-05-13T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -386,19 +401,13 @@
                 hreflang="ja"
                 href="https://shikeda.github.io/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/posts/hugo-book-i18n-notes/</loc>
     <lastmod>2025-05-10T18:27:43+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/posts/custom-css-setting/</loc>
     <lastmod>2025-05-10T05:56:42+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/categories/</loc>
     <lastmod>2022-01-06T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -411,34 +420,22 @@
                 hreflang="ja"
                 href="https://shikeda.github.io/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/tags/github/</loc>
     <lastmod>2022-01-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/categories/hdic/</loc>
     <lastmod>2022-01-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/tags/hugo/</loc>
     <lastmod>2022-01-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/categories/krm/</loc>
     <lastmod>2022-01-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/posts/krmnotes001/</loc>
     <lastmod>2022-01-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/tags/</loc>
     <lastmod>2022-01-06T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -451,19 +448,13 @@
                 hreflang="ja"
                 href="https://shikeda.github.io/tags/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://shikeda.github.io/tags/%E5%90%8D%E7%BE%A9%E6%8A%84/</loc>
-    <lastmod>2022-01-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://shikeda.github.io/tags/%E8%A6%B3%E6%99%BA%E9%99%A2%E6%9C%AC/</loc>
     <lastmod>2022-01-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://shikeda.github.io/tags/%E5%90%8D%E7%BE%A9%E6%8A%84/</loc>
+    <lastmod>2022-01-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://shikeda.github.io/docs/</loc>
     <xhtml:link
                 rel="alternate"
@@ -476,5 +467,4 @@
                 href="https://shikeda.github.io/docs/"
                 />
   </url>
-  
 </urlset>

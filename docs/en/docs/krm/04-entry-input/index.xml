@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Input of Entry Data on HDIC project</title>
+    <link>https://shikeda.github.io/en/docs/krm/04-entry-input/</link>
+    <description>Recent content in Input of Entry Data on HDIC project</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://shikeda.github.io/en/docs/krm/04-entry-input/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Head Characters, Entry Structure, and ID System</title>
+      <link>https://shikeda.github.io/en/docs/krm/04-entry-input/04-01-id/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://shikeda.github.io/en/docs/krm/04-entry-input/04-01-id/</guid>
+      <description>&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h1 id=&#34;head-characters-entry-structure-and-id-system&#34;&gt;&#xA;  Head Characters, Entry Structure, and ID System&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#head-characters-entry-structure-and-id-system&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;このセクションでは、名義抄の項目の構造と、それを識別するためのID体系について説明する。&lt;/p&gt;&#xA;&lt;h2 id=&#34;掲出字と掲出項目の定義&#34;&gt;&#xA;  掲出字と掲出項目の定義&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%8e%b2%e5%87%ba%e5%ad%97%e3%81%a8%e6%8e%b2%e5%87%ba%e9%a0%85%e7%9b%ae%e3%81%ae%e5%ae%9a%e7%be%a9&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;掲出字&lt;/strong&gt;（Headword Character(s)）とは、見出しの漢字そのものである。&#xA;&lt;strong&gt;掲出項目&lt;/strong&gt;（Entry）とは、辞書の項目単位である。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Character Encoding and Representation</title>
+      <link>https://shikeda.github.io/en/docs/krm/04-entry-input/04-02-char/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://shikeda.github.io/en/docs/krm/04-entry-input/04-02-char/</guid>
+      <description>&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h1 id=&#34;character-encoding-and-representation&#34;&gt;&#xA;  Character Encoding and Representation&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#character-encoding-and-representation&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、Unicodeを利用した&lt;strong&gt;文字の符号化と表現&lt;/strong&gt;を解説する。&#xA;Unicode によって表現できない文字の扱いは複数の方式を併用しているので、その点も解説した。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Handling Issues in Transcription, Notation, and Annotation</title>
+      <link>https://shikeda.github.io/en/docs/krm/04-entry-input/04-03-handling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://shikeda.github.io/en/docs/krm/04-entry-input/04-03-handling/</guid>
+      <description>&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h1 id=&#34;handling-issues-in-transcription-notation-and-annotation&#34;&gt;&#xA;  Handling Issues in Transcription, Notation, and Annotation&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#handling-issues-in-transcription-notation-and-annotation&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、誤字・脱字など&lt;strong&gt;書写上の問題&lt;/strong&gt;、省略符号や踊り字など&lt;strong&gt;文字・語の表記形式&lt;/strong&gt;、&#xA;割注、小字注記など&lt;strong&gt;付加注記・レイアウト&lt;/strong&gt;を整理して、&lt;strong&gt;書写・表記・注記における問題&lt;/strong&gt;と対応をまとめる。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

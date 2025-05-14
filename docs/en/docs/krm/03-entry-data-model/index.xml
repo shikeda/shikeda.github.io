@@ -4,46 +4,36 @@
     <title>Entry Data Model on HDIC project</title>
     <link>https://shikeda.github.io/en/docs/krm/03-entry-data-model/</link>
     <description>Recent content in Entry Data Model on HDIC project</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Entry Data Structure</title>
       <link>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/</guid>
-      <description>Entry Data Structure This section explains the structure and format of entries in the Kanchi-in manuscript of the Ruiju Myōgishō (hereinafter Myōgishō). It begins by defining key terms (and related concepts) such as Headword (掲出字) and Original Glosses (注文). Next, an example of an actual entry</description>
+      <description>&lt;h1 id=&#34;entry-data-structure&#34;&gt;&#xA;  Entry Data Structure&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#entry-data-structure&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;This section explains the structure and format of entries in the Kanchi-in manuscript of the &lt;em&gt;Ruiju Myōgishō&lt;/em&gt; (hereinafter &lt;em&gt;Myōgishō&lt;/em&gt;).&lt;/p&gt;&#xA;&lt;p&gt;It begins by defining key terms (and related concepts) such as &lt;strong&gt;Headword&lt;/strong&gt; (掲出字, &lt;em&gt;keishutsuji&lt;/em&gt;) and &lt;strong&gt;Original Glosses&lt;/strong&gt; (注文, &lt;em&gt;chūmon&lt;/em&gt;). Next, an example of an actual entry is presented as an image (a facsimile). The structure of this entry is then illustrated in an abstract and diagrammatic form. Finally, a transcription of the entry shown in the image is provided.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Types of Entries</title>
       <link>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-02-types-of-entries/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-02-types-of-entries/</guid>
-      <description>Types of Entries Under preparation. このセクションでは、類聚名義抄の項目をどのような基準で分類し、それぞれどのような特徴を持つか説明する。 掲出字形式による分類 これは、</description>
+      <description>&lt;h1 id=&#34;types-of-entries&#34;&gt;&#xA;  Types of Entries&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#types-of-entries&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;This section explains the criteria used to classify entries in the &lt;em&gt;Ruiju Myōgishō&lt;/em&gt; and describes the characteristics of each classification.&lt;/p&gt;&#xA;&lt;h2 id=&#34;classification-by-headword-form&#34;&gt;&#xA;  Classification by Headword Form&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#classification-by-headword-form&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Entries can be classified according to the form of their headwords, i.e., whether they consist of a single character or multiple characters.&lt;/p&gt;&#xA;&lt;h3 id=&#34;single-character-form-and-multi-character-form&#34;&gt;&#xA;  Single Character Form and Multi-character Form&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#single-character-form-and-multi-character-form&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Headwords can be in either a &lt;strong&gt;Single Character Form&lt;/strong&gt; or a &lt;strong&gt;Multi-Character Form&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Concepts Related to Character Notation</title>
       <link>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-03-concepts-char/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-03-concepts-char/</guid>
-      <description>Concepts Related to Character Notation Under preparation. 書体・字体・字形 「書体」「字体」「字形」の用語は 石塚晴通『図書寮本 日本書紀 研究篇』（汲古書院、1984）の定義に従う。 書体 &amp;mdash; 漢</description>
+      <description>&lt;h1 id=&#34;concepts-related-to-character-notation&#34;&gt;&#xA;  Concepts Related to Character Notation&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#concepts-related-to-character-notation&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h3 id=&#34;書体字体字形&#34;&gt;&#xA;  書体・字体・字形&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%9b%b8%e4%bd%93%e5%ad%97%e4%bd%93%e5%ad%97%e5%bd%a2&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;「書体」「字体」「字形」の用語は&#xA;石塚晴通『図書寮本 日本書紀 研究篇』（汲古書院、1984）の定義に従う。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;書体&lt;/strong&gt; &amp;mdash; 漢字の形に於て存在する社会共通の様式。多くは其の漢字資料の目的により決まる。楷書・草書等&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;字体&lt;/strong&gt; &amp;mdash; 書体内に於て存在する一々の漢字の社会共通の基準&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;字形&lt;/strong&gt; &amp;mdash; 字体内に於て認識する一々の漢字の書写された形そのもの&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;「書体」「字体」「字形」を階層的に捉える点がこの定義の特徴である。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Examples of Entry Data Files</title>
       <link>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/</guid>
-      <description>Examples of Entry Data Files Under preparation. 項目データファイルの例 左から順に翻刻を示すと次のようになる。所在情報は簡略化して示す。 No KR_ID KR_vol_radical KR_vol_name KR_radical Entry Entry_original KR_def 1 K08084810 v8#8 僧上 力 功 〇 音工（L</description>
+      <description>&lt;h1 id=&#34;examples-of-entry-data-files&#34;&gt;&#xA;  Examples of Entry Data Files&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#examples-of-entry-data-files&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h3 id=&#34;項目データファイルの例&#34;&gt;&#xA;  項目データファイルの例&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a0%85%e7%9b%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%be%8b&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;左から順に翻刻を示すと次のようになる。所在情報は簡略化して示す。&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;No&#x9;KR_ID&#x9;KR_vol_radical&#x9;KR_vol_name&#x9;KR_radical&#x9;Entry&#x9;Entry_original&#x9;KR_def&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;1&#x9;K08084810&#x9;v8#8&#x9;僧上&#x9;力&#x9;功&#x9;〇&#x9;音工（L-R）「コウ（_N）」「クウ（_N）」　續也　事也　成也　タシカニ（LHLH）　切歟&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;2&#x9;K08081810&#x9;v8#83&#x9;僧上&#x9;力&#x9;助&#x9;⿰目力&#x9;鉏據反　タスク（LL_）　マサル（HH_）　ハサム　和自ヨ（_L）&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;3&#x9;K08081821&#x9;v8#83&#x9;僧上&#x9;力&#x9;𦔳／助&#x9;■／〇&#x9;今正&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;4&#x9;K08084411&#x9;v8#83&#x9;僧上&#x9;力&#x9;加／復&#x9;〇／〇&#x9;シカノミナラス&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;5&#x9;K08084421&#x9;Tc090421&#x9;v8#83&#x9;僧上&#x9;力&#x9;ー（加）／之&#x9;〇／〇&#x9;同&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;1の「功」は単字形式の例である。&#xA;この例は、音注に複数の声点、仮名字音、鼻音記号が見えており、複雑な内容を持つ。&#xA;声点の圏点と星点の区別、声点と仮名字音の朱墨の別は省略する。&#xA;漢字意味注の「續也」は「績也」の誤写。&#xA;和訓「タシカニ」は「功」字の字義に対応せず不審。&#xA;この和訓のすぐあとに「切歟」とあり、&#xA;「切」字に「タシカニ」の和訓がある。&#xA;「功」には異体字「㓛」があり、これは「切」およびその異体字「⿰十刀」に近似した字形である。&#xA;「切」は掲出字「功」の形近字であり、その混同による和訓であっても注文内容を改変することなく「切歟」という注記を加えたものである。「切歟」は「案語」として扱う。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

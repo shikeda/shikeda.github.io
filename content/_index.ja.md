@@ -1,7 +1,6 @@
 ---
 title: Introduction
 type: docs
-lang: "ja"
 ---
 
 # HDIC Project

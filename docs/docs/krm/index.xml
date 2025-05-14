@@ -4,10 +4,8 @@
     <title>類聚名義抄 on HDIC project</title>
     <link>https://shikeda.github.io/docs/krm/</link>
     <description>Recent content in 類聚名義抄 on HDIC project</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="https://shikeda.github.io/docs/krm/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <atom:link href="https://shikeda.github.io/docs/krm/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

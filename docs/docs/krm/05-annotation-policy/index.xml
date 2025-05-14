@@ -4,73 +4,57 @@
     <title>注釈データ入力の詳細 on HDIC project</title>
     <link>https://shikeda.github.io/docs/krm/05-annotation-policy/</link>
     <description>Recent content in 注釈データ入力の詳細 on HDIC project</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="https://shikeda.github.io/docs/krm/05-annotation-policy/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <atom:link href="https://shikeda.github.io/docs/krm/05-annotation-policy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>注釈作成の基本方針と分析対象</title>
       <link>https://shikeda.github.io/docs/krm/05-annotation-policy/05-01-basic-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/05-annotation-policy/05-01-basic-policy/</guid>
-      <description>注釈作成の基本方針と分析対象 項目の構造と注文数の概略を示し、一つの 項目を例に説明しながら、注釈作成の基本方針を示す。 項目の構造と注文数 項目は</description>
+      <description>&lt;h1 id=&#34;注釈作成の基本方針と分析対象&#34;&gt;&#xA;  注釈作成の基本方針と分析対象&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%b3%a8%e9%87%88%e4%bd%9c%e6%88%90%e3%81%ae%e5%9f%ba%e6%9c%ac%e6%96%b9%e9%87%9d%e3%81%a8%e5%88%86%e6%9e%90%e5%af%be%e8%b1%a1&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;項目の構造と注文数の概略を示し、一つの&#xA;項目を例に説明しながら、注釈作成の基本方針を示す。&lt;/p&gt;&#xA;&lt;h2 id=&#34;項目の構造と注文数&#34;&gt;&#xA;  項目の構造と注文数&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a0%85%e7%9b%ae%e3%81%ae%e6%a7%8b%e9%80%a0%e3%81%a8%e6%b3%a8%e6%96%87%e6%95%b0&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;項目は&lt;strong&gt;掲出字&lt;/strong&gt;と&lt;strong&gt;注文&lt;/strong&gt;からなる。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>掲出字数の算出</title>
       <link>https://shikeda.github.io/docs/krm/05-annotation-policy/05-02-headword-count/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/05-annotation-policy/05-02-headword-count/</guid>
-      <description>掲出字数の算出 ここでは、誤字、脱字、衍字、補入、埋字、代用符号、踊り字などについて解説し、 掲出項目数の算出を行う。 誤字 掲出字の誤字の例をいく</description>
+      <description>&lt;h1 id=&#34;掲出字数の算出&#34;&gt;&#xA;  掲出字数の算出&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%8e%b2%e5%87%ba%e5%ad%97%e6%95%b0%e3%81%ae%e7%ae%97%e5%87%ba&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、誤字、脱字、衍字、補入、埋字、代用符号、踊り字などについて解説し、&#xA;掲出項目数の算出を行う。&lt;/p&gt;&#xA;&lt;h2 id=&#34;誤字&#34;&gt;&#xA;  誤字&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e8%aa%a4%e5%ad%97&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;掲出字の誤字の例をいくつかあげる。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>字体注の種類と記載形式</title>
       <link>https://shikeda.github.io/docs/krm/05-annotation-policy/05-03-jitaichu-formats/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/05-annotation-policy/05-03-jitaichu-formats/</guid>
-      <description>字体注の種類と記載形式 ここでは、「正」「通」「俗」などの注記の種類と これらの注記と注記対象字との記載状況を解説する。 また、「滴」を例にして記</description>
+      <description>&lt;h1 id=&#34;字体注の種類と記載形式&#34;&gt;&#xA;  字体注の種類と記載形式&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%ad%97%e4%bd%93%e6%b3%a8%e3%81%ae%e7%a8%ae%e9%a1%9e%e3%81%a8%e8%a8%98%e8%bc%89%e5%bd%a2%e5%bc%8f&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、「正」「通」「俗」などの注記の種類と&#xA;これらの注記と注記対象字との記載状況を解説する。&#xA;また、「滴」を例にして記載内容の検討を行い、&#xA;どのように注釈を作成すればよいかを考える材料とする。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>音注の種類と解読上の問題点 </title>
       <link>https://shikeda.github.io/docs/krm/05-annotation-policy/05-04-onchu-problems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/05-annotation-policy/05-04-onchu-problems/</guid>
-      <description>音注の種類と解読上の問題点 音注の検討では、広韻の音注との比較が基本となる。 原撰本名義抄では、東宮切韻の引用頻度が高く、 切韻系韻書に由来する音</description>
+      <description>&lt;h1 id=&#34;音注の種類と解読上の問題点&#34;&gt;&#xA;  音注の種類と解読上の問題点&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%9f%b3%e6%b3%a8%e3%81%ae%e7%a8%ae%e9%a1%9e%e3%81%a8%e8%a7%a3%e8%aa%ad%e4%b8%8a%e3%81%ae%e5%95%8f%e9%a1%8c%e7%82%b9&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;音注の検討では、広韻の音注との比較が基本となる。&#xA;原撰本名義抄では、東宮切韻の引用頻度が高く、&#xA;切韻系韻書に由来する音注が改編本でも多くなっていると&#xA;予想される。&#xA;原撰本名義抄では、この他に原本玉篇、万象名義の引用が多い&#xA;東宮切韻と同程度あり、観智院本の音注についても照合が必要である。原撰本名義抄で引用頻度が&#xA;最も多いのは玄応の一切経音義であり、同様に観智院本の音注と一切経音義との照合するが必要である。&#xA;また、原撰本名義抄には和名抄由来の音注もあり、漢語の中古音の体系と相違することがある。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>義注の種類と数量</title>
       <link>https://shikeda.github.io/docs/krm/05-annotation-policy/05-05-gichu-quantity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/05-annotation-policy/05-05-gichu-quantity/</guid>
-      <description>義注の種類と数量 義注とは、漢字を用いた意義注記のことである。漢文義注ともいう。 義注の文字数 観智院本類聚名義抄には、約12,600の義注がある</description>
+      <description>&lt;h1 id=&#34;義注の種類と数量&#34;&gt;&#xA;  義注の種類と数量&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e7%be%a9%e6%b3%a8%e3%81%ae%e7%a8%ae%e9%a1%9e%e3%81%a8%e6%95%b0%e9%87%8f&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;義注とは、漢字を用いた意義注記のことである。漢文義注ともいう。&lt;/p&gt;&#xA;&lt;h3 id=&#34;義注の文字数&#34;&gt;&#xA;  義注の文字数&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e7%be%a9%e6%b3%a8%e3%81%ae%e6%96%87%e5%ad%97%e6%95%b0&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;観智院本類聚名義抄には、約12,600の義注がある。これを義注に&#xA;用いられた漢字の文字数により分類すると次のようになる。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>和訓注釈のための基礎資料</title>
       <link>https://shikeda.github.io/docs/krm/05-annotation-policy/05-06-wakun-materials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/05-annotation-policy/05-06-wakun-materials/</guid>
-      <description>和訓注釈のための基礎資料 ここでは、まず、略称を用いる参考文献とその他の参考文献をあげる。 次に、和訓の同定に関して、若干の例をあげて解説する。</description>
+      <description>&lt;h1 id=&#34;和訓注釈のための基礎資料&#34;&gt;&#xA;  和訓注釈のための基礎資料&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%92%8c%e8%a8%93%e6%b3%a8%e9%87%88%e3%81%ae%e3%81%9f%e3%82%81%e3%81%ae%e5%9f%ba%e7%a4%8e%e8%b3%87%e6%96%99&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、まず、略称を用いる参考文献とその他の参考文献をあげる。&#xA;次に、和訓の同定に関して、若干の例をあげて解説する。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>注釈記述の具体例</title>
       <link>https://shikeda.github.io/docs/krm/05-annotation-policy/05-07-annotation-examples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/05-annotation-policy/05-07-annotation-examples/</guid>
-      <description>注釈記述の具体例 前書き 注釈の試作 注釈をどのように作成するか、さらに 作成した注釈をどのように公表するかは 現在、検討中である。 試みに、注釈の例を</description>
+      <description>&lt;h1 id=&#34;注釈記述の具体例&#34;&gt;&#xA;  注釈記述の具体例&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%b3%a8%e9%87%88%e8%a8%98%e8%bf%b0%e3%81%ae%e5%85%b7%e4%bd%93%e4%be%8b&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;前書き&#34;&gt;&#xA;  前書き&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%89%8d%e6%9b%b8%e3%81%8d&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;注釈の試作&#34;&gt;&#xA;  注釈の試作&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%b3%a8%e9%87%88%e3%81%ae%e8%a9%a6%e4%bd%9c&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;注釈をどのように作成するか、さらに&#xA;作成した注釈をどのように公表するかは&#xA;現在、検討中である。&lt;/p&gt;&#xA;&lt;p&gt;試みに、注釈の例を作成してみた。&#xA;ご意見いただければ幸いである。&#xA;なお、&lt;strong&gt;K0106261　匜&lt;/strong&gt;など、注釈すべきなのに、未記載のところが残っている。&#xA;今後、追加修正したい。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -7,7 +7,6 @@ bookToc: true
 bookCollapseSection: true
 # bookComments: false
 # bookSearchExclude: false
-lang: "en"
 ---
 
 # Overview of the *Ruiju Myōgishō

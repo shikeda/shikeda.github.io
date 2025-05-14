@@ -4,20 +4,16 @@
     <title>名義抄 on HDIC project</title>
     <link>https://shikeda.github.io/tags/%E5%90%8D%E7%BE%A9%E6%8A%84/</link>
     <description>Recent content in 名義抄 on HDIC project</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
+    <language>ja</language>
     <lastBuildDate>Thu, 06 Jan 2022 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://shikeda.github.io/tags/%E5%90%8D%E7%BE%A9%E6%8A%84/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://shikeda.github.io/tags/%E5%90%8D%E7%BE%A9%E6%8A%84/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KRM本文翻刻のサイトを開設</title>
       <link>https://shikeda.github.io/posts/krmnotes001/</link>
       <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/posts/krmnotes001/</guid>
-      <description>平安時代漢字字書総合データベース(HDIC)は 2014年にスタートしたが、代表者の 退職に伴い、公開方法の見直しが必要となった。 また、収録した</description>
+      <description>&lt;p&gt;平安時代漢字字書総合データベース(HDIC)は&#xA;2014年にスタートしたが、代表者の&#xA;退職に伴い、公開方法の見直しが必要となった。&lt;/p&gt;&#xA;&lt;p&gt;また、収録した古辞書の翻刻の凡例が&#xA;簡略であったり、準備できていないものも&#xA;あった。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

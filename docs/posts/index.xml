@@ -4,56 +4,44 @@
     <title>Blog on HDIC project</title>
     <link>https://shikeda.github.io/posts/</link>
     <description>Recent content in Blog on HDIC project</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
+    <language>ja</language>
     <lastBuildDate>Tue, 13 May 2025 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://shikeda.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://shikeda.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KRMの入力方法</title>
       <link>https://shikeda.github.io/posts/input-method/</link>
       <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/posts/input-method/</guid>
-      <description>注文データ入力の詳細 次の6種に分類して入力方法の詳細を説明する。 共通 字体注 音注 義注 和訓 掲出字補注 共通 字体注、音注、義注、和訓、掲出字補注に共</description>
+      <description>&lt;h2 id=&#34;注文データ入力の詳細&#34;&gt;&#xA;  注文データ入力の詳細&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%b3%a8%e6%96%87%e3%83%87%e3%83%bc%e3%82%bf%e5%85%a5%e5%8a%9b%e3%81%ae%e8%a9%b3%e7%b4%b0&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;次の6種に分類して入力方法の詳細を説明する。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e5%85%b1%e9%80%9a&#34;&gt;共通&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e5%ad%97%e4%bd%93%e6%b3%a8&#34;&gt;字体注&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e9%9f%b3%e6%b3%a8&#34;&gt;音注&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e7%be%a9%e6%b3%a8&#34;&gt;義注&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e5%92%8c%e8%a8%93&#34;&gt;和訓&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e6%8e%b2%e5%87%ba%e5%ad%97%e8%a3%9c%e6%b3%a8&#34;&gt;掲出字補注&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;共通&#34;&gt;&#xA;  共通&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%85%b1%e9%80%9a&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;字体注、音注、義注、和訓、掲出字補注に共通する事項は次のとおりである。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hugo BookテーマでのMermaid</title>
       <link>https://shikeda.github.io/posts/mermaid/</link>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/posts/mermaid/</guid>
-      <description>Hugo Book テーマでの Mermaid の扱い VS Codeで次の Mermaidで作図したER図は表示されますが、Hugo の book では図が描けない。 どうしたら表示できるか。</description>
+      <description>&lt;h1 id=&#34;hugo-book-テーマでの-mermaid-の扱い&#34;&gt;&#xA;  Hugo Book テーマでの Mermaid の扱い&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#hugo-book-%e3%83%86%e3%83%bc%e3%83%9e%e3%81%a7%e3%81%ae-mermaid-%e3%81%ae%e6%89%b1%e3%81%84&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;VS Codeで次の Mermaidで作図したER図は表示されますが、Hugo の book では図が描けない。&#xA;どうしたら表示できるか。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hugo Book I18n Notes</title>
       <link>https://shikeda.github.io/posts/hugo-book-i18n-notes/</link>
       <pubDate>Sat, 10 May 2025 18:27:43 +0900</pubDate>
-      
       <guid>https://shikeda.github.io/posts/hugo-book-i18n-notes/</guid>
-      <description>Hugo Book テーマにおける多言語対応と言語切替リンク設置まとめ 1. 言語設定（config.toml） defaultContentLanguage = &amp;#34;ja&amp;#34; defaultContentLanguageInSubdir = true [languages] [languages.ja] languageName = &amp;#34;Japanese&amp;#34; weight = 1 [languages.en] languageName = &amp;#34;English&amp;#34; weight = 2 defaultContentLanguageInSubdir = true に</description>
+      <description>&lt;h1 id=&#34;hugo-book-テーマにおける多言語対応と言語切替リンク設置まとめ&#34;&gt;&#xA;  Hugo Book テーマにおける多言語対応と言語切替リンク設置まとめ&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#hugo-book-%e3%83%86%e3%83%bc%e3%83%9e%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b%e5%a4%9a%e8%a8%80%e8%aa%9e%e5%af%be%e5%bf%9c%e3%81%a8%e8%a8%80%e8%aa%9e%e5%88%87%e6%9b%bf%e3%83%aa%e3%83%b3%e3%82%af%e8%a8%ad%e7%bd%ae%e3%81%be%e3%81%a8%e3%82%81&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-言語設定configtoml&#34;&gt;&#xA;  1. 言語設定（&lt;code&gt;config.toml&lt;/code&gt;）&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#1-%e8%a8%80%e8%aa%9e%e8%a8%ad%e5%ae%9aconfigtoml&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;defaultContentLanguage&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ja&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;defaultContentLanguageInSubdir&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;languages&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  [&lt;span style=&#34;color:#a6e22e&#34;&gt;languages&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;ja&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;languageName&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Japanese&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;weight&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  [&lt;span style=&#34;color:#a6e22e&#34;&gt;languages&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;en&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;languageName&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;English&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;weight&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;defaultContentLanguageInSubdir = true&lt;/code&gt; にすることで、デフォルト言語（日本語）も &lt;code&gt;/ja/&lt;/code&gt; サブディレクトリに配置され、明示的な切替が可能になります。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-コンテンツ構成&#34;&gt;&#xA;  2. コンテンツ構成&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#2-%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84%e6%a7%8b%e6%88%90&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;content/&lt;/code&gt; フォルダ内に &lt;code&gt;_index.ja.md&lt;/code&gt; と &lt;code&gt;_index.en.md&lt;/code&gt; を用意。&lt;/li&gt;&#xA;&lt;li&gt;各言語ごとに対応する &lt;code&gt;.md&lt;/code&gt; ファイルを準備すると &lt;code&gt;.Translations&lt;/code&gt; が有効に機能します。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;例：&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>コードブロックの配色調整</title>
       <link>https://shikeda.github.io/posts/custom-css-setting/</link>
       <pubDate>Sat, 10 May 2025 05:56:42 +0900</pubDate>
-      
       <guid>https://shikeda.github.io/posts/custom-css-setting/</guid>
-      <description>Hugo Book でのカスタム CSS 設定手順 目的 コードブロックの背景色と文字色を、図や全体の配色と調和するように変更する。 1. custom.css の作成と設置 パス： static/css/custom.css 内容（例）：</description>
+      <description>&lt;h1 id=&#34;hugo-book-でのカスタム-css-設定手順&#34;&gt;&#xA;  Hugo Book でのカスタム CSS 設定手順&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#hugo-book-%e3%81%a7%e3%81%ae%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0-css-%e8%a8%ad%e5%ae%9a%e6%89%8b%e9%a0%86&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;目的&#34;&gt;&#xA;  目的&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e7%9b%ae%e7%9a%84&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;コードブロックの背景色と文字色を、図や全体の配色と調和するように変更する。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-customcss-の作成と設置&#34;&gt;&#xA;  1. &lt;code&gt;custom.css&lt;/code&gt; の作成と設置&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#1-customcss-%e3%81%ae%e4%bd%9c%e6%88%90%e3%81%a8%e8%a8%ad%e7%bd%ae&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;パス&lt;/strong&gt;：&#xA;static/css/custom.css&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;内容（例）：&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>KRM本文翻刻のサイトを開設</title>
       <link>https://shikeda.github.io/posts/krmnotes001/</link>
       <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/posts/krmnotes001/</guid>
-      <description>平安時代漢字字書総合データベース(HDIC)は 2014年にスタートしたが、代表者の 退職に伴い、公開方法の見直しが必要となった。 また、収録した</description>
+      <description>&lt;p&gt;平安時代漢字字書総合データベース(HDIC)は&#xA;2014年にスタートしたが、代表者の&#xA;退職に伴い、公開方法の見直しが必要となった。&lt;/p&gt;&#xA;&lt;p&gt;また、収録した古辞書の翻刻の凡例が&#xA;簡略であったり、準備できていないものも&#xA;あった。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

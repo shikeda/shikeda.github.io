@@ -4,120 +4,162 @@
     <title>Introduction on HDIC project</title>
     <link>https://shikeda.github.io/en/</link>
     <description>Recent content in Introduction on HDIC project</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="https://shikeda.github.io/en/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://shikeda.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Head Characters, Entry Structure, and ID System</title>
+      <link>https://shikeda.github.io/en/docs/krm/04-entry-input/04-01-id/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://shikeda.github.io/en/docs/krm/04-entry-input/04-01-id/</guid>
+      <description>&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h1 id=&#34;head-characters-entry-structure-and-id-system&#34;&gt;&#xA;  Head Characters, Entry Structure, and ID System&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#head-characters-entry-structure-and-id-system&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;このセクションでは、名義抄の項目の構造と、それを識別するためのID体系について説明する。&lt;/p&gt;&#xA;&lt;h2 id=&#34;掲出字と掲出項目の定義&#34;&gt;&#xA;  掲出字と掲出項目の定義&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%8e%b2%e5%87%ba%e5%ad%97%e3%81%a8%e6%8e%b2%e5%87%ba%e9%a0%85%e7%9b%ae%e3%81%ae%e5%ae%9a%e7%be%a9&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;掲出字&lt;/strong&gt;（Headword Character(s)）とは、見出しの漢字そのものである。&#xA;&lt;strong&gt;掲出項目&lt;/strong&gt;（Entry）とは、辞書の項目単位である。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Character Encoding and Representation</title>
+      <link>https://shikeda.github.io/en/docs/krm/04-entry-input/04-02-char/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://shikeda.github.io/en/docs/krm/04-entry-input/04-02-char/</guid>
+      <description>&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h1 id=&#34;character-encoding-and-representation&#34;&gt;&#xA;  Character Encoding and Representation&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#character-encoding-and-representation&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、Unicodeを利用した&lt;strong&gt;文字の符号化と表現&lt;/strong&gt;を解説する。&#xA;Unicode によって表現できない文字の扱いは複数の方式を併用しているので、その点も解説した。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Overview of the Ruiju Myōgishō</title>
       <link>https://shikeda.github.io/en/docs/krm/01-introduction/01-01-introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/en/docs/krm/01-introduction/01-01-introduction/</guid>
-      <description>Overview of the Ruiju Myōgishō Ikeda Shōju Date published: 20 April 2025 This section provides an overview of the Ruiju Myōgishō, detailing its extant manuscripts, presumed compiler and provenance, scholarly significance, structural organization, textual sources, available facsimiles and indices, as well as pertinent secondary literature. Manuscript Traditions Compiler Date of Compilation</description>
+      <description>&lt;h1 id=&#34;overview-of-the-ruiju-myōgishō&#34;&gt;&#xA;  Overview of the &lt;em&gt;Ruiju Myōgishō&lt;/em&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#overview-of-the-ruiju-my%c5%8dgish%c5%8d&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ikeda Shōju&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Date published: 20 April 2025&lt;/p&gt;&#xA;&lt;p&gt;This section provides an overview of the &lt;em&gt;Ruiju Myōgishō&lt;/em&gt;, detailing its extant manuscripts, presumed compiler and provenance, scholarly significance, structural organization, textual sources, available facsimiles and indices, as well as pertinent secondary literature.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Entry Data Structure</title>
       <link>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/</guid>
-      <description>Entry Data Structure This section explains the structure and format of entries in the Kanchi-in manuscript of the Ruiju Myōgishō (hereinafter Myōgishō). It begins by defining key terms (and related concepts) such as Headword (掲出字) and Original Glosses (注文). Next, an example of an actual entry</description>
+      <description>&lt;h1 id=&#34;entry-data-structure&#34;&gt;&#xA;  Entry Data Structure&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#entry-data-structure&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;This section explains the structure and format of entries in the Kanchi-in manuscript of the &lt;em&gt;Ruiju Myōgishō&lt;/em&gt; (hereinafter &lt;em&gt;Myōgishō&lt;/em&gt;).&lt;/p&gt;&#xA;&lt;p&gt;It begins by defining key terms (and related concepts) such as &lt;strong&gt;Headword&lt;/strong&gt; (掲出字, &lt;em&gt;keishutsuji&lt;/em&gt;) and &lt;strong&gt;Original Glosses&lt;/strong&gt; (注文, &lt;em&gt;chūmon&lt;/em&gt;). Next, an example of an actual entry is presented as an image (a facsimile). The structure of this entry is then illustrated in an abstract and diagrammatic form. Finally, a transcription of the entry shown in the image is provided.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Handling Issues in Transcription, Notation, and Annotation</title>
+      <link>https://shikeda.github.io/en/docs/krm/04-entry-input/04-03-handling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://shikeda.github.io/en/docs/krm/04-entry-input/04-03-handling/</guid>
+      <description>&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h1 id=&#34;handling-issues-in-transcription-notation-and-annotation&#34;&gt;&#xA;  Handling Issues in Transcription, Notation, and Annotation&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#handling-issues-in-transcription-notation-and-annotation&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、誤字・脱字など&lt;strong&gt;書写上の問題&lt;/strong&gt;、省略符号や踊り字など&lt;strong&gt;文字・語の表記形式&lt;/strong&gt;、&#xA;割注、小字注記など&lt;strong&gt;付加注記・レイアウト&lt;/strong&gt;を整理して、&lt;strong&gt;書写・表記・注記における問題&lt;/strong&gt;と対応をまとめる。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Types of Entries</title>
       <link>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-02-types-of-entries/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-02-types-of-entries/</guid>
-      <description>Types of Entries Under preparation. このセクションでは、類聚名義抄の項目をどのような基準で分類し、それぞれどのような特徴を持つか説明する。 掲出字形式による分類 これは、</description>
+      <description>&lt;h1 id=&#34;types-of-entries&#34;&gt;&#xA;  Types of Entries&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#types-of-entries&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;This section explains the criteria used to classify entries in the &lt;em&gt;Ruiju Myōgishō&lt;/em&gt; and describes the characteristics of each classification.&lt;/p&gt;&#xA;&lt;h2 id=&#34;classification-by-headword-form&#34;&gt;&#xA;  Classification by Headword Form&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#classification-by-headword-form&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Entries can be classified according to the form of their headwords, i.e., whether they consist of a single character or multiple characters.&lt;/p&gt;&#xA;&lt;h3 id=&#34;single-character-form-and-multi-character-form&#34;&gt;&#xA;  Single Character Form and Multi-character Form&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#single-character-form-and-multi-character-form&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Headwords can be in either a &lt;strong&gt;Single Character Form&lt;/strong&gt; or a &lt;strong&gt;Multi-Character Form&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Concepts Related to Character Notation</title>
       <link>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-03-concepts-char/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-03-concepts-char/</guid>
-      <description>Concepts Related to Character Notation Under preparation. 書体・字体・字形 「書体」「字体」「字形」の用語は 石塚晴通『図書寮本 日本書紀 研究篇』（汲古書院、1984）の定義に従う。 書体 &amp;mdash; 漢</description>
+      <description>&lt;h1 id=&#34;concepts-related-to-character-notation&#34;&gt;&#xA;  Concepts Related to Character Notation&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#concepts-related-to-character-notation&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h3 id=&#34;書体字体字形&#34;&gt;&#xA;  書体・字体・字形&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%9b%b8%e4%bd%93%e5%ad%97%e4%bd%93%e5%ad%97%e5%bd%a2&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;「書体」「字体」「字形」の用語は&#xA;石塚晴通『図書寮本 日本書紀 研究篇』（汲古書院、1984）の定義に従う。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;書体&lt;/strong&gt; &amp;mdash; 漢字の形に於て存在する社会共通の様式。多くは其の漢字資料の目的により決まる。楷書・草書等&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;字体&lt;/strong&gt; &amp;mdash; 書体内に於て存在する一々の漢字の社会共通の基準&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;字形&lt;/strong&gt; &amp;mdash; 字体内に於て認識する一々の漢字の書写された形そのもの&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;「書体」「字体」「字形」を階層的に捉える点がこの定義の特徴である。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>krm_main</title>
       <link>https://shikeda.github.io/en/docs/krm/02-data-overview/02-01-main/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-01-main/</guid>
-      <description>krm_main Overview and file formats This section describes the core files of the database for the Kanchi-in manuscript of the Ruiju Mōgishō (hereinafter &amp;ldquo;Myōgishō&amp;quot;). Previously, the released file was a TSV file named KRM.tsv. It contains information regarding head characters, full definitions,</description>
+      <description>&lt;h1 id=&#34;krm_main&#34;&gt;&#xA;  krm_main&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_main&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;overview-and-file-formats&#34;&gt;&#xA;  Overview and file formats&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#overview-and-file-formats&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This section describes the core files of the database for the Kanchi-in manuscript of the &lt;em&gt;Ruiju Mōgishō&lt;/em&gt; (hereinafter &amp;ldquo;&lt;em&gt;Myōgishō&lt;/em&gt;&amp;rdquo;).&lt;/p&gt;&#xA;&lt;p&gt;Previously, the released file was a TSV file named &lt;code&gt;KRM.tsv&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It contains information regarding head characters, full definitions, volume, radical, and the locations in the Kazama edition and the Tenri edition.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>krm_notes</title>
       <link>https://shikeda.github.io/en/docs/krm/02-data-overview/02-02-notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-02-notes/</guid>
-      <description>krm_notes Overview and file formats A new file, krm_notes.tsv, has been created, containing detailed annotation information added to the KRM_definitions.tsv file. This is available in both TSV and JSON formats. To explicitly indicate that these are the filenames after the specification change in March 2025, lowercase &amp;ldquo;krm&amp;rdquo; was used instead of uppercase &amp;ldquo;KRM,&amp;rdquo; resulting in the names krm_notes.tsv and krm_notes.json. Column name comparison This section compares the column names in</description>
+      <description>&lt;h1 id=&#34;krm_notes&#34;&gt;&#xA;  krm_notes&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_notes&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;overview-and-file-formats&#34;&gt;&#xA;  Overview and file formats&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#overview-and-file-formats&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;A new file, &lt;code&gt;krm_notes.tsv&lt;/code&gt;, has been created, containing detailed annotation information added to the &lt;code&gt;KRM_definitions.tsv&lt;/code&gt; file.&lt;/p&gt;&#xA;&lt;p&gt;This is available in both TSV and JSON formats. To explicitly indicate that these are the filenames after the specification change in March 2025, lowercase &amp;ldquo;krm&amp;rdquo; was used instead of uppercase &amp;ldquo;KRM,&amp;rdquo; resulting in the names &lt;code&gt;krm_notes.tsv&lt;/code&gt; and &lt;code&gt;krm_notes.json&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;column-name-comparison&#34;&gt;&#xA;  Column name comparison&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#column-name-comparison&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This section compares the column names in the new &lt;code&gt;krm_notes.tsv&lt;/code&gt; (v1.2.6) with those in the previous files it replaces or incorporates data from.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>krm_headword_chars</title>
       <link>https://shikeda.github.io/en/docs/krm/02-data-overview/02-03-headword-chars/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-03-headword-chars/</guid>
-      <description>krm_headword_chars Headwords in the Myōgishō can consist of single characters or multiple characters (multi-character compounds). The krm_headword_chars data file lists all headwords from the Myōgishō, ordered according to the sequence of items in the Myōgishō and by the order of appearance of characters within each item. In the</description>
+      <description>&lt;h1 id=&#34;krm_headword_chars&#34;&gt;&#xA;  krm_headword_chars&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_headword_chars&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Headwords in the &lt;em&gt;Myōgishō&lt;/em&gt; can consist of single characters or multiple characters (multi-character compounds). The &lt;code&gt;krm_headword_chars&lt;/code&gt; data file lists all headwords from the &lt;em&gt;Myōgishō&lt;/em&gt;, ordered according to the sequence of items in the &lt;em&gt;Myōgishō&lt;/em&gt; and by the order of appearance of characters within each item.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>krm_wakun</title>
       <link>https://shikeda.github.io/en/docs/krm/02-data-overview/02-04-wakun/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-04-wakun/</guid>
-      <description>krm_wakun This data is derived by extracting wakun from the KRM.tsv file of the Myōgishō database, organizing variant forms of the wakun, and adjusting their correspondence with variant characters (itai-ji). Collation and textual research related to wakun are documented in krm_notes, so they are omitted here. In wakun, different readings may be written alongside the main reading as annotations. For example, the wakun</description>
+      <description>&lt;h1 id=&#34;krm_wakun&#34;&gt;&#xA;  krm_wakun&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_wakun&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;This data is derived by extracting wakun from the &lt;code&gt;KRM.tsv&lt;/code&gt; file of the &lt;em&gt;Myōgishō&lt;/em&gt; database, organizing variant forms of the wakun, and adjusting their correspondence with variant characters (itai-ji).&lt;/p&gt;&#xA;&lt;p&gt;Collation and textual research related to wakun are documented in &lt;code&gt;krm_notes&lt;/code&gt;, so they are omitted here.&lt;/p&gt;&#xA;&lt;p&gt;In wakun, different readings may be written alongside the main reading as annotations.&lt;/p&gt;&#xA;&lt;p&gt;For example, the wakun &amp;ldquo;マサル&amp;rdquo; (masaru) is assigned to the character &amp;ldquo;倍&amp;rdquo; (bai), but &amp;ldquo;su&amp;rdquo; is written in small katakana to the right of &amp;ldquo;ル&amp;rdquo; (ru) as an annotation. This indicates that the wakun &amp;ldquo;マス&amp;rdquo; (masu) is annotated in addition to &amp;ldquo;マサル&amp;rdquo; (masaru).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>krm_definitions</title>
       <link>https://shikeda.github.io/en/docs/krm/02-data-overview/02-05-definitions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-05-definitions/</guid>
-      <description>krm_definitions The definitions in the Myōgishō include not only wakun but also elements such as glyph annotations, pronunciation annotations, and meaning annotations.
-This file contains records created by categorizing each element of the definitions according to their order of appearance, assigning them numbers based on this order, and classifying the types of definitions. This was done for the purpose of collation and textual research.
-The file previously made public was KRM_definitions.</description>
+      <description>&lt;h1 id=&#34;krm_definitions&#34;&gt;&#xA;  krm_definitions&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_definitions&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;The definitions in the &lt;em&gt;Myōgishō&lt;/em&gt; include not only wakun but also elements such as glyph annotations, pronunciation annotations, and meaning annotations.&lt;/p&gt;&#xA;&lt;p&gt;This file contains records created by categorizing each element of the definitions according to their order of appearance, assigning them numbers based on this order, and classifying the types of definitions. This was done for the purpose of collation and textual research.&lt;/p&gt;&#xA;&lt;p&gt;The file previously made public was &lt;code&gt;KRM_definitions.tsv&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>krm_pronunciations</title>
       <link>https://shikeda.github.io/en/docs/krm/02-data-overview/02-06-pronunciations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-06-pronunciations/</guid>
-      <description>krm_pronunciations Under preparation.</description>
+      <description>&lt;h1 id=&#34;krm_pronunciations&#34;&gt;&#xA;  krm_pronunciations&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_pronunciations&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Under preparation.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Basic Policy and Subjects of Analysis for Annotation Creation</title>
+      <link>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-01-basic-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-01-basic-policy/</guid>
+      <description>&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h1 id=&#34;basic-policy-and-subjects-of-analysis-for-annotation-creation&#34;&gt;&#xA;  Basic Policy and Subjects of Analysis for Annotation Creation&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#basic-policy-and-subjects-of-analysis-for-annotation-creation&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;項目の構造と注文数の概略を示し、一つの&#xA;項目を例に説明しながら、注釈作成の基本方針を示す。&lt;/p&gt;&#xA;&lt;h2 id=&#34;項目の構造と注文数&#34;&gt;&#xA;  項目の構造と注文数&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a0%85%e7%9b%ae%e3%81%ae%e6%a7%8b%e9%80%a0%e3%81%a8%e6%b3%a8%e6%96%87%e6%95%b0&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;項目は&lt;strong&gt;掲出字&lt;/strong&gt;と&lt;strong&gt;注文&lt;/strong&gt;からなる。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>krm_ndl</title>
       <link>https://shikeda.github.io/en/docs/krm/02-data-overview/02-07-ndl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-07-ndl/</guid>
-      <description>krm_ndl Under preparation. This file compiles links to the images of the Kanchi-in manuscript of the Ruiju Myōgishō that are publicly available in the National Diet Library Digital Collections. This data cross-references the locations within the Kanchi-in manuscript of the Ruiju Myōgishō with their corresponding URLs in the National Diet Library Digital Collections. The file name</description>
+      <description>&lt;h1 id=&#34;krm_ndl&#34;&gt;&#xA;  krm_ndl&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_ndl&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;p&gt;This file compiles links to the images of the Kanchi-in manuscript of the &lt;em&gt;Ruiju Myōgishō&lt;/em&gt; that are publicly available in the National Diet Library Digital Collections.&lt;/p&gt;&#xA;&lt;p&gt;This data cross-references the locations within the Kanchi-in manuscript of the &lt;em&gt;Ruiju Myōgishō&lt;/em&gt; with their corresponding URLs in the National Diet Library Digital Collections. The file name is &lt;code&gt;KRM_ndl.tsv&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Calculation of Headword Count</title>
+      <link>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-02-headword-count/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-02-headword-count/</guid>
+      <description>&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h1 id=&#34;calculation-of-headword-count&#34;&gt;&#xA;  Calculation of Headword Count&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#calculation-of-headword-count&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、誤字、脱字、衍字、補入、埋字、代用符号、踊り字などについて解説し、&#xA;掲出項目数の算出を行う。&lt;/p&gt;&#xA;&lt;h2 id=&#34;誤字&#34;&gt;&#xA;  誤字&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e8%aa%a4%e5%ad%97&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;掲出字の誤字の例をいくつかあげる。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Types and Notation Formats of Character Form Notes</title>
+      <link>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-03-jitaichu-formats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-03-jitaichu-formats/</guid>
+      <description>&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h1 id=&#34;types-and-notation-formats-of-character-form-notes&#34;&gt;&#xA;  Types and Notation Formats of Character Form Notes&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#types-and-notation-formats-of-character-form-notes&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、「正」「通」「俗」などの注記の種類と&#xA;これらの注記と注記対象字との記載状況を解説する。&#xA;また、「滴」を例にして記載内容の検討を行い、&#xA;どのように注釈を作成すればよいかを考える材料とする。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Types and Decipherment Problems of Pronunciation Notes</title>
+      <link>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-04-onchu-problems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-04-onchu-problems/</guid>
+      <description>&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h1 id=&#34;types-and-decipherment-problems-of-pronunciation-notes&#34;&gt;&#xA;  Types and Decipherment Problems of Pronunciation Notes&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#types-and-decipherment-problems-of-pronunciation-notes&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;音注の検討では、広韻の音注との比較が基本となる。&#xA;原撰本名義抄では、東宮切韻の引用頻度が高く、&#xA;切韻系韻書に由来する音注が改編本でも多くなっていると&#xA;予想される。&#xA;原撰本名義抄では、この他に原本玉篇、万象名義の引用が多い&#xA;東宮切韻と同程度あり、観智院本の音注についても照合が必要である。原撰本名義抄で引用頻度が&#xA;最も多いのは玄応の一切経音義であり、同様に観智院本の音注と一切経音義との照合するが必要である。&#xA;また、原撰本名義抄には和名抄由来の音注もあり、漢語の中古音の体系と相違することがある。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Types and Quantity of Meaning Notes</title>
+      <link>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-05-gichu-quantity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-05-gichu-quantity/</guid>
+      <description>&lt;h1 id=&#34;types-and-quantity-of-meaning-notes&#34;&gt;&#xA;  Types and Quantity of Meaning Notes&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#types-and-quantity-of-meaning-notes&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h1 id=&#34;義注の種類と数量&#34;&gt;&#xA;  義注の種類と数量&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e7%be%a9%e6%b3%a8%e3%81%ae%e7%a8%ae%e9%a1%9e%e3%81%a8%e6%95%b0%e9%87%8f&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;義注とは、漢字を用いた意義注記のことである。漢文義注ともいう。&lt;/p&gt;&#xA;&lt;h3 id=&#34;義注の文字数&#34;&gt;&#xA;  義注の文字数&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e7%be%a9%e6%b3%a8%e3%81%ae%e6%96%87%e5%ad%97%e6%95%b0&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;観智院本類聚名義抄には、約12,600の義注がある。これを義注に&#xA;用いられた漢字の文字数により分類すると次のようになる。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Basic Materials for Wakun Annotation</title>
+      <link>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-06-wakun-materials/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-06-wakun-materials/</guid>
+      <description>&lt;h1 id=&#34;basic-materials-for-wakun-annotation&#34;&gt;&#xA;  Basic Materials for Wakun Annotation&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#basic-materials-for-wakun-annotation&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h1 id=&#34;和訓注釈のための基礎資料&#34;&gt;&#xA;  和訓注釈のための基礎資料&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%92%8c%e8%a8%93%e6%b3%a8%e9%87%88%e3%81%ae%e3%81%9f%e3%82%81%e3%81%ae%e5%9f%ba%e7%a4%8e%e8%b3%87%e6%96%99&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、まず、略称を用いる参考文献とその他の参考文献をあげる。&#xA;次に、和訓の同定に関して、若干の例をあげて解説する。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Concrete Examples of Annotation Description</title>
+      <link>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-07-annotation-examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-07-annotation-examples/</guid>
+      <description>&lt;h1 id=&#34;concrete-examples-of-annotation-description&#34;&gt;&#xA;  Concrete Examples of Annotation Description&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#concrete-examples-of-annotation-description&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h2 id=&#34;前書き&#34;&gt;&#xA;  前書き&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%89%8d%e6%9b%b8%e3%81%8d&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;注釈の試作&#34;&gt;&#xA;  注釈の試作&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%b3%a8%e9%87%88%e3%81%ae%e8%a9%a6%e4%bd%9c&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;注釈をどのように作成するか、さらに&#xA;作成した注釈をどのように公表するかは&#xA;現在、検討中である。&lt;/p&gt;&#xA;&lt;p&gt;試みに、注釈の例を作成してみた。&#xA;ご意見いただければ幸いである。&#xA;なお、&lt;strong&gt;K0106261　匜&lt;/strong&gt;など、注釈すべきなのに、未記載のところが残っている。&#xA;今後、追加修正したい。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Examples of Entry Data Files</title>
       <link>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/</guid>
-      <description>Examples of Entry Data Files Under preparation. 項目データファイルの例 左から順に翻刻を示すと次のようになる。所在情報は簡略化して示す。 No KR_ID KR_vol_radical KR_vol_name KR_radical Entry Entry_original KR_def 1 K08084810 v8#8 僧上 力 功 〇 音工（L</description>
+      <description>&lt;h1 id=&#34;examples-of-entry-data-files&#34;&gt;&#xA;  Examples of Entry Data Files&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#examples-of-entry-data-files&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h3 id=&#34;項目データファイルの例&#34;&gt;&#xA;  項目データファイルの例&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a0%85%e7%9b%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%be%8b&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;左から順に翻刻を示すと次のようになる。所在情報は簡略化して示す。&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;No&#x9;KR_ID&#x9;KR_vol_radical&#x9;KR_vol_name&#x9;KR_radical&#x9;Entry&#x9;Entry_original&#x9;KR_def&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;1&#x9;K08084810&#x9;v8#8&#x9;僧上&#x9;力&#x9;功&#x9;〇&#x9;音工（L-R）「コウ（_N）」「クウ（_N）」　續也　事也　成也　タシカニ（LHLH）　切歟&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;2&#x9;K08081810&#x9;v8#83&#x9;僧上&#x9;力&#x9;助&#x9;⿰目力&#x9;鉏據反　タスク（LL_）　マサル（HH_）　ハサム　和自ヨ（_L）&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;3&#x9;K08081821&#x9;v8#83&#x9;僧上&#x9;力&#x9;𦔳／助&#x9;■／〇&#x9;今正&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;4&#x9;K08084411&#x9;v8#83&#x9;僧上&#x9;力&#x9;加／復&#x9;〇／〇&#x9;シカノミナラス&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;5&#x9;K08084421&#x9;Tc090421&#x9;v8#83&#x9;僧上&#x9;力&#x9;ー（加）／之&#x9;〇／〇&#x9;同&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;1の「功」は単字形式の例である。&#xA;この例は、音注に複数の声点、仮名字音、鼻音記号が見えており、複雑な内容を持つ。&#xA;声点の圏点と星点の区別、声点と仮名字音の朱墨の別は省略する。&#xA;漢字意味注の「續也」は「績也」の誤写。&#xA;和訓「タシカニ」は「功」字の字義に対応せず不審。&#xA;この和訓のすぐあとに「切歟」とあり、&#xA;「切」字に「タシカニ」の和訓がある。&#xA;「功」には異体字「㓛」があり、これは「切」およびその異体字「⿰十刀」に近似した字形である。&#xA;「切」は掲出字「功」の形近字であり、その混同による和訓であっても注文内容を改変することなく「切歟」という注記を加えたものである。「切歟」は「案語」として扱う。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -14,7 +14,9 @@ weight: 4
 
 This section explains the structure and format of entries in the Kanchi-in manuscript of the *Ruiju Myōgishō* (hereinafter *Myōgishō*).
 
-It begins by defining key terms (and related concepts) such as **Headword** (掲出字) and **Original Glosses** (注文). Next, an example of an actual entry is presented as an image (a facsimile). The structure of this entry is then illustrated in an abstract and diagrammatic form. Finally, a transcription of the entry shown in the image is provided.
+It begins by defining key terms (and related concepts) such as **Headword** (掲出字, *keishutsuji*) and **Original Glosses** (注文, *chūmon*). Next, an example of an actual entry is presented as an image (a facsimile). The structure of this entry is then illustrated in an abstract and diagrammatic form. Finally, a transcription of the entry shown in the image is provided.
+
+Regarding the Japanese reading of "注文," although we have adopted "*chūmon*," it may also be read as "*chūbun*" to explicitly indicate that it refers to annotations on characters or words.
 
 ## Structure of Entries
 
@@ -26,7 +28,7 @@ The terminology herein is defined from a philological viewpoint, which may occas
 
 An **Entry** consists of a **Headword** and **Original Glosses**.
 
-A **Headword** (掲出字, *keishutsuji*) is also referred to as *midashi*, *midashiji*, *hyōji*, or *hyōshutsushi*. In Chinese, it is called *zìtóu* (字頭).
+A **Headword** (掲出字) is also referred to as *midashi*, *midashiji*, *hyōji*, or *hyōshutsushi*. In Chinese, it is called *zìtóu* (字頭).
 
 **Original Glosses** consist of the following components: **Phonetic Gloss** (音注, *onchū*), **Semantic Gloss in Chinese** (義注, *gichū*), **Japanese native reading** (和訓, *wakun*), **Notes on Character Form** (字体注, *jitaichū*), and **Other**.
 

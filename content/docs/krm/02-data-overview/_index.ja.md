@@ -8,7 +8,6 @@ title: "公開データの概要"
 # bookCollapseSection: false
 # bookComments: false
 # bookSearchExclude: false
-lang: "ja"
 ---
 
 # 公開データの概要
@@ -82,4 +81,3 @@ KRMを付していたが、仕様変更後のファイルは、krmを付すこ�
 
 
 この研究は日本学術振興会科学研究費補助金（課題番号16H03422、 19H00526、23K17500、25K00466）の成果の一部である。記して感謝の意を表す。
-

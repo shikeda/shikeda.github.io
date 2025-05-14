@@ -4,416 +4,324 @@
     <title>Introduction on HDIC project</title>
     <link>https://shikeda.github.io/</link>
     <description>Recent content in Introduction on HDIC project</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
+    <language>ja</language>
     <lastBuildDate>Tue, 13 May 2025 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://shikeda.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://shikeda.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>掲出字・項目構造とID体系</title>
       <link>https://shikeda.github.io/docs/krm/04-entry-input/04-01-id/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/04-entry-input/04-01-id/</guid>
-      <description>掲出字・項目構造とID体系 このセクションでは、名義抄の項目の構造と、それを識別するためのID体系について説明する。 掲出字と掲出項目の定義 掲出</description>
+      <description>&lt;h1 id=&#34;掲出字項目構造とid体系&#34;&gt;&#xA;  掲出字・項目構造とID体系&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%8e%b2%e5%87%ba%e5%ad%97%e9%a0%85%e7%9b%ae%e6%a7%8b%e9%80%a0%e3%81%a8id%e4%bd%93%e7%b3%bb&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;このセクションでは、名義抄の項目の構造と、それを識別するためのID体系について説明する。&lt;/p&gt;&#xA;&lt;h2 id=&#34;掲出字と掲出項目の定義&#34;&gt;&#xA;  掲出字と掲出項目の定義&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%8e%b2%e5%87%ba%e5%ad%97%e3%81%a8%e6%8e%b2%e5%87%ba%e9%a0%85%e7%9b%ae%e3%81%ae%e5%ae%9a%e7%be%a9&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;掲出字&lt;/strong&gt;（Headword Character(s)）とは、見出しの漢字そのものである。&#xA;&lt;strong&gt;掲出項目&lt;/strong&gt;（Entry）とは、辞書の項目単位である。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>類聚名義抄の概要</title>
       <link>https://shikeda.github.io/docs/krm/01-introduction/01-01-introduction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/01-introduction/01-01-introduction/</guid>
-      <description>類聚名義抄の概要 池田 証寿 初版公開日：2022年11月15日 最終更新日：2025年4月20日 ここでは、諸本、編者、成立、価値、構成、出典、諸本</description>
+      <description>&lt;h1 id=&#34;類聚名義抄の概要&#34;&gt;&#xA;  &lt;strong&gt;類聚名義抄の概要&lt;/strong&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a1%9e%e8%81%9a%e5%90%8d%e7%be%a9%e6%8a%84%e3%81%ae%e6%a6%82%e8%a6%81&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;池田　証寿&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;初版公開日：2022年11月15日&lt;br&gt;&#xA;最終更新日：2025年4月20日&lt;/p&gt;&#xA;&lt;p&gt;ここでは、諸本、編者、成立、価値、構成、出典、諸本の影印・索引、&#xA;参考文献などに関して、『類聚名義抄』の概要を述べる。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>文字の符号化と表現</title>
       <link>https://shikeda.github.io/docs/krm/04-entry-input/04-02-char/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/04-entry-input/04-02-char/</guid>
-      <description>文字の符号化と表現 Unicodeによる文字の符号化 UnicodeのバージョンによりCJK統合漢字の数は異なる。 HDICプロジェクトとしては2</description>
+      <description>&lt;h1 id=&#34;文字の符号化と表現&#34;&gt;&#xA;  文字の符号化と表現&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%96%87%e5%ad%97%e3%81%ae%e7%ac%a6%e5%8f%b7%e5%8c%96%e3%81%a8%e8%a1%a8%e7%8f%be&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、Unicodeを利用した&lt;strong&gt;文字の符号化と表現&lt;/strong&gt;を解説する。&#xA;Unicode によって表現できない文字の扱いは複数の方式を併用しているので、その点も解説した。&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>書写・表記・注記における問題と対応</title>
-      <link>https://shikeda.github.io/docs/krm/04-entry-input/04-03-handling/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://shikeda.github.io/docs/krm/04-entry-input/04-03-handling/</guid>
-      <description>書写・表記・注記における問題と対応 (Problems and Handling in Writing, Notation, and Annotations) 名義抄は漢字の字書であり、その内容を正確に解読し、テキスト化するには、原典である 名義抄に見</description>
-    </item>
-    
     <item>
       <title>項目データ構造</title>
       <link>https://shikeda.github.io/docs/krm/03-entry-data-model/03-01-data-structure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/03-entry-data-model/03-01-data-structure/</guid>
-      <description>項目データ構造 ここでは、観智院本『類聚名義抄』（以下、名義抄と略） の項目の構造と項目の形式を取り上げて解説する。 まず、掲出字・注文等の用語（</description>
+      <description>&lt;h1 id=&#34;項目データ構造&#34;&gt;&#xA;  項目データ構造&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a0%85%e7%9b%ae%e3%83%87%e3%83%bc%e3%82%bf%e6%a7%8b%e9%80%a0&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、観智院本『類聚名義抄』（以下、名義抄と略）&#xA;の項目の構造と項目の形式を取り上げて解説する。&lt;/p&gt;&#xA;&lt;p&gt;まず、掲出字・注文等の用語（概念）を定義し、&#xA;次に実際の項目の例を画像（模写）として掲げ、&#xA;その項目の構造を抽象化・図式化して示し、&#xA;最後に画像として示した項目の翻刻データを示す。&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>書写・表記・注記における問題と対応</title>
+      <link>https://shikeda.github.io/docs/krm/04-entry-input/04-03-handling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://shikeda.github.io/docs/krm/04-entry-input/04-03-handling/</guid>
+      <description>&lt;h1 id=&#34;書写表記注記における問題と対応&#34;&gt;&#xA;  書写・表記・注記における問題と対応&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%9b%b8%e5%86%99%e8%a1%a8%e8%a8%98%e6%b3%a8%e8%a8%98%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b%e5%95%8f%e9%a1%8c%e3%81%a8%e5%af%be%e5%bf%9c&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;(Problems and Handling in Writing, Notation, and Annotations)&lt;/p&gt;&#xA;&lt;p&gt;名義抄は漢字の字書であり、その内容を正確に解読し、テキスト化するには、原典である&#xA;名義抄に見える諸特徴を把握した上で、具体的な入力・処理方法を示す必要がある。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>項目の種類</title>
       <link>https://shikeda.github.io/docs/krm/03-entry-data-model/03-02-types-of-entries/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/03-entry-data-model/03-02-types-of-entries/</guid>
-      <description>項目の種類 このセクションでは、類聚名義抄の項目をどのような基準で分類し、それぞれどのような特徴を持つか説明する。 掲出字形式による分類 これは、</description>
+      <description>&lt;h1 id=&#34;項目の種類&#34;&gt;&#xA;  項目の種類&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a0%85%e7%9b%ae%e3%81%ae%e7%a8%ae%e9%a1%9e&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;このセクションでは、類聚名義抄の項目をどのような基準で分類し、それぞれどのような特徴を持つか説明する。&lt;/p&gt;&#xA;&lt;h2 id=&#34;掲出字形式による分類&#34;&gt;&#xA;  掲出字形式による分類&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%8e%b2%e5%87%ba%e5%ad%97%e5%bd%a2%e5%bc%8f%e3%81%ab%e3%82%88%e3%82%8b%e5%88%86%e9%a1%9e&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;項目は、それを構成する掲出字の形式（単字または複字）によって分類することができる。&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>文字表記に関する概念</title>
-      <link>https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/</guid>
-      <description>文字表記に関する概念 書体・字体・字形 「書体」「字体」「字形」の用語は 石塚晴通『図書寮本 日本書紀 研究篇』（汲古書院、1984）の定義に従う。 書</description>
-    </item>
-    
     <item>
       <title>項目データファイルの公開・更新</title>
       <link>https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/</guid>
-      <description>項目データファイルの公開・更新 項目データファイルの例 左から順に翻刻を示すと次のようになる。所在情報は簡略化して示す。 No KR_ID KR_vol_radical KR_vol_name KR_radical Entry Entry_original KR_def 1 K08084810 v8#8 僧</description>
+      <description>&lt;h1 id=&#34;項目データファイルの公開更新&#34;&gt;&#xA;  項目データファイルの公開・更新&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a0%85%e7%9b%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e5%85%ac%e9%96%8b%e6%9b%b4%e6%96%b0&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h3 id=&#34;項目データファイルの例&#34;&gt;&#xA;  項目データファイルの例&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a0%85%e7%9b%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%be%8b&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;左から順に翻刻を示すと次のようになる。所在情報は簡略化して示す。&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;No&#x9;KR_ID&#x9;KR_vol_radical&#x9;KR_vol_name&#x9;KR_radical&#x9;Entry&#x9;Entry_original&#x9;KR_def&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;1&#x9;K08084810&#x9;v8#8&#x9;僧上&#x9;力&#x9;功&#x9;〇&#x9;音工（L-R）「コウ（_N）」「クウ（_N）」　續也　事也　成也　タシカニ（LHLH）　切歟&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;2&#x9;K08081810&#x9;v8#83&#x9;僧上&#x9;力&#x9;助&#x9;⿰目力&#x9;鉏據反　タスク（LL_）　マサル（HH_）　ハサム　和自ヨ（_L）&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;3&#x9;K08081821&#x9;v8#83&#x9;僧上&#x9;力&#x9;𦔳／助&#x9;■／〇&#x9;今正&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;4&#x9;K08084411&#x9;v8#83&#x9;僧上&#x9;力&#x9;加／復&#x9;〇／〇&#x9;シカノミナラス&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;5&#x9;K08084421&#x9;Tc090421&#x9;v8#83&#x9;僧上&#x9;力&#x9;ー（加）／之&#x9;〇／〇&#x9;同&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;1の「功」は単字形式の例である。&#xA;この例は、音注に複数の声点、仮名字音、鼻音記号が見えており、複雑な内容を持つ。&#xA;声点の圏点と星点の区別、声点と仮名字音の朱墨の別は省略する。&#xA;漢字意味注の「續也」は「績也」の誤写。&#xA;和訓「タシカニ」は「功」字の字義に対応せず不審。&#xA;この和訓のすぐあとに「切歟」とあり、&#xA;「切」字に「タシカニ」の和訓がある。&#xA;「功」には異体字「㓛」があり、これは「切」およびその異体字「⿰十刀」に近似した字形である。&#xA;「切」は掲出字「功」の形近字であり、その混同による和訓であっても注文内容を改変することなく「切歟」という注記を加えたものである。「切歟」は「案語」として扱う。&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>文字表記に関する概念</title>
+      <link>https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/</guid>
+      <description>&lt;h1 id=&#34;文字表記に関する概念&#34;&gt;&#xA;  文字表記に関する概念&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%96%87%e5%ad%97%e8%a1%a8%e8%a8%98%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e6%a6%82%e5%bf%b5&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h3 id=&#34;書体字体字形&#34;&gt;&#xA;  書体・字体・字形&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%9b%b8%e4%bd%93%e5%ad%97%e4%bd%93%e5%ad%97%e5%bd%a2&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;「書体」「字体」「字形」の用語は&#xA;石塚晴通『図書寮本 日本書紀 研究篇』（汲古書院、1984）の定義に従う。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>KRMの入力方法</title>
       <link>https://shikeda.github.io/posts/input-method/</link>
       <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/posts/input-method/</guid>
-      <description>注文データ入力の詳細 次の6種に分類して入力方法の詳細を説明する。 共通 字体注 音注 義注 和訓 掲出字補注 共通 字体注、音注、義注、和訓、掲出字補注に共</description>
+      <description>&lt;h2 id=&#34;注文データ入力の詳細&#34;&gt;&#xA;  注文データ入力の詳細&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%b3%a8%e6%96%87%e3%83%87%e3%83%bc%e3%82%bf%e5%85%a5%e5%8a%9b%e3%81%ae%e8%a9%b3%e7%b4%b0&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;次の6種に分類して入力方法の詳細を説明する。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e5%85%b1%e9%80%9a&#34;&gt;共通&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e5%ad%97%e4%bd%93%e6%b3%a8&#34;&gt;字体注&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e9%9f%b3%e6%b3%a8&#34;&gt;音注&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e7%be%a9%e6%b3%a8&#34;&gt;義注&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e5%92%8c%e8%a8%93&#34;&gt;和訓&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e6%8e%b2%e5%87%ba%e5%ad%97%e8%a3%9c%e6%b3%a8&#34;&gt;掲出字補注&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;共通&#34;&gt;&#xA;  共通&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%85%b1%e9%80%9a&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;字体注、音注、義注、和訓、掲出字補注に共通する事項は次のとおりである。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>krm_main</title>
       <link>https://shikeda.github.io/docs/krm/02-data-overview/02-01-main/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/02-data-overview/02-01-main/</guid>
-      <description>krm_main 概要とファイル形式 観智院本類聚名義抄（以下、名義抄）デーベースの中核となるファイルを解説する。 従来公開していたのは、KRM.tsv という名</description>
+      <description>&lt;h1 id=&#34;krm_main&#34;&gt;&#xA;  krm_main&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_main&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;概要とファイル形式&#34;&gt;&#xA;  概要とファイル形式&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%a6%82%e8%a6%81%e3%81%a8%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e5%bd%a2%e5%bc%8f&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;観智院本類聚名義抄（以下、名義抄）デーベースの中核となるファイルを解説する。&#xA;従来公開していたのは、&lt;code&gt;KRM.tsv&lt;/code&gt; という名称のTSVファイルである。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>krm_notes</title>
       <link>https://shikeda.github.io/docs/krm/02-data-overview/02-02-notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/02-data-overview/02-02-notes/</guid>
-      <description>krm_notes 概要とファイル形式 KRM_definitions.tsv ファイルに詳細な注釈情報を追加したファイル krm_notes.tsv を作成した。 これは、TSV形式とJSON形式で用意した。 2025年3月の仕</description>
+      <description>&lt;h1 id=&#34;krm_notes&#34;&gt;&#xA;  krm_notes&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_notes&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;概要とファイル形式&#34;&gt;&#xA;  概要とファイル形式&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%a6%82%e8%a6%81%e3%81%a8%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e5%bd%a2%e5%bc%8f&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;KRM_definitions.tsv&lt;/code&gt; ファイルに詳細な注釈情報を追加したファイル &lt;code&gt;krm_notes.tsv&lt;/code&gt; を作成した。&#xA;これは、TSV形式とJSON形式で用意した。&#xA;2025年3月の仕様変更後のファイル名であることを明示的に示すため、&#xA;大文字の KRM ではなく小文字の krm を用いて&#xA;&lt;code&gt;krm_notes.tsv&lt;/code&gt; と &lt;code&gt;krm_notes.json&lt;/code&gt; という名称とした。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>krm_headword_chars</title>
       <link>https://shikeda.github.io/docs/krm/02-data-overview/02-03-headword-chars/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/02-data-overview/02-03-headword-chars/</guid>
-      <description>krm_headword_chars 名義抄の掲出字は、単字からなるものと、複字（多字）からなるものがある。 krm_headword_chars は、名義抄のすべての掲出字を、名義抄の項目順および各項目内の文字の</description>
+      <description>&lt;h1 id=&#34;krm_headword_chars&#34;&gt;&#xA;  krm_headword_chars&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_headword_chars&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;名義抄の掲出字は、単字からなるものと、複字（多字）からなるものがある。&#xA;krm_headword_chars は、名義抄のすべての掲出字を、名義抄の項目順および各項目内の文字の出現順に一覧したデータである。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>krm_wakun</title>
       <link>https://shikeda.github.io/docs/krm/02-data-overview/02-04-wakun/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/02-data-overview/02-04-wakun/</guid>
-      <description>krm_wakun これは、名義抄デーベースの KRM.tsv から和訓を抜き出して、 和訓の異形を整理し、異体字との対応を調整したデータである。 和訓に関する校勘と出典考証は krm_notes</description>
+      <description>&lt;h1 id=&#34;krm_wakun&#34;&gt;&#xA;  krm_wakun&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_wakun&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;これは、名義抄デーベースの &lt;code&gt;KRM.tsv&lt;/code&gt; から和訓を抜き出して、&#xA;和訓の異形を整理し、異体字との対応を調整したデータである。&lt;/p&gt;&#xA;&lt;p&gt;和訓に関する校勘と出典考証は &lt;code&gt;krm_notes&lt;/code&gt; に記載したので省略している。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>krm_definitions</title>
       <link>https://shikeda.github.io/docs/krm/02-data-overview/02-05-definitions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/02-data-overview/02-05-definitions/</guid>
-      <description>krm_definitions 名義抄の注文には、和訓だけではなく、字体注、音注、意義注などの要素を含んでいる。 これらの校勘と出典考証を行うために、注文の各要素を出現順に</description>
+      <description>&lt;h1 id=&#34;krm_definitions&#34;&gt;&#xA;  krm_definitions&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_definitions&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;名義抄の注文には、和訓だけではなく、字体注、音注、意義注などの要素を含んでいる。&#xA;これらの校勘と出典考証を行うために、注文の各要素を出現順に区分し、出現の順番に&#xA;番号を与えたレコードを作成し、注文種類の分類を行ったファイルである。&#xA;従来公開していたのは、&lt;code&gt;KRM_definitions.tsv&lt;/code&gt; である。&#xA;2025年3月の仕様変更後は、&lt;code&gt;krm_notes&lt;/code&gt; に統合したので、&#xA;説明は省略する。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>krm_pronunciations</title>
       <link>https://shikeda.github.io/docs/krm/02-data-overview/02-06-pronunciations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/02-data-overview/02-06-pronunciations/</guid>
-      <description>krm_pronunciations 観智院本類聚名義抄（以下、名義抄）の音注は、 反切、類音注、仮名注があり、それらに声点が施されることも多い。 日本漢字音のデータベースとしては</description>
+      <description>&lt;h1 id=&#34;krm_pronunciations&#34;&gt;&#xA;  krm_pronunciations&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_pronunciations&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;観智院本類聚名義抄（以下、名義抄）の音注は、&#xA;反切、類音注、仮名注があり、それらに声点が施されることも多い。&#xA;日本漢字音のデータベースとしては、加藤大鶴氏らによる&#xA;「資料横断的な漢字音・漢語音データベース」（略称 DHSJR）が非常に充実した&#xA;内容を持っている。またその仕様も詳細に公開されている。&#xA;DHSJR の仕様に合わせたデータ公開を検討中である。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>krm_ndl</title>
       <link>https://shikeda.github.io/docs/krm/02-data-overview/02-07-ndl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/02-data-overview/02-07-ndl/</guid>
-      <description>krm_ndl 国会図書館デジタルコレクションで公開している 観智院本類聚名義抄の画像へのリンクを整理したものである。 観智院本類聚名義抄の所在と国会図書館デ</description>
+      <description>&lt;h1 id=&#34;krm_ndl&#34;&gt;&#xA;  krm_ndl&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_ndl&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;国会図書館デジタルコレクションで公開している&#xA;観智院本類聚名義抄の画像へのリンクを整理したものである。&#xA;観智院本類聚名義抄の所在と国会図書館デジタルコレクションのURLとを対照させたデータである。&#xA;ファイル名は、&lt;code&gt;KRM_ndl.tsv&lt;/code&gt; である。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>注釈作成の基本方針と分析対象</title>
       <link>https://shikeda.github.io/docs/krm/05-annotation-policy/05-01-basic-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/05-annotation-policy/05-01-basic-policy/</guid>
-      <description>注釈作成の基本方針と分析対象 項目の構造と注文数の概略を示し、一つの 項目を例に説明しながら、注釈作成の基本方針を示す。 項目の構造と注文数 項目は</description>
+      <description>&lt;h1 id=&#34;注釈作成の基本方針と分析対象&#34;&gt;&#xA;  注釈作成の基本方針と分析対象&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%b3%a8%e9%87%88%e4%bd%9c%e6%88%90%e3%81%ae%e5%9f%ba%e6%9c%ac%e6%96%b9%e9%87%9d%e3%81%a8%e5%88%86%e6%9e%90%e5%af%be%e8%b1%a1&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;項目の構造と注文数の概略を示し、一つの&#xA;項目を例に説明しながら、注釈作成の基本方針を示す。&lt;/p&gt;&#xA;&lt;h2 id=&#34;項目の構造と注文数&#34;&gt;&#xA;  項目の構造と注文数&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a0%85%e7%9b%ae%e3%81%ae%e6%a7%8b%e9%80%a0%e3%81%a8%e6%b3%a8%e6%96%87%e6%95%b0&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;項目は&lt;strong&gt;掲出字&lt;/strong&gt;と&lt;strong&gt;注文&lt;/strong&gt;からなる。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>掲出字数の算出</title>
       <link>https://shikeda.github.io/docs/krm/05-annotation-policy/05-02-headword-count/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/05-annotation-policy/05-02-headword-count/</guid>
-      <description>掲出字数の算出 ここでは、誤字、脱字、衍字、補入、埋字、代用符号、踊り字などについて解説し、 掲出項目数の算出を行う。 誤字 掲出字の誤字の例をいく</description>
+      <description>&lt;h1 id=&#34;掲出字数の算出&#34;&gt;&#xA;  掲出字数の算出&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%8e%b2%e5%87%ba%e5%ad%97%e6%95%b0%e3%81%ae%e7%ae%97%e5%87%ba&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、誤字、脱字、衍字、補入、埋字、代用符号、踊り字などについて解説し、&#xA;掲出項目数の算出を行う。&lt;/p&gt;&#xA;&lt;h2 id=&#34;誤字&#34;&gt;&#xA;  誤字&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e8%aa%a4%e5%ad%97&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;掲出字の誤字の例をいくつかあげる。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>字体注の種類と記載形式</title>
       <link>https://shikeda.github.io/docs/krm/05-annotation-policy/05-03-jitaichu-formats/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/05-annotation-policy/05-03-jitaichu-formats/</guid>
-      <description>字体注の種類と記載形式 ここでは、「正」「通」「俗」などの注記の種類と これらの注記と注記対象字との記載状況を解説する。 また、「滴」を例にして記</description>
+      <description>&lt;h1 id=&#34;字体注の種類と記載形式&#34;&gt;&#xA;  字体注の種類と記載形式&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%ad%97%e4%bd%93%e6%b3%a8%e3%81%ae%e7%a8%ae%e9%a1%9e%e3%81%a8%e8%a8%98%e8%bc%89%e5%bd%a2%e5%bc%8f&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、「正」「通」「俗」などの注記の種類と&#xA;これらの注記と注記対象字との記載状況を解説する。&#xA;また、「滴」を例にして記載内容の検討を行い、&#xA;どのように注釈を作成すればよいかを考える材料とする。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>音注の種類と解読上の問題点 </title>
       <link>https://shikeda.github.io/docs/krm/05-annotation-policy/05-04-onchu-problems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/05-annotation-policy/05-04-onchu-problems/</guid>
-      <description>音注の種類と解読上の問題点 音注の検討では、広韻の音注との比較が基本となる。 原撰本名義抄では、東宮切韻の引用頻度が高く、 切韻系韻書に由来する音</description>
+      <description>&lt;h1 id=&#34;音注の種類と解読上の問題点&#34;&gt;&#xA;  音注の種類と解読上の問題点&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%9f%b3%e6%b3%a8%e3%81%ae%e7%a8%ae%e9%a1%9e%e3%81%a8%e8%a7%a3%e8%aa%ad%e4%b8%8a%e3%81%ae%e5%95%8f%e9%a1%8c%e7%82%b9&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;音注の検討では、広韻の音注との比較が基本となる。&#xA;原撰本名義抄では、東宮切韻の引用頻度が高く、&#xA;切韻系韻書に由来する音注が改編本でも多くなっていると&#xA;予想される。&#xA;原撰本名義抄では、この他に原本玉篇、万象名義の引用が多い&#xA;東宮切韻と同程度あり、観智院本の音注についても照合が必要である。原撰本名義抄で引用頻度が&#xA;最も多いのは玄応の一切経音義であり、同様に観智院本の音注と一切経音義との照合するが必要である。&#xA;また、原撰本名義抄には和名抄由来の音注もあり、漢語の中古音の体系と相違することがある。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>義注の種類と数量</title>
       <link>https://shikeda.github.io/docs/krm/05-annotation-policy/05-05-gichu-quantity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/05-annotation-policy/05-05-gichu-quantity/</guid>
-      <description>義注の種類と数量 義注とは、漢字を用いた意義注記のことである。漢文義注ともいう。 義注の文字数 観智院本類聚名義抄には、約12,600の義注がある</description>
+      <description>&lt;h1 id=&#34;義注の種類と数量&#34;&gt;&#xA;  義注の種類と数量&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e7%be%a9%e6%b3%a8%e3%81%ae%e7%a8%ae%e9%a1%9e%e3%81%a8%e6%95%b0%e9%87%8f&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;義注とは、漢字を用いた意義注記のことである。漢文義注ともいう。&lt;/p&gt;&#xA;&lt;h3 id=&#34;義注の文字数&#34;&gt;&#xA;  義注の文字数&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e7%be%a9%e6%b3%a8%e3%81%ae%e6%96%87%e5%ad%97%e6%95%b0&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;観智院本類聚名義抄には、約12,600の義注がある。これを義注に&#xA;用いられた漢字の文字数により分類すると次のようになる。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>和訓注釈のための基礎資料</title>
       <link>https://shikeda.github.io/docs/krm/05-annotation-policy/05-06-wakun-materials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/05-annotation-policy/05-06-wakun-materials/</guid>
-      <description>和訓注釈のための基礎資料 ここでは、まず、略称を用いる参考文献とその他の参考文献をあげる。 次に、和訓の同定に関して、若干の例をあげて解説する。</description>
+      <description>&lt;h1 id=&#34;和訓注釈のための基礎資料&#34;&gt;&#xA;  和訓注釈のための基礎資料&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%92%8c%e8%a8%93%e6%b3%a8%e9%87%88%e3%81%ae%e3%81%9f%e3%82%81%e3%81%ae%e5%9f%ba%e7%a4%8e%e8%b3%87%e6%96%99&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、まず、略称を用いる参考文献とその他の参考文献をあげる。&#xA;次に、和訓の同定に関して、若干の例をあげて解説する。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>注釈記述の具体例</title>
       <link>https://shikeda.github.io/docs/krm/05-annotation-policy/05-07-annotation-examples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/05-annotation-policy/05-07-annotation-examples/</guid>
-      <description>注釈記述の具体例 前書き 注釈の試作 注釈をどのように作成するか、さらに 作成した注釈をどのように公表するかは 現在、検討中である。 試みに、注釈の例を</description>
+      <description>&lt;h1 id=&#34;注釈記述の具体例&#34;&gt;&#xA;  注釈記述の具体例&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%b3%a8%e9%87%88%e8%a8%98%e8%bf%b0%e3%81%ae%e5%85%b7%e4%bd%93%e4%be%8b&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;前書き&#34;&gt;&#xA;  前書き&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%89%8d%e6%9b%b8%e3%81%8d&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;注釈の試作&#34;&gt;&#xA;  注釈の試作&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%b3%a8%e9%87%88%e3%81%ae%e8%a9%a6%e4%bd%9c&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;注釈をどのように作成するか、さらに&#xA;作成した注釈をどのように公表するかは&#xA;現在、検討中である。&lt;/p&gt;&#xA;&lt;p&gt;試みに、注釈の例を作成してみた。&#xA;ご意見いただければ幸いである。&#xA;なお、&lt;strong&gt;K0106261　匜&lt;/strong&gt;など、注釈すべきなのに、未記載のところが残っている。&#xA;今後、追加修正したい。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>花園明朝の設定</title>
       <link>https://shikeda.github.io/docs/krm/06-typesetting/06-01-hanazono-mincho/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/06-typesetting/06-01-hanazono-mincho/</guid>
-      <description>前提 TeX Liveが使えるように設定しておく。 花園明朝の設定 花園フォント 花園明朝のフォントをパソコンにインストールしておく。 ブラウザでの確認 たと</description>
+      <description>&lt;h2 id=&#34;前提&#34;&gt;&#xA;  前提&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%89%8d%e6%8f%90&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://texwiki.texjp.org/?TeX%20Live&#34;&gt;TeX Live&lt;/a&gt;が使えるように設定しておく。&lt;/p&gt;&#xA;&lt;h2 id=&#34;花園明朝の設定&#34;&gt;&#xA;  花園明朝の設定&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e8%8a%b1%e5%9c%92%e6%98%8e%e6%9c%9d%e3%81%ae%e8%a8%ad%e5%ae%9a&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;花園フォント&#34;&gt;&#xA;  花園フォント&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e8%8a%b1%e5%9c%92%e3%83%95%e3%82%a9%e3%83%b3%e3%83%88&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://fonts.jp/hanazono/&#34;&gt;花園明朝のフォント&lt;/a&gt;をパソコンにインストールしておく。&lt;/p&gt;&#xA;&lt;h3 id=&#34;ブラウザでの確認&#34;&gt;&#xA;  ブラウザでの確認&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e3%83%96%e3%83%a9%e3%82%a6%e3%82%b6%e3%81%a7%e3%81%ae%e7%a2%ba%e8%aa%8d&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;たとえば、&#xA;Chromeで&#xA;&lt;a href=&#34;https://ctext.org/dictionary.pl?if=en&amp;amp;rad=1&#34;&gt;ctext.orgのDictionaryの一部のページ&lt;/a&gt;&#xA;を見てください。&lt;/p&gt;&#xA;&lt;p&gt;漢字の一覧が表示されているかを確認。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>GlyphWikiの設定</title>
       <link>https://shikeda.github.io/docs/krm/06-typesetting/06-02-glypwiki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/06-typesetting/06-02-glypwiki/</guid>
-      <description>GlyphWikiの設定 BXglyphwiki パッケージバンドル 花園フォントをLuaLaTeXで使うには、 BXglyphwiki パッケージバンドルを参考にする。 toyjackによる</description>
+      <description>&lt;h2 id=&#34;glyphwikiの設定&#34;&gt;&#xA;  GlyphWikiの設定&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#glyphwiki%e3%81%ae%e8%a8%ad%e5%ae%9a&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;bxglyphwiki-パッケージバンドル&#34;&gt;&#xA;  BXglyphwiki パッケージバンドル&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#bxglyphwiki-%e3%83%91%e3%83%83%e3%82%b1%e3%83%bc%e3%82%b8%e3%83%90%e3%83%b3%e3%83%89%e3%83%ab&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;花園フォントをLuaLaTeXで使うには、&#xA;&lt;a href=&#34;https://github.com/zr-tex8r/BXglyphwiki&#34;&gt;BXglyphwiki パッケージバンドル&lt;/a&gt;を参考にする。&lt;/p&gt;&#xA;&lt;p&gt;toyjackによる&lt;a href=&#34;https://github.com/toyjack/template_lualatex_wikiglyphwiki&#34;&gt;テンプレートファイル&lt;/a&gt;が出ている。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>sfkanbun.styの設定</title>
       <link>https://shikeda.github.io/docs/krm/06-typesetting/06-03-sfkanbun-sty/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/06-typesetting/06-03-sfkanbun-sty/</guid>
-      <description>sfkanbun.styの設定 訓点資料用スタイル・ファイル（kunten2e.sty）は、 upLaTeXであれば使えるが、 LuaLaTeXで</description>
+      <description>&lt;h2 id=&#34;sfkanbunstyの設定&#34;&gt;&#xA;  sfkanbun.styの設定&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#sfkanbunsty%e3%81%ae%e8%a8%ad%e5%ae%9a&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;訓点資料用スタイル・ファイル（kunten2e.sty）は、&#xA;upLaTeXであれば使えるが、&#xA;LuaLaTeXで使えない。このスタイル・ファイルで&#xA;作成した文書ファイルもある。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>VS CodeとTeX Live</title>
       <link>https://shikeda.github.io/docs/krm/06-typesetting/06-04-vscode-texlive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/06-typesetting/06-04-vscode-texlive/</guid>
-      <description>VS CodeとTeX Live VS Code (Visual Studio Code) はMicrosoftが 開発しているWindows、Linux、macOS、web用のソースコードエディタである</description>
+      <description>&lt;h2 id=&#34;vs-codeとtex-live&#34;&gt;&#xA;  VS CodeとTeX Live&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#vs-code%e3%81%a8tex-live&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;VS Code (Visual Studio Code) はMicrosoftが&#xA;開発しているWindows、Linux、macOS、web用のソースコードエディタである。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>オンラインツール</title>
       <link>https://shikeda.github.io/docs/krm/06-typesetting/06-05-online-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/06-typesetting/06-05-online-tools/</guid>
-      <description>よく使うオンラインツールのリンク Kanji Database Project 漢字データベースプロジェクト CHISE IDS find 漢字検索 HNG単字検索 GlyphWiki グリフウィキ Han Morphism System Ver.0.3.1 篇韻データベース The SAT Da</description>
+      <description>&lt;h2 id=&#34;よく使うオンラインツールのリンク&#34;&gt;&#xA;  よく使うオンラインツールのリンク&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e3%82%88%e3%81%8f%e4%bd%bf%e3%81%86%e3%82%aa%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e3%83%84%e3%83%bc%e3%83%ab%e3%81%ae%e3%83%aa%e3%83%b3%e3%82%af&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://kanji-database.sourceforge.net&#34;&gt;Kanji Database Project 漢字データベースプロジェクト&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.chise.org/ids-find&#34;&gt;CHISE IDS find 漢字検索&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://search.hng-data.org&#34;&gt;HNG単字検索&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://glyphwiki.org&#34;&gt;GlyphWiki グリフウィキ&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www2.dhii.jp:3000&#34;&gt;Han Morphism System Ver.0.3.1&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://suzukish.s252.xrea.com/search&#34;&gt;篇韻データベース&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://21dzk.l.u-tokyo.ac.jp/SAT&#34;&gt;The SAT Daizōkyō Text Database SAT大正新脩大藏經テキストデータベース&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://coe21.zinbun.kyoto-u.ac.jp/djvuchar&#34;&gt;拓本文字データベース&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://code.cside.com&#34;&gt;3rdpageSearch&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://tls.uni-hd.de/xuanying.html&#34;&gt;一切經音義 徐時儀校注&lt;/a&gt;（リンク切れ）&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ctext.org/dictionary.pl?if=en&#34;&gt;Chinese Text Project 中國哲學書電子化計劃&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.kanripo.org/&#34;&gt;漢籍リポジトリ&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.kanripo.org/text/KR4h0001/&#34;&gt;漢籍リポジトリ・文選&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.zdic.net&#34;&gt;漢典&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://japanknowledge.com/&#34;&gt;JapanKnowledge&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://joao-roiz.jp/JPDICT/search&#34;&gt;Japanese pre-modern dictionaries 日本近代辞書・字書集&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://xiaoxue.iis.sinica.edu.tw&#34;&gt;小學堂文字學資料庫&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://cdn.rawgit.com/g0v/z0y/v3/&#34;&gt;零時字引&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tableconvert.com/&#34;&gt;TableConvert&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://convertio.co/ja/image-converter/&#34;&gt;convertio オンライン画像コンバーター&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.media.io/jp/image-converter.html&#34;&gt;media オンライン画像変換ツール&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://onlineconvertfree.com/ja/converter/images/&#34;&gt;onlineconvertfree オンライン画像変換&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cir.nii.ac.jp/&#34;&gt;CiNii&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cir.nii.ac.jp/&#34;&gt;NDL&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://clrd.ninjal.ac.jp/chj/&#34;&gt;CHJ 日本語歴史コーパス&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://bibdb.ninjal.ac.jp/bunken/ja/&#34;&gt;NINJAL 日本語研究・日本語教育文献データベース&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://scholar.google.co.jp/&#34;&gt;Google Scholar&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://base1.nijl.ac.jp/~tkoten/&#34;&gt;日本古典籍総合目録データベース&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://xymtex.com/fujitas2/texlatex/index.html&#34;&gt;Fujita Shinsaku TeX/LaTeX Page&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.benricho.org/moji_conv/13.html&#34;&gt;新旧漢字変換・新舊漢字變換&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://zh.wikisource.org/wiki/%E6%98%AD%E6%98%8E%E6%96%87%E9%81%B8/%E5%8D%B71&#34;&gt;文選 維基文庫&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://hjl.hatenablog.com/entry/2020/03/09/120000#f-9db82ab4&#34;&gt;インターネット上で閲覧できる古辞書一覧&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.digital.archives.go.jp/DAS/meta/listPhoto?LANG=default&amp;amp;BID=F1000000000000094179&amp;amp;ID=&amp;amp;TYPE=dljpeg&#34;&gt;十三経注疏 内閣文庫&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>掲出字</title>
       <link>https://shikeda.github.io/docs/krm/07-progress/1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/07-progress/1/</guid>
-      <description>掲出字 かなり分かりにくいですが、 注釈データ入力の詳細 &amp;gt; 掲出字 &amp;gt; 掲出項目数 &amp;gt; 部首毎の掲出項目数と掲出字数のまとめ で見ることができます。 これは、</description>
+      <description>&lt;h3 id=&#34;掲出字&#34;&gt;&#xA;  掲出字&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%8e%b2%e5%87%ba%e5%ad%97&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;かなり分かりにくいですが、&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/docs/notes/krm-main/notes-input/&#34;&gt;注釈データ入力の詳細&lt;/a&gt; &amp;gt;&#xA;&lt;a href=&#34;https://shikeda.github.io/docs/notes/krm-main/notes-input/2/&#34;&gt;掲出字&lt;/a&gt; &amp;gt; 掲出項目数 &amp;gt; 部首毎の掲出項目数と掲出字数のまとめ&lt;/p&gt;&#xA;&lt;p&gt;で見ることができます。&lt;/p&gt;&#xA;&lt;p&gt;これは、極めてたどりにくいので、以下の同じ内容を貼り付けておきます。&#xA;2024年3月14日現在での数値です。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>注文</title>
       <link>https://shikeda.github.io/docs/krm/07-progress/2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/07-progress/2/</guid>
-      <description>注文 注文種類 頻度集計 百分率 字体注 13,352 15.39% 音注 24,145 27.82% 義注 12,648 14.57% 和訓 35,381 40.77% その他 1,253 1.44% 小計 86,779 100.00% 2024年12月12日現在（以下同）。 次には声点の有無の状況を</description>
+      <description>&lt;h1 id=&#34;注文&#34;&gt;&#xA;  注文&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%b3%a8%e6%96%87&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: center&#34;&gt;注文種類&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: right&#34;&gt;頻度集計&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: right&#34;&gt;百分率&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;字体注&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;13,352&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;15.39%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;音注&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;24,145&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;27.82%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;義注&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;12,648&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;14.57%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;和訓&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;35,381&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;40.77%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;その他&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;1,253&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;1.44%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: center&#34;&gt;小計&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;86,779&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;100.00%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;2024年12月12日現在（以下同）。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>字体注</title>
       <link>https://shikeda.github.io/docs/krm/07-progress/3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/07-progress/3/</guid>
-      <description>字体注 2024年12月11日現在のデータによってその詳細を説明する。 声点の有無 声点の有無 頻度 百分率 字体注声点有 20 0.15% 字体注声点無 13,332 99.85% 小計 13,352 100.00%</description>
+      <description>&lt;h1 id=&#34;字体注&#34;&gt;&#xA;  字体注&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%ad%97%e4%bd%93%e6%b3%a8&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;2024年12月11日現在のデータによってその詳細を説明する。&lt;/p&gt;&#xA;&lt;h2 id=&#34;声点の有無&#34;&gt;&#xA;  声点の有無&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%a3%b0%e7%82%b9%e3%81%ae%e6%9c%89%e7%84%a1&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;声点の有無&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: right&#34;&gt;頻度&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: right&#34;&gt;百分率&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;字体注声点有&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;20&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;0.15%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;字体注声点無&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;13,332&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;99.85%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;小計&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;13,352&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;100.00%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
     </item>
-    
     <item>
       <title>音注</title>
       <link>https://shikeda.github.io/docs/krm/07-progress/4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/07-progress/4/</guid>
-      <description>音注 2024年12月11日現在のデータによってその詳細を説明する。 声点の有無 声点の有無 頻度 百分率 音注声点有 4,462 18.48% 音注声点無 19,683 81.52% 小計 24,145 100.00% 音注に声</description>
+      <description>&lt;h1 id=&#34;音注&#34;&gt;&#xA;  音注&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%9f%b3%e6%b3%a8&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;2024年12月11日現在のデータによってその詳細を説明する。&lt;/p&gt;&#xA;&lt;h2 id=&#34;声点の有無&#34;&gt;&#xA;  声点の有無&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%a3%b0%e7%82%b9%e3%81%ae%e6%9c%89%e7%84%a1&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;声点の有無&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: right&#34;&gt;頻度&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: right&#34;&gt;百分率&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;音注声点有&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;4,462&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;18.48%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;音注声点無&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;19,683&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;81.52%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;小計&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;24,145&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;100.00%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;音注に声点があるのは、約18パーセントである。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>義注</title>
       <link>https://shikeda.github.io/docs/krm/07-progress/5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/07-progress/5/</guid>
-      <description>義注 2024年12月12日現在 声点の有無 頻度 百分率 義注声点有 6 0.05% 義注声点無 12,642 99.95% 小計 12,648 100.00%</description>
+      <description>&lt;h1 id=&#34;義注&#34;&gt;&#xA;  義注&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e7%be%a9%e6%b3%a8&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;2024年12月12日現在&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;声点の有無&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: right&#34;&gt;頻度&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: right&#34;&gt;百分率&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;義注声点有&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;6&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;0.05%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;義注声点無&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;12,642&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;99.95%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;小計&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;12,648&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;100.00%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
     </item>
-    
     <item>
       <title>和訓</title>
       <link>https://shikeda.github.io/docs/krm/07-progress/6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/07-progress/6/</guid>
-      <description>和訓 日国IDの付与状況 和訓数 総数 ID付与済 パーセント 仏上 4,104 3,475 84.67% 仏中 4,237 3,675 86.74% 仏下本 4,344 3,511 80.82% 仏下末 1,559 1,309 83.96% 法上 4,211 3,498 83.07% 法中 4,446 3,659 82.30% 法下 3,989 3,285 82.35% 僧上 3,994 3,364 84.23% 僧中</description>
+      <description>&lt;h1 id=&#34;和訓&#34;&gt;&#xA;  和訓&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%92%8c%e8%a8%93&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;日国idの付与状況&#34;&gt;&#xA;  日国IDの付与状況&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%97%a5%e5%9b%bdid%e3%81%ae%e4%bb%98%e4%b8%8e%e7%8a%b6%e6%b3%81&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;和訓数&lt;/th&gt;&#xA;          &lt;th&gt;総数&lt;/th&gt;&#xA;          &lt;th&gt;ID付与済&lt;/th&gt;&#xA;          &lt;th&gt;パーセント&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;仏上&lt;/td&gt;&#xA;          &lt;td&gt;4,104&lt;/td&gt;&#xA;          &lt;td&gt;3,475&lt;/td&gt;&#xA;          &lt;td&gt;84.67%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;仏中&lt;/td&gt;&#xA;          &lt;td&gt;4,237&lt;/td&gt;&#xA;          &lt;td&gt;3,675&lt;/td&gt;&#xA;          &lt;td&gt;86.74%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;仏下本&lt;/td&gt;&#xA;          &lt;td&gt;4,344&lt;/td&gt;&#xA;          &lt;td&gt;3,511&lt;/td&gt;&#xA;          &lt;td&gt;80.82%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;仏下末&lt;/td&gt;&#xA;          &lt;td&gt;1,559&lt;/td&gt;&#xA;          &lt;td&gt;1,309&lt;/td&gt;&#xA;          &lt;td&gt;83.96%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;法上&lt;/td&gt;&#xA;          &lt;td&gt;4,211&lt;/td&gt;&#xA;          &lt;td&gt;3,498&lt;/td&gt;&#xA;          &lt;td&gt;83.07%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;法中&lt;/td&gt;&#xA;          &lt;td&gt;4,446&lt;/td&gt;&#xA;          &lt;td&gt;3,659&lt;/td&gt;&#xA;          &lt;td&gt;82.30%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;法下&lt;/td&gt;&#xA;          &lt;td&gt;3,989&lt;/td&gt;&#xA;          &lt;td&gt;3,285&lt;/td&gt;&#xA;          &lt;td&gt;82.35%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;僧上&lt;/td&gt;&#xA;          &lt;td&gt;3,994&lt;/td&gt;&#xA;          &lt;td&gt;3,364&lt;/td&gt;&#xA;          &lt;td&gt;84.23%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;僧中&lt;/td&gt;&#xA;          &lt;td&gt;3,257&lt;/td&gt;&#xA;          &lt;td&gt;2,717&lt;/td&gt;&#xA;          &lt;td&gt;83.42%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;僧下&lt;/td&gt;&#xA;          &lt;td&gt;2,210&lt;/td&gt;&#xA;          &lt;td&gt;1,863&lt;/td&gt;&#xA;          &lt;td&gt;84.30%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;合計&lt;/td&gt;&#xA;          &lt;td&gt;36,351&lt;/td&gt;&#xA;          &lt;td&gt;30,356&lt;/td&gt;&#xA;          &lt;td&gt;83.51%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;（2024年12月11日現在）&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>その他</title>
       <link>https://shikeda.github.io/docs/krm/07-progress/7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/07-progress/7/</guid>
-      <description>その他 2024年12月12日現在 分類 頻度 百分率 未詳 211 16.84% 参照注 181 14.45% 出典注記 25 2.00% 補注 64 5.11% その他上記以外 151 12.05% 未勘 105 8.38% 無注 516 41.18% 小計 1,253 100.00%</description>
+      <description>&lt;h1 id=&#34;その他&#34;&gt;&#xA;  その他&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e3%81%9d%e3%81%ae%e4%bb%96&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;2024年12月12日現在&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;分類&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: right&#34;&gt;頻度&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: right&#34;&gt;百分率&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;未詳&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;211&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;16.84%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;参照注&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;181&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;14.45%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;出典注記&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;25&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;2.00%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;補注&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;64&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;5.11%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;その他上記以外&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;151&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;12.05%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;未勘&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;105&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;8.38%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;無注&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;516&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;41.18%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;小計&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;1,253&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: right&#34;&gt;100.00%&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
     </item>
-    
     <item>
       <title>和訓「ウゴク」の調査</title>
       <link>https://shikeda.github.io/docs/krm/08-case-studies/1-ugoku/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/08-case-studies/1-ugoku/</guid>
-      <description>和訓「ウゴク」の調査 池田証寿 2024年12月22日～26日 はじめに 観智院本『類聚名義抄』（以下、名義抄）の注釈を進める参考とするため、次の点</description>
+      <description>&lt;h1 id=&#34;和訓ウゴクの調査&#34;&gt;&#xA;  和訓「ウゴク」の調査&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%92%8c%e8%a8%93%e3%82%a6%e3%82%b4%e3%82%af%e3%81%ae%e8%aa%bf%e6%9f%bb&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;池田証寿&lt;/p&gt;&#xA;&lt;p&gt;2024年12月22日～26日&lt;/p&gt;&#xA;&lt;h2 id=&#34;はじめに&#34;&gt;&#xA;  はじめに&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;観智院本『類聚名義抄』（以下、名義抄）の注釈を進める参考とするため、次の点を確認する。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>和訓「ミル」の調査</title>
       <link>https://shikeda.github.io/docs/krm/08-case-studies/2-miru/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/08-case-studies/2-miru/</guid>
-      <description>和訓「ミル」の調査 池田 証寿 2025年1月4日～11日 はじめに 和訓「ミル」を例として、『日本国語大辞典 第二版』（ジャパンナレッジ版、「日国」と</description>
+      <description>&lt;h1 id=&#34;和訓ミルの調査&#34;&gt;&#xA;  和訓「ミル」の調査&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%92%8c%e8%a8%93%e3%83%9f%e3%83%ab%e3%81%ae%e8%aa%bf%e6%9f%bb&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;池田　証寿&#xA;2025年1月4日～11日&lt;/p&gt;&#xA;&lt;h2 id=&#34;はじめに&#34;&gt;&#xA;  はじめに&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;和訓「ミル」を例として、『日本国語大辞典　第二版』（ジャパンナレッジ版、「日国」と略）の表記欄を検証する。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>和訓の使用頻度</title>
       <link>https://shikeda.github.io/docs/krm/08-case-studies/3-wakun-uf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/08-case-studies/3-wakun-uf/</guid>
-      <description>和訓の使用頻度 (Wakun Usage Frequency) 池田 証寿 (Ikeda Shoju) 2025年1月12日～13日 2025年4月10日改訂、英訳追加 はじめに (Introduction) 2024年12月11日現在のKRM_</description>
+      <description>&lt;h1 id=&#34;和訓の使用頻度-wakun-usage-frequency&#34;&gt;&#xA;  和訓の使用頻度 (Wakun Usage Frequency)&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%92%8c%e8%a8%93%e3%81%ae%e4%bd%bf%e7%94%a8%e9%a0%bb%e5%ba%a6-wakun-usage-frequency&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;池田　証寿 (Ikeda Shoju)&lt;br&gt;&#xA;2025年1月12日～13日&lt;br&gt;&#xA;2025年4月10日改訂、英訳追加&lt;/p&gt;&#xA;&lt;h2 id=&#34;はじめに-introduction&#34;&gt;&#xA;  はじめに (Introduction)&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab-introduction&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;2024年12月11日現在のKRM_wakun.tsvに基づき、和訓の使用頻度を整理する。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>同仮名異語の区別</title>
       <link>https://shikeda.github.io/docs/krm/08-case-studies/4-kana-split/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/08-case-studies/4-kana-split/</guid>
-      <description>同仮名異語の区別 (Kana Homograph Distinction) 池田証寿 2025年1月13日～2月11日 はじめに 和訓「ツク」を例にして同仮名異語の区別を検証する。 和訓「ウゴク」の調査</description>
+      <description>&lt;h1 id=&#34;同仮名異語の区別-kana-homograph-distinction&#34;&gt;&#xA;  同仮名異語の区別 (Kana Homograph Distinction)&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%90%8c%e4%bb%ae%e5%90%8d%e7%95%b0%e8%aa%9e%e3%81%ae%e5%8c%ba%e5%88%a5-kana-homograph-distinction&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;池田証寿&lt;/p&gt;&#xA;&lt;p&gt;2025年1月13日～2月11日&lt;/p&gt;&#xA;&lt;h2 id=&#34;はじめに&#34;&gt;&#xA;  はじめに&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;和訓「ツク」を例にして同仮名異語の区別を検証する。&lt;/p&gt;&#xA;&lt;p&gt;和訓「ウゴク」の調査と和訓「ミル」の調査では、『日本国語大辞典　第二版』（以下、日国）の表記欄の検証を重点的に行ってきた。&#xA;ここでは観点を少し変えて三巻本『色葉字類抄』（前田本、黒川本、以下、字類抄）を通して名義抄の和訓を検証してみたい。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>DHSJRとの連携</title>
       <link>https://shikeda.github.io/docs/krm/08-case-studies/5-dhsjr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/08-case-studies/5-dhsjr/</guid>
-      <description>DHSJRとの連携 (Collaboration with DHSJR) DHSJRとは DHSJRとは「資料横断的な漢字音・漢語音データベース」の 英語名&amp;quot;Database of Historical Sino-Japanese Readings&amp;rdquo; に</description>
+      <description>&lt;h1 id=&#34;dhsjrとの連携-collaboration-with-dhsjr&#34;&gt;&#xA;  &lt;strong&gt;DHSJRとの連携 (Collaboration with DHSJR)&lt;/strong&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#dhsjr%e3%81%a8%e3%81%ae%e9%80%a3%e6%90%ba-collaboration-with-dhsjr&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;dhsjrとは&#34;&gt;&#xA;  &lt;strong&gt;DHSJRとは&lt;/strong&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#dhsjr%e3%81%a8%e3%81%af&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;DHSJRとは「資料横断的な漢字音・漢語音データベース」の&#xA;英語名&amp;quot;Database of Historical Sino-Japanese Readings&amp;quot;&#xA;に基づく略称である。DHSJRのプロジェクトは、&#xA;早稲田大学の加藤大鶴氏がリーダーとなって推進しており、&#xA;&lt;a href=&#34;https://dhsjr.w.waseda.jp/&#34;&gt;https://dhsjr.w.waseda.jp/&lt;/a&gt;&#xA;で構築した全データが公開されている。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>準備中</title>
       <link>https://shikeda.github.io/docs/krm/08-case-studies/6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/docs/krm/08-case-studies/6/</guid>
-      <description>準備中</description>
+      <description>&lt;p&gt;準備中&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hugo BookテーマでのMermaid</title>
       <link>https://shikeda.github.io/posts/mermaid/</link>
       <pubDate>Tue, 13 May 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/posts/mermaid/</guid>
-      <description>Hugo Book テーマでの Mermaid の扱い VS Codeで次の Mermaidで作図したER図は表示されますが、Hugo の book では図が描けない。 どうしたら表示できるか。</description>
+      <description>&lt;h1 id=&#34;hugo-book-テーマでの-mermaid-の扱い&#34;&gt;&#xA;  Hugo Book テーマでの Mermaid の扱い&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#hugo-book-%e3%83%86%e3%83%bc%e3%83%9e%e3%81%a7%e3%81%ae-mermaid-%e3%81%ae%e6%89%b1%e3%81%84&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;VS Codeで次の Mermaidで作図したER図は表示されますが、Hugo の book では図が描けない。&#xA;どうしたら表示できるか。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hugo Book I18n Notes</title>
       <link>https://shikeda.github.io/posts/hugo-book-i18n-notes/</link>
       <pubDate>Sat, 10 May 2025 18:27:43 +0900</pubDate>
-      
       <guid>https://shikeda.github.io/posts/hugo-book-i18n-notes/</guid>
-      <description>Hugo Book テーマにおける多言語対応と言語切替リンク設置まとめ 1. 言語設定（config.toml） defaultContentLanguage = &amp;#34;ja&amp;#34; defaultContentLanguageInSubdir = true [languages] [languages.ja] languageName = &amp;#34;Japanese&amp;#34; weight = 1 [languages.en] languageName = &amp;#34;English&amp;#34; weight = 2 defaultContentLanguageInSubdir = true に</description>
+      <description>&lt;h1 id=&#34;hugo-book-テーマにおける多言語対応と言語切替リンク設置まとめ&#34;&gt;&#xA;  Hugo Book テーマにおける多言語対応と言語切替リンク設置まとめ&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#hugo-book-%e3%83%86%e3%83%bc%e3%83%9e%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b%e5%a4%9a%e8%a8%80%e8%aa%9e%e5%af%be%e5%bf%9c%e3%81%a8%e8%a8%80%e8%aa%9e%e5%88%87%e6%9b%bf%e3%83%aa%e3%83%b3%e3%82%af%e8%a8%ad%e7%bd%ae%e3%81%be%e3%81%a8%e3%82%81&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;1-言語設定configtoml&#34;&gt;&#xA;  1. 言語設定（&lt;code&gt;config.toml&lt;/code&gt;）&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#1-%e8%a8%80%e8%aa%9e%e8%a8%ad%e5%ae%9aconfigtoml&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;defaultContentLanguage&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ja&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;defaultContentLanguageInSubdir&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;languages&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  [&lt;span style=&#34;color:#a6e22e&#34;&gt;languages&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;ja&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;languageName&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Japanese&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;weight&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  [&lt;span style=&#34;color:#a6e22e&#34;&gt;languages&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;en&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;languageName&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;English&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;weight&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;defaultContentLanguageInSubdir = true&lt;/code&gt; にすることで、デフォルト言語（日本語）も &lt;code&gt;/ja/&lt;/code&gt; サブディレクトリに配置され、明示的な切替が可能になります。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;2-コンテンツ構成&#34;&gt;&#xA;  2. コンテンツ構成&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#2-%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84%e6%a7%8b%e6%88%90&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;content/&lt;/code&gt; フォルダ内に &lt;code&gt;_index.ja.md&lt;/code&gt; と &lt;code&gt;_index.en.md&lt;/code&gt; を用意。&lt;/li&gt;&#xA;&lt;li&gt;各言語ごとに対応する &lt;code&gt;.md&lt;/code&gt; ファイルを準備すると &lt;code&gt;.Translations&lt;/code&gt; が有効に機能します。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;例：&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>コードブロックの配色調整</title>
       <link>https://shikeda.github.io/posts/custom-css-setting/</link>
       <pubDate>Sat, 10 May 2025 05:56:42 +0900</pubDate>
-      
       <guid>https://shikeda.github.io/posts/custom-css-setting/</guid>
-      <description>Hugo Book でのカスタム CSS 設定手順 目的 コードブロックの背景色と文字色を、図や全体の配色と調和するように変更する。 1. custom.css の作成と設置 パス： static/css/custom.css 内容（例）：</description>
+      <description>&lt;h1 id=&#34;hugo-book-でのカスタム-css-設定手順&#34;&gt;&#xA;  Hugo Book でのカスタム CSS 設定手順&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#hugo-book-%e3%81%a7%e3%81%ae%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0-css-%e8%a8%ad%e5%ae%9a%e6%89%8b%e9%a0%86&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;目的&#34;&gt;&#xA;  目的&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e7%9b%ae%e7%9a%84&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;コードブロックの背景色と文字色を、図や全体の配色と調和するように変更する。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;1-customcss-の作成と設置&#34;&gt;&#xA;  1. &lt;code&gt;custom.css&lt;/code&gt; の作成と設置&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#1-customcss-%e3%81%ae%e4%bd%9c%e6%88%90%e3%81%a8%e8%a8%ad%e7%bd%ae&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;パス&lt;/strong&gt;：&#xA;static/css/custom.css&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;内容（例）：&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>KRM本文翻刻のサイトを開設</title>
       <link>https://shikeda.github.io/posts/krmnotes001/</link>
       <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://shikeda.github.io/posts/krmnotes001/</guid>
-      <description>平安時代漢字字書総合データベース(HDIC)は 2014年にスタートしたが、代表者の 退職に伴い、公開方法の見直しが必要となった。 また、収録した</description>
+      <description>&lt;p&gt;平安時代漢字字書総合データベース(HDIC)は&#xA;2014年にスタートしたが、代表者の&#xA;退職に伴い、公開方法の見直しが必要となった。&lt;/p&gt;&#xA;&lt;p&gt;また、収録した古辞書の翻刻の凡例が&#xA;簡略であったり、準備できていないものも&#xA;あった。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
