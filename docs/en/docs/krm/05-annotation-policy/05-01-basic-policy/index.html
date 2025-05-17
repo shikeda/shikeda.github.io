@@ -631,20 +631,14 @@ https://github.com/alex-shpak/hugo-book
 注文の総数は約86,800である。</p>
 
 
-<script src="https://shikeda.github.io/mermaid.min.js"></script>
-
-  <script>mermaid.initialize({
-  "flowchart": {
-    "useMaxWidth":true
-  },
-  "theme": "default"
-}
-)</script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({ startOnLoad: true });
+</script>
 
 
 
-
-<p class="mermaid">
+<pre class="mermaid">
 graph LR
     A(項目)--->B(掲出字)---I[約32,600項目]
     A-->C(注文)
@@ -653,7 +647,7 @@ graph LR
     C-->F(義注)---M[約12,600]
     C-->G(和訓)---N[約35,400]
     C-->H(その他)---O[約1,300]
-</p>
+</pre>
 
 <h2 id="本文読解">
   本文読解

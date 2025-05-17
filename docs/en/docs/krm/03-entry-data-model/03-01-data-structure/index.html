@@ -639,20 +639,14 @@ https://github.com/alex-shpak/hugo-book
 <p>The following is a diagram illustrating the structure of an entry that contains all elements of a <strong>Headword</strong> and its <strong>Original Glosses</strong>.</p>
 
 
-<script src="https://shikeda.github.io/mermaid.min.js"></script>
-
-  <script>mermaid.initialize({
-  "flowchart": {
-    "useMaxWidth":true
-  },
-  "theme": "default"
-}
-)</script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({ startOnLoad: true });
+</script>
 
 
 
-
-<p class="mermaid">
+<pre class="mermaid">
 graph TB
     A(Entry)
     A--->B(Headword)
@@ -662,7 +656,7 @@ graph TB
     C--->F(Semantic Gloss in Chinese)
     C--->G(Japanese native reading)
     C--->H(Other)
-</p>
+</pre>
 
 <h3 id="example-of-an-entry-transcription">
   Example of an Entry (Transcription)

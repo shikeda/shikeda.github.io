@@ -31,6 +31,11 @@ defaultContentLanguageInSubdir = false # デフォルト言語のコンテンツ
 # 翻訳が見つからない場合のプレースホルダ表示設定
 enableMissingTranslationPlaceholders = false
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 # ====== 各種設定 (Themes, Modules, etc.) ======
 # 必要に応じて、テーマ固有の設定やモジュールの設定などをここに追加します。
 # [params]

@@ -28,7 +28,7 @@
   <link rel="alternate" hreflang="en" href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/" title="Entry Data Structure">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/ja.search.min.98117306126042bb43ae47976a71d17db862a6b0042a04340b256180497cfd97.js" integrity="sha256-mBFzBhJgQrtDrkeXanHRfbhiprAEKgQ0CyVhgEl8/Zc=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/ja.search.min.5eea0216ec78137e3ca528cc44467f0bfb5b7aea65975a439c22717a1cd63354.js" integrity="sha256-XuoCFux4E348pSjMREZ/C/tbeupll1pDnCJxehzWM1Q=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -982,20 +982,14 @@ https://github.com/alex-shpak/hugo-book
 <p>次は、掲出字と注文のすべての要素が揃った項目の構造を図示したものである。</p>
 
 
-<script src="https://shikeda.github.io/mermaid.min.js"></script>
-
-  <script>mermaid.initialize({
-  "flowchart": {
-    "useMaxWidth":true
-  },
-  "theme": "default"
-}
-)</script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({ startOnLoad: true });
+</script>
 
 
 
-
-<p class="mermaid">
+<pre class="mermaid">
 graph TB
     A(項目)
     A--->B(掲出字)
@@ -1005,7 +999,7 @@ graph TB
     C--->F(義注)
     C--->G(和訓)
     C--->H(その他)
-</p>
+</pre>
 
 <h3 id="項目の例翻刻">
   項目の例（翻刻）

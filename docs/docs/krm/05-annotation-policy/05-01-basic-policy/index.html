@@ -29,7 +29,7 @@
   <link rel="alternate" hreflang="en" href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-01-basic-policy/" title="Basic Policy and Subjects of Analysis for Annotation Creation">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/ja.search.min.98117306126042bb43ae47976a71d17db862a6b0042a04340b256180497cfd97.js" integrity="sha256-mBFzBhJgQrtDrkeXanHRfbhiprAEKgQ0CyVhgEl8/Zc=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/ja.search.min.5eea0216ec78137e3ca528cc44467f0bfb5b7aea65975a439c22717a1cd63354.js" integrity="sha256-XuoCFux4E348pSjMREZ/C/tbeupll1pDnCJxehzWM1Q=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -952,20 +952,14 @@ https://github.com/alex-shpak/hugo-book
 注文の総数は約86,800である。</p>
 
 
-<script src="https://shikeda.github.io/mermaid.min.js"></script>
-
-  <script>mermaid.initialize({
-  "flowchart": {
-    "useMaxWidth":true
-  },
-  "theme": "default"
-}
-)</script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({ startOnLoad: true });
+</script>
 
 
 
-
-<p class="mermaid">
+<pre class="mermaid">
 graph LR
     A(項目)--->B(掲出字)---I[約32,600項目]
     A-->C(注文)
@@ -974,7 +968,7 @@ graph LR
     C-->F(義注)---M[約12,600]
     C-->G(和訓)---N[約35,400]
     C-->H(その他)---O[約1,300]
-</p>
+</pre>
 
 <h2 id="本文読解">
   本文読解
