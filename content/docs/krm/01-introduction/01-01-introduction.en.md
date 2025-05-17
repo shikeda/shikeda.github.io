@@ -54,6 +54,18 @@ As for the redacted version, a manuscript from Kōzan-ji contains a marginal not
 
 ## Significance
 
+The *Ruiju Myōgishō* lists Chinese characters, presented either as individual graphs or as compounds. These entries are typically accompanied by various forms of explanatory notes, including:
+
+* `fanqie` spellings (反切) to indicate pronunciation,
+* homophone glosses (類音注),
+* Sino-Japanese readings (字音) transcribed in katakana (片仮名),
+* `Semantic Glosses in Chinese` (漢文による意義注) explaining character meanings in literary Chinese,
+* `Japanese Native Readings` (`wakun`, 和訓) transcribed in katakana, and
+* `Notes on Character Form` (字体注) that specify orthographic variants such as "standard" (正) and "popular/variant" (俗) forms.
+
+Furthermore, tone marks (`shōten`, 声点) are sometimes added to both the Sino-Japanese and native readings. Consequently, the *Myōgishō* is an invaluable resource for research in the history of the Japanese lexicon, the historical phonology of Sino-Japanese character readings, and the history of Chinese character forms as used in Japan.
+
+
 The work lists Chinese characters both as individual graphs and compounds, accompanied by fanqie spellings, homophone glosses, katakana transcriptions for Sino-Japanese readings, literary Chinese definitions, native Japanese readings (*wakun*) in katakana, and annotations indicating orthographic variants such as “standard” and “popular” forms. Phonetic marks (*shōten*) are sometimes added to both the Sino-Japanese and native readings.
 
 ## Radical Structure
@@ -92,7 +104,7 @@ Additionally, the ordering of radicals reflects both semantic grouping (e.g., pa
 
 ## Number of Entries
 
-The term *entry* refers to a unit consisting of both the headword and its accompanying original glosses. To provide a general sense of the scope of the *Ruiju Myōgishō*, we may look to the Kanchi-in manuscript for a representative overview. The following table presents a summary of the number of entries, the number of individual headwords, and the number of compound expressions found in each of the ten volumes, from the *Buddha (Upper)* through the *Sangha (Lower)* sections.
+The term *entry* refers to a unit consisting of both the headword and its accompanying definitions (original glosses). To provide a general sense of the scope of the *Ruiju Myōgishō*, we may look to the Kanchi-in manuscript for a representative overview. The following table presents a summary of the number of entries, the number of individual headwords, and the number of compound expressions found in each of the ten volumes, from the *Buddha (Upper)* through the *Sangha (Lower)* sections.
 
 **Table: Number of Entries, Characters, and Compound Expressions by Volume (Kanchi-in Manuscript)**  
 The following table summarizes the distribution of character entries across the ten volumes of the *Ruiju Myōgishō* as preserved in the Kanchi-in manuscript. The work is structured into three main sections—Buddha (仏), Dharma (法), and Sangha (僧)—each comprising multiple volumes. The entries are classified by the number of characters per expression (from single-character to seven or more), along with totals for entries, characters, and compound expressions.
@@ -117,23 +129,23 @@ The following table summarizes the distribution of character entries across the 
 
 The Zushoryō manuscript of the original compilation, though fragmentary and classified under the Hōbu-jō (Department of Dharma: Upper) section, is distinguished by its faithful citation of a wide range of texts, including bibliographic and authorial attributions. It is widely utilized as a vital source in the study of the history of the Japanese language.
 
-The manuscript contains 3,657 entries in total, of which 951 are single-character headwords; the remainder are compound expressions. The majority of these compounds are derived from Buddhist glossaries such as Xuanying’s *Yiqiejing yinyi*, Shingō’s *Daihannyakyō onkun*, Chūzan’s *Myōhōrengekyō shakumon*, and works attributed to Cien.
+The manuscript contains 3,657 entries in total, of which 951 are single-character headwords; the remainder are compound expressions. The majority of these compounds are derived from Buddhist glossaries such as Xuanying’s *Yiqiejing yinyi*, Shingō’s *Daihannyakyō Onkun*, Chūzan’s *Myōhōrengekyō Shakumon*, and works attributed to Cien.
 
-Beyond Buddhist phonetic commentaries, many entries are drawn from classical lexica such as Gu Yewang’s *Yupian*, Kūkai’s *Tenrei banshō meigi*, Sugawara no Koreyoshi’s *Tōkyū setsuin*, and Minamoto no Shitagō’s *Wamyō ruijushō*.
+Beyond Buddhist phonetic commentaries, many entries are drawn from classical lexica such as Gu Yewang’s *Yupian*, Kūkai’s *Tenrei Banshō Meigi*, Sugawara no Koreyoshi’s *Tōkyū Setsuin*, and Minamoto no Shitagō’s *Wamyō Ruijushō*.
 
-The citations from these sources follow a fixed order of precedence: in semantic annotations written in literary Chinese, sacred Buddhist texts (*naiten*) are prioritized over secular Chinese or native Japanese texts (*geten*). The Japanese glosses (*wakun*) are based on annotated editions (*kuntenbon*) of secular literature. Diacritical tone marks (*shōten*) are applied with precision, offering valuable information about vocabulary and pitch accent in the Heian period. These tone marks also appear in the phonetic annotations of Chinese characters—such as *fanqie*, homophonic glosses, and katakana transcriptions—making the manuscript an important resource for the study of Sino-Japanese phonology.
+The citations from these sources follow a fixed order of precedence: in semantic glosses in literary Chinese, sacred Buddhist texts (*naiten*) are prioritized over secular Chinese or native Japanese texts (*geten*). The Japanese native readings (*wakun*) are based on annotated editions (*kuntenbon*) of secular literature. Tone marks (*shōten*) are applied with precision, offering valuable information about vocabulary and pitch accent in the Heian period. These tone marks also appear in the phonetic glosses of Chinese characters—such as *fanqie*, homophonic glosses, and katakana transcriptions—making the manuscript an important resource for the study of Sino-Japanese phonology.
 
 **Revised Compilation**
 
-The Kanchi-in manuscript of the revised compilation—also known as the **Kaihenbon** or **Kōekibon**—contains approximately 32,000 headword entries and about 34,000 Japanese native readings (*wakun*). Of these, roughly 10,000 *wakun* are annotated with diacritical tone marks (*shōten*). The names of authors and titles of cited sources found in the original compilation have been removed, and many of the semantic glosses in literary Chinese have likewise been omitted. *Wakun* originally recorded in *man’yōgana* have been replaced with katakana.
+The Kanchi-in manuscript of the revised compilation—also known as the **Kaihenbon** or **Kōekibon**—contains approximately 32,000 headword entries and about 34,000 Japanese native readings (*wakun*). Of these, roughly 10,000 *wakun* are annotated with tone marks (*shōten*). The names of authors and titles of cited sources found in the original compilation have been removed, and many of the semantic glosses in literary Chinese have likewise been omitted. Japanese native readings (*wakun*) originally recorded in *man’yōgana* have been replaced with katakana.
 
-There is a substantial expansion of single-character entries. For items carried over from the original compilation, *wakun* have been added and reorganized; for new entries introduced in the revised version, a large number of *wakun* have been supplemented as well, resulting in a significantly enlarged corpus of Japanese glosses.
+There is a substantial expansion of single-character entries. For items carried over from the original compilation, Japanese native readings have been added and reorganized; for new entries introduced in the revised version, a large number of Japanese native readings have been supplemented as well, resulting in a significantly enlarged corpus of Japanese native readings.
 
-The annotations on graphic variants (*itaiji*), “standard” and “popular” forms (*sei/zoku*), and the phonetic readings of characters in both Han and Wu pronunciations constitute a major resource for the study of Japanese linguistic history.
+**`Notes on Character Form`** (字体注), which provide details on **`variant characters` (*itaiji*)** and distinctions such as "standard" (正, *sei*) and "popular/variant" (俗, *zoku*) forms, along with **`Phonetic Glosses`** (字音注) indicating **`Go-on`** (呉音; also known as *Wa-on*, reflecting 5th-6th century pronunciations from Southern China, possibly transmitted via the Korean Peninsula) and **`Kan-on`** (漢音; also known as **`Sei-on`**, reflecting 7th-9th century pronunciations from Northern China, notably the Chang'an dialect) for the characters, together constitute a rich repository of materials for the study of Japanese linguistic history.
 
 Within each radical category, headword entries are often arranged either by visual similarity or according to the character ordering found in the *Yupian*—referred to here as the *Gyokuhen jijun-gun* (“Yupian character order groups”).
 
-Although only the *Hōbu-jō* (Upper Dharma) section of the original compilation survives, comparison between the original and revised versions reveals the nature of additions and editorial changes. For sections no longer extant in the original compilation, it is possible to identify underlying textual sources by cross-referencing with the principal reference works that were extensively cited in the original. Of particular importance are frequently referenced texts such as *Yiqiejing yinyi*, *Tenrei banshō meigi*, and *Wamyō ruijushō*, all of which remain extant in complete form. These sources should be consistently consulted when interpreting the revised compilation.
+Although only the *Hōbu-jō* (Upper Dharma) section of the original compilation survives, comparison between the original and revised versions reveals the nature of additions and editorial changes. For sections no longer extant in the original compilation, it is possible to identify underlying textual sources by cross-referencing with the principal reference works that were extensively cited in the original. Of particular importance are frequently referenced texts such as *Yiqiejing yinyi*, *Tenrei Banshō Meigi*, and *Wamyō Ruijushō*, all of which remain extant in complete form. These sources should be consistently consulted when interpreting the revised compilation.
 
 ## Facsimile
 
@@ -205,7 +217,7 @@ A facsimile edition was published in 2002 by Taishō University Press, with comm
 
 While there are numerous references, the following list focuses on works related to bibliographical studies and source research, presented in chronological order of publication.
 
-Note that the first and last page numbers of each source have been omitted. Additionally, due to the large number of articles by KOBAYASHI Kyoji regarding “Additions and Omissions in the Sainenji Manuscript of the *Ruijumyōgishō*,” only the earliest and most recent ones are included here.
+Note that the first and last page numbers of each source have been omitted. Additionally, due to the large number of articles by KOBAYASHI Kyoji regarding “Additions and Omissions in the Sainenji Manuscript of the *Ruiju Myōgishō*,” only the earliest and most recent ones are included here.
 
 This list is currently under development, and therefore may not yet include some works that should be listed.
 

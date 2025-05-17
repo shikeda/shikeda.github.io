@@ -15,7 +15,7 @@ bookToc: true
 
 ## Introduction
 
-The *Ruiju Myōgishō* is renowned as a masterpiece among old Japanese dictionaries. The book title is read as "ruiju myōgishō." It is said that the title was formed by taking "Ruiju" from Minamoto no Shitagō's Wamyō Ruijushō and "Myōgi" from Kūkai's *Tenrei Banshō Myōgi*.
+The *Ruiju Myōgishō* is renowned as a masterpiece among old Japanese dictionaries. The book title is read as "ruiju myōgishō." It is said that the title was formed by taking "Ruiju" from Minamoto no Shitagō's Wamyō Ruijushō and "Myōgi" from Kūkai's *Tenrei Banshō Myeigi*.
 
 
 Here, we will first describe the outline of the *Ruiju Myōgishō* and its various versions. Next, regarding the Kanchi-in manuscript, which is the only extant complete manuscript of the *Ruiju Myōgishō*, we will explain the structure of its entries, and then describe the details of the input method for the text of the Kanchi-in manuscript.

@@ -30,7 +30,7 @@ krm_notes.tsv と krm_notes.json という名称とした。">
   <link rel="alternate" hreflang="en" href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-02-notes/" title="krm_notes">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/ja.search.min.dc892f398ccd6c6a052c590b1aff367a8575a003ad7ddeb7a71a0f8090f1ccc8.js" integrity="sha256-3IkvOYzNbGoFLFkLGv82eoV1oAOtfd63pxoPgJDxzMg=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/ja.search.min.98117306126042bb43ae47976a71d17db862a6b0042a04340b256180497cfd97.js" integrity="sha256-mBFzBhJgQrtDrkeXanHRfbhiprAEKgQ0CyVhgEl8/Zc=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -920,6 +920,7 @@ https://github.com/alex-shpak/hugo-book
       </ul>
     </li>
     <li><a href="#各カラムの説明">各カラムの説明</a></li>
+    <li><a href="#compilers-remarks-remarks-カラム-の内容と意義">Compiler&rsquo;s Remarks (remarks カラム) の内容と意義</a></li>
   </ul>
 </nav>
 
@@ -1083,7 +1084,7 @@ https://github.com/alex-shpak/hugo-book
   <tbody>
       <tr>
           <td>entry_id</td>
-          <td>Fで始まる5桁の数値に_00を加えた見出し項目ID。一部、追加した掲出項目にはb番号を付す。</td>
+          <td>Fで始まる5桁の数値からなる見出し項目ID。一部、追加した掲出項目にはb番号を付す。</td>
       </tr>
       <tr>
           <td>definition_seq_id</td>
@@ -1099,15 +1100,15 @@ https://github.com/alex-shpak/hugo-book
       </tr>
       <tr>
           <td>volume_name</td>
-          <td>巻名。「仏上」「仏中」「仏下本」「仏下末」「法上」「法中」「法下」「僧上」「僧中」「僧下」の10 巻を示す</td>
+          <td>巻名。「仏上」「仏中」「仏下本」「仏下末」「法上」「法中」「法下」「僧上」「僧中」「僧下」の10 巻を示す。</td>
       </tr>
       <tr>
           <td>radical_name</td>
-          <td>部首名。「人、彳、辵」から「風、酉、雑」までの120部を示す</td>
+          <td>部首名。「人、彳、辵」から「風、酉、雑」までの120部を示す。</td>
       </tr>
       <tr>
           <td>volume_radical_index</td>
-          <td>巻。v・巻数（1-10）#・部首番号（1-120）を示す。v1#1(第1帖第1)〜v10#120(第10帖第120)。第1帖(仏上)〜第10帖(僧下)。</td>
+          <td>巻。v・巻数（1-10）#・部首番号（1-120）を示す。v1#1（第1帖第1）〜v10#120（第10帖第120）。第1帖（仏上）〜第10帖（僧下）。</td>
       </tr>
       <tr>
           <td>hanzi_entry</td>
@@ -1119,7 +1120,7 @@ https://github.com/alex-shpak/hugo-book
       </tr>
       <tr>
           <td>definition_elements</td>
-          <td>注文の全文から、字体注、音注、意義注、和訓、その他の５種に区分し、それぞれの要素を一つずつ抜き出したもの。</td>
+          <td>注文の全文から、字体注、音注、意義注、和訓、その他の5種に区分し、それぞれの要素を一つずつ抜き出したもの。</td>
       </tr>
       <tr>
           <td>definition_type_code</td>
@@ -1127,14 +1128,32 @@ https://github.com/alex-shpak/hugo-book
       </tr>
       <tr>
           <td>definition_type_name</td>
-          <td>注文の種類を字体注、音注、意義注、和訓、その他の５種に区分して、そのいずれに該当するかを示したもの。</td>
+          <td>注文の種類を字体注、音注、意義注、和訓、その他の5種に区分して、そのいずれに該当するかを示したもの。</td>
       </tr>
       <tr>
           <td>remarks</td>
-          <td>編集者による追加の文脈や情報を提供する注記</td>
+          <td>編集者による追加の文脈や情報を提供する注記。</td>
       </tr>
   </tbody>
 </table>
+<h2 id="compilers-remarks-remarks-カラム-の内容と意義">
+  Compiler&rsquo;s Remarks (remarks カラム) の内容と意義
+  <a class="anchor" href="#compilers-remarks-remarks-%e3%82%ab%e3%83%a9%e3%83%a0-%e3%81%ae%e5%86%85%e5%ae%b9%e3%81%a8%e6%84%8f%e7%be%a9">#</a>
+</h2>
+<p>この <code>remarks</code> カラムに、データベース作成者による注釈（<code>Compiler's Remarks</code>）が格納される点に注意してください。</p>
+<p><code>remarks</code>カラムは、次の情報を提供している。</p>
+<ul>
+<li>追加的な文脈 : 名義抄の記述を理解する上で助けとなるような、補足的な背景情報や関連情報。</li>
+<li>学術的な考察 : 特定の記述に対する、文献学的、言語学的などの専門的観点からの考察や見解。先行研究の紹介を含む。</li>
+<li>本文校勘の結果: 異本や関連資料との比較検討（校勘）を行った結果判明したことや、それに基づく本文解釈など。</li>
+<li>出典調査: 名義抄の記述が、どのような文献を典拠としているかの調査結果や、その考察。先行研究での指摘も紹介。</li>
+</ul>
+<p>そして、これらの注釈は、それぞれ名義抄の次のいずれかの特定の部分に関連付けられている。</p>
+<ul>
+<li>特定の <code>definition_element</code>（注文の個別要素）: <code>krm_notes</code> ファイル内で個々の行として扱われる、名義抄の「注文」を構成する具体的な要素（たとえば、ある特定の字体注、音注、義注、和訓など）一つ一つ。</li>
+<li>または、<code>Headword</code>（掲出字）: その項目全体の主題である掲出字そのもの。</li>
+</ul>
+<p>つまり、この <code>remarks</code> カラムは、名義抄の本文テキストだけでは読み取れない、より深い理解や研究に繋がるような、データベース作成者による専門的な付加情報を提供する役割を持っている。</p>
 </article>
  
       
@@ -1184,6 +1203,7 @@ https://github.com/alex-shpak/hugo-book
       </ul>
     </li>
     <li><a href="#各カラムの説明">各カラムの説明</a></li>
+    <li><a href="#compilers-remarks-remarks-カラム-の内容と意義">Compiler&rsquo;s Remarks (remarks カラム) の内容と意義</a></li>
   </ul>
 </nav>
 

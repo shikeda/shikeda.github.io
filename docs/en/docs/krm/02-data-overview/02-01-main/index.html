@@ -11,16 +11,16 @@
   Overview and file formats
   #
 
-This section describes the core files of the database for the Kanchi-in manuscript of the Ruiju Mōgishō (hereinafter &ldquo;Myōgishō&rdquo;).
+This section describes the core files of the database for the Kanchi-in manuscript of the Ruiju Myōgishō (hereinafter &ldquo;Myōgishō&rdquo;).
 Previously, the released file was a TSV file named KRM.tsv.
-It contains information regarding head characters, full definitions, volume, radical, and the locations in the Kazama edition and the Tenri edition.">
+It contains information regarding Headwords, the full content of the Definition (Original Glosses), volume, radical, and the locations in the Kazama Shobō edition and the Tenri Central Library/Yōtokusha (Tenri Zenhon Sōsho) edition.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://shikeda.github.io/en/docs/krm/02-data-overview/02-01-main/">
   <meta property="og:site_name" content="HDIC project">
   <meta property="og:title" content="krm_main">
-  <meta property="og:description" content="krm_main # Overview and file formats # This section describes the core files of the database for the Kanchi-in manuscript of the Ruiju Mōgishō (hereinafter “Myōgishō”).
+  <meta property="og:description" content="krm_main # Overview and file formats # This section describes the core files of the database for the Kanchi-in manuscript of the Ruiju Myōgishō (hereinafter “Myōgishō”).
 Previously, the released file was a TSV file named KRM.tsv.
-It contains information regarding head characters, full definitions, volume, radical, and the locations in the Kazama edition and the Tenri edition.">
+It contains information regarding Headwords, the full content of the Definition (Original Glosses), volume, radical, and the locations in the Kazama Shobō edition and the Tenri Central Library/Yōtokusha (Tenri Zenhon Sōsho) edition.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
@@ -30,7 +30,7 @@ It contains information regarding head characters, full definitions, volume, rad
   <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/02-data-overview/02-01-main/" title="krm_main">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/en.search.min.4de412dc272e72998a689353c179b414dd1252dcd58d93cec134315ad6b63e03.js" integrity="sha256-TeQS3CcucpmKaJNTwXm0FN0SUtzVjZPOwTQxWta2PgM=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.f39e9e1ca0b31ff43c645587fcd2ea3c601b134a46182808a00105c5ab5ec494.js" integrity="sha256-856eHKCzH/Q8ZFWH/NLqPGAbE0pGGCgIoAEFxatexJQ=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -584,8 +584,6 @@ https://github.com/alex-shpak/hugo-book
 <nav id="TableOfContents">
   <ul>
     <li><a href="#overview-and-file-formats">Overview and file formats</a></li>
-    <li><a href="#column-name-comparison">Column name comparison</a></li>
-    <li><a href="#description-of-each-column">Description of each column</a></li>
   </ul>
 </nav>
 
@@ -606,14 +604,11 @@ https://github.com/alex-shpak/hugo-book
   Overview and file formats
   <a class="anchor" href="#overview-and-file-formats">#</a>
 </h2>
-<p>This section describes the core files of the database for the Kanchi-in manuscript of the <em>Ruiju Mōgishō</em> (hereinafter &ldquo;<em>Myōgishō</em>&rdquo;).</p>
+<p>This section describes the core files of the database for the Kanchi-in manuscript of the <em>Ruiju Myōgishō</em> (hereinafter &ldquo;<em>Myōgishō</em>&rdquo;).</p>
 <p>Previously, the released file was a TSV file named <code>KRM.tsv</code>.</p>
-<p>It contains information regarding head characters, full definitions, volume, radical, and the locations in the Kazama edition and the Tenri edition.</p>
-<p>In March 2025, the specifications for column names and the display method for tone marks were updated. To clearly indicate that it is the file with these updated specifications, it was renamed <code>krm_main.tsv</code>. A JSON version of this file has also been made available.</p>
-<h2 id="column-name-comparison">
-  Column name comparison
-  <a class="anchor" href="#column-name-comparison">#</a>
-</h2>
+<p>It contains information regarding <strong><code>Headwords</code></strong>, the full content of the <strong><code>Definition (Original Glosses)</code></strong>, volume, radical, and the locations in the Kazama Shobō edition and the Tenri Central Library/Yōtokusha (Tenri Zenhon Sōsho) edition.</p>
+<p>In March 2025, the specifications for column names and the display method for <strong><code>Tone marks (*shōten*)</code></strong> were updated. To clearly indicate that it is the file with these updated specifications, it was renamed <code>krm_main.tsv</code>. A JSON version of this file has also been made available.</p>
+<p><strong>## Column name comparison</strong></p>
 <p>The correspondence between the old and new column names is as follows:</p>
 <table>
   <thead>
@@ -674,59 +669,56 @@ https://github.com/alex-shpak/hugo-book
   </tbody>
 </table>
 <p>The <code>KR2ID</code> column was omitted, and the <code>kazama_location</code> column was aligned with the <code>KRID</code> column.</p>
-<p>The <code>Remarks</code> column was omitted and will be summarized in the following <code>krm_notes</code> file.</p>
-<h2 id="description-of-each-column">
-  Description of each column
-  <a class="anchor" href="#description-of-each-column">#</a>
-</h2>
-<p>Next, the content of the column names will be explained.</p>
+<p>The <code>Remarks</code> column was omitted; this information is now consolidated in the <code>krm_notes</code> file (which contains data for the <strong><code>Compiler's Remarks</code></strong>).</p>
+<p><strong>## Description of each column</strong></p>
+<p>The content of each column (v1.2.5) is explained below.</p>
 <table>
   <thead>
       <tr>
-          <th>New Column Name (v1.2.5)</th>
-          <th>Explanation</th>
+          <th style="text-align: left">New Column Name (v1.2.5)</th>
+          <th style="text-align: left">Explanation</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td>entry_id</td>
-          <td>A heading item ID formed by a 5-digit numeric ID starting with &lsquo;F&rsquo;. For some added entry items, a &lsquo;b&rsquo; suffix is appended.</td>
+          <td style="text-align: left">entry_id</td>
+          <td style="text-align: left">A heading <strong><code>Entry</code></strong> ID consisting of a 5-digit numeric ID starting with &lsquo;F&rsquo;. For some added entry items, a &lsquo;b&rsquo; suffix is appended.</td>
       </tr>
       <tr>
-          <td>hanzi_id</td>
-          <td>A heading Hanzi ID consisting of a 5-digit numeric ID starting with &lsquo;S&rsquo;. For some added entry items, a &lsquo;b&rsquo; suffix is appended.</td>
+          <td style="text-align: left">hanzi_id</td>
+          <td style="text-align: left">A heading <strong><code>Hanzi (Chinese character)</code></strong> ID consisting of a 5-digit numeric ID starting with &lsquo;S&rsquo;. For some added entry items, a &lsquo;b&rsquo; suffix is appended.</td>
       </tr>
       <tr>
-          <td>kazama_location</td>
-          <td>An ID indicating K + Volume (2 digits) + Kazama Edition Page (3 digits) + Line (1 digit) + Segment (1 digit) + Character order (字順, <em>jijun</em>) (1 digit). Details of the rules for assigning Character order are defined separately.</td>
+          <td style="text-align: left">kazama_location</td>
+          <td style="text-align: left">An ID indicating K + Volume (2 digits) + Kazama Edition Page (3 digits) + Line (1 digit) + Segment (1 digit) + Character order (字順, <em>jijun</em>) (1 digit). Details of the rules for assigning Character order are defined separately.</td>
       </tr>
       <tr>
-          <td>tenri_location</td>
-          <td>An ID indicating T + Volume (a/b/c) + Tenri Edition Page (3 digits) + Line (1 digit) + Segment (1 digit) + Character order (字順, <em>jijun</em>) (1 digit). Details of the rules for assigning Character order are defined separately.</td>
+          <td style="text-align: left">tenri_location</td>
+          <td style="text-align: left">An ID indicating T + Volume (a/b/c) + Tenri Edition Page (3 digits) + Line (1 digit) + Segment (1 digit) + Character order (字順, <em>jijun</em>) (1 digit). Details of the rules for assigning Character order are defined separately.</td>
       </tr>
       <tr>
-          <td>volume_name</td>
-          <td>Name of the volume, consisting of 10 volumes: 仏上, 仏中, 仏末本, 仏末下, 法上, 法中, 法下, 僧上, 僧中, and 僧下.</td>
+          <td style="text-align: left">volume_name</td>
+          <td style="text-align: left">Name of the volume, consisting of 10 volumes: 仏上, 仏中, 仏下本, 仏下末, 法上, 法中, 法下, 僧上, 僧中, and 僧下.</td>
       </tr>
       <tr>
-          <td>radical_name</td>
-          <td>Hanzi name of the radical, consisting of 160 radicals ranging from 人 to 雑, used to classify Hanzi characters.</td>
+          <td style="text-align: left">radical_name</td>
+          <td style="text-align: left">Name of the radical, consisting of 120 radicals ranging from 人 to 雑, used to classify <strong><code>Hanzi (Chinese characters)</code></strong>.</td>
       </tr>
       <tr>
-          <td>volume_radical_index</td>
-          <td>Volume and radical number, ranging from v1#1 to v10#120, indicating the location of the entry within the text.</td>
+          <td style="text-align: left">volume_radical_index</td>
+          <td style="text-align: left">Volume and radical number, ranging from v1#1 (Volume 1, Radical 1) to v10#120 (Volume 10, Radical 120), indicating the location of the <strong><code>Entry</code></strong> within the text. (Corresponds to 第1帖仏上 to 第10帖僧下).</td>
       </tr>
       <tr>
-          <td>hanzi_entry</td>
-          <td>The collated headword characters principally use Kangxi Dictionary form, including Unicode simplified characters (common-use forms, popular variants). For characters not included in Unicode, they are represented by the following methods: If representable by combining kanji components, input using IDS (Ideographic Description Sequence). For specific kanji or their components, if representation by IDS or standard Unicode is difficult, use simplified notations based on the entity reference systems of CHISE and GlyphWiki (e.g., CDP-8C55, koseki-00001). Characters not representable by any of the above methods, or characters unreadable in the original text (worm-eaten, etc.), are input as &lsquo;■&rsquo; (black square). Headwords consisting of multiple kanji are separated by &lsquo;／&rsquo; (full-width slash). The abbreviation symbol &lsquo;｜&rsquo; is indicated by &lsquo;ー&rsquo; (long vowel mark), and the corresponding character is appended in full-width parentheses ().</td>
+          <td style="text-align: left">hanzi_entry</td>
+          <td style="text-align: left">The collated <strong><code>Headword</code></strong> (校訂漢字) principally uses Kangxi Dictionary form, including Unicode simplified <strong>Chinese characters</strong> (common-use forms, popular variants). For <strong>Chinese characters</strong> not included in Unicode, they are represented by the following methods: If representable by combining <strong>Chinese character</strong> components, input using IDS (Ideographic Description Sequence). For specific <strong>Chinese characters</strong> or their components, if representation by IDS or standard Unicode is difficult, use simplified notations based on the entity reference systems of CHISE and GlyphWiki (e.g., CDP-8C55, koseki-00001). <strong>Chinese characters</strong> not representable by any of the above methods, or characters unreadable in the original text (due to damage such as wormholes, etc.), are input as &lsquo;■&rsquo; (black square). <strong><code>Headwords</code></strong> consisting of multiple <strong>Chinese characters</strong> are separated by &lsquo;／&rsquo; (full-width slash). The abbreviation symbol &lsquo;｜&rsquo; is indicated by &lsquo;ー&rsquo; (long vowel mark), and the corresponding character is appended in full-width parentheses ().</td>
       </tr>
       <tr>
-          <td>original_entry</td>
-          <td>Headword based on the original character form. Errors are left as is. The representation of kanji outside Unicode follows the rules for hanzi_entry. If the original-form headword is not needed, &lsquo;〇&rsquo; is used.</td>
+          <td style="text-align: left">original_entry</td>
+          <td style="text-align: left"><strong><code>Headword</code></strong> based on the original character form. Typographical errors in the original are preserved. The representation of <strong>Chinese characters</strong> outside Unicode follows the rules for <code>hanzi_entry</code>. If the original-form <strong><code>Headword</code></strong> is not needed, &lsquo;〇&rsquo; is used.</td>
       </tr>
       <tr>
-          <td>definition</td>
-          <td>Includes glyph annotations, pronunciation annotations, meaning annotations, Japanese readings (<em>wakun</em>), and other relevant notes, separated by spaces. As a general rule, character forms included in the &ldquo;Kangxi Dictionary style&rdquo; should be used.</td>
+          <td style="text-align: left">definition</td>
+          <td style="text-align: left">The content of this <code>definition</code> column represents the <strong><code>Definition (Original Glosses)</code></strong>. It includes <strong><code>Notes on Character Form</code></strong>, <strong><code>Phonetic Glosses</code></strong>, <strong><code>Semantic Glosses in Chinese</code></strong>, <strong><code>Japanese Native Readings (*wakun*)</code></strong>, and <strong>Other</strong> relevant information, separated by spaces. As a general rule, character forms included in the &ldquo;Kangxi Dictionary style&rdquo; should be used.</td>
       </tr>
   </tbody>
 </table>
@@ -767,8 +759,6 @@ https://github.com/alex-shpak/hugo-book
 <nav id="TableOfContents">
   <ul>
     <li><a href="#overview-and-file-formats">Overview and file formats</a></li>
-    <li><a href="#column-name-comparison">Column name comparison</a></li>
-    <li><a href="#description-of-each-column">Description of each column</a></li>
   </ul>
 </nav>
 

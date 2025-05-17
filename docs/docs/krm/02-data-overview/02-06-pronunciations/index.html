@@ -27,7 +27,7 @@ DHSJR の仕様に合わせたデータ公開を検討中である。">
   <link rel="alternate" hreflang="en" href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-06-pronunciations/" title="krm_pronunciations">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/ja.search.min.dc892f398ccd6c6a052c590b1aff367a8575a003ad7ddeb7a71a0f8090f1ccc8.js" integrity="sha256-3IkvOYzNbGoFLFkLGv82eoV1oAOtfd63pxoPgJDxzMg=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/ja.search.min.98117306126042bb43ae47976a71d17db862a6b0042a04340b256180497cfd97.js" integrity="sha256-mBFzBhJgQrtDrkeXanHRfbhiprAEKgQ0CyVhgEl8/Zc=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -943,199 +943,202 @@ DHSJR から英語の説明が公表されるまでの暫定的な措置であ�
 <table>
   <thead>
       <tr>
-          <th>DHSJR</th>
-          <th>HDIC</th>
-          <th>Key</th>
-          <th>English Explanation</th>
-          <th>Japanese Explanation</th>
+          <th style="text-align: left">DHSJR (Japanese)</th>
+          <th style="text-align: left">HDIC (English)</th>
+          <th style="text-align: left">Key</th>
+          <th style="text-align: left">English Explanation</th>
+          <th style="text-align: left">Japanese Explanation (from DHSJR)</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td>ID</td>
-          <td>dhsjr_id</td>
-          <td></td>
-          <td>DHSJR unique ID for each single character (integrated data only)</td>
-          <td>単字ごとのユニークID（統合データのみ）</td>
+          <td style="text-align: left">ID</td>
+          <td style="text-align: left">dhsjr_id</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">DHSJR unique ID for each single <strong><code>Hanzi (Chinese character)</code></strong> (integrated data only)</td>
+          <td style="text-align: left">単字ごとのユニークID（統合データのみ）</td>
       </tr>
       <tr>
-          <td><strong>音注ID</strong></td>
-          <td><strong>pronunciation_id</strong></td>
-          <td>Primary Key</td>
-          <td>Pronunciation annotation ID, extracted from definition_sequence_id, containing only entries where the type of order is pronunciation annotation. Variant forms are appended with &lsquo;b&rsquo;, &lsquo;c&rsquo;.</td>
-          <td>音注ID。kr_definition_sequence_idから、注文の種類が音注のものだけを取り出したもの。変異形を追加したものには末尾にxを付した。</td>
+          <td style="text-align: left"><strong>音注ID</strong></td>
+          <td style="text-align: left"><strong><code>pronunciation_id</code></strong></td>
+          <td style="text-align: left">Primary Key</td>
+          <td style="text-align: left">ID for each <strong><code>Phonetic Gloss</code></strong>. This is derived from <code>definition_seq_id</code> by extracting only those elements where the type (from <code>definition_type_name</code> in <code>krm_notes</code>) is <strong><code>Phonetic Gloss</code></strong>. Suffixes &lsquo;b&rsquo;, &lsquo;c&rsquo;, &rsquo;d&rsquo; are appended for variant forms.</td>
+          <td style="text-align: left">音注ID。kr_definition_sequence_idから、注文の種類が音注のものだけを取り出したもの。変異形を追加したものには末尾にxを付した。 <em>(User indicates &lsquo;x&rsquo; is incorrect, and &lsquo;b,c,d&rsquo; is correct for variants)</em></td>
       </tr>
       <tr>
-          <td><strong>注文ID</strong></td>
-          <td><strong>definition_seq_id</strong></td>
-          <td>Foreign Key</td>
-          <td>An identifier for each definition component, typically formed by appending a sequential suffix (e.g., _00, _01, _02) to the corresponding entry_id. The _00 suffix often denotes the main heading or an overall entry note, while _01, _02, etc., identify subsequent, ordered definition elements.</td>
-          <td>連番で与えられるFで始まる5桁の見出しの数値IDに加えて、見出しの下に記される注文の各要素を出現順に区分し、出現の順番に_01、_02のように追加したもの。見出しには_00を追加する。</td>
+          <td style="text-align: left"><strong>注文ID</strong></td>
+          <td style="text-align: left"><strong><code>definition_seq_id</code></strong></td>
+          <td style="text-align: left">Foreign Key</td>
+          <td style="text-align: left">An identifier for each component of the <strong><code>Definition (Original Glosses)</code></strong> or for the <strong><code>Headword</code></strong> itself within an <strong><code>Entry</code></strong>. It is formed by appending a sequential suffix (e.g., &ldquo;_00&rdquo; for the <strong><code>Headword</code></strong>, &ldquo;_01&rdquo;, &ldquo;_02&rdquo; for subsequent elements) to the corresponding <code>entry_id</code>.</td>
+          <td style="text-align: left">連番で与えられるFで始まる5桁の見出しの数値IDに加えて、見出しの下に記される注文の各要素を出現順に区分し、出現の順番に_01、_02のように追加したもの。見出しには_00を追加する。</td>
       </tr>
       <tr>
-          <td>資料番号</td>
-          <td>material_id</td>
-          <td></td>
-          <td>Material ID</td>
-          <td>資料ID</td>
+          <td style="text-align: left">資料番号</td>
+          <td style="text-align: left">material_id</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">Material ID</td>
+          <td style="text-align: left">資料ID</td>
       </tr>
       <tr>
-          <td>資料名</td>
-          <td>material_name</td>
-          <td></td>
-          <td>Name of the material</td>
-          <td>資料の名称</td>
+          <td style="text-align: left">資料名</td>
+          <td style="text-align: left">material_name</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">Name of the material</td>
+          <td style="text-align: left">資料の名称</td>
       </tr>
       <tr>
-          <td>資料内漢字番号</td>
-          <td>material_charcter_index</td>
-          <td></td>
-          <td>Sequential number of character appearance in the material</td>
-          <td>漢字の資料内出現順の通し番号</td>
+          <td style="text-align: left">資料内漢字番号</td>
+          <td style="text-align: left">material_character_index</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">Sequential number of a <strong><code>Hanzi (Chinese character)</code></strong>&rsquo;s appearance in the material</td>
+          <td style="text-align: left">漢字の資料内出現順の通し番号</td>
       </tr>
       <tr>
-          <td>資料内漢語番号</td>
-          <td>material_word_index</td>
-          <td></td>
-          <td>Sequential number of word appearance in the material</td>
-          <td>漢語の資料内出現順の通し番号</td>
+          <td style="text-align: left">資料内漢語番号</td>
+          <td style="text-align: left">material_word_index</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">Sequential number of a Chinese word&rsquo;s appearance in the material</td>
+          <td style="text-align: left">漢語の資料内出現順の通し番号</td>
       </tr>
       <tr>
-          <td>単字_見出し</td>
-          <td>character_headword</td>
-          <td></td>
-          <td>Headword column of characters with phonetic annotations</td>
-          <td>音注が付された漢字の見出し列</td>
+          <td style="text-align: left">単字_見出し</td>
+          <td style="text-align: left">character_headword</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"><strong><code>Headword</code></strong> column for <strong><code>Hanzi (Chinese characters)</code></strong> with <strong><code>Phonetic Glosses</code></strong></td>
+          <td style="text-align: left">音注が付された漢字の見出し列</td>
       </tr>
       <tr>
-          <td>単字_出現形</td>
-          <td>character_form</td>
-          <td></td>
-          <td>Characters with phonetic annotations</td>
-          <td>音注が付された漢字</td>
+          <td style="text-align: left">単字_出現形</td>
+          <td style="text-align: left">character_form</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"><strong><code>Hanzi (Chinese characters)</code></strong> that have <strong><code>Phonetic Glosses</code></strong></td>
+          <td style="text-align: left">音注が付された漢字</td>
       </tr>
       <tr>
-          <td>漢語_見出し</td>
-          <td>word_headword</td>
-          <td></td>
-          <td>Headword column of words containing characters with phonetic annotations</td>
-          <td>音注が付された漢字を含む漢語の見出し列</td>
+          <td style="text-align: left">漢語_見出し</td>
+          <td style="text-align: left">word_headword</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"><strong><code>Headword</code></strong> column of Chinese words containing <strong><code>Hanzi (Chinese characters)</code></strong> with <strong><code>Phonetic Glosses</code></strong></td>
+          <td style="text-align: left">音注が付された漢字を含む漢語の見出し列</td>
       </tr>
       <tr>
-          <td>漢語_出現形</td>
-          <td>word_form</td>
-          <td></td>
-          <td> Words containing characters with phonetic annotations</td>
-          <td>音注が付された漢字を含む漢語</td>
+          <td style="text-align: left">漢語_出現形</td>
+          <td style="text-align: left">word_form</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">Chinese words containing <strong><code>Hanzi (Chinese characters)</code></strong> with <strong><code>Phonetic Glosses</code></strong></td>
+          <td style="text-align: left">音注が付された漢字を含む漢語</td>
       </tr>
       <tr>
-          <td>漢語_alphabet</td>
-          <td>word_alpha</td>
-          <td></td>
-          <td>Entered when there is an alphabetic representation of the word</td>
-          <td>欧文による漢語の表記がある場合に入力されている。</td>
+          <td style="text-align: left">漢語_alphabet</td>
+          <td style="text-align: left">word_alpha</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">Entered when there is an alphabetic representation of the Chinese word</td>
+          <td style="text-align: left">欧文による漢語の表記がある場合に入力されている。</td>
       </tr>
       <tr>
-          <td>語種</td>
-          <td>word_type</td>
-          <td></td>
-          <td> Indicates the word type when there are mixed-language words</td>
-          <td>混種語がある場合に、語種を示す。</td>
+          <td style="text-align: left">語種</td>
+          <td style="text-align: left">word_type</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">Indicates the word type when there are mixed-language words (e.g., hybrid Sino-Japanese words)</td>
+          <td style="text-align: left">混種語がある場合に、語種を示す。</td>
       </tr>
       <tr>
-          <td>漢語内位置</td>
-          <td>word_position</td>
-          <td></td>
-          <td>Position of the single character within the word</td>
-          <td>漢語内での単字の位置</td>
+          <td style="text-align: left">漢語内位置</td>
+          <td style="text-align: left">word_position</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">Position of the single <strong><code>Hanzi (Chinese character)</code></strong> within the Chinese word</td>
+          <td style="text-align: left">漢語内での単字の位置</td>
       </tr>
       <tr>
-          <td>単字長</td>
-          <td>character_mora_count</td>
-          <td></td>
-          <td>Number of morae for the single character</td>
-          <td>単字の拍数</td>
+          <td style="text-align: left">単字長</td>
+          <td style="text-align: left">character_mora_count</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">Number of morae for the single <strong><code>Hanzi (Chinese character)</code></strong></td>
+          <td style="text-align: left">単字の拍数</td>
       </tr>
       <tr>
-          <td>声点</td>
-          <td>tone_marks</td>
-          <td></td>
-          <td>Four tones (even, rising, departing, entering), six tones (even-light, rising, departing, entering-light) and voicing for single characters</td>
-          <td>単字に対する四声（平上去入）、六声（平平軽上去入軽入）及び清濁。</td>
+          <td style="text-align: left">声点</td>
+          <td style="text-align: left">tone_marks</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"><strong><code>Tone marks</code></strong> for single <strong><code>Hanzi (Chinese characters)</code></strong>, indicating Four Tones (平上去入), Six Tones (平平軽上去入軽入), and voicing (清濁).</td>
+          <td style="text-align: left">単字に対する四声（平上去入）、六声（平平軽上去入軽入）及び清濁。</td>
       </tr>
       <tr>
-          <td>声点型</td>
-          <td>tone_pattern</td>
-          <td></td>
-          <td>Combination of tonal marks for words. Characters without tonal marks are represented by *</td>
-          <td>漢語に対する声点の組合せ。声点がない単字については＊で表す。</td>
+          <td style="text-align: left">声点型</td>
+          <td style="text-align: left">tone_pattern</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">Combination of <strong><code>Tone marks</code></strong> for Chinese words. <strong><code>Hanzi (Chinese characters)</code></strong> without <strong><code>Tone marks</code></strong> are represented by a full-width asterisk (＊).</td>
+          <td style="text-align: left">漢語に対する声点の組合せ。声点がない単字については＊で表す。</td>
       </tr>
       <tr>
-          <td>仮名注</td>
-          <td>kana_notes</td>
-          <td></td>
-          <td>Phonetic annotation in kana notation (including kana fanqie)</td>
-          <td>仮名表記による字音注（仮名反切を含む）</td>
+          <td style="text-align: left">仮名注</td>
+          <td style="text-align: left">kana_notes</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"><strong><code>Kana glosses</code></strong> (仮名注) for <strong><code>Hanzi (Chinese characters)</code></strong>, including kana-based <em>fanqie</em>.</td>
+          <td style="text-align: left">仮名表記による字音注（仮名反切を含む）</td>
       </tr>
       <tr>
-          <td>仮名型</td>
-          <td>kana_pattern</td>
-          <td></td>
-          <td>Combination of kana annotations for words. Characters without kana annotations are represented by *.</td>
-          <td>漢語に対する仮名注の組合せ。仮名注がない単字については＊で表す。</td>
+          <td style="text-align: left">仮名型</td>
+          <td style="text-align: left">kana_pattern</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">Combination of <strong><code>Kana glosses</code></strong> for Chinese words. <strong><code>Hanzi (Chinese characters)</code></strong> without <strong><code>Kana glosses</code></strong> are represented by a full-width asterisk (＊).</td>
+          <td style="text-align: left">漢語に対する仮名注の組合せ。仮名注がない単字については＊で表す。</td>
       </tr>
       <tr>
-          <td>反切</td>
-          <td>fanqie</td>
-          <td></td>
-          <td>Fanqie annotation for single characters</td>
-          <td>単字に対する反切注</td>
+          <td style="text-align: left">反切</td>
+          <td style="text-align: left">fanqie</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"><strong><code>Fanqie spellings</code></strong> (反切) for single <strong><code>Hanzi (Chinese characters)</code></strong>.</td>
+          <td style="text-align: left">単字に対する反切注</td>
       </tr>
       <tr>
-          <td>類音</td>
-          <td>similar_sound</td>
-          <td></td>
-          <td>Similar sound annotation for single characters</td>
-          <td>単字に対する類音注</td>
+          <td style="text-align: left">類音</td>
+          <td style="text-align: left">similar_sound</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"><strong><code>Similar sound notes</code></strong> (類音注) for single <strong><code>Hanzi (Chinese characters)</code></strong>.</td>
+          <td style="text-align: left">単字に対する類音注</td>
       </tr>
       <tr>
-          <td><strong>音注型</strong></td>
-          <td><strong>annotation_format</strong></td>
-          <td></td>
-          <td>Pattern of combined phonetic annotations (e.g., kana, fanqie, similar sound, tone marks).</td>
-          <td>仮名注、反切、類音、声点などの複数の音注が組み合わさった形式のパターン。</td>
+          <td style="text-align: left"><strong>音注型</strong></td>
+          <td style="text-align: left"><strong><code>annotation_format</code></strong></td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">Pattern of combined phonetic information (e.g., <strong><code>Kana glosses</code></strong>, <strong><code>Fanqie spellings</code></strong>, <strong><code>Similar sound notes</code></strong>, <strong><code>Tone marks</code></strong>).</td>
+          <td style="text-align: left">仮名注、反切、類音、声点などの複数の音注が組み合わさった形式のパターン。</td>
       </tr>
       <tr>
-          <td>節博士</td>
-          <td>fushi_hakase</td>
-          <td></td>
-          <td>Hakase notation attached to musical materials such as Shōmyō</td>
-          <td>声明等音楽資料に付される博士譜など</td>
+          <td style="text-align: left">節博士</td>
+          <td style="text-align: left">fushi_hakase</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"><strong><code>Fushi-hakase notations</code></strong> (melodic or intonational markings) attached to musical materials such as <em>Shōmyō</em> (Buddhist chant).</td>
+          <td style="text-align: left">声明等音楽資料に付される博士譜など</td>
       </tr>
       <tr>
-          <td>その他</td>
-          <td>other_phonetic_annotations</td>
-          <td></td>
-          <td>Other phonetic annotations</td>
-          <td>その他の音注</td>
+          <td style="text-align: left">その他</td>
+          <td style="text-align: left">other_phonetic_annotations</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">Other types of <strong><code>Phonetic Glosses</code></strong>.</td>
+          <td style="text-align: left">その他の音注</td>
       </tr>
       <tr>
-          <td>出現位置</td>
-          <td>material_location</td>
-          <td>Foreign Key</td>
-          <td>Location of single characters and words within the material</td>
-          <td>資料内の単字・漢語の所在</td>
+          <td style="text-align: left">出現位置</td>
+          <td style="text-align: left">material_location</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">Location of single <strong><code>Hanzi (Chinese characters)</code></strong> and Chinese words within the material.</td>
+          <td style="text-align: left">資料内の単字・漢語の所在</td>
       </tr>
       <tr>
-          <td>備考</td>
-          <td>remarks_pronunciation</td>
-          <td></td>
-          <td>Matters to be noted</td>
-          <td>注記すべき事柄</td>
+          <td style="text-align: left">備考</td>
+          <td style="text-align: left">remarks_pronunciation</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">Matters to be noted regarding these phonetic elements.</td>
+          <td style="text-align: left">注記すべき事柄</td>
       </tr>
   </tbody>
 </table>
-<p>現在は、事例研究の<a href="https://shikeda.github.io/docs/notes/krm-main/case-study/5/">DHSJRとの連携</a>にて
+<p>出現位置（material_location）は、
+K・巻数（2桁）・風間版頁数（3桁）・行数（1桁）、段数（1桁）の形式で示す。
+たとえばK0201474は巻2、14頁、7行、4段に出現することを表す。</p>
+<p>現在は、事例研究の<a href="https://shikeda.github.io/docs/krm/08-case-studies/5-dhsjr/">DHSJRとの連携</a>にて
 検討しているので、そちらも参照されたい。</p>
 </article>
  

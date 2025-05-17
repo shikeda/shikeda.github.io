@@ -19,11 +19,10 @@ bookCollapseSection: true
 ここでは、まず項目を掲出字と注文各種に分類し、それらの数量を示す。
 その上で、掲出字の種類と注文の種類毎に校勘・注釈の作成の基本方針を立てる。
 
-- [注釈作成の基本方針](/docs/notes/krm/05-annotation-policy/)
-    - [注釈作成の基本方針と分析対象](/docs/notes/krm/05-annotation-policy/05-01-basic-policy/)
-    - [掲出字数の算出](/docs/notes/krm/05-annotation-policy/05-02-headword-count/)
-    - [字体注の種類と記載形式](/docs/notes/krm/05-annotation-policy/05-03-jitaichu-formats/)
-    - [音注の種類と解読上の問題点 ](/docs/notes/krm/05-annotation-policy/05-04-onchu-problems/)
-    - [義注の種類と数量](/docs/notes/krm/05-annotation-policy/05-05-gichu-quantity/)
-    - [和訓注釈のための基礎資料](/docs/notes/krm/05-annotation-policy/05-06-wakun-materials/)
-    - [注釈記述の具体例](/docs/notes/krm/05-annotation-policy/05-07-annotation-examples/)
+- [注釈作成の基本方針と分析対象](./05-01-basic-policy/)
+- [掲出字数の算出](./05-02-headword-count/)
+- [字体注の種類と記載形式](./05-03-jitaichu-formats/)
+- [音注の種類と解読上の問題点 ](./05-04-onchu-problems/)
+- [義注の種類と数量](./05-05-gichu-quantity/)
+- [和訓注釈のための基礎資料](./05-06-wakun-materials/)
+- [注釈記述の具体例](./05-07-annotation-examples/)

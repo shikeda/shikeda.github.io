@@ -95,19 +95,37 @@ This structure can be conceptually represented in the ER diagram as follows:
 Next, the content of the column names will be explained.
 
 
-| New Column Name (v1.2.6) | English Explanation              |
-|--------------------------|---------------------------|
-| entry_id                 |A heading item ID formed by a 5-digit numeric ID starting with 'F'. For some added entry items, a 'b' suffix is appended.  |
-| definition_seq_id        | An identifier for each definition component, typically formed by appending a sequential suffix (e.g., _00, _01, _02) to the corresponding entry_id. The _00 suffix often denotes the main heading or an overall entry note, while _01, _02, etc., identify subsequent, ordered definition elements.         |
-| kazama_location    | An ID indicating K + Volume (2 digits) + Kazama Edition Page (3 digits) + Line (1 digit) + Segment (1 digit) + Character order (字順, *jijun*) (1 digit). Details of the rules for assigning Character order are defined separately.|
-| tenri_location           |An ID indicating T + Volume (a/b/c) + Tenri Edition Page (3 digits) + Line (1 digit) + Segment (1 digit) + Character order (字順, *jijun*) (1 digit). Details of the rules for assigning Character order are defined separately.  |
-| volume_name              | Name of the volume, consisting of 10 volumes: 仏上, 仏中, 仏末本, 仏末下, 法上, 法中, 法下, 僧上, 僧中, and 僧下.   |
-| radical_name             | Hanzi name of the radical, consisting of 160 radicals ranging from 人 to 雑, used to classify Hanzi characters.          |
-| volume_radical_index     | Volume and radical number, ranging from v1#1 to v10#120, indicating the location of the entry within the text.         |
-| hanzi_entry              | The collated headword characters principally use Kangxi Dictionary form, including Unicode simplified characters (common-use forms, popular variants). For characters not included in Unicode, they are represented by the following methods: If representable by combining kanji components, input using IDS (Ideographic Description Sequence). For specific kanji or their components, if representation by IDS or standard Unicode is difficult, use simplified notations based on the entity reference systems of CHISE and GlyphWiki (e.g., CDP-8C55, koseki-00001). Characters not representable by any of the above methods, or characters unreadable in the original text (worm-eaten, etc.), are input as '■' (black square). Headwords consisting of multiple kanji are separated by '／' (full-width slash). The abbreviation symbol '｜' is indicated by 'ー' (long vowel mark), and the corresponding character is appended in full-width parentheses (). |
-| original_entry           | Headword based on the original character form. Errors are left as is. The representation of kanji outside Unicode follows the rules for hanzi_entry. If the original-form headword is not needed, '〇' is used.  |
-| definition_elements      | Extracted components from the full definition, classified into 5 categories: glyph annotations, pronunciation annotations, meaning annotations, Japanese readings (wakun), and others, one component per definition record (i.e., per object in the definitions array in JSON).  |
-| definition_type_code     | 3-digit numeric code representing the definition type.   |
-| definition_type_name     | Indicates which of the following five categories the definition type belongs to: glyph annotation, pronunciation annotation, meaning annotation, Japanese readings (*wakun*), and others.  |
-| remarks                  | Editor's notes providing additional context or information.      |
+| New Column Name (v1.2.6) | English Explanation (Further Revised)      |
+| :----------------------- | :------------------------------------------------------------ |
+| entry_id                 | A heading **`Entry`** ID consisting of a 5-digit numeric ID starting with 'F'. For some newly added **`Entries`**, a 'b' suffix is appended.    |
+| definition_seq_id        | An identifier for each component of the **`Definition (Original Glosses)`** or for the **`Headword`** itself within an **`Entry`**. It is formed by appending a sequential suffix (e.g., "_00" for the **`Headword`** or overall **`Entry`** note, "_01", "_02" for subsequent elements of the **`Definition (Original Glosses)`** in order of appearance) to the 5-digit numeric part of the corresponding `entry_id`.                                          |
+| kazama_location          | An ID indicating K + Volume (2 digits) + Kazama Edition Page (3 digits) + Line (1 digit) + Segment (1 digit) + Character order (字順, *jijun*) (1 digit). Details of the rules for assigning Character order are defined separately.       |
+| tenri_location           | An ID indicating T + Volume (a/b/c) + Tenri Edition Page (3 digits) + Line (1 digit) + Segment (1 digit) + Character order (字順, *jijun*) (1 digit). Details of the rules for assigning Character order are defined separately.              |
+| volume_name              | Name of the volume, consisting of 10 volumes: 仏上, 仏中, 仏下本, 仏下末, 法上, 法中, 法下, 僧上, 僧中, and 僧下.     |
+| radical_name             | Name of the radical, consisting of 120 radicals ranging from 人 to 雑, used to classify **`Hanzi (Chinese characters)`**. |
+| volume_radical_index     | Volume and radical number, ranging from v1#1 (Volume 1, Radical 1) to v10#120 (Volume 10, Radical 120), indicating the location of the **`Entry`** within the text. (Corresponds to 第1帖仏上 to 第10帖僧下).       |
+| hanzi_entry              | The collated **`Headword`** (校訂漢字) principally uses Kangxi Dictionary form, including Unicode simplified **Chinese characters** (common-use forms, popular variants). For **Chinese characters** not included in Unicode, they are represented by the following methods: If representable by combining **Chinese character** components, input using IDS (Ideographic Description Sequence). For specific **Chinese characters** or their components, if representation by IDS or standard Unicode is difficult, use simplified notations based on the entity reference systems of CHISE and GlyphWiki (e.g., CDP-8C55, koseki-00001). **Chinese characters** not representable by any of the above methods, or characters unreadable in the original text (due to damage such as wormholes, etc.), are input as '■' (black square). **`Headwords`** consisting of multiple **Chinese characters** are separated by '／' (full-width slash). The abbreviation symbol '｜' is indicated by 'ー' (long vowel mark), and the corresponding character is appended in full-width parentheses (). |
+| original_entry           | **`Headword`** based on the original character form. Typographical errors in the original are preserved. The representation of **Chinese characters** outside Unicode follows the rules for `hanzi_entry`. If the original-form **`Headword`** is not needed, '〇' is used.     |
+| definition_elements      | Extracted individual elements from the full **`Definition (Original Glosses)`**, classified into five types: **`Notes on Character Form`**, **`Phonetic Gloss`**, **`Semantic Gloss in Chinese`**, **`Japanese Native Reading (*wakun*)`**, and **`Other`** information. Each record in `krm_notes` typically corresponds to one such extracted element.     |
+| definition_type_code     | A 3-digit numeric code representing the type of element from the **`Definition (Original Glosses)`**.     |
+| definition_type_name     | Indicates which of the five following categories the element from the **`Definition (Original Glosses)`** belongs to: **`Notes on Character Form`**, **`Phonetic Gloss`**, **`Semantic Gloss in Chinese`**, **`Japanese Native Reading (*wakun*)`**, or **`Other`** information.    |
+| remarks                  | **`Compiler's Remarks`**: Notes by the database compilers providing additional context, scholarly observations, results of textual collation, or source investigations related to the specific `definition_element` or `Headword`.    |
 
+
+## Content and Significance of Compiler's Remarks (the remarks Column)
+
+Please note that this `remarks` column stores the **`Compiler's Remarks`** (annotations by the database creators).
+
+The `remarks` column provides the following types of information:
+
+* **Additional context**: Supplementary background or related information that aids in understanding the *Myōgishō*'s entries.
+* **Scholarly observations**: Philological, linguistic, or other expert perspectives on specific descriptions, including references to previous research.
+* **Results of textual collation**: Findings from comparisons with variant manuscripts or related materials, and textual interpretations based on these collations.
+* **Source investigations**: Results and considerations regarding the textual sources of the *Myōgishō*'s entries, including references to findings from previous studies.
+
+These remarks are each associated with one of the following specific parts of a *Myōgishō* **`Entry`**:
+
+* A specific `definition_element` (an individual component of the **`Definition (Original Glosses)`**): This refers to a distinct element within the *Myōgishō*'s original annotation for an **`Entry`** (such as a particular **`Note on Character Form`**, **`Phonetic Gloss`**, **`Semantic Gloss in Chinese`**, or **`Japanese Native Reading (*wakun*)`**), as itemized in the `krm_notes` file.
+* Or the **`Headword`**: The main character(s) of the **`Entry`**.
+
+In essence, the `remarks` column serves to provide specialized, supplementary information from the database compilers, enabling a deeper understanding and facilitating further research that goes beyond what can be gleaned from the *Myōgishō*'s main text and original glosses alone.

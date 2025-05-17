@@ -15,9 +15,15 @@ title: "Overview of Published Data"
 
 ## Introduction
 
-This database is a full-text digitization of the Kanchi-in manuscript of the Ruiju Myogisho (abbreviated as KRM), incorporating location information, textual collation, source studies, and more. It is one of the **Hanzi** dictionary databases comprising the **Integrated Database of Hanzi Dictionaries in Early Japan** (abbreviated as HDIC). **The terms 'kanji' and 'hanzi' are explained later.**
+This database is a full-text digitization of the Kanchi-in manuscript of the *Ruiju Myōgishō* (abbreviated as KRM), incorporating location information, textual collation, source studies, and more. It is one of the **Hanzi** dictionary databases comprising the **Integrated Database of Hanzi Dictionaries in Early Japan** (abbreviated as HDIC). **The terms 'kanji' and 'hanzi' are explained later.**
 
-The Kanchi-in manuscript of the Ruiju Myogisho is a **Hanzi** dictionary compiled in the twelfth century by a Shingon Buddhist monk. It has been regarded as an important resource for Japanese historical linguistics research due to its extensive collection of *wakun* indicating accent, detailed annotations on **Hanzi** pronunciations, and annotations on variant characters. Furthermore, its Chinese annotations on **fanqie**, meanings, and glyph forms have also garnered attention as materials for Chinese linguistics.
+The Kanchi-in manuscript of the *Ruiju Myōgishō* is a **Hanzi (Chinese character)** dictionary compiled in the twelfth century by a Shingon Buddhist monk. It has long been regarded as an important resource for research in Japanese historical linguistics due to its extensive collection of:
+
+* **`Japanese Native Readings` (*wakun*)** that indicate accent (often with **`Tone marks`**),
+* detailed **`Phonetic Glosses`** on the pronunciation of **Hanzi (Chinese characters)**, and
+* comprehensive **`Notes on Character Form`**, including information on **`variant characters` (*itaiji*)**.
+
+Furthermore, its annotations written in literary Chinese—which include **`fanqie` spellings**, **`Semantic Glosses in Chinese`** (explaining meanings), and **`Notes on Character Form`** (detailing glyph forms)—have also garnered attention as valuable materials for the study of Chinese linguistics.
 
 It was first published in March 2022, and in March 2025, a revised edition with specification changes and detailed explanations will be released.
 
@@ -32,38 +38,37 @@ This explanation aims to provide clarity and respect for both terminologies, ens
 
 For these reasons, 'hanzi' is used for the column names of the public data, while 'kanji' is used in the explanatory text.
 
-## Data Files
 
-### List and Brief Description
+## List of Data Files
 
-The data from the Kanchi-in manuscript of the Ruiju Myogisho, published at [https://github.com/shikeda/HDIC/tree/master/v1.2](https://github.com/shikeda/HDIC/tree/master/v1.2), is as follows. This includes some files that are currently being prepared for public release.
+The data for the Kanchi-in manuscript of the *Ruiju Myōgishō*, available at [https://github.com/shikeda/HDIC/tree/master/v1.2](https://github.com/shikeda/HDIC/tree/master/v1.2), is as follows. This list includes some files that are currently under preparation for public release.
 
-- [krm_main](./02-01-main/): Basic data. Includes information about head characters, full definitions, locations, etc. TSV and JSON files are available.
-- [krm_notes](./02-02-notes): Annotation data. Categorized into head characters, glyph annotations, pronunciation annotations, meaning annotations, *wakun*, and others, with collation and source studies. TSV and JSON files are available.
-- [krm_headword_chars](./02-03-headword-chars/): Detailed information about all head characters. Includes location in the Kazama edition, location in the Tenri edition, image file names, etc. Currently under preparation for release.
-- [krm_wakun](./02-04-wakun/): *Wakun* data. Includes information about variant forms of *wakun*, variant forms of hanzi (*itai-ji*), and correspondence with the "Notation" field of the *Nihon Kokugo Daijiten* (Second Edition). TSV and JSON files are available.
-- [krm_definitions](./02-05-definitions/): Definitions categorized into glyph annotations, pronunciation annotations, meaning annotations, *wakun*, and others. TSV file available. Same as the already published [KRM_definitions.tsv](https://github.com/shikeda/HDIC/KRM_definitions.tsv).
-- [krm_pronunciations](./02-06-pronunciations/): Data for linking with DHSJR regarding pronunciation annotations (under preparation).
-- [krm_ndl](./02-07-ndl/): Links to the National Diet Library Digital Collections. TSV file available. Same as the already published [KRM_ndl.tsv](https://github.com/shikeda/HDIC/KRM_ndl.tsv).
+  * **[krm\_main](./02-01-main/)**: Basic data. Includes information on **`Headwords`**, the full text of **`Definition (Original Glosses)`**, locations, etc. TSV and JSON files are available.
+  * **[krm\_notes](./02-02-notes/)**: Data for the **`Compiler's Remarks`**. This comprises analyses of **`Headwords`**, **`Notes on Character Form`**, **`Phonetic Glosses`**, **`Semantic Glosses in Chinese`**, **`Japanese Native Readings` (*wakun*)**, and **Other** elements from the *Myōgishō*, including results of textual collation and source investigation. TSV and JSON files are available.
+  * **[krm\_headword\_chars](./02-03-headword-chars/)**: Detailed information about all **`Headwords`**. Includes location in the Kazama edition, location in the Tenri edition, image file names, etc.
+  * **[krm\_wakun](./02-04-wakun/)**: **`Japanese Native Reading` (*wakun*)** data. Includes information about variant forms of *wakun*, variant forms of **Hanzi (Chinese characters) (*itaiji*)**, and correspondence with the "Notation" field of the *Nihon Kokugo Daijiten* (Second Edition). TSV and JSON files are available.
+  * **[krm\_definitions](./02-05-definitions/)**: Data from the **`Definition (Original Glosses)`** of the *Myōgishō*, categorized into its constituent elements: **`Notes on Character Form`**, **`Phonetic Glosses`**, **`Semantic Glosses in Chinese`**, **`Japanese Native Readings` (*wakun*)**, and **Other** elements. TSV file available. This is the same as the previously published [KRM\_definitions.tsv](https://github.com/shikeda/HDIC/KRM_definitions.tsv).
+  * **[krm\_pronunciations](./02-06-pronunciations/)**: Data to facilitate linkage with the DHSJR regarding **`Phonetic Glosses`** (under preparation).
+  * **[krm\_ndl](./02-07-ndl/)**: Links to the National Diet Library Digital Collections. TSV file available. This is the same as the previously published [KRM\_ndl.tsv](https://github.com/shikeda/HDIC/KRM_ndl.tsv).
 
+A major revision of the data specifications was implemented in March 2025. Previously, published files were prefixed with "KRM" (uppercase). Files released after this revision are prefixed with "krm" (lowercase).
 
-### Specification Change
+## Specification Change
 
-A significant specification change was implemented in March 2025. Previously, the published files were prefixed with "KRM," but the files following this specification change will be prefixed with "krm."
+Files incorporating these specification changes have been placed in the "v1.2" folder. Please note that this is a temporary arrangement.
 
-The files incorporating the specification changes have been placed in the "v1.2" folder. Please note that this is a temporary arrangement.
+The key points of these specification changes are as follows:
 
-Here are the key points of the specification change:
+* The at mark "@", used to indicate that a *kana wakun* (a `Japanese Native Reading` written in kana) does not have **`Tone marks`**, has been changed to an underscore "_".
+* The double quotation mark """, used to indicate that a *wakun* for a voiced sound is accompanied by **`Tone marks`**, has been changed to the half-width English letter "V".
+* Half-width parentheses "()", used to indicate the presence of **`Tone marks`**, have been changed to full-width parentheses "（）".
+* Half-width parentheses "()", used to indicate a proposed correction for a typographical error, have been changed to full-width square brackets "〔〕".
+* Half-width square brackets "[]", used to indicate missing characters, have been changed to full-width square brackets "［］".
 
-- The at mark "@", which indicates that kana wakun does not have tone marks, has been changed to an underscore "_".
-- The double quotation mark """, which indicates that voiced sound wakun has tone marks, has been changed to a half-width English letter "V".
-- The half-width parentheses "()", which indicate the presence of tone marks, have been changed to full-width parentheses "（）".
-- The half-width parentheses "()" indicating a correction proposal for a typo have been changed to full-width square brackets "〔〕".
-- The half-width square brackets "[]", which indicate missing characters, have been changed to full-width square brackets "［］".
 
 ### ER Diagram
 
-The following ER diagram shows the relationship between the three tables: krm_main, krm_notes, and krm_wakun.
+The following ER diagram shows the relationship between the three tables: `krm_main`, `krm_notes`, and `krm_wakun`.
 
 ![ER diagram.](/images/krmer.drawio.png)
 

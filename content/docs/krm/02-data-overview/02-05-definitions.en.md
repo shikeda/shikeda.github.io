@@ -10,12 +10,8 @@ weight: 15
 ---
 # krm_definitions
 
+The **`Definition (Original Glosses)`** in the *Myōgishō* is composed not only of **`Japanese Native Readings (*wakun*)`** but also other elements such as **`Notes on Character Form`**, **`Phonetic Glosses`**, and **`Semantic Glosses in Chinese`**.
 
-The definitions in the *Myōgishō* include not only wakun but also elements such as glyph annotations, pronunciation annotations, and meaning annotations.
+The `KRM_definitions.tsv` file, which was previously released, provided these elements of the **`Definition (Original Glosses)`** categorized by type and ordered by their appearance. This dataset was created to facilitate collation and source investigation.
 
-This file contains records created by categorizing each element of the definitions according to their order of appearance, assigning them numbers based on this order, and classifying the types of definitions. This was done for the purpose of collation and textual research.
-
-The file previously made public was `KRM_definitions.tsv`.
-
-After the specification change in March 2025, this information has been integrated into `krm_notes`, so a separate explanation will be omitted here.
-
+Following the specification changes implemented in March 2025, the data and functionalities previously found in `KRM_definitions.tsv` have been integrated into the `krm_notes` file (which contains data for **`Compiler's Remarks`** and detailed analyses of these original gloss elements). Consequently, a separate detailed explanation for `krm_definitions` is omitted here.

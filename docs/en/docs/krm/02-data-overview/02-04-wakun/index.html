@@ -7,18 +7,14 @@
   krm_wakun
   #
 
-This data is derived by extracting wakun from the KRM.tsv file of the Myōgishō database, organizing variant forms of the wakun, and adjusting their correspondence with variant characters (itai-ji).
-Collation and textual research related to wakun are documented in krm_notes, so they are omitted here.
-In wakun, different readings may be written alongside the main reading as annotations.
-For example, the wakun &ldquo;マサル&rdquo; (masaru) is assigned to the character &ldquo;倍&rdquo; (bai), but &ldquo;su&rdquo; is written in small katakana to the right of &ldquo;ル&rdquo; (ru) as an annotation. This indicates that the wakun &ldquo;マス&rdquo; (masu) is annotated in addition to &ldquo;マサル&rdquo; (masaru).">
+This data file is derived by extracting Japanese Native Readings (*wakun*) from the KRM.tsv file (an older version of krm_main) of the Myōgishō database, organizing variant forms of these wakun, and adjusting their correspondence with variant characters (*itaiji*).
+Collation notes and source investigations related to wakun are documented in the krm_notes file (which contains data for Compiler&#39;s Remarks), so they are omitted here.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://shikeda.github.io/en/docs/krm/02-data-overview/02-04-wakun/">
   <meta property="og:site_name" content="HDIC project">
   <meta property="og:title" content="krm_wakun">
-  <meta property="og:description" content="krm_wakun # This data is derived by extracting wakun from the KRM.tsv file of the Myōgishō database, organizing variant forms of the wakun, and adjusting their correspondence with variant characters (itai-ji).
-Collation and textual research related to wakun are documented in krm_notes, so they are omitted here.
-In wakun, different readings may be written alongside the main reading as annotations.
-For example, the wakun “マサル” (masaru) is assigned to the character “倍” (bai), but “su” is written in small katakana to the right of “ル” (ru) as an annotation. This indicates that the wakun “マス” (masu) is annotated in addition to “マサル” (masaru).">
+  <meta property="og:description" content="krm_wakun # This data file is derived by extracting Japanese Native Readings (*wakun*) from the KRM.tsv file (an older version of krm_main) of the Myōgishō database, organizing variant forms of these wakun, and adjusting their correspondence with variant characters (*itaiji*).
+Collation notes and source investigations related to wakun are documented in the krm_notes file (which contains data for Compiler&#39;s Remarks), so they are omitted here.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
@@ -28,7 +24,7 @@ For example, the wakun “マサル” (masaru) is assigned to the character “
   <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/02-data-overview/02-04-wakun/" title="krm_wakun">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/en.search.min.4de412dc272e72998a689353c179b414dd1252dcd58d93cec134315ad6b63e03.js" integrity="sha256-TeQS3CcucpmKaJNTwXm0FN0SUtzVjZPOwTQxWta2PgM=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.f39e9e1ca0b31ff43c645587fcd2ea3c601b134a46182808a00105c5ab5ec494.js" integrity="sha256-856eHKCzH/Q8ZFWH/NLqPGAbE0pGGCgIoAEFxatexJQ=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -594,15 +590,15 @@ https://github.com/alex-shpak/hugo-book
   krm_wakun
   <a class="anchor" href="#krm_wakun">#</a>
 </h1>
-<p>This data is derived by extracting wakun from the <code>KRM.tsv</code> file of the <em>Myōgishō</em> database, organizing variant forms of the wakun, and adjusting their correspondence with variant characters (itai-ji).</p>
-<p>Collation and textual research related to wakun are documented in <code>krm_notes</code>, so they are omitted here.</p>
-<p>In wakun, different readings may be written alongside the main reading as annotations.</p>
-<p>For example, the wakun &ldquo;マサル&rdquo; (masaru) is assigned to the character &ldquo;倍&rdquo; (bai), but &ldquo;su&rdquo; is written in small katakana to the right of &ldquo;ル&rdquo; (ru) as an annotation. This indicates that the wakun &ldquo;マス&rdquo; (masu) is annotated in addition to &ldquo;マサル&rdquo; (masaru).</p>
-<p>Since information from the JapanKnowledge version of the <em>Nihon Kokugo Daijiten</em> (Second Edition) will be added to the wakun, it is necessary to accommodate cases where variant forms of wakun are written together.</p>
-<p>The handling of variant characters involves cases where variant forms are indicated for the head character, and this data has been adjusted to account for them.</p>
-<p>For example, the wakun &ldquo;yatsukare&rdquo; appears in the definition for the head characters &ldquo;㒒/僕&rdquo;. The wakun &ldquo;yatsukare&rdquo; is a wakun for &ldquo;僕&rdquo; (boku) and is simultaneously a wakun for &ldquo;㒒&rdquo;. The relationship between standard and variant forms such as &ldquo;爲&rdquo; and &ldquo;為&rdquo;, or &ldquo;來&rdquo; and &ldquo;来&rdquo; is similar.</p>
-<p>The JapanKnowledge version of the <em>Nihon Kokugo Daijiten</em> (Second Edition) has a &ldquo;Notation&rdquo; field that includes the kanji notations from the <em>Myōgishō</em>, so this adjustment is a measure to ensure correspondence with it.</p>
-<p>To explicitly indicate that these are the filenames after the specification change in March 2025, lowercase &ldquo;krm&rdquo; was used instead of uppercase &ldquo;KRM,&rdquo; resulting in the names <code>krm_wakun.tsv</code> and <code>krm_wakun.json</code>.&quot;</p>
+<p>This data file is derived by extracting <strong><code>Japanese Native Readings (*wakun*)</code></strong> from the <code>KRM.tsv</code> file (an older version of <code>krm_main</code>) of the <em>Myōgishō</em> database, organizing variant forms of these <strong><code>wakun</code></strong>, and adjusting their correspondence with <strong><code>variant characters (*itaiji*)</code></strong>.</p>
+<p>Collation notes and source investigations related to <strong><code>wakun</code></strong> are documented in the <code>krm_notes</code> file (which contains data for <strong><code>Compiler's Remarks</code></strong>), so they are omitted here.</p>
+<p>In some <strong><code>wakun</code></strong> entries, different phonetic readings are presented side-by-side as annotations.
+For example, the <strong><code>wakun</code></strong> &ldquo;マサル&rdquo; (masaru) is assigned to the <strong><code>Hanzi (Chinese character)</code></strong> &ldquo;倍&rdquo; (bai), but &ldquo;ス&rdquo; (su) is written in small katakana to the right of &ldquo;ル&rdquo; (ru) as an additional note. This indicates that the <strong><code>wakun</code></strong> &ldquo;マス&rdquo; (masu) is also noted in addition to &ldquo;マサル&rdquo; (masaru).</p>
+<p>Since information from the JapanKnowledge version of the <em>Nihon Kokugo Daijiten</em> (Second Edition) will be added to the <strong><code>wakun</code></strong> data, it is necessary to accommodate cases where variant forms of <strong><code>wakun</code></strong> are presented together.</p>
+<p>The correspondence with <strong><code>variant characters (*itaiji*)</code></strong> has been adjusted because <strong><code>Headwords</code></strong> in the <em>Myōgishō</em> sometimes indicate such variants.
+For example, the <strong><code>wakun</code></strong> &ldquo;ヤツカレ&rdquo; (yatsukare) appears in the <strong><code>Definition (Original Glosses)</code></strong> for the <strong><code>Headword(s)</code></strong> &ldquo;㒒／僕&rdquo;. The <strong><code>wakun</code></strong> &ldquo;ヤツカレ&rdquo; is a <strong><code>Japanese Native Reading</code></strong> for &ldquo;僕&rdquo; (boku) and simultaneously for &ldquo;㒒&rdquo;. The relationship between standard and variant forms such as &ldquo;爲&rdquo; and &ldquo;為&rdquo;, or &ldquo;來&rdquo; and &ldquo;来&rdquo; is handled similarly.</p>
+<p>The JapanKnowledge version of the <em>Nihon Kokugo Daijiten</em> (Second Edition) has a &ldquo;Notation&rdquo; (表記) field that includes <strong><code>Hanzi (Chinese character)</code></strong> notations from the <em>Myōgishō</em>; this adjustment is a measure to ensure correspondence with that resource.</p>
+<p>To explicitly indicate that these are the filenames after the specification change in March 2025, lowercase &ldquo;krm&rdquo; was used instead of uppercase &ldquo;KRM,&rdquo; resulting in the names <code>krm_wakun.tsv</code> and <code>krm_wakun.json</code>.</p>
 <p>The comparison of the new and old column names is as follows:</p>
 <table>
   <thead>
@@ -658,55 +654,55 @@ https://github.com/alex-shpak/hugo-book
       </tr>
   </tbody>
 </table>
-<p><code>Remarks</code> have been omitted and will be summarized in the following <code>krm_notes</code> file.</p>
+<p><code>Remarks</code> have been omitted as this type of information is now consolidated in the <code>krm_notes</code> file (data for <strong><code>Compiler's Remarks</code></strong>).</p>
 <p>Next, the content of the column names will be explained.</p>
 <table>
   <thead>
       <tr>
-          <th>New Column Name (v1.2.0)</th>
-          <th>Explanation</th>
+          <th style="text-align: left">New Column Name (v1.2.0)</th>
+          <th style="text-align: left">English Explanation (Final Revised)</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td>wakun_id</td>
-          <td>Wakun ID, extracted from kr_definition_sequence_id, containing only entries where the type of order is Japanese reading (wakun). Variant forms are appended with &lsquo;b&rsquo;, &lsquo;c&rsquo;, &rsquo;d&rsquo;.</td>
+          <td style="text-align: left">wakun_id</td>
+          <td style="text-align: left">An ID for each <strong><code>Japanese Native Reading (*wakun*)</code></strong>. This is derived from <code>definition_seq_id</code> by extracting only those elements where the type (from <code>definition_type_name</code> in <code>krm_notes</code>) is <strong><code>Japanese Native Reading (*wakun*)</code></strong>. Suffixes &lsquo;b&rsquo;, &lsquo;c&rsquo;, &rsquo;d&rsquo; are appended for variant forms.</td>
       </tr>
       <tr>
-          <td>definition_seq_id</td>
-          <td>An identifier for each definition component, typically formed by appending a sequential suffix (e.g., _00, _01, _02) to the corresponding entry_id. The _00 suffix often denotes the main heading or an overall entry note, while _01, _02, etc., identify subsequent, ordered definition elements.</td>
+          <td style="text-align: left">definition_seq_id</td>
+          <td style="text-align: left">An identifier for each component of the <strong><code>Definition (Original Glosses)</code></strong> or for the <strong><code>Headword</code></strong> itself within an <strong><code>Entry</code></strong>. It is formed by appending a sequential suffix (e.g., &ldquo;_00&rdquo; for the <strong><code>Headword</code></strong> or overall <strong><code>Entry</code></strong> note, &ldquo;_01&rdquo;, &ldquo;_02&rdquo; for subsequent elements of the <strong><code>Definition (Original Glosses)</code></strong> in order of appearance) to the 5-digit numeric part of the <code>entry_id</code>. (This ID links to records in <code>krm_notes</code>).</td>
       </tr>
       <tr>
-          <td>kazama_entry_location</td>
-          <td>ID including location information (Kazama edition: K, Book(volume), page(xxx), line(y), column(zz)), ranked 1, 2, &hellip;, n for multiple entries in a column. Where Book(volume) represents the volume number, page(xxx) the page number, line(y) the line number, and column(zz) the column number.</td>
+          <td style="text-align: left">kazama_entry_location</td>
+          <td style="text-align: left">ID including location information (Kazama edition: K, Book/volume, page(xxx), line(y), column(zz)), ranked 1, 2, &hellip;, n for multiple <strong><code>Entries</code></strong> in a column. &ldquo;Book(volume)&rdquo; represents the volume number, &ldquo;page(xxx)&rdquo; the page number, &ldquo;line(y)&rdquo; the line number, and &ldquo;column(zz)&rdquo; the column number.</td>
       </tr>
       <tr>
-          <td>hanzi_entry</td>
-          <td>Collated Hanzi characters, standardized to the Kangxi dictionary form, including Unicode-representable variant forms.</td>
+          <td style="text-align: left">hanzi_entry</td>
+          <td style="text-align: left">The collated <strong><code>Headword</code></strong> (using <strong><code>Hanzi (Chinese characters)</code></strong>) to which this <strong><code>Japanese Native Reading (*wakun*)</code></strong> pertains. Principally Kangxi Dictionary forms, though Unicode-representable new forms (common-use, popular variants) may be retained.</td>
       </tr>
       <tr>
-          <td>wakun_elements</td>
-          <td>Extracted Japanese reading (wakun) components from the full definition, one component per entry.</td>
+          <td style="text-align: left">wakun_elements</td>
+          <td style="text-align: left">Extracted elements of <strong><code>Japanese Native Readings (*wakun*)</code></strong> from the full <strong><code>Definition (Original Glosses)</code></strong>. Each record typically corresponds to one such element.</td>
       </tr>
       <tr>
-          <td>wakun_form</td>
-          <td>Form of the Japanese reading (wakun). Inflected words are in dictionary form, excluding particles. The particles &rsquo;no&rsquo; and &rsquo;to&rsquo; from 文選 readings are omitted.</td>
+          <td style="text-align: left">wakun_form</td>
+          <td style="text-align: left">The lexical form of the <strong><code>Japanese Native Reading (*wakun*)</code></strong>. Inflected words are generally given in their dictionary (citation) form, excluding grammatical particles. The particles &rsquo;no&rsquo; and &rsquo;to&rsquo; from <em>Monzen</em> (文選) style readings are omitted.</td>
       </tr>
       <tr>
-          <td>wakun_standard_hanzi</td>
-          <td>Standard wakun notation using standard kanji.</td>
+          <td style="text-align: left">wakun_standard_hanzi</td>
+          <td style="text-align: left">Notation of the <strong><code>Japanese Native Reading (*wakun*)</code></strong> using standard <strong><code>Hanzi (Chinese characters)</code></strong>.</td>
       </tr>
       <tr>
-          <td>wakun_variant_in_hanzi</td>
-          <td>Variant form of wakun notation using standard Hanzi characters.</td>
+          <td style="text-align: left">wakun_variant_in_hanzi</td>
+          <td style="text-align: left">Notation of a variant form of the <strong><code>Japanese Native Reading (*wakun*)</code></strong> using standard <strong><code>Hanzi (Chinese characters)</code></strong>.</td>
       </tr>
       <tr>
-          <td>variant_hanzi_for_wakun</td>
-          <td>Wakun notation using variant Hanzi characters (itai-ji).</td>
+          <td style="text-align: left">variant_hanzi_for_wakun</td>
+          <td style="text-align: left">Notation of the <strong><code>Japanese Native Reading (*wakun*)</code></strong> using <strong><code>variant characters (*itaiji*)</code></strong> of <strong><code>Hanzi (Chinese characters)</code></strong>.</td>
       </tr>
       <tr>
-          <td>japan_knowledge_id</td>
-          <td>The alphanumeric part of the JapanKnowledge URL for the corresponding entry in the Nihon Kokugo Daijiten 2nd Ed., starting from &ldquo;20020&rdquo; to the end, is recorded here if the wakun exists as a headword. If the wakun does not exist as a headword in the JapanKnowledge edition, null is entered.</td>
+          <td style="text-align: left">japan_knowledge_id</td>
+          <td style="text-align: left">If this <strong><code>Japanese Native Reading (*wakun*)</code></strong> exists as a headword in the JapanKnowledge version of the <em>Nihon Kokugo Daijiten</em> (2nd Ed.), the alphanumeric part of its URL (from &ldquo;20020&rdquo; to the end) is recorded here. If it does not exist as a headword, &ldquo;null&rdquo; is entered.</td>
       </tr>
   </tbody>
 </table>

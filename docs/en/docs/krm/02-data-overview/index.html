@@ -11,14 +11,14 @@
   Introduction
   #
 
-This database is a full-text digitization of the Kanchi-in manuscript of the Ruiju Myogisho (abbreviated as KRM), incorporating location information, textual collation, source studies, and more. It is one of the Hanzi dictionary databases comprising the Integrated Database of Hanzi Dictionaries in Early Japan (abbreviated as HDIC). The terms &lsquo;kanji&rsquo; and &lsquo;hanzi&rsquo; are explained later.
-The Kanchi-in manuscript of the Ruiju Myogisho is a Hanzi dictionary compiled in the twelfth century by a Shingon Buddhist monk. It has been regarded as an important resource for Japanese historical linguistics research due to its extensive collection of wakun indicating accent, detailed annotations on Hanzi pronunciations, and annotations on variant characters. Furthermore, its Chinese annotations on fanqie, meanings, and glyph forms have also garnered attention as materials for Chinese linguistics.">
+This database is a full-text digitization of the Kanchi-in manuscript of the Ruiju Myōgishō (abbreviated as KRM), incorporating location information, textual collation, source studies, and more. It is one of the Hanzi dictionary databases comprising the Integrated Database of Hanzi Dictionaries in Early Japan (abbreviated as HDIC). The terms &lsquo;kanji&rsquo; and &lsquo;hanzi&rsquo; are explained later.
+The Kanchi-in manuscript of the Ruiju Myōgishō is a Hanzi (Chinese character) dictionary compiled in the twelfth century by a Shingon Buddhist monk. It has long been regarded as an important resource for research in Japanese historical linguistics due to its extensive collection of:">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://shikeda.github.io/en/docs/krm/02-data-overview/">
   <meta property="og:site_name" content="HDIC project">
   <meta property="og:title" content="Overview of Published Data">
-  <meta property="og:description" content="Overview of Published Data # Introduction # This database is a full-text digitization of the Kanchi-in manuscript of the Ruiju Myogisho (abbreviated as KRM), incorporating location information, textual collation, source studies, and more. It is one of the Hanzi dictionary databases comprising the Integrated Database of Hanzi Dictionaries in Early Japan (abbreviated as HDIC). The terms ‘kanji’ and ‘hanzi’ are explained later.
-The Kanchi-in manuscript of the Ruiju Myogisho is a Hanzi dictionary compiled in the twelfth century by a Shingon Buddhist monk. It has been regarded as an important resource for Japanese historical linguistics research due to its extensive collection of wakun indicating accent, detailed annotations on Hanzi pronunciations, and annotations on variant characters. Furthermore, its Chinese annotations on fanqie, meanings, and glyph forms have also garnered attention as materials for Chinese linguistics.">
+  <meta property="og:description" content="Overview of Published Data # Introduction # This database is a full-text digitization of the Kanchi-in manuscript of the Ruiju Myōgishō (abbreviated as KRM), incorporating location information, textual collation, source studies, and more. It is one of the Hanzi dictionary databases comprising the Integrated Database of Hanzi Dictionaries in Early Japan (abbreviated as HDIC). The terms ‘kanji’ and ‘hanzi’ are explained later.
+The Kanchi-in manuscript of the Ruiju Myōgishō is a Hanzi (Chinese character) dictionary compiled in the twelfth century by a Shingon Buddhist monk. It has long been regarded as an important resource for research in Japanese historical linguistics due to its extensive collection of:">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 <title>Overview of Published Data | HDIC project</title>
@@ -27,7 +27,7 @@ The Kanchi-in manuscript of the Ruiju Myogisho is a Hanzi dictionary compiled in
   <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/02-data-overview/" title="公開データの概要">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/en.search.min.4de412dc272e72998a689353c179b414dd1252dcd58d93cec134315ad6b63e03.js" integrity="sha256-TeQS3CcucpmKaJNTwXm0FN0SUtzVjZPOwTQxWta2PgM=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.f39e9e1ca0b31ff43c645587fcd2ea3c601b134a46182808a00105c5ab5ec494.js" integrity="sha256-856eHKCzH/Q8ZFWH/NLqPGAbE0pGGCgIoAEFxatexJQ=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://shikeda.github.io/en/docs/krm/02-data-overview/index.xml" title="HDIC project" />
 <!--
 Made with Book Theme
@@ -583,10 +583,9 @@ https://github.com/alex-shpak/hugo-book
   <ul>
     <li><a href="#introduction">Introduction</a></li>
     <li><a href="#kanji-and-hanzi">Kanji and Hanzi</a></li>
-    <li><a href="#data-files">Data Files</a>
+    <li><a href="#list-of-data-files">List of Data Files</a></li>
+    <li><a href="#specification-change">Specification Change</a>
       <ul>
-        <li><a href="#list-and-brief-description">List and Brief Description</a></li>
-        <li><a href="#specification-change">Specification Change</a></li>
         <li><a href="#er-diagram">ER Diagram</a></li>
       </ul>
     </li>
@@ -612,8 +611,14 @@ https://github.com/alex-shpak/hugo-book
   Introduction
   <a class="anchor" href="#introduction">#</a>
 </h2>
-<p>This database is a full-text digitization of the Kanchi-in manuscript of the Ruiju Myogisho (abbreviated as KRM), incorporating location information, textual collation, source studies, and more. It is one of the <strong>Hanzi</strong> dictionary databases comprising the <strong>Integrated Database of Hanzi Dictionaries in Early Japan</strong> (abbreviated as HDIC). <strong>The terms &lsquo;kanji&rsquo; and &lsquo;hanzi&rsquo; are explained later.</strong></p>
-<p>The Kanchi-in manuscript of the Ruiju Myogisho is a <strong>Hanzi</strong> dictionary compiled in the twelfth century by a Shingon Buddhist monk. It has been regarded as an important resource for Japanese historical linguistics research due to its extensive collection of <em>wakun</em> indicating accent, detailed annotations on <strong>Hanzi</strong> pronunciations, and annotations on variant characters. Furthermore, its Chinese annotations on <strong>fanqie</strong>, meanings, and glyph forms have also garnered attention as materials for Chinese linguistics.</p>
+<p>This database is a full-text digitization of the Kanchi-in manuscript of the <em>Ruiju Myōgishō</em> (abbreviated as KRM), incorporating location information, textual collation, source studies, and more. It is one of the <strong>Hanzi</strong> dictionary databases comprising the <strong>Integrated Database of Hanzi Dictionaries in Early Japan</strong> (abbreviated as HDIC). <strong>The terms &lsquo;kanji&rsquo; and &lsquo;hanzi&rsquo; are explained later.</strong></p>
+<p>The Kanchi-in manuscript of the <em>Ruiju Myōgishō</em> is a <strong>Hanzi (Chinese character)</strong> dictionary compiled in the twelfth century by a Shingon Buddhist monk. It has long been regarded as an important resource for research in Japanese historical linguistics due to its extensive collection of:</p>
+<ul>
+<li><strong><code>Japanese Native Readings</code> (<em>wakun</em>)</strong> that indicate accent (often with <strong><code>Tone marks</code></strong>),</li>
+<li>detailed <strong><code>Phonetic Glosses</code></strong> on the pronunciation of <strong>Hanzi (Chinese characters)</strong>, and</li>
+<li>comprehensive <strong><code>Notes on Character Form</code></strong>, including information on <strong><code>variant characters</code> (<em>itaiji</em>)</strong>.</li>
+</ul>
+<p>Furthermore, its annotations written in literary Chinese—which include <strong><code>fanqie</code> spellings</strong>, <strong><code>Semantic Glosses in Chinese</code></strong> (explaining meanings), and <strong><code>Notes on Character Form</code></strong> (detailing glyph forms)—have also garnered attention as valuable materials for the study of Chinese linguistics.</p>
 <p>It was first published in March 2022, and in March 2025, a revised edition with specification changes and detailed explanations will be released.</p>
 <h2 id="kanji-and-hanzi">
   Kanji and Hanzi
@@ -623,43 +628,39 @@ https://github.com/alex-shpak/hugo-book
 <p>Dictionaries of Chinese characters compiled in Japan during the Heian period are invaluable resources not only for the study of Japanese linguistics but also for the study of Chinese linguistics. To promote international accessibility, we propose using the term &lsquo;Hanzi.&rsquo; Researchers specializing in Japanese studies may, without any issue, read this term as &lsquo;Kanji.&rsquo; This approach aims to respect the linguistic diversity and academic traditions of both fields, while encouraging broader scholarly exchange.</p>
 <p>This explanation aims to provide clarity and respect for both terminologies, ensuring that researchers from different backgrounds can engage with the material without linguistic barriers.</p>
 <p>For these reasons, &lsquo;hanzi&rsquo; is used for the column names of the public data, while &lsquo;kanji&rsquo; is used in the explanatory text.</p>
-<h2 id="data-files">
-  Data Files
-  <a class="anchor" href="#data-files">#</a>
+<h2 id="list-of-data-files">
+  List of Data Files
+  <a class="anchor" href="#list-of-data-files">#</a>
 </h2>
-<h3 id="list-and-brief-description">
-  List and Brief Description
-  <a class="anchor" href="#list-and-brief-description">#</a>
-</h3>
-<p>The data from the Kanchi-in manuscript of the Ruiju Myogisho, published at <a href="https://github.com/shikeda/HDIC/tree/master/v1.2">https://github.com/shikeda/HDIC/tree/master/v1.2</a>, is as follows. This includes some files that are currently being prepared for public release.</p>
+<p>The data for the Kanchi-in manuscript of the <em>Ruiju Myōgishō</em>, available at <a href="https://github.com/shikeda/HDIC/tree/master/v1.2">https://github.com/shikeda/HDIC/tree/master/v1.2</a>, is as follows. This list includes some files that are currently under preparation for public release.</p>
 <ul>
-<li><a href="./02-01-main/">krm_main</a>: Basic data. Includes information about head characters, full definitions, locations, etc. TSV and JSON files are available.</li>
-<li><a href="./02-02-notes">krm_notes</a>: Annotation data. Categorized into head characters, glyph annotations, pronunciation annotations, meaning annotations, <em>wakun</em>, and others, with collation and source studies. TSV and JSON files are available.</li>
-<li><a href="./02-03-headword-chars/">krm_headword_chars</a>: Detailed information about all head characters. Includes location in the Kazama edition, location in the Tenri edition, image file names, etc. Currently under preparation for release.</li>
-<li><a href="./02-04-wakun/">krm_wakun</a>: <em>Wakun</em> data. Includes information about variant forms of <em>wakun</em>, variant forms of hanzi (<em>itai-ji</em>), and correspondence with the &ldquo;Notation&rdquo; field of the <em>Nihon Kokugo Daijiten</em> (Second Edition). TSV and JSON files are available.</li>
-<li><a href="./02-05-definitions/">krm_definitions</a>: Definitions categorized into glyph annotations, pronunciation annotations, meaning annotations, <em>wakun</em>, and others. TSV file available. Same as the already published <a href="https://github.com/shikeda/HDIC/KRM_definitions.tsv">KRM_definitions.tsv</a>.</li>
-<li><a href="./02-06-pronunciations/">krm_pronunciations</a>: Data for linking with DHSJR regarding pronunciation annotations (under preparation).</li>
-<li><a href="./02-07-ndl/">krm_ndl</a>: Links to the National Diet Library Digital Collections. TSV file available. Same as the already published <a href="https://github.com/shikeda/HDIC/KRM_ndl.tsv">KRM_ndl.tsv</a>.</li>
+<li><strong><a href="./02-01-main/">krm_main</a></strong>: Basic data. Includes information on <strong><code>Headwords</code></strong>, the full text of <strong><code>Definition (Original Glosses)</code></strong>, locations, etc. TSV and JSON files are available.</li>
+<li><strong><a href="./02-02-notes/">krm_notes</a></strong>: Data for the <strong><code>Compiler's Remarks</code></strong>. This comprises analyses of <strong><code>Headwords</code></strong>, <strong><code>Notes on Character Form</code></strong>, <strong><code>Phonetic Glosses</code></strong>, <strong><code>Semantic Glosses in Chinese</code></strong>, <strong><code>Japanese Native Readings</code> (<em>wakun</em>)</strong>, and <strong>Other</strong> elements from the <em>Myōgishō</em>, including results of textual collation and source investigation. TSV and JSON files are available.</li>
+<li><strong><a href="./02-03-headword-chars/">krm_headword_chars</a></strong>: Detailed information about all <strong><code>Headwords</code></strong>. Includes location in the Kazama edition, location in the Tenri edition, image file names, etc.</li>
+<li><strong><a href="./02-04-wakun/">krm_wakun</a></strong>: <strong><code>Japanese Native Reading</code> (<em>wakun</em>)</strong> data. Includes information about variant forms of <em>wakun</em>, variant forms of <strong>Hanzi (Chinese characters) (<em>itaiji</em>)</strong>, and correspondence with the &ldquo;Notation&rdquo; field of the <em>Nihon Kokugo Daijiten</em> (Second Edition). TSV and JSON files are available.</li>
+<li><strong><a href="./02-05-definitions/">krm_definitions</a></strong>: Data from the <strong><code>Definition (Original Glosses)</code></strong> of the <em>Myōgishō</em>, categorized into its constituent elements: <strong><code>Notes on Character Form</code></strong>, <strong><code>Phonetic Glosses</code></strong>, <strong><code>Semantic Glosses in Chinese</code></strong>, <strong><code>Japanese Native Readings</code> (<em>wakun</em>)</strong>, and <strong>Other</strong> elements. TSV file available. This is the same as the previously published <a href="https://github.com/shikeda/HDIC/KRM_definitions.tsv">KRM_definitions.tsv</a>.</li>
+<li><strong><a href="./02-06-pronunciations/">krm_pronunciations</a></strong>: Data to facilitate linkage with the DHSJR regarding <strong><code>Phonetic Glosses</code></strong> (under preparation).</li>
+<li><strong><a href="./02-07-ndl/">krm_ndl</a></strong>: Links to the National Diet Library Digital Collections. TSV file available. This is the same as the previously published <a href="https://github.com/shikeda/HDIC/KRM_ndl.tsv">KRM_ndl.tsv</a>.</li>
 </ul>
-<h3 id="specification-change">
+<p>A major revision of the data specifications was implemented in March 2025. Previously, published files were prefixed with &ldquo;KRM&rdquo; (uppercase). Files released after this revision are prefixed with &ldquo;krm&rdquo; (lowercase).</p>
+<h2 id="specification-change">
   Specification Change
   <a class="anchor" href="#specification-change">#</a>
-</h3>
-<p>A significant specification change was implemented in March 2025. Previously, the published files were prefixed with &ldquo;KRM,&rdquo; but the files following this specification change will be prefixed with &ldquo;krm.&rdquo;</p>
-<p>The files incorporating the specification changes have been placed in the &ldquo;v1.2&rdquo; folder. Please note that this is a temporary arrangement.</p>
-<p>Here are the key points of the specification change:</p>
+</h2>
+<p>Files incorporating these specification changes have been placed in the &ldquo;v1.2&rdquo; folder. Please note that this is a temporary arrangement.</p>
+<p>The key points of these specification changes are as follows:</p>
 <ul>
-<li>The at mark &ldquo;@&rdquo;, which indicates that kana wakun does not have tone marks, has been changed to an underscore &ldquo;_&rdquo;.</li>
-<li>The double quotation mark &ldquo;&rdquo;&quot;, which indicates that voiced sound wakun has tone marks, has been changed to a half-width English letter &ldquo;V&rdquo;.</li>
-<li>The half-width parentheses &ldquo;()&rdquo;, which indicate the presence of tone marks, have been changed to full-width parentheses &ldquo;（）&rdquo;.</li>
-<li>The half-width parentheses &ldquo;()&rdquo; indicating a correction proposal for a typo have been changed to full-width square brackets &ldquo;〔〕&rdquo;.</li>
-<li>The half-width square brackets &ldquo;[]&rdquo;, which indicate missing characters, have been changed to full-width square brackets &ldquo;［］&rdquo;.</li>
+<li>The at mark &ldquo;@&rdquo;, used to indicate that a <em>kana wakun</em> (a <code>Japanese Native Reading</code> written in kana) does not have <strong><code>Tone marks</code></strong>, has been changed to an underscore &ldquo;_&rdquo;.</li>
+<li>The double quotation mark &ldquo;&rdquo;&quot;, used to indicate that a <em>wakun</em> for a voiced sound is accompanied by <strong><code>Tone marks</code></strong>, has been changed to the half-width English letter &ldquo;V&rdquo;.</li>
+<li>Half-width parentheses &ldquo;()&rdquo;, used to indicate the presence of <strong><code>Tone marks</code></strong>, have been changed to full-width parentheses &ldquo;（）&rdquo;.</li>
+<li>Half-width parentheses &ldquo;()&rdquo;, used to indicate a proposed correction for a typographical error, have been changed to full-width square brackets &ldquo;〔〕&rdquo;.</li>
+<li>Half-width square brackets &ldquo;[]&rdquo;, used to indicate missing characters, have been changed to full-width square brackets &ldquo;［］&rdquo;.</li>
 </ul>
 <h3 id="er-diagram">
   ER Diagram
   <a class="anchor" href="#er-diagram">#</a>
 </h3>
-<p>The following ER diagram shows the relationship between the three tables: krm_main, krm_notes, and krm_wakun.</p>
+<p>The following ER diagram shows the relationship between the three tables: <code>krm_main</code>, <code>krm_notes</code>, and <code>krm_wakun</code>.</p>
 <p><img src="https://shikeda.github.io/images/krmer.drawio.png" alt="ER diagram." /></p>
 <p>Please note that the <code>krm_notes.json</code> file has a nested structure: each record contains an array of definitions rather than a flat list of rows. For more details on the internal structure of <code>krm_notes.json</code>, see the <a href="./02-02-notes/">dedicated page</a>.</p>
 <p><img src="https://shikeda.github.io/images/krm_notes_er.drawio.png" alt="ER_notes diagram" /></p>
@@ -713,10 +714,9 @@ https://github.com/alex-shpak/hugo-book
   <ul>
     <li><a href="#introduction">Introduction</a></li>
     <li><a href="#kanji-and-hanzi">Kanji and Hanzi</a></li>
-    <li><a href="#data-files">Data Files</a>
+    <li><a href="#list-of-data-files">List of Data Files</a></li>
+    <li><a href="#specification-change">Specification Change</a>
       <ul>
-        <li><a href="#list-and-brief-description">List and Brief Description</a></li>
-        <li><a href="#specification-change">Specification Change</a></li>
         <li><a href="#er-diagram">ER Diagram</a></li>
       </ul>
     </li>

@@ -15,11 +15,18 @@ At the inception of the HDIC Project, the 'Steering Committee for Integrated Dat
 
 Representative Ikeda retired from Hokkaido University at the end of March 2021. Currently, as an Emeritus Professor of Hokkaido University, he is continuing this project.
 
-## Text and Annotations
+## The Myōgishō Text and Commentary
 
-The purpose of this website is to provide information concerning the main text and annotations of the Kanchi-in manuscript ***Ruiju Myōgishō*** (hereafter ***Myōgishō***), included in the HDIC collection.
+The purpose of this website is to provide a complete transcription of the main text of the Kanchi-in manuscript of the *Ruiju Myōgishō* (hereafter *Myōgishō*), and to offer various explanations regarding its content in the form of a **Commentary**.
 
-The main text presented here is a complete transcription of all entry characters and their associated glosses found within the ***Myōgishō***. The annotations consist of collation, source research, and other relevant information added to this transcribed text. We have aimed to comprehensively cite previous studies and have focused on highlighting points requiring special attention regarding character forms, phonetic glosses, semantic glosses, and *wakun* (Japanese native readings, or *kun'yomi*). Regarding *wakun*, correspondence with entries in the JapanKnowledge edition of the *Nihon Kokugo Daijiten, Second Edition* is also indicated.
+The main text of the *Myōgishō* consists of a collection of **Entries**. Each **Entry** is composed of a **Headword** and what is referred to in this database as **Definition** (representing the original glosses from the manuscript). This **Definition** (original glosses) is further comprised of elements such as **Notes on Character Form**, **Phonetic Gloss**, **Semantic Gloss in Chinese**, **Japanese Native Reading**, and **Other** information.
+
+As an analysis of these **Headwords** and the various elements within the **Definition** (original glosses), **Compiler's Remarks** are provided by the creators of this database.
+
+The **Commentary** in this database, therefore, consists of two primary components: the **Original Glosses** found in the source text of the *Myōgishō* and the **Compiler's Remarks** on these original elements. Users of this database are advised to pay particular attention to this two-part structure of the Commentary.
+
+Specifically, the **Original Glosses** from the *Myōgishō* source (which are conceptually the "original annotations") are stored in the database's `definition` column under the field name **Definition**. The **Compiler's Remarks** on these elements are stored in the `remarks` column.
+
 
 ## Links and Database Access
 

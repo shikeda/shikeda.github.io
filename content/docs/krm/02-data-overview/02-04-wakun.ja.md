@@ -59,13 +59,13 @@ weight: 14
 
 | New Column Name (v1.2.0)           | Japanese Explanation            |
 |-------------------------|-------------|
-| wakun_id                | 和訓ID。kr_definition_sequence_idから、注文の種類が和訓のものだけを取り出したもの。変異形を追加したものには末尾にa, b, c, dを付した。        |
+| wakun_id                | 和訓ID。kr_definition_sequence_idから、注文の種類が和訓のものだけを取り出したもの。変異形を追加したものには末尾にb, c, dを付した。        |
 | definition_seq_id        | 連番で与えられるFで始まる5桁の見出しの数値IDに加えて、見出しの下に記される注文の各要素を出現順に区分し、出現の順番に_01、_02のように追加したもの。見出しには_00を追加する。 |
 | kazama_entry_location   | 位置情報（風間版：K、冊子（巻）、ページ（xxx）、行（y）、列（zz））を含むID。列に複数のエントリがある場合は、1、2、...、n の順位になる。                 |
 | hanzi_entry                | 原文の漢字を校訂したもの。康熙字典体とするのを原則としたが、Unicodeで入力できる新字体（通用字体、俗字体）を残すこともある。                            |
 | wakun_elements          | 注文の全文から、和訓の要素を一つずつ抜き出したもの。             |
 | wakun_form           | 和訓の語形。活用のあるものは、助詞助動詞を除いて終止形とする。文選読みの「の」「と」は省略する。            |
 | wakun_standard_hanzi         | 標準的な漢字による和訓表記。                            |
-| wakun_variant_in_hanzi | 標準的な漢字による和訓の異形の表記。                                                                           |
+| wakun_variant_in_hanzi | 標準的な漢字による和訓の異形の表記。                |
 | variant_hanzi_for_wakun    | 異体字による和訓の表記。                           |
 | japan_knowledge_id      | ジャパンナレッジ版『日本国語大辞典第二版』にこの和訓が見出しとして存在する場合に、そのURLの後半、20020から末尾までの英数字を記載する。見出しとして存在しない場合は null と入力する。  |

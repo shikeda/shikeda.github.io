@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-	<meta name="generator" content="Hugo 0.147.2">
+	<meta name="generator" content="Hugo 0.147.3">
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="
@@ -28,7 +28,7 @@ The project to construct and publish the HDIC database is called the HDIC Projec
   <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/" title="Introduction">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/en.search.min.4de412dc272e72998a689353c179b414dd1252dcd58d93cec134315ad6b63e03.js" integrity="sha256-TeQS3CcucpmKaJNTwXm0FN0SUtzVjZPOwTQxWta2PgM=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.f39e9e1ca0b31ff43c645587fcd2ea3c601b134a46182808a00105c5ab5ec494.js" integrity="sha256-856eHKCzH/Q8ZFWH/NLqPGAbE0pGGCgIoAEFxatexJQ=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://shikeda.github.io/en/index.xml" title="HDIC project" />
 <!--
 Made with Book Theme
@@ -583,7 +583,7 @@ https://github.com/alex-shpak/hugo-book
 <nav id="TableOfContents">
   <ul>
     <li><a href="#what-is-hdic">What is HDIC?</a></li>
-    <li><a href="#text-and-annotations">Text and Annotations</a></li>
+    <li><a href="#the-myōgishō-text-and-commentary">The Myōgishō Text and Commentary</a></li>
     <li><a href="#links-and-database-access">Links and Database Access</a></li>
     <li><a href="#progress-status">Progress Status</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a>
@@ -615,12 +615,15 @@ https://github.com/alex-shpak/hugo-book
 <p>The project to construct and publish the HDIC database is called the HDIC Project. This HDIC Project is being carried out with support from a Grant-in-Aid for Scientific Research from the Japan Society for the Promotion of Science. The grant numbers are 16H03422, 19H00526, and 23K17500.</p>
 <p>At the inception of the HDIC Project, the &lsquo;Steering Committee for Integrated Database of Hanzi Dictionaries in Early Japan&rsquo; was established on February 13, 2014, to serve as the project&rsquo;s core entity. The representative was Shōju Ikeda (then a professor in the Graduate School of Humanities and Human Sciences at Hokkaido University).</p>
 <p>Representative Ikeda retired from Hokkaido University at the end of March 2021. Currently, as an Emeritus Professor of Hokkaido University, he is continuing this project.</p>
-<h2 id="text-and-annotations">
-  Text and Annotations
-  <a class="anchor" href="#text-and-annotations">#</a>
+<h2 id="the-myōgishō-text-and-commentary">
+  The Myōgishō Text and Commentary
+  <a class="anchor" href="#the-my%c5%8dgish%c5%8d-text-and-commentary">#</a>
 </h2>
-<p>The purpose of this website is to provide information concerning the main text and annotations of the Kanchi-in manuscript <em><strong>Ruiju Myōgishō</strong></em> (hereafter <em><strong>Myōgishō</strong></em>), included in the HDIC collection.</p>
-<p>The main text presented here is a complete transcription of all entry characters and their associated glosses found within the <em><strong>Myōgishō</strong></em>. The annotations consist of collation, source research, and other relevant information added to this transcribed text. We have aimed to comprehensively cite previous studies and have focused on highlighting points requiring special attention regarding character forms, phonetic glosses, semantic glosses, and <em>wakun</em> (Japanese native readings, or <em>kun&rsquo;yomi</em>). Regarding <em>wakun</em>, correspondence with entries in the JapanKnowledge edition of the <em>Nihon Kokugo Daijiten, Second Edition</em> is also indicated.</p>
+<p>The purpose of this website is to provide a complete transcription of the main text of the Kanchi-in manuscript of the <em>Ruiju Myōgishō</em> (hereafter <em>Myōgishō</em>), and to offer various explanations regarding its content in the form of a <strong>Commentary</strong>.</p>
+<p>The main text of the <em>Myōgishō</em> consists of a collection of <strong>Entries</strong>. Each <strong>Entry</strong> is composed of a <strong>Headword</strong> and what is referred to in this database as <strong>Definition</strong> (representing the original glosses from the manuscript). This <strong>Definition</strong> (original glosses) is further comprised of elements such as <strong>Notes on Character Form</strong>, <strong>Phonetic Gloss</strong>, <strong>Semantic Gloss in Chinese</strong>, <strong>Japanese Native Reading</strong>, and <strong>Other</strong> information.</p>
+<p>As an analysis of these <strong>Headwords</strong> and the various elements within the <strong>Definition</strong> (original glosses), <strong>Compiler&rsquo;s Remarks</strong> are provided by the creators of this database.</p>
+<p>The <strong>Commentary</strong> in this database, therefore, consists of two primary components: the <strong>Original Glosses</strong> found in the source text of the <em>Myōgishō</em> and the <strong>Compiler&rsquo;s Remarks</strong> on these original elements. Users of this database are advised to pay particular attention to this two-part structure of the Commentary.</p>
+<p>Specifically, the <strong>Original Glosses</strong> from the <em>Myōgishō</em> source (which are conceptually the &ldquo;original annotations&rdquo;) are stored in the database&rsquo;s <code>definition</code> column under the field name <strong>Definition</strong>. The <strong>Compiler&rsquo;s Remarks</strong> on these elements are stored in the <code>remarks</code> column.</p>
 <h2 id="links-and-database-access">
   Links and Database Access
   <a class="anchor" href="#links-and-database-access">#</a>
@@ -715,7 +718,7 @@ The headwords are being processed in two ways. One is to input the headwords usi
 <nav id="TableOfContents">
   <ul>
     <li><a href="#what-is-hdic">What is HDIC?</a></li>
-    <li><a href="#text-and-annotations">Text and Annotations</a></li>
+    <li><a href="#the-myōgishō-text-and-commentary">The Myōgishō Text and Commentary</a></li>
     <li><a href="#links-and-database-access">Links and Database Access</a></li>
     <li><a href="#progress-status">Progress Status</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a>

@@ -31,7 +31,7 @@ title: "公開データの概要"
 
 - [krm_main](./02-01-main/): 基本データ。掲出字、注文全文、所在などに関する情報を含む。TSVファイルとJSONファイルを公開。
 - [krm_notes](./02-02-notes/): 注釈データ。掲出字、字体注、音注、意義注、和訓、その他に分類し、校勘と出典考証を行ったもの。TSVファイルとJSONファイルを公開。
-- [krm_headword_chars](./02-03-krm-headword-chars/): すべての掲出字に関する詳細情報。風間版所在、天理版所在、画像ファイル名など。公開準備中。
+- [krm_headword_chars](./02-03-krm-headword-chars/): すべての掲出字に関する詳細情報。風間版所在、天理版所在、画像ファイル名など。
 - [krm_wakun](./02-04-wakun/): 和訓データ。和訓の異形、漢字の異体字、『日本国語大辞典第二版』の表記欄との対応に関する情報を含む。TSVファイルとJSONファイルを公開。
 - [krm_definitions](./02-05-definitions/): 注文を字体注、音注、意義注、和訓、その他に分類したもの。TSVファイルを公開。公開済みの[KRM_definitions.tsv](https://github.com/shikeda/HDIC/KRM_definitions.tsv)に同じ。
 - [krm_pronunciations](./02-06-pronunciations/): 音注に関してDHSJRとの連携をとるためのデータ（準備中）。

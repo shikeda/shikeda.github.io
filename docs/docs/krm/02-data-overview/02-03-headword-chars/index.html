@@ -23,7 +23,7 @@ krm_headword_chars は、名義抄のすべての掲出字を、名義抄の項�
   <link rel="alternate" hreflang="en" href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-03-headword-chars/" title="krm_headword_chars">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/ja.search.min.dc892f398ccd6c6a052c590b1aff367a8575a003ad7ddeb7a71a0f8090f1ccc8.js" integrity="sha256-3IkvOYzNbGoFLFkLGv82eoV1oAOtfd63pxoPgJDxzMg=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/ja.search.min.98117306126042bb43ae47976a71d17db862a6b0042a04340b256180497cfd97.js" integrity="sha256-mBFzBhJgQrtDrkeXanHRfbhiprAEKgQ0CyVhgEl8/Zc=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -914,15 +914,15 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#krm_headword_chars">#</a>
 </h1>
 <p>名義抄の掲出字は、単字からなるものと、複字（多字）からなるものがある。
-krm_headword_chars は、名義抄のすべての掲出字を、名義抄の項目順および各項目内の文字の出現順に一覧したデータである。</p>
-<p>名義抄データベースの基本データとなる krm_main はもとより、
-注釈データである krm_notes、さらに和訓データである krm_wakun は、
+<code>krm_headword_chars</code> は、名義抄のすべての掲出字を、名義抄の項目順および各項目内の文字の出現順に一覧したデータである。</p>
+<p>名義抄データベースの基本データとなる <code>krm_main</code> はもとより、
+注釈データである <code>krm_notes</code>、さらに和訓データである <code>krm_wakun</code> は、
 いずれも項目を単位としている。そのため、複数の文字で構成される掲出字の
 2字目以降の文字はこれらのデータからは直接参照できない。</p>
 <p>名義抄の掲出字を1字ごとに検索し、その原本画像を表示したり、各文字レベルでの分析を行ったりするには、2字目以降の文字を含めたすべての掲出字のリストが必要である。</p>
-<p>このような目的のために作成したのが krm_headword_chars である。
-このデータは、TSV形式とJSON形式で提供される。各行（またはエントリ）は掲出字1文字に対応し、その文字が属する名義抄の掲出字（見出し語全体）の出現順を示すID (hanzi_id)、その文字が属する名義抄の項目を示すID (entry_id)、項目内での文字の順序 (character_order)、文字そのもの (constituent_char)、1文字ごとに切り出された画像ファイルの名称 (img_file_name)、そして風間版および天理版それぞれにおけるその文字の所在情報（kazama_location_id, tenri_location_id）などを含んでいる。これにより、krm_main などの項目単位のデータと連携しつつ、個々の文字レベルでの情報アクセスが可能となる。</p>
-<p>krm_headword_chars のカラム名とその説明は次のとおりである。</p>
+<p>このような目的のために作成したのが <code>krm_headword_chars</code> である。
+このデータは、TSV 形式と JSON 形式で提供される。各行（またはエントリ）は掲出字1文字に対応し、その文字が属する名義抄の掲出字（見出し語全体）の出現順を示すID (<code>hanzi_id</code>)、その文字が属する名義抄の項目を示すID (<code>entry_id</code>)、項目内での文字の順序 (<code>character_order</code>)、文字そのもの (<code>constituent_char</code>)、1文字ごとに切り出された画像ファイルの名称 (<code>img_file_name</code>)、そして風間版および天理版それぞれにおけるその文字の所在情報（<code>kazama_location_id</code>, <code>tenri_location_id</code>）などを含んでいる。これにより、<code>krm_main</code> などの項目単位のデータと連携しつつ、個々の文字レベルでの情報アクセスが可能となる。</p>
+<p><code>krm_headword_chars</code> のカラム名とその説明は次のとおりである。</p>
 <table>
   <thead>
       <tr>
@@ -941,7 +941,7 @@ krm_headword_chars は、名義抄のすべての掲出字を、名義抄の項�
       </tr>
       <tr>
           <td>constituent_char</td>
-          <td>見出しを構成する文字そのもの。。省略符号（ー）と踊り字（〻）は当該の文字に改める。校訂漢字は原則、康熙字典体。Unicodeの新字体（通用字体・俗字体）の扱いについては別途規定。詳細な校訂注記は krm_notes 参照。</td>
+          <td>見出しを構成する文字そのもの。省略符号（ー）と踊り字（〻）は当該の文字に改める。校訂漢字は原則、康熙字典体。Unicodeの新字体（通用字体・俗字体）の扱いについては別途規定。詳細な校訂注記は krm_notes 参照。</td>
       </tr>
       <tr>
           <td>character_order</td>

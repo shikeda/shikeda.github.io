@@ -26,7 +26,7 @@
       <link>https://shikeda.github.io/docs/krm/02-data-overview/02-03-headword-chars/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://shikeda.github.io/docs/krm/02-data-overview/02-03-headword-chars/</guid>
-      <description>&lt;h1 id=&#34;krm_headword_chars&#34;&gt;&#xA;  krm_headword_chars&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_headword_chars&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;名義抄の掲出字は、単字からなるものと、複字（多字）からなるものがある。&#xA;krm_headword_chars は、名義抄のすべての掲出字を、名義抄の項目順および各項目内の文字の出現順に一覧したデータである。&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;krm_headword_chars&#34;&gt;&#xA;  krm_headword_chars&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_headword_chars&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;名義抄の掲出字は、単字からなるものと、複字（多字）からなるものがある。&#xA;&lt;code&gt;krm_headword_chars&lt;/code&gt; は、名義抄のすべての掲出字を、名義抄の項目順および各項目内の文字の出現順に一覧したデータである。&lt;/p&gt;</description>
     </item>
     <item>
       <title>krm_wakun</title>
