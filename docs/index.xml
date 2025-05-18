@@ -6,7 +6,7 @@
     <description>Recent content in Introduction on HDIC project</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 16 May 2025 10:50:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 18 May 2025 05:18:44 +0900</lastBuildDate>
     <atom:link href="https://shikeda.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>掲出字・項目構造とID体系</title>
@@ -51,18 +51,18 @@
       <description>&lt;h1 id=&#34;項目の種類&#34;&gt;&#xA;  項目の種類&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a0%85%e7%9b%ae%e3%81%ae%e7%a8%ae%e9%a1%9e&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;このセクションでは、類聚名義抄の項目をどのような基準で分類し、それぞれどのような特徴を持つか説明する。&lt;/p&gt;&#xA;&lt;h2 id=&#34;掲出字形式による分類&#34;&gt;&#xA;  掲出字形式による分類&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%8e%b2%e5%87%ba%e5%ad%97%e5%bd%a2%e5%bc%8f%e3%81%ab%e3%82%88%e3%82%8b%e5%88%86%e9%a1%9e&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;項目は、それを構成する掲出字の形式（単字または複字）によって分類することができる。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>項目データファイルの公開・更新</title>
-      <link>https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/</guid>
-      <description>&lt;h1 id=&#34;項目データファイルの公開更新&#34;&gt;&#xA;  項目データファイルの公開・更新&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a0%85%e7%9b%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e5%85%ac%e9%96%8b%e6%9b%b4%e6%96%b0&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h3 id=&#34;項目データファイルの例&#34;&gt;&#xA;  項目データファイルの例&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a0%85%e7%9b%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%be%8b&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;左から順に翻刻を示すと次のようになる。所在情報は簡略化して示す。&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;No&#x9;KR_ID&#x9;KR_vol_radical&#x9;KR_vol_name&#x9;KR_radical&#x9;Entry&#x9;Entry_original&#x9;KR_def&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;1&#x9;K08084810&#x9;v8#8&#x9;僧上&#x9;力&#x9;功&#x9;〇&#x9;音工（L-R）「コウ（_N）」「クウ（_N）」　續也　事也　成也　タシカニ（LHLH）　切歟&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;2&#x9;K08081810&#x9;v8#83&#x9;僧上&#x9;力&#x9;助&#x9;⿰目力&#x9;鉏據反　タスク（LL_）　マサル（HH_）　ハサム　和自ヨ（_L）&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;3&#x9;K08081821&#x9;v8#83&#x9;僧上&#x9;力&#x9;𦔳／助&#x9;■／〇&#x9;今正&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;4&#x9;K08084411&#x9;v8#83&#x9;僧上&#x9;力&#x9;加／復&#x9;〇／〇&#x9;シカノミナラス&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;5&#x9;K08084421&#x9;Tc090421&#x9;v8#83&#x9;僧上&#x9;力&#x9;ー（加）／之&#x9;〇／〇&#x9;同&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;1の「功」は単字形式の例である。&#xA;この例は、音注に複数の声点、仮名字音、鼻音記号が見えており、複雑な内容を持つ。&#xA;声点の圏点と星点の区別、声点と仮名字音の朱墨の別は省略する。&#xA;漢字意味注の「續也」は「績也」の誤写。&#xA;和訓「タシカニ」は「功」字の字義に対応せず不審。&#xA;この和訓のすぐあとに「切歟」とあり、&#xA;「切」字に「タシカニ」の和訓がある。&#xA;「功」には異体字「㓛」があり、これは「切」およびその異体字「⿰十刀」に近似した字形である。&#xA;「切」は掲出字「功」の形近字であり、その混同による和訓であっても注文内容を改変することなく「切歟」という注記を加えたものである。「切歟」は「案語」として扱う。&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>文字表記に関する概念</title>
       <link>https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/</guid>
-      <description>&lt;h1 id=&#34;文字表記に関する概念&#34;&gt;&#xA;  文字表記に関する概念&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%96%87%e5%ad%97%e8%a1%a8%e8%a8%98%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e6%a6%82%e5%bf%b5&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h3 id=&#34;書体字体字形&#34;&gt;&#xA;  書体・字体・字形&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%9b%b8%e4%bd%93%e5%ad%97%e4%bd%93%e5%ad%97%e5%bd%a2&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;「書体」「字体」「字形」の用語は&#xA;石塚晴通『図書寮本 日本書紀 研究篇』（汲古書院、1984）の定義に従う。&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;文字表記に関する概念&#34;&gt;&#xA;  文字表記に関する概念&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%96%87%e5%ad%97%e8%a1%a8%e8%a8%98%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e6%a6%82%e5%bf%b5&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;書体字体字形&#34;&gt;&#xA;  書体・字体・字形&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%9b%b8%e4%bd%93%e5%ad%97%e4%bd%93%e5%ad%97%e5%bd%a2&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;「書体」「字体」「字形」の用語は&#xA;石塚晴通『図書寮本 日本書紀 研究篇』（汲古書院、1984）に見える次の定義に従う。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>項目データファイルの公開・更新</title>
+      <link>https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/</guid>
+      <description>&lt;h1 id=&#34;項目データファイルの公開更新&#34;&gt;&#xA;  項目データファイルの公開・更新&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a0%85%e7%9b%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e5%85%ac%e9%96%8b%e6%9b%b4%e6%96%b0&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;項目データファイルの内容と具体例の提示、GitHub を利用した公開・更新の方法に触れる。&lt;/p&gt;&#xA;&lt;h3 id=&#34;項目データファイルの例&#34;&gt;&#xA;  項目データファイルの例&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a0%85%e7%9b%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%be%8b&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;公開のデータファイルのリストは&lt;a href=&#34;https://shikeda.github.io/docs/krm/02-data-overview/&#34;&gt;公開データの概要&lt;/a&gt;に一覧している。&#xA;ここでは項目データファイルの基本データとなる&lt;code&gt;krm_main&lt;/code&gt; を例にその内容を解説する。&lt;/p&gt;</description>
     </item>
     <item>
       <title>KRMの入力方法</title>
@@ -294,6 +294,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://shikeda.github.io/docs/krm/08-case-studies/6/</guid>
       <description>&lt;p&gt;準備中&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo BookテーマでのMermaid</title>
+      <link>https://shikeda.github.io/posts/howtomermaid/</link>
+      <pubDate>Sun, 18 May 2025 05:18:44 +0900</pubDate>
+      <guid>https://shikeda.github.io/posts/howtomermaid/</guid>
+      <description>&lt;h1 id=&#34;hugo-book-テーマでの-mermaid-の扱い&#34;&gt;&#xA;  Hugo Book テーマでの Mermaid の扱い&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#hugo-book-%e3%83%86%e3%83%bc%e3%83%9e%e3%81%a7%e3%81%ae-mermaid-%e3%81%ae%e6%89%b1%e3%81%84&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;VS Codeで次の Mermaidで作図したER図は表示されるが、Hugo の book では図が描けない。&#xA;どうしたら表示できるか。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Glossary for KRM DB</title>

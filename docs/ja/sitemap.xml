@@ -134,18 +134,6 @@
                 href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-02-types-of-entries/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/"
-                />
-  </url><url>
     <loc>https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/</loc>
     <xhtml:link
                 rel="alternate"
@@ -156,6 +144,18 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/"
+                />
+  </url><url>
+    <loc>https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/"
                 />
   </url><url>
     <loc>https://shikeda.github.io/posts/input-method/</loc>
@@ -384,10 +384,13 @@
     <loc>https://shikeda.github.io/docs/krm/08-case-studies/6/</loc>
   </url><url>
     <loc>https://shikeda.github.io/posts/</loc>
-    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-18T05:18:44+09:00</lastmod>
+  </url><url>
+    <loc>https://shikeda.github.io/posts/howtomermaid/</loc>
+    <lastmod>2025-05-18T05:18:44+09:00</lastmod>
   </url><url>
     <loc>https://shikeda.github.io/</loc>
-    <lastmod>2025-05-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-18T05:18:44+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

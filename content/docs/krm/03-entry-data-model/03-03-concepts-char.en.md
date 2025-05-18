@@ -8,39 +8,50 @@ weight: 6
 # bookComments: false
 # bookSearchExclude: false
 ---
+Under preparation.
 
 # Concepts Related to Character Notation
 
-Under preparation.
+## Script Styles, Character Standards, and Character Shapes
 
-### 書体・字体・字形
+The terms "書体" (*shotai*, script style), "字体" (*jitai*, character standard), and "字形" (*jikei*, character shape) as used in this document primarily follow the definitions provided by Ishizuka Harumichi in *Zushoryōbon Nihon Shoki Kenkyūhen* (Tokyo: Kyūko Shoin, 1984). The following English explanations are translations from Ishizuka's original Japanese definitions:
 
-「書体」「字体」「字形」の用語は
-石塚晴通『図書寮本 日本書紀 研究篇』（汲古書院、1984）の定義に従う。
+* **`Script Style` (*shotai*)**: A socially common style existing in the form of **`Hanzi (Chinese characters)`**. It is often determined by the purpose of the material in which the characters appear (e.g., 楷書 *Kaisho* [regular script], 草書 *Sōsho* [cursive script]).
+    (Original Japanese: 書体 --- 漢字の形に於て存在する社会共通の様式。多くは其の漢字資料の目的により決まる。楷書・草書等)
+* **`Character Standard` (*jitai*)**: A socially common standard for each **`Hanzi (Chinese character)`** existing within a given *shotai* (script style).
+    (Original Japanese: 字体 --- 書体内に於て存在する一々の漢字の社会共通の基準)
+* **`Character Shape` (*jikei*)**: The actual written shape itself of each **`Hanzi (Chinese character)`** as realized or recognized within a given *jitai* (character standard).
+    (Original Japanese: 字形 --- 字体内に於て認識する一々の漢字の書写された形そのもの)
 
-- **書体** --- 漢字の形に於て存在する社会共通の様式。多くは其の漢字資料の目的により決まる。楷書・草書等
-- **字体** --- 書体内に於て存在する一々の漢字の社会共通の基準
-- **字形** --- 字体内に於て認識する一々の漢字の書写された形そのもの
+A key feature of these definitions is their hierarchical understanding of *shotai*, *jitai*, and *jikei*.
 
-「書体」「字体」「字形」を階層的に捉える点がこの定義の特徴である。
+The English definitions provided by Ishizuka et al. are as follows[^1]:
 
-### 異体字
+[^1]: Harumichi Ishizuka, Syoju Ikeda, Jun Shirai, and Tomokazu Takada, "The data-base focusing on the standard of writing Chinese characters in Dunhuang manuscripts," in *Nara Symposium for Digital Silk Roads Abstracts: The Second NII International Symposium* (Nara, Japan, December 10-12, 2003), 37.
 
-**異体字**（variant glyph）は「字体」レベルにおいて、「正字」に対応する概念である。
-石塚晴通「漢字字体の日本的標準」（『国語と国文学』76（5）、1999）
-などに示される漢字字体史研究のモデルでは、漢字字体の標準は
-時代・地域により変遷するという考えをとっており、
-**漢字字体規範データベース（HNG）**はそのモデルの実証を意図するものである。
-HNGは[漢字字体規範史データセット](https://www.hng-data.org)で利用できる。
+> * 書體 (Shotai): Socially common form of the type of a Chinese character. In many instances, the usage of a particular type is determined by the purpose of writing, 楷書, 草書, etc.
+> * 字體 (Jitai): Socially common standard of writing Chinese character existing within the 書體.
+> * 字形 (Jikei): Shape itself of a Chinese character as recognized within the standard of the 字體.
 
-異体字は「正字」でない字体を指すのが一般の理解であるが、石塚のモデルでは、時代・地域により、漢字字体の標準、すなわち「正字」が相違するのであるから、あらかじめ「正字」と「異体字」とを区別することができない。ここでは、異体字を漢字字体のバリエーションとして捉え、「正」「俗」「通」「或」等の字体注記（字級）が施されていれば異体字を示していると判断する。
+Based on these English explanations (from Ishizuka et al., 2003, which are consistent with the translated 1984 definitions), this document will use the following English terms:
+* For 「書體（書体）」: `**script styles (*shotai*)**` (書体)
+* For 「字體（字体）」: `**the standard of writing Chinese characters (*jitai*)**` (字体)
+* For 「字形」: `**shapes of Chinese characters (*jikei*)**` (字形)
 
-「正」「俗」等の字体注記を**字級**（glyph class）と呼ぶのは、
-李景遠『隋唐字様學研究』（國立臺灣師範大學國文研究所博士論文、1997）による。
+## Variant Characters (異体字)
 
-### 形近字
+The term **`variant characters (*itaiji*)`** (異体字) is, at the level of **`character standards (*jitai*)`** (字体), a concept corresponding to "**`standard characters`**" (正字, *seiji*).
+In models of the historical study of Chinese character forms, such as those presented by Ishizuka Harumichi in "Kanji Jitai no Nihonteki Hyōjun" (Japanese Standards of Chinese Character Forms; *Kokugo to Kokubungaku* 76, no. 5, 1999), the standard for Chinese character forms is considered to have changed according to period and region. The **Hanzi Normative Glyphs Database (HNG)** was intended to empirically demonstrate this model. Related data, including materials from its predecessor (the Ishizuka Register of Chinese Character Standards of Writing), can be accessed via the **Hanzi Normative Glyphs Dataset** available at [https://www.hng-data.org](https://www.hng-data.org).
 
-**形近字**（similar glyph character）とは、字形が近似しているが別字であるものである。類形別字あるいは類形異字と呼ばれる。観智院本『類聚名義抄』の研究では、
-酒井憲二「類聚名義抄の字順と部首排列」（『本邦辞書史論叢』三省堂、1967）
-が部首内の字順について「類似字形排列」を見出しているが、
-これは、異体字および形近字が連続して掲出されると言い換えることができる。
+While "**`variant characters`**" are generally understood to refer to character forms that are not "**`standard characters`**," Ishizuka's model posits that the standard for Chinese character forms—that is, the "**`standard character`**"—differs by period and region, making it impossible to distinguish *a priori* between "**`standard characters`**" and "**`variant characters (*itaiji*)`**." In this document, we consider **`variant characters (*itaiji*)`** as variations of Chinese character forms. We judge that a character indicates a variant if it is accompanied by **`Form Classification Tags`** (字体注記, *jitaichūki*, also referred to as 字級, *jikyū*) such as "正" (standard), "俗" (popular/vulgar), "通" (common), or "或" (alternative).
+
+The practice of calling **`Form Classification Tags`** like "正" or "俗" *jikyū* (字級) follows Lee Kyeong Won in his *Zui-Tang Ziyangxue Yanjiu* (隋唐字様學研究; A Study of Sui and Tang Dynasty Character Lexicography; PhD diss., National Taiwan Normal University, Graduate Institute of Chinese, 1997).
+
+
+## Graphically Similar Characters (形近字)**
+
+**`Graphically similar characters (*keikinki*)`** (形近字) are distinct characters that have similar visual forms. They are also known as *ruikei betsuji* (類形別字) or *ruikei iji* (類形異字) (distinct characters of similar form).
+In the study of the Kanchi-in manuscript of the *Ruiju Myōgishō*, Sakai Kenji, in his article “Ruiju Myōgishō no Jijun to Bushu Hairetsu” (Character Order and Radical Arrangement in the *Ruiju Myōgishō*),[^Sakai1967] identified an "arrangement by similar character forms" (類似字形排列, *ruiji jikei hairetsu*) within radical sections. This can be rephrased as **`variant characters (*itaiji*)`** and **`graphically similar characters`** being listed consecutively.
+
+[^Sakai1967]: Sakai, Kenji. “Ruiju Myōgishō no Jijun to Bushu Hairetsu” (Character Order and Radical Arrangement in the *Ruiju Myōgishō*). In *Honpō Jishoshi Ronsō: Yamada Yoshio Tsuioku* (Collected Papers on the History of Dictionaries in Japan: In Memory of Yamada Yoshio), edited by Yamada Tadao, 191–258. Tokyo: Sanseidō, 1967.
+

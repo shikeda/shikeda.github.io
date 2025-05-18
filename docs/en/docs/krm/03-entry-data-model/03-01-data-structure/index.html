@@ -7,14 +7,14 @@
   Entry Data Structure
   #
 
-This section explains the structure and format of entries in the Kanchi-in manuscript of the Ruiju Myōgishō (hereinafter Myōgishō).
-It begins by defining key terms (and related concepts) such as Headword (掲出字, keishutsuji) and Original Glosses (注文, chūmon). Next, an example of an actual entry is presented as an image (a facsimile). The structure of this entry is then illustrated in an abstract and diagrammatic form. Finally, a transcription of the entry shown in the image is provided.">
+This section explains the structure and format of Entries in the Kanchi-in manuscript of the Ruiju Myōgishō (hereinafter Myōgishō).
+It begins by defining key terms (and related concepts) such as Headword (掲出字, keishutsuji) and Original Glosses (注文, chūmon). Next, an example of an actual Entry is presented as an image (a facsimile). The structure of this Entry is then illustrated in an abstract and diagrammatic form. Finally, a transcription of the Entry shown in the image is provided.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/">
   <meta property="og:site_name" content="HDIC project">
   <meta property="og:title" content="Entry Data Structure">
-  <meta property="og:description" content="Entry Data Structure # This section explains the structure and format of entries in the Kanchi-in manuscript of the Ruiju Myōgishō (hereinafter Myōgishō).
-It begins by defining key terms (and related concepts) such as Headword (掲出字, keishutsuji) and Original Glosses (注文, chūmon). Next, an example of an actual entry is presented as an image (a facsimile). The structure of this entry is then illustrated in an abstract and diagrammatic form. Finally, a transcription of the entry shown in the image is provided.">
+  <meta property="og:description" content="Entry Data Structure # This section explains the structure and format of Entries in the Kanchi-in manuscript of the Ruiju Myōgishō (hereinafter Myōgishō).
+It begins by defining key terms (and related concepts) such as Headword (掲出字, keishutsuji) and Original Glosses (注文, chūmon). Next, an example of an actual Entry is presented as an image (a facsimile). The structure of this Entry is then illustrated in an abstract and diagrammatic form. Finally, a transcription of the Entry shown in the image is provided.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
@@ -24,7 +24,7 @@ It begins by defining key terms (and related concepts) such as Headword (掲出�
   <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-01-data-structure/" title="項目データ構造">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/en.search.min.f39e9e1ca0b31ff43c645587fcd2ea3c601b134a46182808a00105c5ab5ec494.js" integrity="sha256-856eHKCzH/Q8ZFWH/NLqPGAbE0pGGCgIoAEFxatexJQ=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.a6022be2b30b5ef98c9eec70d94f9076505b5b7fb9de0319dba4eaa69cc1bffb.js" integrity="sha256-pgIr4rMLXvmMnuxw2U&#43;QdlBbW3&#43;53gMZ26TqppzBv/s=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -601,9 +601,9 @@ https://github.com/alex-shpak/hugo-book
   Entry Data Structure
   <a class="anchor" href="#entry-data-structure">#</a>
 </h1>
-<p>This section explains the structure and format of entries in the Kanchi-in manuscript of the <em>Ruiju Myōgishō</em> (hereinafter <em>Myōgishō</em>).</p>
-<p>It begins by defining key terms (and related concepts) such as <strong>Headword</strong> (掲出字, <em>keishutsuji</em>) and <strong>Original Glosses</strong> (注文, <em>chūmon</em>). Next, an example of an actual entry is presented as an image (a facsimile). The structure of this entry is then illustrated in an abstract and diagrammatic form. Finally, a transcription of the entry shown in the image is provided.</p>
-<p>Regarding the Japanese reading of &ldquo;注文,&rdquo; although we have adopted &ldquo;<em>chūmon</em>,&rdquo; it may also be read as &ldquo;<em>chūbun</em>&rdquo; to explicitly indicate that it refers to annotations on characters or words.</p>
+<p>This section explains the structure and format of <strong><code>Entries</code></strong> in the Kanchi-in manuscript of the <em>Ruiju Myōgishō</em> (hereinafter <em>Myōgishō</em>).</p>
+<p>It begins by defining key terms (and related concepts) such as <strong><code>Headword</code></strong> (掲出字, <em>keishutsuji</em>) and <strong><code>Original Glosses</code></strong> (注文, <em>chūmon</em>). Next, an example of an actual <strong><code>Entry</code></strong> is presented as an image (a facsimile). The structure of this <strong><code>Entry</code></strong> is then illustrated in an abstract and diagrammatic form. Finally, a transcription of the <strong><code>Entry</code></strong> shown in the image is provided.</p>
+<p>(Regarding the Japanese reading of &ldquo;注文,&rdquo; although we have adopted &ldquo;<em>chūmon</em>,&rdquo; it may also be read as &ldquo;<em>chūbun</em>&rdquo; to explicitly indicate that it refers to annotations on characters or words.)</p>
 <h2 id="structure-of-entries">
   Structure of Entries
   <a class="anchor" href="#structure-of-entries">#</a>
@@ -612,31 +612,28 @@ https://github.com/alex-shpak/hugo-book
   Explanation of Terms
   <a class="anchor" href="#explanation-of-terms">#</a>
 </h3>
-<p>The following explains the terms used to describe the constituent elements of entries in the <em>Myōgishō</em>.</p>
-<p>The terminology herein is defined from a philological viewpoint, which may occasionally result in variations from the column names used in the data or terms in other sections.</p>
-<p>An <strong>Entry</strong> consists of a <strong>Headword</strong> and <strong>Original Glosses</strong>.</p>
-<p>A <strong>Headword</strong> (掲出字) is also referred to as <em>midashi</em>, <em>midashiji</em>, <em>hyōji</em>, or <em>hyōshutsushi</em>. In Chinese, it is called <em>zìtóu</em> (字頭).</p>
-<p><strong>Original Glosses</strong> consist of the following components: <strong>Phonetic Gloss</strong> (音注, <em>onchū</em>), <strong>Semantic Gloss in Chinese</strong> (義注, <em>gichū</em>), <strong>Japanese native reading</strong> (和訓, <em>wakun</em>), <strong>Notes on Character Form</strong> (字体注, <em>jitaichū</em>), and <strong>Other</strong>.</p>
-<p>A <strong>Phonetic Gloss</strong> is provided through methods such as <em>fanqie</em> spelling (反切), similar pronunciation annotation by character (類音注), pronunciation annotation by kana (片仮名音注), <em>shōten</em> (声点, tone marks), and other notations.</p>
-<p>A <strong>Semantic Gloss in Chinese</strong> is also sometimes referred to as <em>gichū</em> (義注, semantic gloss) or <em>kanbun imichū</em> (漢文意味注, semantic gloss in Chinese). Unless it causes misunderstanding, it is often simply referred to as <strong>Semantic Gloss</strong> (義注).</p>
-<p>A <strong>Japanese native reading</strong> (<em>wakun</em>) refers to <em>kun&rsquo;yomi</em> (native Japanese readings of Chinese characters) and is also sometimes called <em>wakunchū</em> (Japanese native reading glosses). It is generally written in Katakana. For example, &lsquo;mono&rsquo; may be written with the abbreviated character &lsquo;牜&rsquo; (a variant of 物), and &lsquo;koto&rsquo; may use the ligature &lsquo;ヿ&rsquo;. There is one instance where <em>Man&rsquo;yōgana</em> is used (e.g., &lsquo;度久佐&rsquo; for &lsquo;木賊&rsquo;).</p>
-<p><strong>Notes on Character Form</strong> are indicated using terms such as &lsquo;正&rsquo; (standard) or &lsquo;俗&rsquo; (popular).</p>
-<p>There are semantic glosses in Chinese, Katakana, etc., written around the headword; these can be termed <strong>Supplementary Headword Annotations</strong> (掲出字補注 <em>Keishutsuji Hochū</em>). These have been classified into Phonetic Glosses, Japanese native readings (<em>wakun</em>), etc., according to their content. In the process of data conversion, measures were taken to clearly identify them as Supplementary Headword Annotations (see &ldquo;Supplementary Headword Annotations&rdquo; under &ldquo;Issues and Treatments in Transcription, Notation, and Annotation&rdquo; in the &ldquo;Entry Data Input&rdquo; section).</p>
-<p><strong>Other</strong> includes items marked as <strong>unknown</strong> (未詳), <strong>notes on textual transmission</strong> (伝写上の注記), and cases where the type of gloss could not be determined.</p>
+<p>The following explains the terms used to describe the constituent elements of <strong><code>Entries</code></strong> in the <em>Myōgishō</em>.</p>
+<p>(The English terminology presented in this section is defined from a philological viewpoint and may therefore occasionally vary from data column names or terms used in other sections of this documentation.)</p>
+<p>An <strong><code>Entry</code></strong> consists of a <strong><code>Headword</code></strong> and <strong><code>Original Glosses</code></strong>.</p>
+<p>A <strong><code>Headword</code></strong> (掲出字) is also referred to as <em>midashi</em>, <em>midashiji</em>, <em>hyōji</em>, or <em>hyōshutsushi</em>. In Chinese, it is called <em>zìtóu</em> (字頭).</p>
+<p><strong><code>Original Glosses</code></strong> consist of the following components: <strong><code>Phonetic Gloss</code></strong> (音注, <em>onchū</em>), <strong><code>Semantic Gloss in Chinese</code></strong> (漢文義注, <em>kanbun gichū</em>), <strong><code>Japanese Native Reading (*wakun*)</code></strong> (和訓, <em>wakun</em>), <strong><code>Notes on Character Form</code></strong> (字体注, <em>jitaichū</em>), and <strong><code>Other</code></strong>.</p>
+<p>A <strong><code>Phonetic Gloss</code></strong> is provided through methods such as <strong><code>fanqie</code> spellings</strong> (反切), <strong><code>Similar sound notes</code></strong> (類音注, <em>ruion-chū</em>), <strong><code>Kana glosses</code></strong> (片仮名音注, <em>kana-onchū</em>), <strong><code>Tone marks (*shōten*)</code></strong> (声点), and other notations.</p>
+<p>A <strong><code>Semantic Gloss in Chinese</code></strong> is also sometimes referred to as <em>gichū</em> (義注, semantic gloss) or <em>kanbun imichū</em> (漢文意味注, semantic gloss in Chinese). Unless it causes misunderstanding, it is often simply referred to as <strong><code>Semantic Gloss</code></strong> (義注).</p>
+<p>A <strong><code>Japanese Native Reading (*wakun*)</code></strong> refers to <em>kun&rsquo;yomi</em> (native Japanese readings of Chinese characters) and is also sometimes called <em>wakunchū</em> (Japanese native reading glosses). It is generally written in Katakana. For example, &lsquo;mono&rsquo; may be written with the abbreviated character &lsquo;牜&rsquo; (a variant of 物), and &lsquo;koto&rsquo; may use the ligature &lsquo;ヿ&rsquo;. There is one instance where <em>Man&rsquo;yōgana</em> is used (e.g., &lsquo;度久佐&rsquo; for &lsquo;木賊&rsquo;).</p>
+<p><strong><code>Notes on Character Form</code></strong> are indicated using terms describing character-form norms, such as &lsquo;正&rsquo; (standard) or &lsquo;俗&rsquo; (popular).</p>
+<p>There are instances of <strong><code>Semantic Glosses in Chinese</code></strong>, Katakana text, etc., written around the <strong><code>Headword</code></strong>; these can be termed <strong><code>Supplementary Headword Annotations</code></strong> (掲出字補注, <em>Keishutsuji Hochū</em>). These have been classified into <strong><code>Phonetic Glosses</code></strong>, <strong><code>Japanese Native Readings (*wakun*)</code></strong>, etc., according to their content. In the process of data conversion, measures were taken to clearly identify them as <strong><code>Supplementary Headword Annotations</code></strong> (see &ldquo;Supplementary Headword Annotations&rdquo; under &ldquo;<a href="https://shikeda.github.io/docs/krm/04-entry-input/04-03-handling/">Handling Issues in Transcription, Notation, and Annotation</a>&rdquo; in the &ldquo;Input of Entry Data&rdquo; section).</p>
+<p><strong><code>Other</code></strong> includes items marked as <strong><code>unknown</code></strong> (未詳, <em>mishō</em>), <strong>notes on textual transmission</strong> (伝写上の注記, <em>densha-jō no chūki</em>), and cases where the type of gloss could not be determined.</p>
 <h3 id="examples-of-entries-images">
   Examples of Entries (Images)
   <a class="anchor" href="#examples-of-entries-images">#</a>
 </h3>
-<p>The following presents facsimile reproductions of entries from the <em>Myōgishō</em> as specific examples, including &lsquo;功&rsquo;, &lsquo;加復&rsquo;, &lsquo;ー之&rsquo;, and &lsquo;助&rsquo; (along with its variant characters).</p>
-<figure><img src="https://shikeda.github.io/images/krm-item-sample1.png"
-    alt="entry structure" width="500px">
-</figure>
-
+<p>The following presents facsimile reproductions of <strong><code>Entries</code></strong> from the <em>Myōgishō</em> as specific examples, including those for &lsquo;功&rsquo;, &lsquo;加復&rsquo;, &lsquo;ー之&rsquo;, and &lsquo;助&rsquo; (along with its <strong><code>variant characters (*itaiji*)</code></strong>).</p>
+<p>{{&lt; figure src=&quot;/images/krm-item-sample1.png&quot; alt=&ldquo;entry structure&rdquo; width=&ldquo;500px&rdquo; &gt;}}</p>
 <h3 id="diagram-of-entry-structure">
   Diagram of Entry Structure
   <a class="anchor" href="#diagram-of-entry-structure">#</a>
 </h3>
-<p>The following is a diagram illustrating the structure of an entry that contains all elements of a <strong>Headword</strong> and its <strong>Original Glosses</strong>.</p>
+<p>The following is a diagram illustrating the structure of an <strong><code>Entry</code></strong> that contains all elements of a <strong><code>Headword</code></strong> and its <strong><code>Original Glosses</code></strong>.</p>
 
 
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
@@ -654,7 +651,7 @@ graph TB
     C--->D(Notes on Character Form)
     C--->E(Phonetic Gloss)
     C--->F(Semantic Gloss in Chinese)
-    C--->G(Japanese native reading)
+    C--->G(Japanese Native Reading)
     C--->H(Other)
 </pre>
 
@@ -662,65 +659,65 @@ graph TB
   Example of an Entry (Transcription)
   <a class="anchor" href="#example-of-an-entry-transcription">#</a>
 </h3>
-<p>Next, we present transcriptions of the examples shown in the images of sample entries.</p>
-<p>First, let&rsquo;s consider &ldquo;功,&rdquo; an entry that includes the basic elements.</p>
+<p>Next, we present transcriptions of the examples shown in the images of sample <strong><code>Entries</code></strong>.</p>
+<p>First, let&rsquo;s consider &ldquo;功,&rdquo; an <strong><code>Entry</code></strong> that includes the basic elements.</p>
 <p><strong>Example</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>功　音工（L-R）「コウ（_N）」「クウ（_N）」　續也　事也　成也　タシカニ（LHLH）　𭃄歟
 </span></span></code></pre></div><ul>
-<li>Headword: 功</li>
-<li>Elements of the glosses:
+<li><strong><code>Headword</code></strong>: 功</li>
+<li>Elements of the <strong><code>Original Glosses</code></strong>:
 <ul>
-<li>Phonetic gloss: 音工（L-R）「コウ（_N）」「クウ（_N）」</li>
-<li>Semantic gloss: 續也　事也　成也</li>
-<li>Japanese native reading: タシカニ（LHLH）</li>
-<li>Note on character form: 𭃄歟</li>
+<li><strong><code>Phonetic Gloss</code></strong>: 音工（L-R）「コウ（_N）」「クウ（_N）」</li>
+<li><strong><code>Semantic Gloss</code></strong> (in Chinese): 續也　事也　成也</li>
+<li><strong><code>Japanese Native Reading (*wakun*)</code></strong>: タシカニ（LHLH）</li>
+<li><strong><code>Note on Character Form</code></strong>: 𭃄歟</li>
 </ul>
 </li>
 </ul>
-<p>This structure should clearly illustrate the relationship between the headword and the elements of the glosses.
-However, a detailed explanation of this entry&rsquo;s content would require considerable text.
-The Japanese quotation marks (<em>kagi-kakko</em>) 「」 enclose supplementary notes, and the symbols shown in parentheses () are Romanized representations of tone marks and nasal sound symbols.
-For further details, please see &ldquo;<a href="https://shikeda.github.io/docs/krm/04-entry-input/04-03-handling/">Handling Issues in Transcription, Notation, and Annotation</a>&rdquo; within &ldquo;<a href="https://shikeda.github.io/docs/krm/04-entry-input/">Entry Data Input</a>&rdquo;; such details are omitted here.</p>
+<p>This structure should clearly illustrate the relationship between the <strong><code>Headword</code></strong> and the elements of the <strong><code>Original Glosses</code></strong>.
+However, a detailed explanation of this <strong><code>Entry</code></strong>&rsquo;s content would require considerable text.
+The Japanese quotation marks (<em>kagi-kakko</em>) 「」 enclose supplementary notes, and the symbols shown in parentheses () are Romanized representations of <strong><code>Tone marks (*shōten*)</code></strong> and nasal sound symbols.
+For further details, please see &ldquo;<a href="https://shikeda.github.io/docs/krm/04-entry-input/04-03-handling/">Handling Issues in Transcription, Notation, and Annotation</a>&rdquo; within &ldquo;<a href="https://shikeda.github.io/docs/krm/04-entry-input/">Input of Entry Data</a>&rdquo;; such details are omitted here.</p>
 <p>Similar to the example of &ldquo;功,&rdquo; &ldquo;加復&rdquo; and &ldquo;ー之&rdquo; can be transcribed as follows.</p>
 <p><strong>Example</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>加復　シカノミナラス  
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>加復　シカノミナラス  
 </span></span><span style="display:flex;"><span>ー之　同
 </span></span></code></pre></div><ul>
-<li>Headword: 加復</li>
-<li>Elements of the glosses:
+<li><strong><code>Headword</code></strong>: 加復</li>
+<li>Elements of the <strong><code>Original Glosses</code></strong>:
 <ul>
-<li>Japanese native reading: シカノミナラス</li>
+<li><strong><code>Japanese Native Reading (*wakun*)</code></strong>: シカノミナラス</li>
 </ul>
 </li>
-<li>Headword: ー（加）之</li>
-<li>Elements of the glosses:
+<li><strong><code>Headword</code></strong>: ー（加）之</li>
+<li>Elements of the <strong><code>Original Glosses</code></strong>:
 <ul>
-<li>Japanese native reading: 同（i.e., same as above: シカノミナラス）</li>
+<li><strong><code>Japanese Native Reading (*wakun*)</code></strong>: 同 (i.e., same as above: シカノミナラス)</li>
 </ul>
 </li>
 </ul>
-<p>Since the &ldquo;ー&rdquo; in &ldquo;ー之&rdquo; is a notation substituting for &ldquo;加,&rdquo; which is used in the preceding headword, it is here written as the headword &ldquo;ー（加）之.&rdquo;</p>
-<p>Lastly, &ldquo;助&rdquo; and its variant characters are shown as follows.</p>
+<p>Since the &ldquo;ー&rdquo; in &ldquo;ー之&rdquo; is a notation substituting for &ldquo;加,&rdquo; which is used in the preceding <strong><code>Headword</code></strong>, it is here written as the <strong><code>Headword</code></strong> &ldquo;ー（加）之.&rdquo;</p>
+<p>Lastly, &ldquo;助&rdquo; and its <strong><code>variant characters (*itaiji*)</code></strong> are shown as follows.</p>
 <p><strong>Example</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>⿰目力	鉏據反　タスク（LL_）　マサル（HH_）　ハサム　和自ヨ（_L）  
-</span></span><span style="display:flex;"><span>𦔳助	今正
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>⿰目力 鉏據反　タスク（LL_）　マサル（HH_）　ハサム　和自ヨ（_L）  
+</span></span><span style="display:flex;"><span>𦔳助 今正
 </span></span></code></pre></div><ul>
-<li>Headword: ⿰目力</li>
-<li>Elements of the glosses:
+<li><strong><code>Headword</code></strong>: ⿰目力</li>
+<li>Elements of the <strong><code>Original Glosses</code></strong>:
 <ul>
-<li>Phonetic gloss: 鉏據反</li>
-<li>Japanese native reading: タスク（LL_）　マサル（HH_）　ハサム</li>
-<li>Phonetic gloss: 和自ヨ（_L）</li>
+<li><strong><code>Phonetic Gloss</code></strong>: 鉏據反</li>
+<li><strong><code>Japanese Native Reading (*wakun*)</code></strong>: タスク（LL_）　マサル（HH_）　ハサム</li>
+<li><strong><code>Phonetic Gloss</code></strong>: 和自ヨ（_L）</li>
 </ul>
 </li>
-<li>Headword: 𦔳助</li>
-<li>Elements of the glosses:
+<li><strong><code>Headword</code></strong>: 𦔳助</li>
+<li>Elements of the <strong><code>Original Glosses</code></strong>:
 <ul>
-<li>Note on character form: 今正</li>
+<li><strong><code>Note on Character Form</code></strong>: 今正</li>
 </ul>
 </li>
 </ul>
-<p>Explaining the content of the glosses for &ldquo;加復,&rdquo; &ldquo;ー之,&rdquo; and for &ldquo;助&rdquo; and its variant characters would require considerable text, so it is omitted here.</p>
+<p>Explaining the content of the <strong><code>Original Glosses</code></strong> for &ldquo;加復,&rdquo; &ldquo;ー之,&rdquo; and for &ldquo;助&rdquo; and its <strong><code>variant characters (*itaiji*)</code></strong> would require considerable text, so it is omitted here.</p>
 </article>
  
       

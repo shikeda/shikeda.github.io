@@ -1,5 +1,6 @@
 ---
 title: "Examples of Entry Data Files"
+weight: 7
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

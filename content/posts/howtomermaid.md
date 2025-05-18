@@ -1,6 +1,6 @@
 ---
 title: "Hugo BookテーマでのMermaid"
-date: 2025-05-18
+date: 2025-05-18T05:18:44+09:00
 # bookComments: false
 # bookSearchExclude: false
 ---

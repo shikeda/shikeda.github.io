@@ -146,6 +146,18 @@
                 href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-03-concepts-char/"
                 />
   </url><url>
+    <loc>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/"
+                />
+  </url><url>
     <loc>https://shikeda.github.io/en/docs/krm/02-data-overview/02-01-main/</loc>
     <xhtml:link
                 rel="alternate"
@@ -348,18 +360,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://shikeda.github.io/en/docs/"
-                />
-  </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/"
                 />
   </url><url>
     <loc>https://shikeda.github.io/en/</loc>
