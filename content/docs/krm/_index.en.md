@@ -40,7 +40,7 @@ Note that while the explanation provided here overlaps in part with what is stat
     - [Entry Data Structure](./03-entry-data-model/03-01-data-structure/)
     - [Types of Entries](./03-entry-data-model/03-02-types-of-entries/)
     - [Concepts Related to Character Notation](./03-entry-data-model/03-03-concepts-char/)
-    - [Examples of Entry Data Files](./03-entry-data-model/03-04-data-example/)
+    - [Publication and Updates of Entry Data Files](./03-entry-data-model/03-04-data-example/)
 - [Item Data Entry](./entry-input/)
     - [Head Characters, Entry Structure, and ID System](./entry-input/1-id/)
     - [Character Encoding and Representation](./entry-input/2-char/)

@@ -21,7 +21,7 @@ This section explains the criteria used to classify **`Entries`** in the *Ruiju 
 
 **`Headwords`** can be in either a **Single Character Form** or a **Multi-Character Form**.
 
-**Examples:**
+**Examples**
 
   - Example of single character form: 人
   - Examples of multi-character form: 一人, 二人, 五人
@@ -40,7 +40,7 @@ Here, the term *jitaichūki* (字体注記, translated in this document primaril
 
 An **`Entry with Variant Character Information`** refers to **`Entries`** where multiple **`Headwords`** are listed together to indicate **`variant characters (*itaiji*)`**, or where **Form Classification Tags** such as "正" (standard) and "俗" (popular/vulgar) are provided within the **`Original Glosses`**.
 
-**`Variant characters (*itaiji*)`** may be collated in consecutive **`Entries`** in single-character form, with **Form Classification Tags** provided in their **`Original Glosses`**. Alternatively, they may be included as variant forms within a single **`Entry`** in multi-character form, again with **Form Classification Tags** in the **`Original Glosses`**.
+**`Variant characters` (*itaiji*)** may be collated in consecutive **`Entries`** in single-character form, with **Form Classification Tags** provided in their **`Original Glosses`**. Alternatively, they may be included as variant forms within a single **`Entry`** in multi-character form, again with **Form Classification Tags** in the **`Original Glosses`**.
 
 An **`Entry`** can also be identified as an **`Entry with Variant Character Information`** based on its relationship with preceding and succeeding **`Entries`**, even without explicit **Form Classification Tags**.
 
@@ -62,9 +62,9 @@ In Example 1, from the **`Original Glosses`** "上通下正," it is stated that 
 
 Similarly, in Example 2, from the **`Original Glosses`** "今正," it is stated that the **`Headword`** "㔽" is "今" (current/present form) and "卣" is "正" (standard), allowing us to identify this as an **`Entry with Variant Character Information`**.
 
-Examples 3 and 4 are cases where no **Form Classification Tags** are visible in the **`Original Glosses`**. In Example 3, the difference between "若" and "𠰥" is a minimal variation between "艹" (grass radical) and "䒑" (grass head). Similarly, in Example 4, the difference between "政" and "⿰正攴" is a slight variation between "攵" (knock radical) and "攴" (tap/rap radical). In both cases, it is clear that they are in a **`variant character (*itaiji*)`** relationship.
+Examples 3 and 4 are cases where no **Form Classification Tags** are visible in the **`Original Glosses`**. In Example 3, the difference between "若" and "𠰥" is a minimal variation between "艹" (grass radical) and "䒑" (grass head). Similarly, in Example 4, the difference between "政" and "⿰正攴" is a slight variation between "攵" (knock radical) and "攴" (tap/rap radical). In both cases, it is clear that they are in a **`variant character` (*itaiji*)** relationship.
 
-In Example 5, while  has the note "溺字" (indicating, as per the Guangyun, that 㲻 is an ancient form of 溺 'drowning' ["古作㲻"]), the subsequent **`Entry`**  lacks **`Original Glosses`**. This example involves "㲻" and its **`variant character (*itaiji*)`**, so [GlyphWiki](https://glyphwiki.org/) is used to display them to clarify their difference.
+In Example 5, while  has the note "溺字" (indicating, as per the Guangyun, that 㲻 is an ancient form of 溺 'drowning' ["古作㲻"]), the subsequent **`Entry`**  lacks **`Original Glosses`**. This example involves "㲻" and its **`variant character` (*itaiji*)**, so [GlyphWiki](https://glyphwiki.org/) is used to display them to clarify their difference.
 
 ### Idiom Entries
 
@@ -83,19 +83,19 @@ Next, we will provide specific examples.
 3.  齟齬　上慈呂（H）反　嚼　ナヤマシ（LL__）
 4.  菡萏　上胡感反　下徒感反　ーー〔菡萏〕　ハチスノハナ
 
-In Example 1, for the idiom "凡俗," the **`Japanese Native Readings (*wakun*)`** "タヽヒト" (*tatabito*) and "ワロ人" (*warobito*) are listed.
+In Example 1, for the idiom "凡俗," the **`Japanese Native Readings` (*wakun*)** "タヽヒト" (*tatabito*) and "ワロ人" (*warobito*) are listed.
 
-In Example 2, for the idiom "苾蒭," **`Phonetic Glosses`**, **`Semantic Glosses in Chinese`**, and **`Japanese Native Readings (*wakun*)`** are provided for both the first character "苾" and the second character "蒭."
+In Example 2, for the idiom "苾蒭," **`Phonetic Glosses`**, **`Semantic Glosses in Chinese`**, and **`Japanese Native Readings` (*wakun*)** are provided for both the first character "苾" and the second character "蒭."
 
-In Example 3, for the idiom "齟齬," a **`Phonetic Gloss`**, a **`Semantic Gloss in Chinese`**, and a **`Japanese Native Reading (*wakun*)`** are provided for the first character "齟."
+In Example 3, for the idiom "齟齬," a **`Phonetic Gloss`**, a **`Semantic Gloss in Chinese`**, and a **`Japanese Native Reading` (*wakun*)** are provided for the first character "齟."
 
-In Example 4, for the idiom "菡萏," **`Phonetic Glosses`** are provided for both the first character "菡" and the second character "萏," followed by the **`Japanese Native Reading (*wakun*)`** "ハチスノハナ" (*hachisunohana* - lotus flower) for the idiom "菡萏."
+In Example 4, for the idiom "菡萏," **`Phonetic Glosses`** are provided for both the first character "菡" and the second character "萏," followed by the **`Japanese Native Reading` (*wakun*)** "ハチスノハナ" (*hachisunohana* - lotus flower) for the idiom "菡萏."
 
 ### Basic Entries and Extended Entries
 
 Based on the format of the **`Original Glosses`**, **`Headword`** **`Entries`** are divided into **`Basic Entries`**, in which all information regarding the "form" (形), "sound" (音), and "meaning" (義) of the **`Headword`** is recorded, and **`Extended Entries`**, which are all other **`Entries`**.
 
-"Form" is represented by the **`Headword`** itself and **Form Classification Tags**, "sound" by **`Phonetic Glosses`**, and "meaning" by **`Semantic Glosses in Chinese`** and **`Japanese Native Readings (*wakun*)`**.
+"Form" is represented by the **`Headword`** itself and **Form Classification Tags**, "sound" by **`Phonetic Glosses`**, and "meaning" by **`Semantic Glosses in Chinese`** and **`Japanese Native Readings` (*wakun*)**.
 
 **`Basic Entries`** can be either in single-character or multi-character form. **`Extended Entries`** are, in terms of format, considered to follow **`Basic Entries`**.
 
@@ -124,6 +124,6 @@ The number of **`Independent Entries`** and **`Serial Entries`** has not yet bee
   - 仕　音士　ツカフ（HHL）　ツカマツル（HL\_\_\_）　ミヤツカヘ　ツモム
   - 任　音壬（LV）「シム」「ニム」　タヘタリ（LR\_\_、ヘ-フ）　…
 
-Although "仕" (to serve) and "任" (to entrust) have similar graphic forms, they are distinct **Chinese characters**, and each functions as a **`Basic Entry`** with its own **`Phonetic Glosses`** and **`Japanese Native Readings (*wakun*)`**. However, no **`variant characters (*itaiji*)`** of "仕" or compound words containing "仕" are found. Similarly, no related **`variant characters (*itaiji*)`** or compound words are found for "任."
+Although "仕" (to serve) and "任" (to entrust) have similar graphic forms, they are distinct **Chinese characters**, and each functions as a **`Basic Entry`** with its own **`Phonetic Glosses`** and **`Japanese Native Readings` (*wakun*)**. However, no **`variant characters` (*itaiji*)** of "仕" or compound words containing "仕" are found. Similarly, no related **`variant characters` (*itaiji*)** or compound words are found for "任."
 
 **`Serial Entries`** are exemplified by "人" (person) as the **`Basic Entry`** and "一人" (one person), "二人" (two people) as the **`Extended Entries`**, as shown in the examples for **`Basic Entries`** and **`Extended Entries`**. "人" is the **`Chief Entry`**, and "一人" and "二人" are the **`Sub Entries`**.

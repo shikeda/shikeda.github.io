@@ -81,7 +81,7 @@ First, let's consider "功," an **`Entry`** that includes the basic elements.
   - Elements of the **`Original Glosses`**:
       - **`Phonetic Gloss`**: 音工（L-R）「コウ（_N）」「クウ（_N）」
       - **`Semantic Gloss`** (in Chinese): 續也　事也　成也
-      - **`Japanese Native Reading (*wakun*)`**: タシカニ（LHLH）
+      - **`Japanese Native Reading` (*wakun*)**: タシカニ（LHLH）
       - **`Note on Character Form`**: 𭃄歟
 
 This structure should clearly illustrate the relationship between the **`Headword`** and the elements of the **`Original Glosses`**.
@@ -102,14 +102,14 @@ Similar to the example of "功," "加復" and "ー之" can be transcribed as fol
 
   - **`Headword`**: 加復
   - Elements of the **`Original Glosses`**:
-      - **`Japanese Native Reading (*wakun*)`**: シカノミナラス
+      - **`Japanese Native Reading` (*wakun*)**: シカノミナラス
   - **`Headword`**: ー（加）之
   - Elements of the **`Original Glosses`**:
-      - **`Japanese Native Reading (*wakun*)`**: 同 (i.e., same as above: シカノミナラス)
+      - **`Japanese Native Reading` (*wakun*)**: 同 (i.e., same as above: シカノミナラス)
 
 Since the "ー" in "ー之" is a notation substituting for "加," which is used in the preceding **`Headword`**, it is here written as the **`Headword`** "ー（加）之."
 
-Lastly, "助" and its **`variant characters (*itaiji*)`** are shown as follows.
+Lastly, "助" and its **`variant characters` (*itaiji*)** are shown as follows.
 
 **Example**
 
@@ -121,10 +121,10 @@ Lastly, "助" and its **`variant characters (*itaiji*)`** are shown as follows.
   - **`Headword`**: ⿰目力
   - Elements of the **`Original Glosses`**:
       - **`Phonetic Gloss`**: 鉏據反
-      - **`Japanese Native Reading (*wakun*)`**: タスク（LL_）　マサル（HH_）　ハサム
+      - **`Japanese Native Reading` (*wakun*)**: タスク（LL_）　マサル（HH_）　ハサム
       - **`Phonetic Gloss`**: 和自ヨ（_L）
   - **`Headword`**: 𦔳助
   - Elements of the **`Original Glosses`**:
       - **`Note on Character Form`**: 今正
 
-Explaining the content of the **`Original Glosses`** for "加復," "ー之," and for "助" and its **`variant characters (*itaiji*)`** would require considerable text, so it is omitted here.
+Explaining the content of the **`Original Glosses`** for "加復," "ー之," and for "助" and its **`variant characters` (*itaiji*)`** would require considerable text, so it is omitted here.
