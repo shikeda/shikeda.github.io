@@ -29,7 +29,7 @@
   <link rel="alternate" hreflang="en" href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/" title="Examples of Entry Data Files">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/ja.search.min.89baf3d825274db332901e6dbc4ee229027ae2d9ce7f3b9e4c873acaba7b0db7.js" integrity="sha256-ibrz2CUnTbMykB5tvE7iKQJ64tnOfzueTIc6yrp7Dbc=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/ja.search.min.6f32db690352e50dc9a24ed6277930fd9a3b7c83da6ee4f9c3cd7d00be856053.js" integrity="sha256-bzLbaQNS5Q3Jok7WJ3kw/Zo7fIPabuT5w819AL6FYFM=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -909,7 +909,6 @@ https://github.com/alex-shpak/hugo-book
     <li>
       <ul>
         <li><a href="#項目データファイルの例">項目データファイルの例</a></li>
-        <li><a href="#項目データファイルの例-1">項目データファイルの例</a></li>
       </ul>
     </li>
     <li><a href="#項目データファイルのカラムヘッダの記述内容">項目データファイルのカラム（ヘッダ）の記述内容</a></li>
@@ -937,10 +936,6 @@ https://github.com/alex-shpak/hugo-book
 </h3>
 <p>公開のデータファイルのリストは<a href="https://shikeda.github.io/docs/krm/02-data-overview/">公開データの概要</a>に一覧している。
 ここでは項目データファイルの基本データとなる<code>krm_main</code> を例にその内容を解説する。</p>
-<h3 id="項目データファイルの例-1">
-  項目データファイルの例
-  <a class="anchor" href="#%e9%a0%85%e7%9b%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%be%8b-1">#</a>
-</h3>
 <p><a href="./03-01-data-structure/">項目データ構造</a>において
 具体例として示した、「加復」と「ー之」、「助」とその異体字、「功」の三つの 項目を例にしてみよう。</p>
 <p>TSV形式のファイルを次に示す。
@@ -956,7 +951,7 @@ https://github.com/alex-shpak/hugo-book
 声点の圏点と星点の区別、声点と仮名字音の朱墨の別は省略する。
 漢字意味注の「續也」は「績也」の誤写。
 和訓「タシカニ」は「功」字の字義に対応せず不審である。
-この和訓のすぐあとに「切歟」とあり、
+この和訓のすぐあとに「𭃄歟」とあり、
 「切」字に「タシカニ」の和訓がある。
 「功」には異体字「㓛」があり、これは「切」およびその異体字「𭃄」に近似した字形である。
 「切」は掲出字「功」の形近字であり、その混同による和訓と考えられる。
@@ -968,7 +963,9 @@ https://github.com/alex-shpak/hugo-book
 、掲出字の字数を計算できる。</p>
 <p>4の「加／復」は熟語の和訓を示しており、5の「ー（加）／之」は同訓であることを示す。「ー」は
 前項の「加」を簡略に表示する符号である。</p>
-<p>次は同じ内容を JSON 形式で示したものである。</p>
+<p>次は同じ内容を JSON 形式で示したものである。
+見やすくなるがその分のデータ量が増加するので、VS Code のような高機能のエディターを使っても
+読み込みに多少の時間を要する。</p>
 <pre tabindex="0"><code>[
     {
         &#34;entry_id&#34;: &#34;F25133&#34;,
@@ -1036,72 +1033,25 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#%e9%a0%85%e7%9b%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e3%82%ab%e3%83%a9%e3%83%a0%e3%83%98%e3%83%83%e3%83%80%e3%81%ae%e8%a8%98%e8%bf%b0%e5%86%85%e5%ae%b9">#</a>
 </h2>
 <p>名義抄の項目のデータはkrm_main.tsvおよびkrm_main.jsonに格納される。これが基本データとなる。</p>
-<p>カラム名とその内容説明は日本語と英語によって行った。</p>
-<table>
-  <thead>
-      <tr>
-          <th>Column Name</th>
-          <th>English Explanation</th>
-          <th>Japanese Explanation</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>entry_id</td>
-          <td>A heading <strong><code>Entry</code></strong> ID consisting of a 5-digit numeric ID starting with &lsquo;F&rsquo;. For some added entry items, a &lsquo;b&rsquo; suffix is appended.</td>
-          <td>Fで始まる5桁の数値からなる見出し項目ID。一部、追加した掲出項目にはb番号を付す。</td>
-      </tr>
-      <tr>
-          <td>hanzi_id</td>
-          <td>A heading <strong><code>Hanzi (Chinese character)</code></strong> ID consisting of a 5-digit numeric ID starting with &lsquo;S&rsquo;. For some added entry items, a &lsquo;b&rsquo; suffix is appended.</td>
-          <td>Sで始まる5桁の数値からなる見出し漢字ID。一部、追加した掲出字にはb番号を付す。</td>
-      </tr>
-      <tr>
-          <td>kazama_location</td>
-          <td>An ID indicating K + Volume (2 digits) + Kazama Edition Page (3 digits) + Line (1 digit) + Segment (1 digit) + Character order (字順, <em>jijun</em>) (1 digit). Details of the rules for assigning Character order are defined separately.</td>
-          <td>K・巻数（2桁）・風間版頁数（3桁）・行数（1桁）、段数（1桁）、字順（1桁）を示すID。字順付与のルールの詳細は別に定める。</td>
-      </tr>
-      <tr>
-          <td>tenri_location</td>
-          <td>An ID indicating T + Volume (a/b/c) + Tenri Edition Page (3 digits) + Line (1 digit) + Segment (1 digit) + Character order (字順, <em>jijun</em>) (1 digit). Details of the rules for assigning Character order are defined separately.</td>
-          <td>T・巻数（a/b/c）・天理版頁数（3桁）・行数（1桁）・段数（1桁）・字順（1桁）を示す。字順付与のルールの詳細は別に定める。</td>
-      </tr>
-      <tr>
-          <td>volume_name</td>
-          <td>Name of the volume, consisting of 10 volumes: 仏上, 仏中, 仏下本, 仏下末, 法上, 法中, 法下, 僧上, 僧中, and 僧下.</td>
-          <td>巻名。「仏上」「仏中」「仏下本」「仏下末」「法上」「法中」「法下」「僧上」「僧中」「僧下」の10 巻を示す。</td>
-      </tr>
-      <tr>
-          <td>radical_name</td>
-          <td>Name of the radical, consisting of 120 radicals ranging from 人 to 雑, used to classify <strong><code>Hanzi (Chinese characters)</code></strong>.</td>
-          <td>部首名。「人、彳、辵」から「風、酉、雑」までの120部を示す。</td>
-      </tr>
-      <tr>
-          <td>volume_radical_index</td>
-          <td>Volume and radical number, ranging from v1#1 (Volume 1, Radical 1) to v10#120 (Volume 10, Radical 120), indicating the location of the <strong><code>Entry</code></strong> within the text. (Corresponds to 第1帖仏上 to 第10帖僧下).</td>
-          <td>巻。v・巻数（1-10）#・部首番号（1-120）を示す。v1#1(第1帖第1)〜v10#120(第10帖第120)。第1帖(仏上)〜第10帖(僧下)。</td>
-      </tr>
-      <tr>
-          <td>hanzi_entry</td>
-          <td>The collated <strong><code>Headword</code></strong> (校訂漢字) principally uses Kangxi Dictionary form, including Unicode simplified <strong>Chinese characters</strong> (common-use forms, popular variants). For <strong>Chinese characters</strong> not included in Unicode, they are represented by the following methods: If representable by combining <strong>Chinese character</strong> components, input using IDS (Ideographic Description Sequence). For specific <strong>Chinese characters</strong> or their components, if representation by IDS or standard Unicode is difficult, use simplified notations based on the entity reference systems of CHISE and GlyphWiki (e.g., CDP-8C55, koseki-00001). <strong>Chinese characters</strong> not representable by any of the above methods, or characters unreadable in the original text (due to damage such as wormholes, etc.), are input as &lsquo;■&rsquo; (black square). <strong><code>Headwords</code></strong> consisting of multiple <strong>Chinese characters</strong> are separated by &lsquo;／&rsquo; (full-width slash). The abbreviation symbol &lsquo;｜&rsquo; is indicated by &lsquo;ー&rsquo; (long vowel mark), and the corresponding character is appended in full-width parentheses ().</td>
-          <td>校訂漢字は原則、康熙字典体（Unicodeの新字体（通用字体・俗字体）を含む）を用いる。Unicodeに収録されていない漢字については、以下の方法で表現する。漢字の部品の組み合わせで表現可能な場合は、IDS（漢字構成記述文字列）で入力する。特定の漢字やその部品で、IDSまたは標準Unicodeで表現が困難な場合は、CHISEおよびGlyphWikiの実体参照方式に基づいた簡略表記（例：CDP-8C55, koseki-00001）を用いる。上記のいずれの方法でも表現できない文字や、原典で判読不能な文字（虫損等）は、「■」（黒い四角）で入力する。複数漢字の見出しは「／」（全角スラッシュ）で区切る。省略符号「｜」は「ー」（長音符）で示し、全角括弧（）内に該当字を付記する。</td>
-      </tr>
-      <tr>
-          <td>original_entry</td>
-          <td><strong><code>Headword</code></strong> based on the original character form. Typographical errors in the original are preserved. The representation of <strong>Chinese characters</strong> outside Unicode follows the rules for <code>hanzi_entry</code>. If the original-form <strong><code>Headword</code></strong> is not needed, &lsquo;〇&rsquo; is used.</td>
-          <td>原字形に準拠した見出し字。誤字はそのまま。Unicode外の漢字の表現はhanzi_entryに準じる。原字形の掲出字が不要なら「〇」。</td>
-      </tr>
-      <tr>
-          <td>definition</td>
-          <td>The content of this <code>definition</code> column represents the <strong><code>Definition (Original Glosses)</code></strong>. It includes <strong><code>Notes on Character Form</code></strong>, <strong><code>Phonetic Glosses</code></strong>, <strong><code>Semantic Glosses in Chinese</code></strong>, <strong><code>Japanese Native Readings (*wakun*)</code></strong>, and <strong>Other</strong> relevant information, separated by spaces. As a general rule, character forms included in the &ldquo;Kangxi Dictionary style&rdquo; should be used.</td>
-          <td>注文は、字体注、音注、義注、和訓、その他からなる。これらをスペース区切りで入力。原則として「康熙字典体」に含まれる字形を入力。</td>
-      </tr>
-  </tbody>
-</table>
+<p>カラム名とその内容説明の詳細は、<a href="../02-data-overview/">公開データの概要</a>を参照されたい。</p>
 <h2 id="github-を利用した公開更新">
   GitHub を利用した公開・更新
   <a class="anchor" href="#github-%e3%82%92%e5%88%a9%e7%94%a8%e3%81%97%e3%81%9f%e5%85%ac%e9%96%8b%e6%9b%b4%e6%96%b0">#</a>
 </h2>
+<p>平安時代漢字字書総合データベース（Integrated Database of Hanzi Dictionaries in Early Japan、略称HDIC）は、2015年10月以来、現在に至るまでGitHubを通して公開されている。アドレスは
+<a href="https://github.com/shikeda">https://github.com/shikeda</a>である。</p>
+<p>収録する漢字字書の名称とその全文テキストデータベースの初版公開の年月日をまとめれば次のとおり。</p>
+<ul>
+<li>宋本玉篇（<em>Songben Yupian</em>、略称SYP）　初版公開日：2015年10月20日</li>
+<li>篆隷万象名義（Kosan-ji manuscript <em>Tenrei Banshō Meigi</em>、略称KTB）　初版公開日：2016年9月1日</li>
+<li>新撰字鏡（Tenji manuscript <em>Shinsen Jikyō</em>、略称TSJ）　初版公開日：2018年6月28日</li>
+<li>類聚名義抄（Kanchi-in manuscript <em>Ruiju Myōgisho</em>、略称KRM）　初版公開日：2022年3月11日</li>
+</ul>
+<p>GitHub とは何かを説明し、このシステムを通して研究データを公開する意義をまとめれば次のようになる。</p>
+<p>GitHubは、ソフトウェアのソースコードを管理・公開するためのプラットフォームとして広く使われているが、近年では人文系を含むさまざまな研究分野において、研究データの共有や公開にも活用されている。GitHubの基盤には「Git」というバージョン管理システムがあり、過去の編集履歴をすべて記録し、変更の経緯を明確に残すことができる。これにより、誰が、いつ、どのような変更を行ったのかを追跡でき、研究データの透明性や再現性を高めることが可能となる。</p>
+<p>さらに、GitHub上では複数人での共同編集が容易であり、プルリクエストやイシューといった仕組みを用いることで、他の研究者との対話や査読的なやりとりも記録できる。また、Markdown記法による文書作成や、ファイル単位での修正履歴の閲覧機能などにより、プログラムを書かない人文系研究者でも比較的容易に扱える点も魅力の一つである。</p>
+<p>GitHubにデータを置く意義は、単なる保存だけにとどまらない。研究の途中経過を段階的に公開し、外部からのフィードバックを受けながら改善していくという「オープンサイエンス」的な実践も可能となる。特に、資料に基づく漢字音や漢語音のデータ、翻刻文、辞書的情報といった構造化された人文学データとの親和性が高く、実際に多くの事例が存在する。</p>
+<p>また、GitHub上のデータは、Zenodoという研究データリポジトリと連携することで、正式なDOI（Digital Object Identifier）を付与して学術的に安定した形で公開することができる。たとえば「資料横断的な漢字音・漢語音データベース（DHSJR）」では、GitHub上で構築されたデータがZenodoに登録され、DOIを通じて国際的な引用と再利用が可能な形で公開されている。このように、GitHubは人文学におけるデジタル資料の長期的な共有と利活用の基盤として、大きな役割を果たしつつある。</p>
 </article>
  
       
@@ -1141,7 +1091,6 @@ https://github.com/alex-shpak/hugo-book
     <li>
       <ul>
         <li><a href="#項目データファイルの例">項目データファイルの例</a></li>
-        <li><a href="#項目データファイルの例-1">項目データファイルの例</a></li>
       </ul>
     </li>
     <li><a href="#項目データファイルのカラムヘッダの記述内容">項目データファイルのカラム（ヘッダ）の記述内容</a></li>

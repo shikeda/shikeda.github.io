@@ -45,7 +45,7 @@ There are instances of **`Semantic Glosses in Chinese`**, Katakana text, etc., w
 
 ### Examples of Entries (Images)
 
-The following presents facsimile reproductions of **`Entries`** from the *Myōgishō* as specific examples, including those for '功', '加復', 'ー之', and '助' (along with its **`variant characters (*itaiji*)`**).
+The following presents facsimile reproductions of **`Entries`** from the *Myōgishō* as specific examples, including those for '功', '加復', 'ー之', and '助' (along with its **`variant characters` (*itaiji*)**).
 
 {{\< figure src="/images/krm-item-sample1.png" alt="entry structure" width="500px" \>}}
 

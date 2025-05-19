@@ -11,6 +11,7 @@ weight: 13
 
 # krm_headword_chars
 
+## Overview and file formats
 
 **`Headwords`** in the *Myōgishō* can consist of single **Chinese characters** or multiple **Chinese characters** (multi-character compounds). The `krm_headword_chars` data file provides a list of all **constituent characters that form these `Headwords`** from the *Myōgishō*. The characters are ordered according to the sequence of **`Entries`** (items) in the *Myōgishō* and then by the order of appearance of characters within each **`Headword`**.
 
@@ -19,6 +20,8 @@ In the *Myōgishō* database, the primary data file `krm_main`, the `krm_notes` 
 To search for **`Headwords`** from the *Myōgishō* character by character, display their original manuscript images, or perform analyses at the individual **Chinese character** level, a complete list of all constituent characters of the **`Headwords`**, including those from the second character onwards in multi-character compounds, is necessary.
 
 The `krm_headword_chars` data file was created for this purpose. This data is provided in TSV and JSON formats. Each row (or record) corresponds to a single constituent character of a **`Headword`** and includes information such as: the sequential ID of the **`Headword`** (single or multi-character) in the *Myōgishō* to which the constituent character belongs (`hanzi_id`); the ID of the *Myōgishō* **`Entry`** to which this character's **`Headword`** belongs (`entry_id`); the order of the character within its **`Headword`** (`character_order`); the character itself (`constituent_char`); the file name of the individually cropped image for the character (`img_file_name`); and location information for that character in both the Kazama and Tenri editions (`kazama_location_id`, `tenri_location_id`). This enables information access at the individual character level while allowing linkage with **`Entry`**-based data files such as `krm_main`.
+
+## Description of each column
 
 The column names and their descriptions for `krm_headword_chars` are as follows:
 

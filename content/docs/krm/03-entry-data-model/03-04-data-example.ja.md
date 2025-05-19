@@ -18,7 +18,6 @@ weight: 7
 公開のデータファイルのリストは[公開データの概要](/docs/krm/02-data-overview/)に一覧している。
 ここでは項目データファイルの基本データとなる`krm_main` を例にその内容を解説する。
 
-### 項目データファイルの例
 
 [項目データ構造](./03-01-data-structure/)において
 具体例として示した、「加復」と「ー之」、「助」とその異体字、「功」の三つの 項目を例にしてみよう。
@@ -39,7 +38,7 @@ No  entry_id	hanzi_id	kazama_location	tenri_location	volume_name	radical_name	vo
 声点の圏点と星点の区別、声点と仮名字音の朱墨の別は省略する。
 漢字意味注の「續也」は「績也」の誤写。
 和訓「タシカニ」は「功」字の字義に対応せず不審である。
-この和訓のすぐあとに「切歟」とあり、
+この和訓のすぐあとに「𭃄歟」とあり、
 「切」字に「タシカニ」の和訓がある。
 「功」には異体字「㓛」があり、これは「切」およびその異体字「𭃄」に近似した字形である。
 「切」は掲出字「功」の形近字であり、その混同による和訓と考えられる。
@@ -55,6 +54,8 @@ No  entry_id	hanzi_id	kazama_location	tenri_location	volume_name	radical_name	vo
 前項の「加」を簡略に表示する符号である。
 
 次は同じ内容を JSON 形式で示したものである。
+見やすくなるがその分のデータ量が増加するので、VS Code のような高機能のエディターを使っても
+読み込みに多少の時間を要する。
 
 ```
 [
@@ -125,21 +126,28 @@ No  entry_id	hanzi_id	kazama_location	tenri_location	volume_name	radical_name	vo
 
 名義抄の項目のデータはkrm_main.tsvおよびkrm_main.jsonに格納される。これが基本データとなる。
 
-カラム名とその内容説明は日本語と英語によって行った。
-
-| Column Name          | English Explanation       | Japanese Explanation          |
-|----------------------|---------------------------------|--------------|
-| entry_id             | A heading **`Entry`** ID consisting of a 5-digit numeric ID starting with 'F'. For some added entry items, a 'b' suffix is appended.    | Fで始まる5桁の数値からなる見出し項目ID。一部、追加した掲出項目にはb番号を付す。   |
-| hanzi_id             | A heading **`Hanzi (Chinese character)`** ID consisting of a 5-digit numeric ID starting with 'S'. For some added entry items, a 'b' suffix is appended.  | Sで始まる5桁の数値からなる見出し漢字ID。一部、追加した掲出字にはb番号を付す。      |
-| kazama_location      | An ID indicating K + Volume (2 digits) + Kazama Edition Page (3 digits) + Line (1 digit) + Segment (1 digit) + Character order (字順, *jijun*) (1 digit). Details of the rules for assigning Character order are defined separately.       | K・巻数（2桁）・風間版頁数（3桁）・行数（1桁）、段数（1桁）、字順（1桁）を示すID。字順付与のルールの詳細は別に定める。   |
-| tenri_location       | An ID indicating T + Volume (a/b/c) + Tenri Edition Page (3 digits) + Line (1 digit) + Segment (1 digit) + Character order (字順, *jijun*) (1 digit). Details of the rules for assigning Character order are defined separately.    | T・巻数（a/b/c）・天理版頁数（3桁）・行数（1桁）・段数（1桁）・字順（1桁）を示す。字順付与のルールの詳細は別に定める。  |
-| volume_name          | Name of the volume, consisting of 10 volumes: 仏上, 仏中, 仏下本, 仏下末, 法上, 法中, 法下, 僧上, 僧中, and 僧下.    | 巻名。「仏上」「仏中」「仏下本」「仏下末」「法上」「法中」「法下」「僧上」「僧中」「僧下」の10 巻を示す。   |
-| radical_name         | Name of the radical, consisting of 120 radicals ranging from 人 to 雑, used to classify **`Hanzi (Chinese characters)`**.   | 部首名。「人、彳、辵」から「風、酉、雑」までの120部を示す。   |
-| volume_radical_index | Volume and radical number, ranging from v1#1 (Volume 1, Radical 1) to v10#120 (Volume 10, Radical 120), indicating the location of the **`Entry`** within the text. (Corresponds to 第1帖仏上 to 第10帖僧下).     | 巻。v・巻数（1-10）#・部首番号（1-120）を示す。v1#1(第1帖第1)〜v10#120(第10帖第120)。第1帖(仏上)〜第10帖(僧下)。  |
-| hanzi_entry          | The collated **`Headword`** (校訂漢字) principally uses Kangxi Dictionary form, including Unicode simplified **Chinese characters** (common-use forms, popular variants). For **Chinese characters** not included in Unicode, they are represented by the following methods: If representable by combining **Chinese character** components, input using IDS (Ideographic Description Sequence). For specific **Chinese characters** or their components, if representation by IDS or standard Unicode is difficult, use simplified notations based on the entity reference systems of CHISE and GlyphWiki (e.g., CDP-8C55, koseki-00001). **Chinese characters** not representable by any of the above methods, or characters unreadable in the original text (due to damage such as wormholes, etc.), are input as '■' (black square). **`Headwords`** consisting of multiple **Chinese characters** are separated by '／' (full-width slash). The abbreviation symbol '｜' is indicated by 'ー' (long vowel mark), and the corresponding character is appended in full-width parentheses (). | 校訂漢字は原則、康熙字典体（Unicodeの新字体（通用字体・俗字体）を含む）を用いる。Unicodeに収録されていない漢字については、以下の方法で表現する。漢字の部品の組み合わせで表現可能な場合は、IDS（漢字構成記述文字列）で入力する。特定の漢字やその部品で、IDSまたは標準Unicodeで表現が困難な場合は、CHISEおよびGlyphWikiの実体参照方式に基づいた簡略表記（例：CDP-8C55, koseki-00001）を用いる。上記のいずれの方法でも表現できない文字や、原典で判読不能な文字（虫損等）は、「■」（黒い四角）で入力する。複数漢字の見出しは「／」（全角スラッシュ）で区切る。省略符号「｜」は「ー」（長音符）で示し、全角括弧（）内に該当字を付記する。 |
-| original_entry       | **`Headword`** based on the original character form. Typographical errors in the original are preserved. The representation of **Chinese characters** outside Unicode follows the rules for `hanzi_entry`. If the original-form **`Headword`** is not needed, '〇' is used.   | 原字形に準拠した見出し字。誤字はそのまま。Unicode外の漢字の表現はhanzi_entryに準じる。原字形の掲出字が不要なら「〇」。  |
-| definition           | The content of this `definition` column represents the **`Definition (Original Glosses)`**. It includes **`Notes on Character Form`**, **`Phonetic Glosses`**, **`Semantic Glosses in Chinese`**, **`Japanese Native Readings (*wakun*)`**, and **Other** relevant information, separated by spaces. As a general rule, character forms included in the "Kangxi Dictionary style" should be used.   | 注文は、字体注、音注、義注、和訓、その他からなる。これらをスペース区切りで入力。原則として「康熙字典体」に含まれる字形を入力。    |
-
+カラム名とその内容説明の詳細は、[公開データの概要](../02-data-overview/)を参照されたい。
 
 ## GitHub を利用した公開・更新
+
+平安時代漢字字書総合データベース（Integrated Database of Hanzi Dictionaries in Early Japan、略称HDIC）は、2015年10月以来、現在に至るまでGitHubを通して公開されている。アドレスは
+[https://github.com/shikeda](https://github.com/shikeda)である。
+
+収録する漢字字書の名称とその全文テキストデータベースの初版公開の年月日をまとめれば次のとおり。
+
+- 宋本玉篇（*Songben Yupian*、略称SYP）　初版公開日：2015年10月20日
+- 篆隷万象名義（Kosan-ji manuscript *Tenrei Banshō Meigi*、略称KTB）　初版公開日：2016年9月1日
+- 新撰字鏡（Tenji manuscript *Shinsen Jikyō*、略称TSJ）　初版公開日：2018年6月28日
+- 類聚名義抄（Kanchi-in manuscript *Ruiju Myōgisho*、略称KRM）　初版公開日：2022年3月11日
+
+GitHub とは何かを説明し、このシステムを通して研究データを公開する意義をまとめれば次のようになる。
+
+GitHubは、ソフトウェアのソースコードを管理・公開するためのプラットフォームとして広く使われているが、近年では人文系を含むさまざまな研究分野において、研究データの共有や公開にも活用されている。GitHubの基盤には「Git」というバージョン管理システムがあり、過去の編集履歴をすべて記録し、変更の経緯を明確に残すことができる。これにより、誰が、いつ、どのような変更を行ったのかを追跡でき、研究データの透明性や再現性を高めることが可能となる。
+
+さらに、GitHub上では複数人での共同編集が容易であり、プルリクエストやイシューといった仕組みを用いることで、他の研究者との対話や査読的なやりとりも記録できる。また、Markdown記法による文書作成や、ファイル単位での修正履歴の閲覧機能などにより、プログラムを書かない人文系研究者でも比較的容易に扱える点も魅力の一つである。
+
+GitHubにデータを置く意義は、単なる保存だけにとどまらない。研究の途中経過を段階的に公開し、外部からのフィードバックを受けながら改善していくという「オープンサイエンス」的な実践も可能となる。特に、資料に基づく漢字音や漢語音のデータ、翻刻文、辞書的情報といった構造化された人文学データとの親和性が高く、実際に多くの事例が存在する。
+
+また、GitHub上のデータは、Zenodoという研究データリポジトリと連携することで、正式なDOI（Digital Object Identifier）を付与して学術的に安定した形で公開することができる。たとえば「資料横断的な漢字音・漢語音データベース（DHSJR）」では、GitHub上で構築されたデータがZenodoに登録され、DOIを通じて国際的な引用と再利用が可能な形で公開されている。このように、GitHubは人文学におけるデジタル資料の長期的な共有と利活用の基盤として、大きな役割を果たしつつある。
+
 

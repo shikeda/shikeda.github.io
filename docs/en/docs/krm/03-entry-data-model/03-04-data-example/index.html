@@ -4,37 +4,22 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="
+  Publication and Updates of Entry Data Files
+  #
+
+This section covers the content and specific examples of Entry Data Files, as well as methods for their publication and updates using GitHub.
+
   Examples of Entry Data Files
   #
 
-Under preparation.
-
-  項目データファイルの例
-  #
-
-左から順に翻刻を示すと次のようになる。所在情報は簡略化して示す。
-No	KR_ID	KR_vol_radical	KR_vol_name	KR_radical	Entry	Entry_original	KR_def
-1	K08084810	v8#8	僧上	力	功	〇	音工（L-R）「コウ（_N）」「クウ（_N）」　續也　事也　成也　タシカニ（LHLH）　切歟
-2	K08081810	v8#83	僧上	力	助	⿰目力	鉏據反　タスク（LL_）　マサル（HH_）　ハサム　和自ヨ（_L）
-3	K08081821	v8#83	僧上	力	𦔳／助	■／〇	今正
-4	K08084411	v8#83	僧上	力	加／復	〇／〇	シカノミナラス
-5	K08084421	Tc090421	v8#83	僧上	力	ー（加）／之	〇／〇	同
-1の「功」は単字形式の例である。
-この例は、音注に複数の声点、仮名字音、鼻音記号が見えており、複雑な内容を持つ。
-声点の圏点と星点の区別、声点と仮名字音の朱墨の別は省略する。
-漢字意味注の「續也」は「績也」の誤写。
-和訓「タシカニ」は「功」字の字義に対応せず不審。
-この和訓のすぐあとに「切歟」とあり、
-「切」字に「タシカニ」の和訓がある。
-「功」には異体字「㓛」があり、これは「切」およびその異体字「⿰十刀」に近似した字形である。
-「切」は掲出字「功」の形近字であり、その混同による和訓であっても注文内容を改変することなく「切歟」という注記を加えたものである。「切歟」は「案語」として扱う。">
+A list of the publicly available data files is provided in the Overview of Public Data.
+Here, we will explain the content of krm_main, which is the core Entry Data File, using it as an example.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/">
   <meta property="og:site_name" content="HDIC project">
   <meta property="og:title" content="Examples of Entry Data Files">
-  <meta property="og:description" content="Examples of Entry Data Files # Under preparation.
-項目データファイルの例 # 左から順に翻刻を示すと次のようになる。所在情報は簡略化して示す。
-No	KR_ID	KR_vol_radical	KR_vol_name	KR_radical	Entry	Entry_original	KR_def 1	K08084810	v8#8	僧上	力	功	〇	音工（L-R）「コウ（_N）」「クウ（_N）」　續也　事也　成也　タシカニ（LHLH）　切歟 2	K08081810	v8#83	僧上	力	助	⿰目力	鉏據反　タスク（LL_）　マサル（HH_）　ハサム　和自ヨ（_L） 3	K08081821	v8#83	僧上	力	𦔳／助	■／〇	今正 4	K08084411	v8#83	僧上	力	加／復	〇／〇	シカノミナラス 5	K08084421	Tc090421	v8#83	僧上	力	ー（加）／之	〇／〇	同 1の「功」は単字形式の例である。 この例は、音注に複数の声点、仮名字音、鼻音記号が見えており、複雑な内容を持つ。 声点の圏点と星点の区別、声点と仮名字音の朱墨の別は省略する。 漢字意味注の「續也」は「績也」の誤写。 和訓「タシカニ」は「功」字の字義に対応せず不審。 この和訓のすぐあとに「切歟」とあり、 「切」字に「タシカニ」の和訓がある。 「功」には異体字「㓛」があり、これは「切」およびその異体字「⿰十刀」に近似した字形である。 「切」は掲出字「功」の形近字であり、その混同による和訓であっても注文内容を改変することなく「切歟」という注記を加えたものである。「切歟」は「案語」として扱う。">
+  <meta property="og:description" content="Publication and Updates of Entry Data Files # This section covers the content and specific examples of Entry Data Files, as well as methods for their publication and updates using GitHub.
+Examples of Entry Data Files # A list of the publicly available data files is provided in the Overview of Public Data. Here, we will explain the content of krm_main, which is the core Entry Data File, using it as an example.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
@@ -44,7 +29,7 @@ No	KR_ID	KR_vol_radical	KR_vol_name	KR_radical	Entry	Entry_original	KR_def 1	K08
   <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/" title="項目データファイルの公開・更新">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/en.search.min.09e01f11c30d15d12d1a4bdb0e798df6358130c4ad5f4f81a8611a2872a7854d.js" integrity="sha256-CeAfEcMNFdEtGkvbDnmN9jWBMMStX0&#43;BqGEaKHKnhU0=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.026fdeea70d36c891d3512336173f1bedaf6f3b310ff14af2afc70abf1b40654.js" integrity="sha256-Am/e6nDTbIkdNRIzYXPxvtr287MQ/xSvKvxwq/G0BlQ=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -597,14 +582,9 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li>
-      <ul>
-        <li><a href="#項目データファイルの例">項目データファイルの例</a></li>
-      </ul>
-    </li>
-    <li><a href="#項目データファイルのヘッダカラム名の記述内容">項目データファイルのヘッダ（カラム名）の記述内容</a></li>
-    <li><a href="#tsvファイルの例">TSVファイルの例</a></li>
-    <li><a href="#excelファイルの例">Excelファイルの例</a></li>
+    <li><a href="#examples-of-entry-data-files">Examples of Entry Data Files</a></li>
+    <li><a href="#description-of-columns-headers-in-entry-data-files">Description of Columns (Headers) in Entry Data Files</a></li>
+    <li><a href="#publication-and-updates-via-github">Publication and Updates via GitHub</a></li>
   </ul>
 </nav>
 
@@ -617,167 +597,128 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h1 id="examples-of-entry-data-files">
+  <article class="markdown"><h1 id="publication-and-updates-of-entry-data-files">
+  Publication and Updates of Entry Data Files
+  <a class="anchor" href="#publication-and-updates-of-entry-data-files">#</a>
+</h1>
+<p>This section covers the content and specific examples of <strong><code>Entry Data Files</code></strong>, as well as methods for their publication and updates using GitHub.</p>
+<h2 id="examples-of-entry-data-files">
   Examples of Entry Data Files
   <a class="anchor" href="#examples-of-entry-data-files">#</a>
-</h1>
-<p>Under preparation.</p>
-<h3 id="項目データファイルの例">
-  項目データファイルの例
-  <a class="anchor" href="#%e9%a0%85%e7%9b%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%be%8b">#</a>
-</h3>
-<p>左から順に翻刻を示すと次のようになる。所在情報は簡略化して示す。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-txt" data-lang="txt"><span style="display:flex;"><span>No	KR_ID	KR_vol_radical	KR_vol_name	KR_radical	Entry	Entry_original	KR_def
-</span></span><span style="display:flex;"><span>1	K08084810	v8#8	僧上	力	功	〇	音工（L-R）「コウ（_N）」「クウ（_N）」　續也　事也　成也　タシカニ（LHLH）　切歟
-</span></span><span style="display:flex;"><span>2	K08081810	v8#83	僧上	力	助	⿰目力	鉏據反　タスク（LL_）　マサル（HH_）　ハサム　和自ヨ（_L）
-</span></span><span style="display:flex;"><span>3	K08081821	v8#83	僧上	力	𦔳／助	■／〇	今正
-</span></span><span style="display:flex;"><span>4	K08084411	v8#83	僧上	力	加／復	〇／〇	シカノミナラス
-</span></span><span style="display:flex;"><span>5	K08084421	Tc090421	v8#83	僧上	力	ー（加）／之	〇／〇	同
-</span></span></code></pre></div><p>1の「功」は単字形式の例である。
-この例は、音注に複数の声点、仮名字音、鼻音記号が見えており、複雑な内容を持つ。
-声点の圏点と星点の区別、声点と仮名字音の朱墨の別は省略する。
-漢字意味注の「續也」は「績也」の誤写。
-和訓「タシカニ」は「功」字の字義に対応せず不審。
-この和訓のすぐあとに「切歟」とあり、
-「切」字に「タシカニ」の和訓がある。
-「功」には異体字「㓛」があり、これは「切」およびその異体字「⿰十刀」に近似した字形である。
-「切」は掲出字「功」の形近字であり、その混同による和訓であっても注文内容を改変することなく「切歟」という注記を加えたものである。「切歟」は「案語」として扱う。</p>
-<p>2の「助」は単字形式で音注と和訓を示し、
-次の3の「𦔳／助」は複字形式であり、字体注によって異体字を示す。
-「／」は複字形式を示す区切りの符号であり、その「／」の数から
-、掲出字の字数を計算できる。</p>
-<p>4の「加／復」は熟語の和訓を示しており、5の「ー（加）／之」は同訓であることを示す。「ー」は
-前項の「加」を簡略に標示する符号である。</p>
-<h2 id="項目データファイルのヘッダカラム名の記述内容">
-  項目データファイルのヘッダ（カラム名）の記述内容
-  <a class="anchor" href="#%e9%a0%85%e7%9b%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e3%83%98%e3%83%83%e3%83%80%e3%82%ab%e3%83%a9%e3%83%a0%e5%90%8d%e3%81%ae%e8%a8%98%e8%bf%b0%e5%86%85%e5%ae%b9">#</a>
 </h2>
-<p>観智院本類聚名義抄（KRM）の項目は掲出字と注文とからなる。
-KRM項目のデータはKRM.tsvに格納される。
-ヘッダ（カラム名）の記述内容は次のとおりである。
-新旧の名称を対照して示す。</p>
-<table>
-  <thead>
-      <tr>
-          <th>No</th>
-          <th>新名称</th>
-          <th>旧名称</th>
-          <th>内容・書式</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>1</td>
-          <td>entry_id</td>
-          <td>KRID_n</td>
-          <td>掲出項目の通し番号。Fに5桁の数字を付す。一部、追加項目にはb番号を追加する。</td>
-      </tr>
-      <tr>
-          <td>2</td>
-          <td>hanzi_id</td>
-          <td>KRID_sn</td>
-          <td>掲出字の通し番号。Sに5桁の数字を付す。S00227、S09507、S10953は重複2回につきKRID_nにb番号を付す、S28358は重複3回につきKRID_nにbc番号を付す。</td>
-      </tr>
-      <tr>
-          <td>3</td>
-          <td>kazama_entry_location</td>
-          <td>KR2ID</td>
-          <td>風間書房版の項目ID。K・巻数（2桁）・ページ数（3桁）・行数（1桁）・段数（1桁）を示す。一段に複数項目ある場合は字順（1桁）を項目IDとして追加する。</td>
-      </tr>
-      <tr>
-          <td>4</td>
-          <td>kazama_hanzi_location</td>
-          <td>KRID</td>
-          <td>掲出字ID。K・巻数（2桁）・風間書房版ページ数（3桁）・行数（1桁）・段数（1桁）・字順（1桁）を示す。掲出字が単字形式のものは最後の字順を0とする。複字形式のものは1, 2 ,…nとする。一段に複数項目ある場合は単字形式でも1, 2 ,…nとする。</td>
-      </tr>
-      <tr>
-          <td>5</td>
-          <td>tenri_location</td>
-          <td>KR_Tenri_p</td>
-          <td>八木書店版の掲出字ID。T・巻数（a/b/c）・ページ数（3桁数）・行数（1桁）・段数（1桁）・字順（1桁）を示す。最後の字順の示し方は掲出字IDの場合に同じとする。八木書店刊行の天理図書館善本叢書（新・旧）による。</td>
-      </tr>
-      <tr>
-          <td>6</td>
-          <td>volume_name</td>
-          <td>KR_vol_name</td>
-          <td>巻。「仏上」「仏中」「仏下本」「仏下末」「法上」「法中」「法下」「僧上」「僧中」「僧下」の10 巻を示す</td>
-      </tr>
-      <tr>
-          <td>7</td>
-          <td>radical_name</td>
-          <td>KR_radical</td>
-          <td>部首名。「人、彳、辵」から「風、酉、雑」までの120部を示す。</td>
-      </tr>
-      <tr>
-          <td>8</td>
-          <td>volume_radica_index</td>
-          <td>KR_vol_radical</td>
-          <td>巻。v・巻数（1-10）#・部首番号（1-120）を示す。v1#1（第1帖第1）〜v10#120（第10帖第120）。第1帖（仏上）〜第10帖（僧下）。</td>
-      </tr>
-      <tr>
-          <td>9</td>
-          <td>hanzi_entry</td>
-          <td>Entry</td>
-          <td>掲出字。「康煕字典体」（Kangxi Zidian glyph）に包摂（subsumption）するのを原則として入力した掲出字。複字形式の場合は／（全角スラッシュ）で区切り、省略符号「｜」がある場合、ー（長音符）を用いて、その後の（）（全角括弧）内に該当字を入力する。掲出字補注の内容は注文（KR_def）に入力する。</td>
-      </tr>
-      <tr>
-          <td>10</td>
-          <td>original_entry</td>
-          <td>Entry_original</td>
-          <td>原字形に近い掲出字。「原字形に近い掲出字」（original character form, 原本字形相近字頭字形）を示す必要があると池田が判断したものを入力し、必要がない掲出字は「〇」で入力する。</td>
-      </tr>
-      <tr>
-          <td>11</td>
-          <td>definition</td>
-          <td>Def</td>
-          <td>注文。	字体注、音注、義注、和訓など。スペースで区切る。注文の本文を入力する。原則として「康熙字典体」に包摂した字形を入力する。defはdefinitionの意。</td>
-      </tr>
-      <tr>
-          <td>12</td>
-          <td>remarks</td>
-          <td>Remarks</td>
-          <td>備考。注文（Def）に入力できない情報を注記する。</td>
-      </tr>
-  </tbody>
-</table>
-<h2 id="tsvファイルの例">
-  TSVファイルの例
-  <a class="anchor" href="#tsv%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%be%8b">#</a>
+<p>A list of the publicly available data files is provided in the <a href="https://shikeda.github.io/docs/krm/02-data-overview/">Overview of Public Data</a>.
+Here, we will explain the content of <code>krm_main</code>, which is the core <strong><code>Entry Data File</code></strong>, using it as an example.</p>
+<p>Let&rsquo;s consider as examples the three <strong><code>Entries</code></strong> that were presented as specific illustrations in the <a href="./03-01-data-structure/"><strong><code>Entry Data Structure</code></strong></a> section: &lsquo;加復&rsquo;, &lsquo;ー之&rsquo;, &lsquo;助&rsquo; (along with its <strong><code>variant characters</code> (<em>itaiji</em>)</strong>), and &lsquo;功&rsquo;.</p>
+<p>The data in TSV format is shown below. A &ldquo;No.&rdquo; column has been added on the far left for explanatory purposes.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>No  entry_id	hanzi_id	kazama_location	tenri_location	volume_name	radical_name	volume_radical_index	hanzi_entry	original_entry	definition
+</span></span><span style="display:flex;"><span>1	F25133	S31605	K08084810	Tc090810	僧上	力	v8#83	功	〇	音工（L-R）「コウ（_N）」「クウ（_N）」　續也　事也　成也　タシカニ（LHLH）　𭃄歟
+</span></span><span style="display:flex;"><span>2	F25062	S31507	K08081810	Tc087810	僧上	力	v8#83	助	⿰目力	鉏據反　タスク（LL_）　マサル（HH_）　ハサム　和自ヨ（_L）
+</span></span><span style="display:flex;"><span>3	F25063	S31508	K08081821	Tc087821	僧上	力	v8#83	𦔳／助	■／〇	今正
+</span></span><span style="display:flex;"><span>4	F25121	S31590	K08084411	Tc090411	僧上	力	v8#83	加／復	〇／〇	シカノミナラス
+</span></span><span style="display:flex;"><span>5	F25122	S31592	K08084421	Tc090421	僧上	力	v8#83	ー（加）／之	〇／〇	同
+</span></span></code></pre></div><p>The following is an explanation of the sample data shown above:</p>
+<p>Entry 1, &lsquo;<strong><code>Headword</code></strong>&rsquo; &lsquo;功&rsquo;, is an example of the <strong><code>Single Character Form</code></strong>.
+This particular <strong><code>Entry</code></strong> has complex content within its <strong><code>Original Glosses</code></strong>; its <strong><code>Phonetic Gloss</code></strong> includes multiple <strong><code>Tone marks</code> (<em>shōten</em>)</strong>, Sino-Japanese readings in kana (仮名字音, <em>kana jion</em>), and nasal sound symbols.
+<em>(In the provided transcription format, details such as the distinction between circle and star types of <strong><code>Tone marks</code> (<em>shōten</em>)</strong>, or the use of red versus black ink to differentiate <strong><code>Tone marks</code> (<em>shōten</em>)</strong> from Sino-Japanese readings in kana, are not represented.)</em>
+The <strong><code>Semantic Gloss in Chinese</code></strong> &lsquo;續也&rsquo; is a scribal error for &lsquo;績也&rsquo;.
+The <strong><code>Japanese Native Reading</code> (<em>wakun</em>)</strong> &lsquo;タシカニ&rsquo; (<em>tashikani</em>) is questionable as it does not correspond to the semantic meaning of the <strong><code>Headword</code></strong> &lsquo;功&rsquo;.
+Immediately following this <em>wakun</em>, there is a note &lsquo;𭃄歟&rsquo; (<em>setsu ka</em>; &ldquo;perhaps 𭃄?&rdquo;), and indeed, the character &lsquo;切&rsquo; has the <em>wakun</em> &lsquo;タシカニ&rsquo; (<em>tashikani</em>).
+The character &lsquo;功&rsquo; has a <strong><code>variant character</code> (<em>itaiji</em>)</strong> &lsquo;㓛&rsquo;, which is graphically similar to &lsquo;切&rsquo; and its <strong><code>variant character</code> (<em>itaiji</em>)</strong> &lsquo;𭃄&rsquo;.
+&lsquo;切&rsquo; is a <strong><code>graphically similar character</code></strong> to the <strong><code>Headword</code></strong> &lsquo;功&rsquo;, and this particular <em>wakun</em> is thought to have resulted from confusion between these two graphically similar characters.
+However, instead of altering the content of the <strong><code>Original Glosses</code></strong>, the note &lsquo;𭃄歟&rsquo; (&ldquo;perhaps 𭃄?&rdquo;) was added by the compiler or scribe.
+Such notes appended with &lsquo;歟&rsquo; (<em>ka</em>), like &lsquo;𭃄歟&rsquo;, are treated as &rsquo;editorial notes&rsquo; (<em>ango</em>, 案語) by the original compiler or a later scribe of the <em>Myōgishō</em>.</p>
+<p>Entry 2, &lsquo;<strong><code>Headword</code></strong>&rsquo; &lsquo;助&rsquo; (whose original form is ⿰目力 in this <strong><code>Entry</code></strong>), is in <strong><code>Single Character Form</code></strong> and provides a <strong><code>Phonetic Gloss</code></strong> and <strong><code>Japanese Native Readings</code> (<em>wakun</em>)</strong>.
+The subsequent Entry 3, &lsquo;<strong><code>Headword</code></strong>&rsquo; &lsquo;𦔳／助&rsquo;, is in <strong><code>Multi-Character Form</code></strong> and indicates <strong><code>variant characters</code> (<em>itaiji</em>)</strong> through a <strong><code>Note on Character Form</code></strong> (&ldquo;今正&rdquo;).
+The &lsquo;／&rsquo; (full-width slash) is a separator used for <strong><code>Multi-Character Form</code></strong> <strong><code>Headwords</code></strong>. The number of characters in such a <strong><code>Headword</code></strong> can be determined from the number of segments separated by these slashes (e.g., one slash indicates two characters).</p>
+<p>Entry 4, &lsquo;<strong><code>Headword</code></strong>&rsquo; &lsquo;加／復&rsquo;, presents a <strong><code>Japanese Native Reading</code> (<em>wakun</em>)</strong> for a compound term. Entry 5, &lsquo;<strong><code>Headword</code></strong>&rsquo; &lsquo;ー（加）／之&rsquo;, indicates that it shares the same <em>wakun</em> (&lsquo;同&rsquo;).
+The &lsquo;ー&rsquo; in &lsquo;ー（加）／之&rsquo; is a symbol used to concisely represent &lsquo;加&rsquo;, the first character of the <strong><code>Headword</code></strong> in the preceding <strong><code>Entry</code></strong> (Entry 4, &lsquo;加／復&rsquo;).</p>
+<p>The same content is shown below in JSON format.
+While this format enhances readability, it also increases the data volume, so loading the file may take some time even when using a high-performance editor like VS Code.</p>
+<pre tabindex="0"><code>[
+    {
+        &#34;entry_id&#34;: &#34;F25133&#34;,
+        &#34;hanzi_id&#34;: &#34;S31605&#34;,
+        &#34;kazama_location&#34;: &#34;K08084810&#34;,
+        &#34;tenri_location&#34;: &#34;Tc090810&#34;,
+        &#34;volume_name&#34;: &#34;僧上&#34;,
+        &#34;radical_name&#34;: &#34;力&#34;,
+        &#34;volume_radical_index&#34;: &#34;v8#83&#34;,
+        &#34;hanzi_entry&#34;: &#34;功&#34;,
+        &#34;original_entry&#34;: &#34;〇&#34;,
+        &#34;definition&#34;: &#34;音工（L-R）「コウ（_N）」「クウ（_N）」　續也　事也　成也　タシカニ（LHLH）　𭃄歟&#34;
+    },
+    {
+        &#34;entry_id&#34;: &#34;F25062&#34;,
+        &#34;hanzi_id&#34;: &#34;S31507&#34;,
+        &#34;kazama_location&#34;: &#34;K08081810&#34;,
+        &#34;tenri_location&#34;: &#34;Tc087810&#34;,
+        &#34;volume_name&#34;: &#34;僧上&#34;,
+        &#34;radical_name&#34;: &#34;力&#34;,
+        &#34;volume_radical_index&#34;: &#34;v8#83&#34;,
+        &#34;hanzi_entry&#34;: &#34;助&#34;,
+        &#34;original_entry&#34;: &#34;⿰目力&#34;,
+        &#34;definition&#34;: &#34;鉏據反　タスク（LL_）　マサル（HH_）　ハサム　和自ヨ（_L）&#34;
+    },
+    {
+        &#34;entry_id&#34;: &#34;F25063&#34;,
+        &#34;hanzi_id&#34;: &#34;S31508&#34;,
+        &#34;kazama_location&#34;: &#34;K08081821&#34;,
+        &#34;tenri_location&#34;: &#34;Tc087821&#34;,
+        &#34;volume_name&#34;: &#34;僧上&#34;,
+        &#34;radical_name&#34;: &#34;力&#34;,
+        &#34;volume_radical_index&#34;: &#34;v8#83&#34;,
+        &#34;hanzi_entry&#34;: &#34;𦔳／助&#34;,
+        &#34;original_entry&#34;: &#34;■／〇&#34;,
+        &#34;definition&#34;: &#34;今正&#34;
+    },
+    {
+        &#34;entry_id&#34;: &#34;F25121&#34;,
+        &#34;hanzi_id&#34;: &#34;S31590&#34;,
+        &#34;kazama_location&#34;: &#34;K08084411&#34;,
+        &#34;tenri_location&#34;: &#34;Tc090411&#34;,
+        &#34;volume_name&#34;: &#34;僧上&#34;,
+        &#34;radical_name&#34;: &#34;力&#34;,
+        &#34;volume_radical_index&#34;: &#34;v8#83&#34;,
+        &#34;hanzi_entry&#34;: &#34;加／復&#34;,
+        &#34;original_entry&#34;: &#34;〇／〇&#34;,
+        &#34;definition&#34;: &#34;シカノミナラス&#34;
+    },
+    {
+        &#34;entry_id&#34;: &#34;F25122&#34;,
+        &#34;hanzi_id&#34;: &#34;S31592&#34;,
+        &#34;kazama_location&#34;: &#34;K08084421&#34;,
+        &#34;tenri_location&#34;: &#34;Tc090421&#34;,
+        &#34;volume_name&#34;: &#34;僧上&#34;,
+        &#34;radical_name&#34;: &#34;力&#34;,
+        &#34;volume_radical_index&#34;: &#34;v8#83&#34;,
+        &#34;hanzi_entry&#34;: &#34;ー（加）／之&#34;,
+        &#34;original_entry&#34;: &#34;〇／〇&#34;,
+        &#34;definition&#34;: &#34;同&#34;
+    },
+]
+</code></pre><h2 id="description-of-columns-headers-in-entry-data-files">
+  Description of Columns (Headers) in Entry Data Files
+  <a class="anchor" href="#description-of-columns-headers-in-entry-data-files">#</a>
 </h2>
-<p>次はTSVファイルの例である。新旧のヘッダ（カラム名）をあわせて示す。</p>
-<pre><code>（新）entry_id	hanzi_id	kazama_entry_location	kazama_hanzi_location	tenri_location	volume_name	radical_name	volume_radical_index	hanzi_entry	original_entry	definition	remarks
-（旧）KRID_n	KRID_sn	KR2ID	KRID	KR_Tenri_p	KR_vol_name	KR_radical	KR_vol_radical	Entry	Entry_original	Def	Remarks
-F00001	S00001	K0100131	K01001310	Ta023310	仏上	人	v1#1	人	〇	音仁（LV）「ニン」　ヒト（HL）　ワレ（LL）　サネ　マホル　ユク    	
-F00002	S00002	K0100133	K01001331	Ta023331	仏上	人	v1#1	一／人	〇／〇	ヒトリ（LH_）	
-F00003	S00004	K0100134	K01001341	Ta023341	仏上	人	v1#1	二／人	〇／〇	フタリ（HHL）	高山寺本になし。岡田研究183頁。
-F00004	S00006	K0100141	K01001411	Ta023411	仏上	人	v1#1	五／ー（人）	〇／〇	イトリ（LHL）	
-F00005	S00008	K0100142	K01001421	Ta023421	仏上	人	v1#1	ー（人）／等	〇／〇	ヒトヽモ（HHHVH）	
-F00006	S00010	K0100143	K01001431	Ta023431	仏上	人	v1#1	湯／ー（人）	〇／〇	ユヱ（L_）	
-F00007	S00012	K0100144	K01001441	Ta023441	仏上	人	v1#1	真／人	〇／〇	マフト（HHL）	
-F00008	S00014	K0100151	K01001511	Ta023511	仏上	人	v1#1	漁／ー（人）	〇／〇	アマ（LL）	
-F00009	S00016	K0100152	K01001521	Ta023521	仏上	人	v1#1	海／ー（人）	〇／〇	同上	高山寺本は次項に「人魚　イヲノナ」あり。高山寺本が観智院本より以前である説の反例（岡田研究182頁）。池田按：蓮成院本は「分註式」で「人魚」あり。
-F00010	S00018	K0100153	K01001531	Ta023531	仏上	人	v1#1	盗／ー（人）	〇／〇	ヌスヒト	
-F00011	S00020	K0100154	K01001541	Ta023541	仏上	人	v1#1	不／良／人	〇／〇／〇	同上	
-F00012	S00023	K0100161	K01001611	Ta023611	仏上	人	v1#1	毛／ー（人）	〇／〇	ヱヒス	
-F00013	S00025	K0100162	K01001621	Ta023621	仏上	人	v1#1	白／ー（人）	〇／〇	シレモノ	
-F00014	S00027	K0100163	K01001631	Ta023631	仏上	人	v1#1	桃／ー（人）	〇／〇	モヽノサニ（___LL）	
-F00015	S00029	K0100164	K01001641	Ta023641	仏上	人	v1#1	ー（人）／參	〇／参	カノニケクサ（LLLLVHVL）	
-F00016	S00031	K0100171	K01001710	Ta023710	仏上	人	v1#1	佛	〇	音費（R）「ヒ」　ホノカナリ　又符「フ」弗（S）「フツ」反　ホトケ　ヲホキニス-ナリ（LLHLH-__）　タチマチ　又音弼（S）「ヒチ」　タスク（LLH）　和音部ツ	高山寺本「佛」が本文冒頭にり、これを穏当で自然な順序としたのが観智院本と解釈。岡田研究187頁。
-F00017	S00032	K0100174	K01001740	Ta023740	仏上	人	v1#1	仏	〇	俗佛字　又見別字	
-F00018	S00033	K0100181	K01001811	Ta023811	仏上	人	v1#1	仿／佛	〇／〇	ホノカナリ　上芳往反　*ホノカナリ　ヲホツカナシ　ナラフ　カタヒク　イカル　下音費	高山寺本の記載法、「佛」の熟字訓の後に「仿ー」とあり「乱暴な遣り方」。岡田研究186頁。
-F00019	S00035	K0100184	K01001840	Ta023840	仏上	人	v1#1	㑂	〇	或作髣正	
-F00020	S00036	K0100211	K01002111	Ta024111	仏上	人	v1#1	仿／像	〇／〇	ホノカナリ　下在下	
-F00021	S00038	K0100212	K01002120	Ta024120	仏上	人	v1#1	㐻	〇	内（R）「タイ」納二音	
-F00022	S00039	K0100213	K01002130	Ta024130	仏上	人	v1#1	僧	〇	蘇曽（F）反　カハラク（HHHLV）　ネムコロ　サトル　和音ソウ（LL-N）	
-F00023	S00040	K0100221	K01002210	Ta024210	仏上	人	v1#1	傮	〇	遭（L）「サウ」曹（L）「サウ」二音　終也	
-F00024	S00041	K0100222	K01002220	Ta024220	仏上	人	v1#1	⿰亻胃	〇	音謂（R）「ヰ」　胃也　サソフ	
-</code></pre>
-<h2 id="excelファイルの例">
-  Excelファイルの例
-  <a class="anchor" href="#excel%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%be%8b">#</a>
+<p>Data for the <code>Entries</code> of the Myōgishō is stored in <code>krm_main.tsv</code> and <code>krm_main.json</code>. These files constitute the primary data.</p>
+<p>For details on column names and their descriptions, please refer to the <a href="../02-data-overview/">Overview of Public Data</a>.</p>
+<h2 id="publication-and-updates-via-github">
+  Publication and Updates via GitHub
+  <a class="anchor" href="#publication-and-updates-via-github">#</a>
 </h2>
-<p>次は上記のTSVファイルをExcelに読み込んだものである。（旧版の画像）</p>
-<p><img src="https://shikeda.github.io/images/item-excel-sample.png" alt="item structure" /></p>
+<p>The Integrated Database of Hanzi Dictionaries in Early Japan (HDIC) has been publicly available via GitHub since October 2015. The repository can be accessed at <a href="https://github.com/shikeda">https://github.com/shikeda</a>.</p>
+<p>A summary of the Chinese character dictionaries included in the HDIC and the initial publication dates of their full-text databases is as follows:</p>
+<ul>
+<li><em>Sōhon Gyokuhen</em> (宋本玉篇, <em>Songben Yupian</em>; abbr. SYP) – First published: October 20, 2015</li>
+<li>Kōsan-ji manuscript <em>Tenrei Banshō Meigi</em> (篆隷万象名義; abbr. KTB) – First published: September 1, 2016</li>
+<li>Tenji manuscript <em>Shinsen Jikyō</em> (新撰字鏡; abbr. TSJ) – First published: June 28, 2018</li>
+<li>Kanchi-in manuscript <em>Ruiju Myōgisho</em> (類聚名義抄; abbr. KRM) – First published: March 11, 2022</li>
+</ul>
+<p>An explanation of what GitHub is and the significance of publishing research data through this system can be summarized as follows:</p>
+<p>GitHub is widely used as a platform for managing and publishing software source code. In recent years, however, it has also been utilized in various research fields, including the humanities, for sharing and publishing research data. GitHub is built upon a version control system called &ldquo;Git,&rdquo; which records the entire editing history and clearly preserves the an audit trail of changes. This makes it possible to track who made what changes and when, thereby enhancing the transparency and reproducibility of research data.</p>
+<p>Furthermore, GitHub facilitates collaborative editing among multiple individuals. Features such as pull requests and issues allow for dialogue and peer-review-like interactions with other researchers to be recorded. Its appeal also lies in features like document creation using Markdown notation and the ability to view file-specific revision histories, making it relatively easy to use even for humanities researchers who do not write programs.</p>
+<p>The significance of placing data on GitHub extends beyond mere storage. It enables &ldquo;open science&rdquo; practices, where research progress is incrementally published, and improvements are made based on external feedback. It is particularly well-suited for structured humanities data, such as data on Sino-Japanese character readings (like <em>Kan-on</em> and <em>Go-on</em> based on historical sources), transcribed texts, and lexicographical information, with many existing examples of its use.</p>
+<p>Moreover, data on GitHub can be linked with Zenodo, a research data repository, to assign a formal DOI (Digital Object Identifier) and publish it in an academically stable manner. For instance, the &ldquo;Database of Historical Sino-Japanese Readings&rdquo; (DHSJR) utilizes GitHub for data construction, and this data is then registered with Zenodo and published with a DOI, making it internationally citable and reusable. In this way, GitHub is playing a significant role as a foundation for the long-term sharing and utilization of digital resources in the humanities.</p>
 </article>
  
       
@@ -814,14 +755,9 @@ F00024	S00041	K0100222	K01002220	Ta024220	仏上	人	v1#1	⿰亻胃	〇	音謂�
   
 <nav id="TableOfContents">
   <ul>
-    <li>
-      <ul>
-        <li><a href="#項目データファイルの例">項目データファイルの例</a></li>
-      </ul>
-    </li>
-    <li><a href="#項目データファイルのヘッダカラム名の記述内容">項目データファイルのヘッダ（カラム名）の記述内容</a></li>
-    <li><a href="#tsvファイルの例">TSVファイルの例</a></li>
-    <li><a href="#excelファイルの例">Excelファイルの例</a></li>
+    <li><a href="#examples-of-entry-data-files">Examples of Entry Data Files</a></li>
+    <li><a href="#description-of-columns-headers-in-entry-data-files">Description of Columns (Headers) in Entry Data Files</a></li>
+    <li><a href="#publication-and-updates-via-github">Publication and Updates via GitHub</a></li>
   </ul>
 </nav>
 

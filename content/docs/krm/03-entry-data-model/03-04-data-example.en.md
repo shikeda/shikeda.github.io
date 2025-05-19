@@ -9,101 +9,146 @@ weight: 7
 # bookSearchExclude: false
 ---
 
-# Examples of Entry Data Files
+# Publication and Updates of Entry Data Files
 
-Under preparation.
+This section covers the content and specific examples of **`Entry Data Files`**, as well as methods for their publication and updates using GitHub.
 
-### 項目データファイルの例
+## Examples of Entry Data Files
+
+A list of the publicly available data files is provided in the [Overview of Public Data](/docs/krm/02-data-overview/).
+Here, we will explain the content of `krm_main`, which is the core **`Entry Data File`**, using it as an example.
 
 
-左から順に翻刻を示すと次のようになる。所在情報は簡略化して示す。
+Let's consider as examples the three **`Entries`** that were presented as specific illustrations in the [**`Entry Data Structure`**](./03-01-data-structure/) section: '加復', 'ー之', '助' (along with its **`variant characters` (*itaiji*)**), and '功'.
 
-```txt
-No	KR_ID	KR_vol_radical	KR_vol_name	KR_radical	Entry	Entry_original	KR_def
-1	K08084810	v8#8	僧上	力	功	〇	音工（L-R）「コウ（_N）」「クウ（_N）」　續也　事也　成也　タシカニ（LHLH）　切歟
-2	K08081810	v8#83	僧上	力	助	⿰目力	鉏據反　タスク（LL_）　マサル（HH_）　ハサム　和自ヨ（_L）
-3	K08081821	v8#83	僧上	力	𦔳／助	■／〇	今正
-4	K08084411	v8#83	僧上	力	加／復	〇／〇	シカノミナラス
-5	K08084421	Tc090421	v8#83	僧上	力	ー（加）／之	〇／〇	同
+The data in TSV format is shown below. A "No." column has been added on the far left for explanatory purposes.
+
+
+```text
+No  entry_id	hanzi_id	kazama_location	tenri_location	volume_name	radical_name	volume_radical_index	hanzi_entry	original_entry	definition
+1	F25133	S31605	K08084810	Tc090810	僧上	力	v8#83	功	〇	音工（L-R）「コウ（_N）」「クウ（_N）」　續也　事也　成也　タシカニ（LHLH）　𭃄歟
+2	F25062	S31507	K08081810	Tc087810	僧上	力	v8#83	助	⿰目力	鉏據反　タスク（LL_）　マサル（HH_）　ハサム　和自ヨ（_L）
+3	F25063	S31508	K08081821	Tc087821	僧上	力	v8#83	𦔳／助	■／〇	今正
+4	F25121	S31590	K08084411	Tc090411	僧上	力	v8#83	加／復	〇／〇	シカノミナラス
+5	F25122	S31592	K08084421	Tc090421	僧上	力	v8#83	ー（加）／之	〇／〇	同
 ```
 
-1の「功」は単字形式の例である。
-この例は、音注に複数の声点、仮名字音、鼻音記号が見えており、複雑な内容を持つ。
-声点の圏点と星点の区別、声点と仮名字音の朱墨の別は省略する。
-漢字意味注の「續也」は「績也」の誤写。
-和訓「タシカニ」は「功」字の字義に対応せず不審。
-この和訓のすぐあとに「切歟」とあり、
-「切」字に「タシカニ」の和訓がある。
-「功」には異体字「㓛」があり、これは「切」およびその異体字「⿰十刀」に近似した字形である。
-「切」は掲出字「功」の形近字であり、その混同による和訓であっても注文内容を改変することなく「切歟」という注記を加えたものである。「切歟」は「案語」として扱う。
 
-2の「助」は単字形式で音注と和訓を示し、
-次の3の「𦔳／助」は複字形式であり、字体注によって異体字を示す。
-「／」は複字形式を示す区切りの符号であり、その「／」の数から
-、掲出字の字数を計算できる。
+The following is an explanation of the sample data shown above:
 
-4の「加／復」は熟語の和訓を示しており、5の「ー（加）／之」は同訓であることを示す。「ー」は
-前項の「加」を簡略に標示する符号である。
+Entry 1, '**`Headword`**' '功', is an example of the **`Single Character Form`**.
+This particular **`Entry`** has complex content within its **`Original Glosses`**; its **`Phonetic Gloss`** includes multiple **`Tone marks` (*shōten*)**, Sino-Japanese readings in kana (仮名字音, *kana jion*), and nasal sound symbols.
+*(In the provided transcription format, details such as the distinction between circle and star types of **`Tone marks` (*shōten*)**, or the use of red versus black ink to differentiate **`Tone marks` (*shōten*)** from Sino-Japanese readings in kana, are not represented.)*
+The **`Semantic Gloss in Chinese`** '續也' is a scribal error for '績也'.
+The **`Japanese Native Reading` (*wakun*)** 'タシカニ' (*tashikani*) is questionable as it does not correspond to the semantic meaning of the **`Headword`** '功'.
+Immediately following this *wakun*, there is a note '𭃄歟' (*setsu ka*; "perhaps 𭃄?"), and indeed, the character '切' has the *wakun* 'タシカニ' (*tashikani*).
+The character '功' has a **`variant character` (*itaiji*)** '㓛', which is graphically similar to '切' and its **`variant character` (*itaiji*)** '𭃄'.
+'切' is a **`graphically similar character`** to the **`Headword`** '功', and this particular *wakun* is thought to have resulted from confusion between these two graphically similar characters.
+However, instead of altering the content of the **`Original Glosses`**, the note '𭃄歟' ("perhaps 𭃄?") was added by the compiler or scribe.
+Such notes appended with '歟' (*ka*), like '𭃄歟', are treated as 'editorial notes' (*ango*, 案語) by the original compiler or a later scribe of the *Myōgishō*.
 
-## 項目データファイルのヘッダ（カラム名）の記述内容
+Entry 2, '**`Headword`**' '助' (whose original form is ⿰目力 in this **`Entry`**), is in **`Single Character Form`** and provides a **`Phonetic Gloss`** and **`Japanese Native Readings` (*wakun*)**.
+The subsequent Entry 3, '**`Headword`**' '𦔳／助', is in **`Multi-Character Form`** and indicates **`variant characters` (*itaiji*)** through a **`Note on Character Form`** ("今正").
+The '／' (full-width slash) is a separator used for **`Multi-Character Form`** **`Headwords`**. The number of characters in such a **`Headword`** can be determined from the number of segments separated by these slashes (e.g., one slash indicates two characters).
 
-観智院本類聚名義抄（KRM）の項目は掲出字と注文とからなる。
-KRM項目のデータはKRM.tsvに格納される。
-ヘッダ（カラム名）の記述内容は次のとおりである。
-新旧の名称を対照して示す。
-
-|No| 新名称 |旧名称| 内容・書式 |
-| ---- |--| ------- | ------- |
-|	1	|entry_id|	KRID_n	|掲出項目の通し番号。Fに5桁の数字を付す。一部、追加項目にはb番号を追加する。
-|	2	|hanzi_id|	KRID_sn	|掲出字の通し番号。Sに5桁の数字を付す。S00227、S09507、S10953は重複2回につきKRID_nにb番号を付す、S28358は重複3回につきKRID_nにbc番号を付す。|
-|	3	|kazama_entry_location|	KR2ID	|	風間書房版の項目ID。K・巻数（2桁）・ページ数（3桁）・行数（1桁）・段数（1桁）を示す。一段に複数項目ある場合は字順（1桁）を項目IDとして追加する。	|
-|	4	|kazama_hanzi_location|	KRID	|	掲出字ID。K・巻数（2桁）・風間書房版ページ数（3桁）・行数（1桁）・段数（1桁）・字順（1桁）を示す。掲出字が単字形式のものは最後の字順を0とする。複字形式のものは1, 2 ,…nとする。一段に複数項目ある場合は単字形式でも1, 2 ,…nとする。	|
-|	5	|tenri_location|	KR_Tenri_p	|	八木書店版の掲出字ID。T・巻数（a/b/c）・ページ数（3桁数）・行数（1桁）・段数（1桁）・字順（1桁）を示す。最後の字順の示し方は掲出字IDの場合に同じとする。八木書店刊行の天理図書館善本叢書（新・旧）による。	|
-|	6	|volume_name|	KR_vol_name	|	巻。「仏上」「仏中」「仏下本」「仏下末」「法上」「法中」「法下」「僧上」「僧中」「僧下」の10 巻を示す	|
-|	7	|radical_name|	KR_radical	|	部首名。「人、彳、辵」から「風、酉、雑」までの120部を示す。	|
-|	8	|volume_radica_index|	KR_vol_radical	|	巻。v・巻数（1-10）#・部首番号（1-120）を示す。v1#1（第1帖第1）〜v10#120（第10帖第120）。第1帖（仏上）〜第10帖（僧下）。	|
-|	9	|hanzi_entry|	Entry	|	掲出字。「康煕字典体」（Kangxi Zidian glyph）に包摂（subsumption）するのを原則として入力した掲出字。複字形式の場合は／（全角スラッシュ）で区切り、省略符号「｜」がある場合、ー（長音符）を用いて、その後の（）（全角括弧）内に該当字を入力する。掲出字補注の内容は注文（KR_def）に入力する。	|
-|	10	|original_entry|	Entry_original	|	原字形に近い掲出字。「原字形に近い掲出字」（original character form, 原本字形相近字頭字形）を示す必要があると池田が判断したものを入力し、必要がない掲出字は「〇」で入力する。	|
-|	11	|definition|	Def	|	注文。	字体注、音注、義注、和訓など。スペースで区切る。注文の本文を入力する。原則として「康熙字典体」に包摂した字形を入力する。defはdefinitionの意。	|
-|	12	|remarks|	Remarks	|	備考。注文（Def）に入力できない情報を注記する。	|
+Entry 4, '**`Headword`**' '加／復', presents a **`Japanese Native Reading` (*wakun*)** for a compound term. Entry 5, '**`Headword`**' 'ー（加）／之', indicates that it shares the same *wakun* ('同').
+The 'ー' in 'ー（加）／之' is a symbol used to concisely represent '加', the first character of the **`Headword`** in the preceding **`Entry`** (Entry 4, '加／復').
 
 
-## TSVファイルの例
-
-次はTSVファイルの例である。新旧のヘッダ（カラム名）をあわせて示す。
-
-
-    （新）entry_id	hanzi_id	kazama_entry_location	kazama_hanzi_location	tenri_location	volume_name	radical_name	volume_radical_index	hanzi_entry	original_entry	definition	remarks
-    （旧）KRID_n	KRID_sn	KR2ID	KRID	KR_Tenri_p	KR_vol_name	KR_radical	KR_vol_radical	Entry	Entry_original	Def	Remarks
-    F00001	S00001	K0100131	K01001310	Ta023310	仏上	人	v1#1	人	〇	音仁（LV）「ニン」　ヒト（HL）　ワレ（LL）　サネ　マホル　ユク    	
-    F00002	S00002	K0100133	K01001331	Ta023331	仏上	人	v1#1	一／人	〇／〇	ヒトリ（LH_）	
-    F00003	S00004	K0100134	K01001341	Ta023341	仏上	人	v1#1	二／人	〇／〇	フタリ（HHL）	高山寺本になし。岡田研究183頁。
-    F00004	S00006	K0100141	K01001411	Ta023411	仏上	人	v1#1	五／ー（人）	〇／〇	イトリ（LHL）	
-    F00005	S00008	K0100142	K01001421	Ta023421	仏上	人	v1#1	ー（人）／等	〇／〇	ヒトヽモ（HHHVH）	
-    F00006	S00010	K0100143	K01001431	Ta023431	仏上	人	v1#1	湯／ー（人）	〇／〇	ユヱ（L_）	
-    F00007	S00012	K0100144	K01001441	Ta023441	仏上	人	v1#1	真／人	〇／〇	マフト（HHL）	
-    F00008	S00014	K0100151	K01001511	Ta023511	仏上	人	v1#1	漁／ー（人）	〇／〇	アマ（LL）	
-    F00009	S00016	K0100152	K01001521	Ta023521	仏上	人	v1#1	海／ー（人）	〇／〇	同上	高山寺本は次項に「人魚　イヲノナ」あり。高山寺本が観智院本より以前である説の反例（岡田研究182頁）。池田按：蓮成院本は「分註式」で「人魚」あり。
-    F00010	S00018	K0100153	K01001531	Ta023531	仏上	人	v1#1	盗／ー（人）	〇／〇	ヌスヒト	
-    F00011	S00020	K0100154	K01001541	Ta023541	仏上	人	v1#1	不／良／人	〇／〇／〇	同上	
-    F00012	S00023	K0100161	K01001611	Ta023611	仏上	人	v1#1	毛／ー（人）	〇／〇	ヱヒス	
-    F00013	S00025	K0100162	K01001621	Ta023621	仏上	人	v1#1	白／ー（人）	〇／〇	シレモノ	
-    F00014	S00027	K0100163	K01001631	Ta023631	仏上	人	v1#1	桃／ー（人）	〇／〇	モヽノサニ（___LL）	
-    F00015	S00029	K0100164	K01001641	Ta023641	仏上	人	v1#1	ー（人）／參	〇／参	カノニケクサ（LLLLVHVL）	
-    F00016	S00031	K0100171	K01001710	Ta023710	仏上	人	v1#1	佛	〇	音費（R）「ヒ」　ホノカナリ　又符「フ」弗（S）「フツ」反　ホトケ　ヲホキニス-ナリ（LLHLH-__）　タチマチ　又音弼（S）「ヒチ」　タスク（LLH）　和音部ツ	高山寺本「佛」が本文冒頭にり、これを穏当で自然な順序としたのが観智院本と解釈。岡田研究187頁。
-    F00017	S00032	K0100174	K01001740	Ta023740	仏上	人	v1#1	仏	〇	俗佛字　又見別字	
-    F00018	S00033	K0100181	K01001811	Ta023811	仏上	人	v1#1	仿／佛	〇／〇	ホノカナリ　上芳往反　*ホノカナリ　ヲホツカナシ　ナラフ　カタヒク　イカル　下音費	高山寺本の記載法、「佛」の熟字訓の後に「仿ー」とあり「乱暴な遣り方」。岡田研究186頁。
-    F00019	S00035	K0100184	K01001840	Ta023840	仏上	人	v1#1	㑂	〇	或作髣正	
-    F00020	S00036	K0100211	K01002111	Ta024111	仏上	人	v1#1	仿／像	〇／〇	ホノカナリ　下在下	
-    F00021	S00038	K0100212	K01002120	Ta024120	仏上	人	v1#1	㐻	〇	内（R）「タイ」納二音	
-    F00022	S00039	K0100213	K01002130	Ta024130	仏上	人	v1#1	僧	〇	蘇曽（F）反　カハラク（HHHLV）　ネムコロ　サトル　和音ソウ（LL-N）	
-    F00023	S00040	K0100221	K01002210	Ta024210	仏上	人	v1#1	傮	〇	遭（L）「サウ」曹（L）「サウ」二音　終也	
-    F00024	S00041	K0100222	K01002220	Ta024220	仏上	人	v1#1	⿰亻胃	〇	音謂（R）「ヰ」　胃也　サソフ	
+The same content is shown below in JSON format.
+While this format enhances readability, it also increases the data volume, so loading the file may take some time even when using a high-performance editor like VS Code.
 
 
-## Excelファイルの例
+```
+[
+    {
+        "entry_id": "F25133",
+        "hanzi_id": "S31605",
+        "kazama_location": "K08084810",
+        "tenri_location": "Tc090810",
+        "volume_name": "僧上",
+        "radical_name": "力",
+        "volume_radical_index": "v8#83",
+        "hanzi_entry": "功",
+        "original_entry": "〇",
+        "definition": "音工（L-R）「コウ（_N）」「クウ（_N）」　續也　事也　成也　タシカニ（LHLH）　𭃄歟"
+    },
+    {
+        "entry_id": "F25062",
+        "hanzi_id": "S31507",
+        "kazama_location": "K08081810",
+        "tenri_location": "Tc087810",
+        "volume_name": "僧上",
+        "radical_name": "力",
+        "volume_radical_index": "v8#83",
+        "hanzi_entry": "助",
+        "original_entry": "⿰目力",
+        "definition": "鉏據反　タスク（LL_）　マサル（HH_）　ハサム　和自ヨ（_L）"
+    },
+    {
+        "entry_id": "F25063",
+        "hanzi_id": "S31508",
+        "kazama_location": "K08081821",
+        "tenri_location": "Tc087821",
+        "volume_name": "僧上",
+        "radical_name": "力",
+        "volume_radical_index": "v8#83",
+        "hanzi_entry": "𦔳／助",
+        "original_entry": "■／〇",
+        "definition": "今正"
+    },
+    {
+        "entry_id": "F25121",
+        "hanzi_id": "S31590",
+        "kazama_location": "K08084411",
+        "tenri_location": "Tc090411",
+        "volume_name": "僧上",
+        "radical_name": "力",
+        "volume_radical_index": "v8#83",
+        "hanzi_entry": "加／復",
+        "original_entry": "〇／〇",
+        "definition": "シカノミナラス"
+    },
+    {
+        "entry_id": "F25122",
+        "hanzi_id": "S31592",
+        "kazama_location": "K08084421",
+        "tenri_location": "Tc090421",
+        "volume_name": "僧上",
+        "radical_name": "力",
+        "volume_radical_index": "v8#83",
+        "hanzi_entry": "ー（加）／之",
+        "original_entry": "〇／〇",
+        "definition": "同"
+    },
+]
+```
 
-次は上記のTSVファイルをExcelに読み込んだものである。（旧版の画像）
+## Description of Columns (Headers) in Entry Data Files
 
-![item structure](/images/item-excel-sample.png)
+Data for the `Entries` of the Myōgishō is stored in `krm_main.tsv` and `krm_main.json`. These files constitute the primary data.
+
+For details on column names and their descriptions, please refer to the [Overview of Public Data](../02-data-overview/).
+
+
+## Publication and Updates via GitHub
+
+The Integrated Database of Hanzi Dictionaries in Early Japan (HDIC) has been publicly available via GitHub since October 2015. The repository can be accessed at [https://github.com/shikeda](https://github.com/shikeda).
+
+A summary of the Chinese character dictionaries included in the HDIC and the initial publication dates of their full-text databases is as follows:
+
+-   *Sōhon Gyokuhen* (宋本玉篇, *Songben Yupian*; abbr. SYP) – First published: October 20, 2015
+-   Kōsan-ji manuscript *Tenrei Banshō Meigi* (篆隷万象名義; abbr. KTB) – First published: September 1, 2016
+-   Tenji manuscript *Shinsen Jikyō* (新撰字鏡; abbr. TSJ) – First published: June 28, 2018
+-   Kanchi-in manuscript *Ruiju Myōgisho* (類聚名義抄; abbr. KRM) – First published: March 11, 2022
+
+An explanation of what GitHub is and the significance of publishing research data through this system can be summarized as follows:
+
+GitHub is widely used as a platform for managing and publishing software source code. In recent years, however, it has also been utilized in various research fields, including the humanities, for sharing and publishing research data. GitHub is built upon a version control system called "Git," which records the entire editing history and clearly preserves the an audit trail of changes. This makes it possible to track who made what changes and when, thereby enhancing the transparency and reproducibility of research data.
+
+Furthermore, GitHub facilitates collaborative editing among multiple individuals. Features such as pull requests and issues allow for dialogue and peer-review-like interactions with other researchers to be recorded. Its appeal also lies in features like document creation using Markdown notation and the ability to view file-specific revision histories, making it relatively easy to use even for humanities researchers who do not write programs.
+
+The significance of placing data on GitHub extends beyond mere storage. It enables "open science" practices, where research progress is incrementally published, and improvements are made based on external feedback. It is particularly well-suited for structured humanities data, such as data on Sino-Japanese character readings (like *Kan-on* and *Go-on* based on historical sources), transcribed texts, and lexicographical information, with many existing examples of its use.
+
+Moreover, data on GitHub can be linked with Zenodo, a research data repository, to assign a formal DOI (Digital Object Identifier) and publish it in an academically stable manner. For instance, the "Database of Historical Sino-Japanese Readings" (DHSJR) utilizes GitHub for data construction, and this data is then registered with Zenodo and published with a DOI, making it internationally citable and reusable. In this way, GitHub is playing a significant role as a foundation for the long-term sharing and utilization of digital resources in the humanities.
 

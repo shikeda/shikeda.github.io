@@ -69,9 +69,9 @@ The *Ruiju Myōgishō* of the Kanchi-in manuscript is an old handwritten manuscr
 **Step 1:** Scan the facsimile edition and cut out each listed character to create an image database of the *Ruiju Myōgishō* of the Kanchi-in manuscript. The image files of the listed characters are named according to the location of the listed character. This image file name will later be used as the listed character ID.
 
 
-**Step 2:** Add the location information to the existing *Tenrei Banshō Myōgi* database by referring to the "Kanji Index" included in Atsuo Masamune's *Ruiju Myōgishō Volume 2* (Kazama Shobō, 1955). Input the location information from the "Kanji Index" into the *Tenrei Banshō Myōgishō* data rearranged in the order of the *Dai Kanwa Jiten* index numbers compiled by Tetsuji Morohashi. Then, rearrange it according to the order of locations in the Kanchi-in manuscript, collate it with the text of the Kanchi-in manuscript, and add the page numbers and character order of the Kanchi-in manuscript that are not found in the "Kanji Index."
+**Step 2:** Add the location information to the existing *Tenrei Banshō Meigi* database by referring to the "Kanji Index" included in Atsuo Masamune's *Ruiju Myōgishō Volume 2* (Kazama Shobō, 1955). Input the location information from the "Kanji Index" into the *Tenrei Banshō Meigi* data rearranged in the order of the *Dai Kanwa Jiten* index numbers compiled by Tetsuji Morohashi. Then, rearrange it according to the order of locations in the Kanchi-in manuscript, collate it with the text of the Kanchi-in manuscript, and add the page numbers and character order of the Kanchi-in manuscript that are not found in the "Kanji Index."
 
-**Step 3:** Take in various information included in the *Tenrei Banshō Myōgishō* database (*Dai Kanwa Jiten* index numbers, Unicode numbers, kanji characters, location information in the *Tenrei Banshō Myōgishō*) and the corresponding location information of the *Ruiju Myōgishō* Kanchi-in manuscript created in Step 2, into the *Ruiju Myōgishō* Kanchi-in manuscript image database (created in Step 1) to create an input database for the *Ruiju Myōgishō* Kanchi-in manuscript text.
+**Step 3:** Take in various information included in the *Tenrei Banshō Meigi* database (*Dai Kanwa Jiten* index numbers, Unicode numbers, kanji characters, location information in the *Tenrei Banshō Meigi*) and the corresponding location information of the *Ruiju Myōgishō* Kanchi-in manuscript created in Step 2, into the *Ruiju Myōgishō* Kanchi-in manuscript image database (created in Step 1) to create an input database for the *Ruiju Myōgishō* Kanchi-in manuscript text.
 
 **Step 4:** While referring to the facsimile edition of the *Ruiju Myōgishō* Kanchi-in manuscript (Tenri Library Rare Books Series, Japanese Books Section, Volumes 32-34) and the *Ruiju Myōgishō* Kanchi-in manuscript image database, add the text information for the listed characters and their explanations ("chūmon/chūbun") to the input database for the *Ruiju Myōgishō* Kanchi-in manuscript text created in Step 3.
 
@@ -92,7 +92,7 @@ We would like to express our gratitude to [Tomohiko Morioka](https://researchmap
 
 The text data is available at the following URL, where we publish the text files created by the Integrated Database of Hanzi Dictionaries in Early Japan (HDIC). 
 
-We preserve records of data revisions and provide the latest versions of the full-text databases for the Song Dynasty edition of the *Yupian*, the Kozanji manuscript of the *Tenrei Banshō Myōgi*, and the Tenji manuscript of the *Shinsen Jikyō*.
+We preserve records of data revisions and provide the latest versions of the full-text databases for the Song Dynasty edition of the *Yupian*, the Kosanji manuscript of the *Tenrei Banshō Meigi*, and the Tenji manuscript of the *Shinsen Jikyō*.
 
 [https://github.com/shikeda/HDIC](https://github.com/shikeda/HDIC)
 

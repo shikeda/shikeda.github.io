@@ -7,13 +7,17 @@
   krm_pronunciations
   #
 
+
+  Overview and file formats
+  #
+
 The Phonetic Glosses in the Kanchi-in manuscript of the Ruiju Myōgishō (hereafter Myōgishō) include Fanqie spellings (反切), Similar sound notes (類音注, ruion-chū), and Kana glosses (仮名注, kana-chū). These are often accompanied by Tone marks (*shōten*).
 As a database for Sino-Japanese character pronunciations, the &ldquo;Database of Historical Sino-Japanese Readings&rdquo; (abbreviated as DHSJR), developed by Professor Katō Taitsuru and others, offers exceptionally rich content. Its specifications are also publicly available in detail. We are currently considering releasing data aligned with the DHSJR specifications.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://shikeda.github.io/en/docs/krm/02-data-overview/02-06-pronunciations/">
   <meta property="og:site_name" content="HDIC project">
   <meta property="og:title" content="krm_pronunciations">
-  <meta property="og:description" content="krm_pronunciations # The Phonetic Glosses in the Kanchi-in manuscript of the Ruiju Myōgishō (hereafter Myōgishō) include Fanqie spellings (反切), Similar sound notes (類音注, ruion-chū), and Kana glosses (仮名注, kana-chū). These are often accompanied by Tone marks (*shōten*). As a database for Sino-Japanese character pronunciations, the “Database of Historical Sino-Japanese Readings” (abbreviated as DHSJR), developed by Professor Katō Taitsuru and others, offers exceptionally rich content. Its specifications are also publicly available in detail. We are currently considering releasing data aligned with the DHSJR specifications.">
+  <meta property="og:description" content="krm_pronunciations # Overview and file formats # The Phonetic Glosses in the Kanchi-in manuscript of the Ruiju Myōgishō (hereafter Myōgishō) include Fanqie spellings (反切), Similar sound notes (類音注, ruion-chū), and Kana glosses (仮名注, kana-chū). These are often accompanied by Tone marks (*shōten*). As a database for Sino-Japanese character pronunciations, the “Database of Historical Sino-Japanese Readings” (abbreviated as DHSJR), developed by Professor Katō Taitsuru and others, offers exceptionally rich content. Its specifications are also publicly available in detail. We are currently considering releasing data aligned with the DHSJR specifications.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
@@ -23,7 +27,7 @@ As a database for Sino-Japanese character pronunciations, the &ldquo;Database of
   <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/02-data-overview/02-06-pronunciations/" title="krm_pronunciations">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/en.search.min.09e01f11c30d15d12d1a4bdb0e798df6358130c4ad5f4f81a8611a2872a7854d.js" integrity="sha256-CeAfEcMNFdEtGkvbDnmN9jWBMMStX0&#43;BqGEaKHKnhU0=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.026fdeea70d36c891d3512336173f1bedaf6f3b310ff14af2afc70abf1b40654.js" integrity="sha256-Am/e6nDTbIkdNRIzYXPxvtr287MQ/xSvKvxwq/G0BlQ=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -574,7 +578,12 @@ https://github.com/alex-shpak/hugo-book
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview-and-file-formats">Overview and file formats</a></li>
+    <li><a href="#column-name-comparison">Column name comparison</a></li>
+  </ul>
+</nav>
 
 
 
@@ -589,6 +598,10 @@ https://github.com/alex-shpak/hugo-book
   krm_pronunciations
   <a class="anchor" href="#krm_pronunciations">#</a>
 </h1>
+<h2 id="overview-and-file-formats">
+  Overview and file formats
+  <a class="anchor" href="#overview-and-file-formats">#</a>
+</h2>
 <p>The <strong><code>Phonetic Glosses</code></strong> in the Kanchi-in manuscript of the <em>Ruiju Myōgishō</em> (hereafter <em>Myōgishō</em>) include <strong><code>Fanqie spellings</code></strong> (反切), <strong><code>Similar sound notes</code></strong> (類音注, <em>ruion-chū</em>), and <strong><code>Kana glosses</code></strong> (仮名注, <em>kana-chū</em>). These are often accompanied by <strong><code>Tone marks (*shōten*)</code></strong>.
 As a database for Sino-Japanese character pronunciations, the <strong>&ldquo;Database of Historical Sino-Japanese Readings&rdquo;</strong> (abbreviated as DHSJR), developed by Professor Katō Taitsuru and others, offers exceptionally rich content. Its specifications are also publicly available in detail. We are currently considering releasing data aligned with the DHSJR specifications.</p>
 <p>The DHSJR defines a data structure with 23 column names.</p>
@@ -596,6 +609,10 @@ As a database for Sino-Japanese character pronunciations, the <strong>&ldquo;Dat
 <p>For this purpose, <code>pronunciation_id</code> (音注ID) has been set as the Primary Key, and <code>definition_seq_id</code> (注文ID) as the Foreign Key.</p>
 <p>Since the <em>Myōgishō</em> features diverse formats for its <strong><code>Phonetic Glosses</code></strong>, a classification field named <code>annotation_format</code> (音注型) has been established to categorize them.</p>
 <p>While DHSJR uses Japanese column names, HDIC employs English ones. Therefore, for data processing convenience within HDIC, English column names have been adopted.</p>
+<h2 id="column-name-comparison">
+  Column name comparison
+  <a class="anchor" href="#column-name-comparison">#</a>
+</h2>
 <p>The current draft, with English and Japanese explanations side-by-side, is as follows. The Japanese explanations are those stipulated by DHSJR. The English explanations are formulated to facilitate correspondence with HDIC. This is a provisional measure until official English explanations are released by DHSJR.</p>
 <p>HDIC&rsquo;s original column names are indicated in <strong>bold</strong>.</p>
 <table>
@@ -829,7 +846,12 @@ As a database for Sino-Japanese character pronunciations, the <strong>&ldquo;Dat
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview-and-file-formats">Overview and file formats</a></li>
+    <li><a href="#column-name-comparison">Column name comparison</a></li>
+  </ul>
+</nav>
 
 
  

@@ -11,6 +11,8 @@ weight: 16
 
 # krm_pronunciations
 
+## Overview and file formats
+
 The **`Phonetic Glosses`** in the Kanchi-in manuscript of the *Ruiju Myōgishō* (hereafter *Myōgishō*) include **`Fanqie spellings`** (反切), **`Similar sound notes`** (類音注, *ruion-chū*), and **`Kana glosses`** (仮名注, *kana-chū*). These are often accompanied by **`Tone marks (*shōten*)`**.
 As a database for Sino-Japanese character pronunciations, the **"Database of Historical Sino-Japanese Readings"** (abbreviated as DHSJR), developed by Professor Katō Taitsuru and others, offers exceptionally rich content. Its specifications are also publicly available in detail. We are currently considering releasing data aligned with the DHSJR specifications.
 
@@ -23,6 +25,8 @@ For this purpose, `pronunciation_id` (音注ID) has been set as the Primary Key,
 Since the *Myōgishō* features diverse formats for its **`Phonetic Glosses`**, a classification field named `annotation_format` (音注型) has been established to categorize them.
 
 While DHSJR uses Japanese column names, HDIC employs English ones. Therefore, for data processing convenience within HDIC, English column names have been adopted.
+
+## Column name comparison
 
 The current draft, with English and Japanese explanations side-by-side, is as follows. The Japanese explanations are those stipulated by DHSJR. The English explanations are formulated to facilitate correspondence with HDIC. This is a provisional measure until official English explanations are released by DHSJR.
 

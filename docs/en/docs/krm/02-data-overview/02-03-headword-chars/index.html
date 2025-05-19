@@ -7,12 +7,16 @@
   krm_headword_chars
   #
 
+
+  Overview and file formats
+  #
+
 Headwords in the Myōgishō can consist of single Chinese characters or multiple Chinese characters (multi-character compounds). The krm_headword_chars data file provides a list of all constituent characters that form these Headwords from the Myōgishō. The characters are ordered according to the sequence of Entries (items) in the Myōgishō and then by the order of appearance of characters within each Headword.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://shikeda.github.io/en/docs/krm/02-data-overview/02-03-headword-chars/">
   <meta property="og:site_name" content="HDIC project">
   <meta property="og:title" content="krm_headword_chars">
-  <meta property="og:description" content="krm_headword_chars # Headwords in the Myōgishō can consist of single Chinese characters or multiple Chinese characters (multi-character compounds). The krm_headword_chars data file provides a list of all constituent characters that form these Headwords from the Myōgishō. The characters are ordered according to the sequence of Entries (items) in the Myōgishō and then by the order of appearance of characters within each Headword.">
+  <meta property="og:description" content="krm_headword_chars # Overview and file formats # Headwords in the Myōgishō can consist of single Chinese characters or multiple Chinese characters (multi-character compounds). The krm_headword_chars data file provides a list of all constituent characters that form these Headwords from the Myōgishō. The characters are ordered according to the sequence of Entries (items) in the Myōgishō and then by the order of appearance of characters within each Headword.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
@@ -22,7 +26,7 @@ Headwords in the Myōgishō can consist of single Chinese characters or multiple
   <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/02-data-overview/02-03-headword-chars/" title="krm_headword_chars">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/en.search.min.09e01f11c30d15d12d1a4bdb0e798df6358130c4ad5f4f81a8611a2872a7854d.js" integrity="sha256-CeAfEcMNFdEtGkvbDnmN9jWBMMStX0&#43;BqGEaKHKnhU0=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.026fdeea70d36c891d3512336173f1bedaf6f3b310ff14af2afc70abf1b40654.js" integrity="sha256-Am/e6nDTbIkdNRIzYXPxvtr287MQ/xSvKvxwq/G0BlQ=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -573,7 +577,12 @@ https://github.com/alex-shpak/hugo-book
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview-and-file-formats">Overview and file formats</a></li>
+    <li><a href="#description-of-each-column">Description of each column</a></li>
+  </ul>
+</nav>
 
 
 
@@ -588,10 +597,18 @@ https://github.com/alex-shpak/hugo-book
   krm_headword_chars
   <a class="anchor" href="#krm_headword_chars">#</a>
 </h1>
+<h2 id="overview-and-file-formats">
+  Overview and file formats
+  <a class="anchor" href="#overview-and-file-formats">#</a>
+</h2>
 <p><strong><code>Headwords</code></strong> in the <em>Myōgishō</em> can consist of single <strong>Chinese characters</strong> or multiple <strong>Chinese characters</strong> (multi-character compounds). The <code>krm_headword_chars</code> data file provides a list of all <strong>constituent characters that form these <code>Headwords</code></strong> from the <em>Myōgishō</em>. The characters are ordered according to the sequence of <strong><code>Entries</code></strong> (items) in the <em>Myōgishō</em> and then by the order of appearance of characters within each <strong><code>Headword</code></strong>.</p>
 <p>In the <em>Myōgishō</em> database, the primary data file <code>krm_main</code>, the <code>krm_notes</code> file (containing data for <strong><code>Compiler's Remarks</code></strong>), and the <code>krm_wakun</code> file (<strong><code>Japanese Native Reading (*wakun*)</code></strong> data) are all structured on an <strong><code>Entry</code></strong>-by-<strong><code>Entry</code></strong> basis. Consequently, for <strong><code>Headwords</code></strong> composed of multiple <strong>Chinese characters</strong>, any character subsequent to the first cannot be directly referenced from these particular data files.</p>
 <p>To search for <strong><code>Headwords</code></strong> from the <em>Myōgishō</em> character by character, display their original manuscript images, or perform analyses at the individual <strong>Chinese character</strong> level, a complete list of all constituent characters of the <strong><code>Headwords</code></strong>, including those from the second character onwards in multi-character compounds, is necessary.</p>
 <p>The <code>krm_headword_chars</code> data file was created for this purpose. This data is provided in TSV and JSON formats. Each row (or record) corresponds to a single constituent character of a <strong><code>Headword</code></strong> and includes information such as: the sequential ID of the <strong><code>Headword</code></strong> (single or multi-character) in the <em>Myōgishō</em> to which the constituent character belongs (<code>hanzi_id</code>); the ID of the <em>Myōgishō</em> <strong><code>Entry</code></strong> to which this character&rsquo;s <strong><code>Headword</code></strong> belongs (<code>entry_id</code>); the order of the character within its <strong><code>Headword</code></strong> (<code>character_order</code>); the character itself (<code>constituent_char</code>); the file name of the individually cropped image for the character (<code>img_file_name</code>); and location information for that character in both the Kazama and Tenri editions (<code>kazama_location_id</code>, <code>tenri_location_id</code>). This enables information access at the individual character level while allowing linkage with <strong><code>Entry</code></strong>-based data files such as <code>krm_main</code>.</p>
+<h2 id="description-of-each-column">
+  Description of each column
+  <a class="anchor" href="#description-of-each-column">#</a>
+</h2>
 <p>The column names and their descriptions for <code>krm_headword_chars</code> are as follows:</p>
 <table>
   <thead>
@@ -665,7 +682,12 @@ https://github.com/alex-shpak/hugo-book
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview-and-file-formats">Overview and file formats</a></li>
+    <li><a href="#description-of-each-column">Description of each column</a></li>
+  </ul>
+</nav>
 
 
  

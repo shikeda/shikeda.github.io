@@ -13,7 +13,7 @@ weight: 3
 
 **Ikeda Shōju**
 
-Date published: 20 April 2025
+Date published: April 20, 2025
 
 This section provides an overview of the *Ruiju Myōgishō*, detailing its extant manuscripts, presumed compiler and provenance, scholarly significance, structural organization, textual sources, available facsimiles and indices, as well as pertinent secondary literature.
 

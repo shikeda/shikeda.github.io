@@ -26,14 +26,14 @@
       <link>https://shikeda.github.io/docs/krm/02-data-overview/02-03-headword-chars/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://shikeda.github.io/docs/krm/02-data-overview/02-03-headword-chars/</guid>
-      <description>&lt;h1 id=&#34;krm_headword_chars&#34;&gt;&#xA;  krm_headword_chars&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_headword_chars&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;名義抄の掲出字は、単字からなるものと、複字（多字）からなるものがある。&#xA;&lt;code&gt;krm_headword_chars&lt;/code&gt; は、名義抄のすべての掲出字を、名義抄の項目順および各項目内の文字の出現順に一覧したデータである。&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;krm_headword_chars&#34;&gt;&#xA;  krm_headword_chars&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_headword_chars&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;概要とファイル形式&#34;&gt;&#xA;  概要とファイル形式&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%a6%82%e8%a6%81%e3%81%a8%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e5%bd%a2%e5%bc%8f&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;名義抄の掲出字は、単字からなるものと、複字（多字）からなるものがある。&#xA;&lt;code&gt;krm_headword_chars&lt;/code&gt; は、名義抄のすべての掲出字を、名義抄の項目順および各項目内の文字の出現順に一覧したデータである。&lt;/p&gt;</description>
     </item>
     <item>
       <title>krm_wakun</title>
       <link>https://shikeda.github.io/docs/krm/02-data-overview/02-04-wakun/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://shikeda.github.io/docs/krm/02-data-overview/02-04-wakun/</guid>
-      <description>&lt;h1 id=&#34;krm_wakun&#34;&gt;&#xA;  krm_wakun&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_wakun&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;これは、名義抄デーベースの &lt;code&gt;KRM.tsv&lt;/code&gt; から和訓を抜き出して、&#xA;和訓の異形を整理し、異体字との対応を調整したデータである。&lt;/p&gt;&#xA;&lt;p&gt;和訓に関する校勘と出典考証は &lt;code&gt;krm_notes&lt;/code&gt; に記載したので省略している。&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;krm_wakun&#34;&gt;&#xA;  krm_wakun&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_wakun&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;概要とファイル形式&#34;&gt;&#xA;  概要とファイル形式&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%a6%82%e8%a6%81%e3%81%a8%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e5%bd%a2%e5%bc%8f&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;これは、名義抄デーベースの &lt;code&gt;KRM.tsv&lt;/code&gt; から和訓を抜き出して、&#xA;和訓の異形を整理し、異体字との対応を調整したデータである。&lt;/p&gt;&#xA;&lt;p&gt;和訓に関する校勘と出典考証は &lt;code&gt;krm_notes&lt;/code&gt; に記載したので省略している。&lt;/p&gt;</description>
     </item>
     <item>
       <title>krm_definitions</title>
@@ -47,7 +47,7 @@
       <link>https://shikeda.github.io/docs/krm/02-data-overview/02-06-pronunciations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://shikeda.github.io/docs/krm/02-data-overview/02-06-pronunciations/</guid>
-      <description>&lt;h1 id=&#34;krm_pronunciations&#34;&gt;&#xA;  krm_pronunciations&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_pronunciations&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;観智院本類聚名義抄（以下、名義抄）の音注は、&#xA;反切、類音注、仮名注があり、それらに声点が施されることも多い。&#xA;日本漢字音のデータベースとしては、加藤大鶴氏らによる&#xA;「資料横断的な漢字音・漢語音データベース」（略称 DHSJR）が非常に充実した&#xA;内容を持っている。またその仕様も詳細に公開されている。&#xA;DHSJR の仕様に合わせたデータ公開を検討中である。&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;krm_pronunciations&#34;&gt;&#xA;  krm_pronunciations&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_pronunciations&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;概要とファイル形式&#34;&gt;&#xA;  概要とファイル形式&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%a6%82%e8%a6%81%e3%81%a8%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e5%bd%a2%e5%bc%8f&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;観智院本類聚名義抄（以下、名義抄）の音注は、&#xA;反切、類音注、仮名注があり、それらに声点が施されることも多い。&#xA;日本漢字音のデータベースとしては、加藤大鶴氏らによる&#xA;「資料横断的な漢字音・漢語音データベース」（略称 DHSJR）が非常に充実した&#xA;内容を持っている。またその仕様も詳細に公開されている。&#xA;DHSJR の仕様に合わせたデータ公開を検討中である。&lt;/p&gt;</description>
     </item>
     <item>
       <title>krm_ndl</title>

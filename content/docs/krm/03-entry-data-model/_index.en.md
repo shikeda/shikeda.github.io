@@ -21,5 +21,5 @@ Finally, we cover the **`Entry Data Files`**, including their content, specific 
 - [Entry Data Structure](./03-01-data-structure/)
 - [Types of Entries](./03-02-types-of-entries/)
 - [Concepts Related to Character Notation](./03-03-concepts-char/)
-- [Examples of Entry Data Files](./03-04-data-example/)
+- [Publication and Updates of Entry Data Files](./03-04-data-example/)
 

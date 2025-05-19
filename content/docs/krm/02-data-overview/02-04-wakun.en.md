@@ -10,6 +10,7 @@ weight: 14
 ---
 # krm_wakun
 
+## Overview and file formats
 
 This data file is derived by extracting **`Japanese Native Readings (*wakun*)`** from the `KRM.tsv` file (an older version of `krm_main`) of the *Myōgishō* database, organizing variant forms of these **`wakun`**, and adjusting their correspondence with **`variant characters (*itaiji*)`**.
 
@@ -26,6 +27,9 @@ For example, the **`wakun`** "ヤツカレ" (yatsukare) appears in the **`Defini
 The JapanKnowledge version of the *Nihon Kokugo Daijiten* (Second Edition) has a "Notation" (表記) field that includes **`Hanzi (Chinese character)`** notations from the *Myōgishō*; this adjustment is a measure to ensure correspondence with that resource.
 
 To explicitly indicate that these are the filenames after the specification change in March 2025, lowercase "krm" was used instead of uppercase "KRM," resulting in the names `krm_wakun.tsv` and `krm_wakun.json`.
+
+
+## Column name comparison
 
 The comparison of the new and old column names is as follows:
 
@@ -44,6 +48,10 @@ The comparison of the new and old column names is as follows:
 | -                       | Remarks       |
 
 `Remarks` have been omitted as this type of information is now consolidated in the `krm_notes` file (data for **`Compiler's Remarks`**).
+
+
+## Description of each column
+
 
 Next, the content of the column names will be explained.
 

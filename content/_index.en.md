@@ -40,7 +40,7 @@ The HDIC database consists of full-text data and image data.
 
 The progress status of public release as of January 2022 is as follows:
 
-1.  Kōsan-ji manuscript ***Tenrei Banshō Myōgi*** (owned by Kōsan-ji Temple, abbreviation KTB, already released)
+1.  Kōsan-ji manuscript ***Tenrei Banshō Meigi*** (owned by Kōsan-ji Temple, abbreviation KTB, already released)
 2.  Tenji manuscript ***Shinsen Jikyō*** (Imperial Household Agency Archives and Mausolea Department, TSJ, already released)
 3.  Song edition ***Yupian*** (***Daguang Yihui Yupian***) (Imperial Household Agency Archives and Mausolea Department, SYP, already released)
 4.  Zushoryō manuscript ***Ruiju Myōgishō*** (Imperial Household Agency Archives and Mausolea Department, ZRM, currently being prepared for release)
@@ -50,7 +50,7 @@ The progress status of public release as of January 2022 is as follows:
 
 The construction and public release of the HDIC database are being carried out with permission from the respective owners (temples, research institutions, libraries) and from the editors and publishers of the facsimile editions. The facsimile editions used are as follows:
 
-1.  ***Tenrei Banshō Myōgi*** (photographic print owned by Harumichi Ishizuka)
+1.  ***Tenrei Banshō Meigi*** (photographic print owned by Harumichi Ishizuka)
 2.  Facsimile of the Tenji manuscript ***Shinsen Jikyō***, including the Kyōwa and Gunsho Ruiju editions (edited by the Department of Japanese Language and Literature, Faculty of Letters, Kyoto University, Rinshō Shoten, 1967)
 3.  Song edition ***Yupian*** (***Daguang Yihui Yupian***) (photographic print of the Imperial Household Agency Archives and Mausolea Department manuscript)
 4.  Zushoryō manuscript ***Ruiju Myōgishō*** (Imperial Household Agency Archives and Mausolea Department, 1950)

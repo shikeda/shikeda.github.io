@@ -7,13 +7,17 @@
   krm_headword_chars
   #
 
+
+  概要とファイル形式
+  #
+
 名義抄の掲出字は、単字からなるものと、複字（多字）からなるものがある。
 krm_headword_chars は、名義抄のすべての掲出字を、名義抄の項目順および各項目内の文字の出現順に一覧したデータである。">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://shikeda.github.io/docs/krm/02-data-overview/02-03-headword-chars/">
   <meta property="og:site_name" content="HDIC project">
   <meta property="og:title" content="krm_headword_chars">
-  <meta property="og:description" content="krm_headword_chars # 名義抄の掲出字は、単字からなるものと、複字（多字）からなるものがある。 krm_headword_chars は、名義抄のすべての掲出字を、名義抄の項目順および各項目内の文字の出現順に一覧したデータである。">
+  <meta property="og:description" content="krm_headword_chars # 概要とファイル形式 # 名義抄の掲出字は、単字からなるものと、複字（多字）からなるものがある。 krm_headword_chars は、名義抄のすべての掲出字を、名義抄の項目順および各項目内の文字の出現順に一覧したデータである。">
   <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
@@ -23,7 +27,7 @@ krm_headword_chars は、名義抄のすべての掲出字を、名義抄の項�
   <link rel="alternate" hreflang="en" href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-03-headword-chars/" title="krm_headword_chars">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/ja.search.min.89baf3d825274db332901e6dbc4ee229027ae2d9ce7f3b9e4c873acaba7b0db7.js" integrity="sha256-ibrz2CUnTbMykB5tvE7iKQJ64tnOfzueTIc6yrp7Dbc=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/ja.search.min.6f32db690352e50dc9a24ed6277930fd9a3b7c83da6ee4f9c3cd7d00be856053.js" integrity="sha256-bzLbaQNS5Q3Jok7WJ3kw/Zo7fIPabuT5w819AL6FYFM=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -898,7 +902,12 @@ https://github.com/alex-shpak/hugo-book
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#概要とファイル形式">概要とファイル形式</a></li>
+    <li><a href="#各カラムの説明">各カラムの説明</a></li>
+  </ul>
+</nav>
 
 
 
@@ -913,6 +922,10 @@ https://github.com/alex-shpak/hugo-book
   krm_headword_chars
   <a class="anchor" href="#krm_headword_chars">#</a>
 </h1>
+<h2 id="概要とファイル形式">
+  概要とファイル形式
+  <a class="anchor" href="#%e6%a6%82%e8%a6%81%e3%81%a8%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e5%bd%a2%e5%bc%8f">#</a>
+</h2>
 <p>名義抄の掲出字は、単字からなるものと、複字（多字）からなるものがある。
 <code>krm_headword_chars</code> は、名義抄のすべての掲出字を、名義抄の項目順および各項目内の文字の出現順に一覧したデータである。</p>
 <p>名義抄データベースの基本データとなる <code>krm_main</code> はもとより、
@@ -922,6 +935,10 @@ https://github.com/alex-shpak/hugo-book
 <p>名義抄の掲出字を1字ごとに検索し、その原本画像を表示したり、各文字レベルでの分析を行ったりするには、2字目以降の文字を含めたすべての掲出字のリストが必要である。</p>
 <p>このような目的のために作成したのが <code>krm_headword_chars</code> である。
 このデータは、TSV 形式と JSON 形式で提供される。各行（またはエントリ）は掲出字1文字に対応し、その文字が属する名義抄の掲出字（見出し語全体）の出現順を示すID (<code>hanzi_id</code>)、その文字が属する名義抄の項目を示すID (<code>entry_id</code>)、項目内での文字の順序 (<code>character_order</code>)、文字そのもの (<code>constituent_char</code>)、1文字ごとに切り出された画像ファイルの名称 (<code>img_file_name</code>)、そして風間版および天理版それぞれにおけるその文字の所在情報（<code>kazama_location_id</code>, <code>tenri_location_id</code>）などを含んでいる。これにより、<code>krm_main</code> などの項目単位のデータと連携しつつ、個々の文字レベルでの情報アクセスが可能となる。</p>
+<h2 id="各カラムの説明">
+  各カラムの説明
+  <a class="anchor" href="#%e5%90%84%e3%82%ab%e3%83%a9%e3%83%a0%e3%81%ae%e8%aa%ac%e6%98%8e">#</a>
+</h2>
 <p><code>krm_headword_chars</code> のカラム名とその説明は次のとおりである。</p>
 <table>
   <thead>
@@ -995,7 +1012,12 @@ https://github.com/alex-shpak/hugo-book
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#概要とファイル形式">概要とファイル形式</a></li>
+    <li><a href="#各カラムの説明">各カラムの説明</a></li>
+  </ul>
+</nav>
 
 
  
