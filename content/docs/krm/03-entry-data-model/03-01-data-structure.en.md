@@ -39,7 +39,7 @@ A **`Japanese Native Reading (*wakun*)`** refers to *kun'yomi* (native Japanese 
 
 **`Notes on Character Form`** are indicated using terms describing character-form norms, such as '正' (standard) or '俗' (popular).
 
-There are instances of **`Semantic Glosses in Chinese`**, Katakana text, etc., written around the **`Headword`**; these can be termed **`Supplementary Headword Annotations`** (掲出字補注, *Keishutsuji Hochū*). These have been classified into **`Phonetic Glosses`**, **`Japanese Native Readings (*wakun*)`**, etc., according to their content. In the process of data conversion, measures were taken to clearly identify them as **`Supplementary Headword Annotations`** (see "Supplementary Headword Annotations" under "[Handling Issues in Transcription, Notation, and Annotation](/docs/krm/04-entry-input/04-03-handling/)" in the "Input of Entry Data" section).
+There are instances of **`Semantic Glosses in Chinese`**, Katakana text, etc., written around the **`Headword`**; these can be termed **`Supplementary Headword Annotations`** (掲出字補注, *Keishutsuji Hochū*). These have been classified into **`Phonetic Glosses`**, **`Japanese Native Readings (*wakun*)`**, etc., according to their content. In the process of data conversion, measures were taken to clearly identify them as **`Supplementary Headword Annotations`** (see "Supplementary Headword Annotations" under "[Handling Issues in Transcription, Notation, and Annotation](/en/docs/krm/04-entry-input/04-03-handling/)" in the "Input of Entry Data" section).
 
 **`Other`** includes items marked as **`unknown`** (未詳, *mishō*), **notes on textual transmission** (伝写上の注記, *densha-jō no chūki*), and cases where the type of gloss could not be determined.
 
@@ -87,7 +87,7 @@ First, let's consider "功," an **`Entry`** that includes the basic elements.
 This structure should clearly illustrate the relationship between the **`Headword`** and the elements of the **`Original Glosses`**.
 However, a detailed explanation of this **`Entry`**'s content would require considerable text.
 The Japanese quotation marks (*kagi-kakko*) 「」 enclose supplementary notes, and the symbols shown in parentheses () are Romanized representations of **`Tone marks (*shōten*)`** and nasal sound symbols.
-For further details, please see "[Handling Issues in Transcription, Notation, and Annotation](/docs/krm/04-entry-input/04-03-handling/)" within "[Input of Entry Data](/docs/krm/04-entry-input/)"; such details are omitted here.
+For further details, please see "[Handling Issues in Transcription, Notation, and Annotation](/en/docs/krm/04-entry-input/04-03-handling/)" within "[Input of Entry Data](/en/docs/krm/04-entry-input/)"; such details are omitted here.
 
 
 

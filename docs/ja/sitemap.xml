@@ -384,13 +384,10 @@
     <loc>https://shikeda.github.io/docs/krm/08-case-studies/6/</loc>
   </url><url>
     <loc>https://shikeda.github.io/posts/</loc>
-    <lastmod>2025-05-18T05:18:44+09:00</lastmod>
-  </url><url>
-    <loc>https://shikeda.github.io/posts/howtomermaid/</loc>
-    <lastmod>2025-05-18T05:18:44+09:00</lastmod>
+    <lastmod>2025-05-19T13:14:53+09:00</lastmod>
   </url><url>
     <loc>https://shikeda.github.io/</loc>
-    <lastmod>2025-05-18T05:18:44+09:00</lastmod>
+    <lastmod>2025-05-19T13:14:53+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -401,6 +398,12 @@
                 hreflang="ja"
                 href="https://shikeda.github.io/"
                 />
+  </url><url>
+    <loc>https://shikeda.github.io/posts/yymmdd_format/</loc>
+    <lastmod>2025-05-19T13:14:53+09:00</lastmod>
+  </url><url>
+    <loc>https://shikeda.github.io/posts/howtomermaid/</loc>
+    <lastmod>2025-05-18T05:18:44+09:00</lastmod>
   </url><url>
     <loc>https://shikeda.github.io/posts/glossary_for_krm_db/</loc>
     <lastmod>2025-05-16T10:50:00+09:00</lastmod>

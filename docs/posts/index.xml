@@ -6,7 +6,7 @@
     <description>Recent content in Blog on HDIC project</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Sun, 18 May 2025 05:18:44 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 19 May 2025 13:14:53 +0900</lastBuildDate>
     <atom:link href="https://shikeda.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>KRMの入力方法</title>
@@ -14,6 +14,13 @@
       <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://shikeda.github.io/posts/input-method/</guid>
       <description>&lt;h2 id=&#34;注文データ入力の詳細&#34;&gt;&#xA;  注文データ入力の詳細&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%b3%a8%e6%96%87%e3%83%87%e3%83%bc%e3%82%bf%e5%85%a5%e5%8a%9b%e3%81%ae%e8%a9%b3%e7%b4%b0&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;次の6種に分類して入力方法の詳細を説明する。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e5%85%b1%e9%80%9a&#34;&gt;共通&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e5%ad%97%e4%bd%93%e6%b3%a8&#34;&gt;字体注&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e9%9f%b3%e6%b3%a8&#34;&gt;音注&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e7%be%a9%e6%b3%a8&#34;&gt;義注&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e5%92%8c%e8%a8%93&#34;&gt;和訓&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e6%8e%b2%e5%87%ba%e5%ad%97%e8%a3%9c%e6%b3%a8&#34;&gt;掲出字補注&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;共通&#34;&gt;&#xA;  共通&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%85%b1%e9%80%9a&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;字体注、音注、義注、和訓、掲出字補注に共通する事項は次のとおりである。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>英文での年月日の形式</title>
+      <link>https://shikeda.github.io/posts/yymmdd_format/</link>
+      <pubDate>Mon, 19 May 2025 13:14:53 +0900</pubDate>
+      <guid>https://shikeda.github.io/posts/yymmdd_format/</guid>
+      <description>&lt;h1 id=&#34;英文での年月日の形式&#34;&gt;&#xA;  英文での年月日の形式&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e8%8b%b1%e6%96%87%e3%81%a7%e3%81%ae%e5%b9%b4%e6%9c%88%e6%97%a5%e3%81%ae%e5%bd%a2%e5%bc%8f&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;いろいろな形式がある。&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&amp;ldquo;20 April 2025&amp;rdquo; (日 月 年): この形式は、DD Month YYYY となり、月を数字ではなく名前で書くため、04/05/2025 のような数字のみの表記（これが4月5日なのか5月4日なのか混乱を招く）よりもはるかに明確。国際的にも比較的理解されやすい形式。&lt;/li&gt;&#xA;&lt;li&gt;&amp;ldquo;April 20, 2025&amp;rdquo; (月 日, 年): こちらも月を名前で書くため明確です。アメリカ英語圏ではこちらが標準。&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;1の形式のものをチェックして2に修正。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hugo BookテーマでのMermaid</title>

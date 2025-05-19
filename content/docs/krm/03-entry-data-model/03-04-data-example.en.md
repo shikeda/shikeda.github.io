@@ -15,7 +15,7 @@ This section covers the content and specific examples of **`Entry Data Files`**,
 
 ## Examples of Entry Data Files
 
-A list of the publicly available data files is provided in the [Overview of Public Data](/docs/krm/02-data-overview/).
+A list of the publicly available data files is provided in the [Overview of Public Data](/en/docs/krm/02-data-overview/).
 Here, we will explain the content of `krm_main`, which is the core **`Entry Data File`**, using it as an example.
 
 
@@ -128,7 +128,7 @@ While this format enhances readability, it also increases the data volume, so lo
 
 Data for the `Entries` of the Myōgishō is stored in `krm_main.tsv` and `krm_main.json`. These files constitute the primary data.
 
-For details on column names and their descriptions, please refer to the [Overview of Public Data](../02-data-overview/).
+For details on column names and their descriptions, please refer to the [Overview of Public Data](/en/docs/krm/02-data-overview/).
 
 
 ## Publication and Updates via GitHub
