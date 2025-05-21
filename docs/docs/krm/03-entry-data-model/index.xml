@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>項目データモデル on HDIC project</title>
-    <link>http://localhost:1313/docs/krm/03-entry-data-model/</link>
+    <link>https://shikeda.github.io/docs/krm/03-entry-data-model/</link>
     <description>Recent content in 項目データモデル on HDIC project</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <atom:link href="http://localhost:1313/docs/krm/03-entry-data-model/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://shikeda.github.io/docs/krm/03-entry-data-model/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>項目データ構造</title>
-      <link>http://localhost:1313/docs/krm/03-entry-data-model/03-01-data-structure/</link>
+      <link>https://shikeda.github.io/docs/krm/03-entry-data-model/03-01-data-structure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/krm/03-entry-data-model/03-01-data-structure/</guid>
+      <guid>https://shikeda.github.io/docs/krm/03-entry-data-model/03-01-data-structure/</guid>
       <description>&lt;h1 id=&#34;項目データ構造&#34;&gt;&#xA;  項目データ構造&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a0%85%e7%9b%ae%e3%83%87%e3%83%bc%e3%82%bf%e6%a7%8b%e9%80%a0&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、観智院本『類聚名義抄』（以下、名義抄と略）&#xA;の項目の構造と項目の形式を取り上げて解説する。&lt;/p&gt;&#xA;&lt;p&gt;まず、掲出字・注文等の用語（概念）を定義し、&#xA;次に実際の項目の例を画像（模写）として掲げ、&#xA;その項目の構造を抽象化・図式化して示し、&#xA;最後に画像として示した項目の翻刻データを示す。&lt;/p&gt;</description>
     </item>
     <item>
       <title>項目の種類</title>
-      <link>http://localhost:1313/docs/krm/03-entry-data-model/03-02-types-of-entries/</link>
+      <link>https://shikeda.github.io/docs/krm/03-entry-data-model/03-02-types-of-entries/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/krm/03-entry-data-model/03-02-types-of-entries/</guid>
+      <guid>https://shikeda.github.io/docs/krm/03-entry-data-model/03-02-types-of-entries/</guid>
       <description>&lt;h1 id=&#34;項目の種類&#34;&gt;&#xA;  項目の種類&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a0%85%e7%9b%ae%e3%81%ae%e7%a8%ae%e9%a1%9e&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;このセクションでは、類聚名義抄の項目をどのような基準で分類し、それぞれどのような特徴を持つか説明する。&lt;/p&gt;&#xA;&lt;h2 id=&#34;掲出字形式による分類&#34;&gt;&#xA;  掲出字形式による分類&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%8e%b2%e5%87%ba%e5%ad%97%e5%bd%a2%e5%bc%8f%e3%81%ab%e3%82%88%e3%82%8b%e5%88%86%e9%a1%9e&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;項目は、それを構成する掲出字の形式（単字または複字）によって分類することができる。&lt;/p&gt;</description>
     </item>
     <item>
       <title>文字表記に関する概念</title>
-      <link>http://localhost:1313/docs/krm/03-entry-data-model/03-03-concepts-char/</link>
+      <link>https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/krm/03-entry-data-model/03-03-concepts-char/</guid>
+      <guid>https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/</guid>
       <description>&lt;h1 id=&#34;文字表記に関する概念&#34;&gt;&#xA;  文字表記に関する概念&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%96%87%e5%ad%97%e8%a1%a8%e8%a8%98%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e6%a6%82%e5%bf%b5&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;書体字体字形&#34;&gt;&#xA;  書体・字体・字形&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%9b%b8%e4%bd%93%e5%ad%97%e4%bd%93%e5%ad%97%e5%bd%a2&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;「書体」「字体」「字形」の用語は&#xA;石塚晴通『図書寮本 日本書紀 研究篇』（汲古書院、1984）に見える次の定義に従う。&lt;/p&gt;</description>
     </item>
     <item>
       <title>項目データファイルの公開・更新</title>
-      <link>http://localhost:1313/docs/krm/03-entry-data-model/03-04-data-example/</link>
+      <link>https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/krm/03-entry-data-model/03-04-data-example/</guid>
-      <description>&lt;h1 id=&#34;項目データファイルの公開更新&#34;&gt;&#xA;  項目データファイルの公開・更新&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a0%85%e7%9b%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e5%85%ac%e9%96%8b%e6%9b%b4%e6%96%b0&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;項目データファイルの内容と具体例の提示、GitHub を利用した公開・更新の方法に触れる。&lt;/p&gt;&#xA;&lt;h3 id=&#34;項目データファイルの例&#34;&gt;&#xA;  項目データファイルの例&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a0%85%e7%9b%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%be%8b&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;公開のデータファイルのリストは&lt;a href=&#34;http://localhost:1313/docs/krm/02-data-overview/&#34;&gt;公開データの概要&lt;/a&gt;に一覧している。&#xA;ここでは項目データファイルの基本データとなる&lt;code&gt;krm_main&lt;/code&gt; を例にその内容を解説する。&lt;/p&gt;</description>
+      <guid>https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/</guid>
+      <description>&lt;h1 id=&#34;項目データファイルの公開更新&#34;&gt;&#xA;  項目データファイルの公開・更新&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a0%85%e7%9b%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e5%85%ac%e9%96%8b%e6%9b%b4%e6%96%b0&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;項目データファイルの内容と具体例の提示、GitHub を利用した公開・更新の方法に触れる。&lt;/p&gt;&#xA;&lt;h3 id=&#34;項目データファイルの例&#34;&gt;&#xA;  項目データファイルの例&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a0%85%e7%9b%ae%e3%83%87%e3%83%bc%e3%82%bf%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%81%ae%e4%be%8b&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;公開のデータファイルのリストは&lt;a href=&#34;https://shikeda.github.io/docs/krm/02-data-overview/&#34;&gt;公開データの概要&lt;/a&gt;に一覧している。&#xA;ここでは項目データファイルの基本データとなる&lt;code&gt;krm_main&lt;/code&gt; を例にその内容を解説する。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

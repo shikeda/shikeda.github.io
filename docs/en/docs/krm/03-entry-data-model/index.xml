@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Entry Data Model on HDIC project</title>
-    <link>http://localhost:1313/en/docs/krm/03-entry-data-model/</link>
+    <link>https://shikeda.github.io/en/docs/krm/03-entry-data-model/</link>
     <description>Recent content in Entry Data Model on HDIC project</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/en/docs/krm/03-entry-data-model/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Entry Data Structure</title>
-      <link>http://localhost:1313/en/docs/krm/03-entry-data-model/03-01-data-structure/</link>
+      <link>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/krm/03-entry-data-model/03-01-data-structure/</guid>
+      <guid>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/</guid>
       <description>&lt;h1 id=&#34;entry-data-structure&#34;&gt;&#xA;  Entry Data Structure&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#entry-data-structure&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;This section explains the structure and format of &lt;strong&gt;&lt;code&gt;Entries&lt;/code&gt;&lt;/strong&gt; in the Kanchi-in manuscript of the &lt;em&gt;Ruiju Myōgishō&lt;/em&gt; (hereinafter &lt;em&gt;Myōgishō&lt;/em&gt;).&lt;/p&gt;&#xA;&lt;p&gt;It begins by defining key terms (and related concepts) such as &lt;strong&gt;&lt;code&gt;Headword&lt;/code&gt;&lt;/strong&gt; (掲出字, &lt;em&gt;keishutsuji&lt;/em&gt;) and &lt;strong&gt;&lt;code&gt;Original Glosses&lt;/code&gt;&lt;/strong&gt; (注文, &lt;em&gt;chūmon&lt;/em&gt;). Next, an example of an actual &lt;strong&gt;&lt;code&gt;Entry&lt;/code&gt;&lt;/strong&gt; is presented as an image (a facsimile). The structure of this &lt;strong&gt;&lt;code&gt;Entry&lt;/code&gt;&lt;/strong&gt; is then illustrated in an abstract and diagrammatic form. Finally, a transcription of the &lt;strong&gt;&lt;code&gt;Entry&lt;/code&gt;&lt;/strong&gt; shown in the image is provided.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Types of Entries</title>
-      <link>http://localhost:1313/en/docs/krm/03-entry-data-model/03-02-types-of-entries/</link>
+      <link>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-02-types-of-entries/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/krm/03-entry-data-model/03-02-types-of-entries/</guid>
+      <guid>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-02-types-of-entries/</guid>
       <description>&lt;h1 id=&#34;types-of-entries&#34;&gt;&#xA;  Types of Entries&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#types-of-entries&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;This section explains the criteria used to classify &lt;strong&gt;&lt;code&gt;Entries&lt;/code&gt;&lt;/strong&gt; in the &lt;em&gt;Ruiju Myōgishō&lt;/em&gt; and describes the characteristics of each classification.&lt;/p&gt;&#xA;&lt;h2 id=&#34;classification-by-headword-form&#34;&gt;&#xA;  Classification by Headword Form&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#classification-by-headword-form&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;code&gt;Entries&lt;/code&gt;&lt;/strong&gt; can be classified according to the form of their &lt;strong&gt;&lt;code&gt;Headwords&lt;/code&gt;&lt;/strong&gt;, i.e., whether they consist of a single &lt;strong&gt;Chinese character&lt;/strong&gt; or multiple &lt;strong&gt;Chinese characters&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;single-character-form-and-multi-character-form&#34;&gt;&#xA;  Single Character Form and Multi-Character Form&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#single-character-form-and-multi-character-form&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;code&gt;Headwords&lt;/code&gt;&lt;/strong&gt; can be in either a &lt;strong&gt;Single Character Form&lt;/strong&gt; or a &lt;strong&gt;Multi-Character Form&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Concepts Related to Character Notation</title>
-      <link>http://localhost:1313/en/docs/krm/03-entry-data-model/03-03-concepts-char/</link>
+      <link>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-03-concepts-char/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/krm/03-entry-data-model/03-03-concepts-char/</guid>
+      <guid>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-03-concepts-char/</guid>
       <description>&lt;h1 id=&#34;concepts-related-to-character-notation&#34;&gt;&#xA;  Concepts Related to Character Notation&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#concepts-related-to-character-notation&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;script-styles-character-standards-and-character-shapes&#34;&gt;&#xA;  Script Styles, Character Standards, and Character Shapes&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#script-styles-character-standards-and-character-shapes&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The terms &amp;ldquo;書体&amp;rdquo; (&lt;em&gt;shotai&lt;/em&gt;, script style), &amp;ldquo;字体&amp;rdquo; (&lt;em&gt;jitai&lt;/em&gt;, character standard), and &amp;ldquo;字形&amp;rdquo; (&lt;em&gt;jikei&lt;/em&gt;, character shape) as used in this document primarily follow the definitions provided by Ishizuka Harumichi in &lt;em&gt;Zushoryōbon Nihon Shoki Kenkyūhen&lt;/em&gt; (Tokyo: Kyūko Shoin, 1984). The following English explanations are translations from Ishizuka&amp;rsquo;s original Japanese definitions:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Examples of Entry Data Files</title>
-      <link>http://localhost:1313/en/docs/krm/03-entry-data-model/03-04-data-example/</link>
+      <link>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/krm/03-entry-data-model/03-04-data-example/</guid>
-      <description>&lt;h1 id=&#34;publication-and-updates-of-entry-data-files&#34;&gt;&#xA;  Publication and Updates of Entry Data Files&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#publication-and-updates-of-entry-data-files&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;This section covers the content and specific examples of &lt;strong&gt;&lt;code&gt;Entry Data Files&lt;/code&gt;&lt;/strong&gt;, as well as methods for their publication and updates using GitHub.&lt;/p&gt;&#xA;&lt;h2 id=&#34;examples-of-entry-data-files&#34;&gt;&#xA;  Examples of Entry Data Files&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#examples-of-entry-data-files&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;A list of the publicly available data files is provided in the &lt;a href=&#34;http://localhost:1313/en/docs/krm/02-data-overview/&#34;&gt;Overview of Public Data&lt;/a&gt;.&#xA;Here, we will explain the content of &lt;code&gt;krm_main&lt;/code&gt;, which is the core &lt;strong&gt;&lt;code&gt;Entry Data File&lt;/code&gt;&lt;/strong&gt;, using it as an example.&lt;/p&gt;</description>
+      <guid>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/</guid>
+      <description>&lt;h1 id=&#34;publication-and-updates-of-entry-data-files&#34;&gt;&#xA;  Publication and Updates of Entry Data Files&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#publication-and-updates-of-entry-data-files&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;This section covers the content and specific examples of &lt;strong&gt;&lt;code&gt;Entry Data Files&lt;/code&gt;&lt;/strong&gt;, as well as methods for their publication and updates using GitHub.&lt;/p&gt;&#xA;&lt;h2 id=&#34;examples-of-entry-data-files&#34;&gt;&#xA;  Examples of Entry Data Files&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#examples-of-entry-data-files&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;A list of the publicly available data files is provided in the &lt;a href=&#34;https://shikeda.github.io/en/docs/krm/02-data-overview/&#34;&gt;Overview of Public Data&lt;/a&gt;.&#xA;Here, we will explain the content of &lt;code&gt;krm_main&lt;/code&gt;, which is the core &lt;strong&gt;&lt;code&gt;Entry Data File&lt;/code&gt;&lt;/strong&gt;, using it as an example.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

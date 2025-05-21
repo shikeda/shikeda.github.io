@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Input of Entry Data on HDIC project</title>
-    <link>http://localhost:1313/en/docs/krm/04-entry-input/</link>
+    <link>https://shikeda.github.io/en/docs/krm/04-entry-input/</link>
     <description>Recent content in Input of Entry Data on HDIC project</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/en/docs/krm/04-entry-input/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://shikeda.github.io/en/docs/krm/04-entry-input/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Headwords, Entry Structure, and ID System</title>
-      <link>http://localhost:1313/en/docs/krm/04-entry-input/04-01-id/</link>
+      <link>https://shikeda.github.io/en/docs/krm/04-entry-input/04-01-id/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/krm/04-entry-input/04-01-id/</guid>
+      <guid>https://shikeda.github.io/en/docs/krm/04-entry-input/04-01-id/</guid>
       <description>&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h1 id=&#34;headwords-entry-structure-and-id-system&#34;&gt;&#xA;  Headwords, Entry Structure, and ID System&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#headwords-entry-structure-and-id-system&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;This section explains the structure of &lt;strong&gt;&lt;code&gt;Entries&lt;/code&gt;&lt;/strong&gt; in the &lt;em&gt;Myōgishō&lt;/em&gt; and the ID system used to identify them.&lt;/p&gt;&#xA;&lt;h2 id=&#34;definitions-of-headwords-and-entries&#34;&gt;&#xA;  Definitions of Headwords and Entries&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#definitions-of-headwords-and-entries&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;A &lt;strong&gt;&lt;code&gt;Headword&lt;/code&gt;&lt;/strong&gt; refers to the &lt;strong&gt;&lt;code&gt;Chinese character&lt;/code&gt;&lt;/strong&gt; or string of &lt;strong&gt;&lt;code&gt;Chinese characters&lt;/code&gt;&lt;/strong&gt; that forms the heading.&#xA;An &lt;strong&gt;&lt;code&gt;Entry&lt;/code&gt;&lt;/strong&gt; is the basic unit of the dictionary, typically consisting of a &lt;strong&gt;&lt;code&gt;Headword&lt;/code&gt;&lt;/strong&gt; and its associated &lt;strong&gt;&lt;code&gt;Original Glosses&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Character Encoding and Representation</title>
-      <link>http://localhost:1313/en/docs/krm/04-entry-input/04-02-char/</link>
+      <link>https://shikeda.github.io/en/docs/krm/04-entry-input/04-02-char/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/krm/04-entry-input/04-02-char/</guid>
+      <guid>https://shikeda.github.io/en/docs/krm/04-entry-input/04-02-char/</guid>
       <description>&lt;h1 id=&#34;character-encoding-and-representation&#34;&gt;&#xA;  Character Encoding and Representation&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#character-encoding-and-representation&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;This section explains the &lt;strong&gt;encoding and representation of characters&lt;/strong&gt; using Unicode.&#xA;It also describes the multiple methods used in combination to handle characters that cannot be represented by Unicode.&lt;/p&gt;&#xA;&lt;h2 id=&#34;character-encoding-with-unicode&#34;&gt;&#xA;  Character Encoding with Unicode&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#character-encoding-with-unicode&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The number of CJK Unified Ideographs differs depending on the Unicode version.&#xA;The HDIC project started in 2014, and initially, the baseline was Unicode 8.0.0 (from 2015). At that time, the number of usable &lt;strong&gt;&lt;code&gt;Hanzi (Chinese characters)&lt;/code&gt;&lt;/strong&gt; was 80,358, comprising CJK Unified Ideographs and CJK Unified Ideographs Extensions A through E.&#xA;Extensions have continued since then, with the total number of characters now exceeding 90,000. However, even after characters are included in Unicode, it seems to take time before they can actually be displayed on screens or used in print.&#xA;The HDIC project utilizes characters up to CJK Unified Ideographs Extension E as much as possible. For characters in Extension F and beyond, the project currently limits its practice to noting them in remarks columns or similar fields.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Handling Issues in Transcription, Notation, and Annotation</title>
-      <link>http://localhost:1313/en/docs/krm/04-entry-input/04-03-handling/</link>
+      <link>https://shikeda.github.io/en/docs/krm/04-entry-input/04-03-handling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/docs/krm/04-entry-input/04-03-handling/</guid>
-      <description>&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h1 id=&#34;handling-issues-in-transcription-notation-and-annotation&#34;&gt;&#xA;  Handling Issues in Transcription, Notation, and Annotation&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#handling-issues-in-transcription-notation-and-annotation&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、誤字・脱字など&lt;strong&gt;書写上の問題&lt;/strong&gt;、省略符号や踊り字など&lt;strong&gt;文字・語の表記形式&lt;/strong&gt;、&#xA;割注、小字注記など&lt;strong&gt;付加注記・レイアウト&lt;/strong&gt;を整理して、&lt;strong&gt;書写・表記・注記における問題&lt;/strong&gt;と対応をまとめる。&lt;/p&gt;</description>
+      <guid>https://shikeda.github.io/en/docs/krm/04-entry-input/04-03-handling/</guid>
+      <description>&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h1 id=&#34;handling-issues-in-transcription-notation-and-annotation&#34;&gt;&#xA;  Handling Issues in Transcription, Notation, and Annotation&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#handling-issues-in-transcription-notation-and-annotation&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;The &lt;em&gt;Myōgishō&lt;/em&gt; is a dictionary of &lt;strong&gt;&lt;code&gt;Hanzi (Chinese characters)&lt;/code&gt;&lt;/strong&gt;. To accurately decipher its content and convert it into digital text, it is necessary to first understand the various characteristics visible in the original &lt;em&gt;Myōgishō&lt;/em&gt; manuscripts and then to establish specific methods for data input and processing.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

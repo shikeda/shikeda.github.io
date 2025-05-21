@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>公開データの概要 on HDIC project</title>
-    <link>http://localhost:1313/docs/krm/02-data-overview/</link>
+    <link>https://shikeda.github.io/docs/krm/02-data-overview/</link>
     <description>Recent content in 公開データの概要 on HDIC project</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <atom:link href="http://localhost:1313/docs/krm/02-data-overview/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://shikeda.github.io/docs/krm/02-data-overview/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>krm_main</title>
-      <link>http://localhost:1313/docs/krm/02-data-overview/02-01-main/</link>
+      <link>https://shikeda.github.io/docs/krm/02-data-overview/02-01-main/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/krm/02-data-overview/02-01-main/</guid>
+      <guid>https://shikeda.github.io/docs/krm/02-data-overview/02-01-main/</guid>
       <description>&lt;h1 id=&#34;krm_main&#34;&gt;&#xA;  krm_main&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_main&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;概要とファイル形式&#34;&gt;&#xA;  概要とファイル形式&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%a6%82%e8%a6%81%e3%81%a8%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e5%bd%a2%e5%bc%8f&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;観智院本類聚名義抄（以下、名義抄）デーベースの中核となるファイルを解説する。&#xA;従来公開していたのは、&lt;code&gt;KRM.tsv&lt;/code&gt; という名称のTSVファイルである。&lt;/p&gt;</description>
     </item>
     <item>
       <title>krm_notes</title>
-      <link>http://localhost:1313/docs/krm/02-data-overview/02-02-notes/</link>
+      <link>https://shikeda.github.io/docs/krm/02-data-overview/02-02-notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/krm/02-data-overview/02-02-notes/</guid>
+      <guid>https://shikeda.github.io/docs/krm/02-data-overview/02-02-notes/</guid>
       <description>&lt;h1 id=&#34;krm_notes&#34;&gt;&#xA;  krm_notes&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_notes&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;概要とファイル形式&#34;&gt;&#xA;  概要とファイル形式&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%a6%82%e8%a6%81%e3%81%a8%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e5%bd%a2%e5%bc%8f&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;KRM_definitions.tsv&lt;/code&gt; ファイルに詳細な注釈情報を追加したファイル &lt;code&gt;krm_notes.tsv&lt;/code&gt; を作成した。&#xA;これは、TSV形式とJSON形式で用意した。&#xA;2025年3月の仕様変更後のファイル名であることを明示的に示すため、&#xA;大文字の KRM ではなく小文字の krm を用いて&#xA;&lt;code&gt;krm_notes.tsv&lt;/code&gt; と &lt;code&gt;krm_notes.json&lt;/code&gt; という名称とした。&lt;/p&gt;</description>
     </item>
     <item>
       <title>krm_headword_chars</title>
-      <link>http://localhost:1313/docs/krm/02-data-overview/02-03-headword-chars/</link>
+      <link>https://shikeda.github.io/docs/krm/02-data-overview/02-03-headword-chars/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/krm/02-data-overview/02-03-headword-chars/</guid>
+      <guid>https://shikeda.github.io/docs/krm/02-data-overview/02-03-headword-chars/</guid>
       <description>&lt;h1 id=&#34;krm_headword_chars&#34;&gt;&#xA;  krm_headword_chars&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_headword_chars&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;概要とファイル形式&#34;&gt;&#xA;  概要とファイル形式&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%a6%82%e8%a6%81%e3%81%a8%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e5%bd%a2%e5%bc%8f&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;名義抄の掲出字は、単字からなるものと、複字（多字）からなるものがある。&#xA;&lt;code&gt;krm_headword_chars&lt;/code&gt; は、名義抄のすべての掲出字を、名義抄の項目順および各項目内の文字の出現順に一覧したデータである。&lt;/p&gt;</description>
     </item>
     <item>
       <title>krm_wakun</title>
-      <link>http://localhost:1313/docs/krm/02-data-overview/02-04-wakun/</link>
+      <link>https://shikeda.github.io/docs/krm/02-data-overview/02-04-wakun/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/krm/02-data-overview/02-04-wakun/</guid>
+      <guid>https://shikeda.github.io/docs/krm/02-data-overview/02-04-wakun/</guid>
       <description>&lt;h1 id=&#34;krm_wakun&#34;&gt;&#xA;  krm_wakun&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_wakun&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;概要とファイル形式&#34;&gt;&#xA;  概要とファイル形式&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%a6%82%e8%a6%81%e3%81%a8%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e5%bd%a2%e5%bc%8f&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;これは、名義抄デーベースの &lt;code&gt;KRM.tsv&lt;/code&gt; から和訓を抜き出して、&#xA;和訓の異形を整理し、異体字との対応を調整したデータである。&lt;/p&gt;&#xA;&lt;p&gt;和訓に関する校勘と出典考証は &lt;code&gt;krm_notes&lt;/code&gt; に記載したので省略している。&lt;/p&gt;</description>
     </item>
     <item>
       <title>krm_definitions</title>
-      <link>http://localhost:1313/docs/krm/02-data-overview/02-05-definitions/</link>
+      <link>https://shikeda.github.io/docs/krm/02-data-overview/02-05-definitions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/krm/02-data-overview/02-05-definitions/</guid>
+      <guid>https://shikeda.github.io/docs/krm/02-data-overview/02-05-definitions/</guid>
       <description>&lt;h1 id=&#34;krm_definitions&#34;&gt;&#xA;  krm_definitions&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_definitions&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;名義抄の注文には、和訓だけではなく、字体注、音注、意義注などの要素を含んでいる。&#xA;これらの校勘と出典考証を行うために、注文の各要素を出現順に区分し、出現の順番に&#xA;番号を与えたレコードを作成し、注文種類の分類を行ったファイルである。&#xA;従来公開していたのは、&lt;code&gt;KRM_definitions.tsv&lt;/code&gt; である。&#xA;2025年3月の仕様変更後は、&lt;code&gt;krm_notes&lt;/code&gt; に統合したので、&#xA;説明は省略する。&lt;/p&gt;</description>
     </item>
     <item>
       <title>krm_pronunciations</title>
-      <link>http://localhost:1313/docs/krm/02-data-overview/02-06-pronunciations/</link>
+      <link>https://shikeda.github.io/docs/krm/02-data-overview/02-06-pronunciations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/krm/02-data-overview/02-06-pronunciations/</guid>
+      <guid>https://shikeda.github.io/docs/krm/02-data-overview/02-06-pronunciations/</guid>
       <description>&lt;h1 id=&#34;krm_pronunciations&#34;&gt;&#xA;  krm_pronunciations&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_pronunciations&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;概要とファイル形式&#34;&gt;&#xA;  概要とファイル形式&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%a6%82%e8%a6%81%e3%81%a8%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e5%bd%a2%e5%bc%8f&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;観智院本類聚名義抄（以下、名義抄）の音注は、&#xA;反切、類音注、仮名注があり、それらに声点が施されることも多い。&#xA;日本漢字音のデータベースとしては、加藤大鶴氏らによる&#xA;「資料横断的な漢字音・漢語音データベース」（略称 DHSJR）が非常に充実した&#xA;内容を持っている。またその仕様も詳細に公開されている。&#xA;そこで、HDICプロジェクトしして、DHSJR の仕様に合わせたデータ公開を公開することとした。&lt;/p&gt;</description>
     </item>
     <item>
       <title>krm_ndl</title>
-      <link>http://localhost:1313/docs/krm/02-data-overview/02-07-ndl/</link>
+      <link>https://shikeda.github.io/docs/krm/02-data-overview/02-07-ndl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/krm/02-data-overview/02-07-ndl/</guid>
+      <guid>https://shikeda.github.io/docs/krm/02-data-overview/02-07-ndl/</guid>
       <description>&lt;h1 id=&#34;krm_ndl&#34;&gt;&#xA;  krm_ndl&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_ndl&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;国会図書館デジタルコレクションで公開している&#xA;観智院本類聚名義抄の画像へのリンクを整理したものである。&#xA;観智院本類聚名義抄の所在と国会図書館デジタルコレクションのURLとを対照させたデータである。&#xA;ファイル名は、&lt;code&gt;KRM_ndl.tsv&lt;/code&gt; である。&lt;/p&gt;</description>
     </item>
   </channel>

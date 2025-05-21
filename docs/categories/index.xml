@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on HDIC project</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://shikeda.github.io/categories/</link>
     <description>Recent content in Categories on HDIC project</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 06 Jan 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://shikeda.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HDIC</title>
-      <link>http://localhost:1313/categories/hdic/</link>
+      <link>https://shikeda.github.io/categories/hdic/</link>
       <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/hdic/</guid>
+      <guid>https://shikeda.github.io/categories/hdic/</guid>
       <description></description>
     </item>
     <item>
       <title>KRM</title>
-      <link>http://localhost:1313/categories/krm/</link>
+      <link>https://shikeda.github.io/categories/krm/</link>
       <pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/krm/</guid>
+      <guid>https://shikeda.github.io/categories/krm/</guid>
       <description></description>
     </item>
   </channel>
