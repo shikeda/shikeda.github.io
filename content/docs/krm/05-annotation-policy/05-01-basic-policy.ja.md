@@ -8,6 +8,7 @@ weight: 17
 # bookComments: false
 # bookSearchExclude: false
 ---
+
 # 注釈作成の基本方針と分析対象
 
 項目の構造と注文数の概略を示し、一つの

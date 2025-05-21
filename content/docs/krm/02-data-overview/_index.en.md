@@ -10,7 +10,6 @@ title: "Overview of Published Data"
 # bookSearchExclude: false
 ---
 
-
 # Overview of Published Data
 
 ## Introduction
@@ -41,7 +40,7 @@ For these reasons, 'hanzi' is used for the column names of the public data, whil
 
 ## List of Data Files
 
-The data for the Kanchi-in manuscript of the *Ruiju Myōgishō*, available at [https://github.com/shikeda/HDIC/tree/master/v1.2](https://github.com/shikeda/HDIC/tree/master/v1.2), is as follows. This list includes some files that are currently under preparation for public release.
+The data for the Kanchi-in manuscript of the *Ruiju Myōgishō*, available at [https://github.com/shikeda/krm](https://github.com/shikeda/krm), is as follows. This list includes some files that are currently under preparation for public release.
 
   * **[krm\_main](./02-01-main/)**: Basic data. Includes information on **`Headwords`**, the full text of **`Definition (Original Glosses)`**, locations, etc. TSV and JSON files are available.
   * **[krm\_notes](./02-02-notes/)**: Data for the **`Compiler's Remarks`**. This comprises analyses of **`Headwords`**, **`Notes on Character Form`**, **`Phonetic Glosses`**, **`Semantic Glosses in Chinese`**, **`Japanese Native Readings` (*wakun*)**, and **Other** elements from the *Myōgishō*, including results of textual collation and source investigation. TSV and JSON files are available.
@@ -55,7 +54,6 @@ A major revision of the data specifications was implemented in March 2025. Previ
 
 ## Specification Change
 
-Files incorporating these specification changes have been placed in the "v1.2" folder. Please note that this is a temporary arrangement.
 
 The key points of these specification changes are as follows:
 
@@ -64,6 +62,9 @@ The key points of these specification changes are as follows:
 * Half-width parentheses "()", used to indicate the presence of **`Tone marks`**, have been changed to full-width parentheses "（）".
 * Half-width parentheses "()", used to indicate a proposed correction for a typographical error, have been changed to full-width square brackets "〔〕".
 * Half-width square brackets "[]", used to indicate missing characters, have been changed to full-width square brackets "［］".
+
+The files after the specification change have been published at [https://github.com/shikeda/krm](https://github.com/shikeda/krm).
+
 
 
 ### ER Diagram
@@ -80,8 +81,7 @@ Please note that the `krm_notes.json` file has a nested structure: each record c
 
 For details including the version of the released data, author information, and copyright notices, please refer to the `README.md` file in the following GitHub repository.
 
-
-[https://github.com/shikeda/HDIC/tree/master/v1.2/README.md](https://github.com/shikeda/HDIC/tree/master/v1.2/README.md)
+[https://github.com/shikeda/krm/](https://github.com/shikeda/krm/)
 
 
 ## Acknowledgments

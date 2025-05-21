@@ -21,7 +21,7 @@ This section explains the criteria used to classify **`Entries`** in the *Ruiju 
 
 **`Headwords`** can be in either a **Single Character Form** or a **Multi-Character Form**.
 
-**Examples**
+**Examples:**
 
   - Example of single character form: 人
   - Examples of multi-character form: 一人, 二人, 五人
@@ -50,7 +50,7 @@ Currently, while we are unable to provide precise figures, our estimates suggest
 
 Next, we will explain this with specific examples.
 
-**Examples**
+**Examples:**
 
 1.  Example with **Form Classification Tags**: 槎査　上通下正
 2.  Example with **Form Classification Tags**: 㔽卣　今正
@@ -76,7 +76,7 @@ Out of the approximately 32,600 **`Entries`** in the Kanchi-in manuscript, aroun
 
 Next, we will provide specific examples.
 
-**Examples**
+**Examples:**
 
 1.  凡ー（俗） タヽヒト（LLV__）　ワロ人（LL_）
 2.  苾蒭　上蒲（L）「ホ」結（S）反　古馝字　香草也　カウハシ　又毗必反　下音鶵　草之惣名　クサ　\*カラクサ　ワラ
@@ -105,7 +105,7 @@ Currently, while precise figures are not available, our estimates suggest that o
 
 Next, we will provide specific examples.
 
-**Examples**
+**Examples:**
 
   - **`Basic Entry`**: 人　音仁（LV）「ニン」　ヒト（HL）　ワレ（LL）　サネ　マホル　ユク
   - **`Extended Entry`**: 一人　ヒトリ（LH_）
@@ -119,7 +119,7 @@ The number of **`Independent Entries`** and **`Serial Entries`** has not yet bee
 
 **`Independent Entries`** are exemplified by the following:
 
-**Examples**
+**Examples:**
 
   - 仕　音士　ツカフ（HHL）　ツカマツル（HL\_\_\_）　ミヤツカヘ　ツモム
   - 任　音壬（LV）「シム」「ニム」　タヘタリ（LR\_\_、ヘ-フ）　…

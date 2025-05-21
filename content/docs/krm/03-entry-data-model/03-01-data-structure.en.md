@@ -93,7 +93,7 @@ For further details, please see "[Handling Issues in Transcription, Notation, an
 
 Similar to the example of "功," "加復" and "ー之" can be transcribed as follows.
 
-**Example**
+**Example:**
 
 ```text
 加復　シカノミナラス  
@@ -111,7 +111,7 @@ Since the "ー" in "ー之" is a notation substituting for "加," which is used 
 
 Lastly, "助" and its **`variant characters` (*itaiji*)** are shown as follows.
 
-**Example**
+**Example:**
 
 ```text
 ⿰目力 鉏據反　タスク（LL_）　マサル（HH_）　ハサム　和自ヨ（_L）  

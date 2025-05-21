@@ -5,33 +5,33 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Under preparation.
 
-  Head Characters, Entry Structure, and ID System
+  Headwords, Entry Structure, and ID System
   #
 
-このセクションでは、名義抄の項目の構造と、それを識別するためのID体系について説明する。
+This section explains the structure of Entries in the Myōgishō and the ID system used to identify them.
 
-  掲出字と掲出項目の定義
+  Definitions of Headwords and Entries
   #
 
-掲出字（Headword Character(s)）とは、見出しの漢字そのものである。
-掲出項目（Entry）とは、辞書の項目単位である。">
+A Headword refers to the Chinese character or string of Chinese characters that forms the heading.
+An Entry is the basic unit of the dictionary, typically consisting of a Headword and its associated Original Glosses.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://shikeda.github.io/en/docs/krm/04-entry-input/04-01-id/">
   <meta property="og:site_name" content="HDIC project">
-  <meta property="og:title" content="Head Characters, Entry Structure, and ID System">
+  <meta property="og:title" content="Headwords, Entry Structure, and ID System">
   <meta property="og:description" content="Under preparation.
-Head Characters, Entry Structure, and ID System # このセクションでは、名義抄の項目の構造と、それを識別するためのID体系について説明する。
-掲出字と掲出項目の定義 # 掲出字（Headword Character(s)）とは、見出しの漢字そのものである。 掲出項目（Entry）とは、辞書の項目単位である。">
+Headwords, Entry Structure, and ID System # This section explains the structure of Entries in the Myōgishō and the ID system used to identify them.
+Definitions of Headwords and Entries # A Headword refers to the Chinese character or string of Chinese characters that forms the heading. An Entry is the basic unit of the dictionary, typically consisting of a Headword and its associated Original Glosses.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
-<title>Head Characters, Entry Structure, and ID System | HDIC project</title>
+<title>Headwords, Entry Structure, and ID System | HDIC project</title>
 <link rel="manifest" href="https://shikeda.github.io/manifest.json">
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
   <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/04-entry-input/04-01-id/" title="掲出字・項目構造とID体系">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/en.search.min.d51ceb804fc13c4ee6c1dfafd1a5bc6fc7bb5d0459641c83394a6c244089f802.js" integrity="sha256-1RzrgE/BPE7mwd&#43;v0aW8b8e7XQRZZByDOUpsJECJ&#43;AI=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.2259a3bcdb44afb53b6365205cf36b3c2964ed93278a6b9eb7065660218365c9.js" integrity="sha256-IlmjvNtEr7U7Y2UgXPNrPClk7ZMnimuetwZWYCGDZck=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -367,7 +367,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-01-id/" class=" active">Head Characters, Entry Structure, and ID System</a>
+    <a href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-01-id/" class=" active">Headwords, Entry Structure, and ID System</a>
   
 
         </li>
@@ -568,7 +568,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="https://shikeda.github.io/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Head Characters, Entry Structure, and ID System</strong>
+  <strong>Headwords, Entry Structure, and ID System</strong>
 
   <label for="toc-control">
     
@@ -584,16 +584,19 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#掲出字と掲出項目の定義">掲出字と掲出項目の定義</a></li>
-    <li><a href="#掲出項目の配置の原則と例外">掲出項目の配置の原則と例外</a></li>
-    <li><a href="#名義抄のid体系">名義抄のID体系</a>
+    <li><a href="#definitions-of-headwords-and-entries">Definitions of Headwords and Entries</a></li>
+    <li><a href="#principles-and-exceptions-in-the-arrangement-of-entries">Principles and Exceptions in the Arrangement of Entries</a></li>
+    <li><a href="#id-system-of-the-myōgishō">ID System of the <em>Myōgishō</em></a>
       <ul>
-        <li><a href="#idの種類">IDの種類</a></li>
-        <li><a href="#各カラムの関係性">各カラムの関係性</a></li>
-        <li><a href="#主要idの詳細形式">主要IDの詳細形式</a></li>
-        <li><a href="#掲出字の入力方法">掲出字の入力方法</a></li>
-        <li><a href="#データ表現におけるidの扱い">データ表現におけるIDの扱い</a></li>
-        <li><a href="#掲出字の詳細情報マッピングテーブルへ移譲">掲出字の詳細情報（マッピングテーブル）へ移譲</a></li>
+        <li><a href="#types-of-ids">Types of IDs</a></li>
+        <li><a href="#relationship-between-columns">Relationship Between Columns</a></li>
+        <li><a href="#detailed-format-of-primary-ids">Detailed Format of Primary IDs</a></li>
+      </ul>
+    </li>
+    <li><a href="#input-method-for-headwords">Input Method for <code>Headwords</code></a>
+      <ul>
+        <li><a href="#handling-of-ids-in-data-representation">Handling of IDs in Data Representation</a></li>
+        <li><a href="#deferring-detailed-headword-character-information-to-a-mapping-table">Deferring Detailed Headword Character Information to a Mapping Table</a></li>
       </ul>
     </li>
   </ul>
@@ -609,236 +612,220 @@ https://github.com/alex-shpak/hugo-book
       
       
   <article class="markdown"><p>Under preparation.</p>
-<h1 id="head-characters-entry-structure-and-id-system">
-  Head Characters, Entry Structure, and ID System
-  <a class="anchor" href="#head-characters-entry-structure-and-id-system">#</a>
+<h1 id="headwords-entry-structure-and-id-system">
+  Headwords, Entry Structure, and ID System
+  <a class="anchor" href="#headwords-entry-structure-and-id-system">#</a>
 </h1>
-<p>このセクションでは、名義抄の項目の構造と、それを識別するためのID体系について説明する。</p>
-<h2 id="掲出字と掲出項目の定義">
-  掲出字と掲出項目の定義
-  <a class="anchor" href="#%e6%8e%b2%e5%87%ba%e5%ad%97%e3%81%a8%e6%8e%b2%e5%87%ba%e9%a0%85%e7%9b%ae%e3%81%ae%e5%ae%9a%e7%be%a9">#</a>
+<p>This section explains the structure of <strong><code>Entries</code></strong> in the <em>Myōgishō</em> and the ID system used to identify them.</p>
+<h2 id="definitions-of-headwords-and-entries">
+  Definitions of Headwords and Entries
+  <a class="anchor" href="#definitions-of-headwords-and-entries">#</a>
 </h2>
-<p><strong>掲出字</strong>（Headword Character(s)）とは、見出しの漢字そのものである。
-<strong>掲出項目</strong>（Entry）とは、辞書の項目単位である。</p>
-<p>名義抄において一つの掲出項目は、<strong>単字</strong>または<strong>複字</strong>（多字）からなる。</p>
-<p>掲出項目の立て方には、
-単字による<strong>単字形式</strong>と、複字による<strong>複字形式</strong>との二つがある。</p>
-<p>複字形式には、<strong>熟語</strong>のものと<strong>異体字併記</strong>のものがある。</p>
-<p>次に単字形式、複字形式の2種の例をいくつか示す。</p>
-<p><strong>例</strong></p>
+<p>A <strong><code>Headword</code></strong> refers to the <strong><code>Chinese character</code></strong> or string of <strong><code>Chinese characters</code></strong> that forms the heading.
+An <strong><code>Entry</code></strong> is the basic unit of the dictionary, typically consisting of a <strong><code>Headword</code></strong> and its associated <strong><code>Original Glosses</code></strong>.</p>
+<p>In the <em>Myōgishō</em>, the <strong><code>Headword</code></strong> of an <strong><code>Entry</code></strong> consists of either a <strong>single <code>Chinese character</code></strong> or <strong>multiple <code>Chinese characters</code></strong> (a multi-character compound).</p>
+<p><strong><code>Entries</code></strong> are presented in two forms based on their <strong><code>Headwords</code></strong>:</p>
 <ul>
-<li>単字形式：人、何</li>
-<li>複字形式（熟語）：一人、二人、何如、如何</li>
-<li>複字形式（異体字併記）：爲為、羱𦍘</li>
+<li><strong><code>Single Character Form</code></strong>: When the <strong><code>Headword</code></strong> is a single <strong><code>Chinese character</code></strong>.</li>
+<li><strong><code>Multi-Character Form</code></strong>: When the <strong><code>Headword</code></strong> consists of multiple <strong><code>Chinese characters</code></strong>.</li>
 </ul>
-<p>複字形式の熟語と異体字併記との区別は、注文の記述によって決定される。
-異体字併記の例に示した「爲為」は、その注文に「正今」とあり、「爲」が「正」、「為」が「今」の異体関係となることが分かる。
-同様に「羱𦍘」も注文に「正俗」とあり、「羱」が「正」、「𦍘」が「俗」の異体関係となることが分かる。</p>
-<h2 id="掲出項目の配置の原則と例外">
-  掲出項目の配置の原則と例外
-  <a class="anchor" href="#%e6%8e%b2%e5%87%ba%e9%a0%85%e7%9b%ae%e3%81%ae%e9%85%8d%e7%bd%ae%e3%81%ae%e5%8e%9f%e5%89%87%e3%81%a8%e4%be%8b%e5%a4%96">#</a>
+<p><strong><code>Multi-Character Form</code></strong> <strong><code>Entries</code></strong> include those for <strong>idioms (or compounds)</strong> and those that <strong>co-list <code>variant characters</code> (<em>itaiji</em>)</strong>.</p>
+<p>Below are some examples of these two forms:</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li><strong><code>Single Character Form</code></strong>: 人, 何</li>
+<li><strong><code>Multi-Character Form</code></strong> (idioms/compounds): 一人, 二人, 何如, 如何</li>
+<li><strong><code>Multi-Character Form</code></strong> (co-listing <strong><code>variant characters</code> (<em>itaiji</em>)</strong>): 爲為, 羱𦍘</li>
+</ul>
+<p>The distinction between <strong><code>Multi-Character Form</code></strong> <strong><code>Entries</code></strong> for idioms/compounds and those co-listing <strong><code>variant characters</code> (<em>itaiji</em>)</strong> is determined by the content of the <strong><code>Original Glosses</code></strong>.
+For example, in &lsquo;爲為&rsquo;, which co-lists <strong><code>variant characters</code> (<em>itaiji</em>)</strong>, the <strong><code>Original Glosses</code></strong> contain the <strong><code>Form Classification Tag</code></strong> &lsquo;正今&rsquo; (<em>sei kin</em>). This indicates that &lsquo;爲&rsquo; is the &lsquo;standard&rsquo; (<em>sei</em>) form and &lsquo;為&rsquo; is the &lsquo;current/modern&rsquo; (<em>kin</em>) form, thus establishing their relationship as variants.
+Similarly, for &lsquo;羱𦍘&rsquo;, the <strong><code>Original Glosses</code></strong> contain the <strong><code>Form Classification Tag</code></strong> &lsquo;正俗&rsquo; (<em>sei zoku</em>), indicating that &lsquo;羱&rsquo; is the &lsquo;standard&rsquo; (<em>sei</em>) form and &lsquo;𦍘&rsquo; is the &lsquo;popular/vulgar&rsquo; (<em>zoku</em>) form, confirming their variant relationship.</p>
+<h2 id="principles-and-exceptions-in-the-arrangement-of-entries">
+  Principles and Exceptions in the Arrangement of Entries
+  <a class="anchor" href="#principles-and-exceptions-in-the-arrangement-of-entries">#</a>
 </h2>
-<p>名義抄の1頁は、8行4段から構成される。
-言い換えれば、1頁には縦8行、横4列、合計32個の記入欄が配置される。</p>
-<p>1項目は、1個の記入欄に記述される1段1項目が圧倒的多数を占める。</p>
-<p>説明が長文となる場合は、2個以上の記入欄を使用して記述され、
-2段以上になったり、2行以上になったりすることとなる。
-この多段1項目の例も頻繁に出現する。
-説明が長文でも1頁を超えて記述されることはない。
-つまり、1個の記入欄に記入される項目は1項目以下であるのが原則である。</p>
-<p>例外として1段の中に2項目が記述されることがある。
-この1段多項目は、全体からみたら、1％にもならない。</p>
-<p>以上の原則と例外を踏まえて、名義抄のID体系を解説する。
-名義抄のID体系の説明が複雑となるが、それは1段の中に2項目が記述されることに起因しているので、
-このデータの利用者は、特にこの点に注意されたい。</p>
-<h2 id="名義抄のid体系">
-  名義抄のID体系
-  <a class="anchor" href="#%e5%90%8d%e7%be%a9%e6%8a%84%e3%81%aeid%e4%bd%93%e7%b3%bb">#</a>
+<p>A single page in the <em>Myōgishō</em> is typically composed of 8 lines (rows) and 4 segments (columns per line). In other words, each page has a layout of 8 vertical lines and 4 horizontal segments, totaling 32 cells (or blocks) for entries.</p>
+<p>The overwhelming majority of <strong><code>Entries</code></strong> are &ldquo;single-segment, single-entry&rdquo; (一段一項目, <em>ichidan ikkōmoku</em>), meaning one <strong><code>Entry</code></strong> is written within a single cell.</p>
+<p>When an explanation (i.e., the <strong><code>Original Glosses</code></strong>) is lengthy, it may occupy two or more cells, extending over multiple segments or multiple lines. Such &ldquo;multi-segment, single-entry&rdquo; (多段一項目, <em>tadan ikkōmoku</em>) instances also appear frequently. However, even with lengthy explanations, an <strong><code>Entry</code></strong> never extends beyond a single page.
+Thus, the general principle is that a single cell contains one <strong><code>Entry</code></strong> or less.</p>
+<p>As an exception, two <strong><code>Entries</code></strong> may occasionally be found within a single segment. These &ldquo;single-segment, multi-entry&rdquo; (一段多項目, <em>ichidan takōmoku</em>) cases account for less than 1% of the total.</p>
+<p>Bearing these principles and exceptions in mind, we will now explain the ID system for the <em>Myōgishō</em>.
+The complexity of the <em>Myōgishō</em>&rsquo;s ID system stems largely from this occasional practice of recording two <strong><code>Entries</code></strong> within a single segment, a point to which users of this data should pay particular attention.</p>
+<h2 id="id-system-of-the-myōgishō">
+  ID System of the <em>Myōgishō</em>
+  <a class="anchor" href="#id-system-of-the-my%c5%8dgish%c5%8d">#</a>
 </h2>
-<h3 id="idの種類">
-  IDの種類
-  <a class="anchor" href="#id%e3%81%ae%e7%a8%ae%e9%a1%9e">#</a>
+<h3 id="types-of-ids">
+  Types of IDs
+  <a class="anchor" href="#types-of-ids">#</a>
 </h3>
-<p>名義抄のデータでは、主に次のカラムにより項目や文字位置を管理する。</p>
+<p>In the <em>Myōgishō</em> data, <strong><code>Entries</code></strong> and individual character positions within <strong><code>Headwords</code></strong> are primarily managed by the following columns:</p>
 <ul>
-<li>掲出項目ID (entry_id - 例: F00001) F形式</li>
-<li>掲出字ID (hanzi_id - 例: S00001) S形式</li>
-<li>風間版所在 (kazama_location - 例: K0100131) K形式</li>
-<li>天理版所在 (tenri_location - 例: Ta023310) T形式</li>
+<li><strong><code>Entry</code></strong> ID (<code>entry_id</code> - e.g., F00001) - F-format</li>
+<li><strong><code>Headword</code></strong> Character ID (<code>hanzi_id</code> - e.g., S00001) - S-format</li>
+<li>Kazama Edition Location (<code>kazama_location</code> - e.g., K0100131) - K-format</li>
+<li>Tenri Edition Location (<code>tenri_location</code> - e.g., Ta023310) - T-format</li>
 </ul>
-<h3 id="各カラムの関係性">
-  各カラムの関係性
-  <a class="anchor" href="#%e5%90%84%e3%82%ab%e3%83%a9%e3%83%a0%e3%81%ae%e9%96%a2%e4%bf%82%e6%80%a7">#</a>
+<h3 id="relationship-between-columns">
+  Relationship Between Columns
+  <a class="anchor" href="#relationship-between-columns">#</a>
 </h3>
-<p>掲出項目ID (entry_id) は、それを構成する一つ以上の掲出字ID (hanzi_id) を識別する。</p>
-<p>掲出字ID (hanzi_id) は、データ上の各文字位置を一意に識別する主キーである。</p>
-<p>各掲出字ID (hanzi_id) には、対応する所在ID（風間版、天理版）が紐づく。</p>
-<p>この4種のIDの設定により、名義抄の掲出項目の多様性に対応した上で、
-複数の影印本の利用が容易となる。そのため、
-F形式、S形式、K形式、T形式の説明は重複を厭わず、その都度行っている。</p>
-<h3 id="主要idの詳細形式">
-  主要IDの詳細形式
-  <a class="anchor" href="#%e4%b8%bb%e8%a6%81id%e3%81%ae%e8%a9%b3%e7%b4%b0%e5%bd%a2%e5%bc%8f">#</a>
+<p>The <strong><code>Entry</code></strong> ID (<code>entry_id</code>) identifies one or more <strong><code>Headword</code></strong> Character IDs (<code>hanzi_id</code>) that constitute the <strong><code>Headword</code></strong> of that <strong><code>Entry</code></strong>.</p>
+<p>The <strong><code>Headword</code></strong> Character ID (<code>hanzi_id</code>) is the primary key that uniquely identifies each individual character position within the data structure (particularly in files like <code>krm_headword_chars</code>).</p>
+<p>Each <strong><code>Headword</code></strong> Character ID (<code>hanzi_id</code>) is linked to corresponding location IDs (for the Kazama and Tenri editions).</p>
+<p>The establishment of these four types of IDs accommodates the diversity of <strong><code>Entries</code></strong> in the <em>Myōgishō</em> and facilitates the use of multiple facsimile editions. For this reason, explanations of the F-format, S-format, K-format, and T-format IDs are provided repeatedly as needed, even if it involves some redundancy.</p>
+<h3 id="detailed-format-of-primary-ids">
+  Detailed Format of Primary IDs
+  <a class="anchor" href="#detailed-format-of-primary-ids">#</a>
 </h3>
-<h4 id="掲出項目id-entry_id--f形式">
-  掲出項目ID (entry_id / F形式)
-  <a class="anchor" href="#%e6%8e%b2%e5%87%ba%e9%a0%85%e7%9b%aeid-entry_id--f%e5%bd%a2%e5%bc%8f">#</a>
+<h4 id="entry-id-entry_id--f-format">
+  <strong><code>Entry</code></strong> ID (<code>entry_id</code> / F-format)
+  <a class="anchor" href="#entry-id-entry_id--f-format">#</a>
 </h4>
-<p><strong>形式</strong>：
-掲出項目ID（entry_id）はFで始まる5桁の数値。F00001からF32604までの連番である。
-一部、追加した掲出項目にはb番号を付す。
-なお、このb番号は、次の掲出字IDに付すことがあるが、それとは無関係に付されるものである。</p>
-<p><strong>目的</strong>：
-名義抄の一項目を一意に識別する。</p>
-<h4 id="掲出字id-hanzi_id--s形式">
-  掲出字ID (hanzi_id / S形式)
-  <a class="anchor" href="#%e6%8e%b2%e5%87%ba%e5%ad%97id-hanzi_id--s%e5%bd%a2%e5%bc%8f">#</a>
+<p><strong>Format:</strong>
+The <strong><code>Entry</code></strong> ID (<code>entry_id</code>) is a 5-digit number prefixed with &lsquo;F&rsquo;, forming a sequential series from F00001 to F32604.
+For some additionally inserted <strong><code>Entries</code></strong>, a &lsquo;b&rsquo; suffix is appended to the numeric part of the ID.
+It should be noted that while a &lsquo;b&rsquo; suffix may also be appended to the <strong><code>Headword</code></strong> Character ID (<code>hanzi_id</code> described below), the &lsquo;b&rsquo; suffix for an <code>entry_id</code> is assigned independently of any &lsquo;b&rsquo; suffix on a <code>hanzi_id</code>.</p>
+<p><strong>Purpose:</strong>
+To uniquely identify each <strong><code>Entry</code></strong> in the <em>Myōgishō</em>.</p>
+<h4 id="headword-character-id-hanzi_id--s-format">
+  <strong><code>Headword</code></strong> Character ID (<code>hanzi_id</code> / S-format)
+  <a class="anchor" href="#headword-character-id-hanzi_id--s-format">#</a>
 </h4>
-<p><strong>形式</strong>：
-掲出字ID（hanzi_id）はSに始まる5桁の数値。S00001からS42328までの連番。
-S形式。
-一部、追加した掲出字にはb番号を付す。
-なお、このb番号は、前述の掲出項目IDに付すことがあるが、それとは無関係に付されるものである。</p>
-<p><strong>目的</strong>：
-データ上の各掲出字（文字位置）を一意に識別する主キーである。</p>
-<p><strong>補足</strong>
-2字目以降の掲出字を含めたすべての掲出字IDを一覧したデータは別に用意する（krm_headword_chars.tsv、詳細は別に述べる）。</p>
-<h4 id="風間版所在-kazama_location--k形式">
-  風間版所在 (kazama_location / K形式)：
-  <a class="anchor" href="#%e9%a2%a8%e9%96%93%e7%89%88%e6%89%80%e5%9c%a8-kazama_location--k%e5%bd%a2%e5%bc%8f">#</a>
+<p><strong>Format:</strong>
+The <strong><code>Headword</code></strong> Character ID (<code>hanzi_id</code>) is a 5-digit number prefixed with &lsquo;S&rsquo;, forming a sequential series from S00001 to S42328. This is the S-format.
+For some additionally inserted <strong><code>Headword</code></strong> characters, a &lsquo;b&rsquo; suffix is appended to the numeric part of the ID.
+It should be noted that while a &lsquo;b&rsquo; suffix may also be appended to the <strong><code>Entry</code></strong> ID (<code>entry_id</code> mentioned above), the &lsquo;b&rsquo; suffix for a <code>hanzi_id</code> is assigned independently of any &lsquo;b&rsquo; suffix on an <code>entry_id</code>.</p>
+<p><strong>Purpose:</strong>
+To serve as the primary key that uniquely identifies each individual <strong><code>Headword</code></strong> character (i.e., each character position) within the dataset.</p>
+<p><strong>Supplement:</strong>
+A separate data file lists all <strong><code>Headword</code></strong> Character IDs (<code>hanzi_id</code>), including those for the second and subsequent characters in multi-character <strong><code>Headwords</code></strong>. This file is <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-03-headword-chars/"><code>krm_headword_chars</code></a>, the details of which are described elsewhere.</p>
+<h4 id="kazama-edition-location-kazama_location--k-format">
+  Kazama Edition Location (<code>kazama_location</code> / K-format)
+  <a class="anchor" href="#kazama-edition-location-kazama_location--k-format">#</a>
 </h4>
-<p><strong>形式</strong>：
-K + 巻数(2桁) + 風間版頁数(3桁) + 行数(1桁) + 段数(1桁) + 字順 (1桁)。
-K形式。</p>
-<p><strong>字順 (1桁):</strong>
-その段における、項目の種類と出現順序に基づいて付与される番号である。
-字順は文字単位の基準であるが、項目の先頭文字の位置を用いて
-掲出項目の所在地を示す。</p>
-<p>字順が文字単位の基準を用いているのは、特に、
-1段（1マスとも言える）の記入欄に2個以上の掲出項目が記述されるという、
-掲出項目の配置の例外に対処するためである。</p>
-<p>字順を文字単位の基準を代表として用いるために、次の
-字順決定のルールを定める。</p>
+<p><strong>Format:</strong>
+K + Volume (2 digits) + Kazama Edition Page number (3 digits) + Line number (1 digit) + Segment number (1 digit) + Character Order (1 digit).
+This is the K-format.</p>
+<p><strong>Character Order (1 digit):</strong>
+This digit is a number assigned based on the type of <strong><code>Entry</code></strong> (single-character or multi-character) and its order of appearance within that segment.
+While the &ldquo;Character Order&rdquo; is fundamentally a criterion based on individual character positions, it is used here to indicate the location of an <strong><code>Entry</code></strong> by referencing the position of the <strong>first character</strong> of that <strong><code>Entry</code></strong> within the segment.</p>
+<p>The use of a character-position-based criterion for this &ldquo;Character Order&rdquo; digit is specifically to address the exceptional cases where two or more <strong><code>Entries</code></strong> are recorded within a single segment (which can also be thought of as a single cell or block in the layout).</p>
+<p>To apply this character-position-based criterion representatively for the &ldquo;Character Order,&rdquo; the following rules for determining this digit have been established:</p>
 <ul>
-<li><strong>ケース1: その段に項目が一つのみの場合</strong>
+<li><strong>Case 1: If there is only one <code>Entry</code> in the segment</strong>
 <ul>
-<li>その項目が単字項目であれば、字順は <strong>0</strong> 。</li>
-<li>その項目が複字項目であれば、字順は <strong>1</strong> 。</li>
+<li>If the <strong><code>Entry</code></strong> is a <strong><code>single-character Entry</code></strong>, the Character Order is <strong>0</strong>.</li>
+<li>If the <strong><code>Entry</code></strong> is a <strong><code>multi-character Entry</code></strong>, the Character Order is <strong>1</strong>.</li>
 </ul>
 </li>
-<li><strong>ケース2: その段に項目が二つ以上ある場合</strong>
+<li><strong>Case 2: If there are two or more <code>Entries</code> in the segment</strong>
 <ul>
-<li>その段の<strong>最初の項目</strong>であれば、字順は <strong>1</strong> 。</li>
-<li>その段の<strong>2番目以降の項目</strong>であれば、字順は <strong>その項目の最初の文字が、段の先頭から数えて何番目に出現するか</strong> を示す（段の先頭を1字目として数えた通し番号）。</li>
+<li>For the <strong>first <code>Entry</code></strong> in the segment, the Character Order is <strong>1</strong>.</li>
+<li>For the <strong>second or subsequent <code>Entries</code></strong> in the segment, the Character Order indicates <strong>the position of the first character of that <code>Entry</code>, counted sequentially from the beginning of the segment</strong> (where the first character position in the segment is counted as 1).</li>
 </ul>
 </li>
 </ul>
-<p>一つの段に「A」「BC」とあり、Aが段の1字目、Bが2字目、Cが3字目の場合とする。項目BCは2番目の項目、その最初の文字はB、そのBは段の2字目である。よってCDの字順は2となる。
-また、一つの段に「AB」「CD」とあり、Aが段の1字目、Bが2字目、Cが3字目、Dが4字目の場合とする。項目CDは2番目の項目、その最初の文字はC、そのCは段の3字目である。よってCDの字順は3となる。</p>
-<p><strong>例</strong></p>
+<p>For example, consider a segment containing &lsquo;A&rsquo; and then &lsquo;BC&rsquo;, where &lsquo;A&rsquo; is the 1st character in the segment, &lsquo;B&rsquo; is the 2nd, and &lsquo;C&rsquo; is the 3rd. The <strong><code>Entry</code></strong> &lsquo;BC&rsquo; is the second <strong><code>Entry</code></strong> in this segment. Its first character is &lsquo;B&rsquo;, which is the 2nd character from the beginning of the segment. Therefore, the Character Order for the <strong><code>Entry</code></strong> &lsquo;BC&rsquo; is <strong>2</strong>.
+Alternatively, consider a segment containing &lsquo;AB&rsquo; and then &lsquo;CD&rsquo;, where &lsquo;A&rsquo; is the 1st character, &lsquo;B&rsquo; the 2nd, &lsquo;C&rsquo; the 3rd, and &lsquo;D&rsquo; the 4th. The <strong><code>Entry</code></strong> &lsquo;CD&rsquo; is the second <strong><code>Entry</code></strong> in this segment. Its first character is &lsquo;C&rsquo;, which is the 3rd character from the beginning of the segment. Therefore, the Character Order for the <strong><code>Entry</code></strong> &lsquo;CD&rsquo; is <strong>3</strong>.</p>
+<p><strong>Examples of <code>kazama_location</code> IDs:</strong></p>
 <ul>
-<li>K01001310: (単字項目、1段1項目) 巻1 頁1 行3 段1 <strong>字順0</strong></li>
-<li>K08084411: (複字項目、1段1項目) 巻8 頁84 行4 段1 <strong>字順1</strong></li>
-<li>K01004241: (段内に複数項目ある場合の<strong>最初の項目</strong>) 巻1 頁4 行2 段4 <strong>字順1</strong></li>
-<li>K01004242: (段内に複数項目ある場合の<strong>段内の2字目から始まる項目</strong>) 巻1 頁4 行2 段4 <strong>字順2</strong></li>
-<li>K01008341: (段内に複数項目ある場合の<strong>最初の項目</strong>) 巻1 頁8 行3 段4 <strong>字順1</strong></li>
-<li>K01008343: (段内に複数項目ある場合の<strong>段内の3字目から始まる項目</strong>) 巻1 頁8 行3 段4 <strong>字順3</strong></li>
+<li><code>K01001310</code>: (Indicates a <strong><code>single-character Entry</code></strong>, one <strong><code>Entry</code></strong> per segment) Volume 1, Page 1, Line 3, Segment 1, <strong>Character Order 0</strong>.</li>
+<li><code>K08084411</code>: (Indicates a <strong><code>multi-character Entry</code></strong>, one <strong><code>Entry</code></strong> per segment) Volume 8, Page 84, Line 4, Segment 1, <strong>Character Order 1</strong>.</li>
+<li><code>K01004241</code>: (Indicates the <strong>first <code>Entry</code></strong> when multiple <strong><code>Entries</code></strong> are in the segment) Volume 1, Page 4, Line 2, Segment 4, <strong>Character Order 1</strong>.</li>
+<li><code>K01004242</code>: (Indicates an <strong><code>Entry</code></strong> starting from the <strong>2nd character position</strong> within the segment, when multiple <strong><code>Entries</code></strong> are in the segment) Volume 1, Page 4, Line 2, Segment 4, <strong>Character Order 2</strong>.</li>
+<li><code>K01008341</code>: (Indicates the <strong>first <code>Entry</code></strong> when multiple <strong><code>Entries</code></strong> are in the segment) Volume 1, Page 8, Line 3, Segment 4, <strong>Character Order 1</strong>.</li>
+<li><code>K01008343</code>: (Indicates an <strong><code>Entry</code></strong> starting from the <strong>3rd character position</strong> within the segment, when multiple <strong><code>Entries</code></strong> are in the segment) Volume 1, Page 8, Line 3, Segment 4, <strong>Character Order 3</strong>.</li>
 </ul>
-<p><strong>目的</strong>：風間版における掲出項目の所在地を示す。主に使用される1段1項目、頻繁に出現する多段1項目、そして稀な1段多項目といった、様々な掲出項目の配置パターンすべてに対応できるよう、文字位置の表示ルールに基づいて定められている。</p>
-<p><strong>出典</strong>：正宗敦夫編『類聚名義抄　第一巻』（風間書房、1954年）に基づく。</p>
-<h4 id="天理版所在-tenri_location--t形式">
-  天理版所在 (tenri_location / T形式)
-  <a class="anchor" href="#%e5%a4%a9%e7%90%86%e7%89%88%e6%89%80%e5%9c%a8-tenri_location--t%e5%bd%a2%e5%bc%8f">#</a>
+<p><strong>Purpose:</strong>
+To indicate the location of an <strong><code>Entry</code></strong> in the Kazama Edition. This ID system is determined based on rules for indicating character position, designed to accommodate all various arrangement patterns of <strong><code>Entries</code></strong>: the primarily used &ldquo;single-segment, single-entry&rdquo; arrangement; the frequently occurring &ldquo;multi-segment, single-entry&rdquo; arrangement; and the rare &ldquo;single-segment, multi-entry&rdquo; arrangement.</p>
+<p><strong>Source:</strong>
+Based on <em>Ruiju Myōgishō, Daiikkan</em> (類聚名義抄　第一巻, Ruiju Myōgishō, Vol. 1), edited by Masamune Atsuo (Tokyo: Kazama Shobō, 1954).</p>
+<h4 id="tenri-edition-location-tenri_location--t-format">
+  Tenri Edition Location (<code>tenri_location</code> / T-format)
+  <a class="anchor" href="#tenri-edition-location-tenri_location--t-format">#</a>
 </h4>
-<p>天理版所在は、風間版所在のK形式の決定方法と同様の考えに従い、
-形式、字順、目的を次のように定める。</p>
-<p><strong>形式</strong>：T + 巻数（a/b/c） + ページ数（3桁） + 行数（1桁） + 段数(1桁) + 字順 (1桁) 。
-T形式。</p>
-<p><strong>字順 (1桁):</strong>
-その段における、項目の種類と出現順序に基づいて付与される番号である。
-字順は文字単位の基準であるが、この文字単位の基準を代表として用いて
-掲出項目の所在地を示す。</p>
-<p>字順が文字単位の基準を用いているのは、特に、
-1段（1マスとも言える）の記入欄に2個以上の掲出項目が記述されるという、
-掲出項目の配置の例外に対処するためである。</p>
-<p>字順を文字単位の基準を代表として用いるために、次の
-字順決定のルールを定める。</p>
+<p>The Tenri Edition Location (<code>tenri_location</code>) follows principles similar to those for determining the K-format of the Kazama Edition Location. Its format, Character Order, and purpose are defined as follows:</p>
+<p><strong>Format:</strong>
+T + Volume (a/b/c) + Page number (3 digits) + Line number (1 digit) + Segment number (1 digit) + Character Order (1 digit).
+This is the T-format.</p>
+<p><strong>Character Order (1 digit):</strong>
+This digit is a number assigned based on the type of <strong><code>Entry</code></strong> (single-character or multi-character) and its order of appearance within that segment.
+While the &ldquo;Character Order&rdquo; is fundamentally a criterion based on individual character positions, it is used here to indicate the location of an <strong><code>Entry</code></strong> by referencing the position of the <strong>first character</strong> of that <strong><code>Entry</code></strong> within the segment.</p>
+<p>The use of a character-position-based criterion for this &ldquo;Character Order&rdquo; digit is specifically to address the exceptional cases where two or more <strong><code>Entries</code></strong> are recorded within a single segment (which can also be thought of as a single cell or block in the layout).</p>
+<p>To apply this character-position-based criterion representatively for the &ldquo;Character Order,&rdquo; the following rules for determining this digit have been established:</p>
 <ul>
-<li><strong>ケース1: その段に項目が一つのみの場合</strong>
+<li><strong>Case 1: If there is only one <code>Entry</code> in the segment</strong>
 <ul>
-<li>その項目が単字項目であれば、字順は <strong>0</strong> 。</li>
-<li>その項目が複字項目であれば、字順は <strong>1</strong> 。</li>
+<li>If the <strong><code>Entry</code></strong> is a <strong><code>single-character Entry</code></strong>, the Character Order is <strong>0</strong>.</li>
+<li>If the <strong><code>Entry</code></strong> is a <strong><code>multi-character Entry</code></strong>, the Character Order is <strong>1</strong>.</li>
 </ul>
 </li>
-<li><strong>ケース2: その段に項目が二つ以上ある場合</strong>
+<li><strong>Case 2: If there are two or more <code>Entries</code> in the segment</strong>
 <ul>
-<li>その段落の<strong>最初の項目</strong>であれば、字順は <strong>1</strong> 。</li>
-<li>その段落の<strong>2番目以降の項目</strong>であれば、字順は <strong>その項目の最初の文字が、段落の先頭から数えて何番目に出現するか</strong> を示す（段の先頭を1字目として数えた通し番号）。</li>
+<li>For the <strong>first <code>Entry</code></strong> in the segment, the Character Order is <strong>1</strong>.</li>
+<li>For the <strong>second or subsequent <code>Entries</code></strong> in the segment, the Character Order indicates <strong>the position of the first character of that <code>Entry</code>, counted sequentially from the beginning of the segment</strong> (where the first character position in the segment is counted as 1).</li>
 </ul>
 </li>
 </ul>
-<p>天理版所在の示し方は、風間版所在の示し方と同様の考え方に基づいている。風間版所在の説明に用いた例を
-天理版所在として示すと次のようになる。</p>
-<p><strong>例</strong></p>
+<p>The method for indicating the Tenri Edition Location is based on the same principles as that for the Kazama Edition Location. The examples used to explain the Kazama Edition Location, if shown as Tenri Edition Locations, would be as follows (using hypothetical Tenri IDs for illustration, actual examples below):</p>
+<p><strong>Examples of <code>tenri_location</code> IDs:</strong></p>
 <ul>
-<li>Ta023310: (単字項目、1段1項目) 上巻 頁23 行3 段1 <strong>字順0</strong></li>
-<li>Tc090411: (複字項目、1段1項目) 下巻 頁90 行4 段1 <strong>字順1</strong></li>
-<li>Ta026241: (段内に複数項目ある場合の<strong>最初の項目</strong>) 上巻 頁26 行2 段4 <strong>字順1</strong></li>
-<li>Ta026242: (段内に複数項目ある場合の<strong>段内の2字目から始まる項目</strong>) 上巻 頁26 行2 段4 <strong>字順2</strong></li>
-<li>Ta030341: (段内に複数項目ある場合の<strong>最初の項目</strong>) 上巻 頁30 行3 段4 <strong>字順1</strong></li>
-<li>Ta030343: (段内に複数項目ある場合の<strong>段内の3字目から始まる項目</strong>) 上巻 頁30 行3 段4 <strong>字順3</strong></li>
+<li><code>Ta023310</code>: (Indicates a <strong><code>single-character Entry</code></strong>, one <strong><code>Entry</code></strong> per segment) Upper Volume (上巻), Page 23, Line 3, Segment 1, <strong>Character Order 0</strong>.</li>
+<li><code>Tc090411</code>: (Indicates a <strong><code>multi-character Entry</code></strong>, one <strong><code>Entry</code></strong> per segment) Lower Volume (下巻), Page 90, Line 4, Segment 1, <strong>Character Order 1</strong>.</li>
+<li><code>Ta026241</code>: (Indicates the <strong>first <code>Entry</code></strong> when multiple <strong><code>Entries</code></strong> are in the segment) Upper Volume (上巻), Page 26, Line 2, Segment 4, <strong>Character Order 1</strong>.</li>
+<li><code>Ta026242</code>: (Indicates an <strong><code>Entry</code></strong> starting from the <strong>2nd character position</strong> within the segment, when multiple <strong><code>Entries</code></strong> are in the segment) Upper Volume (上巻), Page 26, Line 2, Segment 4, <strong>Character Order 2</strong>.</li>
+<li><code>Ta030341</code>: (Indicates the <strong>first <code>Entry</code></strong> when multiple <strong><code>Entries</code></strong> are in the segment) Upper Volume (上巻), Page 30, Line 3, Segment 4, <strong>Character Order 1</strong>.</li>
+<li><code>Ta030343</code>: (Indicates an <strong><code>Entry</code></strong> starting from the <strong>3rd character position</strong> within the segment, when multiple <strong><code>Entries</code></strong> are in the segment) Upper Volume (上巻), Page 30, Line 3, Segment 4, <strong>Character Order 3</strong>.</li>
 </ul>
-<p><strong>目的</strong>：天理版における掲出項目の所在地を示す。
-主に使用される1段1項目、頻繁に出現する多段1項目、そして稀な1段多項目といった、様々な掲出項目の配置パターンすべてに対応できるよう、文字位置の表示ルールに基づいて定められている。</p>
-<p><strong>出典</strong>：『類聚名義抄　仏・法・僧』（天理図書館善本叢書和書之部第32-34巻、天理大学出版部・八木書店発売）に基づく。</p>
-<h3 id="掲出字の入力方法">
-  掲出字の入力方法
-  <a class="anchor" href="#%e6%8e%b2%e5%87%ba%e5%ad%97%e3%81%ae%e5%85%a5%e5%8a%9b%e6%96%b9%e6%b3%95">#</a>
+<p><strong>Purpose:</strong>
+To indicate the location of an <strong><code>Entry</code></strong> in the Tenri Edition. This ID system is determined based on rules for indicating character position, designed to accommodate all various arrangement patterns of <strong><code>Entries</code></strong>: the primarily used &ldquo;single-segment, single-entry&rdquo; arrangement; the frequently occurring &ldquo;multi-segment, single-entry&rdquo; arrangement; and the rare &ldquo;single-segment, multi-entry&rdquo; arrangement.</p>
+<p><strong>Source:</strong>
+Based on <em>Ruiju Myōgishō: Butsu, Hō, Sō</em> (類聚名義抄　仏・法・僧; Tenri Toshokan Zenpon Sōsho, Washo no Bu, vols. 32-34; Tenri Daigaku Shuppanbu, distributed by Yagi Shoten).</p>
+<h2 id="input-method-for-headwords">
+  Input Method for <code>Headwords</code>
+  <a class="anchor" href="#input-method-for-headwords">#</a>
+</h2>
+<p><strong><code>Headwords</code></strong> are input into the <code>hanzi_entry</code> column.</p>
+<p><strong><code>Entries</code></strong> have <strong><code>Headwords</code></strong> that can be in either <strong><code>Single Character Form</code></strong> or <strong><code>Multi-Character Form</code></strong>. As the <strong><code>Single Character Form</code></strong> generally does not pose particular input issues, this section will focus on the input method for <strong><code>Headwords</code></strong> in <strong><code>Multi-Character Form</code></strong>.</p>
+<p>For <strong><code>Multi-Character Form</code></strong> <strong><code>Headwords</code></strong>, whether they represent a co-listing of <strong><code>variant characters</code> (<em>itaiji</em>)</strong> or an idiom/compound, the constituent characters of the <strong><code>Headword</code></strong> are input separated by a &lsquo;／&rsquo; (full-width slash, U+FF0F).</p>
+<p>If a <strong><code>Headword</code></strong> in an <strong><code>Entry</code></strong> contains &lsquo;／&rsquo;, this indicates that the <strong><code>Headword</code></strong> is in <strong><code>Multi-Character Form</code></strong>. The number of characters in such a <strong><code>Headword</code></strong> can be determined by the number of segments separated by the &lsquo;／&rsquo; (e.g., one slash results in two segments, indicating two characters).</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>Co-listing of <strong><code>variant characters</code> (<em>itaiji</em>)</strong>: 翛／倐／倏／翛β</li>
+<li>Idiom/compound: 一／人</li>
+</ul>
+<p>For details on how to input characters using Unicode, please refer to the <a href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-02-char/">Character Encoding and Representation</a> section.</p>
+<h3 id="handling-of-ids-in-data-representation">
+  Handling of IDs in Data Representation
+  <a class="anchor" href="#handling-of-ids-in-data-representation">#</a>
 </h3>
-<p>掲出字は、hanzi_entryカラムに入力する。</p>
-<p>掲出項目は単字形式と複字形式があるが、単字形式は特に問題にならないので、
-ここでは複字形式の場合の入力方法について説明する。</p>
-<p>複字形式の掲出項目に見える異体字併記と熟語は、掲出字を「／」（全角スラッシュ, U+FF0F）で区切って入力する。</p>
-<p>掲出項目が「／」を含めば、それは複字形式であることを示し、用いられる「／」の数は複字形式の掲出字数を示す。</p>
-<p><strong>例</strong></p>
+<p>The main entry data for the <em>Myōgishō</em> (e.g., in <code>krm_main.tsv</code>) is published in TSV format.
+This subsection explains how each ID is represented in the TSV files, with a particular focus on the representation rules for <strong><code>Multi-Character Form</code></strong> <strong><code>Entries</code></strong>.
+While some explanations may overlap with those in other sections (such as &ldquo;Detailed Format of Primary IDs,&rdquo; &ldquo;Input Method for <code>Headwords</code>,&rdquo; and the section on <code>krm_headword_chars</code> which details individual headword characters and acts as a mapping table), this information is crucial for processing the TSV-formatted data and is therefore summarized again here.</p>
+<p><strong>TSV Columns and Corresponding IDs:</strong></p>
+<p>The primary TSV files store the following IDs in their respective columns:</p>
 <ul>
-<li>異体字併記：翛／倐／倏／翛β</li>
-<li>熟語：一／人</li>
+<li><code>entry_id</code>: <strong><code>Entry</code></strong> ID (F-format)</li>
+<li><code>hanzi_id</code>: <strong><code>Headword</code></strong> Character ID (S-format)</li>
+<li><code>kazama_location</code>: Kazama Edition Location (K-format)</li>
+<li><code>tenri_location</code>: Tenri Edition Location (T-format)</li>
 </ul>
-<p>Unicodeを利用した文字の入力方法については、
-<a href="https://shikeda.github.io/docs/notes/krm-main/item-input/#%e6%96%87%e5%ad%97%e3%81%ae%e7%ac%a6%e5%8f%b7%e5%8c%96%e3%81%a8%e8%a1%a8%e7%8f%be">文字の符号化と表現</a>を参照されたい。</p>
-<h3 id="データ表現におけるidの扱い">
-  データ表現におけるIDの扱い
-  <a class="anchor" href="#%e3%83%87%e3%83%bc%e3%82%bf%e8%a1%a8%e7%8f%be%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8bid%e3%81%ae%e6%89%b1%e3%81%84">#</a>
-</h3>
-<p>名義抄の主要な項目データ（例：krm_main.tsv）はTSV形式で公開される。
-このセクションでは、各IDがTSVファイル上でどのように表現されるか、特に複字形式の場合の表現ルールについて説明する。
-他のセクション（主要IDの詳細形式、掲出字の入力方法、掲出字の詳細情報（マッピングテーブル）へ移譲）と
-説明が重複するところがあるが、TSV形式のデータ処理には重要な情報となるので、再度まとめる。</p>
-<p><strong>TSVカラムとIDの対応:</strong></p>
-<p>主要なTSVファイルには、次のカラムにそれぞれのIDが格納される。</p>
+<p>IDs other than those listed above (e.g., the <strong><code>Headword</code></strong> Character IDs or location IDs for the second and subsequent characters within a multi-character <strong><code>Headword</code></strong>) are not directly stored in this primary file but can be referenced through a separate mapping table (<code>krm_headword_chars.tsv</code>).</p>
+<p><strong>Data Representation Rules for <code>Multi-Character Form</code> <code>Entries</code></strong></p>
 <ul>
-<li>entry_id: 掲出項目ID (F形式)</li>
-<li>hanzi_id: 掲出字ID (S形式)</li>
-<li>kazama_location: 風間版所在 (K形式)</li>
-<li>tenri_location: 天理版所在 (T形式)</li>
+<li><strong><code>Multi-Character Form</code></strong> <strong><code>Headwords</code></strong> (such as those co-listing <strong><code>variant characters</code> (<em>itaiji</em>)</strong> or representing idioms/compounds) are stored as a string in the <code>hanzi_entry</code> column, with constituent characters separated by a full-width slash (&rsquo;／&rsquo;).</li>
+<li>Regarding the representation of IDs, the main TSV row corresponding to a <strong><code>Multi-Character Form</code></strong> <strong><code>Entry</code></strong> displays only the IDs related to the <strong>first character</strong> of that <strong><code>Headword</code></strong>.</li>
+<li>IDs (S-format, K-format, T-format) related to the second and subsequent characters that constitute the <strong><code>Headword</code></strong> are omitted from this main row.</li>
 </ul>
-<p>上記以外のID（例: 項目を構成する2番目以降の掲出字IDや所在ID）は、この主要ファイルには直接格納されず、
-別のマッピングテーブル（krm_headword_chars.tsv）で参照できる。</p>
-<p><strong>複字形式の項目のデータ表現ルール</strong></p>
+<p><strong>Example:</strong>
+Suppose there is an <strong><code>Entry</code></strong> with the <strong><code>Headword</code></strong> &ldquo;AB&rdquo; (composed of A + B), and their respective IDs are as follows:</p>
 <ul>
-<li>複字形式の掲出項目（異体字併記や熟語）は、hanzi_entry カラムに全角のスラッシュ(&rsquo;／&rsquo;)区切りで文字列として格納される。</li>
-<li>IDの表現に関しては、複字形式の掲出項目に対応するメインのTSV行には、その項目の先頭文字に関連するIDのみが表示される。</li>
-<li>項目を構成する2番目以降の文字に関するID（S形式、K形式、T形式）は、このメインの行では省略される。</li>
+<li><strong><code>Entry</code></strong> ID: F25121</li>
+<li><strong><code>Headword</code></strong> Character ID for A: S31590 (Kazama Edition Location: K08084411, Tenri Edition Location: Tc090411)</li>
+<li><strong><code>Headword</code></strong> Character ID for B: S31591 (Kazama Edition Location: K08084412, Tenri Edition Location: Tc090412)</li>
 </ul>
-<p><strong>例</strong><br>
-掲出項目「AB」（構成：A + B）があり、それぞれのIDが次の通りであるとする。</p>
-<ul>
-<li>掲出項目ID: F25121</li>
-<li>Aの掲出字ID: S31590 (風間版所在: K08084411, 天理版所在: Tc090411)</li>
-<li>Bの掲出字ID: S31591 (風間版所在: K08084412, 天理版所在: Tc090412)</li>
-</ul>
-<p>この項目がTSVファイルで表示される際は、メインの行は次のようになる。関連するカラムのみ示す。</p>
+<p>When this <strong><code>Entry</code></strong> is represented in the TSV file, the main row would appear as follows (showing relevant columns only):</p>
 <table>
   <thead>
       <tr>
@@ -859,18 +846,17 @@ T形式。</p>
       </tr>
   </tbody>
 </table>
-<p>この行には、項目ID、<strong>先頭文字の</strong>掲出字ID、項目全体の文字列、そして<strong>先頭文字の</strong>所在IDのみが含まれていることが分かる。</p>
-<h3 id="掲出字の詳細情報マッピングテーブルへ移譲">
-  掲出字の詳細情報（マッピングテーブル）へ移譲
-  <a class="anchor" href="#%e6%8e%b2%e5%87%ba%e5%ad%97%e3%81%ae%e8%a9%b3%e7%b4%b0%e6%83%85%e5%a0%b1%e3%83%9e%e3%83%83%e3%83%94%e3%83%b3%e3%82%b0%e3%83%86%e3%83%bc%e3%83%96%e3%83%ab%e3%81%b8%e7%a7%bb%e8%ad%b2">#</a>
+<p>It can be seen that this row contains only the <strong><code>Entry</code></strong> ID, the <strong><code>Headword</code></strong> Character ID for the <strong>first character</strong>, the complete <strong><code>Headword</code></strong> string, and the location IDs for the <strong>first character</strong>.</p>
+<h3 id="deferring-detailed-headword-character-information-to-a-mapping-table">
+  Deferring Detailed Headword Character Information to a Mapping Table
+  <a class="anchor" href="#deferring-detailed-headword-character-information-to-a-mapping-table">#</a>
 </h3>
-<p>掲出字に関する次の情報のすべてをマッピングテーブル（krm_headword_chars.tsv）へ移譲する。</p>
+<p>All of the following detailed information pertaining to <strong><code>Headword</code></strong> characters is deferred to the mapping table <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-03-headword-chars/"><code>krm_headword_chars</code></a>:</p>
 <ul>
-<li>各掲出字ID（S形式）に対応する、より詳細な位置情報（K形式、T形式）のリスト全体</li>
-<li>個々の掲出字（S形式）に対応する、切り抜き画像ファイル名</li>
-<li>個々の掲出字（S形式）に対応する、GlyphWikiのグリフ番号</li>
+<li>The complete list of more detailed location information (K-format, T-format) corresponding to each <strong><code>Headword</code></strong> Character ID (S-format).</li>
+<li>The cropped image file name corresponding to each individual <strong><code>Headword</code></strong> character (S-format).</li>
 </ul>
-<p>これらの情報が必要な利用者は、krm_headword_chars.tsv を参照する必要がある。</p>
+<p>Users who require this information will need to consult <code>krm_headword_chars.tsv</code>.</p>
 </article>
  
       
@@ -907,16 +893,19 @@ T形式。</p>
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#掲出字と掲出項目の定義">掲出字と掲出項目の定義</a></li>
-    <li><a href="#掲出項目の配置の原則と例外">掲出項目の配置の原則と例外</a></li>
-    <li><a href="#名義抄のid体系">名義抄のID体系</a>
+    <li><a href="#definitions-of-headwords-and-entries">Definitions of Headwords and Entries</a></li>
+    <li><a href="#principles-and-exceptions-in-the-arrangement-of-entries">Principles and Exceptions in the Arrangement of Entries</a></li>
+    <li><a href="#id-system-of-the-myōgishō">ID System of the <em>Myōgishō</em></a>
       <ul>
-        <li><a href="#idの種類">IDの種類</a></li>
-        <li><a href="#各カラムの関係性">各カラムの関係性</a></li>
-        <li><a href="#主要idの詳細形式">主要IDの詳細形式</a></li>
-        <li><a href="#掲出字の入力方法">掲出字の入力方法</a></li>
-        <li><a href="#データ表現におけるidの扱い">データ表現におけるIDの扱い</a></li>
-        <li><a href="#掲出字の詳細情報マッピングテーブルへ移譲">掲出字の詳細情報（マッピングテーブル）へ移譲</a></li>
+        <li><a href="#types-of-ids">Types of IDs</a></li>
+        <li><a href="#relationship-between-columns">Relationship Between Columns</a></li>
+        <li><a href="#detailed-format-of-primary-ids">Detailed Format of Primary IDs</a></li>
+      </ul>
+    </li>
+    <li><a href="#input-method-for-headwords">Input Method for <code>Headwords</code></a>
+      <ul>
+        <li><a href="#handling-of-ids-in-data-representation">Handling of IDs in Data Representation</a></li>
+        <li><a href="#deferring-detailed-headword-character-information-to-a-mapping-table">Deferring Detailed Headword Character Information to a Mapping Table</a></li>
       </ul>
     </li>
   </ul>

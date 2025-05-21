@@ -3,19 +3,26 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Under preparation.
-
+<meta name="description" content="
   Character Encoding and Representation
   #
 
-ここでは、Unicodeを利用した文字の符号化と表現を解説する。
-Unicode によって表現できない文字の扱いは複数の方式を併用しているので、その点も解説した。">
+This section explains the encoding and representation of characters using Unicode.
+It also describes the multiple methods used in combination to handle characters that cannot be represented by Unicode.
+
+  Character Encoding with Unicode
+  #
+
+The number of CJK Unified Ideographs differs depending on the Unicode version.
+The HDIC project started in 2014, and initially, the baseline was Unicode 8.0.0 (from 2015). At that time, the number of usable Hanzi (Chinese characters) was 80,358, comprising CJK Unified Ideographs and CJK Unified Ideographs Extensions A through E.
+Extensions have continued since then, with the total number of characters now exceeding 90,000. However, even after characters are included in Unicode, it seems to take time before they can actually be displayed on screens or used in print.
+The HDIC project utilizes characters up to CJK Unified Ideographs Extension E as much as possible. For characters in Extension F and beyond, the project currently limits its practice to noting them in remarks columns or similar fields.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://shikeda.github.io/en/docs/krm/04-entry-input/04-02-char/">
   <meta property="og:site_name" content="HDIC project">
   <meta property="og:title" content="Character Encoding and Representation">
-  <meta property="og:description" content="Under preparation.
-Character Encoding and Representation # ここでは、Unicodeを利用した文字の符号化と表現を解説する。 Unicode によって表現できない文字の扱いは複数の方式を併用しているので、その点も解説した。">
+  <meta property="og:description" content="Character Encoding and Representation # This section explains the encoding and representation of characters using Unicode. It also describes the multiple methods used in combination to handle characters that cannot be represented by Unicode.
+Character Encoding with Unicode # The number of CJK Unified Ideographs differs depending on the Unicode version. The HDIC project started in 2014, and initially, the baseline was Unicode 8.0.0 (from 2015). At that time, the number of usable Hanzi (Chinese characters) was 80,358, comprising CJK Unified Ideographs and CJK Unified Ideographs Extensions A through E. Extensions have continued since then, with the total number of characters now exceeding 90,000. However, even after characters are included in Unicode, it seems to take time before they can actually be displayed on screens or used in print. The HDIC project utilizes characters up to CJK Unified Ideographs Extension E as much as possible. For characters in Extension F and beyond, the project currently limits its practice to noting them in remarks columns or similar fields.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
@@ -25,7 +32,7 @@ Character Encoding and Representation # ここでは、Unicodeを利用した文
   <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/04-entry-input/04-02-char/" title="文字の符号化と表現">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/en.search.min.d51ceb804fc13c4ee6c1dfafd1a5bc6fc7bb5d0459641c83394a6c244089f802.js" integrity="sha256-1RzrgE/BPE7mwd&#43;v0aW8b8e7XQRZZByDOUpsJECJ&#43;AI=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.2259a3bcdb44afb53b6365205cf36b3c2964ed93278a6b9eb7065660218365c9.js" integrity="sha256-IlmjvNtEr7U7Y2UgXPNrPClk7ZMnimuetwZWYCGDZck=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -361,7 +368,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-01-id/" class="">Head Characters, Entry Structure, and ID System</a>
+    <a href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-01-id/" class="">Headwords, Entry Structure, and ID System</a>
   
 
         </li>
@@ -578,9 +585,9 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#unicodeによる文字の符号化">Unicodeによる文字の符号化</a></li>
-    <li><a href="#unicode外の文字の表現">Unicode外の文字の表現</a></li>
-    <li><a href="#glyphwikiの利用">GlyphWikiの利用</a></li>
+    <li><a href="#character-encoding-with-unicode">Character Encoding with Unicode</a></li>
+    <li><a href="#representation-of-characters-outside-of-unicode">Representation of Characters Outside of Unicode</a></li>
+    <li><a href="#utilizing-glyphwiki">Utilizing GlyphWiki</a></li>
   </ul>
 </nav>
 
@@ -593,95 +600,75 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><p>Under preparation.</p>
-<h1 id="character-encoding-and-representation">
+  <article class="markdown"><h1 id="character-encoding-and-representation">
   Character Encoding and Representation
   <a class="anchor" href="#character-encoding-and-representation">#</a>
 </h1>
-<p>ここでは、Unicodeを利用した<strong>文字の符号化と表現</strong>を解説する。
-Unicode によって表現できない文字の扱いは複数の方式を併用しているので、その点も解説した。</p>
-<h2 id="unicodeによる文字の符号化">
-  Unicodeによる文字の符号化
-  <a class="anchor" href="#unicode%e3%81%ab%e3%82%88%e3%82%8b%e6%96%87%e5%ad%97%e3%81%ae%e7%ac%a6%e5%8f%b7%e5%8c%96">#</a>
+<p>This section explains the <strong>encoding and representation of characters</strong> using Unicode.
+It also describes the multiple methods used in combination to handle characters that cannot be represented by Unicode.</p>
+<h2 id="character-encoding-with-unicode">
+  Character Encoding with Unicode
+  <a class="anchor" href="#character-encoding-with-unicode">#</a>
 </h2>
-<p>UnicodeのバージョンによりCJK統合漢字の数は異なる。
-HDICプロジェクトとしては2014年にスタートしており、当初、基本に据えたのは2015年のUnicode 8.0.0であり、使用できる漢字の数は、
-CJK統合漢字とCJK統合漢字拡張A-Eの80,358字である。
-その後も拡張が続いており、90,000字を超えるところまで
-きている。ただ、Unicodeに収録されても、実際に画面に表示したり、
-印刷したりして使えるようになるのは時間がかかるようである。JCK統合漢字
-拡張Eまでを可能な限り利用し、拡張F以降は、備考欄などに注記するにとどめている。</p>
-<h2 id="unicode外の文字の表現">
-  Unicode外の文字の表現
-  <a class="anchor" href="#unicode%e5%a4%96%e3%81%ae%e6%96%87%e5%ad%97%e3%81%ae%e8%a1%a8%e7%8f%be">#</a>
+<p>The number of CJK Unified Ideographs differs depending on the Unicode version.
+The HDIC project started in 2014, and initially, the baseline was Unicode 8.0.0 (from 2015). At that time, the number of usable <strong><code>Hanzi (Chinese characters)</code></strong> was 80,358, comprising CJK Unified Ideographs and CJK Unified Ideographs Extensions A through E.
+Extensions have continued since then, with the total number of characters now exceeding 90,000. However, even after characters are included in Unicode, it seems to take time before they can actually be displayed on screens or used in print.
+The HDIC project utilizes characters up to CJK Unified Ideographs Extension E as much as possible. For characters in Extension F and beyond, the project currently limits its practice to noting them in remarks columns or similar fields.</p>
+<h2 id="representation-of-characters-outside-of-unicode">
+  Representation of Characters Outside of Unicode
+  <a class="anchor" href="#representation-of-characters-outside-of-unicode">#</a>
 </h2>
-<p>Unicode外の文字とは、Unicodeに収録されていない漢字のことである。
-Unicode外の文字は、次の三つの方法で表現する。</p>
+<p>&ldquo;Characters outside of Unicode&rdquo; refers to <strong><code>Hanzi (Chinese characters)</code></strong> that are not included in the Unicode standard.
+These characters are represented using the following three methods:</p>
 <ul>
-<li>IDS方式</li>
-<li>実体参照方式</li>
-<li>β方式</li>
+<li>IDS Method</li>
+<li>Entity Reference Method</li>
+<li>Beta Method (β Method)</li>
 </ul>
-<p><strong>IDS方式</strong>は
-漢字の部品の組み合わせで表現可能な場合に、IDS（漢字構成記述文字列、Ideographic Description Sequence）で記述する方式である。
-IDSのデータは守岡知彦氏が<a href="https://www.chise.org/ids-find">CHISE IDS検索</a>で構築・公開しているものを利用・参照している。</p>
-<p>IDSはIDC（漢字構成記述文字、Ideographic Description Character）により示す。
-IDCは⿰ ⿱ ⿲ ⿳ ⿴ ⿵ ⿶ ⿷ ⿸ ⿹ ⿺ ⿻の12字である。</p>
-<p><strong>例</strong></p>
+<p>The <strong>IDS Method</strong> is used when a character can be represented by a combination of its constituent components, described using an IDS (Ideographic Description Sequence). The IDS data used and referenced in this project is primarily that constructed and made publicly available by <strong>Morioka Tomohiko</strong> in the <a href="https://www.chise.org/ids-find">CHISE IDS Search</a>.</p>
+<p>An IDS is indicated by IDCs (Ideographic Description Characters). The twelve IDCs are: ⿰, ⿱, ⿲, ⿳, ⿴, ⿵, ⿶, ⿷, ⿸, ⿹, ⿺, and ⿻.</p>
+<p><strong>Examples:</strong></p>
 <ul>
-<li>IDS方式の例：⿰亻胃（人偏に胃を書く字形）、⿰亻⿱𡈼儿（凭の異体字、複数のIDCを使用した例）</li>
+<li>Example of the IDS Method: ⿰亻胃 (representing a character with the &lsquo;亻&rsquo; radical on the left and &lsquo;胃&rsquo; on the right), ⿰亻⿱𡈼儿 (a variant of &lsquo;凭&rsquo;, an example using multiple IDCs).</li>
 </ul>
-<p>IDS方式で表現が困難な場合は、次のいずれかの方法を用いる。</p>
-<p><strong>実体参照方式</strong>は
-CHISEおよびGlyphWikiの実体参照方式に基づいた表記で記述する方式である。</p>
-<p><strong>例</strong></p>
+<p>If representation by the IDS Method is difficult, one of the following methods is used.</p>
+<p>The <strong>Entity Reference Method</strong> involves describing characters using notations based on the entity reference systems of CHISE and GlyphWiki.</p>
+<p><strong>Examples:</strong></p>
 <ul>
-<li>CHISEの実体参照方式：⿺辶&amp;CDP-8C66; (延の異体字、&amp;CDP-8C66;は𠂢の右下部分の字形、𧘇に近似した字形)</li>
-<li>GlyphWikiの実体参照方式：koseki-007510 (𠇾の右上にヽの字形)</li>
+<li>CHISE Entity Reference Method: ⿺辶&amp;CDP-8C66; (a variant of &lsquo;延&rsquo;, where &amp;CDP-8C66; represents the bottom-right component of &lsquo;𠂢&rsquo;, a glyph similar to 𧘇).</li>
+<li>GlyphWiki Entity Reference Method: koseki-007510 (representing a glyph with &lsquo;ヽ&rsquo; at the top-right of &lsquo;𠇾&rsquo;).</li>
 </ul>
-<p><strong>β方式</strong>は
-近い字形とβ、γ等とを組み合せて記述する方式である。</p>
-<p><strong>例</strong></p>
+<p>The <strong>Beta Method (β Method)</strong> involves describing characters by combining a graphically similar character with Greek letters such as β (beta), γ (gamma), etc. This Beta Method was proposed by Toyoshima Masayuki.</p>
+<p><strong>Example:</strong></p>
 <ul>
-<li>β方式の例：正β (匸の中にヽが横に二つの字形)</li>
+<li>Example of the Beta Method: 正β (representing a glyph with two horizontal &lsquo;ヽ&rsquo; strokes inside the &lsquo;匸&rsquo; radical of &lsquo;正&rsquo;).</li>
 </ul>
-<p>上記のいずれの方法でも表現できない文字や、原典で判読不能な文字（虫損等）は、「■」（黒い四角）で記述する。
-原典で判読不能な文字の詳細は「虫損・判読不能」のセクションを参照。</p>
-<h2 id="glyphwikiの利用">
-  GlyphWikiの利用
-  <a class="anchor" href="#glyphwiki%e3%81%ae%e5%88%a9%e7%94%a8">#</a>
+<p>Characters that cannot be represented by any of the above methods, or characters that are illegible in the original manuscript (due to damage such as wormholes, etc.), are represented by &lsquo;■&rsquo; (a black square).
+For more details on illegible characters, please refer to the section &ldquo;Wormholes and Illegible Characters.&rdquo;</p>
+<h2 id="utilizing-glyphwiki">
+  Utilizing GlyphWiki
+  <a class="anchor" href="#utilizing-glyphwiki">#</a>
 </h2>
-<p>近似した明朝体の字形を表示するために
-GlyphWiki（上地宏一氏）を利用すれば、
-近似した明朝体の字形を表示することができる。</p>
-<p>GlyphWikiを利用した名義抄の掲出字の字形の作成は、作業中であり、
-完成していないが、参考に記しておく。</p>
-<p>GlyphWikiのグリフ番号を、上述した掲出字IDに対応させることで、
-類聚名義抄の掲出字を明朝体字形で表現する。</p>
-<p>GlyphWikiのグリフ番号は、このプロジェクトの略称であるHDICと
-観智院本名義抄の略称（KRM）を組み合わせたプリフィックス
-hdic_hkrm-を冠し、掲出字IDの数値部分を組み合わせて
-表現する。</p>
-<p>たとえば、K01075140の掲出字IDのGlyphWikiのグリフ番号は
-hdic_hkrm-01075140となる。</p>
-<p>次にはMarkdownの記法で示す。</p>
-<p><strong>例</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">正β</span>](<span style="color:#a6e22e">https://glyphwiki.org/glyph/hdic_hkrm-01075140.png</span>)
-</span></span></code></pre></div><p>とすると、次のように表示される。</p>
+<p>To display glyphs in a Mincho typeface that closely approximate those in the manuscript, GlyphWiki (developed by Uechi Kōichi) can be utilized. By using GlyphWiki, it is possible to display such approximate Mincho-style glyphs.</p>
+<p>The creation of glyph forms for the <strong><code>Headwords</code></strong> of the <em>Myōgishō</em> using GlyphWiki is currently in progress and not yet complete, but it is mentioned here for reference.</p>
+<p>By associating GlyphWiki glyph numbers with the <code>kazama_location_id</code> found in the <code>krm_headword_chars</code> file, the <strong><code>Headwords</code></strong> of the <em>Ruiju Myōgishō</em> can be represented in a Mincho typeface.</p>
+<p>The GlyphWiki glyph number is expressed by taking a prefix—formed by combining the abbreviation for this project (HDIC) with the abbreviation for the Kanchi-in manuscript of the <em>Ruiju Myōgishō</em> (KRM), resulting in <code>hdic_hkrm-</code>—and appending the numerical part of the <code>kazama_location_id</code> (from <code>krm_headword_chars</code>) after removing its &lsquo;K&rsquo; prefix.</p>
+<p>For example, for a <strong><code>Headword</code></strong> within an <strong><code>Entry</code></strong> (e.g., with an <code>entry_id</code> like F01234), if its corresponding <code>kazama_location_id</code> in the <code>krm_headword_chars</code> file is <code>K01075140</code>, then its GlyphWiki glyph number will be <code>hdic_hkrm-01075140</code>.</p>
+<p>This will be demonstrated next using Markdown notation.</p>
+<p><strong>Example:</strong></p>
+<pre tabindex="0"><code>![正β](https://glyphwiki.org/glyph/hdic_hkrm-01075140.png)
+</code></pre><p>When described in Markdown as shown above, it will be displayed as follows:</p>
 <p><img src="https://glyphwiki.org/glyph/hdic_hkrm-01075140.png" alt="正β" /></p>
-<p>これでは文字サイズが大きいので、小さいサイズを使う場合には</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#f92672">正β</span>](<span style="color:#a6e22e">https://glyphwiki.org/glyph/hdic_hkrm-01075140.50px.png</span>)
-</span></span></code></pre></div><p>とすれば、次のように表示される。</p>
+<p>This character size is large; if you wish to use a smaller size, use the following notation:</p>
+<pre tabindex="0"><code>![正β](https://glyphwiki.org/glyph/hdic_hkrm-01075140.50px.png)
+</code></pre><p>When described in Markdown as shown above, it will be displayed as follows:</p>
 <p><img src="https://glyphwiki.org/glyph/hdic_hkrm-01075140.50px.png" alt="正β" /></p>
-<p>なお、ファイル名hdic_hkrm-01075140.pngは、HDICデータベースの KRM（観智院本類聚名義抄）の01075140であることを表している。</p>
-<p>01075140の01は巻1（仏上）、 075は75頁、140は1行4段目の単字項目であることを示している。</p>
-<p>サイズを指定して表示するには</p>
+<p>Note that the filename <code>hdic_hkrm-01075140.png</code> is derived from the numerical part of the <code>kazama_location_id</code> <code>K01075140</code> found in the <code>krm_headword_chars</code> file.</p>
+<p>To display it with a specified size, you can write it as follows:</p>
 <p>{{&lt; figure src=&ldquo;<a href="https://glyphwiki.org/glyph/hdic_hkrm-01075140.png%22">https://glyphwiki.org/glyph/hdic_hkrm-01075140.png"</a> title=&rdquo;&quot; class=&ldquo;center&rdquo; width=&ldquo;24&rdquo; height=&ldquo;24&rdquo; &gt;}}</p>
-<p>とすると、
 <figure class="center"><img src="https://glyphwiki.org/glyph/hdic_hkrm-01075140.png" width="24" height="24">
 </figure>
 
-のように表示される。</p>
 </article>
  
       
@@ -718,9 +705,9 @@ hdic_hkrm-01075140となる。</p>
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#unicodeによる文字の符号化">Unicodeによる文字の符号化</a></li>
-    <li><a href="#unicode外の文字の表現">Unicode外の文字の表現</a></li>
-    <li><a href="#glyphwikiの利用">GlyphWikiの利用</a></li>
+    <li><a href="#character-encoding-with-unicode">Character Encoding with Unicode</a></li>
+    <li><a href="#representation-of-characters-outside-of-unicode">Representation of Characters Outside of Unicode</a></li>
+    <li><a href="#utilizing-glyphwiki">Utilizing GlyphWiki</a></li>
   </ul>
 </nav>
 

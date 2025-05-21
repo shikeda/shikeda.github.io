@@ -14,7 +14,7 @@ First, under **`Entry Data Structure`**, we present the internal components of a
 
 Next, under **`Types of Entries`**, different kinds, such as basic **`Entries`** and supplementary **`Entries`**, are discussed.
 
-Furthermore, under **`Concepts Related to Character Notation`**, **`script styles (*shotai*)`** (書體), the **`standard of writing Chinese characters (*jitai*)`** (字體), and the **`shapes of Chinese characters (*jikei*)`** (字形), along with **`variant characters (*itaiji*)`** and graphically similar characters, are explained.
+Furthermore, under **`Concepts Related to Character Notation`**, **`script styles`** (書体, *shotai*), the **`standard of writing Chinese characters`** (字体, *jitai*), and the **`shapes of Chinese characters`** (字形, *jikei*), along with **`variant characters`** (異体字, *itaiji*) and graphically similar characters, are explained.
 
 Finally, we cover the **`Entry Data Files`**, including their content, specific examples, and the methods used for publication and updates via GitHub.
 

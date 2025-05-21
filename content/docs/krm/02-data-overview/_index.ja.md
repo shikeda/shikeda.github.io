@@ -25,7 +25,7 @@ title: "公開データの概要"
 
 ## データファイル一覧
 
-[https://github.com/shikeda/HDIC/tree/master/v1.2](https://github.com/shikeda/HDIC/tree/master/v1.2)
+[https://github.com/shikeda/krm](https://github.com/shikeda/krm/)
 で公開している観智院本類聚名義抄のデータは次のとおりである。
 一部公開準備中のものを含む。
 
@@ -51,7 +51,7 @@ KRMを付していたが、仕様変更後のファイルは、krmを付すこ�
 - 誤字の訂正案を示す半角()を全角〔〕に変更
 - 脱字を示す半角[]を全角［］に変更
 
-仕様変更後のファイルはv1.2のフォルダーに置いた。これは一時的なものである。
+仕様変更後のファイルは[https://github.com/shikeda/krm](https://github.com/shikeda/krm/)で公開した。
 
 ## ER図
 
@@ -71,8 +71,7 @@ KRMを付していたが、仕様変更後のファイルは、krmを付すこ�
 公開データのバージョン情報、作成者および著作権情報などの詳細は
 次のGitHubリポジトリの `README_jp.md`ファイルに記してある。
 
-[https://github.com/shikeda/HDIC/tree/master/v1.2/README_jp.md](https://github.com/shikeda/HDIC/tree/master/v1.2/README_jp.md)
-
+[https://github.com/shikeda/krm](https://github.com/shikeda/krm/)
 
 ## 謝辞
 

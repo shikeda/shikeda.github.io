@@ -25,9 +25,9 @@ The terms "書体" (*shotai*, script style), "字体" (*jitai*, character standa
 
 A key feature of these definitions is their hierarchical understanding of *shotai*, *jitai*, and *jikei*.
 
-The English definitions provided by Ishizuka et al. are as follows[^1]:
+The English definitions provided by Ishizuka et al. are as follows[^ishizuka2003]:
 
-[^1]: Harumichi Ishizuka, Syoju Ikeda, Jun Shirai, and Tomokazu Takada, "The data-base focusing on the standard of writing Chinese characters in Dunhuang manuscripts," in *Nara Symposium for Digital Silk Roads Abstracts: The Second NII International Symposium* (Nara, Japan, December 10-12, 2003), 37.
+[^ishizuka2003]:Harumichi Ishizuka, Shoju Ikeda, Jun Shirai, and Tomokazu Takada, "The data-base focusing on the standard of writing Chinese characters in Dunhuang manuscripts," in *Proceedings of the Nara Symposium for Digital Silk Roads*: December 10-12, 2003, Nara-ken New Public Hall, Nara, Japan, ed. Kinji Ono (Tokyo: National Institute of Informatics, 2004), 133.
 
 > * 書體 (Shotai): Socially common form of the type of a Chinese character. In many instances, the usage of a particular type is determined by the purpose of writing, 楷書, 草書, etc.
 > * 字體 (Jitai): Socially common standard of writing Chinese character existing within the 書體.

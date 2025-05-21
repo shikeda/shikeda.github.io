@@ -12,24 +12,24 @@
   掲出字と掲出項目の定義
   #
 
-掲出字（Headword Character(s)）とは、見出しの漢字そのものである。
+掲出字（Headword）とは、見出しの漢字そのものである。
 掲出項目（Entry）とは、辞書の項目単位である。">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://shikeda.github.io/docs/krm/04-entry-input/04-01-id/">
   <meta property="og:site_name" content="HDIC project">
   <meta property="og:title" content="掲出字・項目構造とID体系">
   <meta property="og:description" content="掲出字・項目構造とID体系 # このセクションでは、名義抄の項目の構造と、それを識別するためのID体系について説明する。
-掲出字と掲出項目の定義 # 掲出字（Headword Character(s)）とは、見出しの漢字そのものである。 掲出項目（Entry）とは、辞書の項目単位である。">
+掲出字と掲出項目の定義 # 掲出字（Headword）とは、見出しの漢字そのものである。 掲出項目（Entry）とは、辞書の項目単位である。">
   <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
 <title>掲出字・項目構造とID体系 | HDIC project</title>
 <link rel="manifest" href="https://shikeda.github.io/manifest.json">
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
-  <link rel="alternate" hreflang="en" href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-01-id/" title="Head Characters, Entry Structure, and ID System">
+  <link rel="alternate" hreflang="en" href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-01-id/" title="Headwords, Entry Structure, and ID System">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/ja.search.min.dc68d3004a6ff0fd4ce8d51124b1c6c57d50c0624a26c9817801acab44c3db8d.js" integrity="sha256-3GjTAEpv8P1M6NURJLHGxX1QwGJKJsmBeAGsq0TD240=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/ja.search.min.15ff3dbc9c673d9880253b8a8e0b7301eed15ee684cc1d2e5178e520b79c2965.js" integrity="sha256-Ff89vJxnPZiAJTuKjgtzAe7RXuaEzB0uUXjlILecKWU=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -939,7 +939,7 @@ https://github.com/alex-shpak/hugo-book
   掲出字と掲出項目の定義
   <a class="anchor" href="#%e6%8e%b2%e5%87%ba%e5%ad%97%e3%81%a8%e6%8e%b2%e5%87%ba%e9%a0%85%e7%9b%ae%e3%81%ae%e5%ae%9a%e7%be%a9">#</a>
 </h2>
-<p><strong>掲出字</strong>（Headword Character(s)）とは、見出しの漢字そのものである。
+<p><strong>掲出字</strong>（Headword）とは、見出しの漢字そのものである。
 <strong>掲出項目</strong>（Entry）とは、辞書の項目単位である。</p>
 <p>名義抄において一つの掲出項目は、<strong>単字</strong>または<strong>複字</strong>（多字）からなる。</p>
 <p>掲出項目の立て方には、
@@ -1008,7 +1008,7 @@ F形式、S形式、K形式、T形式の説明は重複を厭わず、その都�
 <p><strong>形式</strong>：
 掲出項目ID（entry_id）はFで始まる5桁の数値。F00001からF32604までの連番である。
 一部、追加した掲出項目にはb番号を付す。
-なお、このb番号は、次の掲出字IDに付すことがあるが、それとは無関係に付されるものである。</p>
+なお、このb番号は、次の掲出字ID（hanzi_id）に付すことがあるが、それとは無関係に付されるものである。</p>
 <p><strong>目的</strong>：
 名義抄の一項目を一意に識別する。</p>
 <h4 id="掲出字id-hanzi_id--s形式">
@@ -1019,11 +1019,13 @@ F形式、S形式、K形式、T形式の説明は重複を厭わず、その都�
 掲出字ID（hanzi_id）はSに始まる5桁の数値。S00001からS42328までの連番。
 S形式。
 一部、追加した掲出字にはb番号を付す。
-なお、このb番号は、前述の掲出項目IDに付すことがあるが、それとは無関係に付されるものである。</p>
+なお、このb番号は、前述の掲出項目ID（entry_id）に付すことがあるが、それとは無関係に付されるものである。</p>
 <p><strong>目的</strong>：
 データ上の各掲出字（文字位置）を一意に識別する主キーである。</p>
 <p><strong>補足</strong>
-2字目以降の掲出字を含めたすべての掲出字IDを一覧したデータは別に用意する（krm_headword_chars.tsv、詳細は別に述べる）。</p>
+2字目以降の掲出字を含めたすべての掲出字ID（hanzi_id）を
+一覧したデータは別に用意する。そのデータは、
+<a href="https://shikeda.github.io/docs/krm/02-data-overview/02-03-headword-chars/">krm_headword_chars</a>であり、詳細は別に述べた）。</p>
 <h4 id="風間版所在-kazama_location--k形式">
   風間版所在 (kazama_location / K形式)：
   <a class="anchor" href="#%e9%a2%a8%e9%96%93%e7%89%88%e6%89%80%e5%9c%a8-kazama_location--k%e5%bd%a2%e5%bc%8f">#</a>
@@ -1054,7 +1056,7 @@ K形式。</p>
 </ul>
 </li>
 </ul>
-<p>一つの段に「A」「BC」とあり、Aが段の1字目、Bが2字目、Cが3字目の場合とする。項目BCは2番目の項目、その最初の文字はB、そのBは段の2字目である。よってCDの字順は2となる。
+<p>一つの段に「A」「BC」とあり、Aが段の1字目、Bが2字目、Cが3字目の場合とする。項目BCは2番目の項目、その最初の文字はB、そのBは段の2字目である。よってBCの字順は2となる。
 また、一つの段に「AB」「CD」とあり、Aが段の1字目、Bが2字目、Cが3字目、Dが4字目の場合とする。項目CDは2番目の項目、その最初の文字はC、そのCは段の3字目である。よってCDの字順は3となる。</p>
 <p><strong>例</strong></p>
 <ul>
@@ -1093,8 +1095,8 @@ T形式。</p>
 </li>
 <li><strong>ケース2: その段に項目が二つ以上ある場合</strong>
 <ul>
-<li>その段落の<strong>最初の項目</strong>であれば、字順は <strong>1</strong> 。</li>
-<li>その段落の<strong>2番目以降の項目</strong>であれば、字順は <strong>その項目の最初の文字が、段落の先頭から数えて何番目に出現するか</strong> を示す（段の先頭を1字目として数えた通し番号）。</li>
+<li>その段の<strong>最初の項目</strong>であれば、字順は <strong>1</strong> 。</li>
+<li>その段の<strong>2番目以降の項目</strong>であれば、字順は <strong>その項目の最初の文字が、段落の先頭から数えて何番目に出現するか</strong> を示す（段の先頭を1字目として数えた通し番号）。</li>
 </ul>
 </li>
 </ul>
@@ -1120,14 +1122,15 @@ T形式。</p>
 <p>掲出項目は単字形式と複字形式があるが、単字形式は特に問題にならないので、
 ここでは複字形式の場合の入力方法について説明する。</p>
 <p>複字形式の掲出項目に見える異体字併記と熟語は、掲出字を「／」（全角スラッシュ, U+FF0F）で区切って入力する。</p>
-<p>掲出項目が「／」を含めば、それは複字形式であることを示し、用いられる「／」の数は複字形式の掲出字数を示す。</p>
+<p>掲出項目がスラッシュの「／」を含めば、それは複字形式であることを示し、
+スラッシュで区切られた部分の数（＝字数）」は複字形式の掲出字数を示す。</p>
 <p><strong>例</strong></p>
 <ul>
 <li>異体字併記：翛／倐／倏／翛β</li>
 <li>熟語：一／人</li>
 </ul>
 <p>Unicodeを利用した文字の入力方法については、
-<a href="https://shikeda.github.io/docs/notes/krm-main/item-input/#%e6%96%87%e5%ad%97%e3%81%ae%e7%ac%a6%e5%8f%b7%e5%8c%96%e3%81%a8%e8%a1%a8%e7%8f%be">文字の符号化と表現</a>を参照されたい。</p>
+<a href="https://shikeda.github.io/docs/krm/04-entry-input/04-02-char/">文字の符号化と表現</a>を参照されたい。</p>
 <h3 id="データ表現におけるidの扱い">
   データ表現におけるIDの扱い
   <a class="anchor" href="#%e3%83%87%e3%83%bc%e3%82%bf%e8%a1%a8%e7%8f%be%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8bid%e3%81%ae%e6%89%b1%e3%81%84">#</a>
@@ -1185,11 +1188,10 @@ T形式。</p>
   掲出字の詳細情報（マッピングテーブル）へ移譲
   <a class="anchor" href="#%e6%8e%b2%e5%87%ba%e5%ad%97%e3%81%ae%e8%a9%b3%e7%b4%b0%e6%83%85%e5%a0%b1%e3%83%9e%e3%83%83%e3%83%94%e3%83%b3%e3%82%b0%e3%83%86%e3%83%bc%e3%83%96%e3%83%ab%e3%81%b8%e7%a7%bb%e8%ad%b2">#</a>
 </h3>
-<p>掲出字に関する次の情報のすべてをマッピングテーブル（krm_headword_chars.tsv）へ移譲する。</p>
+<p>掲出字に関する次の情報のすべてをマッピングテーブル<a href="https://shikeda.github.io/docs/krm/02-data-overview/02-03-headword-chars/">krm_headword_chars</a>へ移譲する。</p>
 <ul>
 <li>各掲出字ID（S形式）に対応する、より詳細な位置情報（K形式、T形式）のリスト全体</li>
 <li>個々の掲出字（S形式）に対応する、切り抜き画像ファイル名</li>
-<li>個々の掲出字（S形式）に対応する、GlyphWikiのグリフ番号</li>
 </ul>
 <p>これらの情報が必要な利用者は、krm_headword_chars.tsv を参照する必要がある。</p>
 </article>

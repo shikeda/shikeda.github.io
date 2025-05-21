@@ -26,7 +26,7 @@ weight: 6
 
 石塚による英文の定義は次のようになっている[^注1]。
 
-[^注1]:Harumichi Ishizuka, Shoju Ikeda, Jun Shirai, and Tomokazu Takada, "The data-base focusing on the standard of writing Chinese characters in Dunhuang manuscripts," in Nara Symposium for Digital Silk Roads Abstracts: The Second NII International Symposium (Nara, Japan, December 10-12, 2003), 37.
+[^注1]:Harumichi Ishizuka, Shoju Ikeda, Jun Shirai, and Tomokazu Takada, "The data-base focusing on the standard of writing Chinese characters in Dunhuang manuscripts," in *Proceedings of the Nara Symposium for Digital Silk Roads*: December 10-12, 2003, Nara-ken New Public Hall, Nara, Japan, ed. Kinji Ono (Tokyo: National Institute of Informatics, 2004), 133.
 
 
 書體 (Shotai): Socially common form of the type of a Chinese character. In many instances, the usage of a particular type is determined by the purpose of writing, 楷書, 草書, etc.

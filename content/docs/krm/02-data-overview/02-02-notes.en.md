@@ -72,7 +72,7 @@ This structure can be conceptually represented in the ER diagram as follows:
 * The **`krm_main` table** has a **one-to-many relationship** with a conceptual `definitions` or `notes` table.
 * In the JSON representation, the **definitions are embedded as an array of objects** within each `krm_main` object, rather than being stored in a separate flat table.
 
-**Example JSON**
+**Example JSON:**
 
 ```
 {

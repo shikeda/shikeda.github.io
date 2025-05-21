@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  krm関連のファイルを別のリポジトリに移す
+  #
+
+ChatGPTに教えてもらった手順をメモ。ほぼそのままコピペです。
+
+  前提の整理
+  #
+
+旧構成（これまで）：">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/posts/repository_release/">
+  <meta property="og:site_name" content="HDIC project">
+  <meta property="og:title" content="Repository Release">
+  <meta property="og:description" content="krm関連のファイルを別のリポジトリに移す # ChatGPTに教えてもらった手順をメモ。ほぼそのままコピペです。
+前提の整理 # 旧構成（これまで）：">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-05-21T05:52:09+09:00">
+    <meta property="article:modified_time" content="2025-05-21T05:52:09+09:00">
+<title>Repository Release | HDIC project</title>
+<link rel="manifest" href="http://localhost:1313/manifest.json">
+<link rel="icon" href="http://localhost:1313/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="http://localhost:1313/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
+  <script defer src="http://localhost:1313/flexsearch.min.js"></script>
+  <script defer src="http://localhost:1313/ja.search.min.9fdaa338b45f8f04ed8eed41bd9e8d422c53bfaa7174706ea4d9558a95276652.js" integrity="sha256-n9qjOLRfjwTtju1BvZ6NQixTv6pxdHBupNlVipUnZlI=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+--><link rel="stylesheet" href="http://localhost:1313/css/custom.css">
+
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="http://localhost:1313/"><span>HDIC project</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="検索" aria-label="検索" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="http://localhost:1313/svg/translate.svg" class="book-icon" alt="Languages" />
+        Japanese
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="http://localhost:1313/en/">
+          English
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/" class="">類聚名義抄</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-0e373ce795ace50a40fa99466add2085" class="toggle"  />
+    <label for="section-0e373ce795ace50a40fa99466add2085" class="flex justify-between">
+      <a href="http://localhost:1313/docs/krm/01-introduction/" class="">資料紹介</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/01-introduction/01-01-introduction/" class="">類聚名義抄の概要</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4e3481c0faf6a87e6512af7dfd9a5a22" class="toggle"  />
+    <label for="section-4e3481c0faf6a87e6512af7dfd9a5a22" class="flex justify-between">
+      <a href="http://localhost:1313/docs/krm/02-data-overview/" class="">公開データの概要</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/02-data-overview/02-01-main/" class="">krm_main</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/02-data-overview/02-02-notes/" class="">krm_notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/02-data-overview/02-03-headword-chars/" class="">krm_headword_chars</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/02-data-overview/02-04-wakun/" class="">krm_wakun</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/02-data-overview/02-05-definitions/" class="">krm_definitions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/02-data-overview/02-06-pronunciations/" class="">krm_pronunciations</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/02-data-overview/02-07-ndl/" class="">krm_ndl</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-49d2c03281c0f69946c5eada8bfb8f20" class="toggle"  />
+    <label for="section-49d2c03281c0f69946c5eada8bfb8f20" class="flex justify-between">
+      <a href="http://localhost:1313/docs/krm/03-entry-data-model/" class="">項目データモデル</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/03-entry-data-model/03-01-data-structure/" class="">項目データ構造</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/03-entry-data-model/03-02-types-of-entries/" class="">項目の種類</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/03-entry-data-model/03-03-concepts-char/" class="">文字表記に関する概念</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/03-entry-data-model/03-04-data-example/" class="">項目データファイルの公開・更新</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-18929988ffc84b35f6c5e4350754e72d" class="toggle"  />
+    <label for="section-18929988ffc84b35f6c5e4350754e72d" class="flex justify-between">
+      <a href="http://localhost:1313/docs/krm/04-entry-input/" class="">項目データ入力</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/04-entry-input/04-01-id/" class="">掲出字・項目構造とID体系</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/04-entry-input/04-02-char/" class="">文字の符号化と表現</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/04-entry-input/04-03-handling/" class="">書写・表記・注記における問題と対応</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4fb9f86da651ebe9ebbb3e58ed22e713" class="toggle"  />
+    <label for="section-4fb9f86da651ebe9ebbb3e58ed22e713" class="flex justify-between">
+      <a href="http://localhost:1313/docs/krm/05-annotation-policy/" class="">注釈データ入力の詳細</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/05-annotation-policy/05-01-basic-policy/" class="">注釈作成の基本方針と分析対象</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/05-annotation-policy/05-02-headword-count/" class="">掲出字数の算出</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/05-annotation-policy/05-03-jitaichu-formats/" class="">字体注の種類と記載形式</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/05-annotation-policy/05-04-onchu-problems/" class="">音注の種類と解読上の問題点 </a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/05-annotation-policy/05-05-gichu-quantity/" class="">義注の種類と数量</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/05-annotation-policy/05-06-wakun-materials/" class="">和訓注釈のための基礎資料</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/05-annotation-policy/05-07-annotation-examples/" class="">注釈記述の具体例</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-6bbb621fd0f964e8ddeb99744307830e" class="toggle"  />
+    <label for="section-6bbb621fd0f964e8ddeb99744307830e" class="flex justify-between">
+      <a href="http://localhost:1313/docs/krm/06-typesetting/" class="">翻刻・注釈の組版の設定</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/06-typesetting/06-01-hanazono-mincho/" class="">花園明朝の設定</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/06-typesetting/06-02-glypwiki/" class="">GlyphWikiの設定</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/06-typesetting/06-03-sfkanbun-sty/" class="">sfkanbun.styの設定</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/06-typesetting/06-04-vscode-texlive/" class="">VS CodeとTeX Live</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/06-typesetting/06-05-online-tools/" class="">オンラインツール</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2e8d620b8d9384b255180cd9f1045e18" class="toggle"  />
+    <label for="section-2e8d620b8d9384b255180cd9f1045e18" class="flex justify-between">
+      <a href="http://localhost:1313/docs/krm/07-progress/" class="">進捗状況</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/07-progress/1/" class="">掲出字</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5ba1816fc9a8e6dfc3d1b2dfa22e3b0f" class="toggle"  />
+    <label for="section-5ba1816fc9a8e6dfc3d1b2dfa22e3b0f" class="flex justify-between">
+      <a href="http://localhost:1313/docs/krm/07-progress/2/" class="">注文</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-2cc80503eba953dc62ba93b6ee971acc" class="toggle"  />
+    <label for="section-2cc80503eba953dc62ba93b6ee971acc" class="flex justify-between">
+      <a href="http://localhost:1313/docs/krm/07-progress/3/" class="">字体注</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-8ef49165c3caea8ae18639ab3a4f4ff2" class="toggle"  />
+    <label for="section-8ef49165c3caea8ae18639ab3a4f4ff2" class="flex justify-between">
+      <a href="http://localhost:1313/docs/krm/07-progress/4/" class="">音注</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-4d269691ad57593318d01b713a3b82e3" class="toggle"  />
+    <label for="section-4d269691ad57593318d01b713a3b82e3" class="flex justify-between">
+      <a href="http://localhost:1313/docs/krm/07-progress/5/" class="">義注</a>
+    </label>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/07-progress/6/" class="">和訓</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-36a97b81b3e69d46775da5f68e8cb80a" class="toggle"  />
+    <label for="section-36a97b81b3e69d46775da5f68e8cb80a" class="flex justify-between">
+      <a href="http://localhost:1313/docs/krm/07-progress/7/" class="">その他</a>
+    </label>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ad80e665959c3dc3dc552d3bc3ffc0bf" class="toggle"  />
+    <label for="section-ad80e665959c3dc3dc552d3bc3ffc0bf" class="flex justify-between">
+      <a href="http://localhost:1313/docs/krm/08-case-studies/" class="">事例研究</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/08-case-studies/1-ugoku/" class="">和訓「ウゴク」の調査</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/08-case-studies/2-miru/" class="">和訓「ミル」の調査</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/08-case-studies/3-wakun-uf/" class="">和訓の使用頻度</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/08-case-studies/4-kana-split/" class="">同仮名異語の区別</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/08-case-studies/5-dhsjr/" class="">DHSJRとの連携</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://localhost:1313/docs/krm/08-case-studies/6/" class="">準備中</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="http://localhost:1313/posts/" >
+        Blog
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+
+    <div style="text-align: right; padding: 1rem;">
+      
+
+
+    </div>
+
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="http://localhost:1313/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Repository Release</strong>
+
+  <label for="toc-control">
+    
+    <img src="http://localhost:1313/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#前提の整理">前提の整理</a></li>
+    <li><a href="#1-git-のタグやリリースとは">1. 「Git のタグ」や「リリース」とは？</a></li>
+    <li><a href="#2-新しいリポジトリ-krm-を作る手順github-で操作">2. 新しいリポジトリ krm を作る手順（GitHub で操作）</a></li>
+    <li><a href="#3-ローカルで作業--コミット--タグ--github-にプッシュ">3. ローカルで作業 → コミット → タグ → GitHub にプッシュ</a>
+      <ul>
+        <li><a href="#3-1-初期クローン">3-1. 初期クローン</a></li>
+        <li><a href="#3-2-ファイルをコピー">3-2. ファイルをコピー</a></li>
+        <li><a href="#3-3-git-に反映">3-3. Git に反映</a></li>
+        <li><a href="#3-4-タグを作るv12">3-4. タグを作る（v1.2）</a></li>
+        <li><a href="#3-5-github-に反映">3-5. GitHub に反映</a></li>
+      </ul>
+    </li>
+    <li><a href="#4-github-上でリリースページを作成">4. GitHub 上でリリースページを作成</a></li>
+    <li><a href="#5-スクリプト化簡易的な例">5. スクリプト化（簡易的な例）</a></li>
+    <li><a href="#補足fooaaa-からの移行案">補足：foo/AAA からの移行案</a></li>
+    <li><a href="#なぜ-v129-のように刻むのが良いのか">なぜ v1.2.9 のように刻むのが良いのか？</a>
+      <ul>
+        <li><a href="#補足githubリリースページも活用を">補足：GitHubリリースページも活用を</a></li>
+        <li><a href="#ステップバイステップzenodoで-bbbccc-を登録する手順">ステップバイステップ：Zenodoで bbb/ccc を登録する手順</a></li>
+      </ul>
+    </li>
+    <li><a href="#リリースノートのテンプレート">リリースノートのテンプレート</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown">
+  <h1>
+    <a href="http://localhost:1313/posts/repository_release/">Repository Release</a>
+  </h1>
+  
+  <h5>May 21, 2025</h5>
+
+
+
+  
+
+  
+
+
+
+<h1 id="krm関連のファイルを別のリポジトリに移す">
+  krm関連のファイルを別のリポジトリに移す
+  <a class="anchor" href="#krm%e9%96%a2%e9%80%a3%e3%81%ae%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%92%e5%88%a5%e3%81%ae%e3%83%aa%e3%83%9d%e3%82%b8%e3%83%88%e3%83%aa%e3%81%ab%e7%a7%bb%e3%81%99">#</a>
+</h1>
+<p>ChatGPTに教えてもらった手順をメモ。ほぼそのままコピペです。</p>
+<h2 id="前提の整理">
+  前提の整理
+  <a class="anchor" href="#%e5%89%8d%e6%8f%90%e3%81%ae%e6%95%b4%e7%90%86">#</a>
+</h2>
+<p><strong>旧構成（これまで）：</strong></p>
+<pre tabindex="0"><code>https://github.com/shikeda/HDIC
+├── README.md
+├── TSV.tsv
+├── KTB.tsv
+├── ...
+├── TSJ_ndl.tsv
+├── YQF.tsv
+├── images
+│   └── ...
+└── v1.2
+    ├── LICENSE
+    ├── README.md
+    ├── README_jp.md
+    ├── krm_main.json
+    ├── krm_main.tsv
+    ├── krm_notes.json
+    ├── krm_notes.tsv
+    ├── ...
+    ├── krm_wakun.json
+    └── krm_wakun.tsv
+</code></pre><p><strong>新構成（案）：</strong></p>
+<p>別のリポジトリ shikeda/krm を作成し、そこでバージョン（v1.2, v1.3…）を Git のタグやリリース機能で管理。</p>
+<h2 id="1-git-のタグやリリースとは">
+  1. 「Git のタグ」や「リリース」とは？
+  <a class="anchor" href="#1-git-%e3%81%ae%e3%82%bf%e3%82%b0%e3%82%84%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%81%a8%e3%81%af">#</a>
+</h2>
+<p>Gitでは、特定の時点（コミット）に名前を付けて「この時点が v1.2 です」と記録できます。これを**タグ（tag）**といいます。</p>
+<p>GitHub では、タグに説明文を加えたものを「リリース（Release）」として公開できます。</p>
+<p>これにより：</p>
+<ul>
+<li>過去バージョンに戻りたいとき、簡単に切り替えられる</li>
+<li>v1.2 のファイルだけをダウンロードしたい人に、リンクを案内できる</li>
+<li>ファイルの変更履歴も見やすくなる</li>
+</ul>
+<h2 id="2-新しいリポジトリ-krm-を作る手順github-で操作">
+  2. 新しいリポジトリ krm を作る手順（GitHub で操作）
+  <a class="anchor" href="#2-%e6%96%b0%e3%81%97%e3%81%84%e3%83%aa%e3%83%9d%e3%82%b8%e3%83%88%e3%83%aa-krm-%e3%82%92%e4%bd%9c%e3%82%8b%e6%89%8b%e9%a0%86github-%e3%81%a7%e6%93%8d%e4%bd%9c">#</a>
+</h2>
+<ol>
+<li>GitHub にログイン</li>
+<li>右上の「＋」メニューから [New repository] をクリック</li>
+<li>リポジトリ名に krm を入力</li>
+<li>説明文（Description）は任意で入力</li>
+<li>「Public」を選ぶ（誰でも見られるようにする）</li>
+<li>README.md にチェックを入れて初期化</li>
+<li>「Create repository」で作成完了</li>
+</ol>
+<h2 id="3-ローカルで作業--コミット--タグ--github-にプッシュ">
+  3. ローカルで作業 → コミット → タグ → GitHub にプッシュ
+  <a class="anchor" href="#3-%e3%83%ad%e3%83%bc%e3%82%ab%e3%83%ab%e3%81%a7%e4%bd%9c%e6%a5%ad--%e3%82%b3%e3%83%9f%e3%83%83%e3%83%88--%e3%82%bf%e3%82%b0--github-%e3%81%ab%e3%83%97%e3%83%83%e3%82%b7%e3%83%a5">#</a>
+</h2>
+<p>以下の手順で、手元のファイルを shikeda/krm に移して、バージョン管理。</p>
+<h3 id="3-1-初期クローン">
+  3-1. 初期クローン
+  <a class="anchor" href="#3-1-%e5%88%9d%e6%9c%9f%e3%82%af%e3%83%ad%e3%83%bc%e3%83%b3">#</a>
+</h3>
+<pre tabindex="0"><code>git clone https://github.com/foo/bbb.git
+cd bbb
+</code></pre><h3 id="3-2-ファイルをコピー">
+  3-2. ファイルをコピー
+  <a class="anchor" href="#3-2-%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab%e3%82%92%e3%82%b3%e3%83%94%e3%83%bc">#</a>
+</h3>
+<pre tabindex="0"><code>cp /path/to/old_repo/bbb*.tsv .
+</code></pre><h3 id="3-3-git-に反映">
+  3-3. Git に反映
+  <a class="anchor" href="#3-3-git-%e3%81%ab%e5%8f%8d%e6%98%a0">#</a>
+</h3>
+<pre tabindex="0"><code>git add .
+git commit -m &#34;Initial commit of bbb version 1.2&#34;
+</code></pre><h3 id="3-4-タグを作るv12">
+  3-4. タグを作る（v1.2）
+  <a class="anchor" href="#3-4-%e3%82%bf%e3%82%b0%e3%82%92%e4%bd%9c%e3%82%8bv12">#</a>
+</h3>
+<pre tabindex="0"><code>git tag v1.2
+</code></pre><h3 id="3-5-github-に反映">
+  3-5. GitHub に反映
+  <a class="anchor" href="#3-5-github-%e3%81%ab%e5%8f%8d%e6%98%a0">#</a>
+</h3>
+<pre tabindex="0"><code>git push origin main
+git push origin v1.2
+</code></pre><h2 id="4-github-上でリリースページを作成">
+  4. GitHub 上でリリースページを作成
+  <a class="anchor" href="#4-github-%e4%b8%8a%e3%81%a7%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%83%9a%e3%83%bc%e3%82%b8%e3%82%92%e4%bd%9c%e6%88%90">#</a>
+</h2>
+<ol>
+<li><a href="https://github.com/foo/bbb">https://github.com/foo/bbb</a> にアクセス</li>
+<li>上部メニューの「Releases」→「Draft a new release」</li>
+<li>「Tag version」に v1.2 を選ぶ</li>
+<li>タイトル・説明（例：「初版」や「仕様変更を含む」など）を入力</li>
+<li>「Publish release」で公開</li>
+</ol>
+<h2 id="5-スクリプト化簡易的な例">
+  5. スクリプト化（簡易的な例）
+  <a class="anchor" href="#5-%e3%82%b9%e3%82%af%e3%83%aa%e3%83%97%e3%83%88%e5%8c%96%e7%b0%a1%e6%98%93%e7%9a%84%e3%81%aa%e4%be%8b">#</a>
+</h2>
+<p>たとえば、今後新しいバージョンを出すたびに使えるシェルスクリプトを用意できます：</p>
+<pre tabindex="0"><code>#!/bin/bash
+VERSION=$1
+
+if [ -z &#34;$VERSION&#34; ]; then
+  echo &#34;Usage: ./release.sh v1.3&#34;
+  exit 1
+fi
+
+git add .
+git commit -m &#34;Update files for $VERSION&#34;
+git tag $VERSION
+git push origin main
+git push origin $VERSION
+</code></pre><p>上のように release.sh を作っておけば、</p>
+<pre tabindex="0"><code>./release.sh v1.3
+</code></pre><p>で更新＆タグ付けができます。</p>
+<h2 id="補足fooaaa-からの移行案">
+  補足：foo/AAA からの移行案
+  <a class="anchor" href="#%e8%a3%9c%e8%b6%b3fooaaa-%e3%81%8b%e3%82%89%e3%81%ae%e7%a7%bb%e8%a1%8c%e6%a1%88">#</a>
+</h2>
+<ul>
+<li>foo/AAA にあった旧ファイル（v1.1 以前）はそのままアーカイブ扱いでもよいです。</li>
+<li>README に「bbb の最新版は <a href="https://github.com/foo/bbb">https://github.com/foo/bbb</a> に移動しました」と書いておくと親切です。</li>
+<li>不要なら、foo/AAA から bbb.tsv を削除しても構いません。</li>
+</ul>
+<h2 id="なぜ-v129-のように刻むのが良いのか">
+  なぜ v1.2.9 のように刻むのが良いのか？
+  <a class="anchor" href="#%e3%81%aa%e3%81%9c-v129-%e3%81%ae%e3%82%88%e3%81%86%e3%81%ab%e5%88%bb%e3%82%80%e3%81%ae%e3%81%8c%e8%89%af%e3%81%84%e3%81%ae%e3%81%8b">#</a>
+</h2>
+<ul>
+<li>軽微な修正・改良を反映したタイミングでリリースしておくと、
+<ul>
+<li>どこで何が変わったか追いやすくなる</li>
+<li>複数人で作業していても食い違いが少ない</li>
+<li>公開利用者にも「最新版はどれか」がすぐわかる</li>
+</ul>
+</li>
+<li>GitHub のリリースページで、バージョンごとの説明文を残しておくことも可能です</li>
+</ul>
+<p><strong>運用のベストプラクティス（参考）</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>バージョン番号</th>
+          <th>用途の目安</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>v1.2.0</td>
+          <td>大きな仕様変更やファイル構成の変更があったとき</td>
+      </tr>
+      <tr>
+          <td>v1.2.1 ～ v1.2.9</td>
+          <td>小さな修正（文字の訂正、行追加、ラベル変更など）</td>
+      </tr>
+  </tbody>
+</table>
+<p>※ 世の中の通例として「メジャー.マイナー.パッチ」というルールに沿っています（Semantic Versioning）。</p>
+<p><strong>release.sh もこのままで OK</strong></p>
+<p>そのまま：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>./release.sh v1.2.9
+</span></span></code></pre></div><p>と使ってよいですし、必要があれば次のように履歴メッセージを追加するような拡張も可能です：</p>
+<pre tabindex="0"><code>#!/bin/bash
+VERSION=$1
+MESSAGE=$2
+
+if [ -z &#34;$VERSION&#34; ]; then
+  echo &#34;Usage: ./release.sh v1.2.9 \&#34;Fix typo in bbb_yyy.tsv\&#34;&#34;
+  exit 1
+fi
+
+git add .
+git commit -m &#34;${MESSAGE:-Update for $VERSION}&#34;
+git tag $VERSION
+git push origin main
+git push origin $VERSION
+</code></pre><p>こうすると：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>./release.sh v1.2.9 <span style="color:#e6db74">&#34;Fix typo in line 103 of bbb_xxx.tsv&#34;</span>
+</span></span></code></pre></div><p>のように記録できます。</p>
+<h3 id="補足githubリリースページも活用を">
+  補足：GitHubリリースページも活用を
+  <a class="anchor" href="#%e8%a3%9c%e8%b6%b3github%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%83%9a%e3%83%bc%e3%82%b8%e3%82%82%e6%b4%bb%e7%94%a8%e3%82%92">#</a>
+</h3>
+<p>GitHub 上で：</p>
+<ul>
+<li>各タグ（例：v1.2.6, v1.2.7…）に対応する「Release」を作っておく</li>
+<li>説明欄に「追加した行」「修正箇所」などを書く
+と、外部の人にもとても親切になります。</li>
+</ul>
+<h3 id="ステップバイステップzenodoで-bbbccc-を登録する手順">
+  ステップバイステップ：Zenodoで bbb/ccc を登録する手順
+  <a class="anchor" href="#%e3%82%b9%e3%83%86%e3%83%83%e3%83%97%e3%83%90%e3%82%a4%e3%82%b9%e3%83%86%e3%83%83%e3%83%97zenodo%e3%81%a7-bbbccc-%e3%82%92%e7%99%bb%e9%8c%b2%e3%81%99%e3%82%8b%e6%89%8b%e9%a0%86">#</a>
+</h3>
+<ol>
+<li>Zenodoアカウント作成</li>
+</ol>
+<ul>
+<li>GitHub アカウントでログイン可能（OAuth認証）</li>
+</ul>
+<ol start="2">
+<li>GitHubとZenodoを連携</li>
+</ol>
+<ul>
+<li>Zenodoの GitHub連携設定ページ にアクセス</li>
+<li>対象となる GitHub リポジトリ（例：foo/bbb, foo/ccc）を「ON」にする</li>
+</ul>
+<ol start="3">
+<li>リリースを作成</li>
+</ol>
+<ul>
+<li>foo/bbb → v1.2.9 のようにタグをつけて GitHub リリース</li>
+<li>foo/ccc → v0.9.1 のように別タグでリリース</li>
+</ul>
+<ol start="4">
+<li>Zenodoが自動で反応・DOI発行</li>
+</ol>
+<ul>
+<li>ZenodoがGitHubのリリースを検知し、数分で登録される</li>
+<li>各リリースに対応した DOI が発行される
+<ul>
+<li>例：v1.2.9 → 10.5281/zenodo.1234567</li>
+</ul>
+</li>
+</ul>
+<p><strong>補足：ZenodoのDOIの種類</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>DOIの種類</th>
+          <th>用途</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Concept DOI</td>
+          <td>1つのリポジトリに紐づく「固定のDOI」</td>
+      </tr>
+      <tr>
+          <td>Versioned DOI</td>
+          <td>各バージョン（例：v1.2.9）ごとの固有のDOI</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="リリースノートのテンプレート">
+  リリースノートのテンプレート
+  <a class="anchor" href="#%e3%83%aa%e3%83%aa%e3%83%bc%e3%82%b9%e3%83%8e%e3%83%bc%e3%83%88%e3%81%ae%e3%83%86%e3%83%b3%e3%83%97%e3%83%ac%e3%83%bc%e3%83%88">#</a>
+</h2>
+<pre tabindex="0"><code>## 📌 バージョン v1.2.3 - 2025-05-20
+
+### ✨ 変更内容（Changes）
+
+- `bbb_yyy.tsv` を v1.2.3 に更新しました。
+  - 意義注の追加：行1234「□□□」に補注を追記
+  - 音注の修正：行5678「〇〇〇」の読みを修正
+  - 書字訂正：誤記「勇」→「勇」を修正
+
+※ `bbb_xxx.tsv` は v1.2.1 のままで変更はありません。
+
+---
+
+### 📁 更新対象ファイル一覧
+
+| ファイル名       | バージョン | 主な変更       |
+|------------------|------------|----------------|
+| `bbb_yyy.tsv`     | v1.2.3     | 音注・意義注の修正・追加 |
+| `bbb_xxx.tsv`     | v1.2.1     | （変更なし）   |
+
+---
+
+### 📚 参考情報
+
+- TSV形式の凡例については [README.md](./README.md) をご覧ください。
+- このバージョンに関するご意見・誤植報告は [Issues](https://github.com/foo/bbb/issues) にて受付中です。
+</code></pre><p><strong>補足：さらに良くするために</strong></p>
+<ul>
+<li>バージョン管理に慣れた読者向けに、ファイルごとのバージョン履歴ページを Notion や GitHub Pages で一覧にしておくのも有効です。</li>
+<li>長く続くと、CHANGELOG.md にこれらをまとめておくと便利です。</li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#前提の整理">前提の整理</a></li>
+    <li><a href="#1-git-のタグやリリースとは">1. 「Git のタグ」や「リリース」とは？</a></li>
+    <li><a href="#2-新しいリポジトリ-krm-を作る手順github-で操作">2. 新しいリポジトリ krm を作る手順（GitHub で操作）</a></li>
+    <li><a href="#3-ローカルで作業--コミット--タグ--github-にプッシュ">3. ローカルで作業 → コミット → タグ → GitHub にプッシュ</a>
+      <ul>
+        <li><a href="#3-1-初期クローン">3-1. 初期クローン</a></li>
+        <li><a href="#3-2-ファイルをコピー">3-2. ファイルをコピー</a></li>
+        <li><a href="#3-3-git-に反映">3-3. Git に反映</a></li>
+        <li><a href="#3-4-タグを作るv12">3-4. タグを作る（v1.2）</a></li>
+        <li><a href="#3-5-github-に反映">3-5. GitHub に反映</a></li>
+      </ul>
+    </li>
+    <li><a href="#4-github-上でリリースページを作成">4. GitHub 上でリリースページを作成</a></li>
+    <li><a href="#5-スクリプト化簡易的な例">5. スクリプト化（簡易的な例）</a></li>
+    <li><a href="#補足fooaaa-からの移行案">補足：foo/AAA からの移行案</a></li>
+    <li><a href="#なぜ-v129-のように刻むのが良いのか">なぜ v1.2.9 のように刻むのが良いのか？</a>
+      <ul>
+        <li><a href="#補足githubリリースページも活用を">補足：GitHubリリースページも活用を</a></li>
+        <li><a href="#ステップバイステップzenodoで-bbbccc-を登録する手順">ステップバイステップ：Zenodoで bbb/ccc を登録する手順</a></li>
+      </ul>
+    </li>
+    <li><a href="#リリースノートのテンプレート">リリースノートのテンプレート</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
