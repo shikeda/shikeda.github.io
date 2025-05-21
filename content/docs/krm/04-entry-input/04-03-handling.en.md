@@ -13,12 +13,8 @@ Under preparation.
 
 # Handling Issues in Transcription, Notation, and Annotation
 
-ここでは、誤字・脱字など**書写上の問題**、省略符号や踊り字など**文字・語の表記形式**、
-割注、小字注記など**付加注記・レイアウト**を整理して、**書写・表記・注記における問題**と対応をまとめる。
+The *Myōgishō* is a dictionary of **`Hanzi (Chinese characters)`**. To accurately decipher its content and convert it into digital text, it is necessary to first understand the various characteristics visible in the original *Myōgishō* manuscripts and then to establish specific methods for data input and processing.
 
-
-名義抄は漢字の字書であり、その内容を正確に解読し、テキスト化するには、原典である
-名義抄に見える諸特徴を把握した上で、具体的な入力・処理方法を示す必要がある。
 
 まず、名義抄は古写本であり、書写上の誤りを避けることができない。
 **書写上の問題**として、誤字、脱字、衍字、訂正符号を扱う。

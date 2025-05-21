@@ -2,51 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>事例研究 on HDIC project</title>
-    <link>https://shikeda.github.io/docs/krm/08-case-studies/</link>
+    <link>http://localhost:1313/docs/krm/08-case-studies/</link>
     <description>Recent content in 事例研究 on HDIC project</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <atom:link href="https://shikeda.github.io/docs/krm/08-case-studies/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/docs/krm/08-case-studies/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>和訓「ウゴク」の調査</title>
-      <link>https://shikeda.github.io/docs/krm/08-case-studies/1-ugoku/</link>
+      <link>http://localhost:1313/docs/krm/08-case-studies/1-ugoku/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/docs/krm/08-case-studies/1-ugoku/</guid>
+      <guid>http://localhost:1313/docs/krm/08-case-studies/1-ugoku/</guid>
       <description>&lt;h1 id=&#34;和訓ウゴクの調査&#34;&gt;&#xA;  和訓「ウゴク」の調査&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%92%8c%e8%a8%93%e3%82%a6%e3%82%b4%e3%82%af%e3%81%ae%e8%aa%bf%e6%9f%bb&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;池田証寿&lt;/p&gt;&#xA;&lt;p&gt;2024年12月22日～26日&lt;/p&gt;&#xA;&lt;h2 id=&#34;はじめに&#34;&gt;&#xA;  はじめに&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;観智院本『類聚名義抄』（以下、名義抄）の注釈を進める参考とするため、次の点を確認する。&lt;/p&gt;</description>
     </item>
     <item>
       <title>和訓「ミル」の調査</title>
-      <link>https://shikeda.github.io/docs/krm/08-case-studies/2-miru/</link>
+      <link>http://localhost:1313/docs/krm/08-case-studies/2-miru/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/docs/krm/08-case-studies/2-miru/</guid>
+      <guid>http://localhost:1313/docs/krm/08-case-studies/2-miru/</guid>
       <description>&lt;h1 id=&#34;和訓ミルの調査&#34;&gt;&#xA;  和訓「ミル」の調査&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%92%8c%e8%a8%93%e3%83%9f%e3%83%ab%e3%81%ae%e8%aa%bf%e6%9f%bb&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;池田　証寿&#xA;2025年1月4日～11日&lt;/p&gt;&#xA;&lt;h2 id=&#34;はじめに&#34;&gt;&#xA;  はじめに&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;和訓「ミル」を例として、『日本国語大辞典　第二版』（ジャパンナレッジ版、「日国」と略）の表記欄を検証する。&lt;/p&gt;</description>
     </item>
     <item>
       <title>和訓の使用頻度</title>
-      <link>https://shikeda.github.io/docs/krm/08-case-studies/3-wakun-uf/</link>
+      <link>http://localhost:1313/docs/krm/08-case-studies/3-wakun-uf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/docs/krm/08-case-studies/3-wakun-uf/</guid>
+      <guid>http://localhost:1313/docs/krm/08-case-studies/3-wakun-uf/</guid>
       <description>&lt;h1 id=&#34;和訓の使用頻度-wakun-usage-frequency&#34;&gt;&#xA;  和訓の使用頻度 (Wakun Usage Frequency)&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%92%8c%e8%a8%93%e3%81%ae%e4%bd%bf%e7%94%a8%e9%a0%bb%e5%ba%a6-wakun-usage-frequency&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;池田　証寿 (Ikeda Shoju)&lt;br&gt;&#xA;2025年1月12日～13日&lt;br&gt;&#xA;2025年4月10日改訂、英訳追加&lt;/p&gt;&#xA;&lt;h2 id=&#34;はじめに-introduction&#34;&gt;&#xA;  はじめに (Introduction)&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab-introduction&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;2024年12月11日現在のKRM_wakun.tsvに基づき、和訓の使用頻度を整理する。&lt;/p&gt;</description>
     </item>
     <item>
       <title>同仮名異語の区別</title>
-      <link>https://shikeda.github.io/docs/krm/08-case-studies/4-kana-split/</link>
+      <link>http://localhost:1313/docs/krm/08-case-studies/4-kana-split/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/docs/krm/08-case-studies/4-kana-split/</guid>
+      <guid>http://localhost:1313/docs/krm/08-case-studies/4-kana-split/</guid>
       <description>&lt;h1 id=&#34;同仮名異語の区別-kana-homograph-distinction&#34;&gt;&#xA;  同仮名異語の区別 (Kana Homograph Distinction)&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%90%8c%e4%bb%ae%e5%90%8d%e7%95%b0%e8%aa%9e%e3%81%ae%e5%8c%ba%e5%88%a5-kana-homograph-distinction&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;池田証寿&lt;/p&gt;&#xA;&lt;p&gt;2025年1月13日～2月11日&lt;/p&gt;&#xA;&lt;h2 id=&#34;はじめに&#34;&gt;&#xA;  はじめに&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;和訓「ツク」を例にして同仮名異語の区別を検証する。&lt;/p&gt;&#xA;&lt;p&gt;和訓「ウゴク」の調査と和訓「ミル」の調査では、『日本国語大辞典　第二版』（以下、日国）の表記欄の検証を重点的に行ってきた。&#xA;ここでは観点を少し変えて三巻本『色葉字類抄』（前田本、黒川本、以下、字類抄）を通して名義抄の和訓を検証してみたい。&lt;/p&gt;</description>
     </item>
     <item>
       <title>DHSJRとの連携</title>
-      <link>https://shikeda.github.io/docs/krm/08-case-studies/5-dhsjr/</link>
+      <link>http://localhost:1313/docs/krm/08-case-studies/5-dhsjr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/docs/krm/08-case-studies/5-dhsjr/</guid>
+      <guid>http://localhost:1313/docs/krm/08-case-studies/5-dhsjr/</guid>
       <description>&lt;h1 id=&#34;dhsjrとの連携-collaboration-with-dhsjr&#34;&gt;&#xA;  &lt;strong&gt;DHSJRとの連携 (Collaboration with DHSJR)&lt;/strong&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#dhsjr%e3%81%a8%e3%81%ae%e9%80%a3%e6%90%ba-collaboration-with-dhsjr&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;dhsjrとは&#34;&gt;&#xA;  &lt;strong&gt;DHSJRとは&lt;/strong&gt;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#dhsjr%e3%81%a8%e3%81%af&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;DHSJRとは「資料横断的な漢字音・漢語音データベース」の&#xA;英語名&amp;quot;Database of Historical Sino-Japanese Readings&amp;quot;&#xA;に基づく略称である。DHSJRのプロジェクトは、&#xA;早稲田大学の加藤大鶴氏がリーダーとなって推進しており、&#xA;&lt;a href=&#34;https://dhsjr.w.waseda.jp/&#34;&gt;https://dhsjr.w.waseda.jp/&lt;/a&gt;&#xA;で構築した全データが公開されている。&lt;/p&gt;</description>
     </item>
     <item>
       <title>準備中</title>
-      <link>https://shikeda.github.io/docs/krm/08-case-studies/6/</link>
+      <link>http://localhost:1313/docs/krm/08-case-studies/6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/docs/krm/08-case-studies/6/</guid>
+      <guid>http://localhost:1313/docs/krm/08-case-studies/6/</guid>
       <description>&lt;p&gt;準備中&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,388 +2,388 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://shikeda.github.io/en/docs/krm/01-introduction/</loc>
+    <loc>http://localhost:1313/en/docs/krm/01-introduction/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/01-introduction/"
+                href="http://localhost:1313/docs/krm/01-introduction/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/01-introduction/"
+                href="http://localhost:1313/en/docs/krm/01-introduction/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/04-entry-input/04-01-id/</loc>
+    <loc>http://localhost:1313/en/docs/krm/04-entry-input/04-01-id/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/04-entry-input/04-01-id/"
+                href="http://localhost:1313/docs/krm/04-entry-input/04-01-id/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-01-id/"
+                href="http://localhost:1313/en/docs/krm/04-entry-input/04-01-id/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/02-data-overview/</loc>
+    <loc>http://localhost:1313/en/docs/krm/02-data-overview/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/02-data-overview/"
+                href="http://localhost:1313/docs/krm/02-data-overview/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/02-data-overview/"
+                href="http://localhost:1313/en/docs/krm/02-data-overview/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/</loc>
+    <loc>http://localhost:1313/en/docs/krm/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/"
+                href="http://localhost:1313/docs/krm/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/"
+                href="http://localhost:1313/en/docs/krm/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/04-entry-input/04-02-char/</loc>
+    <loc>http://localhost:1313/en/docs/krm/04-entry-input/04-02-char/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/04-entry-input/04-02-char/"
+                href="http://localhost:1313/docs/krm/04-entry-input/04-02-char/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-02-char/"
+                href="http://localhost:1313/en/docs/krm/04-entry-input/04-02-char/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/03-entry-data-model/</loc>
+    <loc>http://localhost:1313/en/docs/krm/03-entry-data-model/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/03-entry-data-model/"
+                href="http://localhost:1313/docs/krm/03-entry-data-model/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/"
+                href="http://localhost:1313/en/docs/krm/03-entry-data-model/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/01-introduction/01-01-introduction/</loc>
+    <loc>http://localhost:1313/en/docs/krm/01-introduction/01-01-introduction/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/01-introduction/01-01-introduction/"
+                href="http://localhost:1313/docs/krm/01-introduction/01-01-introduction/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/01-introduction/01-01-introduction/"
+                href="http://localhost:1313/en/docs/krm/01-introduction/01-01-introduction/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/</loc>
+    <loc>http://localhost:1313/en/docs/krm/03-entry-data-model/03-01-data-structure/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-01-data-structure/"
+                href="http://localhost:1313/docs/krm/03-entry-data-model/03-01-data-structure/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/"
+                href="http://localhost:1313/en/docs/krm/03-entry-data-model/03-01-data-structure/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/04-entry-input/04-03-handling/</loc>
+    <loc>http://localhost:1313/en/docs/krm/04-entry-input/04-03-handling/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/04-entry-input/04-03-handling/"
+                href="http://localhost:1313/docs/krm/04-entry-input/04-03-handling/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-03-handling/"
+                href="http://localhost:1313/en/docs/krm/04-entry-input/04-03-handling/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/04-entry-input/</loc>
+    <loc>http://localhost:1313/en/docs/krm/04-entry-input/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/04-entry-input/"
+                href="http://localhost:1313/docs/krm/04-entry-input/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/04-entry-input/"
+                href="http://localhost:1313/en/docs/krm/04-entry-input/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-02-types-of-entries/</loc>
+    <loc>http://localhost:1313/en/docs/krm/03-entry-data-model/03-02-types-of-entries/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-02-types-of-entries/"
+                href="http://localhost:1313/docs/krm/03-entry-data-model/03-02-types-of-entries/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-02-types-of-entries/"
+                href="http://localhost:1313/en/docs/krm/03-entry-data-model/03-02-types-of-entries/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-03-concepts-char/</loc>
+    <loc>http://localhost:1313/en/docs/krm/03-entry-data-model/03-03-concepts-char/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/"
+                href="http://localhost:1313/docs/krm/03-entry-data-model/03-03-concepts-char/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-03-concepts-char/"
+                href="http://localhost:1313/en/docs/krm/03-entry-data-model/03-03-concepts-char/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/</loc>
+    <loc>http://localhost:1313/en/docs/krm/03-entry-data-model/03-04-data-example/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-04-data-example/"
+                href="http://localhost:1313/docs/krm/03-entry-data-model/03-04-data-example/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/"
+                href="http://localhost:1313/en/docs/krm/03-entry-data-model/03-04-data-example/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/02-data-overview/02-01-main/</loc>
+    <loc>http://localhost:1313/en/docs/krm/02-data-overview/02-01-main/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/02-data-overview/02-01-main/"
+                href="http://localhost:1313/docs/krm/02-data-overview/02-01-main/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-01-main/"
+                href="http://localhost:1313/en/docs/krm/02-data-overview/02-01-main/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/02-data-overview/02-02-notes/</loc>
+    <loc>http://localhost:1313/en/docs/krm/02-data-overview/02-02-notes/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/02-data-overview/02-02-notes/"
+                href="http://localhost:1313/docs/krm/02-data-overview/02-02-notes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-02-notes/"
+                href="http://localhost:1313/en/docs/krm/02-data-overview/02-02-notes/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/02-data-overview/02-03-headword-chars/</loc>
+    <loc>http://localhost:1313/en/docs/krm/02-data-overview/02-03-headword-chars/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/02-data-overview/02-03-headword-chars/"
+                href="http://localhost:1313/docs/krm/02-data-overview/02-03-headword-chars/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-03-headword-chars/"
+                href="http://localhost:1313/en/docs/krm/02-data-overview/02-03-headword-chars/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/02-data-overview/02-04-wakun/</loc>
+    <loc>http://localhost:1313/en/docs/krm/02-data-overview/02-04-wakun/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/02-data-overview/02-04-wakun/"
+                href="http://localhost:1313/docs/krm/02-data-overview/02-04-wakun/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-04-wakun/"
+                href="http://localhost:1313/en/docs/krm/02-data-overview/02-04-wakun/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/02-data-overview/02-05-definitions/</loc>
+    <loc>http://localhost:1313/en/docs/krm/02-data-overview/02-05-definitions/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/02-data-overview/02-05-definitions/"
+                href="http://localhost:1313/docs/krm/02-data-overview/02-05-definitions/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-05-definitions/"
+                href="http://localhost:1313/en/docs/krm/02-data-overview/02-05-definitions/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/05-annotation-policy/</loc>
+    <loc>http://localhost:1313/en/docs/krm/05-annotation-policy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/05-annotation-policy/"
+                href="http://localhost:1313/docs/krm/05-annotation-policy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/"
+                href="http://localhost:1313/en/docs/krm/05-annotation-policy/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/02-data-overview/02-06-pronunciations/</loc>
+    <loc>http://localhost:1313/en/docs/krm/02-data-overview/02-06-pronunciations/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/02-data-overview/02-06-pronunciations/"
+                href="http://localhost:1313/docs/krm/02-data-overview/02-06-pronunciations/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-06-pronunciations/"
+                href="http://localhost:1313/en/docs/krm/02-data-overview/02-06-pronunciations/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-01-basic-policy/</loc>
+    <loc>http://localhost:1313/en/docs/krm/05-annotation-policy/05-01-basic-policy/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-01-basic-policy/"
+                href="http://localhost:1313/docs/krm/05-annotation-policy/05-01-basic-policy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-01-basic-policy/"
+                href="http://localhost:1313/en/docs/krm/05-annotation-policy/05-01-basic-policy/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/02-data-overview/02-07-ndl/</loc>
+    <loc>http://localhost:1313/en/docs/krm/02-data-overview/02-07-ndl/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/02-data-overview/02-07-ndl/"
+                href="http://localhost:1313/docs/krm/02-data-overview/02-07-ndl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-07-ndl/"
+                href="http://localhost:1313/en/docs/krm/02-data-overview/02-07-ndl/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-02-headword-count/</loc>
+    <loc>http://localhost:1313/en/docs/krm/05-annotation-policy/05-02-headword-count/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-02-headword-count/"
+                href="http://localhost:1313/docs/krm/05-annotation-policy/05-02-headword-count/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-02-headword-count/"
+                href="http://localhost:1313/en/docs/krm/05-annotation-policy/05-02-headword-count/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-03-jitaichu-formats/</loc>
+    <loc>http://localhost:1313/en/docs/krm/05-annotation-policy/05-03-jitaichu-formats/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-03-jitaichu-formats/"
+                href="http://localhost:1313/docs/krm/05-annotation-policy/05-03-jitaichu-formats/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-03-jitaichu-formats/"
+                href="http://localhost:1313/en/docs/krm/05-annotation-policy/05-03-jitaichu-formats/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-04-onchu-problems/</loc>
+    <loc>http://localhost:1313/en/docs/krm/05-annotation-policy/05-04-onchu-problems/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-04-onchu-problems/"
+                href="http://localhost:1313/docs/krm/05-annotation-policy/05-04-onchu-problems/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-04-onchu-problems/"
+                href="http://localhost:1313/en/docs/krm/05-annotation-policy/05-04-onchu-problems/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-05-gichu-quantity/</loc>
+    <loc>http://localhost:1313/en/docs/krm/05-annotation-policy/05-05-gichu-quantity/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-05-gichu-quantity/"
+                href="http://localhost:1313/docs/krm/05-annotation-policy/05-05-gichu-quantity/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-05-gichu-quantity/"
+                href="http://localhost:1313/en/docs/krm/05-annotation-policy/05-05-gichu-quantity/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-06-wakun-materials/</loc>
+    <loc>http://localhost:1313/en/docs/krm/05-annotation-policy/05-06-wakun-materials/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-06-wakun-materials/"
+                href="http://localhost:1313/docs/krm/05-annotation-policy/05-06-wakun-materials/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-06-wakun-materials/"
+                href="http://localhost:1313/en/docs/krm/05-annotation-policy/05-06-wakun-materials/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-07-annotation-examples/</loc>
+    <loc>http://localhost:1313/en/docs/krm/05-annotation-policy/05-07-annotation-examples/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-07-annotation-examples/"
+                href="http://localhost:1313/docs/krm/05-annotation-policy/05-07-annotation-examples/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-07-annotation-examples/"
+                href="http://localhost:1313/en/docs/krm/05-annotation-policy/05-07-annotation-examples/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/categories/</loc>
+    <loc>http://localhost:1313/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/categories/"
+                href="http://localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/categories/"
+                href="http://localhost:1313/en/categories/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/docs/</loc>
+    <loc>http://localhost:1313/en/docs/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/docs/"
+                href="http://localhost:1313/docs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/docs/"
+                href="http://localhost:1313/en/docs/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/</loc>
+    <loc>http://localhost:1313/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/"
+                href="http://localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/"
+                href="http://localhost:1313/en/"
                 />
   </url><url>
-    <loc>https://shikeda.github.io/en/tags/</loc>
+    <loc>http://localhost:1313/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://shikeda.github.io/tags/"
+                href="http://localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://shikeda.github.io/en/tags/"
+                href="http://localhost:1313/en/tags/"
                 />
   </url>
 </urlset>

@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Basic Policy for Annotation Creation on HDIC project</title>
-    <link>https://shikeda.github.io/en/docs/krm/05-annotation-policy/</link>
+    <link>http://localhost:1313/en/docs/krm/05-annotation-policy/</link>
     <description>Recent content in Basic Policy for Annotation Creation on HDIC project</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/docs/krm/05-annotation-policy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basic Policy and Subjects of Analysis for Annotation Creation</title>
-      <link>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-01-basic-policy/</link>
+      <link>http://localhost:1313/en/docs/krm/05-annotation-policy/05-01-basic-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-01-basic-policy/</guid>
+      <guid>http://localhost:1313/en/docs/krm/05-annotation-policy/05-01-basic-policy/</guid>
       <description>&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h1 id=&#34;basic-policy-and-subjects-of-analysis-for-annotation-creation&#34;&gt;&#xA;  Basic Policy and Subjects of Analysis for Annotation Creation&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#basic-policy-and-subjects-of-analysis-for-annotation-creation&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;項目の構造と注文数の概略を示し、一つの&#xA;項目を例に説明しながら、注釈作成の基本方針を示す。&lt;/p&gt;&#xA;&lt;h2 id=&#34;項目の構造と注文数&#34;&gt;&#xA;  項目の構造と注文数&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e9%a0%85%e7%9b%ae%e3%81%ae%e6%a7%8b%e9%80%a0%e3%81%a8%e6%b3%a8%e6%96%87%e6%95%b0&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;項目は&lt;strong&gt;掲出字&lt;/strong&gt;と&lt;strong&gt;注文&lt;/strong&gt;からなる。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Calculation of Headword Count</title>
-      <link>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-02-headword-count/</link>
+      <link>http://localhost:1313/en/docs/krm/05-annotation-policy/05-02-headword-count/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-02-headword-count/</guid>
+      <guid>http://localhost:1313/en/docs/krm/05-annotation-policy/05-02-headword-count/</guid>
       <description>&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h1 id=&#34;calculation-of-headword-count&#34;&gt;&#xA;  Calculation of Headword Count&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#calculation-of-headword-count&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、誤字、脱字、衍字、補入、埋字、代用符号、踊り字などについて解説し、&#xA;掲出項目数の算出を行う。&lt;/p&gt;&#xA;&lt;h2 id=&#34;誤字&#34;&gt;&#xA;  誤字&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e8%aa%a4%e5%ad%97&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;掲出字の誤字の例をいくつかあげる。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Types and Notation Formats of Character Form Notes</title>
-      <link>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-03-jitaichu-formats/</link>
+      <link>http://localhost:1313/en/docs/krm/05-annotation-policy/05-03-jitaichu-formats/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-03-jitaichu-formats/</guid>
+      <guid>http://localhost:1313/en/docs/krm/05-annotation-policy/05-03-jitaichu-formats/</guid>
       <description>&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h1 id=&#34;types-and-notation-formats-of-character-form-notes&#34;&gt;&#xA;  Types and Notation Formats of Character Form Notes&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#types-and-notation-formats-of-character-form-notes&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、「正」「通」「俗」などの注記の種類と&#xA;これらの注記と注記対象字との記載状況を解説する。&#xA;また、「滴」を例にして記載内容の検討を行い、&#xA;どのように注釈を作成すればよいかを考える材料とする。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Types and Decipherment Problems of Pronunciation Notes</title>
-      <link>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-04-onchu-problems/</link>
+      <link>http://localhost:1313/en/docs/krm/05-annotation-policy/05-04-onchu-problems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-04-onchu-problems/</guid>
+      <guid>http://localhost:1313/en/docs/krm/05-annotation-policy/05-04-onchu-problems/</guid>
       <description>&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h1 id=&#34;types-and-decipherment-problems-of-pronunciation-notes&#34;&gt;&#xA;  Types and Decipherment Problems of Pronunciation Notes&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#types-and-decipherment-problems-of-pronunciation-notes&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;音注の検討では、広韻の音注との比較が基本となる。&#xA;原撰本名義抄では、東宮切韻の引用頻度が高く、&#xA;切韻系韻書に由来する音注が改編本でも多くなっていると&#xA;予想される。&#xA;原撰本名義抄では、この他に原本玉篇、万象名義の引用が多い&#xA;東宮切韻と同程度あり、観智院本の音注についても照合が必要である。原撰本名義抄で引用頻度が&#xA;最も多いのは玄応の一切経音義であり、同様に観智院本の音注と一切経音義との照合するが必要である。&#xA;また、原撰本名義抄には和名抄由来の音注もあり、漢語の中古音の体系と相違することがある。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Types and Quantity of Meaning Notes</title>
-      <link>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-05-gichu-quantity/</link>
+      <link>http://localhost:1313/en/docs/krm/05-annotation-policy/05-05-gichu-quantity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-05-gichu-quantity/</guid>
+      <guid>http://localhost:1313/en/docs/krm/05-annotation-policy/05-05-gichu-quantity/</guid>
       <description>&lt;h1 id=&#34;types-and-quantity-of-meaning-notes&#34;&gt;&#xA;  Types and Quantity of Meaning Notes&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#types-and-quantity-of-meaning-notes&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h1 id=&#34;義注の種類と数量&#34;&gt;&#xA;  義注の種類と数量&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e7%be%a9%e6%b3%a8%e3%81%ae%e7%a8%ae%e9%a1%9e%e3%81%a8%e6%95%b0%e9%87%8f&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;義注とは、漢字を用いた意義注記のことである。漢文義注ともいう。&lt;/p&gt;&#xA;&lt;h3 id=&#34;義注の文字数&#34;&gt;&#xA;  義注の文字数&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e7%be%a9%e6%b3%a8%e3%81%ae%e6%96%87%e5%ad%97%e6%95%b0&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;観智院本類聚名義抄には、約12,600の義注がある。これを義注に&#xA;用いられた漢字の文字数により分類すると次のようになる。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Basic Materials for Wakun Annotation</title>
-      <link>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-06-wakun-materials/</link>
+      <link>http://localhost:1313/en/docs/krm/05-annotation-policy/05-06-wakun-materials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-06-wakun-materials/</guid>
+      <guid>http://localhost:1313/en/docs/krm/05-annotation-policy/05-06-wakun-materials/</guid>
       <description>&lt;h1 id=&#34;basic-materials-for-wakun-annotation&#34;&gt;&#xA;  Basic Materials for Wakun Annotation&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#basic-materials-for-wakun-annotation&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h1 id=&#34;和訓注釈のための基礎資料&#34;&gt;&#xA;  和訓注釈のための基礎資料&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%92%8c%e8%a8%93%e6%b3%a8%e9%87%88%e3%81%ae%e3%81%9f%e3%82%81%e3%81%ae%e5%9f%ba%e7%a4%8e%e8%b3%87%e6%96%99&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、まず、略称を用いる参考文献とその他の参考文献をあげる。&#xA;次に、和訓の同定に関して、若干の例をあげて解説する。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Concrete Examples of Annotation Description</title>
-      <link>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-07-annotation-examples/</link>
+      <link>http://localhost:1313/en/docs/krm/05-annotation-policy/05-07-annotation-examples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-07-annotation-examples/</guid>
+      <guid>http://localhost:1313/en/docs/krm/05-annotation-policy/05-07-annotation-examples/</guid>
       <description>&lt;h1 id=&#34;concrete-examples-of-annotation-description&#34;&gt;&#xA;  Concrete Examples of Annotation Description&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#concrete-examples-of-annotation-description&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Under preparation.&lt;/p&gt;&#xA;&lt;h2 id=&#34;前書き&#34;&gt;&#xA;  前書き&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%89%8d%e6%9b%b8%e3%81%8d&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;注釈の試作&#34;&gt;&#xA;  注釈の試作&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%b3%a8%e9%87%88%e3%81%ae%e8%a9%a6%e4%bd%9c&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;注釈をどのように作成するか、さらに&#xA;作成した注釈をどのように公表するかは&#xA;現在、検討中である。&lt;/p&gt;&#xA;&lt;p&gt;試みに、注釈の例を作成してみた。&#xA;ご意見いただければ幸いである。&#xA;なお、&lt;strong&gt;K0106261　匜&lt;/strong&gt;など、注釈すべきなのに、未記載のところが残っている。&#xA;今後、追加修正したい。&lt;/p&gt;</description>
     </item>
   </channel>

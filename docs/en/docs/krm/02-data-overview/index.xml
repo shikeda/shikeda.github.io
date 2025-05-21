@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Overview of Published Data on HDIC project</title>
-    <link>https://shikeda.github.io/en/docs/krm/02-data-overview/</link>
+    <link>http://localhost:1313/en/docs/krm/02-data-overview/</link>
     <description>Recent content in Overview of Published Data on HDIC project</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://shikeda.github.io/en/docs/krm/02-data-overview/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/docs/krm/02-data-overview/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>krm_main</title>
-      <link>https://shikeda.github.io/en/docs/krm/02-data-overview/02-01-main/</link>
+      <link>http://localhost:1313/en/docs/krm/02-data-overview/02-01-main/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-01-main/</guid>
+      <guid>http://localhost:1313/en/docs/krm/02-data-overview/02-01-main/</guid>
       <description>&lt;h1 id=&#34;krm_main&#34;&gt;&#xA;  krm_main&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_main&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;overview-and-file-formats&#34;&gt;&#xA;  Overview and file formats&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#overview-and-file-formats&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This section describes the core files of the database for the Kanchi-in manuscript of the &lt;em&gt;Ruiju Myōgishō&lt;/em&gt; (hereinafter &amp;ldquo;&lt;em&gt;Myōgishō&lt;/em&gt;&amp;rdquo;).&lt;/p&gt;&#xA;&lt;p&gt;Previously, the released file was a TSV file named &lt;code&gt;KRM.tsv&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It contains information regarding &lt;strong&gt;&lt;code&gt;Headwords&lt;/code&gt;&lt;/strong&gt;, the full content of the &lt;strong&gt;&lt;code&gt;Definition (Original Glosses)&lt;/code&gt;&lt;/strong&gt;, volume, radical, and the locations in the Kazama Shobō edition and the Tenri Central Library/Yōtokusha (Tenri Zenhon Sōsho) edition.&lt;/p&gt;</description>
     </item>
     <item>
       <title>krm_notes</title>
-      <link>https://shikeda.github.io/en/docs/krm/02-data-overview/02-02-notes/</link>
+      <link>http://localhost:1313/en/docs/krm/02-data-overview/02-02-notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-02-notes/</guid>
+      <guid>http://localhost:1313/en/docs/krm/02-data-overview/02-02-notes/</guid>
       <description>&lt;h1 id=&#34;krm_notes&#34;&gt;&#xA;  krm_notes&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_notes&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;overview-and-file-formats&#34;&gt;&#xA;  Overview and file formats&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#overview-and-file-formats&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;A new file, &lt;code&gt;krm_notes.tsv&lt;/code&gt;, has been created, containing detailed annotation information added to the &lt;code&gt;KRM_definitions.tsv&lt;/code&gt; file.&lt;/p&gt;&#xA;&lt;p&gt;This is available in both TSV and JSON formats. To explicitly indicate that these are the filenames after the specification change in March 2025, lowercase &amp;ldquo;krm&amp;rdquo; was used instead of uppercase &amp;ldquo;KRM,&amp;rdquo; resulting in the names &lt;code&gt;krm_notes.tsv&lt;/code&gt; and &lt;code&gt;krm_notes.json&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;column-name-comparison&#34;&gt;&#xA;  Column name comparison&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#column-name-comparison&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This section compares the column names in the new &lt;code&gt;krm_notes.tsv&lt;/code&gt; (v1.2.6) with those in the previous files it replaces or incorporates data from.&lt;/p&gt;</description>
     </item>
     <item>
       <title>krm_headword_chars</title>
-      <link>https://shikeda.github.io/en/docs/krm/02-data-overview/02-03-headword-chars/</link>
+      <link>http://localhost:1313/en/docs/krm/02-data-overview/02-03-headword-chars/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-03-headword-chars/</guid>
+      <guid>http://localhost:1313/en/docs/krm/02-data-overview/02-03-headword-chars/</guid>
       <description>&lt;h1 id=&#34;krm_headword_chars&#34;&gt;&#xA;  krm_headword_chars&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_headword_chars&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;overview-and-file-formats&#34;&gt;&#xA;  Overview and file formats&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#overview-and-file-formats&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;code&gt;Headwords&lt;/code&gt;&lt;/strong&gt; in the &lt;em&gt;Myōgishō&lt;/em&gt; can consist of single &lt;strong&gt;Chinese characters&lt;/strong&gt; or multiple &lt;strong&gt;Chinese characters&lt;/strong&gt; (multi-character compounds). The &lt;code&gt;krm_headword_chars&lt;/code&gt; data file provides a list of all &lt;strong&gt;constituent characters that form these &lt;code&gt;Headwords&lt;/code&gt;&lt;/strong&gt; from the &lt;em&gt;Myōgishō&lt;/em&gt;. The characters are ordered according to the sequence of &lt;strong&gt;&lt;code&gt;Entries&lt;/code&gt;&lt;/strong&gt; (items) in the &lt;em&gt;Myōgishō&lt;/em&gt; and then by the order of appearance of characters within each &lt;strong&gt;&lt;code&gt;Headword&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>krm_wakun</title>
-      <link>https://shikeda.github.io/en/docs/krm/02-data-overview/02-04-wakun/</link>
+      <link>http://localhost:1313/en/docs/krm/02-data-overview/02-04-wakun/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-04-wakun/</guid>
+      <guid>http://localhost:1313/en/docs/krm/02-data-overview/02-04-wakun/</guid>
       <description>&lt;h1 id=&#34;krm_wakun&#34;&gt;&#xA;  krm_wakun&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_wakun&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;overview-and-file-formats&#34;&gt;&#xA;  Overview and file formats&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#overview-and-file-formats&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This data file is derived by extracting &lt;strong&gt;&lt;code&gt;Japanese Native Readings (*wakun*)&lt;/code&gt;&lt;/strong&gt; from the &lt;code&gt;KRM.tsv&lt;/code&gt; file (an older version of &lt;code&gt;krm_main&lt;/code&gt;) of the &lt;em&gt;Myōgishō&lt;/em&gt; database, organizing variant forms of these &lt;strong&gt;&lt;code&gt;wakun&lt;/code&gt;&lt;/strong&gt;, and adjusting their correspondence with &lt;strong&gt;&lt;code&gt;variant characters (*itaiji*)&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Collation notes and source investigations related to &lt;strong&gt;&lt;code&gt;wakun&lt;/code&gt;&lt;/strong&gt; are documented in the &lt;code&gt;krm_notes&lt;/code&gt; file (which contains data for &lt;strong&gt;&lt;code&gt;Compiler&#39;s Remarks&lt;/code&gt;&lt;/strong&gt;), so they are omitted here.&lt;/p&gt;</description>
     </item>
     <item>
       <title>krm_definitions</title>
-      <link>https://shikeda.github.io/en/docs/krm/02-data-overview/02-05-definitions/</link>
+      <link>http://localhost:1313/en/docs/krm/02-data-overview/02-05-definitions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-05-definitions/</guid>
+      <guid>http://localhost:1313/en/docs/krm/02-data-overview/02-05-definitions/</guid>
       <description>&lt;h1 id=&#34;krm_definitions&#34;&gt;&#xA;  krm_definitions&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_definitions&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;The &lt;strong&gt;&lt;code&gt;Definition (Original Glosses)&lt;/code&gt;&lt;/strong&gt; in the &lt;em&gt;Myōgishō&lt;/em&gt; is composed not only of &lt;strong&gt;&lt;code&gt;Japanese Native Readings (*wakun*)&lt;/code&gt;&lt;/strong&gt; but also other elements such as &lt;strong&gt;&lt;code&gt;Notes on Character Form&lt;/code&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;code&gt;Phonetic Glosses&lt;/code&gt;&lt;/strong&gt;, and &lt;strong&gt;&lt;code&gt;Semantic Glosses in Chinese&lt;/code&gt;&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;code&gt;KRM_definitions.tsv&lt;/code&gt; file, which was previously released, provided these elements of the &lt;strong&gt;&lt;code&gt;Definition (Original Glosses)&lt;/code&gt;&lt;/strong&gt; categorized by type and ordered by their appearance. This dataset was created to facilitate collation and source investigation.&lt;/p&gt;&#xA;&lt;p&gt;Following the specification changes implemented in March 2025, the data and functionalities previously found in &lt;code&gt;KRM_definitions.tsv&lt;/code&gt; have been integrated into the &lt;code&gt;krm_notes&lt;/code&gt; file (which contains data for &lt;strong&gt;&lt;code&gt;Compiler&#39;s Remarks&lt;/code&gt;&lt;/strong&gt; and detailed analyses of these original gloss elements). Consequently, a separate detailed explanation for &lt;code&gt;krm_definitions&lt;/code&gt; is omitted here.&lt;/p&gt;</description>
     </item>
     <item>
       <title>krm_pronunciations</title>
-      <link>https://shikeda.github.io/en/docs/krm/02-data-overview/02-06-pronunciations/</link>
+      <link>http://localhost:1313/en/docs/krm/02-data-overview/02-06-pronunciations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-06-pronunciations/</guid>
+      <guid>http://localhost:1313/en/docs/krm/02-data-overview/02-06-pronunciations/</guid>
       <description>&lt;h1 id=&#34;krm_pronunciations&#34;&gt;&#xA;  krm_pronunciations&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_pronunciations&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;overview-and-file-formats&#34;&gt;&#xA;  Overview and file formats&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#overview-and-file-formats&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The &lt;strong&gt;&lt;code&gt;Phonetic Glosses&lt;/code&gt;&lt;/strong&gt; in the Kanchi-in manuscript of the &lt;em&gt;Ruiju Myōgishō&lt;/em&gt; (hereafter &lt;em&gt;Myōgishō&lt;/em&gt;) include &lt;strong&gt;&lt;code&gt;Fanqie spellings&lt;/code&gt;&lt;/strong&gt; (反切), &lt;strong&gt;&lt;code&gt;Similar sound notes&lt;/code&gt;&lt;/strong&gt; (類音注, &lt;em&gt;ruion-chū&lt;/em&gt;), and &lt;strong&gt;&lt;code&gt;Kana glosses&lt;/code&gt;&lt;/strong&gt; (仮名注, &lt;em&gt;kana-chū&lt;/em&gt;). These are often accompanied by &lt;strong&gt;&lt;code&gt;Tone marks&lt;/code&gt;&lt;/strong&gt; (声点, &lt;em&gt;shōten&lt;/em&gt;).&#xA;As a database for Sino-Japanese pronunciations, the &lt;strong&gt;&amp;ldquo;Database of Historical Sino-Japanese Readings&amp;rdquo;&lt;/strong&gt; (abbreviated as DHSJR), developed by Professor Katō Taitsuru and others, offers exceptionally rich content.&#xA;Its specifications are also publicly available in detail.&#xA;Accordingly, as part of the HDIC project, we have decided to release data in accordance with the DHSJR specifications.&lt;/p&gt;</description>
     </item>
     <item>
       <title>krm_ndl</title>
-      <link>https://shikeda.github.io/en/docs/krm/02-data-overview/02-07-ndl/</link>
+      <link>http://localhost:1313/en/docs/krm/02-data-overview/02-07-ndl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/en/docs/krm/02-data-overview/02-07-ndl/</guid>
+      <guid>http://localhost:1313/en/docs/krm/02-data-overview/02-07-ndl/</guid>
       <description>&lt;h1 id=&#34;krm_ndl&#34;&gt;&#xA;  krm_ndl&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#krm_ndl&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;This file compiles links to the images of the Kanchi-in manuscript of the &lt;em&gt;Ruiju Myōgishō&lt;/em&gt; that are publicly available in the National Diet Library Digital Collections.&lt;/p&gt;&#xA;&lt;p&gt;This data cross-references the locations within the Kanchi-in manuscript of the &lt;em&gt;Ruiju Myōgishō&lt;/em&gt; with their corresponding URLs in the National Diet Library Digital Collections. The file name is &lt;code&gt;KRM_ndl.tsv&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

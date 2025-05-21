@@ -38,7 +38,7 @@ weight: 4
 また、`krm_notes` の `hanzi_entry` カラムと `original_entry` カラムは、`krm_main` と同内容である。
 `krm_wakun` は、`wakun_elements` カラムに和訓データのみを記載する。
 
-また、特に詳細な説明が必要な例は、`krm_notes` の `remarks` カラム（備考欄）に記述した。
+また、特に詳細な説明が必要な例は、データベース作成者による注釈（Compiler's Remarks）として、`krm_notes` の `remarks` カラムに記述した。
 
 なお、公開データ全体の構成やファイル形式の詳細については、[公開データの概要](/docs/notes/krm_main/contens/)を参照されたい。
 
