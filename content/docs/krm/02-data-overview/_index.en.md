@@ -14,9 +14,9 @@ title: "Overview of Published Data"
 
 ## Introduction
 
-This database is a full-text digitization of the Kanchi-in manuscript of the *Ruiju Myōgishō* (abbreviated as KRM), incorporating location information, textual collation, source studies, and more. It is one of the **Hanzi** dictionary databases comprising the **Integrated Database of Hanzi Dictionaries in Early Japan** (abbreviated as HDIC). **The terms 'kanji' and 'hanzi' are explained later.**
+This database is a full-text digitization of the Kanchiin manuscript of the *Ruiju Myōgishō* (abbreviated as KRM), incorporating location information, textual collation, source studies, and more. It is one of the **Hanzi** dictionary databases comprising the **Integrated Database of Hanzi Dictionaries in Early Japan** (abbreviated as HDIC). **The terms 'kanji' and 'hanzi' are explained later.**
 
-The Kanchi-in manuscript of the *Ruiju Myōgishō* is a **Hanzi (Chinese character)** dictionary compiled in the twelfth century by a Shingon Buddhist monk. It has long been regarded as an important resource for research in Japanese historical linguistics due to its extensive collection of:
+The Kanchiin manuscript of the *Ruiju Myōgishō* is a **Hanzi (Chinese character)** dictionary compiled in the twelfth century by a Shingon Buddhist monk. It has long been regarded as an important resource for research in Japanese historical linguistics due to its extensive collection of:
 
 * **`Japanese Native Readings` (*wakun*)** that indicate accent (often with **`Tone marks`**),
 * detailed **`Phonetic Glosses`** on the pronunciation of **Hanzi (Chinese characters)**, and
@@ -40,7 +40,7 @@ For these reasons, 'hanzi' is used for the column names of the public data, whil
 
 ## List of Data Files
 
-The data for the Kanchi-in manuscript of the *Ruiju Myōgishō*, available at [https://github.com/shikeda/krm](https://github.com/shikeda/krm), is as follows. This list includes some files that are currently under preparation for public release.
+The data for the Kanchiin manuscript of the *Ruiju Myōgishō*, available at [https://github.com/shikeda/krm](https://github.com/shikeda/krm), is as follows. This list includes some files that are currently under preparation for public release.
 
   * **[krm\_main](./02-01-main/)**: Basic data. Includes information on **`Headwords`**, the full text of **`Definition (Original Glosses)`**, locations, etc. TSV and JSON files are available.
   * **[krm\_notes](./02-02-notes/)**: Data for the **`Compiler's Remarks`**. This comprises analyses of **`Headwords`**, **`Notes on Character Form`**, **`Phonetic Glosses`**, **`Semantic Glosses in Chinese`**, **`Japanese Native Readings` (*wakun*)**, and **Other** elements from the *Myōgishō*, including results of textual collation and source investigation. TSV and JSON files are available.
@@ -86,6 +86,6 @@ For details including the version of the released data, author information, and 
 
 ## Acknowledgments
 
-We would like to express our gratitude to Tenri Central Library and Yagi Bookstore for granting permission to publish the decipherment text of the Kanchi-in manuscript of the Ruiju Myogisho.  
+We would like to express our gratitude to Tenri Central Library and Yagi Bookstore for granting permission to publish the decipherment text of the Kanchiin manuscript of the *Ruiju Myogisho*.  
 
 This research is partly supported by JSPS KAKENHI Grant Numbers 16H03422, 19H00526, 23K17500 and 25K00466. We gratefully acknowledge this support.

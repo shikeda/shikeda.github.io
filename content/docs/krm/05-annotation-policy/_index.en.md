@@ -34,7 +34,7 @@ Regarding **`Semantic Glosses in Chinese`** (義注, *gichū*), we will indicate
 
 For **`Japanese Native Readings`** (和訓, *wakun*), given the extensive body of previous research, we will provide a list of these studies and the abbreviations used for them in the **`Compiler's Remarks`**. This will serve as an introduction to the **foundational materials for annotating *wakun***.
 
-Finally, using page 62 of the *Butsujō* (仏上) volume of the Kanchi-in manuscript of the *Ruiju Myōgishō* as a **specific example of annotation practice**, we will introduce the content of the **`Compiler's Remarks`**. This will demonstrate how subtle differences in **`Hanzi (Chinese character)`** glyph forms can be explained in the annotations through the use of GlyphWiki.
+Finally, using page 62 of the *Butsujō* (仏上) volume of the Kanchiin manuscript of the *Ruiju Myōgishō* as a **specific example of annotation practice**, we will introduce the content of the **`Compiler's Remarks`**. This will demonstrate how subtle differences in **`Hanzi (Chinese character)`** glyph forms can be explained in the annotations through the use of GlyphWiki.
 
 
 

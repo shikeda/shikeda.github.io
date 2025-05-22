@@ -140,7 +140,7 @@ A summary of the Chinese character dictionaries included in the HDIC and the ini
 -   *Sōhon Gyokuhen* (宋本玉篇, *Songben Yupian*; abbr. SYP) – First published: October 20, 2015
 -   Kōsan-ji manuscript *Tenrei Banshō Meigi* (篆隷万象名義; abbr. KTB) – First published: September 1, 2016
 -   Tenji manuscript *Shinsen Jikyō* (新撰字鏡; abbr. TSJ) – First published: June 28, 2018
--   Kanchi-in manuscript *Ruiju Myōgisho* (類聚名義抄; abbr. KRM) – First published: March 11, 2022
+-   Kanchiin manuscript *Ruiju Myōgisho* (類聚名義抄; abbr. KRM) – First published: March 11, 2022
 
 An explanation of what GitHub is and the significance of publishing research data through this system can be summarized as follows:
 

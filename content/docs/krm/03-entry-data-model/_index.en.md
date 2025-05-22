@@ -8,7 +8,7 @@ bookToc: true
 # Entry Data Model
 
 
-Regarding the Kanchi-in manuscript *Ruiju Myōgishō*:
+Regarding the Kanchiin manuscript *Ruiju Myōgishō*:
 
 First, under **`Entry Data Structure`**, we present the internal components of an **`Entry`** (such as **`Headword`**, **`Phonetic Gloss`**, and **`Wakun (*Japanese native reading*)`**) using specific examples (visual representations and transcriptions), and provide an abstracted and visualized diagram of the **`Entry`** structure.
 

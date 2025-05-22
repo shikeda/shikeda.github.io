@@ -15,440 +15,160 @@ Under preparation.
 
 The *Myōgishō* is a dictionary of **`Hanzi (Chinese characters)`**. To accurately decipher its content and convert it into digital text, it is necessary to first understand the various characteristics visible in the original *Myōgishō* manuscripts and then to establish specific methods for data input and processing.
 
+First, as the Myōgishō is an ancient manuscript, scribal errors are unavoidable.
+Under Scribal Issues, we will address **`Miswritten Characters`** (誤字, *goji*), **`Omitted Characters`** (脱字, *datsuji*), **`Superfluous Characters`** (衍字, *enji*), and **`Correction Marks`** (訂正符号, *teisei fugō*).
 
-まず、名義抄は古写本であり、書写上の誤りを避けることができない。
-**書写上の問題**として、誤字、脱字、衍字、訂正符号を扱う。
+Next, the *Myōgishō* employs sophisticated notational conventions for characters and words to convey diverse information related to the form, sound, and meaning of **`Hanzi (Chinese characters)`** accurately and efficiently. Under **Notational Conventions for Characters and Words**, we will discuss frequently used **`Abbreviated Characters`** (略字, *ryakuji*), **`Variant Characters` (*itaiji*)** (異体字), **`Iteration Marks`** (踊り字, *odoriji*), and **`Substitution Marks`** (代用符号, *daiyō fugō*). Although not numerous, examples of **`Compound Marks` (合符, *gōfu*)**—symbols used to connect characters to indicate they form a compound word—also exist and will be briefly introduced here. Since the nature of **`Substitution Marks`** and **`Compound Marks`** can be difficult to grasp, they will be explained in detail with examples in their respective dedicated sections.
 
-次に、名義抄では、漢字の形・音・義に関わる多様な情報を正確かつ効率的に伝えるために
-文字・語の表記形式に工夫を凝らしている。**文字・語の表記形式**として、本文で
-頻用される略字・異体字、踊り字、省略符号、合符を扱う。
+Finally, various ingenious methods are also applied to information added beyond the main text of the *Myōgishō*, as well as to physical characteristics such as layout and variations in character size. Under **`Additional Notations and Layout Features`**, we will cover:
 
-最後に、名義抄の本文以外に付加される情報と、レイアウト・文字の大小などの物理的特徴
-にも様々な工夫が施されている。**付加注記・レイアウト**として、
-割注、注文文字の大小、小字注記、異本注記、出典注記、声点、ヲコト点、改行・空白、補入注文、無注記、その他の注意すべき事例を扱い、これらの入力・処理方法を解説する。声点の説明では濁音と鼻音符号の説明をあわせて行う。
+* **`Interlinear Notes`** (割注, *warichū*),
+* variations in the size of characters within **`Original Glosses`** (注文文字の大小, *chūmon moji no daishō*),
+* **`Small Character Annotations`** (小字注記, *shōji chūki*),
+* **`Annotations from Variant Manuscripts`** (異本注記, *ihon chūki*),
+* **`Source Attributions`** (出典注記, *shutten chūki*),
+* **`Tone Marks` (*shōten*)** (声点),
+* **`Morphosyntactic Glosses` (*wokototen*)** (ヲコト点),
+* line breaks and spacing (改行・空白, *kaigyō/kūhaku*),
+* **`Interpolated Glosses`** (補入注文, *honyū chūmon*),
+* unannotated **`Entries`** (無注記, *muchūki*), and
+* other noteworthy cases.
 
+We will also explain how these are input and processed. The explanation of **`Tone Marks` (*shōten*)** will concurrently cover voiced sound symbols and nasal sound symbols."
 
-名義抄の本文の全般に共通する点に重点をおいて解説するが、
-項目の構成要素（掲出字、字体注、音注、義注、和訓）に特有の問題があれば、
-重要度に応じてその点に言及することとする。
-たとえば、「踊り字」は項目の構成要素にも共通する問題であるが、「声点」や「鼻音符号」は特に音注において問題となる。
+While the primary focus of this explanation will be on issues common to the entire text of the *Myōgishō*, if there are problems specific to the constituent elements of an **`Entry`**—namely the **`Headword`**, **`Notes on Character Form`**, **`Phonetic Glosses`**, **`Semantic Glosses in Chinese`**, and **`Japanese Native Readings` (*wakun*)**—these will also be addressed according to their significance.
+For example, "iteration marks" (踊り字, *odoriji*) are a common issue across various elements of an **`Entry`**, whereas "**`Tone Marks` (*shōten*)**" and "nasal sound symbols" (鼻音符号, *bionfugō*) are particularly problematic in the context of **`Phonetic Glosses`**.
 
-公開データでは、掲出字の翻刻は、`krm_main` の `hanzi_entry` カラムと `original_entry` カラムに記載される。
-また、`krm_notes` の `hanzi_entry` カラムと `original_entry` カラムは、`krm_main` と同内容である。
-`krm_wakun` は、`wakun_elements` カラムに和訓データのみを記載する。
 
-また、特に詳細な説明が必要な例は、`krm_notes` の `remarks` カラム（備考欄）に記述した。
+In the published data, the transcription of **`Headwords`** is recorded in the `hanzi_entry` and `original_entry` columns of the `krm_main` file.
+Similarly, the `hanzi_entry` and `original_entry` columns in the `krm_notes` file contain the same content as those in `krm_main`.
+The `krm_wakun` file exclusively lists **`Japanese Native Reading` (*wakun*)** data in its `wakun_elements` column.
 
-なお、公開データ全体の構成やファイル形式の詳細については、[公開データの概要](/docs/notes/krm_main/contens/)を参照されたい。
+Furthermore, instances requiring particularly detailed explanation are described in the `remarks` column of the `krm_notes` file as **`Compiler's Remarks`**.
 
-注文の翻刻は、公開データ `krm_main` の `definition` カラムに記載される。
-`krm_notes` では、注文の構成要素（字体注、音注、義注、和訓、その他）に区分して `definition_elements` カラムに記載される。
+For more details on the overall structure of the published data and file formats, please refer to the [Overview of Public Data](/docs/krm/02-data-overview/).
 
-以下に用いる用語には、踊り字（repetition mark, 疊字符）のように日本語に加えて、英語と中国語を加えたところがある。
+The transcription of the **`Original Glosses`** is recorded in the `definition` column of the `krm_main` public data file.
+In the `krm_notes` file, the constituent elements of the **`Original Glosses`**—namely **`Notes on Character Form`**, **`Phonetic Glosses`**, **`Semantic Glosses in Chinese`**, **`Japanese Native Readings` (*wakun*)**, and **`Other`** information—are categorized and recorded in the `definition_elements` column.
 
----
 
-## 書写上の問題
- (Scribal Issues)
+## Scribal Issues
 
-ここでは、誤字、脱字、衍字、訂正符号の問題を扱う。
+This section addresses issues such as **`Miswritten Characters`** (誤字, *goji*), **`Omitted Characters`** (脱字, *datsuji*), **`Superfluous Characters`** (衍字, *enji*), and **`Correction Marks`** (訂正符号, *teisei fugō*).
 
-### 誤字
+### `Miswritten Characters` (誤字, *goji*)
 
-誤字（miswritten character, 誤字）であることが明らかな掲出字は、
-校訂済みの字体を `entry` に、原文の字体を `original_entry` に示し、
-`krm_notes` の `remarks` に校訂の根拠を示す
-（`krm_notes` の詳細は[公開データの概要](/docs/notes/krm-main/contens/2-notes/)の当該項目を参照）
+When a **`Headword`** is clearly a **`Miswritten Character`** (誤字, *goji*), the collated (corrected) form is recorded in the `hanzi_entry` column, and the original manuscript form is recorded in the `original_entry` column. The basis for the collation is provided in the `remarks` column of the `krm_notes` file (for details on `krm_notes`, please refer to the relevant section in the [Overview of Public Data](/docs/krm/02-data-overview/)).
 
-`entry`、`original_entry`、`remarks` の順に例示する。
+**Examples (Original Japanese remarks):**
+- `hanzi_entry`: 向／後, `original_entry`: 〇／ー（彴）, `remarks`: 掲出字は「向後」とすべきを誤る。岡田研究193-194頁に「ー」使用は高山寺本が適切との指摘あり。
+- `hanzi_entry`: 姡, `original_entry`: 活, `remarks`: 掲出字は誤写。高山寺本・蓮成院本・西念寺本「姡」に作るにより改める。
 
-**例**  
--    向／後  〇／ー（彴）    掲出字は「向後」とすべきを誤る。岡田研究193-194頁に「ー」使用は高山寺本が適切との指摘あり。
-- 姡  活  掲出字は誤写。高山寺本・蓮成院本・西念寺本「姡」に作るにより改める。
+As illustrated by the preceding examples, the `remarks` in the `krm_notes` file are originally written in Japanese. English translations of these specific `remarks` are provided below for reference.
 
+**English Translations of `remarks` examples:**
 
-### 脱字
+* **For `hanzi_entry` '向／後':**
+    Erroneous **`Headword`**; should be '向後'. Okada (pp. 193-194) notes the use of 'ー' is appropriate for the Kōzan-ji ms.
+* **For `hanzi_entry` '姡':**
+    Miscopied **`Headword`**. Corrected to '姡' per Kōsan-ji, Renshō-in, & Sainen-ji mss.
 
-脱字（omitted character, 脫字）であることが明らかな掲出字は、
-「［］」（全角の角括弧）に入れて示す。
-説明が必要な場合には別途に記載する。
+### `Omitted Characters` (脱字, *datsuji*)
 
-**例**  
-- 将／［指］ （手部の掲出字であり、文脈から「指」の脱字は明白）
-- 叔／［母］ （女部の掲出字であり、前後に「母」の字があることから、その脱落は明白）
+When a character is clearly omitted from a **`Headword`**, the presumed omitted character is indicated by enclosing it in full-width square brackets "［］". If further explanation is necessary, it is provided separately (e.g., in the **`Compiler's Remarks`**).
 
-脱字であることが明白であるが、その文字がどのような文字か不明の場合は、 
-［＿］のように全角のアンダースコア（underscore）で示す。
+**Examples:**
+1.  将／［指］
+2.  叔／［母］
 
-反切の上字または下字が脱落していたのは明白だが、どのような文字か不明の場合である。 
+In Example 1, the **`Headword`** is found in the "手" (hand) radical section, and it is evident from the context that the character '指' is missing.
 
-**例**  
-- 𤎥 ［＿］覽反
+In Example 2, the **`Headword`** is found in the "女" (woman) radical section. Given the presence of the character '母' in preceding and succeeding **`Entries`**, its omission here is clear.
 
-「𤎥」に「覽反」とあるが、 「𤎥」は広韻「處占切」（平声鹽韻、䪜）、「吐敢切」（上声敢韻、𦵹）である。
- 「覽」は広韻「敢盧切」（上声敢韻）であるから、反切上字の脱落は明白である。 よって「［＿］覽反」と記載する。
+If it is clear that a character has been omitted, but the specific missing character is unknown, it is indicated by a full-width underscore within full-width square brackets, like "［＿］".
 
-### 衍字
+The following example illustrates a case where either the first or second character of a *fanqie* spelling was clearly omitted, but the specific missing character is unknown.
 
-衍字は、別途、備考欄に記載する。
-備考欄は、`krm_notes.tsv` の `remarks` カラムを指す。以下、簡略に「備考欄」とのみ記す。
+**Example:**
+* 𤎥 ［＿］覽反
 
-掲出字、注文、備考の順に示す。
+In this example, the **`Original Glosses`** for '𤎥' show "覽反".
+According to the *Guangyun*, '𤎥' has readings *chùzhān qiè* (處占切; level tone, 鹽韻, for the character 䪜) or *tǔgǎn qiè* (吐敢切; rising tone, 敢韻, for the character 𦵹). Since '覽' has the *Guangyun* reading *gǎnlú qiè* (敢盧切; rising tone, 敢韻), it is clear that the first character of the *fanqie* spelling is missing.
+Therefore, it is transcribed as "［＿］覽反".
 
-**例**  
-- 胳	又俗音腋也  「又俗音腋也」の「也」は衍字。
-- 眺	*ヒカヽメ	新撰字鏡「又比加目」。「ヽ」は衍字か、存疑。
+### `Superfluous Characters` (衍字, *enji*)
 
+Cases of **`Superfluous Characters`** (衍字, *enji*) are noted in the `remarks` column of the `krm_notes.tsv` file.
 
-### 訂正符号
+Examples are shown below in the order of **`Headword`** (`hanzi_entry`), relevant part of the **`Original Glosses`** (`definition_elements` from `krm_notes` or context from `krm_main`'s `definition`), and **`Compiler's Remarks`** (`remarks`).
 
-本文の訂正の符号は、転倒符、見消符、補入符がある。
+**Examples:**
+* **`Headword`** (`hanzi_entry`): 胳
+    **`Original Glosses`** (excerpt from `definition` / `definition_elements`): 又俗音腋也
+    **`Compiler's Remarks`** (`remarks`): The character '也' in "又俗音腋也" is superfluous.
+* **`Headword`** (`hanzi_entry`): 眺
+    **`Original Glosses`** (excerpt from `definition` / `definition_elements`): *ヒカヽメ
+    **`Compiler's Remarks`** (`remarks`): The *Shinsen Jikyō* has "又比加目". The 'ヽ' mark here is possibly a superfluous character, but this remains questionable (存疑, *zongi*).
 
-- **転倒符**（reverse mark, 顛倒符）は複字形式の掲出字の順序を正すものである。
-- **見消符**（deletion mark, 抹消符）は正しい掲出字を傍書（side note, 旁記）するものである。
-- **補入符**（interpolation mark, 補入符）は掲出項目の順序を正すものである。
+### `Correction Marks` (訂正符号, *teisei fugō*)
 
- 本文入力は、訂正の符号によって正しい内容に修正ものを本文を入力し、備考欄にその詳細を記載する。
+The marks used for corrections in the main text include **`Transposition Marks`** (転倒符, *tentōfu*), **`Deletion Marks`** (見消符, *misekechifu*), and **`Interpolation Marks`** (補入符, *honyūfu*).
 
-次の入力例では、注ごとに詳しい説明を施している。
-項目データでは、どの箇所を訂正したのか、分かりにくいので、
-注文の種類ごとに分割したデータ[krm_notes](/docs/notes/krm-main/contens/2-notes/)として公開する。
+* **`Transposition Marks`** (転倒符, *tentōfu*; also called 顛倒符, *tentōfu*)[^1] are used to correct the order of characters within a **`Multi-Character Form Headword`**.
+* **`Deletion Marks`** (見消符, *misekechifu*; also called 抹消符, *masshōfu*)[^2] often indicate that the correct **`Headword`** is provided as a side note  (e.g., 傍記 or 傍書).
+* **`Interpolation Marks`** (補入符, *honyūfu*)[^3] are used to correct the order of **`Entries`**.
 
-**例**  
-- 儻儻  コヒネカハクハ  西端誤写諸例54頁③文字のいれかわり818。高山寺本「コネヒカハクハ」の「ヒ」の右肩に転倒符あり、文字のいれかわりの誤りは解消済み（草川昇「類聚名義抄和訓小考」29頁）。
-- 拻  不定「ウシヽ歟」相撃    正宗索引「ウシヽ」に「ウシヽはホシヽの誤か、完の草ホシヽと見たるか言の誤なり」、「フ」に「字鏡に音灰不言相撃とある不字か。これは研究もの」。草川和訓集成「ウシヽ」で採録。池田按：原文「フ定相撃」の「定」の左に朱見消して右に朱で「ウシヽ歟」を記載。漢字を仮名と誤認して案語を加えたもの。
-- 倩  シヘタク    「ヘ」は「タ」の右に補入。正宗索引「シヘタク」、正宗索引補正「シタ-へリ」（シタリのへの右に小字へ）。草川和訓集成「シヘタク」で立項、高山寺本・西念寺本「シヘタク」とする。
+When inputting the main text data, the text is entered in its corrected form as indicated by these correction marks, and the details of such corrections are recorded in the `remarks` column (which forms part of the **`Compiler's Remarks`**).
 
+In the input examples that follow, detailed explanations are provided for each instance of correction or annotation. This explanatory content constitutes the **`Compiler's Remarks`** and is recorded in the `remarks` column of the `krm_notes` file.
 
-## 文字・語の表記形式 
- (Character and Notation Features)
+**Example 1:**
+* **`hanzi_entry`**: 儻／儻
+* **`definition_elements`**: コヒネカハクハ
+* **`remarks`**: Nishihata, *Gosha Shorei* (Examples of Scribal Errors), p. 54, item ③ "moji no irekawari" (character transposition) no. 818. Kusakawa Noboru ("Ruiju Myōgishō Wakun Shōkō," p. 29) notes that the Kōzan-ji manuscript has a **`Transposition Mark`** on the upper right of 'ヒ' in "コネヒカハクハ," indicating the character transposition error (as pointed out by Nishihata for the Kanchi-in manuscript) had already been resolved.
 
+**Example 2:**
+* **`hanzi_entry`**: 拻
+* **`definition_elements`**: 不定「ウシヽ歟」相撃
+* **`remarks`**: Masamune's Index, under 'ウシヽ', notes: "Is 'ウシヽ' an error for 'ホシヽ', or was the cursive form of '完' misread as 'ホシヽ'? It is a lexical error." Under 'フ', it states: "Could this be the character '不', explained in the *Jikyō* dictionary as '音灰不言相撃' (pronunciation *hai*, unspoken, mutual strike)? This requires further research." Kusakawa's *Wakun Shūsei* records 'ウシヽ' (treating it as a *wakun*). Ikeda's note: In the original text "フ定相撃", there is a red **`Deletion Mark`** to the left of '定', and 'ウシヽ歟' ("perhaps ウシヽ?") is written to its right in red. This is likely an editorial note (*ango*) added due to misidentifying a **`Hanzi (Chinese character)`** as kana.
 
-ここでは、略字・異体字（頻用されるもの）、踊り字、省略符号、合符を扱う。
+**Example 3:**
+* **`hanzi_entry`**: ⿸𠂋帀
+* **`definition_elements`**: △在下
+* **`remarks`**: Although '△' is written in a large size similar to a **`Headword`**, it is not a **`Headword`** itself but should be regarded as an **`Interpolation Mark`**.
 
-### 略字
+## Notational Conventions for Characters and Words
 
-略字（abbreviated character, 簡略字）は通行の字体に改める。
 
-**例**
-1. 亠 → 音
-2. ﹅ → 也
-3. 彳 → 従
-4. 扌 → 於
-5. 乂 → 反
-6. 禾 → 和
-7. 谷 → 俗
-8. 牜 → 物
-9. 类 → 類
-10. 欤 → 歟
+This section discusses frequently used **`Abbreviated Characters`** (略字, *ryakuji*), **`Variant Characters` (*itaiji*)** (異体字), **`Iteration Marks`** (踊り字, *odoriji*), **`Substitution Marks`** (代用符号, *daiyō fugō*), and **`Compound Marks` (合符, *gōfu*)**.
 
-これらのうち1から4は、名義抄の凡例に「注中多略用片」
-（注中に多く略して片（カタカタ）ヲ用フ）と説明される部分に例示される。
+### **`Abbreviated Characters`** (略字, *ryakuji*)
 
-1「亠（音）」、5「乂（反）」、6「禾（和）」は音注で頻用される。
+**`Abbreviated Characters`** (略字, *ryakuji*; also called 簡略字, *kanryakuji*) found in the manuscript are generally normalized to their standard, common forms in the transcribed data.
 
-7「谷（俗）」は字体注、8「牜（物）」は和訓で頻用される。
-ただし、「谷」の字義で用いることもあるので、これは「谷」のままとする。 「谷」を構成要素とする掲出字は観智院本の八部に掲載される。 たとえば「豅」は原文にその字義を「大長谷」と記載しているので、「谷」のままとする。
+**Examples:**
+(The left side shows the abbreviated form found in the manuscript, and the right side shows the normalized character used in the data.)
+1.  亠 → 音 (*on*)
+2.  ﹅ → 也 (*nari*, *ya*)
+3.  彳 → 従 (*jū*, *shitagau*)
+4.  扌 → 於 (*o*, *okeru*)
+5.  乂 → 反 (*han*; as in *fanqie* 反切)
+6.  禾 → 和 (*wa*; as in *Wa-on* 和音, an older layer of Sino-Japanese pronunciation)
+7.  谷 → 俗 (*zoku*) (but see note below)
+8.  牜 → 物 (*butsu*, *mono*)
+9.  类 → 類 (*rui*)
+10. 欤 → 歟 (*yo*, *ka*)
 
-9「类（類）」は「草類」「苔類」など和名抄の分類名に由来する項目に使用される。
+Among these, examples 1 through 4 are illustrated in the prefatory notes (凡例, *hanrei*) of the *Myōgishō* in a section explaining "注中多略用片" (meaning "in the glosses, abbreviated forms, often single components of characters [like radicals or katakana], are frequently used").
 
-10「欤（歟）」は字句の正誤に関する不審注記（按語）に使用される。
+Example 1 (亠 for 音 'sound/pronunciation'), Example 5 (乂 for 反 'reversal', used in **`fanqie`** spellings), and Example 6 (禾 for 和 'harmony/Japanese', used to denote **`Go-on`** (和音, *Wa-on*) pronunciations) are frequently used in **`Phonetic Glosses`**.
 
-### 異体字
+Example 7 (谷 for 俗) is frequently used in **`Notes on Character Form`** (to mean 'popular/vulgar' form), and example 8 (牜 for 物) is frequently used in **`Japanese Native Readings` (*wakun*)**.
+However, '谷' can also be used with its inherent meaning ("valley"). In such cases, it is transcribed as '谷' and not normalized to '俗'. 
+For instance, **`Headwords`** containing '谷' as a component are listed under the '八' (eight) radical section (八部, hachibu) of the Kanchi-in manuscript.
+The **`Entry`** for '豅', for example, has its semantic meaning given in the original text as "大長谷" (large long valley), so '谷' is retained as is.
 
-掲出字に用いられる異体字は原文通り字形またはそれに近い字形で入力することに
-注意を払ったが、注文に用いられる異体字は、通行の字形に改めることを基本方針とする。
+Example 9 (类 for 類) is used in **`Entries`** derived from category names in the *Wamyō Ruijushō* (倭名類聚抄), such as "草類" (types of grasses) and "苔類" (types of mosses).
 
-**例**
-- 𡰱 → 尼
-- 凢 → 凡
-- 𠩄 → 所
-- 𢘻 → 悉
-- 俻 → 備
+Example 10 (欤 for 歟) is used in notes expressing doubt or questioning the correctness of characters or phrases (these are considered types of editorial notes or *ango*).
 
-### 踊り字
-
-漢字の踊り字（repetition mark, 疊字符）は
-「〻」（二の字点, U+303B）を用いることとし、「々」（同の字点, U+3005）を用いない。
-
-和訓の片仮名の踊り字は、「ヽ」（片仮名繰返し記号, U+30FD）」を用いる。
-
-「〱」（くの字点」, U+3031）、「〳」（くの字点上, U+3033）、「〵」（くの字点下, U+3035）は使用せず、「ヽヽ」のように片仮名繰返し記号を重ねて用いる。
-
-**例**
-- 掲出字の例：曽／ー（祖）／〻（母）
-- 和訓の例：陽　アタヽカナリ
-- 和訓の例：倍　マスヽヽ
-
-### 省略符号
-
-
-熟語の掲出字に見える省略符号（omission mark）「｜」は、
-被注字（annotated character/target character, 被釋字）或いは前掲する掲出字を代用する時に使用される符号で、
-「ー」（長音符, U+30FC）を用いて入力し、その後の「（）」（全角括弧）内に該当字を入力する。
-
-注文中に用いられる掲出字と同一字であることを示す符号「｜」 は「ー」（長音符, U+30FC）を用いて入力するにとどめて、
-該当字を示すことはしない。
-
-**例**  
-- 掲出字の例：五／ー（人））、...、真／人、漁／ー（人）、海／ー（人）
-- 注文の例：鄲	邯ー縣名（「鄲」が掲出字「邯ー」は「邯鄲」で縣名であることを示す）
-
-
-### 合符
-
-説明 合符（compound mark, 連字符）はハイフンマイナス（-, U+002D）で表す。 例は僅少である。
-
-**例**  
--    媊  箭(R)貲二音　又煎(L)音　太-白-星
-
-掲出字「媊」の注文末尾に「太-白-星」と見える。 「太白星」とは金星のことである。
-
-## 付加注記・レイアウト
- (Added Annotations and Layout)
-
-最後に付加注記・レイアウトに関する諸問題を扱う。
-特に名義抄を日本語の音韻史、語彙史の資料として扱う場合は、
-声点、濁点、鼻音符号の説明を注意深く読むこと。
-
-### 割注
-
-割注双行（small character definition in two lines, 雙行夾注）が基本なので右から左の順に記載する。
-3行となる場合は、追加部分と判断される部分を後に記載する。
-
-### 注文文字の大小
-
-注文の文字を誤って大字に書写し、掲出字と混同する例が僅かに見える。
-
-**例**  
--    憙	音喜（L-H）　又嬉　コノム（LLH）　喜「注也」　ネカフ（以下略）
-
-この例では、掲出字「憙」の注文に音注・字体注・和訓を記し、その後「喜」を大字で書写、「ネカフ」などの
-和訓を記載する。大字の「喜」の右に「注也」とあり、「喜」は掲出字「憙」の義注であることを示す。
-    
-### 小字注記
-
-小字でなされる漢字注記を**小字注記**と呼ぶ。
-小字注記は、字体注に例が多い。これを**小字字体注記**と呼ぶ。
-
-注文に用いる漢字の音注を割注形式で注する例がある。これを**再割注**（smaller character definition in two lines, 再夾注）と呼ぶ。
-また、和訓の直下に小字で付した義注に用いる例もある。これを**小字和訓義注**と呼ぶ。
-
-小字注記は、該当箇所を全角の山括弧（〈〉, U+3008及びU+3009）に囲んで記載する。
-
-
-**例**  
--    小字字体注記の例：又鞘〈正〉　（掲出字「削」の字体注に見える）
--    再割注の例：従夾〈公合〉成恰反　（掲出字「陜」の反切下字「夾」に更に反切を施す）
--    小字和訓義注の例：アク〈髪〉　（掲出字「結」の和訓、同仮名異語（開く、厭く、挙ぐ）を区別し、髮を結う意であることを示す）
-
-小字和訓義注とすべきを誤って注文と同じ大きさに書写したものは、
-〈〉を用いて翻刻し、その旨を備考欄（remarks）に注記する。
-
-次の例は、掲出字、和訓、備考の順に示す。
-
-**例**  
--    展	ヒロク〈眉〉　〈眉〉は大字。
--    度 トコ〈床〉   義注大字。
-    
-
-### 異本注記
-
-異本注記（annotation according to a different manuscript）は掲出字に対するものと注文に対するものがある。
-
-掲出字の異本注記は、▲を付して「」内に注記内容を記す。
-
-注文の異本注記は全角の丸括弧（（）,U+FF08及びU+FF09）に囲んで、注文の字句（対象字-異本注記）の順に示す。
-
-「異本注記」は片仮名の「イ」で表記する（「他本」の「他」の人偏とする考えもある）。
-
-**例**  
--    掲出字の異本注記：▲𦫿「艾」
--    掲出字の異本注記：▲捺「⿰扌柰イ」
--    注文の異本注記：責猛（猛-⿰亻孟イ）二音
-
-
-### 出典注記
-
-出典（source）を示す書名・人名は二重山括弧（《》, U+300A及びU+300B）で括って示す。
-
-**例**  
-1.    人名の例：齔　《王右軍》作
-2.    人名の例：𡫸　◇《弘法大師》又云
-3.    書名の例：它　可見《類音决》
-4.    書名の例：𭘬　《大日經疏》云丁也反
-    
-2の例は、◇を付して掲出字の右側に施された漢文注記であることを示す。
-
-
-### 声点
-
-声点は名義抄データの利用者の関心が高い部分であるので、詳しく解説する。
-
-公開データでは、`krm_notes` の `definition_elements` カラムに注文の翻刻を記載している。
-`krm_notes.tsv` をエクセルなどのスプレッドシートに読み込み、
-`definition_type_name` カラムで、「音注」あるいは「和訓」を指定して検索すれば
-必要情報だけを抽出することが可能である。
-
-**声点の種類**
-
-声点（tone marks）は、平（L）、上（H）、去（R）、入（S）、平軽（F）、入軽（T）のようにカッコ内の略称で示す。軽声の認定は暫定的である。
-
-声点の位置の判断が難しい場合は、“?”を追記してその旨を示す。
-
-濁音と鼻音符号は声点の表示と同時になされるので、次に説明する。
-
-**濁音**  
-濁音符号（voiced consonant mark）は双点で示されるが、これは英字V（U+0056）で示す。
-
-**鼻音符号**  
-鼻音符号（nasal mark, 鼻音符）は(N)で示す。鼻音符号は、✓、v、レ、」のような形状で示される。
-鼻音符号の形状に言及する必要がある場合は、チェックマークの✓（U+2713）を用いて説明する。
-
-**複数の声点**
-
-複数の声点がある場合は平 → 平軽 → 上 → 去 → 入軽 → 入の順に表し、その間にハイフンマイナス（-, U+002D）で区切って表す。
-
-
-**音注の種類**
-
-反切（fanqie）、類音注（similar pronunciation annotation by character）、仮名音注（pronunciation annotation by kana）の三種がある。
-
-声点と双点の声点による濁音表示は、反切、類音注、仮名音注に対して施される。
-鼻音符号は、仮名音注に対して施される。
-
-**和訓の種類**
-
-和訓は、片仮名により記載される。
-
-例外は「木賊」に万葉仮名「度久佐」を記載するのみであり、
-これには声点が施されていない。
-
-和訓には、声点と双点の声点による濁音表示が施される。
-和訓に鼻音符号を施す例は、1例を認めるが確実ではない（「儔」の和訓「ナラフ」の「ナ」に鼻音符号）。
-
-**声点・濁音・鼻音符号の入力・処理方法**
-
-声点と双点の声点による濁音表示は、漢字または片仮名和訓に対して施される。
-鼻音符号は、片仮名の音注、仮名に和訓対して施される。
-
-反切は反切上字と反切下字を単位とし、施された声点を L や H の符号に置き換え、
-丸括弧（）の中に記載する。
-
-類音注も同様に丸括弧（）の中に記載する。
-
-仮名音注は、反切や類音注の周囲に小字で記す場合、「」内に記載する。
-注文の中で「呉」や「和」を冠して仮名音注を記す場合は、「」を省略する。
-
-音注は、漢字1字を単位とし、和訓は、語もしくは句を単位として、声点・濁音・鼻音符号を記載する。
-
-**声点の部分加点**
-
-声点が和訓の一部分のみに施されている場合は、声点が施されていない箇所を半角のアンダースコアー（_, U+005F）で表す。漢字は1字ずつ、和訓は合わせて表示する。
-
-**例**  
-1. 偵	勅令（R）反
-2. 使	所里（H）所使（H）二反
-3. 㒓	達（S）音
-4. 僆	輦（H）練（R）二音
-5. 偶	音藕（HV）「コウ」
-6. 侮	音武（L-HV）「フ」「ム（H）」
-7. 拱	呉音恐（L）
-8. 捉	呉冊（S） サク（_L）
-9. 類	和ルイ（_L）
-10. 形	和キヤウ（N_H-N）
-
-
-1と2は反切の例、3と4は類音注の例、5と6は類音注に仮名注を併記する例である。
-
-7と8は呉音の例であり、7は類音注、8は類音注に仮名音注を併記する。
-
-9と10は和音の例であり、9は声点を記載するもの、10は声点と鼻音符号を併記するものである。
-
-声点の朱墨の区別は重要であるが、このデータでは区別して入力していない。
-音韻史研究の専門家による詳細な検証を期待している。
-
-### ヲコト点
-
-ヲコト点の確実な例を確認していない。
-ヲコト点の確実な例が確認された場合は、平仮名により記す。
-
-### 改行・空白
-
-原文の改行を表示することは行わない。空白は原文通りではなく判読の結果を示す。
-
-### 補入注文
-
-補入注文（supplementary definition, 補入注文）は適切と判断した位置に記載する。
-
-
-### 無注記
-
-注文が存しない場合は、（無）で表す。全角の丸括弧（）を用いる。
-
-### 掲出字補注
-
-掲出字に対して施された注記を掲出字補注と呼ぶ。
-掲出字に直接施された声点と片仮名音注、掲出字に直接施された傍訓と返点、注文末尾の異本注記である。
-これらをまとめて説明する。
-
-**掲出字の声点と片仮名音注**
-
-掲出字に施され音読みを示す声点と片仮名は注文の最初に二重丸（◎，U+25CE）と被注字を付してその直後に記載する。声点は( )の中に略称で示し、片仮名は「　」を付す。
-
-**掲出字の傍訓と返点**
-
-掲出字に施され訓読を示す傍訓と返点は丸中黒（⦿, U+29BF）と被注字を、掲出字に施された漢文注記（反切、意義注、字体注、出典注記）はひし形（◇, U+25CF）と被注字を、掲出字に施された異本注記は黒三角（▲, U+25B2）と被注字を付してその直後に「」に入れて記載する。
-
-**注文末尾の異本注記**
-
-注文の末尾に追記された掲出字に対する異本注記は、注文末尾に▲を付し、その内容を「」に入れて示す。
-
-**記載の順序**
-
-掲出字補注四種を併記する必要がある場合には、◎音読み、⦿訓読み、◇漢文注、▲異本注記の順に記載する。
-
-**例**
-- ◎純「ト（L）ン（H）」
-- ⦿虱「キサヽ」
-- ◇⿱惟乃「手歟」
-- ▲⿲骨石辛「𩪧イ」
-
-### その他の注意すべき事例
-
-**判読注**
-
-編者の判読注（decipherment note, 解讀注記）を( )に入れて示すことがある。
-
-**例**  
-- ⿰阝⿱𠂉夕	オチイル（L___、ホを見消してチ）
-
-この例では備考欄に次の内容を記載する。
-
->正宗索引「オホ（-ヒ）チイル」に「ホ（-ヒ）はホを消したる印。オチイルか」。草川和訓集成「オホ」「チイル」で採録、望月和訓集成「オチイル」で採録。池田按：正宗と望月に従うべし。
-
-
-**掲出字中の反切**
-
-複字形式（熟語）の掲出字の途中に反切が挿入される場合は、/（半角スラッシュ）を用いて区切りを示す。
-
-
-**例**  
-- 𣚊ー（棗）	人充　/　ノナツメ（_HHH）
-
-この例では、掲出字、注文の順に示したが、「𣚊」の直下に「人充」の反切が記載されている。
-
-**漢字に付された和訓**
-
-注文の漢字に付された小字の片仮名（和訓）はそのまま「」の中に入力する。 小字の和訓は〈〉に入れる。例は僅少である。
-
-**例**  
-1. 琢「ミカク」玉工也
-2. 圏〈ヲリ〉
-3. ー「タヘ」「平歟」趹「ハシル」追「ヲオフ」蹤「ニクルヲ」
-
-1は掲出字「玊」の注文中に見える例であり、「琢」の右傍に「ミカク」の和訓を付している。
-
-2は掲出字「檻」の注文に見える例であり、「圏」の下に小字で和訓を付している。
-
-3は掲出字「要」の注文中に見える例である。例文とその和訓を示している。

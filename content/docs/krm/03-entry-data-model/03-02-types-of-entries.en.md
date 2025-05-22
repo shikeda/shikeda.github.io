@@ -26,7 +26,7 @@ This section explains the criteria used to classify **`Entries`** in the *Ruiju 
   - Example of single character form: 人
   - Examples of multi-character form: 一人, 二人, 五人
 
-Based on a tally from `krm_headword_chars.tsv` (latest version 1.2.1 as of May 12, 2025), out of a total of 32,607 **`Entries`** in the Kanchi-in manuscript, 24,692 **`Entries`** were in single character form, and 7,915 **`Entries`** were in multi-character form.
+Based on a tally from `krm_headword_chars.tsv` (latest version 1.2.1 as of May 12, 2025), out of a total of 32,607 **`Entries`** in the Kanchiin manuscript, 24,692 **`Entries`** were in single character form, and 7,915 **`Entries`** were in multi-character form.
 
 ## Classification Based on Entry Content and Relationships
 
@@ -46,7 +46,7 @@ An **`Entry`** can also be identified as an **`Entry with Variant Character Info
 
 An **`Entry`** is determined to be an **`Entry with Variant Character Information`** based on the content of the **Form Classification Tags** (such as "正" standard and "俗" popular/vulgar) found in the **`Original Glosses`**, or by the relationship between the listed **`Headwords`**.
 
-Currently, while we are unable to provide precise figures, our estimates suggest that out of the approximately 32,600 **`Entries`** in the Kanchi-in manuscript, around 14,000 are **`Entries with Variant Character Information`**. Among these, approximately 9,500 are expected to be in single-character form, and about 4,500 in multi-character form.
+Currently, while we are unable to provide precise figures, our estimates suggest that out of the approximately 32,600 **`Entries`** in the Kanchiin manuscript, around 14,000 are **`Entries with Variant Character Information`**. Among these, approximately 9,500 are expected to be in single-character form, and about 4,500 in multi-character form.
 
 Next, we will explain this with specific examples.
 
@@ -72,7 +72,7 @@ An **`Idiom Entry`** (熟語項目) is one where the **`Headword`** is in multi-
 
 Currently, while precise figures are not available, the estimated numbers for **`Idiom Entries`** are as follows:
 
-Out of the approximately 32,600 **`Entries`** in the Kanchi-in manuscript, around 14,000 are **`Entries with Variant Character Information`**, meaning that approximately 18,600 **`Entries`** are not **`Entries with Variant Character Information`**. Among these approximately 18,600 **`Entries`**, about 15,000 are in single-character form, and 3,500 are in multi-character form. These multi-character form **`Entries`** are projected to be **`Idiom Entries`**. The remaining approximately 100 **`Entries`** are those for which the **`Entry`** type cannot be determined based on their content.
+Out of the approximately 32,600 **`Entries`** in the Kanchiin manuscript, around 14,000 are **`Entries with Variant Character Information`**, meaning that approximately 18,600 **`Entries`** are not **`Entries with Variant Character Information`**. Among these approximately 18,600 **`Entries`**, about 15,000 are in single-character form, and 3,500 are in multi-character form. These multi-character form **`Entries`** are projected to be **`Idiom Entries`**. The remaining approximately 100 **`Entries`** are those for which the **`Entry`** type cannot be determined based on their content.
 
 Next, we will provide specific examples.
 
@@ -101,7 +101,7 @@ Based on the format of the **`Original Glosses`**, **`Headword`** **`Entries`** 
 
 In terms of content, **`Extended Entries`** include those in which only a part of the "form," "sound," or "meaning" of the **`Headword`** is recorded. However, even **`Entries`** without **`Original Glosses`** or with "**`unknown`**" (未詳) noted in the **`Original Glosses`** are included as **`Extended Entries`** if some kind of relationship is recognized between them and the preceding or succeeding **`Entries`**.
 
-Currently, while precise figures are not available, our estimates suggest that out of the approximately 32,600 **`Entries`** in the Kanchi-in manuscript, around 15,100 are expected to be **`Basic Entries`** and approximately 17,000 are projected to be **`Extended Entries`**. The remaining approximately 500 **`Entries`** have weak relationships with other **`Entries`** and are presumed to have been arranged temporarily or for convenience.
+Currently, while precise figures are not available, our estimates suggest that out of the approximately 32,600 **`Entries`** in the Kanchiin manuscript, around 15,100 are expected to be **`Basic Entries`** and approximately 17,000 are projected to be **`Extended Entries`**. The remaining approximately 500 **`Entries`** have weak relationships with other **`Entries`** and are presumed to have been arranged temporarily or for convenience.
 
 Next, we will provide specific examples.
 

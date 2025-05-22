@@ -11,7 +11,7 @@ weight: 4
 
 # Entry Data Structure
 
-This section explains the structure and format of **`Entries`** in the Kanchi-in manuscript of the *Ruiju Myōgishō* (hereinafter *Myōgishō*).
+This section explains the structure and format of **`Entries`** in the Kanchiin manuscript of the *Ruiju Myōgishō* (hereinafter *Myōgishō*).
 
 It begins by defining key terms (and related concepts) such as **`Headword`** (掲出字, *keishutsuji*) and **`Original Glosses`** (注文, *chūmon*). Next, an example of an actual **`Entry`** is presented as an image (a facsimile). The structure of this **`Entry`** is then illustrated in an abstract and diagrammatic form. Finally, a transcription of the **`Entry`** shown in the image is provided.
 

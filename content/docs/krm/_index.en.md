@@ -11,17 +11,17 @@ bookToc: true
 # bookSearchExclude: false
 ---
 
-#  *Ruiju Myōgishō*
+#  *Ruiju Myōgishō* (KRM): Full text Database of the Kanchiin Manuscript
 
 ## Introduction
 
 The *Ruiju Myōgishō* is renowned as a masterpiece among old Japanese dictionaries. The book title is read as "ruiju myōgishō." It is said that the title was formed by taking "Ruiju" from Minamoto no Shitagō's Wamyō Ruijushō and "Myōgi" from Kūkai's *Tenrei Banshō Myeigi*.
 
 
-Here, we will first describe the outline of the *Ruiju Myōgishō* and its various versions. Next, regarding the Kanchi-in manuscript, which is the only extant complete manuscript of the *Ruiju Myōgishō*, we will explain the structure of its entries, and then describe the details of the input method for the text of the Kanchi-in manuscript.
+Here, we will first describe the outline of the *Ruiju Myōgishō* and its various versions. Next, regarding the Kanchiin manuscript, which is the only extant complete manuscript of the *Ruiju Myōgishō*, we will explain the structure of its entries, and then describe the details of the input method for the text of the Kanchiin manuscript.
 
 
-Note that while the explanation provided here overlaps in part with what is stated in the paper by Ikeda Shoju, Liu Guanwei, Jun Munho, Zhang Xinfang, and Li Yuan, “Full-text Database of *Ruiju Myogi-sho*, Kanchi-in MS : A Look at Development Methods and Calculating the Number of Headwords." (*Kuntengo to Kuten Shiryō* 144, 2020), it has been completely overhauled and rewritten by the first author, Ikeda, who organized the terminology and substantially added subsequent research findings.
+Note that while the explanation provided here overlaps in part with what is stated in the paper by Ikeda Shoju, Liu Guanwei, Jun Munho, Zhang Xinfang, and Li Yuan, “Full-text Database of *Ruiju Myogi-sho*, Kanchiin MS : A Look at Development Methods and Calculating the Number of Headwords." (*Kuntengo to Kuten Shiryō* 144, 2020), it has been completely overhauled and rewritten by the first author, Ikeda, who organized the terminology and substantially added subsequent research findings.
 
 
 
@@ -41,10 +41,10 @@ Note that while the explanation provided here overlaps in part with what is stat
     - [Types of Entries](./03-entry-data-model/03-02-types-of-entries/)
     - [Concepts Related to Character Notation](./03-entry-data-model/03-03-concepts-char/)
     - [Publication and Updates of Entry Data Files](./03-entry-data-model/03-04-data-example/)
-- [Item Data Entry](./entry-input/)
-    - [Head Characters, Entry Structure, and ID System](./entry-input/1-id/)
-    - [Character Encoding and Representation](./entry-input/2-char/)
-    - [Problems and Handling in Writing, Notation, and Annotations](./entry-input/3-handling/)
+- [Item Data Entry](./04-entry-input/)
+    - [Head Characters, Entry Structure, and ID System](./04-entry-input/04-01-id/)
+    - [Character Encoding and Representation](./04-entry-input/04-02-char/)
+    - [Problems and Handling in Writing, Notation, and Annotations](./04-entry-input/04-03-handling/)
 - [Basic Principles for Creating Annotations/Commentary](./05-annotation-policy/)
     - [Basic Principles and Analytical Focus for Annotation Creation](./05-annotation-policy/05-01-basic-policy/)
     - [Calculation of Headword Count](./05-annotation-policy/05-02-headword-count/)
@@ -64,20 +64,20 @@ Note that while the explanation provided here overlaps in part with what is stat
 
 ## Database Construction Process
 
-The *Ruiju Myōgishō* of the Kanchi-in manuscript is an old handwritten manuscript, and because it contains an extremely large number of difficult characters, we proceeded with database construction using the following steps.
+The *Ruiju Myōgishō* of the Kanchiin manuscript is an old handwritten manuscript, and because it contains an extremely large number of difficult characters, we proceeded with database construction using the following steps.
 
-**Step 1:** Scan the facsimile edition and cut out each listed character to create an image database of the *Ruiju Myōgishō* of the Kanchi-in manuscript. The image files of the listed characters are named according to the location of the listed character. This image file name will later be used as the listed character ID.
+**Step 1:** Scan the facsimile edition and cut out each listed character to create an image database of the *Ruiju Myōgishō* of the Kanchiin manuscript. The image files of the listed characters are named according to the location of the listed character. This image file name will later be used as the listed character ID.
 
 
-**Step 2:** Add the location information to the existing *Tenrei Banshō Meigi* database by referring to the "Kanji Index" included in Atsuo Masamune's *Ruiju Myōgishō Volume 2* (Kazama Shobō, 1955). Input the location information from the "Kanji Index" into the *Tenrei Banshō Meigi* data rearranged in the order of the *Dai Kanwa Jiten* index numbers compiled by Tetsuji Morohashi. Then, rearrange it according to the order of locations in the Kanchi-in manuscript, collate it with the text of the Kanchi-in manuscript, and add the page numbers and character order of the Kanchi-in manuscript that are not found in the "Kanji Index."
+**Step 2:** Add the location information to the existing *Tenrei Banshō Meigi* database by referring to the "Kanji Index" included in Atsuo Masamune's *Ruiju Myōgishō Volume 2* (Kazama Shobō, 1955). Input the location information from the "Kanji Index" into the *Tenrei Banshō Meigi* data rearranged in the order of the *Dai Kanwa Jiten* index numbers compiled by Tetsuji Morohashi. Then, rearrange it according to the order of locations in the Kanchiin manuscript, collate it with the text of the Kanchiin manuscript, and add the page numbers and character order of the Kanchiin manuscript that are not found in the "Kanji Index."
 
-**Step 3:** Take in various information included in the *Tenrei Banshō Meigi* database (*Dai Kanwa Jiten* index numbers, Unicode numbers, kanji characters, location information in the *Tenrei Banshō Meigi*) and the corresponding location information of the *Ruiju Myōgishō* Kanchi-in manuscript created in Step 2, into the *Ruiju Myōgishō* Kanchi-in manuscript image database (created in Step 1) to create an input database for the *Ruiju Myōgishō* Kanchi-in manuscript text.
+**Step 3:** Take in various information included in the *Tenrei Banshō Meigi* database (*Dai Kanwa Jiten* index numbers, Unicode numbers, kanji characters, location information in the *Tenrei Banshō Meigi*) and the corresponding location information of the *Ruiju Myōgishō* Kanchiin manuscript created in Step 2, into the *Ruiju Myōgishō* Kanchiin manuscript image database (created in Step 1) to create an input database for the *Ruiju Myōgishō* Kanchiin manuscript text.
 
-**Step 4:** While referring to the facsimile edition of the *Ruiju Myōgishō* Kanchi-in manuscript (Tenri Library Rare Books Series, Japanese Books Section, Volumes 32-34) and the *Ruiju Myōgishō* Kanchi-in manuscript image database, add the text information for the listed characters and their explanations ("chūmon/chūbun") to the input database for the *Ruiju Myōgishō* Kanchi-in manuscript text created in Step 3.
+**Step 4:** While referring to the facsimile edition of the *Ruiju Myōgishō* Kanchiin manuscript (Tenri Library Rare Books Series, Japanese Books Section, Volumes 32-34) and the *Ruiju Myōgishō* Kanchiin manuscript image database, add the text information for the listed characters and their explanations ("chūmon/chūbun") to the input database for the *Ruiju Myōgishō* Kanchiin manuscript text created in Step 3.
 
-**Step 5:** Integrate the *Ruiju Myōgishō* Kanchi-in manuscript image database and the *Ruiju Myōgishō* Kanchi-in manuscript text database to form the *Ruiju Myōgishō* Kanchi-in manuscript database. Then, check and revise the text content using the newly published color facsimile edition of the *Ruiju Myōgishō* Kanchi-in manuscript (New Tenri Library Rare Books Series, Volumes 9-11). When checking the text content, also distinguish between compound word entries and variant character entries in the listed items, and distinguish between font annotations, pronunciation annotations, meaning annotations, and Japanese glosses in the explanations, and add this information.
+**Step 5:** Integrate the *Ruiju Myōgishō* Kanchiin manuscript image database and the *Ruiju Myōgishō* Kanchiin manuscript text database to form the *Ruiju Myōgishō* Kanchiin manuscript database. Then, check and revise the text content using the newly published color facsimile edition of the *Ruiju Myōgishō* Kanchiin manuscript (New Tenri Library Rare Books Series, Volumes 9-11). When checking the text content, also distinguish between compound word entries and variant character entries in the listed items, and distinguish between font annotations, pronunciation annotations, meaning annotations, and Japanese glosses in the explanations, and add this information.
 
-**Step 6:** Publish the completed *Ruiju Myōgishō* Kanchi-in manuscript database on the internet and provide a search service.
+**Step 6:** Publish the completed *Ruiju Myōgishō* Kanchiin manuscript database on the internet and provide a search service.
 
 
 ## Online Information Provision
@@ -97,7 +97,7 @@ We preserve records of data revisions and provide the latest versions of the ful
 [https://github.com/shikeda/HDIC](https://github.com/shikeda/HDIC)
 
 
-The *Ruiju Myōgishō* of the Kanchi-in manuscript underwent a specification change in March 2025, and the latest version of its full-text database is available at the following URL:
+The *Ruiju Myōgishō* of the Kanchiin manuscript underwent a specification change in March 2025, and the latest version of its full-text database is available at the following URL:
 
 [https://github.com/shikeda/HDIC/tree/master/v1.2](https://github.com/shikeda/HDIC/tree/master/v1.2)
 
@@ -106,6 +106,6 @@ Maintaining and managing the constructed data is a significant challenge.
 
 ## Acknowledgements
 
-The construction and publication of the full-text database of the *Ruiju Myōgishō* of the Kanchi-in manuscript are being carried out with special permission from the authorities of Tenri Library, and we have also received exceptional consideration from Yagi Shoten, the publisher of the Tenri Library Rare Books Series. We hereby express our gratitude for this.
+The construction and publication of the full-text database of the *Ruiju Myōgishō* of the Kanchiin manuscript are being carried out with special permission from the authorities of Tenri Library, and we have also received exceptional consideration from Yagi Shoten, the publisher of the Tenri Library Rare Books Series. We hereby express our gratitude for this.
 
 This work was supported by JSPS KAKENHI Grant Numbers 16H03422, 19H00526, 23K17500 and 25K00466.

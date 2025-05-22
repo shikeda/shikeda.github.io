@@ -34,7 +34,7 @@ This section provides an overview of the *Ruiju Myōgishō*, detailing its extan
 
 The extant manuscripts of the *Ruiju Myōgishō* fall into two distinct textual lineages: the original compilation and its later redactions.  
 The sole surviving exemplar of the original compilation is held by the Archives and Mausolea Department of the Imperial Household Agency, and this lineage is often referred to as the *gensenbon* (original compilation) tradition. The manuscript in question was introduced in 1950 as the *Zushoryō* manuscript (Library of Ancient Books manuscript).  
-The redacted lineage, alternatively termed the *kaihenbon-kei* (redacted version lineage) or *Kōekibon* tradition, includes several known manuscripts: the Kanchi-in manuscript, the Kōzan-ji manuscript, the Renshō-in manuscript, the Sainen-ji manuscript, and the Hōbodai-in manuscript. Of these, only the Kanchi-in manuscript survives in complete form; the remaining examples are fragmentary or incomplete. The redacted tradition has been the subject of sustained scholarly inquiry since the Edo period, beginning with the work of Ban Nobutomo and others.
+The redacted lineage, alternatively termed the *kaihenbon-kei* (redacted version lineage) or *Kōekibon* tradition, includes several known manuscripts: the Kanchiin manuscript, the Kōzan-ji manuscript, the Renshō-in manuscript, the Sainen-ji manuscript, and the Hōbodai-in manuscript. Of these, only the Kanchiin manuscript survives in complete form; the remaining examples are fragmentary or incomplete. The redacted tradition has been the subject of sustained scholarly inquiry since the Edo period, beginning with the work of Ban Nobutomo and others.
 
 In Japanese scholarship, it is common practice to refer to individual manuscripts by appending *-bon* (meaning “copy” or “text”) to the name of the holding temple or institution—for example, *Kanchiin-bon*. In this paper, however, these will be referred to using the English term “manuscript” for clarity and consistency.
 
@@ -70,7 +70,7 @@ The work lists Chinese characters both as individual graphs and compounds, accom
 
 ## Radical Structure
 
-According to the Kanchi-in manuscript, the *Ruiju Myōgishō* is organized into 120 sections grouped under the three divisions of the Buddhist Triratna: Buddha (仏), Dharma (法), and Sangha (僧). Each division contains 40 sections based on semantic radicals. The table below presents the full list of radicals used, shown with their associated head characters (部首字).
+According to the Kanchiin manuscript, the *Ruiju Myōgishō* is organized into 120 sections grouped under the three divisions of the Buddhist Triratna: Buddha (仏), Dharma (法), and Sangha (僧). Each division contains 40 sections based on semantic radicals. The table below presents the full list of radicals used, shown with their associated head characters (部首字).
 
 **Buddha Division (仏)**  
 (*Upper Volume*)  
@@ -104,10 +104,10 @@ Additionally, the ordering of radicals reflects both semantic grouping (e.g., pa
 
 ## Number of Entries
 
-The term *entry* refers to a unit consisting of both the headword and its accompanying definitions (original glosses). To provide a general sense of the scope of the *Ruiju Myōgishō*, we may look to the Kanchi-in manuscript for a representative overview. The following table presents a summary of the number of entries, the number of individual headwords, and the number of compound expressions found in each of the ten volumes, from the *Buddha (Upper)* through the *Sangha (Lower)* sections.
+The term *entry* refers to a unit consisting of both the headword and its accompanying definitions (original glosses). To provide a general sense of the scope of the *Ruiju Myōgishō*, we may look to the Kanchiin manuscript for a representative overview. The following table presents a summary of the number of entries, the number of individual headwords, and the number of compound expressions found in each of the ten volumes, from the *Buddha (Upper)* through the *Sangha (Lower)* sections.
 
-**Table: Number of Entries, Characters, and Compound Expressions by Volume (Kanchi-in Manuscript)**  
-The following table summarizes the distribution of character entries across the ten volumes of the *Ruiju Myōgishō* as preserved in the Kanchi-in manuscript. The work is structured into three main sections—Buddha (仏), Dharma (法), and Sangha (僧)—each comprising multiple volumes. The entries are classified by the number of characters per expression (from single-character to seven or more), along with totals for entries, characters, and compound expressions.
+**Table: Number of Entries, Characters, and Compound Expressions by Volume (Kanchiin Manuscript)**  
+The following table summarizes the distribution of character entries across the ten volumes of the *Ruiju Myōgishō* as preserved in the Kanchiin manuscript. The work is structured into three main sections—Buddha (仏), Dharma (法), and Sangha (僧)—each comprising multiple volumes. The entries are classified by the number of characters per expression (from single-character to seven or more), along with totals for entries, characters, and compound expressions.
 
 | **Volume**       | **1-char** | **2-char** | **3-char** | **4-char** | **5-char** | **6-char** | **7+ char** | **Total Entries** | **Total Characters** | **Compound Expressions** |
 | ---------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ----------- | ----------------- | -------------------- | ------------------------ |
@@ -137,7 +137,7 @@ The citations from these sources follow a fixed order of precedence: in semantic
 
 **Revised Compilation**
 
-The Kanchi-in manuscript of the revised compilation—also known as the **Kaihenbon** or **Kōekibon**—contains approximately 32,000 headword entries and about 34,000 Japanese native readings (*wakun*). Of these, roughly 10,000 *wakun* are annotated with tone marks (*shōten*). The names of authors and titles of cited sources found in the original compilation have been removed, and many of the semantic glosses in literary Chinese have likewise been omitted. Japanese native readings (*wakun*) originally recorded in *man’yōgana* have been replaced with katakana.
+The Kanchiin manuscript of the revised compilation—also known as the **Kaihenbon** or **Kōekibon**—contains approximately 32,000 headword entries and about 34,000 Japanese native readings (*wakun*). Of these, roughly 10,000 *wakun* are annotated with tone marks (*shōten*). The names of authors and titles of cited sources found in the original compilation have been removed, and many of the semantic glosses in literary Chinese have likewise been omitted. Japanese native readings (*wakun*) originally recorded in *man’yōgana* have been replaced with katakana.
 
 There is a substantial expansion of single-character entries. For items carried over from the original compilation, Japanese native readings have been added and reorganized; for new entries introduced in the revised version, a large number of Japanese native readings have been supplemented as well, resulting in a significantly enlarged corpus of Japanese native readings.
 
@@ -162,8 +162,8 @@ On March 26, 2025, a color version of the manuscript was made publicly available
 
 ### Revised Compilation
 
-**Kanchi-in Manuscript**  
-Originally housed at Tō-ji’s Kanchi-in, this complete manuscript—consisting of one volume of section headings and ten volumes of main text—is now preserved at the Tenri Central Library. According to colophons, it was copied by Jinen in 1241 (Ninji 2) and later recopied by Kenkei in 1251 (Kenchō 3).  
+**Kanchiin Manuscript**  
+Originally housed at Tō-ji’s Kanchiin, this complete manuscript—consisting of one volume of section headings and ten volumes of main text—is now preserved at the Tenri Central Library. According to colophons, it was copied by Jinen in 1241 (Ninji 2) and later recopied by Kenkei in 1251 (Kenchō 3).  
 Several facsimile and reproduction editions exist. The commonly cited versions are listed below, followed by brief descriptions:
 
   - **Kichōtosho Edition (1937):** A collotype facsimile edition in its original format, published by the Kichōtosho Fukuseikai, with commentary by Yamada Yoshio. Available via the National Diet Library Digital Collections.
@@ -179,18 +179,18 @@ Several facsimile and reproduction editions exist. The commonly cited versions a
 
 **Renjōin Manuscript**  
 Previously held at Kōfuku-ji’s Renjōin, this fragmentary manuscript (3 volumes) is now in the possession of Chinkoku Shukoku Shrine (Kuwana City, Mie Prefecture). Copied in the late Kamakura to early Muromachi period, it is also referred to as the Chinkoku Shukoku Shrine Manuscript.  
-It comprises: Volume 1 (corresponding to *Butsu-jō* and *Butsu-chū* in the Kanchi-in Manuscript); Volume 2 (covering up to mid-*Hō-jō*); and Volume 3 (corresponding to *Sō*). A facsimile edition was issued in 1965 by the Mikkan Kokubun Shiryō Kankōkai under the title *Sanpō Ruiju Myōgishō*, with commentary by Ozaki Satoakira. A clearer reproduction was issued in 1986 by Benseisha.
+It comprises: Volume 1 (corresponding to *Butsu-jō* and *Butsu-chū* in the Kanchiin Manuscript); Volume 2 (covering up to mid-*Hō-jō*); and Volume 3 (corresponding to *Sō*). A facsimile edition was issued in 1965 by the Mikkan Kokubun Shiryō Kankōkai under the title *Sanpō Ruiju Myōgishō*, with commentary by Ozaki Satoakira. A clearer reproduction was issued in 1986 by Benseisha.
 
 **Kōsan-ji Manuscript**  
 Formerly held at Kōsan-ji and now preserved at the Tenri Central Library via the Hōrei Collection. This manuscript was copied during the Insei period (late Heian).  
-It consists of two fragmentary volumes corresponding to *Butsu-jō* and *Butsu-chū* of the Kanchi-in Manuscript. The first folio lists section headings under the title *Sanbō Ruiji-shū Kan-jō*, and the main text begins with *Butsuhō Ruiji-shū Kan-jō I / Section 1: Jin*. This corresponds to the entry in the *Kōsan-ji Shōgyō Mokuroku* (Kenchō Inventory), which records *Sanpō Ruiji-shū* as a six-volume work. In 2016, a high-resolution color facsimile was published as Vol. 8 of the *Shin Tenri Toshokan Zenpon Sōsho*, with commentary by Yamamoto Hideto.
+It consists of two fragmentary volumes corresponding to *Butsu-jō* and *Butsu-chū* of the Kanchiin Manuscript. The first folio lists section headings under the title *Sanbō Ruiji-shū Kan-jō*, and the main text begins with *Butsuhō Ruiji-shū Kan-jō I / Section 1: Jin*. This corresponds to the entry in the *Kōsan-ji Shōgyō Mokuroku* (Kenchō Inventory), which records *Sanpō Ruiji-shū* as a six-volume work. In 2016, a high-resolution color facsimile was published as Vol. 8 of the *Shin Tenri Toshokan Zenpon Sōsho*, with commentary by Yamamoto Hideto.
 
 **Sainen-ji Manuscript**  
 A one-volume fragment transcribed in 1767 (Meiwa 4), based on the Eissatsu Manuscript, preserving portions of *Butsu-jō* and *Butsu-chū*. Now held by both the Tenri Central Library and Kansai University. Although no printed facsimile exists, images of the Kansai University copy are publicly available.  
 A version preserved by the Archives and Mausolea Department of the Imperial Household Agency is also accessible and more closely resembles the Tenri copy than the Kansai University one. While the Tenri copy has often been used in prior scholarship, the lack of a published facsimile once required researchers to visit the library to obtain photographic reproductions. The Shoryōbu copy now allows readers to access the same textual content as the Tenri Sainen-ji Manuscript.
 
 **Hōbodai-in Manuscript**  
-A one-volume fragment covering the “Ship” (舟) through “Dog” (犬) sections of *Butsu-ge* in the Kanchi-in Manuscript, likely copied in the late Kamakura period.  
+A one-volume fragment covering the “Ship” (舟) through “Dog” (犬) sections of *Butsu-ge* in the Kanchiin Manuscript, likely copied in the late Kamakura period.  
 A facsimile edition was published in 2002 by Taishō University Press, with commentary by Kurashima Tokihisa. A wakun index compiled by the same scholar was published in 2006 by the same press.
 
 ## Indexes
@@ -236,7 +236,7 @@ This list is currently under development, and therefore may not yet include some
     * Funaki, Shuntarō. "Sankanbon *Iroha Jiruishō* ni Miidasareru Tō-jidai no Hakuwago no Jukugo: *Hakushi Bunshū* kara no Sore o Chūshin ni shite" (Tang Dynasty Colloquial Compounds Found in the Three-Volume *Iroha Jiruishō*: Focusing on Those from the *Báishì Wénjí*). *Jinbun Kagaku Kenkyū* 125 (2009): 101–140.
 
 5.  **Hagihara, Yoshio (2019)**
-    * Hagihara, Yoshio. "Kanchi-in bon *Ruiju Myōgishō* Wakun Goi kara Kaimamita Kotoba no Unkō" (Glimpses of Language Use Seen from the Wakun Vocabulary of the Kanchi-in Manuscript *Ruiju Myōgishō*). *Komazawa Nihon Bunka* 13 (2019): 1–69.
+    * Hagihara, Yoshio. "Kanchiin bon *Ruiju Myōgishō* Wakun Goi kara Kaimamita Kotoba no Unkō" (Glimpses of Language Use Seen from the Wakun Vocabulary of the Kanchiin Manuscript *Ruiju Myōgishō*). *Komazawa Nihon Bunka* 13 (2019): 1–69.
 
 6.  **Hara, Takashi, and Yamamoto Hideto (1983)**
     * Hara, Takashi, and Yamamoto Hideto. "Zushoryōbon *Ruiju Myōgishō* ni okeru *Gen'ō Issaikyō Ongi* In'yō no Taido ni tsuite" (On the Approach to Citing *Xuán Yìng Yīqièjīng Yīnyì* in the Zushoryōbon *Ruiju Myōgishō*). *Kamakura Jidaigo Kenkyū*, no. 6 (1983): 124–179.
@@ -251,28 +251,28 @@ This list is currently under development, and therefore may not yet include some
     * Ikeda, Shōju. "Zushoryōbon *Ruiju Myōgishō* to *Ruionketsu*" (The Zushoryōbon *Ruiju Myōgishō* and the *Lèi Yīn Jué*). *Kuntengo to Kunten Shiryō* 96 (1995): 26–37.
 
 10. **Ikeda, Shōju et al. (2020)**
-    * Ikeda, Shōju, Liú Guānwěi, Jung Munho, Zhāng Xīnfāng, and Lǐ Yuán. "Kanchi-in bon *Ruiju Myōgishō* Zenbun Tekisuto Dētabēsu: Sono Kōchiku Hōhō to Keishutsu Kōmokusu-tō no Keiryō" (A Full-Text Database of the Kanchi-in Manuscript *Ruiju Myōgishō*: Its Construction Method and Quantitative Measurement of Headwords, etc.). *Kuntengo to Kunten Shiryō* 144 (2020): 105–129.
+    * Ikeda, Shōju, Liú Guānwěi, Jung Munho, Zhāng Xīnfāng, and Lǐ Yuán. "Kanchiin bon *Ruiju Myōgishō* Zenbun Tekisuto Dētabēsu: Sono Kōchiku Hōhō to Keishutsu Kōmokusu-tō no Keiryō" (A Full-Text Database of the Kanchiin Manuscript *Ruiju Myōgishō*: Its Construction Method and Quantitative Measurement of Headwords, etc.). *Kuntengo to Kunten Shiryō* 144 (2020): 105–129.
 
 11. **Ikeda, Shōju et al. (2022)**
-    * Ikeda, Shōju, Lǐ Yuán, Liú Guānwěi, and Jung Munho. "GlyphWiki ni yoru Kanchi-in bon *Ruiju Myōgishō* Jikei no Saigen to sono Kaizen" (Reproduction and Improvement of Character Forms in the Kanchi-in Manuscript *Ruiju Myōgishō* Using GlyphWiki). *Jinmonkon 2022 Ronbunshū* (JINMONCOM 2022 Proceedings) (2022): 103–110.
+    * Ikeda, Shōju, Lǐ Yuán, Liú Guānwěi, and Jung Munho. "GlyphWiki ni yoru Kanchiin bon *Ruiju Myōgishō* Jikei no Saigen to sono Kaizen" (Reproduction and Improvement of Character Forms in the Kanchiin Manuscript *Ruiju Myōgishō* Using GlyphWiki). *Jinmonkon 2022 Ronbunshū* (JINMONCOM 2022 Proceedings) (2022): 103–110.
 
 12. **Imanishi, Hiroko (1976)**
     * Imanishi, Hiroko. "*Ruiju Myōgishō*: Wakun no Hairetsu" (Arrangement of *Wakun* in the *Ruiju Myōgishō*). *Kuntengo to Kunten Shiryō*, no. 57 (1976): 61–86.
 
 13. **Inukai, Morimasa (1977)**
-    * Inukai, Morimasa. "*Ruiju Myōgishō*: Kanchi-in bon to Renjōin-bon to no 'Zatsu' Bu no Hikaku Taishō (Jō)" (A Comparative Study of the 'Miscellaneous' Section of the *Ruiju Myōgishō*: Kanchi-in and Renjōin Manuscripts (Part 1)). *Sugiyama Jogakuen Daigaku Kenkyū Ronshū* (*Journal of Sugiyama Jogakuen University*) 8, no. 2 (1977): 109–128.
+    * Inukai, Morimasa. "*Ruiju Myōgishō*: Kanchiin bon to Renjōin-bon to no 'Zatsu' Bu no Hikaku Taishō (Jō)" (A Comparative Study of the 'Miscellaneous' Section of the *Ruiju Myōgishō*: Kanchiin and Renjōin Manuscripts (Part 1)). *Sugiyama Jogakuen Daigaku Kenkyū Ronshū* (*Journal of Sugiyama Jogakuen University*) 8, no. 2 (1977): 109–128.
 
 14. **Inukai, Morimasa (1978)**
-    * Inukai, Morimasa. "*Ruiju Myōgishō*: Kanchi-in bon to Renjōin-bon to no 'Zatsu' Bu no Hikaku Taishō (Chū)" (A Comparative Study of the 'Miscellaneous' Section of the *Ruiju Myōgishō*: Kanchi-in and Renjōin Manuscripts (Part 2)). *Sugiyama Jogakuen Daigaku Kenkyū Ronshū* (*Journal of Sugiyama Jogakuen University*) 9, no. 2 (1978): 69–85.
+    * Inukai, Morimasa. "*Ruiju Myōgishō*: Kanchiin bon to Renjōin-bon to no 'Zatsu' Bu no Hikaku Taishō (Chū)" (A Comparative Study of the 'Miscellaneous' Section of the *Ruiju Myōgishō*: Kanchiin and Renjōin Manuscripts (Part 2)). *Sugiyama Jogakuen Daigaku Kenkyū Ronshū* (*Journal of Sugiyama Jogakuen University*) 9, no. 2 (1978): 69–85.
 
 15. **Inukai, Morimasa (1981)**
-    * Inukai, Morimasa. "*Ruiju Myōgishō*: Kanchi-in bon to Renjōin-bon to no 'Zatsu' Bu no Hikaku Taishō (Ge)" (A Comparative Study of the 'Miscellaneous' Section of the *Ruiju Myōgishō*: Kanchi-in and Renjōin Manuscripts (Part 3)). *Sugiyama Jogakuen Daigaku Kenkyū Ronshū* (*Journal of Sugiyama Jogakuen University*) 13, no. 2 (1981): 41–50.
+    * Inukai, Morimasa. "*Ruiju Myōgishō*: Kanchiin bon to Renjōin-bon to no 'Zatsu' Bu no Hikaku Taishō (Ge)" (A Comparative Study of the 'Miscellaneous' Section of the *Ruiju Myōgishō*: Kanchiin and Renjōin Manuscripts (Part 3)). *Sugiyama Jogakuen Daigaku Kenkyū Ronshū* (*Journal of Sugiyama Jogakuen University*) 13, no. 2 (1981): 41–50.
 
 16. **Ishii, Yukio (1993)**
     * Ishii, Yukio. "'Shichijō Jisho' kō" (A Study of the "Shichijō Jisho"). *Gogaku Bungaku* (Hokkaidō Kyōiku Daigaku Gogaku Bungakkai), no. 31 (1993): 15–22.
 
 17. **Katō, Kōji (2017)**
-    * Katō, Kōji. "Kanchi-in bon *Ruiju Myōgishō* no Jinji Wakun *Ware* to Sōji Wakun *Yawaragu* / *Nengoro* oyobi Sōji no Seiritsu ni tsuite" (On the Wakun *Ware* for the Character 人, the Wakun *Yawaragu* / *Nengoro* for the Character 僧, and the Formation of the Character 僧 in the Kanchi-in Manuscript *Ruiju Myōgishō*). *Tsuru Bunka Daigaku Kenkyū Kiyō*, no. 85 (2017): 45–58.
+    * Katō, Kōji. "Kanchiin bon *Ruiju Myōgishō* no Jinji Wakun *Ware* to Sōji Wakun *Yawaragu* / *Nengoro* oyobi Sōji no Seiritsu ni tsuite" (On the Wakun *Ware* for the Character 人, the Wakun *Yawaragu* / *Nengoro* for the Character 僧, and the Formation of the Character 僧 in the Kanchiin Manuscript *Ruiju Myōgishō*). *Tsuru Bunka Daigaku Kenkyū Kiyō*, no. 85 (2017): 45–58.
 
 18. **Kazama, Rikizō (1979)**
     * Kazama, Rikizō. "*Ruiju Myōgishō* no *Monzen* Yomi" (Readings from the *Wén Xuǎn* in the *Ruiju Myōgishō*). *Kōnan Daigaku Kiyō: Bungakuhen* (*The Journal of Konan University: Faculty of Letters*), no. 36 (1979): 8–35.
@@ -284,19 +284,19 @@ This list is currently under development, and therefore may not yet include some
     * Kobayashi, Kyōji. "*Ruiju Myōgishō* Shohon no Kanachū no Kisai Ichi ni tsuite" (On the Positions of Kana Annotations in Various Manuscripts of the *Ruiju Myōgishō*). *Kuntengo to Kunten Shiryō*, no. 89 (1992): 1–12.
 
 21. **Kobayashi, Kyōji (2000)**
-    * Kobayashi, Kyōji. "Sainnenji bon *Ruiju Myōgishō* ni okeru Zōho to Datsurō: Kanchi-in bon kara Mita Kōmoku no Umu ni tsuite" (Additions and Omissions in the Sainnenji Manuscript *Ruiju Myōgishō*: Regarding the Presence or Absence of Entries Compared to the Kanchi-in Manuscript). *Tsurumi Daigaku Bukkyō Bunka Kenkyūjo Kiyō* 5 (2000): 47–66.
+    * Kobayashi, Kyōji. "Sainnenji bon *Ruiju Myōgishō* ni okeru Zōho to Datsurō: Kanchiin bon kara Mita Kōmoku no Umu ni tsuite" (Additions and Omissions in the Sainnenji Manuscript *Ruiju Myōgishō*: Regarding the Presence or Absence of Entries Compared to the Kanchiin Manuscript). *Tsurumi Daigaku Bukkyō Bunka Kenkyūjo Kiyō* 5 (2000): 47–66.
 
 22. **Kobayashi, Kyōji (2016)**
     * Kobayashi, Kyōji. "Sainnenji bon *Ruiju Myōgishō* ni okeru Zōho to Datsurō: Ihon Chūki no Umu ni tsuite (11)" (Additions and Omissions in the Sainnenji Manuscript *Ruiju Myōgishō*: Regarding the Presence or Absence of Variant Manuscript Annotations (11)). *Tsurumi Daigaku Kiyō. Dai 4 Bu, Jinbun / Shakai / Shizen Kagaku hen*, no. 53 (2016): 120–121.
 
 23. **Kobayashi, Kyōji (2020)**
-    * Kobayashi, Kyōji. "Kanchi-in bon *Ruiju Myōgishō* no Hissha A ni tsuite" (On Scribe A of the Kanchi-in Manuscript *Ruiju Myōgishō*). *Kuntengo to Kunten Shiryō* 144 (2020): 48–81.
+    * Kobayashi, Kyōji. "Kanchiin bon *Ruiju Myōgishō* no Hissha A ni tsuite" (On Scribe A of the Kanchiin Manuscript *Ruiju Myōgishō*). *Kuntengo to Kunten Shiryō* 144 (2020): 48–81.
 
 24. **Komatsu, Hideo (1971)**
     * Komatsu, Hideo. *Nihon Seichōshi Ronkō* (Studies in the History of Japanese Accent). Tokyo: Kazama Shobō, 1971.
 
 25. **Kōno, Toshihiro (1992)**
-    * Kōno, Toshihiro. "Kanchi-in bon *Ruiju Myōgishō* Shoin no *Honzō Wamyō* ni tsuite" (On the *Honzō Wamyō* Cited in the Kanchi-in Manuscript of the *Ruiju Myōgishō*). In *Nihongo Ronkyū 2: Koten Nihongo to Jisho* (Japanese Language Research 2: Classical Japanese and Dictionaries), edited by Tajima Ikudō and Niwa Kazuya, *Kenkyū Sōsho* (Research Series) 121, 69–85. Osaka: Izumi Shoin, 1992.
+    * Kōno, Toshihiro. "Kanchiin bon *Ruiju Myōgishō* Shoin no *Honzō Wamyō* ni tsuite" (On the *Honzō Wamyō* Cited in the Kanchiin Manuscript of the *Ruiju Myōgishō*). In *Nihongo Ronkyū 2: Koten Nihongo to Jisho* (Japanese Language Research 2: Classical Japanese and Dictionaries), edited by Tajima Ikudō and Niwa Kazuya, *Kenkyū Sōsho* (Research Series) 121, 69–85. Osaka: Izumi Shoin, 1992.
 
 26. **Kurashima, Tokihisa (2005)**
     * Kurashima, Tokihisa. "Hōbodai-in bon *Ruiju Myōgishō* ni tsuite: Zokkō" (On the Hōbodai-in Manuscript *Ruiju Myōgishō*: Continued). *Kokubungaku Tōsa* 17 (2005): 115–125.
@@ -338,13 +338,13 @@ This list is currently under development, and therefore may not yet include some
     * Okada, Mareo. *Ruiju Myōgishō no Kenkyū* (Research on the *Ruiju Myōgishō*). Kyoto: Ichijō Shobō, 1944.
 
 39. **Ōtsuki, Makoto (2018)**
-    * Ōtsuki, Makoto. "*Ruiju Myōgishō Kanchi-in bon* Kaidai" (Bibliographical Introduction to the *Ruiju Myōgishō*, Kanchi-in Manuscript). In *Ruiju Myōgishō Kanchi-in bon San: Sō* (*Ruiju Myōgishō*, Kanchi-in Manuscript, Volume 3: Monk Section), edited by Tenri Daigaku Fuzoku Tenri Toshokan (Tenri Central Library), *Shin Tenri Toshokan Zempon Sōsho* (New Tenri Library Rare Books Series) 11, 1–32. Tokyo: Yagi Shoten, 2018.
+    * Ōtsuki, Makoto. "*Ruiju Myōgishō Kanchiin bon* Kaidai" (Bibliographical Introduction to the *Ruiju Myōgishō*, Kanchiin Manuscript). In *Ruiju Myōgishō Kanchiin bon San: Sō* (*Ruiju Myōgishō*, Kanchiin Manuscript, Volume 3: Monk Section), edited by Tenri Daigaku Fuzoku Tenri Toshokan (Tenri Central Library), *Shin Tenri Toshokan Zempon Sōsho* (New Tenri Library Rare Books Series) 11, 1–32. Tokyo: Yagi Shoten, 2018.
 
 40. **Ōtsuki, Makoto (2019)**
     * Ōtsuki, Makoto. *Heian Jidai Jisho Ronkō: Jisho to Zairyō* (Studies on Heian Period Dictionaries: Dictionaries and Materials). Tokyo: Yoshikawa Kōbunkan, 2019.
 
 41. **Sadakari, Itoku (1983)**
-    * Sadakari, Itoku. "Kanchiin-bon *Ruiju Myōgishō* no Keisei ni kansuru Kōsatsu: Sono 1, Jijun o meguru Mondai" (A Study on the Formation of the Kanchi-in manuscript *Ruiju Myōgishō*: Part 1, Problems Concerning Character Order). Paper presented at the 48th Meeting of the Kuntengo Gakkai (Society for Kunten Language Research), Kyoto, May 20, 1983.
+    * Sadakari, Itoku. "Kanchiin-bon *Ruiju Myōgishō* no Keisei ni kansuru Kōsatsu: Sono 1, Jijun o meguru Mondai" (A Study on the Formation of the Kanchiin manuscript *Ruiju Myōgishō*: Part 1, Problems Concerning Character Order). Paper presented at the 48th Meeting of the Kuntengo Gakkai (Society for Kunten Language Research), Kyoto, May 20, 1983.
 
 42. **Sadakari, Itoku (1998)**
     * Sadakari, Itoku. *Shinsen Jikyō no Kenkyū* (A Study of the *Shinsen Jikyō*). Tokyo: Kyūko Shoin, 1998.
@@ -362,7 +362,7 @@ This list is currently under development, and therefore may not yet include some
     * Suzuki, Yūya. "Kaihenbon *Ruiju Myōgishō* no *Goonchū* to *Kyōtsū Sohon* ni tsuite" (On the *Go'on* Annotations and the Common Ancestor Text of the Revised *Ruiju Myōgishō*). *Kokugo Kokubun* 90, no. 2 (2021): 27–57.
 
 47. **Takase, Shōichi (1978)**
-    * Takase, Shōichi. "Wakun yori mita '*Shinsen Jikyō*' to '*Kanchi-in bon Ruiju Myōgishō*' ni tsuite" (On the *Shinsen Jikyō* and the Kanchi-in bon *Ruiju Myōgishō* Viewed from their *Wakun*). *Gobun Kenkyū*, nos. 44/45 (1978): 103–114.
+    * Takase, Shōichi. "Wakun yori mita '*Shinsen Jikyō*' to '*Kanchiin bon Ruiju Myōgishō*' ni tsuite" (On the *Shinsen Jikyō* and the Kanchiin bon *Ruiju Myōgishō* Viewed from their *Wakun*). *Gobun Kenkyū*, nos. 44/45 (1978): 103–114.
 
 48. **Takahashi, Hiroyuki (2006)**
     * Takahashi, Hiroyuki. "*Zushoryōbon Ruiju Myōgishō* Shoin *Kobun Kōkyō* no Wakun ni tsuite" (On the Wakun for the *Gǔwén Xiàojīng* Cited in the *Zushoryōbon Ruiju Myōgishō*). *Kokubungaku Ronkō* (Tsuru Bunka Daigaku), no. 42 (2006): 14–21.
@@ -371,25 +371,25 @@ This list is currently under development, and therefore may not yet include some
     * Takahashi, Hiroyuki. "*Zushoryōbon Ruiju Myōgishō* Shoin *Ganshi Kakun* no Wakun ni tsuite" (On the Wakun for the *Yánshì Jiāxùn* Cited in the *Zushoryōbon Ruiju Myōgishō*). *Kokubungaku Ronkō* (Tsuru Bunka Daigaku), no. 43 (2007): 15–26.
 
 50. **Tamura, Natsuki (1997a)**
-    * Tamura, Natsuki. "*Kanroku Jisho* to Kanchi-in bon *Ruiju Myōgishō* no Hikaku: Zushoryōbon *Ruiju Myōgishō* o Kaizai to shite" (A Comparison of the *Gānlù Zìshū* and the Kanchi-in Manuscript *Ruiju Myōgishō*: With the Zushoryōbon *Ruiju Myōgishō* as an Intermediary). *Kokugogaku Kenkyū to Shiryō* 21 (1997): 1–12.
+    * Tamura, Natsuki. "*Kanroku Jisho* to Kanchiin bon *Ruiju Myōgishō* no Hikaku: Zushoryōbon *Ruiju Myōgishō* o Kaizai to shite" (A Comparison of the *Gānlù Zìshū* and the Kanchiin Manuscript *Ruiju Myōgishō*: With the Zushoryōbon *Ruiju Myōgishō* as an Intermediary). *Kokugogaku Kenkyū to Shiryō* 21 (1997): 1–12.
 
 51. **Tamura, Natsuki (1997b)**
-    * Tamura, Natsuki. "Kanchi-in bon *Ruiju Myōgishō* to *Ryūgan Shukan* no Seiji / Itaīji no Kisai no Hikaku" (A Comparison of the Descriptions of Standard and Variant Characters in the Kanchi-in Manuscript *Ruiju Myōgishō* and the *Lóngkān Shǒujiàn*). *Kamakura Jidaigo Kenkyū* 20 (1997): 145–165.
+    * Tamura, Natsuki. "Kanchiin bon *Ruiju Myōgishō* to *Ryūgan Shukan* no Seiji / Itaīji no Kisai no Hikaku" (A Comparison of the Descriptions of Standard and Variant Characters in the Kanchiin Manuscript *Ruiju Myōgishō* and the *Lóngkān Shǒujiàn*). *Kamakura Jidaigo Kenkyū* 20 (1997): 145–165.
 
 52. **Tamura, Natsuki (1998a)**
-    * Tamura, Natsuki. "*Kanroku Jisho* to Kanchi-in bon *Ruiju Myōgishō* no Seiji / Itaīji no Hikaku" (A Comparison of the Standard and Variant Characters in the *Gānlù Zìshū* and the Kanchi-in Manuscript *Ruiju Myōgishō*). *Kokubungaku Kenkyū* 125 (1998): 81–90.
+    * Tamura, Natsuki. "*Kanroku Jisho* to Kanchiin bon *Ruiju Myōgishō* no Seiji / Itaīji no Hikaku" (A Comparison of the Standard and Variant Characters in the *Gānlù Zìshū* and the Kanchiin Manuscript *Ruiju Myōgishō*). *Kokubungaku Kenkyū* 125 (1998): 81–90.
 
 53. **Tamura, Natsuki (1998b)**
-    * Tamura, Natsuki. "Kanchi-in bon *Ruiju Myōgishō* to *Ryūgan Shukan* ni okeru Kanji Jitai no Kisai no Hikaku: Itaīji ga Renzoku shite Shirusareru Keishiki ni tsuite" (A Comparison of the Descriptions of Kanji Forms in the Kanchi-in Manuscript *Ruiju Myōgishō* and the *Lóngkān Shǒujiàn*: On the Format Where Variant Characters are Recorded Consecutively). *Waseda Nihongo Kenkyū* 6 (1998): 1–12.
+    * Tamura, Natsuki. "Kanchiin bon *Ruiju Myōgishō* to *Ryūgan Shukan* ni okeru Kanji Jitai no Kisai no Hikaku: Itaīji ga Renzoku shite Shirusareru Keishiki ni tsuite" (A Comparison of the Descriptions of Kanji Forms in the Kanchiin Manuscript *Ruiju Myōgishō* and the *Lóngkān Shǒujiàn*: On the Format Where Variant Characters are Recorded Consecutively). *Waseda Nihongo Kenkyū* 6 (1998): 1–12.
 
 54. **Tamura, Natsuki (1999)**
-    * Tamura, Natsuki. "Kanchi-in bon *Ruiju Myōgishō* ni okeru Jukugo ni Mochīrareru Kanji Jitai ni tsuite" (On the Kanji Forms Used in Compounds in the Kanchi-in Manuscript *Ruiju Myōgishō*). *Kamakura Jidaigo Kenkyū* 22 (1999): 144–163.
+    * Tamura, Natsuki. "Kanchiin bon *Ruiju Myōgishō* ni okeru Jukugo ni Mochīrareru Kanji Jitai ni tsuite" (On the Kanji Forms Used in Compounds in the Kanchiin Manuscript *Ruiju Myōgishō*). *Kamakura Jidaigo Kenkyū* 22 (1999): 144–163.
 
 55. **Tamura, Natsuki (2000a)**
-    * Tamura, Natsuki. "Kanchi-in bon *Ruiju Myōgishō* to *Ryūgan Shukyō* no Kanji Kōmoku no Ruijisei" (Similarities in Kanji Entries between the Kanchi-in Manuscript *Ruiju Myōgishō* and the *Lóngkān Shǒujìng*). *Kuntengo to Kunten Shiryō* 105 (2000): 40–52.
+    * Tamura, Natsuki. "Kanchiin bon *Ruiju Myōgishō* to *Ryūgan Shukyō* no Kanji Kōmoku no Ruijisei" (Similarities in Kanji Entries between the Kanchiin Manuscript *Ruiju Myōgishō* and the *Lóngkān Shǒujìng*). *Kuntengo to Kunten Shiryō* 105 (2000): 40–52.
 
 56. **Tamura, Natsuki (2000b)**
-    * Tamura, Natsuki. "Zushoryōbon *Ruiju Myōgishō* to Kanchi-in bon *Ruiju Myōgishō* no Kisai Naiyō no Hikaku: Wakun to Jitai Chūki ni Chūmoku shite" (A Comparison of the Recorded Content in the Zushoryōbon *Ruiju Myōgishō* and the Kanchi-in Manuscript *Ruiju Myōgishō*: Focusing on Wakun and Annotations on Character Form). *Kamakura Jidaigo Kenkyū* 23 (2000): 691–707.
+    * Tamura, Natsuki. "Zushoryōbon *Ruiju Myōgishō* to Kanchiin bon *Ruiju Myōgishō* no Kisai Naiyō no Hikaku: Wakun to Jitai Chūki ni Chūmoku shite" (A Comparison of the Recorded Content in the Zushoryōbon *Ruiju Myōgishō* and the Kanchiin Manuscript *Ruiju Myōgishō*: Focusing on Wakun and Annotations on Character Form). *Kamakura Jidaigo Kenkyū* 23 (2000): 691–707.
 
 57. **Tsukishima, Hiroshi (1950)**
     * Tsukishima, Hiroshi. "Ruiju Myōgishō no Wakun no Genryū ni Tsuite" (On the Origins of *Wakun* in the *Ruiju Myōgishō*). *Kokugo to Kokubungaku* 27, no. 7 (1950): 42–52. (Reprinted in Tsukishima 2016).
@@ -413,10 +413,10 @@ This list is currently under development, and therefore may not yet include some
     * Tsukishima, Hiroshi. *Kojisho to Ongi* (Old Dictionaries and Phonetic/Semantic Glosses). *Tsukishima Hiroshi Chosakushū* (Collected Works of Tsukishima Hiroshi), vol. 3. Tokyo: Kyūko Shoin, 2016.
 
 64. **Wada, Kei (2005)**
-    * Wada, Kei. "Hōbodai-in bon *Ruiju Myōgishō* to Kanchi-in bon to no Hikaku kara: Te no Bu o Chūshin ni shite" (From a Comparison between the Hōbodai-in Manuscript *Ruiju Myōgishō* and the Kanchi-in Manuscript: Focusing on the Hand Radical Section). *Kokubungaku Tōsa*, no. 17 (2005): 126–137.
+    * Wada, Kei. "Hōbodai-in bon *Ruiju Myōgishō* to Kanchiin bon to no Hikaku kara: Te no Bu o Chūshin ni shite" (From a Comparison between the Hōbodai-in Manuscript *Ruiju Myōgishō* and the Kanchiin Manuscript: Focusing on the Hand Radical Section). *Kokubungaku Tōsa*, no. 17 (2005): 126–137.
 
 65. **Wada, Kei (2006)**
-    * Wada, Kei. "Hōbodai-in bon *Ruiju Myōgishō* to Kanchi-in bon to no Hikaku kara: Ki no Bu o Chūshin ni shite" (From a Comparison between the Hōbodai-in Manuscript *Ruiju Myōgishō* and the Kanchi-in Manuscript: Focusing on the Tree Radical Section). *Kokubungaku Tōsa*, no. 18 (2006): 228–239.
+    * Wada, Kei. "Hōbodai-in bon *Ruiju Myōgishō* to Kanchiin bon to no Hikaku kara: Ki no Bu o Chūshin ni shite" (From a Comparison between the Hōbodai-in Manuscript *Ruiju Myōgishō* and the Kanchiin Manuscript: Focusing on the Tree Radical Section). *Kokubungaku Tōsa*, no. 18 (2006): 228–239.
 
 66. **Watanabe, Minoru (1960)**
     * Watanabe, Minoru. "Sainnenjibon Renjōinbon *Ruiju Myōgishō* ni Tsuite: Kansai Daigaku Genzōhon no Shōkai o Ki ni Gen *Myōgishō* no Hensei no Suitei ni Oyobu" (On the Sainnenji and Renjōin Manuscripts of the *Ruiju Myōgishō*: Extending to an Estimation of the Original *Myōgishō*'s Compilation on the Occasion of Introducing the Manuscript Currently Held by Kansai University). In *Shimada Kyōju Koki Kinen Kokubungaku Ronshū* (Collection of Japanese Literature Papers Commemorating the 70th Birthday of Professor Shimada), edited by Kansai Daigaku Kokubungakkai (Kansai University Japanese Literature Society), 375–404. Suita, 1960.
@@ -449,7 +449,7 @@ This list is currently under development, and therefore may not yet include some
     * Yamamoto, Hideto. "Zushoryōbon *Ruiju Myōgishō* ni okeru Shutten Muhyōji no Wakun ni tsuite: Kokuso no Kun to no Kakawari o Chūshin ni" (On Wakun with No Source Indication in the Zushoryōbon *Ruiju Myōgishō*: Focusing on the Relationship with Readings in Japanese Texts). *Kōchidai Kokubun*, no. 32 (2001): 48–72.
 
 76. **Yamamoto, Hideto (2003)**
-    * Yamamoto, Hideto. "Hōbodai-in bon *Ruiju Myōgishō* ni tsuite: Kanchi-in bon to no Hikaku yori" (On the Hōbodai-in Manuscript *Ruiju Myōgishō*: From a Comparison with the Kanchi-in Manuscript). *Kuntengo to Kunten Shiryō* 111 (2003): 20–30.
+    * Yamamoto, Hideto. "Hōbodai-in bon *Ruiju Myōgishō* ni tsuite: Kanchiin bon to no Hikaku yori" (On the Hōbodai-in Manuscript *Ruiju Myōgishō*: From a Comparison with the Kanchiin Manuscript). *Kuntengo to Kunten Shiryō* 111 (2003): 20–30.
 
 77. **Yamamoto, Hideto (2011)**
     * Yamamoto, Hideto. "Kaihenbon *Ruiju Myōgishō* ni okeru 'Azumabito un' ni tsuite (Jō): *Shinsen Jikyō* to no Kankei o Chūshin ni" (On "Azumabito un" [Cited by Easterners/People from Eastern Japan] in the Revised *Ruiju Myōgishō* (Part 1): Focusing on the Relationship with the *Shinsen Jikyō*). In *Kokugo Goishi no Kenkyū 30* (Research in the History of Japanese Vocabulary 30), edited by Kokugo Goishi Kenkyūkai (Society for the Historical Study of Japanese Vocabulary), 145–157. Osaka: Izumi Shoin, 2011.
@@ -476,7 +476,7 @@ This list is currently under development, and therefore may not yet include some
     * Zhāng, Xīnfāng. "'Chūbun'-chū no Kanji Jitai no Kisai kara Mita Kaihenbon-kei *Ruiju Myōgishō*" (The Revised Manuscript Lineage *Ruiju Myōgishō* Viewed from the Descriptions of Kanji Forms in the "Chūbun" [Original Glosses]). *Kenkyū Ronshū* (Hokkaidō Daigaku Bungaku Kenkyūka), no. 17 (2017): 83–94.
 
 85. **Zhāng, Xīnfāng (2018)**
-    * Zhāng, Xīnfāng. "Kanchi-in bon *Ruiju Myōgishō* ni okeru Shōji Jitai Chūki ni tsuite" (On the Small-Character Annotations on Character Forms in the Kanchi-in Manuscript *Ruiju Myōgishō*). *Kanji Bunka Kenkyū* 9 (2018): 79–91.
+    * Zhāng, Xīnfāng. "Kanchiin bon *Ruiju Myōgishō* ni okeru Shōji Jitai Chūki ni tsuite" (On the Small-Character Annotations on Character Forms in the Kanchiin Manuscript *Ruiju Myōgishō*). *Kanji Bunka Kenkyū* 9 (2018): 79–91.
 
 86. **Zhāng, Xīnfāng (2019)**
     * Zhāng, Xīnfāng. "Kaihenbon *Ruiju Myōgishō* no Keishutsu Jitai ni tsuite" (On the Head Characters Presented in the Revised *Ruiju Myōgishō*). *Kenkyū Ronshū* (Hokkaidō Daigaku Daigakuin Bungakuin), 19 (2019): 283–292.
