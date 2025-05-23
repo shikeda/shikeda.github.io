@@ -322,9 +322,10 @@ weight: 4
 複数の声点がある場合は平 → 平軽 → 上 → 去 → 入軽 → 入の順に表し、その間にハイフンマイナス（-, U+002D）で区切って表す。
 
 
+
 **音注の種類**
 
-反切（fanqie）、類音注（similar pronunciation annotation by character）、仮名音注（pronunciation annotation by kana）の三種がある。
+反切（*fanqie* spelling）、類音注（similar pronunciation annotation by character）、仮名音注（pronunciation annotation by kana）の三種がある。
 
 声点と双点の声点による濁音表示は、反切、類音注、仮名音注に対して施される。
 鼻音符号は、仮名音注に対して施される。
@@ -377,7 +378,7 @@ weight: 4
 
 9と10は和音の例であり、9は声点を記載するもの、10は声点と鼻音符号を併記するものである。
 
-声点の朱墨の区別は重要であるが、このデータでは区別して入力していない。
+声点について、それが朱点であるか墨点であるかを区別することは重要であるが、このデータでは区別して入力していない。
 音韻史研究の専門家による詳細な検証を期待している。
 
 ### ヲコト点
@@ -391,7 +392,7 @@ weight: 4
 
 ### 補入注文
 
-補入注文（supplementary definition, 補入注文）は適切と判断した位置に記載する。
+補入注文（interpolated glosses）は適切と判断した位置に記載する。
 
 
 ### 無注記

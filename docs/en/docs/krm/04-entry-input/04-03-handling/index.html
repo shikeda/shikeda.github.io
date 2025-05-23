@@ -24,7 +24,7 @@ Handling Issues in Transcription, Notation, and Annotation # The Myōgishō is a
   <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/04-entry-input/04-03-handling/" title="書写・表記・注記における問題と対応">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/en.search.min.a4bda38611cfe4eb0d39bcf9bc6c6e4b88a0a29c8c6b518a9c5f91ba45b422ef.js" integrity="sha256-pL2jhhHP5OsNObz5vGxuS4igopyMa1GKnF&#43;RukW0Iu8=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.e0dc1a6de63fff8f6d4011fa0b7c4fc64ca480f7344b790c151e88bd7334028f.js" integrity="sha256-4NwabeY//49tQBH6C3xPxkykgPc0S3kMFR6IvXM0Ao8=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -601,6 +601,7 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#small-character-annotations-小字注記-shōji-chūki"><code>Small Character Annotations</code> (小字注記, <em>shōji chūki</em>)</a></li>
         <li><a href="#annotations-from-variant-manuscripts-異本注記-ihon-chūki"><code>Annotations from Variant Manuscripts</code> (異本注記, <em>ihon chūki</em>)</a></li>
         <li><a href="#source-attributions-出典注記-shutten-chūki"><code>Source Attributions</code> (出典注記, <em>shutten chūki</em>)</a></li>
+        <li><a href="#tone-marks-shōten-声点"><code>Tone Marks (*shōten*)</code> (声点)</a></li>
       </ul>
     </li>
   </ul>
@@ -893,6 +894,62 @@ If an interlinear note extends to three lines, the part judged to be an addition
 <li>Example of a book title: 𭘬 《大日經疏》云丁也反 (Here, 《大日經疏》 <em>Dainichikyōsho</em> is the cited book title, followed by a <em>fanqie</em> spelling).</li>
 </ol>
 <p>In example 2, the &lsquo;◇&rsquo; mark indicates that this is an annotation in literary Chinese placed to the right of the <strong><code>Headword</code></strong>.</p>
+<h3 id="tone-marks-shōten-声点">
+  <code>Tone Marks (*shōten*)</code> (声点)
+  <a class="anchor" href="#tone-marks-sh%c5%8dten-%e5%a3%b0%e7%82%b9">#</a>
+</h3>
+<p>Since <strong><code>Tone Marks</code> (<em>shōten</em>)</strong> are a feature of great interest to users of the <em>Myōgishō</em> data, they are explained in detail here.</p>
+<p>In the published data, the transcription of the <strong><code>Original Glosses</code></strong> is recorded in the <code>definition_elements</code> column of the <code>krm_notes</code> file. By loading <code>krm_notes.tsv</code> into a spreadsheet program like Excel and filtering the <code>definition_type_name</code> column for &ldquo;<strong><code>Phonetic Gloss</code></strong>&rdquo; or &ldquo;<strong><code>Japanese Native Reading</code> (<em>wakun</em>)</strong>&rdquo;, users can extract the relevant information.</p>
+<p><strong>Types of <code>Tone Marks</code> (<em>shōten</em>)</strong></p>
+<p><strong><code>Tone Marks</code> (<em>shōten</em>)</strong> are indicated by the abbreviations shown in parentheses: Ping/Even (L), Shang/Rising (H), Qu/Departing (R), Ru/Entering (S), Ping-Qing/Even-Light (F), and Ru-Qing/Entering-Light (T). The identification of light tones (軽声, <em>keishō</em>) is provisional.</p>
+<p>If the position of a <strong><code>Tone Mark</code> (<em>shōten</em>)</strong> is difficult to determine, a question mark &ldquo;?&rdquo; is added to indicate this uncertainty.</p>
+<p>Voiced sound marks and nasal sound symbols are often displayed concurrently with <strong><code>Tone Marks</code> (<em>shōten</em>)</strong>, so they are explained next.</p>
+<p><strong>Voiced Sounds (濁音, <em>dakuon</em>)</strong></p>
+<p>The voiced sound mark (濁音符号, <em>dakuon fugō</em>), indicated by double dots (゛) in the original, is represented by the English letter &lsquo;V&rsquo; (U+0056) in the data.</p>
+<p><strong>Nasal Sound Symbols (鼻音符号, <em>bion fugō</em>)</strong></p>
+<p>The nasal sound symbol (鼻音符号, <em>bion fugō</em>;  also 鼻音符, <em>bíyīnfú</em> in Chinese) is represented by &ldquo;(N)&rdquo; in the data. In the manuscript, nasal sound symbols appear in forms such as ✓, v, レ, or 」. If it is necessary to refer to the specific shape of a nasal sound symbol, the check mark &lsquo;✓&rsquo; (U+2713) is used for explanatory purposes.</p>
+<p><strong>Multiple <code>Tone Marks</code> (<em>shōten</em>)</strong></p>
+<p>When multiple <strong><code>Tone Marks</code> (<em>shōten</em>)</strong> are present, they are listed in the following order: Ping/Even (L) → Ping-Qing/Even-Light (F) → Shang/Rising (H) → Qu/Departing (R) → Ru-Qing/Entering-Light (T) → Ru/Entering (S). They are separated by a hyphen-minus (&rsquo;-&rsquo;, U+002D).</p>
+<p><strong>Types of <code>Phonetic Glosses</code></strong></p>
+<p>There are three types of <strong><code>Phonetic Glosses</code></strong>:</p>
+<ul>
+<li><strong><code>Fanqie spellings</code></strong> (反切, <em>hansetsu</em> or <em>fanqie</em>),</li>
+<li><strong><code>Similar sound notes</code></strong> (類音注, <em>ruion-chū</em>; annotations indicating similar pronunciations by character), and</li>
+<li><strong><code>Kana glosses</code></strong> (仮名音注, <em>kana-onchū</em>; phonetic annotations in kana).</li>
+</ul>
+<p><strong><code>Tone marks</code> (<em>shōten</em>)</strong> and voiced sound indications using double-dot <strong><code>Tone marks</code> (<em>shōten</em>)</strong> (i.e., <em>dakuten</em> represented via <em>shōten</em> placement) can be applied to <strong><code>Fanqie spellings</code></strong>, <strong><code>Similar sound notes</code></strong>, and <strong><code>Kana glosses</code></strong>.
+Nasal sound symbols are applied to <strong><code>Kana glosses</code></strong>.</p>
+<p><strong>Types of <code>Japanese Native Readings</code> (<em>wakun</em>)</strong></p>
+<p><strong><code>Japanese Native Readings</code> (<em>wakun</em>)</strong> are generally written in Katakana.</p>
+<p>The only exception is for &lsquo;木賊&rsquo; (<em>tokusa</em>), where the <em>Man&rsquo;yōgana</em> &lsquo;度久佐&rsquo; (<em>tokusa</em>) is used; this instance does not have <strong><code>Tone marks</code> (<em>shōten</em>)</strong> applied.</p>
+<p><strong><code>Japanese Native Readings</code> (<em>wakun</em>)</strong> can have <strong><code>Tone marks</code> (<em>shōten</em>)</strong> and voiced sound indications (using double-dot <em>shōten</em>) applied.
+There is one recognized, though not entirely certain, instance of a nasal sound symbol being applied to a <strong><code>Japanese Native Reading</code> (<em>wakun</em>)</strong> (a nasal sound symbol on &lsquo;ナ&rsquo; in the <em>wakun</em> &lsquo;ナラフ&rsquo; for the character &lsquo;儔&rsquo;).</p>
+<p><strong>Input and Processing Methods for <code>Tone Marks</code> (<em>shōten</em>), Voiced Sound Marks, and Nasal Sound Symbols</strong></p>
+<p><strong><code>Tone Marks</code> (<em>shōten</em>)</strong> and voiced sound indications (using double-dot <em>shōten</em>) are applied to <strong><code>Hanzi (Chinese characters)</code></strong> or to <strong><code>Japanese Native Readings</code> (<em>wakun</em>)</strong> written in Katakana.
+Nasal sound symbols are applied to <strong><code>Phonetic Glosses</code></strong> in Katakana (i.e., <strong><code>Kana glosses</code></strong>) or to <strong><code>Japanese Native Readings</code> (<em>wakun</em>)</strong> in Katakana.</p>
+<p>For <strong><code>Fanqie spellings</code></strong> (反切, <em>hansetsu</em>), which consist of an initial character (反切上字, <em>hansetsu jōji</em>) and a final character (反切下字, <em>hansetsu kaji</em>), any applied <strong><code>Tone Marks</code> (<em>shōten</em>)</strong> are converted to their corresponding symbols (e.g., L, H) and enclosed in full-width parentheses（）.</p>
+<p><strong><code>Similar sound notes</code></strong> (類音注, <em>ruion-chū</em>) are also enclosed in full-width parentheses（）.</p>
+<p><strong><code>Kana glosses</code></strong> (仮名音注, <em>kana-onchū</em>), when written in small characters around <em>fanqie</em> spellings or similar sound notes, are enclosed in Japanese quotation marks 「」. However, if a <strong><code>Kana gloss</code></strong> is explicitly prefixed with &ldquo;呉&rdquo; (<em>Go</em>, for Go-on) or &ldquo;和&rdquo; (<em>Wa</em>, for Wa-on) within the main text of the <strong><code>Original Glosses</code></strong>, the quotation marks 「」 are omitted.</p>
+<p>For <strong><code>Phonetic Glosses</code></strong>, <strong><code>Tone Marks</code> (<em>shōten</em>)</strong>, voiced sound marks, and nasal sound symbols are recorded on a per-<strong><code>Hanzi (Chinese character)</code></strong> basis (i.e., for each single character). For <strong><code>Japanese Native Readings</code> (<em>wakun</em>)</strong>, these marks are recorded for the entire word or phrase.</p>
+<p><strong>Partial Application of <code>Tone Marks</code> (<em>shōten</em>)</strong></p>
+<p>If <strong><code>Tone Marks</code> (<em>shōten</em>)</strong> are applied to only a part of a <strong><code>Japanese Native Reading</code> (<em>wakun</em>)</strong>, the parts without <strong><code>Tone Marks</code> (<em>shōten</em>)</strong> are indicated by a half-width underscore (&rsquo;_&rsquo;, U+005F). (This typically means <strong><code>Hanzi (Chinese characters)</code></strong> are treated one by one, while a <em>wakun</em> is treated as a whole unit for tone marking, with underscores for unmarked morae/syllables if only part of it is marked).</p>
+<p><strong>Examples:</strong></p>
+<ol>
+<li>偵 勅令（R）反</li>
+<li>使 所里（H）所使（H）二反</li>
+<li>㒓 達（S）音</li>
+<li>僆 輦（H）練（R）二音</li>
+<li>偶 音藕（HV）「コウ」</li>
+<li>侮 音武（L-HV）「フ」「ム（H）」</li>
+<li>拱 呉音恐（L）</li>
+<li>捉 呉冊（S） サク（_L）</li>
+<li>類 和ルイ（_L）</li>
+<li>形 和キヤウ（N_H-N）</li>
+</ol>
+<p>Examples 1 and 2 are <strong><code>Fanqie spellings</code></strong>. Examples 3 and 4 are <strong><code>Similar sound notes</code></strong>. Examples 5 and 6 are <strong><code>Similar sound notes</code></strong> accompanied by <strong><code>Kana glosses</code></strong>.</p>
+<p>Examples 7 and 8 are <em>Go-on</em> (呉音) readings; example 7 is a <strong><code>Similar sound note</code></strong>, while example 8 is a <strong><code>Similar sound note</code></strong> accompanied by a <strong><code>Kana gloss</code></strong>.</p>
+<p>Examples 9 and 10 are <em>Wa-on</em> (和音) readings; example 9 has <strong><code>Tone Marks</code> (<em>shōten</em>)</strong> recorded, while example 10 has both <strong><code>Tone Marks</code> (<em>shōten</em>)</strong> and nasal sound symbols.</p>
+<p>&ldquo;Regarding <strong><code>Tone Marks</code> (<em>shōten</em>)</strong>, while distinguishing between those written in red ink (朱点, <em>shuten</em> – also referred to by some specialists as <strong><code>Vermilion Glosses</code></strong>) and those written in black ink (墨点, <em>bokuten</em>) is important, this distinction has not been made in the current data input. We anticipate detailed verification by specialists in historical Japanese phonology.&rdquo;</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -961,6 +1018,7 @@ If an interlinear note extends to three lines, the part judged to be an addition
         <li><a href="#small-character-annotations-小字注記-shōji-chūki"><code>Small Character Annotations</code> (小字注記, <em>shōji chūki</em>)</a></li>
         <li><a href="#annotations-from-variant-manuscripts-異本注記-ihon-chūki"><code>Annotations from Variant Manuscripts</code> (異本注記, <em>ihon chūki</em>)</a></li>
         <li><a href="#source-attributions-出典注記-shutten-chūki"><code>Source Attributions</code> (出典注記, <em>shutten chūki</em>)</a></li>
+        <li><a href="#tone-marks-shōten-声点"><code>Tone Marks (*shōten*)</code> (声点)</a></li>
       </ul>
     </li>
   </ul>

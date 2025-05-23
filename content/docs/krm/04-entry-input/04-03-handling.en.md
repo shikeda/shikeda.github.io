@@ -303,3 +303,89 @@ Book titles or personal names indicating a source are enclosed in double angle b
 In example 2, the '◇' mark indicates that this is an annotation in literary Chinese placed to the right of the **`Headword`**.
 
 
+
+### `Tone Marks (*shōten*)` (声点)
+
+Since **`Tone Marks` (*shōten*)** are a feature of great interest to users of the *Myōgishō* data, they are explained in detail here.
+
+In the published data, the transcription of the **`Original Glosses`** is recorded in the `definition_elements` column of the `krm_notes` file. By loading `krm_notes.tsv` into a spreadsheet program like Excel and filtering the `definition_type_name` column for "**`Phonetic Gloss`**" or "**`Japanese Native Reading` (*wakun*)**", users can extract the relevant information.
+
+**Types of `Tone Marks` (*shōten*)**
+
+**`Tone Marks` (*shōten*)** are indicated by the abbreviations shown in parentheses: Ping/Even (L), Shang/Rising (H), Qu/Departing (R), Ru/Entering (S), Ping-Qing/Even-Light (F), and Ru-Qing/Entering-Light (T). The identification of light tones (軽声, *keishō*) is provisional.
+
+If the position of a **`Tone Mark` (*shōten*)** is difficult to determine, a question mark "?" is added to indicate this uncertainty.
+
+Voiced sound marks and nasal sound symbols are often displayed concurrently with **`Tone Marks` (*shōten*)**, so they are explained next.
+
+**Voiced Sounds (濁音, *dakuon*)**
+
+The voiced sound mark (濁音符号, *dakuon fugō*), indicated by double dots (゛) in the original, is represented by the English letter 'V' (U+0056) in the data.
+
+**Nasal Sound Symbols (鼻音符号, *bion fugō*)**
+
+The nasal sound symbol (鼻音符号, *bion fugō*;  also 鼻音符, *bíyīnfú* in Chinese) is represented by "(N)" in the data. In the manuscript, nasal sound symbols appear in forms such as ✓, v, レ, or 」. If it is necessary to refer to the specific shape of a nasal sound symbol, the check mark '✓' (U+2713) is used for explanatory purposes.
+
+**Multiple `Tone Marks` (*shōten*)**
+
+When multiple **`Tone Marks` (*shōten*)** are present, they are listed in the following order: Ping/Even (L) → Ping-Qing/Even-Light (F) → Shang/Rising (H) → Qu/Departing (R) → Ru-Qing/Entering-Light (T) → Ru/Entering (S). They are separated by a hyphen-minus ('-', U+002D).
+
+
+**Types of `Phonetic Glosses`**
+
+There are three types of **`Phonetic Glosses`**:
+* **`Fanqie spellings`** (反切, *hansetsu* or *fanqie*),
+* **`Similar sound notes`** (類音注, *ruion-chū*; annotations indicating similar pronunciations by character), and
+* **`Kana glosses`** (仮名音注, *kana-onchū*; phonetic annotations in kana).
+
+**`Tone marks` (*shōten*)** and voiced sound indications using double-dot **`Tone marks` (*shōten*)** (i.e., *dakuten* represented via *shōten* placement) can be applied to **`Fanqie spellings`**, **`Similar sound notes`**, and **`Kana glosses`**.
+Nasal sound symbols are applied to **`Kana glosses`**.
+
+**Types of `Japanese Native Readings` (*wakun*)**
+
+**`Japanese Native Readings` (*wakun*)** are generally written in Katakana.
+
+The only exception is for '木賊' (*tokusa*), where the *Man'yōgana* '度久佐' (*tokusa*) is used; this instance does not have **`Tone marks` (*shōten*)** applied.
+
+**`Japanese Native Readings` (*wakun*)** can have **`Tone marks` (*shōten*)** and voiced sound indications (using double-dot *shōten*) applied.
+There is one recognized, though not entirely certain, instance of a nasal sound symbol being applied to a **`Japanese Native Reading` (*wakun*)** (a nasal sound symbol on 'ナ' in the *wakun* 'ナラフ' for the character '儔').
+
+
+**Input and Processing Methods for `Tone Marks` (*shōten*), Voiced Sound Marks, and Nasal Sound Symbols**
+
+**`Tone Marks` (*shōten*)** and voiced sound indications (using double-dot *shōten*) are applied to **`Hanzi (Chinese characters)`** or to **`Japanese Native Readings` (*wakun*)** written in Katakana.
+Nasal sound symbols are applied to **`Phonetic Glosses`** in Katakana (i.e., **`Kana glosses`**) or to **`Japanese Native Readings` (*wakun*)** in Katakana.
+
+For **`Fanqie spellings`** (反切, *hansetsu*), which consist of an initial character (反切上字, *hansetsu jōji*) and a final character (反切下字, *hansetsu kaji*), any applied **`Tone Marks` (*shōten*)** are converted to their corresponding symbols (e.g., L, H) and enclosed in full-width parentheses（）.
+
+**`Similar sound notes`** (類音注, *ruion-chū*) are also enclosed in full-width parentheses（）.
+
+**`Kana glosses`** (仮名音注, *kana-onchū*), when written in small characters around *fanqie* spellings or similar sound notes, are enclosed in Japanese quotation marks 「」. However, if a **`Kana gloss`** is explicitly prefixed with "呉" (*Go*, for Go-on) or "和" (*Wa*, for Wa-on) within the main text of the **`Original Glosses`**, the quotation marks 「」 are omitted.
+
+For **`Phonetic Glosses`**, **`Tone Marks` (*shōten*)**, voiced sound marks, and nasal sound symbols are recorded on a per-**`Hanzi (Chinese character)`** basis (i.e., for each single character). For **`Japanese Native Readings` (*wakun*)**, these marks are recorded for the entire word or phrase.
+
+**Partial Application of `Tone Marks` (*shōten*)**
+
+If **`Tone Marks` (*shōten*)** are applied to only a part of a **`Japanese Native Reading` (*wakun*)**, the parts without **`Tone Marks` (*shōten*)** are indicated by a half-width underscore ('_', U+005F). (This typically means **`Hanzi (Chinese characters)`** are treated one by one, while a *wakun* is treated as a whole unit for tone marking, with underscores for unmarked morae/syllables if only part of it is marked).
+
+**Examples:**
+1.  偵 勅令（R）反
+2.  使 所里（H）所使（H）二反
+3.  㒓 達（S）音
+4.  僆 輦（H）練（R）二音
+5.  偶 音藕（HV）「コウ」
+6.  侮 音武（L-HV）「フ」「ム（H）」
+7.  拱 呉音恐（L）
+8.  捉 呉冊（S） サク（_L）
+9.  類 和ルイ（_L）
+10. 形 和キヤウ（N\_H-N）
+
+Examples 1 and 2 are **`Fanqie spellings`**. Examples 3 and 4 are **`Similar sound notes`**. Examples 5 and 6 are **`Similar sound notes`** accompanied by **`Kana glosses`**.
+
+Examples 7 and 8 are *Go-on* (呉音) readings; example 7 is a **`Similar sound note`**, while example 8 is a **`Similar sound note`** accompanied by a **`Kana gloss`**.
+
+Examples 9 and 10 are *Wa-on* (和音) readings; example 9 has **`Tone Marks` (*shōten*)** recorded, while example 10 has both **`Tone Marks` (*shōten*)** and nasal sound symbols.
+
+
+"Regarding **`Tone Marks` (*shōten*)**, while distinguishing between those written in red ink (朱点, *shuten* – also referred to by some specialists as **`Vermilion Glosses`**) and those written in black ink (墨点, *bokuten*) is important, this distinction has not been made in the current data input. We anticipate detailed verification by specialists in historical Japanese phonology."
+
