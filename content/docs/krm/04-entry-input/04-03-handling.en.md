@@ -144,7 +144,7 @@ This section discusses frequently used **`Abbreviated Characters`** (略字, *ry
 
 ### **`Abbreviated Characters`** (略字, *ryakuji*)
 
-**`Abbreviated Characters`** (略字, *ryakuji*; also called 簡略字, *kanryakuji*) found in the manuscript are generally normalized to their standard, common forms in the transcribed data.
+**`Abbreviated Characters`** (略字, *ryakuji*; also called 簡略字, *jiǎnlüèzì* in Chinese) found in the manuscript are generally normalized to their standard, common forms in the transcribed data.
 
 **Examples:**
 (The left side shows the abbreviated form found in the manuscript, and the right side shows the normalized character used in the data.)
@@ -171,4 +171,135 @@ The **`Entry`** for '豅', for example, has its semantic meaning given in the or
 Example 9 (类 for 類) is used in **`Entries`** derived from category names in the *Wamyō Ruijushō* (倭名類聚抄), such as "草類" (types of grasses) and "苔類" (types of mosses).
 
 Example 10 (欤 for 歟) is used in notes expressing doubt or questioning the correctness of characters or phrases (these are considered types of editorial notes or *ango*).
+
+
+### `Variant Characters (*itaiji*)` (異体字)
+
+While care has been taken to input **`variant characters` (*itaiji*)** used as **`Headwords`** in a form that is faithful to, or closely approximates, their appearance in the original manuscript, the basic policy for **`variant characters` (*itaiji*)** appearing within the **`Original Glosses`** is to normalize them to their common or standard forms.
+
+**Examples (Original form → Normalized form):**
+* 𡰱 → 尼
+* 凢 → 凡
+* 𠩄 → 所
+* 𢘻 → 悉
+* 俻 → 備
+
+### `Iteration Marks` (踊り字, *odoriji*)
+
+For Kanji **`Iteration Marks`** (踊り字, *odoriji*; also known as 疊字符, *diézìfú* in Chinese), the mark "〻" (NINOMAETEN, U+303B) is used, while "々" (DITTO MARK, U+3005) is not.
+
+For iteration marks in Katakana used for **`Japanese Native Readings` (*wakun*)**, the mark "ヽ" (KATAKANA ITERATION MARK, U+30FD) is used.
+
+The marks "〱" (KUNOJITEN, U+3031), "〳" (KUNOJITEN WITH VOICED SOUND MARK, U+3033), and "〵" (KUNOJITEN WITH SEMI-VOICED SOUND MARK, U+3035) are not used; instead, the KATAKANA ITERATION MARK is repeated, such as "ヽヽ".
+
+**Examples:**
+* Example in a **`Headword`**: 曽／ー（祖）／〻（母）
+* Example in a **`Japanese Native Reading` (*wakun*)**: 陽　アタヽカナリ
+* Example in a **`Japanese Native Reading` (*wakun*)**: 倍　マスヽヽ
+
+
+
+### `Substitution Marks` (代用符号, *daiyō fugō*)
+
+The **`Substitution Mark`** (代用符号, *daiyō fugō*), appearing as '｜' in **`Headwords`** that are compound words (熟語, *jukugo*), is a symbol used when substituting for an annotated character (被注字, *hichūji*; also 被釋字, *hishakuji*; i.e., the target character of an annotation) or a previously listed **`Headword`**. In the data, this '｜' mark is input using 'ー' (CHOONPU - long vowel mark, U+30FC), and the actual character it represents is then input within full-width parentheses '（）'.
+
+When the symbol '｜' is used within the **`Original Glosses`** to indicate the same character as the **`Headword`**, it is simply input as 'ー' (CHOONPU - long vowel mark, U+30FC), without an accompanying indication of the character it represents.
+
+**Examples:**
+* Examples in **`Headwords`**: 五／ー（人） (here 'ー' substitutes for '人'), ..., 真／人, 漁／ー（人）, 海／ー（人）
+* Example in **`Original Glosses`**: 鄲 邯ー縣名 (For the **`Headword`** '鄲', the gloss "邯ー縣名" indicates that "邯ー" refers to "邯鄲", which is a county name.)
+
+
+### `Compound Marks` (合符, *gōfu*)
+
+A **`Compound Mark`** (合符, *gōfu*; also known as 連字符, *liánzìfú* in some contexts, though originally a vertical linking line in the manuscript) is represented in this dataset by a hyphen-minus ('-', U+002D). Examples of its use are relatively rare.
+
+**Example:**
+* **`Headword`**: 媊
+    **`Original Glosses`** (excerpt): 箭(R)貲二音　又煎(L)音　太-白-星
+
+In the **`Original Glosses`** for the **`Headword`** '媊', the notation "太-白-星" appears at the end. In this context, the hyphens function as **`Compound Marks`**, linking the characters '太', '白', and '星' to form the term "太白星" (*Tàibáixīng*), which refers to the planet Venus.
+
+
+
+## `Additional Notations and Layout Features`
+
+Finally, this section addresses various issues related to additional notations and layout features found in the *Myōgishō*.
+If using the *Myōgishō* as a resource for the historical phonology or lexicology of Japanese, it is particularly important to carefully read the explanations regarding **`Tone Marks` (*shōten*)**, voiced sound marks (濁点, *dakuten*), and nasal sound symbols.
+
+### **`Interlinear Notes`** (割注, *warichū*)
+
+The basic form is *warichū sōgyō* (割注双行; meaning "small character definition in two lines," comparable to 雙行夾注, *shuāngháng jiāzhù* in Chinese contexts), which are transcribed from right to left according to their original appearance.
+If an interlinear note extends to three lines, the part judged to be an addition is transcribed last.
+
+### Variations in the Size of Characters within `Original Glosses`
+
+There are rare instances where a character within the **`Original Glosses`** is mistakenly written in a large size, leading to potential confusion with a **`Headword`**.
+
+**Example:**
+* `hanzi_entry`: 憙
+* `definition` (representing **`Original Glosses`**): 音喜（L-H）　又嬉　コノム（LLH）　喜「注也」　ネカフ (further glosses omitted)
+
+In this example, following the **`Headword`** '憙', the **`Original Glosses`** provide a **`Phonetic Gloss`**, a **`Note on Character Form`** (implicitly, "又嬉" suggesting a variant or related form), and a **`Japanese Native Reading` (*wakun*)**. After these, the character '喜' is written in a large size, followed by other **`Japanese Native Readings` (*wakun*)** such as 'ネカフ'. To the right of the large character '喜', there is a note "注也" (*chū nari*; "this is a gloss/annotation"), indicating that '喜' itself functions as a **`Semantic Gloss in Chinese`** for the **`Headword`** '憙'.
+
+### `Small Character Annotations` (小字注記, *shōji chūki*)
+
+Annotations made using small characters are referred to as **`Small Character Annotations`** (小字注記, *shōji chūki*).
+**`Small Character Annotations`** are frequently found in **`Notes on Character Form`** (字体注, *jitaichū*); these are specifically termed **`Small Character Notes on Character Form`** (小字字体注記, *shōji jitaichūki*).
+
+
+There are instances where a **`Phonetic Gloss`** for a **`Hanzi (Chinese character)`** used within an **`Original Gloss`** is itself annotated in an interlinear style (割注形式, *warichū keishiki*); this is termed a **`Nested Interlinear Note`** (再割注, *saiwarichū*; or 再夾注, *zàijiāzhù* in Chinese; meaning "smaller character definition in two lines, reapplied").[^note1]
+
+[^note1]: The term 再割注 (*saiwarichū*), or 再夾注 (*zàijiāzhù* in Chinese), implies a "re-application" of an interlinear-style gloss, often to a character already within a gloss.
+
+
+Additionally, there are cases where a **`Semantic Gloss in Chinese`** is added in small characters directly below a **`Japanese Native Reading` (*wakun*)**; this is termed a **`Small Character Semantic Gloss for Wakun`** (小字和訓義注, *shōji wakun gichū*).
+
+**`Small Character Annotations`** are transcribed by enclosing the relevant portion in full-width angle brackets (〈〉, U+3008 and U+3009).
+
+**Examples:**
+* Example of **`Small Character Notes on Character Form`**: 又鞘〈正〉 (Found in the **`Notes on Character Form`** for the **`Headword`** '削').
+* Example of **`Nested Interlinear Note`**: 従夾〈公合〉成恰反 (For the **`Headword`** '陜', the second character '夾' of the *fanqie* spelling is further glossed with another *fanqie* spelling in small characters).
+* Example of **`Small Character Semantic Gloss for Wakun`**: アク〈髪〉 (For the **`Headword`** '結', this note is attached to the **`Japanese Native Reading` (*wakun*)** 'アク' to distinguish it from homonyms (開く, 厭く, 挙ぐ) and to indicate the meaning of tying up 'hair' (髪)).
+
+Cases where what should have been a **`Small Character Semantic Gloss for Wakun`** was mistakenly written in the same large size as the main **`Original Glosses`** are transcribed using 〈〉, and a note to this effect is made in the `remarks` column (as a **`Compiler's Remark`**).
+
+The following examples are shown in the order of **`Headword`**, **`Japanese Native Reading` (*wakun*)** (including the erroneously large annotation transcribed within 〈〉), and **`Compiler's Remarks`**.
+
+**Examples:**
+* **`Headword`**: 展
+    **`Japanese Native Reading` (*wakun*)**: ヒロク〈眉〉
+    **`Compiler's Remarks`**: The annotation 〈眉〉 is written in a large size.
+* **`Headword`**: 度
+    **`Japanese Native Reading` (*wakun*)**: トコ〈床〉
+    **`Compiler's Remarks`**: The semantic gloss is written in a large size.
+
+
+### `Annotations from Variant Manuscripts` (異本注記, *ihon chūki*)
+
+**`Annotations from Variant Manuscripts`** (異本注記, *ihon chūki*) can pertain to either the **`Headword`** or the **`Original Glosses`**.
+
+**`Annotations from Variant Manuscripts`** pertaining to a **`Headword`** are indicated by a preceding '▲' (U+25B2 BLACK UP-POINTING TRIANGLE) followed by the content of the annotation enclosed in Japanese quotation marks 「」.
+
+**`Annotations from Variant Manuscripts`** pertaining to the **`Original Glosses`** are enclosed in full-width parentheses（）, U+FF08 and U+FF09. They are shown in the format: *original character(s) in the gloss* - *annotation from the variant manuscript*.
+
+The symbol representing an "annotation from a variant manuscript" itself (異本注記) is often the Katakana character 'イ' (which might be a part of the '他' character in '他本', *tahon*, meaning "other manuscript," or simply represent '異').
+
+**Examples:**
+* **`Annotation from Variant Manuscripts`** (for a **`Headword`**): ▲𦫿「艾」
+* **`Annotation from Variant Manuscripts`** (for a **`Headword`**): ▲捺「⿰扌柰イ」
+* **`Annotation from Variant Manuscripts`** (for **`Original Glosses`**): 責猛（猛-⿰亻孟イ）二音
+
+### `Source Attributions` (出典注記, *shutten chūki*)
+
+Book titles or personal names indicating a source are enclosed in double angle brackets (《》, U+300A and U+300B).
+
+**Examples:**
+1.  Example of a personal name: 齔 《王右軍》作 (Here, 《王右軍》 *Ō Ugun* [Wang Youjun] indicates the person who created or used this form/reading).
+2.  Example of a personal name: 𡫸 ◇《弘法大師》又云 (Here, ◇ indicates a note in literary Chinese placed to the right of the **`Headword`**, and 《弘法大師》 *Kōbō Daishi* is the cited person).
+3.  Example of a book title: 它 可見《類音决》 (Here, 《類音决》 *Ruionketsu* is the cited book title, meaning "can be seen in the *Ruionketsu*").
+4.  Example of a book title: 𭘬 《大日經疏》云丁也反 (Here, 《大日經疏》 *Dainichikyōsho* is the cited book title, followed by a *fanqie* spelling).
+
+In example 2, the '◇' mark indicates that this is an annotation in literary Chinese placed to the right of the **`Headword`**.
+
 

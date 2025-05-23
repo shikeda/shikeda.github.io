@@ -24,7 +24,7 @@ Handling Issues in Transcription, Notation, and Annotation # The Myōgishō is a
   <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/04-entry-input/04-03-handling/" title="書写・表記・注記における問題と対応">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/en.search.min.601716615191d03be834759a57ca47132bb2d71bce85e56ec3cde06346d56281.js" integrity="sha256-YBcWYVGR0DvoNHWaV8pHEyuy1xvOheVuw83gY0bVYoE=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.a4bda38611cfe4eb0d39bcf9bc6c6e4b88a0a29c8c6b518a9c5f91ba45b422ef.js" integrity="sha256-pL2jhhHP5OsNObz5vGxuS4igopyMa1GKnF&#43;RukW0Iu8=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -588,6 +588,19 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#notational-conventions-for-characters-and-words">Notational Conventions for Characters and Words</a>
       <ul>
         <li><a href="#abbreviated-characters-略字-ryakuji"><strong><code>Abbreviated Characters</code></strong> (略字, <em>ryakuji</em>)</a></li>
+        <li><a href="#variant-characters-itaiji-異体字"><code>Variant Characters (*itaiji*)</code> (異体字)</a></li>
+        <li><a href="#iteration-marks-踊り字-odoriji"><code>Iteration Marks</code> (踊り字, <em>odoriji</em>)</a></li>
+        <li><a href="#substitution-marks-代用符号-daiyō-fugō"><code>Substitution Marks</code> (代用符号, <em>daiyō fugō</em>)</a></li>
+        <li><a href="#compound-marks-合符-gōfu"><code>Compound Marks</code> (合符, <em>gōfu</em>)</a></li>
+      </ul>
+    </li>
+    <li><a href="#additional-notations-and-layout-features"><code>Additional Notations and Layout Features</code></a>
+      <ul>
+        <li><a href="#interlinear-notes-割注-warichū"><strong><code>Interlinear Notes</code></strong> (割注, <em>warichū</em>)</a></li>
+        <li><a href="#variations-in-the-size-of-characters-within-original-glosses">Variations in the Size of Characters within <code>Original Glosses</code></a></li>
+        <li><a href="#small-character-annotations-小字注記-shōji-chūki"><code>Small Character Annotations</code> (小字注記, <em>shōji chūki</em>)</a></li>
+        <li><a href="#annotations-from-variant-manuscripts-異本注記-ihon-chūki"><code>Annotations from Variant Manuscripts</code> (異本注記, <em>ihon chūki</em>)</a></li>
+        <li><a href="#source-attributions-出典注記-shutten-chūki"><code>Source Attributions</code> (出典注記, <em>shutten chūki</em>)</a></li>
       </ul>
     </li>
   </ul>
@@ -733,7 +746,7 @@ Therefore, it is transcribed as &ldquo;［＿］覽反&rdquo;.</p>
   <strong><code>Abbreviated Characters</code></strong> (略字, <em>ryakuji</em>)
   <a class="anchor" href="#abbreviated-characters-%e7%95%a5%e5%ad%97-ryakuji">#</a>
 </h3>
-<p><strong><code>Abbreviated Characters</code></strong> (略字, <em>ryakuji</em>; also called 簡略字, <em>kanryakuji</em>) found in the manuscript are generally normalized to their standard, common forms in the transcribed data.</p>
+<p><strong><code>Abbreviated Characters</code></strong> (略字, <em>ryakuji</em>; also called 簡略字, <em>jiǎnlüèzì</em> in Chinese) found in the manuscript are generally normalized to their standard, common forms in the transcribed data.</p>
 <p><strong>Examples:</strong>
 (The left side shows the abbreviated form found in the manuscript, and the right side shows the normalized character used in the data.)</p>
 <ol>
@@ -756,6 +769,138 @@ For instance, <strong><code>Headwords</code></strong> containing &lsquo;谷&rsqu
 The <strong><code>Entry</code></strong> for &lsquo;豅&rsquo;, for example, has its semantic meaning given in the original text as &ldquo;大長谷&rdquo; (large long valley), so &lsquo;谷&rsquo; is retained as is.</p>
 <p>Example 9 (类 for 類) is used in <strong><code>Entries</code></strong> derived from category names in the <em>Wamyō Ruijushō</em> (倭名類聚抄), such as &ldquo;草類&rdquo; (types of grasses) and &ldquo;苔類&rdquo; (types of mosses).</p>
 <p>Example 10 (欤 for 歟) is used in notes expressing doubt or questioning the correctness of characters or phrases (these are considered types of editorial notes or <em>ango</em>).</p>
+<h3 id="variant-characters-itaiji-異体字">
+  <code>Variant Characters (*itaiji*)</code> (異体字)
+  <a class="anchor" href="#variant-characters-itaiji-%e7%95%b0%e4%bd%93%e5%ad%97">#</a>
+</h3>
+<p>While care has been taken to input <strong><code>variant characters</code> (<em>itaiji</em>)</strong> used as <strong><code>Headwords</code></strong> in a form that is faithful to, or closely approximates, their appearance in the original manuscript, the basic policy for <strong><code>variant characters</code> (<em>itaiji</em>)</strong> appearing within the <strong><code>Original Glosses</code></strong> is to normalize them to their common or standard forms.</p>
+<p><strong>Examples (Original form → Normalized form):</strong></p>
+<ul>
+<li>𡰱 → 尼</li>
+<li>凢 → 凡</li>
+<li>𠩄 → 所</li>
+<li>𢘻 → 悉</li>
+<li>俻 → 備</li>
+</ul>
+<h3 id="iteration-marks-踊り字-odoriji">
+  <code>Iteration Marks</code> (踊り字, <em>odoriji</em>)
+  <a class="anchor" href="#iteration-marks-%e8%b8%8a%e3%82%8a%e5%ad%97-odoriji">#</a>
+</h3>
+<p>For Kanji <strong><code>Iteration Marks</code></strong> (踊り字, <em>odoriji</em>; also known as 疊字符, <em>diézìfú</em> in Chinese), the mark &ldquo;〻&rdquo; (NINOMAETEN, U+303B) is used, while &ldquo;々&rdquo; (DITTO MARK, U+3005) is not.</p>
+<p>For iteration marks in Katakana used for <strong><code>Japanese Native Readings</code> (<em>wakun</em>)</strong>, the mark &ldquo;ヽ&rdquo; (KATAKANA ITERATION MARK, U+30FD) is used.</p>
+<p>The marks &ldquo;〱&rdquo; (KUNOJITEN, U+3031), &ldquo;〳&rdquo; (KUNOJITEN WITH VOICED SOUND MARK, U+3033), and &ldquo;〵&rdquo; (KUNOJITEN WITH SEMI-VOICED SOUND MARK, U+3035) are not used; instead, the KATAKANA ITERATION MARK is repeated, such as &ldquo;ヽヽ&rdquo;.</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>Example in a <strong><code>Headword</code></strong>: 曽／ー（祖）／〻（母）</li>
+<li>Example in a <strong><code>Japanese Native Reading</code> (<em>wakun</em>)</strong>: 陽　アタヽカナリ</li>
+<li>Example in a <strong><code>Japanese Native Reading</code> (<em>wakun</em>)</strong>: 倍　マスヽヽ</li>
+</ul>
+<h3 id="substitution-marks-代用符号-daiyō-fugō">
+  <code>Substitution Marks</code> (代用符号, <em>daiyō fugō</em>)
+  <a class="anchor" href="#substitution-marks-%e4%bb%a3%e7%94%a8%e7%ac%a6%e5%8f%b7-daiy%c5%8d-fug%c5%8d">#</a>
+</h3>
+<p>The <strong><code>Substitution Mark</code></strong> (代用符号, <em>daiyō fugō</em>), appearing as &lsquo;｜&rsquo; in <strong><code>Headwords</code></strong> that are compound words (熟語, <em>jukugo</em>), is a symbol used when substituting for an annotated character (被注字, <em>hichūji</em>; also 被釋字, <em>hishakuji</em>; i.e., the target character of an annotation) or a previously listed <strong><code>Headword</code></strong>. In the data, this &lsquo;｜&rsquo; mark is input using &lsquo;ー&rsquo; (CHOONPU - long vowel mark, U+30FC), and the actual character it represents is then input within full-width parentheses &lsquo;（）&rsquo;.</p>
+<p>When the symbol &lsquo;｜&rsquo; is used within the <strong><code>Original Glosses</code></strong> to indicate the same character as the <strong><code>Headword</code></strong>, it is simply input as &lsquo;ー&rsquo; (CHOONPU - long vowel mark, U+30FC), without an accompanying indication of the character it represents.</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>Examples in <strong><code>Headwords</code></strong>: 五／ー（人） (here &lsquo;ー&rsquo; substitutes for &lsquo;人&rsquo;), &hellip;, 真／人, 漁／ー（人）, 海／ー（人）</li>
+<li>Example in <strong><code>Original Glosses</code></strong>: 鄲 邯ー縣名 (For the <strong><code>Headword</code></strong> &lsquo;鄲&rsquo;, the gloss &ldquo;邯ー縣名&rdquo; indicates that &ldquo;邯ー&rdquo; refers to &ldquo;邯鄲&rdquo;, which is a county name.)</li>
+</ul>
+<h3 id="compound-marks-合符-gōfu">
+  <code>Compound Marks</code> (合符, <em>gōfu</em>)
+  <a class="anchor" href="#compound-marks-%e5%90%88%e7%ac%a6-g%c5%8dfu">#</a>
+</h3>
+<p>A <strong><code>Compound Mark</code></strong> (合符, <em>gōfu</em>; also known as 連字符, <em>liánzìfú</em> in some contexts, though originally a vertical linking line in the manuscript) is represented in this dataset by a hyphen-minus (&rsquo;-&rsquo;, U+002D). Examples of its use are relatively rare.</p>
+<p><strong>Example:</strong></p>
+<ul>
+<li><strong><code>Headword</code></strong>: 媊
+<strong><code>Original Glosses</code></strong> (excerpt): 箭(R)貲二音　又煎(L)音　太-白-星</li>
+</ul>
+<p>In the <strong><code>Original Glosses</code></strong> for the <strong><code>Headword</code></strong> &lsquo;媊&rsquo;, the notation &ldquo;太-白-星&rdquo; appears at the end. In this context, the hyphens function as <strong><code>Compound Marks</code></strong>, linking the characters &lsquo;太&rsquo;, &lsquo;白&rsquo;, and &lsquo;星&rsquo; to form the term &ldquo;太白星&rdquo; (<em>Tàibáixīng</em>), which refers to the planet Venus.</p>
+<h2 id="additional-notations-and-layout-features">
+  <code>Additional Notations and Layout Features</code>
+  <a class="anchor" href="#additional-notations-and-layout-features">#</a>
+</h2>
+<p>Finally, this section addresses various issues related to additional notations and layout features found in the <em>Myōgishō</em>.
+If using the <em>Myōgishō</em> as a resource for the historical phonology or lexicology of Japanese, it is particularly important to carefully read the explanations regarding <strong><code>Tone Marks</code> (<em>shōten</em>)</strong>, voiced sound marks (濁点, <em>dakuten</em>), and nasal sound symbols.</p>
+<h3 id="interlinear-notes-割注-warichū">
+  <strong><code>Interlinear Notes</code></strong> (割注, <em>warichū</em>)
+  <a class="anchor" href="#interlinear-notes-%e5%89%b2%e6%b3%a8-warich%c5%ab">#</a>
+</h3>
+<p>The basic form is <em>warichū sōgyō</em> (割注双行; meaning &ldquo;small character definition in two lines,&rdquo; comparable to 雙行夾注, <em>shuāngháng jiāzhù</em> in Chinese contexts), which are transcribed from right to left according to their original appearance.
+If an interlinear note extends to three lines, the part judged to be an addition is transcribed last.</p>
+<h3 id="variations-in-the-size-of-characters-within-original-glosses">
+  Variations in the Size of Characters within <code>Original Glosses</code>
+  <a class="anchor" href="#variations-in-the-size-of-characters-within-original-glosses">#</a>
+</h3>
+<p>There are rare instances where a character within the <strong><code>Original Glosses</code></strong> is mistakenly written in a large size, leading to potential confusion with a <strong><code>Headword</code></strong>.</p>
+<p><strong>Example:</strong></p>
+<ul>
+<li><code>hanzi_entry</code>: 憙</li>
+<li><code>definition</code> (representing <strong><code>Original Glosses</code></strong>): 音喜（L-H）　又嬉　コノム（LLH）　喜「注也」　ネカフ (further glosses omitted)</li>
+</ul>
+<p>In this example, following the <strong><code>Headword</code></strong> &lsquo;憙&rsquo;, the <strong><code>Original Glosses</code></strong> provide a <strong><code>Phonetic Gloss</code></strong>, a <strong><code>Note on Character Form</code></strong> (implicitly, &ldquo;又嬉&rdquo; suggesting a variant or related form), and a <strong><code>Japanese Native Reading</code> (<em>wakun</em>)</strong>. After these, the character &lsquo;喜&rsquo; is written in a large size, followed by other <strong><code>Japanese Native Readings</code> (<em>wakun</em>)</strong> such as &lsquo;ネカフ&rsquo;. To the right of the large character &lsquo;喜&rsquo;, there is a note &ldquo;注也&rdquo; (<em>chū nari</em>; &ldquo;this is a gloss/annotation&rdquo;), indicating that &lsquo;喜&rsquo; itself functions as a <strong><code>Semantic Gloss in Chinese</code></strong> for the <strong><code>Headword</code></strong> &lsquo;憙&rsquo;.</p>
+<h3 id="small-character-annotations-小字注記-shōji-chūki">
+  <code>Small Character Annotations</code> (小字注記, <em>shōji chūki</em>)
+  <a class="anchor" href="#small-character-annotations-%e5%b0%8f%e5%ad%97%e6%b3%a8%e8%a8%98-sh%c5%8dji-ch%c5%abki">#</a>
+</h3>
+<p>Annotations made using small characters are referred to as <strong><code>Small Character Annotations</code></strong> (小字注記, <em>shōji chūki</em>).
+<strong><code>Small Character Annotations</code></strong> are frequently found in <strong><code>Notes on Character Form</code></strong> (字体注, <em>jitaichū</em>); these are specifically termed <strong><code>Small Character Notes on Character Form</code></strong> (小字字体注記, <em>shōji jitaichūki</em>).</p>
+<p>There are instances where a <strong><code>Phonetic Gloss</code></strong> for a <strong><code>Hanzi (Chinese character)</code></strong> used within an <strong><code>Original Gloss</code></strong> is itself annotated in an interlinear style (割注形式, <em>warichū keishiki</em>); this is termed a <strong><code>Nested Interlinear Note</code></strong> (再割注, <em>saiwarichū</em>; or 再夾注, <em>zàijiāzhù</em> in Chinese; meaning &ldquo;smaller character definition in two lines, reapplied&rdquo;).<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>Additionally, there are cases where a <strong><code>Semantic Gloss in Chinese</code></strong> is added in small characters directly below a <strong><code>Japanese Native Reading</code> (<em>wakun</em>)</strong>; this is termed a <strong><code>Small Character Semantic Gloss for Wakun</code></strong> (小字和訓義注, <em>shōji wakun gichū</em>).</p>
+<p><strong><code>Small Character Annotations</code></strong> are transcribed by enclosing the relevant portion in full-width angle brackets (〈〉, U+3008 and U+3009).</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>Example of <strong><code>Small Character Notes on Character Form</code></strong>: 又鞘〈正〉 (Found in the <strong><code>Notes on Character Form</code></strong> for the <strong><code>Headword</code></strong> &lsquo;削&rsquo;).</li>
+<li>Example of <strong><code>Nested Interlinear Note</code></strong>: 従夾〈公合〉成恰反 (For the <strong><code>Headword</code></strong> &lsquo;陜&rsquo;, the second character &lsquo;夾&rsquo; of the <em>fanqie</em> spelling is further glossed with another <em>fanqie</em> spelling in small characters).</li>
+<li>Example of <strong><code>Small Character Semantic Gloss for Wakun</code></strong>: アク〈髪〉 (For the <strong><code>Headword</code></strong> &lsquo;結&rsquo;, this note is attached to the <strong><code>Japanese Native Reading</code> (<em>wakun</em>)</strong> &lsquo;アク&rsquo; to distinguish it from homonyms (開く, 厭く, 挙ぐ) and to indicate the meaning of tying up &lsquo;hair&rsquo; (髪)).</li>
+</ul>
+<p>Cases where what should have been a <strong><code>Small Character Semantic Gloss for Wakun</code></strong> was mistakenly written in the same large size as the main <strong><code>Original Glosses</code></strong> are transcribed using 〈〉, and a note to this effect is made in the <code>remarks</code> column (as a <strong><code>Compiler's Remark</code></strong>).</p>
+<p>The following examples are shown in the order of <strong><code>Headword</code></strong>, <strong><code>Japanese Native Reading</code> (<em>wakun</em>)</strong> (including the erroneously large annotation transcribed within 〈〉), and <strong><code>Compiler's Remarks</code></strong>.</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li><strong><code>Headword</code></strong>: 展
+<strong><code>Japanese Native Reading</code> (<em>wakun</em>)</strong>: ヒロク〈眉〉
+<strong><code>Compiler's Remarks</code></strong>: The annotation 〈眉〉 is written in a large size.</li>
+<li><strong><code>Headword</code></strong>: 度
+<strong><code>Japanese Native Reading</code> (<em>wakun</em>)</strong>: トコ〈床〉
+<strong><code>Compiler's Remarks</code></strong>: The semantic gloss is written in a large size.</li>
+</ul>
+<h3 id="annotations-from-variant-manuscripts-異本注記-ihon-chūki">
+  <code>Annotations from Variant Manuscripts</code> (異本注記, <em>ihon chūki</em>)
+  <a class="anchor" href="#annotations-from-variant-manuscripts-%e7%95%b0%e6%9c%ac%e6%b3%a8%e8%a8%98-ihon-ch%c5%abki">#</a>
+</h3>
+<p><strong><code>Annotations from Variant Manuscripts</code></strong> (異本注記, <em>ihon chūki</em>) can pertain to either the <strong><code>Headword</code></strong> or the <strong><code>Original Glosses</code></strong>.</p>
+<p><strong><code>Annotations from Variant Manuscripts</code></strong> pertaining to a <strong><code>Headword</code></strong> are indicated by a preceding &lsquo;▲&rsquo; (U+25B2 BLACK UP-POINTING TRIANGLE) followed by the content of the annotation enclosed in Japanese quotation marks 「」.</p>
+<p><strong><code>Annotations from Variant Manuscripts</code></strong> pertaining to the <strong><code>Original Glosses</code></strong> are enclosed in full-width parentheses（）, U+FF08 and U+FF09. They are shown in the format: <em>original character(s) in the gloss</em> - <em>annotation from the variant manuscript</em>.</p>
+<p>The symbol representing an &ldquo;annotation from a variant manuscript&rdquo; itself (異本注記) is often the Katakana character &lsquo;イ&rsquo; (which might be a part of the &lsquo;他&rsquo; character in &lsquo;他本&rsquo;, <em>tahon</em>, meaning &ldquo;other manuscript,&rdquo; or simply represent &lsquo;異&rsquo;).</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li><strong><code>Annotation from Variant Manuscripts</code></strong> (for a <strong><code>Headword</code></strong>): ▲𦫿「艾」</li>
+<li><strong><code>Annotation from Variant Manuscripts</code></strong> (for a <strong><code>Headword</code></strong>): ▲捺「⿰扌柰イ」</li>
+<li><strong><code>Annotation from Variant Manuscripts</code></strong> (for <strong><code>Original Glosses</code></strong>): 責猛（猛-⿰亻孟イ）二音</li>
+</ul>
+<h3 id="source-attributions-出典注記-shutten-chūki">
+  <code>Source Attributions</code> (出典注記, <em>shutten chūki</em>)
+  <a class="anchor" href="#source-attributions-%e5%87%ba%e5%85%b8%e6%b3%a8%e8%a8%98-shutten-ch%c5%abki">#</a>
+</h3>
+<p>Book titles or personal names indicating a source are enclosed in double angle brackets (《》, U+300A and U+300B).</p>
+<p><strong>Examples:</strong></p>
+<ol>
+<li>Example of a personal name: 齔 《王右軍》作 (Here, 《王右軍》 <em>Ō Ugun</em> [Wang Youjun] indicates the person who created or used this form/reading).</li>
+<li>Example of a personal name: 𡫸 ◇《弘法大師》又云 (Here, ◇ indicates a note in literary Chinese placed to the right of the <strong><code>Headword</code></strong>, and 《弘法大師》 <em>Kōbō Daishi</em> is the cited person).</li>
+<li>Example of a book title: 它 可見《類音决》 (Here, 《類音决》 <em>Ruionketsu</em> is the cited book title, meaning &ldquo;can be seen in the <em>Ruionketsu</em>&rdquo;).</li>
+<li>Example of a book title: 𭘬 《大日經疏》云丁也反 (Here, 《大日經疏》 <em>Dainichikyōsho</em> is the cited book title, followed by a <em>fanqie</em> spelling).</li>
+</ol>
+<p>In example 2, the &lsquo;◇&rsquo; mark indicates that this is an annotation in literary Chinese placed to the right of the <strong><code>Headword</code></strong>.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The term 再割注 (<em>saiwarichū</em>), or 再夾注 (<em>zàijiāzhù</em> in Chinese), implies a &ldquo;re-application&rdquo; of an interlinear-style gloss, often to a character already within a gloss.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 </article>
  
       
@@ -803,6 +948,19 @@ The <strong><code>Entry</code></strong> for &lsquo;豅&rsquo;, for example, has 
     <li><a href="#notational-conventions-for-characters-and-words">Notational Conventions for Characters and Words</a>
       <ul>
         <li><a href="#abbreviated-characters-略字-ryakuji"><strong><code>Abbreviated Characters</code></strong> (略字, <em>ryakuji</em>)</a></li>
+        <li><a href="#variant-characters-itaiji-異体字"><code>Variant Characters (*itaiji*)</code> (異体字)</a></li>
+        <li><a href="#iteration-marks-踊り字-odoriji"><code>Iteration Marks</code> (踊り字, <em>odoriji</em>)</a></li>
+        <li><a href="#substitution-marks-代用符号-daiyō-fugō"><code>Substitution Marks</code> (代用符号, <em>daiyō fugō</em>)</a></li>
+        <li><a href="#compound-marks-合符-gōfu"><code>Compound Marks</code> (合符, <em>gōfu</em>)</a></li>
+      </ul>
+    </li>
+    <li><a href="#additional-notations-and-layout-features"><code>Additional Notations and Layout Features</code></a>
+      <ul>
+        <li><a href="#interlinear-notes-割注-warichū"><strong><code>Interlinear Notes</code></strong> (割注, <em>warichū</em>)</a></li>
+        <li><a href="#variations-in-the-size-of-characters-within-original-glosses">Variations in the Size of Characters within <code>Original Glosses</code></a></li>
+        <li><a href="#small-character-annotations-小字注記-shōji-chūki"><code>Small Character Annotations</code> (小字注記, <em>shōji chūki</em>)</a></li>
+        <li><a href="#annotations-from-variant-manuscripts-異本注記-ihon-chūki"><code>Annotations from Variant Manuscripts</code> (異本注記, <em>ihon chūki</em>)</a></li>
+        <li><a href="#source-attributions-出典注記-shutten-chūki"><code>Source Attributions</code> (出典注記, <em>shutten chūki</em>)</a></li>
       </ul>
     </li>
   </ul>
