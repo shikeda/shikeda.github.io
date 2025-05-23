@@ -21,7 +21,7 @@ The *Ruiju Myōgishō* is renowned as a masterpiece among old Japanese dictionar
 Here, we will first describe the outline of the *Ruiju Myōgishō* and its various versions. Next, regarding the Kanchiin manuscript, which is the only extant complete manuscript of the *Ruiju Myōgishō*, we will explain the structure of its entries, and then describe the details of the input method for the text of the Kanchiin manuscript.
 
 
-Note that while the explanation provided here overlaps in part with what is stated in the paper by Ikeda Shoju, Liu Guanwei, Jun Munho, Zhang Xinfang, and Li Yuan, “Full-text Database of *Ruiju Myogi-sho*, Kanchiin MS : A Look at Development Methods and Calculating the Number of Headwords." (*Kuntengo to Kuten Shiryō* 144, 2020), it has been completely overhauled and rewritten by the first author, Ikeda, who organized the terminology and substantially added subsequent research findings.
+Note that while the explanation provided here overlaps in part with what is stated in the paper by Ikeda Shoju, Liu Guanwei, Jun Munho, Zhang Xinfang, and Li Yuan, “Full-text Database of *Ruiju Myōgishō*, Kanchiin MS : A Look at Development Methods and Calculating the Number of Headwords." (*Kuntengo to Kuten Shiryō* 144, 2020), it has been completely overhauled and rewritten by the first author, Ikeda, who organized the terminology and substantially added subsequent research findings.
 
 
 
@@ -44,7 +44,7 @@ Note that while the explanation provided here overlaps in part with what is stat
 - [Item Data Entry](./04-entry-input/)
     - [Head Characters, Entry Structure, and ID System](./04-entry-input/04-01-id/)
     - [Character Encoding and Representation](./04-entry-input/04-02-char/)
-    - [Problems and Handling in Writing, Notation, and Annotations](./04-entry-input/04-03-handling/)
+    - [Handling Issues in Transcription, Notation, and Annotation](./04-entry-input/04-03-handling/)
 - [Basic Principles for Creating Annotations/Commentary](./05-annotation-policy/)
     - [Basic Principles and Analytical Focus for Annotation Creation](./05-annotation-policy/05-01-basic-policy/)
     - [Calculation of Headword Count](./05-annotation-policy/05-02-headword-count/)

@@ -22,9 +22,9 @@ Handling Issues in Transcription, Notation, and Annotation # The Myōgishō is a
 <link rel="manifest" href="https://shikeda.github.io/manifest.json">
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
   <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/04-entry-input/04-03-handling/" title="書写・表記・注記における問題と対応">
-<link rel="stylesheet" href="https://shikeda.github.io/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://shikeda.github.io/book.min.2eb9261045046b5a62a3b05a0d42dc83843b245d6ee2833aae5e96f3ec26c703.css" integrity="sha256-LrkmEEUEa1pio7BaDULcg4Q7JF1u4oM6rl6W8&#43;wmxwM=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/en.search.min.e0dc1a6de63fff8f6d4011fa0b7c4fc64ca480f7344b790c151e88bd7334028f.js" integrity="sha256-4NwabeY//49tQBH6C3xPxkykgPc0S3kMFR6IvXM0Ao8=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.27eeb20c920c6e0184c78ef2a68c303ced5d4a48738221ec299fbff19cd474e5.js" integrity="sha256-J&#43;6yDJIMbgGEx47ypowwPO1dSkhzgiHsKZ&#43;/8ZzUdOU=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -509,6 +509,92 @@ https://github.com/alex-shpak/hugo-book
         </li>
       
     
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-8f36bd55eb0bd85ca8e0efcd3f2704d0" class="toggle"  />
+    <label for="section-8f36bd55eb0bd85ca8e0efcd3f2704d0" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/" class="">翻刻・注釈の組版の設定</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-01-hanazono-mincho/" class="">花園明朝の設定</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-02-glypwiki/" class="">GlyphWikiの設定</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-03-sfkanbun-sty/" class="">sfkanbun.styの設定</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-04-vscode-texlive/" class="">VS CodeとTeX Live</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-05-online-tools/" class="">オンラインツール</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
   </ul>
 
         </li>
@@ -602,6 +688,12 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#annotations-from-variant-manuscripts-異本注記-ihon-chūki"><code>Annotations from Variant Manuscripts</code> (異本注記, <em>ihon chūki</em>)</a></li>
         <li><a href="#source-attributions-出典注記-shutten-chūki"><code>Source Attributions</code> (出典注記, <em>shutten chūki</em>)</a></li>
         <li><a href="#tone-marks-shōten-声点"><code>Tone Marks (*shōten*)</code> (声点)</a></li>
+        <li><a href="#morphosyntactic-glosses-wokototen-ヲコト点"><code>Morphosyntactic Glosses (*wokototen*)</code> (ヲコト点)</a></li>
+        <li><a href="#line-breaks-and-spacing-改行空白-kaigyōkūhaku">Line Breaks and Spacing (改行・空白, <em>kaigyō/kūhaku</em>)</a></li>
+        <li><a href="#interpolated-glosses-補入注文-honyū-chūmon"><code>Interpolated Glosses</code> (補入注文, <em>honyū chūmon</em>)</a></li>
+        <li><a href="#unannotated-entries-無注記-muchūki">Unannotated <code>Entries</code> (無注記, <em>muchūki</em>)</a></li>
+        <li><a href="#supplementary-headword-annotations-掲出字補注-keishutsuji-hochū"><code>Supplementary Headword Annotations</code> (掲出字補注, <em>keishutsuji hochū</em>)</a></li>
+        <li><a href="#other-noteworthy-cases">Other Noteworthy Cases</a></li>
       </ul>
     </li>
   </ul>
@@ -950,6 +1042,83 @@ Nasal sound symbols are applied to <strong><code>Phonetic Glosses</code></strong
 <p>Examples 7 and 8 are <em>Go-on</em> (呉音) readings; example 7 is a <strong><code>Similar sound note</code></strong>, while example 8 is a <strong><code>Similar sound note</code></strong> accompanied by a <strong><code>Kana gloss</code></strong>.</p>
 <p>Examples 9 and 10 are <em>Wa-on</em> (和音) readings; example 9 has <strong><code>Tone Marks</code> (<em>shōten</em>)</strong> recorded, while example 10 has both <strong><code>Tone Marks</code> (<em>shōten</em>)</strong> and nasal sound symbols.</p>
 <p>&ldquo;Regarding <strong><code>Tone Marks</code> (<em>shōten</em>)</strong>, while distinguishing between those written in red ink (朱点, <em>shuten</em> – also referred to by some specialists as <strong><code>Vermilion Glosses</code></strong>) and those written in black ink (墨点, <em>bokuten</em>) is important, this distinction has not been made in the current data input. We anticipate detailed verification by specialists in historical Japanese phonology.&rdquo;</p>
+<h3 id="morphosyntactic-glosses-wokototen-ヲコト点">
+  <code>Morphosyntactic Glosses (*wokototen*)</code> (ヲコト点)
+  <a class="anchor" href="#morphosyntactic-glosses-wokototen-%e3%83%b2%e3%82%b3%e3%83%88%e7%82%b9">#</a>
+</h3>
+<p>No definitive examples of <strong><code>Morphosyntactic Glosses</code> (<em>wokototen</em>)</strong> have been confirmed in the manuscript at this time.
+Should any definitive examples be identified, they will be transcribed using Hiragana.</p>
+<h3 id="line-breaks-and-spacing-改行空白-kaigyōkūhaku">
+  Line Breaks and Spacing (改行・空白, <em>kaigyō/kūhaku</em>)
+  <a class="anchor" href="#line-breaks-and-spacing-%e6%94%b9%e8%a1%8c%e7%a9%ba%e7%99%bd-kaigy%c5%8dk%c5%abhaku">#</a>
+</h3>
+<p>Line breaks as they appear in the original manuscript are not explicitly represented in the transcribed data. Spacing in the data reflects the results of interpretation rather than an exact reproduction of the original manuscript&rsquo;s spacing.</p>
+<h3 id="interpolated-glosses-補入注文-honyū-chūmon">
+  <code>Interpolated Glosses</code> (補入注文, <em>honyū chūmon</em>)
+  <a class="anchor" href="#interpolated-glosses-%e8%a3%9c%e5%85%a5%e6%b3%a8%e6%96%87-hony%c5%ab-ch%c5%abmon">#</a>
+</h3>
+<p><strong><code>Interpolated Glosses</code></strong> (補入注文, <em>honyū chūmon</em>) are inserted at positions deemed appropriate based on textual analysis.</p>
+<h3 id="unannotated-entries-無注記-muchūki">
+  Unannotated <code>Entries</code> (無注記, <em>muchūki</em>)
+  <a class="anchor" href="#unannotated-entries-%e7%84%a1%e6%b3%a8%e8%a8%98-much%c5%abki">#</a>
+</h3>
+<p>When an <strong><code>Entry</code></strong> has no <strong><code>Original Glosses</code></strong>, this is indicated by &ldquo;（無）&rdquo; (using full-width parentheses).</p>
+<h3 id="supplementary-headword-annotations-掲出字補注-keishutsuji-hochū">
+  <code>Supplementary Headword Annotations</code> (掲出字補注, <em>keishutsuji hochū</em>)
+  <a class="anchor" href="#supplementary-headword-annotations-%e6%8e%b2%e5%87%ba%e5%ad%97%e8%a3%9c%e6%b3%a8-keishutsuji-hoch%c5%ab">#</a>
+</h3>
+<p>Annotations applied directly to a <strong><code>Headword</code></strong> are referred to as <strong><code>Supplementary Headword Annotations</code></strong> (掲出字補注, <em>keishutsuji hochū</em>).
+These include <strong><code>Tone marks</code> (<em>shōten</em>)</strong> and Katakana phonetic annotations directly applied to the <strong><code>Headword</code></strong> to indicate Sino-Japanese readings; side-line <em>kun</em> readings (傍訓, <em>bōkun</em>) and <em>kaeriten</em> marks (返点, <em>kaeriten</em>) directly applied to the <strong><code>Headword</code></strong> to indicate Japanese native readings and reading order; and annotations from variant manuscripts found at the end of the <strong><code>Original Glosses</code></strong> (but pertaining to the <strong><code>Headword</code></strong>).
+These will be explained together here.</p>
+<p><strong><code>Tone Marks</code> (<em>shōten</em>) and Katakana Phonetic Annotations for <code>Headwords</code></strong></p>
+<p><strong><code>Tone marks</code> (<em>shōten</em>)</strong> and Katakana phonetic script applied to a <strong><code>Headword</code></strong> to indicate its Sino-Japanese reading are transcribed at the beginning of the <strong><code>Original Glosses</code></strong>. They are preceded by a double circle (◎, U+25CE) and the annotated character (被注字, <em>hichūji</em>), followed immediately by the annotation. <strong><code>Tone marks</code> (<em>shōten</em>)</strong> are represented by their abbreviations within full-width parentheses （）, and Katakana phonetic script is enclosed in Japanese quotation marks 「」.</p>
+<p><strong>Side-Line <em>Kun</em> Readings, <em>Kaeriten</em> Marks, and Other Annotations for <code>Headwords</code></strong></p>
+<p><em>Side-line <em>kun</em> readings</em> (傍訓, <em>bōkun</em>) and <em>kaeriten</em> marks applied to a <strong><code>Headword</code></strong> to indicate its Japanese native reading and reading order are transcribed immediately following the annotated character, preceded by a bullseye mark (⦿, U+29BF) and the annotated character, and enclosed in 「」.
+Annotations in literary Chinese (such as <strong><code>Fanqie spellings</code></strong>, <strong><code>Semantic Glosses in Chinese</code></strong>, <strong><code>Notes on Character Form</code></strong>, or <strong><code>Source Attributions</code></strong>) applied to a <strong><code>Headword</code></strong> are transcribed immediately following the annotated character, preceded by a lozenge/diamond mark (◇, U+25C7) and the annotated character, and enclosed in 「」.
+<strong><code>Annotations from Variant Manuscripts</code></strong> applied to a <strong><code>Headword</code></strong> are transcribed immediately following the annotated character, preceded by a black up-pointing triangle (▲, U+25B2) and the annotated character, and enclosed in 「」.</p>
+<p><strong><code>Annotations from Variant Manuscripts</code> at the End of <code>Original Glosses</code></strong></p>
+<p><strong><code>Annotations from Variant Manuscripts</code></strong> pertaining to the <strong><code>Headword</code></strong> but added at the end of the <strong><code>Original Glosses</code></strong> are indicated by a preceding &lsquo;▲&rsquo; at the end of the glosses, with the content of the annotation enclosed in 「」.</p>
+<p><strong>Order of Transcription</strong></p>
+<p>If it is necessary to transcribe multiple types of <strong><code>Supplementary Headword Annotations</code></strong> for a single <strong><code>Headword</code></strong>, they are recorded in the following order: ◎ Sino-Japanese reading information, ⦿ Japanese native reading information / reading order marks, ◇ Annotations in literary Chinese, ▲ Annotations from variant manuscripts.</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>◎純「ト（L）ン（H）」</li>
+<li>⦿虱「キサヽ」</li>
+<li>◇⿱惟乃「手歟」</li>
+<li>▲⿲骨石辛「𩪧イ」</li>
+</ul>
+<h3 id="other-noteworthy-cases">
+  Other Noteworthy Cases
+  <a class="anchor" href="#other-noteworthy-cases">#</a>
+</h3>
+<p><strong>Decipherment Notes (判読注, <em>handoku-chū</em>)</strong></p>
+<p>A compiler&rsquo;s decipherment note (解讀注記, <em>jiědú zhùjì</em> in Chinese) may be indicated by enclosing it in parentheses ().</p>
+<p><strong>Example:</strong></p>
+<ul>
+<li>⿰阝⿱𠂉夕 オチイル（L___、ホを見消してチ）
+<em>(This <code>hanzi_entry</code> (⿰阝⿱𠂉夕) is followed by its <code>Japanese Native Reading (*wakun*)</code> &lsquo;オチイル&rsquo; with <code>Tone Marks</code> and a decipherment note &ldquo;ホを見消してチ&rdquo; [meaning &ldquo;&lsquo;ホ&rsquo; is deleted and replaced by &lsquo;チ&rsquo;&rdquo;].)</em></li>
+</ul>
+<p>For this example, the following content would be recorded in the <code>remarks</code> column (as a <strong><code>Compiler's Remark</code></strong>):</p>
+<blockquote>
+<p>Masamune&rsquo;s Index, under &lsquo;オホ（-ヒ）チイル&rsquo;, notes: &ldquo;&lsquo;ホ（-ヒ）&rsquo; is a mark indicating &lsquo;ホ&rsquo; was deleted. Should it be &lsquo;オチイル&rsquo;?&rdquo; Kusakawa&rsquo;s <em>Wakun Shūsei</em> records &lsquo;オホ&rsquo; and &lsquo;チイル&rsquo; separately. Mochizuki&rsquo;s <em>Wakun Shūsei</em> records &lsquo;オチイル&rsquo;. Ikeda&rsquo;s note: Follow Masamune and Mochizuki.</p></blockquote>
+<p><strong><code>Fanqie</code> Spellings within <code>Headwords</code></strong></p>
+<p>If a <strong><code>Fanqie spelling</code></strong> is inserted within a <strong><code>Multi-Character Form Headword</code></strong> (typically an idiom/compound), a forward slash &lsquo;/&rsquo; (half-width slash) is used to indicate the separation.</p>
+<p><strong>Example:</strong></p>
+<ul>
+<li>𣚊ー（棗） 人充　/　ノナツメ（_HHH）</li>
+</ul>
+<p>In this example, which shows the <strong><code>Headword</code></strong> followed by its <strong><code>Original Glosses</code></strong>, the <strong><code>Fanqie spelling</code></strong> &ldquo;人充&rdquo; is written directly beneath &lsquo;𣚊&rsquo; (the first part of the <strong><code>Headword</code></strong> &lsquo;𣚊ー（棗）&rsquo;).</p>
+<p><strong><code>Japanese Native Readings</code> (<em>wakun</em>) Attached to <code>Hanzi (Chinese characters)</code> within <code>Original Glosses</code></strong></p>
+<p>Small Katakana characters (representing <strong><code>Japanese Native Readings</code> (<em>wakun</em>)</strong>) attached to a <strong><code>Hanzi (Chinese character)</code></strong> within the <strong><code>Original Glosses</code></strong> are transcribed as is, enclosed in Japanese quotation marks 「」. If such a <em>wakun</em> is written in even smaller characters (小字, <em>shōji</em>), it is enclosed in full-width angle brackets 〈〉. Examples of the latter are rare.</p>
+<p><strong>Examples:</strong></p>
+<ol>
+<li>琢「ミカク」玉工也</li>
+<li>圏〈ヲリ〉</li>
+<li>ー「タヘ」「平歟」趹「ハシル」追「ヲオフ」蹤「ニクルヲ」</li>
+</ol>
+<p>Example 1 is seen within the <strong><code>Original Glosses</code></strong> for the <strong><code>Headword</code></strong> &lsquo;玊&rsquo;; the <strong><code>Japanese Native Reading</code> (<em>wakun</em>)</strong> &lsquo;ミカク&rsquo; is attached to the right side of the character &lsquo;琢&rsquo;.</p>
+<p>Example 2 is seen within the <strong><code>Original Glosses</code></strong> for the <strong><code>Headword</code></strong> &lsquo;檻&rsquo;; the <strong><code>Japanese Native Reading</code> (<em>wakun</em>)</strong> is attached below &lsquo;圏&rsquo; in small characters.</p>
+<p>Example 3 is seen within the <strong><code>Original Glosses</code></strong> for the <strong><code>Headword</code></strong> &lsquo;要&rsquo;. It shows example sentences (or phrases) and their <strong><code>Japanese Native Readings</code> (<em>wakun</em>)</strong>.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -1019,6 +1188,12 @@ Nasal sound symbols are applied to <strong><code>Phonetic Glosses</code></strong
         <li><a href="#annotations-from-variant-manuscripts-異本注記-ihon-chūki"><code>Annotations from Variant Manuscripts</code> (異本注記, <em>ihon chūki</em>)</a></li>
         <li><a href="#source-attributions-出典注記-shutten-chūki"><code>Source Attributions</code> (出典注記, <em>shutten chūki</em>)</a></li>
         <li><a href="#tone-marks-shōten-声点"><code>Tone Marks (*shōten*)</code> (声点)</a></li>
+        <li><a href="#morphosyntactic-glosses-wokototen-ヲコト点"><code>Morphosyntactic Glosses (*wokototen*)</code> (ヲコト点)</a></li>
+        <li><a href="#line-breaks-and-spacing-改行空白-kaigyōkūhaku">Line Breaks and Spacing (改行・空白, <em>kaigyō/kūhaku</em>)</a></li>
+        <li><a href="#interpolated-glosses-補入注文-honyū-chūmon"><code>Interpolated Glosses</code> (補入注文, <em>honyū chūmon</em>)</a></li>
+        <li><a href="#unannotated-entries-無注記-muchūki">Unannotated <code>Entries</code> (無注記, <em>muchūki</em>)</a></li>
+        <li><a href="#supplementary-headword-annotations-掲出字補注-keishutsuji-hochū"><code>Supplementary Headword Annotations</code> (掲出字補注, <em>keishutsuji hochū</em>)</a></li>
+        <li><a href="#other-noteworthy-cases">Other Noteworthy Cases</a></li>
       </ul>
     </li>
   </ul>

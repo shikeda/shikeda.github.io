@@ -389,3 +389,90 @@ Examples 9 and 10 are *Wa-on* (和音) readings; example 9 has **`Tone Marks` (*
 
 "Regarding **`Tone Marks` (*shōten*)**, while distinguishing between those written in red ink (朱点, *shuten* – also referred to by some specialists as **`Vermilion Glosses`**) and those written in black ink (墨点, *bokuten*) is important, this distinction has not been made in the current data input. We anticipate detailed verification by specialists in historical Japanese phonology."
 
+
+### `Morphosyntactic Glosses (*wokototen*)` (ヲコト点)
+
+No definitive examples of **`Morphosyntactic Glosses` (*wokototen*)** have been confirmed in the manuscript at this time.
+Should any definitive examples be identified, they will be transcribed using Hiragana.
+
+### Line Breaks and Spacing (改行・空白, *kaigyō/kūhaku*)
+
+Line breaks as they appear in the original manuscript are not explicitly represented in the transcribed data. Spacing in the data reflects the results of interpretation rather than an exact reproduction of the original manuscript's spacing.
+
+### `Interpolated Glosses` (補入注文, *honyū chūmon*)
+
+**`Interpolated Glosses`** (補入注文, *honyū chūmon*) are inserted at positions deemed appropriate based on textual analysis.
+
+### Unannotated `Entries` (無注記, *muchūki*)
+
+When an **`Entry`** has no **`Original Glosses`**, this is indicated by "（無）" (using full-width parentheses).
+
+
+### `Supplementary Headword Annotations` (掲出字補注, *keishutsuji hochū*)
+
+Annotations applied directly to a **`Headword`** are referred to as **`Supplementary Headword Annotations`** (掲出字補注, *keishutsuji hochū*).
+These include **`Tone marks` (*shōten*)** and Katakana phonetic annotations directly applied to the **`Headword`** to indicate Sino-Japanese readings; side-line *kun* readings (傍訓, *bōkun*) and *kaeriten* marks (返点, *kaeriten*) directly applied to the **`Headword`** to indicate Japanese native readings and reading order; and annotations from variant manuscripts found at the end of the **`Original Glosses`** (but pertaining to the **`Headword`**).
+These will be explained together here.
+
+**`Tone Marks` (*shōten*) and Katakana Phonetic Annotations for `Headwords`**
+
+**`Tone marks` (*shōten*)** and Katakana phonetic script applied to a **`Headword`** to indicate its Sino-Japanese reading are transcribed at the beginning of the **`Original Glosses`**. They are preceded by a double circle (◎, U+25CE) and the annotated character (被注字, *hichūji*), followed immediately by the annotation. **`Tone marks` (*shōten*)** are represented by their abbreviations within full-width parentheses （）, and Katakana phonetic script is enclosed in Japanese quotation marks 「」.
+
+**Side-Line *Kun* Readings, *Kaeriten* Marks, and Other Annotations for `Headwords`**
+
+*Side-line *kun* readings* (傍訓, *bōkun*) and *kaeriten* marks applied to a **`Headword`** to indicate its Japanese native reading and reading order are transcribed immediately following the annotated character, preceded by a bullseye mark (⦿, U+29BF) and the annotated character, and enclosed in 「」.
+Annotations in literary Chinese (such as **`Fanqie spellings`**, **`Semantic Glosses in Chinese`**, **`Notes on Character Form`**, or **`Source Attributions`**) applied to a **`Headword`** are transcribed immediately following the annotated character, preceded by a lozenge/diamond mark (◇, U+25C7) and the annotated character, and enclosed in 「」.
+**`Annotations from Variant Manuscripts`** applied to a **`Headword`** are transcribed immediately following the annotated character, preceded by a black up-pointing triangle (▲, U+25B2) and the annotated character, and enclosed in 「」.
+
+**`Annotations from Variant Manuscripts` at the End of `Original Glosses`**
+
+**`Annotations from Variant Manuscripts`** pertaining to the **`Headword`** but added at the end of the **`Original Glosses`** are indicated by a preceding '▲' at the end of the glosses, with the content of the annotation enclosed in 「」.
+
+**Order of Transcription**
+
+If it is necessary to transcribe multiple types of **`Supplementary Headword Annotations`** for a single **`Headword`**, they are recorded in the following order: ◎ Sino-Japanese reading information, ⦿ Japanese native reading information / reading order marks, ◇ Annotations in literary Chinese, ▲ Annotations from variant manuscripts.
+
+**Examples:**
+* ◎純「ト（L）ン（H）」
+* ⦿虱「キサヽ」
+* ◇⿱惟乃「手歟」
+* ▲⿲骨石辛「𩪧イ」
+
+
+### Other Noteworthy Cases
+
+**Decipherment Notes (判読注, *handoku-chū*)**
+
+A compiler's decipherment note (解讀注記, *jiědú zhùjì* in Chinese) may be indicated by enclosing it in parentheses ().
+
+**Example:**
+* ⿰阝⿱𠂉夕 オチイル（L___、ホを見消してチ）
+    *(This `hanzi_entry` (⿰阝⿱𠂉夕) is followed by its `Japanese Native Reading (*wakun*)` 'オチイル' with `Tone Marks` and a decipherment note "ホを見消してチ" [meaning "'ホ' is deleted and replaced by 'チ'"].)*
+
+For this example, the following content would be recorded in the `remarks` column (as a **`Compiler's Remark`**):
+
+> Masamune's Index, under 'オホ（-ヒ）チイル', notes: "'ホ（-ヒ）' is a mark indicating 'ホ' was deleted. Should it be 'オチイル'?" Kusakawa's *Wakun Shūsei* records 'オホ' and 'チイル' separately. Mochizuki's *Wakun Shūsei* records 'オチイル'. Ikeda's note: Follow Masamune and Mochizuki.
+
+**`Fanqie` Spellings within `Headwords`**
+
+If a **`Fanqie spelling`** is inserted within a **`Multi-Character Form Headword`** (typically an idiom/compound), a forward slash '/' (half-width slash) is used to indicate the separation.
+
+**Example:**
+* 𣚊ー（棗） 人充　/　ノナツメ（_HHH）
+
+In this example, which shows the **`Headword`** followed by its **`Original Glosses`**, the **`Fanqie spelling`** "人充" is written directly beneath '𣚊' (the first part of the **`Headword`** '𣚊ー（棗）').
+
+**`Japanese Native Readings` (*wakun*) Attached to `Hanzi (Chinese characters)` within `Original Glosses`**
+
+Small Katakana characters (representing **`Japanese Native Readings` (*wakun*)**) attached to a **`Hanzi (Chinese character)`** within the **`Original Glosses`** are transcribed as is, enclosed in Japanese quotation marks 「」. If such a *wakun* is written in even smaller characters (小字, *shōji*), it is enclosed in full-width angle brackets 〈〉. Examples of the latter are rare.
+
+**Examples:**
+1.  琢「ミカク」玉工也
+2.  圏〈ヲリ〉
+3.  ー「タヘ」「平歟」趹「ハシル」追「ヲオフ」蹤「ニクルヲ」
+
+Example 1 is seen within the **`Original Glosses`** for the **`Headword`** '玊'; the **`Japanese Native Reading` (*wakun*)** 'ミカク' is attached to the right side of the character '琢'.
+
+Example 2 is seen within the **`Original Glosses`** for the **`Headword`** '檻'; the **`Japanese Native Reading` (*wakun*)** is attached below '圏' in small characters.
+
+Example 3 is seen within the **`Original Glosses`** for the **`Headword`** '要'. It shows example sentences (or phrases) and their **`Japanese Native Readings` (*wakun*)**.

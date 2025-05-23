@@ -34,7 +34,7 @@ This section provides an overview of the *Ruiju Myōgishō*, detailing its extan
 
 The extant manuscripts of the *Ruiju Myōgishō* fall into two distinct textual lineages: the original compilation and its later redactions.  
 The sole surviving exemplar of the original compilation is held by the Archives and Mausolea Department of the Imperial Household Agency, and this lineage is often referred to as the *gensenbon* (original compilation) tradition. The manuscript in question was introduced in 1950 as the *Zushoryō* manuscript (Library of Ancient Books manuscript).  
-The redacted lineage, alternatively termed the *kaihenbon-kei* (redacted version lineage) or *Kōekibon* tradition, includes several known manuscripts: the Kanchiin manuscript, the Kōzan-ji manuscript, the Renshō-in manuscript, the Sainen-ji manuscript, and the Hōbodai-in manuscript. Of these, only the Kanchiin manuscript survives in complete form; the remaining examples are fragmentary or incomplete. The redacted tradition has been the subject of sustained scholarly inquiry since the Edo period, beginning with the work of Ban Nobutomo and others.
+The redacted lineage, alternatively termed the *kaihenbon-kei* (redacted version lineage) or *Kōekibon* tradition, includes several known manuscripts: the Kanchiin manuscript, the Kōzan-ji manuscript, the Renshō-in manuscript, the Sainen-ji manuscript, and the Hōbodaiin manuscript. Of these, only the Kanchiin manuscript survives in complete form; the remaining examples are fragmentary or incomplete. The redacted tradition has been the subject of sustained scholarly inquiry since the Edo period, beginning with the work of Ban Nobutomo and others.
 
 In Japanese scholarship, it is common practice to refer to individual manuscripts by appending *-bon* (meaning “copy” or “text”) to the name of the holding temple or institution—for example, *Kanchiin-bon*. In this paper, however, these will be referred to using the English term “manuscript” for clarity and consistency.
 
@@ -189,7 +189,7 @@ It consists of two fragmentary volumes corresponding to *Butsu-jō* and *Butsu-c
 A one-volume fragment transcribed in 1767 (Meiwa 4), based on the Eissatsu Manuscript, preserving portions of *Butsu-jō* and *Butsu-chū*. Now held by both the Tenri Central Library and Kansai University. Although no printed facsimile exists, images of the Kansai University copy are publicly available.  
 A version preserved by the Archives and Mausolea Department of the Imperial Household Agency is also accessible and more closely resembles the Tenri copy than the Kansai University one. While the Tenri copy has often been used in prior scholarship, the lack of a published facsimile once required researchers to visit the library to obtain photographic reproductions. The Shoryōbu copy now allows readers to access the same textual content as the Tenri Sainen-ji Manuscript.
 
-**Hōbodai-in Manuscript**  
+**Hōbodaiin Manuscript**  
 A one-volume fragment covering the “Ship” (舟) through “Dog” (犬) sections of *Butsu-ge* in the Kanchiin Manuscript, likely copied in the late Kamakura period.  
 A facsimile edition was published in 2002 by Taishō University Press, with commentary by Kurashima Tokihisa. A wakun index compiled by the same scholar was published in 2006 by the same press.
 
@@ -211,7 +211,7 @@ A facsimile edition was published in 2002 by Taishō University Press, with comm
 
   - Kusakawa Noboru (ed.), *Collected Japanese Readings from Five Editions of Ruiju Myōgishō*, Kyūko Shoin, 2000.
 
-  - Kurashima Tokihisa (ed.), *Wakun Index to the Hōbodai-in Edition of Ruiju Myōgishō*, Taishō University Press, 2006.
+  - Kurashima Tokihisa (ed.), *Wakun Index to the Hōbodaiin Edition of Ruiju Myōgishō*, Taishō University Press, 2006.
 
 ## References
 
@@ -299,7 +299,7 @@ This list is currently under development, and therefore may not yet include some
     * Kōno, Toshihiro. "Kanchiin bon *Ruiju Myōgishō* Shoin no *Honzō Wamyō* ni tsuite" (On the *Honzō Wamyō* Cited in the Kanchiin Manuscript of the *Ruiju Myōgishō*). In *Nihongo Ronkyū 2: Koten Nihongo to Jisho* (Japanese Language Research 2: Classical Japanese and Dictionaries), edited by Tajima Ikudō and Niwa Kazuya, *Kenkyū Sōsho* (Research Series) 121, 69–85. Osaka: Izumi Shoin, 1992.
 
 26. **Kurashima, Tokihisa (2005)**
-    * Kurashima, Tokihisa. "Hōbodai-in bon *Ruiju Myōgishō* ni tsuite: Zokkō" (On the Hōbodai-in Manuscript *Ruiju Myōgishō*: Continued). *Kokubungaku Tōsa* 17 (2005): 115–125.
+    * Kurashima, Tokihisa. "Hōbodaiin bon *Ruiju Myōgishō* ni tsuite: Zokkō" (On the Hōbodaiin Manuscript *Ruiju Myōgishō*: Continued). *Kokubungaku Tōsa* 17 (2005): 115–125.
 
 27. **Kusakawa, Noboru (2000)**
     * Kusakawa, Noboru. *Gohon Taishō Ruiju Myōgishō Wakun Shūsei* (Collected Japanese Readings from Five Versions of the *Ruiju Myōgishō*). Tokyo: Kyūko Shoin, 2000.
@@ -413,10 +413,10 @@ This list is currently under development, and therefore may not yet include some
     * Tsukishima, Hiroshi. *Kojisho to Ongi* (Old Dictionaries and Phonetic/Semantic Glosses). *Tsukishima Hiroshi Chosakushū* (Collected Works of Tsukishima Hiroshi), vol. 3. Tokyo: Kyūko Shoin, 2016.
 
 64. **Wada, Kei (2005)**
-    * Wada, Kei. "Hōbodai-in bon *Ruiju Myōgishō* to Kanchiin bon to no Hikaku kara: Te no Bu o Chūshin ni shite" (From a Comparison between the Hōbodai-in Manuscript *Ruiju Myōgishō* and the Kanchiin Manuscript: Focusing on the Hand Radical Section). *Kokubungaku Tōsa*, no. 17 (2005): 126–137.
+    * Wada, Kei. "Hōbodaiin bon *Ruiju Myōgishō* to Kanchiin bon to no Hikaku kara: Te no Bu o Chūshin ni shite" (From a Comparison between the Hōbodaiin Manuscript *Ruiju Myōgishō* and the Kanchiin Manuscript: Focusing on the Hand Radical Section). *Kokubungaku Tōsa*, no. 17 (2005): 126–137.
 
 65. **Wada, Kei (2006)**
-    * Wada, Kei. "Hōbodai-in bon *Ruiju Myōgishō* to Kanchiin bon to no Hikaku kara: Ki no Bu o Chūshin ni shite" (From a Comparison between the Hōbodai-in Manuscript *Ruiju Myōgishō* and the Kanchiin Manuscript: Focusing on the Tree Radical Section). *Kokubungaku Tōsa*, no. 18 (2006): 228–239.
+    * Wada, Kei. "Hōbodaiin bon *Ruiju Myōgishō* to Kanchiin bon to no Hikaku kara: Ki no Bu o Chūshin ni shite" (From a Comparison between the Hōbodaiin Manuscript *Ruiju Myōgishō* and the Kanchiin Manuscript: Focusing on the Tree Radical Section). *Kokubungaku Tōsa*, no. 18 (2006): 228–239.
 
 66. **Watanabe, Minoru (1960)**
     * Watanabe, Minoru. "Sainnenjibon Renjōinbon *Ruiju Myōgishō* ni Tsuite: Kansai Daigaku Genzōhon no Shōkai o Ki ni Gen *Myōgishō* no Hensei no Suitei ni Oyobu" (On the Sainnenji and Renjōin Manuscripts of the *Ruiju Myōgishō*: Extending to an Estimation of the Original *Myōgishō*'s Compilation on the Occasion of Introducing the Manuscript Currently Held by Kansai University). In *Shimada Kyōju Koki Kinen Kokubungaku Ronshū* (Collection of Japanese Literature Papers Commemorating the 70th Birthday of Professor Shimada), edited by Kansai Daigaku Kokubungakkai (Kansai University Japanese Literature Society), 375–404. Suita, 1960.
@@ -449,7 +449,7 @@ This list is currently under development, and therefore may not yet include some
     * Yamamoto, Hideto. "Zushoryōbon *Ruiju Myōgishō* ni okeru Shutten Muhyōji no Wakun ni tsuite: Kokuso no Kun to no Kakawari o Chūshin ni" (On Wakun with No Source Indication in the Zushoryōbon *Ruiju Myōgishō*: Focusing on the Relationship with Readings in Japanese Texts). *Kōchidai Kokubun*, no. 32 (2001): 48–72.
 
 76. **Yamamoto, Hideto (2003)**
-    * Yamamoto, Hideto. "Hōbodai-in bon *Ruiju Myōgishō* ni tsuite: Kanchiin bon to no Hikaku yori" (On the Hōbodai-in Manuscript *Ruiju Myōgishō*: From a Comparison with the Kanchiin Manuscript). *Kuntengo to Kunten Shiryō* 111 (2003): 20–30.
+    * Yamamoto, Hideto. "Hōbodaiin bon *Ruiju Myōgishō* ni tsuite: Kanchiin bon to no Hikaku yori" (On the Hōbodaiin Manuscript *Ruiju Myōgishō*: From a Comparison with the Kanchiin Manuscript). *Kuntengo to Kunten Shiryō* 111 (2003): 20–30.
 
 77. **Yamamoto, Hideto (2011)**
     * Yamamoto, Hideto. "Kaihenbon *Ruiju Myōgishō* ni okeru 'Azumabito un' ni tsuite (Jō): *Shinsen Jikyō* to no Kankei o Chūshin ni" (On "Azumabito un" [Cited by Easterners/People from Eastern Japan] in the Revised *Ruiju Myōgishō* (Part 1): Focusing on the Relationship with the *Shinsen Jikyō*). In *Kokugo Goishi no Kenkyū 30* (Research in the History of Japanese Vocabulary 30), edited by Kokugo Goishi Kenkyūkai (Society for the Historical Study of Japanese Vocabulary), 145–157. Osaka: Izumi Shoin, 2011.
