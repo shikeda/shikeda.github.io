@@ -8,7 +8,7 @@ bookToc: true
 # Input of Entry Data
 
 
-This document explains how to input **`Entry`** data for the Kanchiin manuscript of the *Ruiju Myōgishō*. Hereinafter, the Kanchiin manuscript of the *Ruiju Myōgishō* will be referred to as *"Myōgishō"* or "KRM."
+This document explains how to input **`Entry`** data for the Kanchi-in manuscript of the *Ruiju Myōgishō*. Hereinafter, the Kanchi-in manuscript of the *Ruiju Myōgishō* will be referred to as *"Myōgishō"* or "KRM."
 
 An **`Entry`** consists of a **`Headword`** and **`Original Glosses`**. This section focuses on matters common to the input of **`Headwords`** and **`Original Glosses`** for the main **`Entry`** data of the *"Myōgishō"* (e.g., `krm_main.tsv`).
 

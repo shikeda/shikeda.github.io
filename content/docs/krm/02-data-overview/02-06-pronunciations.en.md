@@ -13,7 +13,7 @@ weight: 16
 
 ## Overview and file formats
 
-The **`Phonetic Glosses`** in the Kanchiin manuscript of the *Ruiju Myōgishō* (hereafter *Myōgishō*) include **`Fanqie spellings`** (反切), **`Similar sound notes`** (類音注, *ruion-chū*), and **`Kana glosses`** (仮名注, *kana-chū*). These are often accompanied by **`Tone marks`** (声点, *shōten*).
+The **`Phonetic Glosses`** in the Kanchi-in manuscript of the *Ruiju Myōgishō* (hereafter *Myōgishō*) include **`Fanqie spellings`** (反切), **`Similar sound notes`** (類音注, *ruion-chū*), and **`Kana glosses`** (仮名注, *kana-chū*). These are often accompanied by **`Tone marks`** (声点, *shōten*).
 As a database for Sino-Japanese pronunciations, the **"Database of Historical Sino-Japanese Readings"** (abbreviated as DHSJR), developed by Professor Katō Taitsuru and others, offers exceptionally rich content. 
 Its specifications are also publicly available in detail. 
 Accordingly, as part of the HDIC project, we have decided to release data in accordance with the DHSJR specifications.

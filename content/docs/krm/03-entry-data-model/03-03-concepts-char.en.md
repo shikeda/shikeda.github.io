@@ -51,7 +51,7 @@ The practice of calling **`Form Classification Tags`** like "正" or "俗" *jiky
 ## Graphically Similar Characters (形近字)
 
 **`Graphically similar characters` (*keikinki*)** (形近字) are distinct characters that have similar visual forms. They are also known as *ruikei betsuji* (類形別字) or *ruikei iji* (類形異字) (distinct characters of similar form).
-In the study of the Kanchiin manuscript of the *Ruiju Myōgishō*, Sakai Kenji, in his article “Ruiju Myōgishō no Jijun to Bushu Hairetsu” (Character Order and Radical Arrangement in the *Ruiju Myōgishō*),[^Sakai1967] identified an "arrangement by similar character forms" (類似字形排列, *ruiji jikei hairetsu*) within radical sections. This can be rephrased as **`variant characters `(*itaiji*)** and **`graphically similar characters`** being listed consecutively.
+In the study of the Kanchi-in manuscript of the *Ruiju Myōgishō*, Sakai Kenji, in his article “Ruiju Myōgishō no Jijun to Bushu Hairetsu” (Character Order and Radical Arrangement in the *Ruiju Myōgishō*),[^Sakai1967] identified an "arrangement by similar character forms" (類似字形排列, *ruiji jikei hairetsu*) within radical sections. This can be rephrased as **`variant characters `(*itaiji*)** and **`graphically similar characters`** being listed consecutively.
 
 [^Sakai1967]: Sakai, Kenji. “Ruiju Myōgishō no Jijun to Bushu Hairetsu” (Character Order and Radical Arrangement in the *Ruiju Myōgishō*). In *Honpō Jishoshi Ronsō: Yamada Yoshio Tsuioku* (Collected Papers on the History of Dictionaries in Japan: In Memory of Yamada Yoshio), edited by Yamada Tadao, 191–258. Tokyo: Sanseidō, 1967.
 
