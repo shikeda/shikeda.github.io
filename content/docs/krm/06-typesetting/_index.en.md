@@ -1,86 +1,61 @@
 ---
 bookCollapseSection: true
-title: 翻刻・注釈の組版の設定
+title: "Typesetting Configuration for Transcriptions and Annotations"
 weight: 30
 ---
-Under preparation.
-# 翻刻・注釈の組版の設定
 
-## はじめに
+# Typesetting Configuration for Transcriptions and Annotations
 
-LuaTeX + 花園明朝 + GlyphWiki + sfkanbun.sty
-の環境で古辞書の翻刻と注釈の組版を行う方法をまとめる。
+## Introduction
 
-LuaTeXはTeX Live、エディターはVS Codeを
-使うことを推奨する。TeX LiveとVS Codeのインストールから
-使い方までは、Webに多数出ているので、省略する。
+This document outlines methods for typesetting transcriptions and annotations of old dictionaries using an environment comprising LuaTeX, Hanazono Mincho fonts, GlyphWiki, and the `sfkanbun.sty` package.
+
+It is recommended to use LuaTeX via TeX Live and VS Code as the editor. Instructions for installing and using TeX Live and VS Code are widely available on the web and will be omitted here.
 
 
-## 翻刻・注釈の組版
+## Typesetting Transcriptions and Annotations
 
-作成した翻刻と注釈は、Webで表示したり、
-検索したりすことができる。
+The transcriptions and annotations that have been created can be displayed and searched on the web.
 
-それとは別にWebの内容を著作の形で見やすく組版する
-方法を検討する。
+Separately from this, we will consider methods for typesetting the web content into a more readable, book-like format.
 
-Webのコンテンツは、マークダウンで書いてあるので、
-これを適切なフォーマットに変換することで対応する。
+Since the web content is written in Markdown, this can be addressed by converting it to an appropriate format.
 
-ここではLuaLaTeXを使った方法について、備忘録として
-記載しておく。
+This section serves as a memorandum on a method using LuaLaTeX.
 
-## 組版ソフトの条件
+## Requirements for Typesetting Software
 
-古辞書や訓点資料は、難しい漢字が多く、
-割注、傍訓など本文が複雑である。
+Old dictionaries and *kunten* materials (訓点資料, documents annotated with guiding marks for reading Chinese texts in Japanese) often contain many complex **`Hanzi (Chinese characters)`**, and their texts, including features like **`Interlinear Notes`** (割注, *warichū*) and side-line *kun* readings (傍訓, *bōkun*), can be intricate.
 
-難字の表示・印刷は、次の二つを
-簡単に使えるのが条件となる
+For displaying and printing rare or complex characters, it is essential to be able to easily use the following two resources:
 
-1. 花園明朝
-2. GlypWiki
+1.  Hanazono Mincho (花園明朝) fonts
+2.  GlyphWiki
 
+To utilize both of these resources, LuaLaTeX appears to be a suitable choice. While upLaTeX might also be usable, configuring it to work with these resources seems likely to be a challenging endeavor.
 
-この二つを簡単に利用するには、
-LuaLaTeXがよさそうである。
-upLaTeXでも使えそうだが、
-使えるように設定するのに苦労しそうである。
+For complex typesetting features such as **`Interlinear Notes`** and side-line *kun* readings, macro files can be used. Several such files have been publicly released:
 
-割注、傍訓など複雑な組版んついては、
-マクロファイルで対応する。
-いくつかのものが公表されている。
+1.  `kunten2e.sty`: A style file for *kunten* materials.
+2.  `sfkanbun.sty`: The sfkanbun package (for Kanbun texts).
 
-1. 訓点資料用スタイル・ファイル  kunten2e.sty
-2. sfkanbunパッケージ (漢文) sfkanbun.sty
+Both of these can be used with upLaTeX. However, they cannot be used directly with LuaLaTeX as is. After some investigation, it was found that `sfkanbun.sty` can be made compatible with LuaLaTeX by modifying its files slightly. The necessary modifications are minimal.
 
-どちらもupLaTeXで利用できる。
-しかし、LuaLaTeXではそのまま使えない。
-いろいろ調べてみると、sfkanbun.styを
-LuaLaTeXで利用できるようにファイルを書き換えれば
-よいことが分かった。書き換えはほんの僅かである。
+It has been over 20 years since I last created document files using LaTeX. At that time, I utilized the following combination:
 
-LaTeXで文書ファイルを作成していたのは、
-20年以上前である。
-その時には、次の組み合わせを利用していた。
+1.  `kunten2e.sty`: The style file for *kunten* materials.
+2.  `mojikyo.sty`: For using Mojikyo fonts.
 
-1. 訓点資料用スタイル・ファイル kunten2e.sty
-2. 今昔文字鏡 mojikyo.sty
+It would be convenient if LaTeX document files written with these two could be made usable with only minor revisions. In other words, easy reuse of older LaTeX document files is preferable.
 
-この二つで書いたLaTeXの文書ファイルを
-若干の手直しをすることで使えるようにすると
-便利である。
-つまり、古いLaTeXの文書ファイルの再利用が簡単な
-方がいい。
+Migrating from `kunten2e.sty` to `sfkanbun.sty` appears to be relatively straightforward.
 
-kunten2e.styからsfkanbun.styへの移行は
-割に簡単そうである。
+While `mojikyo.sty` was useful when Unicode **`Hanzi (Chinese characters)`** could not be freely used, it is no longer necessary now that Unicode **`Hanzi (Chinese characters)`** can be input and processed directly.
 
-mojikyo.styは、Unicodeの漢字が自由に使えない
-時は便利であったが、現在は、Unicodeの漢字を
-そのまま入力・処理できるので、使う必要はない。
+The approach would be to enable the use of Hanazono Mincho fonts and then utilize `bxglyphwiki.sty`, which is compatible with LuaLaTeX, for GlyphWiki integration.
 
-花園明朝を使えるようにして、
-GlypWikiをLuaLaTeXに対応した
-bxglypwiki.styを使えばよいだろう。
-
+- [Setting up Hanazono Mincho](./06-typesetting/06-01-hanazono-mincho/)
+- [Setting up GlyphWiki](./06-typesetting/06-02-glyphwiki/)
+- [Setting up sfkanbun.sty](./06-typesetting/06-03-sfkanbun-sty/)
+- [A Memorandum on LuaTeX Typesetting for Old Dictionaries and Kunten Materials](./06-typesetting/06-04-vscode-texlive/)
+- [Online Tools](./06-typesetting/06-05-online-tools/)

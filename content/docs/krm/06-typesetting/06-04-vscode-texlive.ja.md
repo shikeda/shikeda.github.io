@@ -1,25 +1,169 @@
 ---
-title: "VS CodeとTeX Live"
+title: "古辞書・訓点資料のためのLuaTeX組版備忘録"
 weight: 34
 ---
 
-## VS CodeとTeX Live
+# 古辞書・訓点資料のためのLuaTeX組版備忘録
 
-VS Code (Visual Studio Code) はMicrosoftが
-開発しているWindows、Linux、macOS、web用のソースコードエディタである。
+この文書は、LuaTeX (TeX Live, VS Code推奨) 環境で、花園明朝、GlyphWiki、および `sfkanbun.sty` (またはLuaTeX対応化した `kunten2e.sty`) を用いて古辞書や訓点資料の翻刻・注釈を組版するための設定方法を解説する備忘録です。
 
-まずは、toyjack'blogoの
-[vscodeでlualatex](https://toyjack.net/2022/04/06/lualatex-with-vscode/)
-を参照する。
 
-ポイントは次の2点。
+まず、VS Code での **LuaLaTeX 環境設定の要点**（latexmk, LaTeX Workshop）と、日本語組版に関する多数のオンライン参考資料を紹介する。
+
+
+次に、**`jlreq` ドキュメントクラスを利用した組版設定**について詳述する。『訓点語と訓点資料』のスタイルを参考に、基本版面設定（A4縦書き2段組、マージン、フォントサイズ等）、論文題目・著者名のカスタムレイアウト、後注の表示方法、`natbib.sty` を用いた日本語参考文献リスト（五十音順ソート対応）の作成手順を説明する。
+
+最後に、**翻刻本文の具体的な作成方法**として、`luatexja-fontspec` による花園明朝・IPAexMinchoのフォント設定、`bxglyphwiki.sty` によるGlyphWikiの利用設定を提示する。さらに、藤田眞作氏の `sfkanbun.sty` をLuaLaTeXに対応させた `sfkanbun-lua.sty` の利用法や、`kunten2e.sty` のマクロ (`\sougyou`, `\hukusougyou`) との互換性を保つためのコマンド再定義、`\kundoku` コマンドの使用例と組版結果を示す。また、過去の資産である `kunten2e.sty` をLuaLaTeXで利用するための修正点にも触れる。
+
+## LuaLaTeX 環境設定の要点
+
+VS Code (Visual Studio Code) は Microsoft が提供する無料の高機能なコードエディタで、様々な言語や拡張機能に対応している。Windows、MacOS、Linuxのいずれでも利用できる。
+
+
+ポイントは次の2点である。
 
 1. latexmkを利用するため.latexmkrcを設定。
 2. VS Codeのプラグイン（LaTeX Workshop）とsettings.jsonの設定。
 
-## LaTeX、LuaLaTeXの日本語組版の参考記事
 
-参考になりそうな記事やテンプレートがあるサイト。
+以前は、toyjack'blogoに「vscodeでlualatex」という記事があったが現在はリンク切れなので、
+私の設定を次に貼り付けておく。
+
+まず、`.latexmkrc`の中身は次のとおりである。
+
+```text
+#!/usr/bin/env perl
+
+@default_files    = ('main.tex');
+$aux_dir          = "build/";
+$out_dir          = "build/";
+
+
+# $lualatex = 'lualatex -shell-escape -synctex=1 -interaction=nonstopmode %O %S';
+$lualatex = 'lualatex -shell-escape -synctex=1 -interaction=nonstopmode';
+$pdflualatex  = $lualatex;
+$biber = 'biber %O --bblencoding=utf8 -u -U --output_safechars %B';
+$bibtex = 'upbibtex %O %B';
+$pdf_mode = 4;
+
+$max_repeat   = 1;
+
+# uplatex settings
+# $latex = 'uplatex %O -shell-escape -kanji=utf8 -no-guess-input-enc -synctex=1 -interaction=nonstopmode %S';
+# $pdflatex = 'pdflatex %O -synctex=1 -interaction=nonstopmode %S';
+# $lualatex = 'lualatex %O -synctex=1 -interaction=nonstopmode %S';
+# $xelatex = 'xelatex %O -synctex=1 -interaction=nonstopmode %S';
+# $biber = 'biber %O --bblencoding=utf8 -u -U --output_safechars %B';
+# $bibtex = 'upbibtex %O %B';
+# $makeindex = 'upmendex %O -o %D %S';
+# $dvipdf = 'dvipdfmx %O -o %D %S';
+# $dvips = 'dvips %O -z -f %S | convbkmk -u > %D';
+# $ps2pdf = 'ps2pdf.exe %O %S %D';
+# $pdf_mode = 3;
+```
+
+`$max_repeat` は、最大何回コンパイルするかを指定するもの。ここは1回にしている。
+その他のオプションの説明は省略。
+
+`settings.json` の中身は次のようである。
+
+```
+{
+    //    "editor.fontSize": 18,
+    //    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    //    "latex-workshop.view.pdf.viewer": "external",
+    //    "latex-workshop.latex.outDir": "out",//出力フォルダです
+        "latex-workshop.intellisense.package.enabled": true, //自動補完です
+    
+        //    不要なファイルの削除
+        "latex-workshop.latex.autoClean.run": "onBuilt",
+        //    保存時コンパイルを無効
+        "latex-workshop.latex.autoBuild.run": "never",
+    
+    //自動削除するキャシューファイルの種類です
+        "latex-workshop.latex.clean.fileTypes": [
+            "*.aux",
+            "*.bbl",
+            "*.blg",
+            "*.idx",
+            "*.ind",
+            "*.lof",
+            "*.lot",
+            "*.out",
+            "*.toc",
+            "*.acn",
+            "*.acr",
+            "*.alg",
+            "*.glg",
+            "*.glo",
+            "*.gls",
+            "*.ist",
+            "*.fls",
+            "*.log",
+            "*.fdb_latexmk",
+            "*.snm",
+            "*.nav",
+            "*.dvi",
+            "*.synctex.gz",
+        ],
+    //ここからコンパイル関係です。絶対このままにしてください。
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk",
+            "tools": [
+                "latexmk"
+            ]
+        },
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-e",
+                "$latex=q/uplatex %O -synctex=1 -interaction=nonstopmode -file-line-error %S/",
+                "-e",
+                "$bibtex=q/upbibtex %O %B/",
+                "-e",
+                "$biber=q/biber %O --bblencoding=utf8 -u -U --output_safechars %B/",
+                "-e",
+                "$makeindex=q/upmendex %O -o %D %S/",
+                "-e",
+                "$dvipdf=q/dvipdfmx %O -o %D %S/",
+                "-norc",
+                "-gg",
+                "-pdfdvi",
+             "%DOC%"
+                ],
+        },
+        ],
+        
+    //ここまではコンパイル関係です。次はできたPDFをどこにプレビューするオプションです。
+    "latex-workshop.view.pdf.viewer": "tab",
+    "workbench.preferredHighContrastColorTheme": "Default Dark+",
+    "workbench.preferredHighContrastLightColorTheme": "Default Dark+",
+    "workbench.preferredLightColorTheme": "Default Dark+",
+    "window.autoDetectColorScheme": true,
+    "editor.accessibilitySupport": "off",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.largeFileOptimizations": false,
+    "window.zoomLevel": 1,
+    "vsicons.dontShowNewVersionMessage": true,
+    "settingsSync.ignoredExtensions": [],
+    "remote.autoForwardPortsSource": "hybrid",
+    "hediet.vscode-drawio.resizeImages": null,
+    "hediet.vscode-drawio.offline": false,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    
+}
+```
+
+**LaTeX、LuaLaTeXの日本語組版の参考記事**
+
+次に参考にした記事やテンプレートがあるサイトを紹介しておく。
+残念ながら訓点資料用の各種スタイルファイルを公開していた
+「金水敏 TeX のページ」は現在リンク切れとなっている。
 
 - [私家版日本語 LaTeX テンプレート（2017年5月版）](https://id.fnshr.info/2017/05/20/my-latex-templates-201705/)  jlreq ドキュメントクラス
 - [LuaLaTeXで日本語文書を作成する際のヒントや気になったこと](https://lualatexlab.blog.fc2.com/blog-entry-62.html)  【基本】LuaLaTeXで縦書きする
@@ -29,19 +173,18 @@ VS Code (Visual Studio Code) はMicrosoftが
 - [jlreq](https://www.tug.org/texlive//Contents/live/texmf-dist/doc/latex/jlreq/jlreq-ja.html)
 - [jlreq sample](https://github.com/zr-tex8r/latex-jlreq-sample)
 - [adbird（広告鳥） 備忘録](https://adbird.hatenablog.com/archive/category/LaTeX)
-- [金水敏 TeX のページ](http://www.let.osaka-u.ac.jp/~kinsui/tex/top.htm)
-- [『訓点語と訓点資料』用スタイル・ファイル](http://www.let.osaka-u.ac.jp/~kinsui/tex/hokok98/1213c/c.html)
+- [金水敏 TeX のページ](http://www.let.osaka-u.ac.jp/~kinsui/tex/top.htm) **リンク切れ（2025年5月29日確認）**
 - [TeX Part3 文字・記号・数式、その他](http://xyoshiki.web.fc2.com/texindex3.html)
-- [Cloud LaTeXで小説同人誌](https://note.com/h_rio/n/n4bd9ca33dafb]) jlreqによるA5判縦書き2段組のテンプレートあり
 
 
-## jlreqのテンプレート
 
-訓点語学会の機関誌『訓点語と訓点資料』のスタイル・ファイルは上記した
-[『訓点語と訓点資料』用スタイル・ファイル](http://www.let.osaka-u.ac.jp/~kinsui/tex/hokok98/1213c/c.html)のkunj2e11.styが参考になる。
+## `jlreq` ドキュメントクラスを利用した組版設定
+
+訓点語学会の機関誌『訓点語と訓点資料』のスタイル・ファイルは「金水敏 TeX のページ」で公開していた
+『訓点語と訓点資料』用スタイル・ファイル（kunj2e11.sty）が参考になる。
 その仕様は次にようになっている。
 
-1. ページのレイアウト
+1. ページのレイアウト（基本版面）
 2. 論文題目・著者名の設定（\title、\author、\maketitle）
 3. 注番号表示（\chuu）
 4. 論文末注釈一覧形式（chuulist 環境）
@@ -66,9 +209,11 @@ VS Code (Visual Studio Code) はMicrosoftが
 まず、documentclassで基本版面を設定する。
 
 これは『訓点語と訓点資料』スタイル・ファイル（kunj2e11.sty）の仕様
-
+と
 高山寺典籍文書綜合調査団の『研究報告論集』の仕様をベースにして
 みる。
+
+後者の仕様は次のとおりである。
 
 - Ａ４判　マージン上端・下端・左端・右端とも各２４ｍｍ
 - 題目・氏名段抜き(一段組) ５行取り　題目１８ポ　著者氏名１４ポ
@@ -76,7 +221,7 @@ VS Code (Visual Studio Code) はMicrosoftが
 
 実際の設定。
 
-~~~tex
+~~~
 \documentclass[
 lualatex,                   % lualatexを使う
 report,                     % デフォルトは横書きのarticle相当
@@ -131,7 +276,6 @@ hanging_punctuation]             % ぶら下げ、組み方
 著者氏名14ptは \Largeと同じになる。
 
 
-
 『訓点語と訓点資料』スタイル・ファイル（kunj2e11.sty）の仕様とすると、
 本文11pt、
 論文題目は\Hugeで20pt、
@@ -140,7 +284,7 @@ hanging_punctuation]             % ぶら下げ、組み方
 
 とりあえず、kunj2e11.styに近い設定として、次のようにしてみた。
 
-~~~tex
+~~~
 \makeatletter
 \def\@maketitle{
     \vspace{1.5\zw}
@@ -169,7 +313,7 @@ jlreqには、注の形式が複数用意されている。
 
 \jlreqsetupにendnote_positionを渡すことで制御できる。
 
-~~~tex
+~~~
 \jlreqsetup{
 endnote_position={_chapter,_section}
 }
@@ -203,7 +347,7 @@ endnote_position={_chapter,_section}とすると、
 
 プリアンブルに次を記載してnatbib.styを読み込む。
 
-~~~tex
+~~~
 % bibtexで参考文献を作成する場合に必要
 \usepackage{natbib}
 ~~~
@@ -212,7 +356,7 @@ endnote_position={_chapter,_section}とすると、
 その時は、次のように明示的に指定すればよい。
 文書クラスのreportを仕様しているので、bibnameを指定している。
 
-~~~tex
+~~~
 % bibtexで参考文献を作成する場合に必要
 \usepackage{natbib}
 %\renewcommand{\refname}{参考文献} % 論文型クラスの場合
@@ -224,7 +368,7 @@ endnote_position={_chapter,_section}とすると、
 \end{document}の前あたりで、使用する論文のstyleと
 論文一覧のbibファイルを指定する。
 
-~~~tex
+~~~
 \bibliographystyle{tate} % 論文のスタイル・ファイル
 \bibliography{tate}      % 使用するbibファイル
 ~~~
@@ -240,7 +384,7 @@ jecon.bstは、経済学用のBibTeXスタイル・ファイルである。
 
 bibファイルは、次のような形式のファイルである。
 
-~~~tex
+~~~
 @article{池田証寿1995図書寮本類聚名義抄と類音決,
 author = {池田, 証寿},
 title = {図書寮本類聚名義抄と類音決},
@@ -281,13 +425,13 @@ jecon.bstではyomiのフィールドがあって、これをキーにして
 （注）や〈注〉などの見出しは、適宜付け加え、
 行間も\vspace{}で調整する。
 
-## 翻刻本文の作成
+## 翻刻本文の具体的な作成方法
 
 ### 花園明朝とグリフウィキ
 
 花園明朝が使えるように設定。
 
-~~~tex
+~~~
 \usepackage{luatexja-fontspec}
 % BMPはHanaMinA, SIPはHanaMinB, ただし可能ならIPAexMincho
 % で置き換える, という設定
@@ -300,7 +444,7 @@ jecon.bstではyomiのフィールドがあって、これをキーにして
 
 グリフウィキが使えるように設定。
 
-~~~tex
+~~~
 % グリフウィキを使うのにも必要
 \usepackage[luatex]{graphicx}
 
@@ -321,7 +465,9 @@ bxglyphwiki.styは他のスタイル・ファイルと相性が
 
 [TeX/LaTeX Applications by Shinsaku Fujita](http://xymtex.com/fujitas2/texlatex/index.html)の「縦組パッケージファイル」から入手する。
 
-そのままではLuaLaTeXで使えないので、[Re: LuaLaTeXで漢文の訓点を使いたい](https://oku.edu.mie-u.ac.jp/tex/mod/forum/discuss.php?d=2655&parent=15518)を参考にして手を加える。
+そのままではLuaLaTeXで使えないので、[Re: LuaLaTeXで漢文の訓点を使いたい](https://oku.edu.mie-u.ac.jp/tex/mod/forum/discuss.php?d=2655&parent=15518)（**リンク切れ**）を参考にして手を加えた。
+sfkanbun-lua.styにリネームしたものを
+[https://github.com/shikeda/rose](https://github.com/shikeda/rose)においてある。
 
 また、\nointerlineskipの前に\parを追加しておいたほうがよさそうである。
 
@@ -343,7 +489,7 @@ kunten2e.styの
 \hukusougyou（複双行）は\fukutagyobox（複多行割）
 が使えるように設定する。
 
-~~~tex
+~~~
 \usepackage{sfkanbun-lua}
 % 多行割（kunten2e.styのsougyouに対応させる）
 % 文字の大きさ\scriptsize(可変)
@@ -355,7 +501,7 @@ kunten2e.styの
 
 次は入力例。
 
-~~~tex
+~~~
 新字鏡云醍𨟾\sougyou{同勅礼反}{平下酒也}醐餬\sougyou{同侯孤}{反䬫餬□}\\
 	玉篇云醍\sougyou{他禮切酒紅色}{又音提　} 醐 \sougyou{戸吾切}{醍醐也} 䣫𨟾 \sougyou{上音离下}{音秖乳腐}\\
 ~~~
@@ -363,7 +509,7 @@ kunten2e.styの
 [漢文の訓点文の組版](http://xymtex.com/fujitas/kanbun/kanbunex.html)から、
 藤田眞作氏のサンプルを少しご覧に入れる。
 
-~~~tex
+~~~
 顔淵・季路\kundoku{侍}{}{ス}{}(。)
 子\kundoku{曰}{}{ハク}{}(、)
 \kundoku{盍}{なん}{ゾ}{三}<ルト>
@@ -374,13 +520,15 @@ kunten2e.styの
 
 書式は次のとおり。
 
-    \kundoku[制御]{親文字}{ルビ}{送りがな}{返り点}[肩返り点](句読点)
+```
+\kundoku[制御]{親文字}{ルビ}{送りがな}{返り点}[肩返り点](句読点)
+```
 
 これでかなりのことができそうである。
 
 次はその例である。
 
-~~~tex
+~~~
 {\large 後} \tagyobox{\vspace{0.5\zw}
     \kundoku{后}{＼}{}{}六 \\ \vspace{0.5\zw} 
     \kundoku{ノ}{＼}{}{}チ　

@@ -12,28 +12,28 @@
       <link>https://shikeda.github.io/docs/krm/06-typesetting/06-01-hanazono-mincho/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://shikeda.github.io/docs/krm/06-typesetting/06-01-hanazono-mincho/</guid>
-      <description>&lt;h2 id=&#34;前提&#34;&gt;&#xA;  前提&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%89%8d%e6%8f%90&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://texwiki.texjp.org/?TeX%20Live&#34;&gt;TeX Live&lt;/a&gt;が使えるように設定しておく。&lt;/p&gt;&#xA;&lt;h2 id=&#34;花園明朝の設定&#34;&gt;&#xA;  花園明朝の設定&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e8%8a%b1%e5%9c%92%e6%98%8e%e6%9c%9d%e3%81%ae%e8%a8%ad%e5%ae%9a&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;花園フォント&#34;&gt;&#xA;  花園フォント&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e8%8a%b1%e5%9c%92%e3%83%95%e3%82%a9%e3%83%b3%e3%83%88&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://fonts.jp/hanazono/&#34;&gt;花園明朝のフォント&lt;/a&gt;をパソコンにインストールしておく。&lt;/p&gt;&#xA;&lt;h3 id=&#34;ブラウザでの確認&#34;&gt;&#xA;  ブラウザでの確認&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e3%83%96%e3%83%a9%e3%82%a6%e3%82%b6%e3%81%a7%e3%81%ae%e7%a2%ba%e8%aa%8d&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;たとえば、&#xA;Chromeで&#xA;&lt;a href=&#34;https://ctext.org/dictionary.pl?if=en&amp;amp;rad=1&#34;&gt;ctext.orgのDictionaryの一部のページ&lt;/a&gt;&#xA;を見てください。&lt;/p&gt;&#xA;&lt;p&gt;漢字の一覧が表示されているかを確認。&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;花園明朝の設定&#34;&gt;&#xA;  花園明朝の設定&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e8%8a%b1%e5%9c%92%e6%98%8e%e6%9c%9d%e3%81%ae%e8%a8%ad%e5%ae%9a&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;前提&#34;&gt;&#xA;  前提&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%89%8d%e6%8f%90&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://texwiki.texjp.org/?TeX%20Live&#34;&gt;TeX Live&lt;/a&gt;が使えるように設定しておく。&lt;/p&gt;&#xA;&lt;h2 id=&#34;花園フォント&#34;&gt;&#xA;  花園フォント&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e8%8a%b1%e5%9c%92%e3%83%95%e3%82%a9%e3%83%b3%e3%83%88&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://fonts.jp/hanazono/&#34;&gt;花園明朝のフォント&lt;/a&gt;をパソコンにインストールしておく。&lt;/p&gt;&#xA;&lt;h2 id=&#34;ブラウザでの確認&#34;&gt;&#xA;  ブラウザでの確認&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e3%83%96%e3%83%a9%e3%82%a6%e3%82%b6%e3%81%a7%e3%81%ae%e7%a2%ba%e8%aa%8d&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;たとえば、&#xA;Chromeで&#xA;&lt;a href=&#34;https://ctext.org/dictionary.pl?if=en&amp;amp;rad=1&#34;&gt;ctext.orgのDictionaryの一部のページ&lt;/a&gt;&#xA;を見てください。&lt;/p&gt;&#xA;&lt;p&gt;漢字の一覧が表示されているかを確認。&lt;/p&gt;</description>
     </item>
     <item>
       <title>GlyphWikiの設定</title>
       <link>https://shikeda.github.io/docs/krm/06-typesetting/06-02-glypwiki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://shikeda.github.io/docs/krm/06-typesetting/06-02-glypwiki/</guid>
-      <description>&lt;h2 id=&#34;glyphwikiの設定&#34;&gt;&#xA;  GlyphWikiの設定&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#glyphwiki%e3%81%ae%e8%a8%ad%e5%ae%9a&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;bxglyphwiki-パッケージバンドル&#34;&gt;&#xA;  BXglyphwiki パッケージバンドル&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#bxglyphwiki-%e3%83%91%e3%83%83%e3%82%b1%e3%83%bc%e3%82%b8%e3%83%90%e3%83%b3%e3%83%89%e3%83%ab&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;花園フォントをLuaLaTeXで使うには、&#xA;&lt;a href=&#34;https://github.com/zr-tex8r/BXglyphwiki&#34;&gt;BXglyphwiki パッケージバンドル&lt;/a&gt;を参考にする。&lt;/p&gt;&#xA;&lt;p&gt;toyjackによる&lt;a href=&#34;https://github.com/toyjack/template_lualatex_wikiglyphwiki&#34;&gt;テンプレートファイル&lt;/a&gt;が出ている。&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;glyphwikiの設定&#34;&gt;&#xA;  GlyphWikiの設定&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#glyphwiki%e3%81%ae%e8%a8%ad%e5%ae%9a&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;bxglyphwiki-パッケージバンドル&#34;&gt;&#xA;  BXglyphwiki パッケージバンドル&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#bxglyphwiki-%e3%83%91%e3%83%83%e3%82%b1%e3%83%bc%e3%82%b8%e3%83%90%e3%83%b3%e3%83%89%e3%83%ab&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;花園フォントをLuaLaTeXで使うには、&#xA;&lt;a href=&#34;https://github.com/zr-tex8r/BXglyphwiki&#34;&gt;BXglyphwiki パッケージバンドル&lt;/a&gt;を参考にする。&lt;/p&gt;&#xA;&lt;p&gt;toyjackによる&lt;a href=&#34;https://github.com/toyjack/template_lualatex_wikiglyphwiki&#34;&gt;テンプレートファイル&lt;/a&gt;が出ている。&lt;/p&gt;</description>
     </item>
     <item>
       <title>sfkanbun.styの設定</title>
       <link>https://shikeda.github.io/docs/krm/06-typesetting/06-03-sfkanbun-sty/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://shikeda.github.io/docs/krm/06-typesetting/06-03-sfkanbun-sty/</guid>
-      <description>&lt;h2 id=&#34;sfkanbunstyの設定&#34;&gt;&#xA;  sfkanbun.styの設定&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#sfkanbunsty%e3%81%ae%e8%a8%ad%e5%ae%9a&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;訓点資料用スタイル・ファイル（kunten2e.sty）は、&#xA;upLaTeXであれば使えるが、&#xA;LuaLaTeXで使えない。このスタイル・ファイルで&#xA;作成した文書ファイルもある。&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;sfkanbunstyの設定&#34;&gt;&#xA;  sfkanbun.styの設定&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#sfkanbunsty%e3%81%ae%e8%a8%ad%e5%ae%9a&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;訓点資料用スタイル・ファイル（kunten2e.sty）は、&#xA;upLaTeXであれば使えるが、&#xA;LuaLaTeXで使えない。このスタイル・ファイルで&#xA;作成した文書ファイルもある。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>VS CodeとTeX Live</title>
+      <title>古辞書・訓点資料のためのLuaTeX組版備忘録</title>
       <link>https://shikeda.github.io/docs/krm/06-typesetting/06-04-vscode-texlive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://shikeda.github.io/docs/krm/06-typesetting/06-04-vscode-texlive/</guid>
-      <description>&lt;h2 id=&#34;vs-codeとtex-live&#34;&gt;&#xA;  VS CodeとTeX Live&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#vs-code%e3%81%a8tex-live&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;VS Code (Visual Studio Code) はMicrosoftが&#xA;開発しているWindows、Linux、macOS、web用のソースコードエディタである。&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;古辞書訓点資料のためのluatex組版備忘録&#34;&gt;&#xA;  古辞書・訓点資料のためのLuaTeX組版備忘録&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e5%8f%a4%e8%be%9e%e6%9b%b8%e8%a8%93%e7%82%b9%e8%b3%87%e6%96%99%e3%81%ae%e3%81%9f%e3%82%81%e3%81%aeluatex%e7%b5%84%e7%89%88%e5%82%99%e5%bf%98%e9%8c%b2&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;この文書は、LuaTeX (TeX Live, VS Code推奨) 環境で、花園明朝、GlyphWiki、および &lt;code&gt;sfkanbun.sty&lt;/code&gt; (またはLuaTeX対応化した &lt;code&gt;kunten2e.sty&lt;/code&gt;) を用いて古辞書や訓点資料の翻刻・注釈を組版するための設定方法を解説する備忘録です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>オンラインツール</title>

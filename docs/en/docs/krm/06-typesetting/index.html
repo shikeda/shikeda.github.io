@@ -3,36 +3,31 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Under preparation.
-
-  翻刻・注釈の組版の設定
+<meta name="description" content="
+  Typesetting Configuration for Transcriptions and Annotations
   #
 
 
-  はじめに
+  Introduction
   #
 
-LuaTeX &#43; 花園明朝 &#43; GlyphWiki &#43; sfkanbun.sty
-の環境で古辞書の翻刻と注釈の組版を行う方法をまとめる。
-LuaTeXはTeX Live、エディターはVS Codeを
-使うことを推奨する。TeX LiveとVS Codeのインストールから
-使い方までは、Webに多数出ているので、省略する。">
+This document outlines methods for typesetting transcriptions and annotations of old dictionaries using an environment comprising LuaTeX, Hanazono Mincho fonts, GlyphWiki, and the sfkanbun.sty package.
+It is recommended to use LuaTeX via TeX Live and VS Code as the editor. Instructions for installing and using TeX Live and VS Code are widely available on the web and will be omitted here.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://shikeda.github.io/en/docs/krm/06-typesetting/">
   <meta property="og:site_name" content="HDIC project">
-  <meta property="og:title" content="翻刻・注釈の組版の設定">
-  <meta property="og:description" content="Under preparation.
-翻刻・注釈の組版の設定 # はじめに # LuaTeX &#43; 花園明朝 &#43; GlyphWiki &#43; sfkanbun.sty の環境で古辞書の翻刻と注釈の組版を行う方法をまとめる。
-LuaTeXはTeX Live、エディターはVS Codeを 使うことを推奨する。TeX LiveとVS Codeのインストールから 使い方までは、Webに多数出ているので、省略する。">
+  <meta property="og:title" content="Typesetting Configuration for Transcriptions and Annotations">
+  <meta property="og:description" content="Typesetting Configuration for Transcriptions and Annotations # Introduction # This document outlines methods for typesetting transcriptions and annotations of old dictionaries using an environment comprising LuaTeX, Hanazono Mincho fonts, GlyphWiki, and the sfkanbun.sty package.
+It is recommended to use LuaTeX via TeX Live and VS Code as the editor. Instructions for installing and using TeX Live and VS Code are widely available on the web and will be omitted here.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
-<title>翻刻・注釈の組版の設定 | HDIC project</title>
+<title>Typesetting Configuration for Transcriptions and Annotations | HDIC project</title>
 <link rel="manifest" href="https://shikeda.github.io/manifest.json">
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
   <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/06-typesetting/" title="翻刻・注釈の組版の設定">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.2eb9261045046b5a62a3b05a0d42dc83843b245d6ee2833aae5e96f3ec26c703.css" integrity="sha256-LrkmEEUEa1pio7BaDULcg4Q7JF1u4oM6rl6W8&#43;wmxwM=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/en.search.min.3b465d927960b2c169ed060b04ad26918a1227faf88ad3d8ee924aa1c199056d.js" integrity="sha256-O0ZdknlgssFp7QYLBK0mkYoSJ/r4itPY7pJKocGZBW0=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.99b9389b0d204453ce0040fe1dc30646b8ea767825282fa0d93e8fcf662941ae.js" integrity="sha256-mbk4mw0gRFPOAED&#43;HcMGRrjqdnglKC&#43;g2T6Pz2YpQa4=" crossorigin="anonymous"></script>
 <link rel="alternate" type="application/rss+xml" href="https://shikeda.github.io/en/docs/krm/06-typesetting/index.xml" title="HDIC project" />
 <!--
 Made with Book Theme
@@ -527,7 +522,7 @@ https://github.com/alex-shpak/hugo-book
   
     <input type="checkbox" id="section-8f36bd55eb0bd85ca8e0efcd3f2704d0" class="toggle" checked />
     <label for="section-8f36bd55eb0bd85ca8e0efcd3f2704d0" class="flex justify-between">
-      <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/" class="active">翻刻・注釈の組版の設定</a>
+      <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/" class="active">Typesetting Configuration for Transcriptions and Annotations</a>
     </label>
   
 
@@ -541,7 +536,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-01-hanazono-mincho/" class="">花園明朝の設定</a>
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-01-hanazono-mincho/" class="">Setting up Hanazono Mincho</a>
   
 
         </li>
@@ -554,7 +549,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-02-glypwiki/" class="">GlyphWikiの設定</a>
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-02-glypwiki/" class="">Setting up GlyphWiki</a>
   
 
         </li>
@@ -567,7 +562,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-03-sfkanbun-sty/" class="">sfkanbun.styの設定</a>
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-03-sfkanbun-sty/" class="">Setting up sfkanbun.sty</a>
   
 
         </li>
@@ -580,7 +575,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-04-vscode-texlive/" class="">VS CodeとTeX Live</a>
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-04-vscode-texlive/" class="">A Memorandum on LuaTeX Typesetting for Old Dictionaries and Kunten Materials</a>
   
 
         </li>
@@ -593,7 +588,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-05-online-tools/" class="">オンラインツール</a>
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-05-online-tools/" class="">Online Tools</a>
   
 
         </li>
@@ -656,7 +651,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="https://shikeda.github.io/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>翻刻・注釈の組版の設定</strong>
+  <strong>Typesetting Configuration for Transcriptions and Annotations</strong>
 
   <label for="toc-control">
     
@@ -672,9 +667,9 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#はじめに">はじめに</a></li>
-    <li><a href="#翻刻注釈の組版">翻刻・注釈の組版</a></li>
-    <li><a href="#組版ソフトの条件">組版ソフトの条件</a></li>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#typesetting-transcriptions-and-annotations">Typesetting Transcriptions and Annotations</a></li>
+    <li><a href="#requirements-for-typesetting-software">Requirements for Typesetting Software</a></li>
   </ul>
 </nav>
 
@@ -687,80 +682,57 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><p>Under preparation.</p>
-<h1 id="翻刻注釈の組版の設定">
-  翻刻・注釈の組版の設定
-  <a class="anchor" href="#%e7%bf%bb%e5%88%bb%e6%b3%a8%e9%87%88%e3%81%ae%e7%b5%84%e7%89%88%e3%81%ae%e8%a8%ad%e5%ae%9a">#</a>
+  <article class="markdown"><h1 id="typesetting-configuration-for-transcriptions-and-annotations">
+  Typesetting Configuration for Transcriptions and Annotations
+  <a class="anchor" href="#typesetting-configuration-for-transcriptions-and-annotations">#</a>
 </h1>
-<h2 id="はじめに">
-  はじめに
-  <a class="anchor" href="#%e3%81%af%e3%81%98%e3%82%81%e3%81%ab">#</a>
+<h2 id="introduction">
+  Introduction
+  <a class="anchor" href="#introduction">#</a>
 </h2>
-<p>LuaTeX + 花園明朝 + GlyphWiki + sfkanbun.sty
-の環境で古辞書の翻刻と注釈の組版を行う方法をまとめる。</p>
-<p>LuaTeXはTeX Live、エディターはVS Codeを
-使うことを推奨する。TeX LiveとVS Codeのインストールから
-使い方までは、Webに多数出ているので、省略する。</p>
-<h2 id="翻刻注釈の組版">
-  翻刻・注釈の組版
-  <a class="anchor" href="#%e7%bf%bb%e5%88%bb%e6%b3%a8%e9%87%88%e3%81%ae%e7%b5%84%e7%89%88">#</a>
+<p>This document outlines methods for typesetting transcriptions and annotations of old dictionaries using an environment comprising LuaTeX, Hanazono Mincho fonts, GlyphWiki, and the <code>sfkanbun.sty</code> package.</p>
+<p>It is recommended to use LuaTeX via TeX Live and VS Code as the editor. Instructions for installing and using TeX Live and VS Code are widely available on the web and will be omitted here.</p>
+<h2 id="typesetting-transcriptions-and-annotations">
+  Typesetting Transcriptions and Annotations
+  <a class="anchor" href="#typesetting-transcriptions-and-annotations">#</a>
 </h2>
-<p>作成した翻刻と注釈は、Webで表示したり、
-検索したりすことができる。</p>
-<p>それとは別にWebの内容を著作の形で見やすく組版する
-方法を検討する。</p>
-<p>Webのコンテンツは、マークダウンで書いてあるので、
-これを適切なフォーマットに変換することで対応する。</p>
-<p>ここではLuaLaTeXを使った方法について、備忘録として
-記載しておく。</p>
-<h2 id="組版ソフトの条件">
-  組版ソフトの条件
-  <a class="anchor" href="#%e7%b5%84%e7%89%88%e3%82%bd%e3%83%95%e3%83%88%e3%81%ae%e6%9d%a1%e4%bb%b6">#</a>
+<p>The transcriptions and annotations that have been created can be displayed and searched on the web.</p>
+<p>Separately from this, we will consider methods for typesetting the web content into a more readable, book-like format.</p>
+<p>Since the web content is written in Markdown, this can be addressed by converting it to an appropriate format.</p>
+<p>This section serves as a memorandum on a method using LuaLaTeX.</p>
+<h2 id="requirements-for-typesetting-software">
+  Requirements for Typesetting Software
+  <a class="anchor" href="#requirements-for-typesetting-software">#</a>
 </h2>
-<p>古辞書や訓点資料は、難しい漢字が多く、
-割注、傍訓など本文が複雑である。</p>
-<p>難字の表示・印刷は、次の二つを
-簡単に使えるのが条件となる</p>
+<p>Old dictionaries and <em>kunten</em> materials (訓点資料, documents annotated with guiding marks for reading Chinese texts in Japanese) often contain many complex <strong><code>Hanzi (Chinese characters)</code></strong>, and their texts, including features like <strong><code>Interlinear Notes</code></strong> (割注, <em>warichū</em>) and side-line <em>kun</em> readings (傍訓, <em>bōkun</em>), can be intricate.</p>
+<p>For displaying and printing rare or complex characters, it is essential to be able to easily use the following two resources:</p>
 <ol>
-<li>花園明朝</li>
-<li>GlypWiki</li>
+<li>Hanazono Mincho (花園明朝) fonts</li>
+<li>GlyphWiki</li>
 </ol>
-<p>この二つを簡単に利用するには、
-LuaLaTeXがよさそうである。
-upLaTeXでも使えそうだが、
-使えるように設定するのに苦労しそうである。</p>
-<p>割注、傍訓など複雑な組版んついては、
-マクロファイルで対応する。
-いくつかのものが公表されている。</p>
+<p>To utilize both of these resources, LuaLaTeX appears to be a suitable choice. While upLaTeX might also be usable, configuring it to work with these resources seems likely to be a challenging endeavor.</p>
+<p>For complex typesetting features such as <strong><code>Interlinear Notes</code></strong> and side-line <em>kun</em> readings, macro files can be used. Several such files have been publicly released:</p>
 <ol>
-<li>訓点資料用スタイル・ファイル  kunten2e.sty</li>
-<li>sfkanbunパッケージ (漢文) sfkanbun.sty</li>
+<li><code>kunten2e.sty</code>: A style file for <em>kunten</em> materials.</li>
+<li><code>sfkanbun.sty</code>: The sfkanbun package (for Kanbun texts).</li>
 </ol>
-<p>どちらもupLaTeXで利用できる。
-しかし、LuaLaTeXではそのまま使えない。
-いろいろ調べてみると、sfkanbun.styを
-LuaLaTeXで利用できるようにファイルを書き換えれば
-よいことが分かった。書き換えはほんの僅かである。</p>
-<p>LaTeXで文書ファイルを作成していたのは、
-20年以上前である。
-その時には、次の組み合わせを利用していた。</p>
+<p>Both of these can be used with upLaTeX. However, they cannot be used directly with LuaLaTeX as is. After some investigation, it was found that <code>sfkanbun.sty</code> can be made compatible with LuaLaTeX by modifying its files slightly. The necessary modifications are minimal.</p>
+<p>It has been over 20 years since I last created document files using LaTeX. At that time, I utilized the following combination:</p>
 <ol>
-<li>訓点資料用スタイル・ファイル kunten2e.sty</li>
-<li>今昔文字鏡 mojikyo.sty</li>
+<li><code>kunten2e.sty</code>: The style file for <em>kunten</em> materials.</li>
+<li><code>mojikyo.sty</code>: For using Mojikyo fonts.</li>
 </ol>
-<p>この二つで書いたLaTeXの文書ファイルを
-若干の手直しをすることで使えるようにすると
-便利である。
-つまり、古いLaTeXの文書ファイルの再利用が簡単な
-方がいい。</p>
-<p>kunten2e.styからsfkanbun.styへの移行は
-割に簡単そうである。</p>
-<p>mojikyo.styは、Unicodeの漢字が自由に使えない
-時は便利であったが、現在は、Unicodeの漢字を
-そのまま入力・処理できるので、使う必要はない。</p>
-<p>花園明朝を使えるようにして、
-GlypWikiをLuaLaTeXに対応した
-bxglypwiki.styを使えばよいだろう。</p>
+<p>It would be convenient if LaTeX document files written with these two could be made usable with only minor revisions. In other words, easy reuse of older LaTeX document files is preferable.</p>
+<p>Migrating from <code>kunten2e.sty</code> to <code>sfkanbun.sty</code> appears to be relatively straightforward.</p>
+<p>While <code>mojikyo.sty</code> was useful when Unicode <strong><code>Hanzi (Chinese characters)</code></strong> could not be freely used, it is no longer necessary now that Unicode <strong><code>Hanzi (Chinese characters)</code></strong> can be input and processed directly.</p>
+<p>The approach would be to enable the use of Hanazono Mincho fonts and then utilize <code>bxglyphwiki.sty</code>, which is compatible with LuaLaTeX, for GlyphWiki integration.</p>
+<ul>
+<li><a href="./06-typesetting/06-01-hanazono-mincho/">Setting up Hanazono Mincho</a></li>
+<li><a href="./06-typesetting/06-02-glyphwiki/">Setting up GlyphWiki</a></li>
+<li><a href="./06-typesetting/06-03-sfkanbun-sty/">Setting up sfkanbun.sty</a></li>
+<li><a href="./06-typesetting/06-04-vscode-texlive/">A Memorandum on LuaTeX Typesetting for Old Dictionaries and Kunten Materials</a></li>
+<li><a href="./06-typesetting/06-05-online-tools/">Online Tools</a></li>
+</ul>
 </article>
  
       
@@ -797,9 +769,9 @@ bxglypwiki.styを使えばよいだろう。</p>
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#はじめに">はじめに</a></li>
-    <li><a href="#翻刻注釈の組版">翻刻・注釈の組版</a></li>
-    <li><a href="#組版ソフトの条件">組版ソフトの条件</a></li>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#typesetting-transcriptions-and-annotations">Typesetting Transcriptions and Annotations</a></li>
+    <li><a href="#requirements-for-typesetting-software">Requirements for Typesetting Software</a></li>
   </ul>
 </nav>
 

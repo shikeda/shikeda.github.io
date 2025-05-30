@@ -14,20 +14,30 @@ Under preparation.
 
 ここでは、誤字、脱字、衍字、補入、埋字、代用符号、踊り字などについて解説し、
 掲出項目数の算出を行う。
+
 ## 誤字
 
 掲出字の誤字の例をいくつかあげる。
 
+用例は、`krm_main.tsv`から必要部分を抜き出したものに、
+`krm_notes.tsv`の`rmarks`の内容を追加して示す。
+また、参照の便宜を考えて、風間版の所在を`kazama_location`として示す。
+`K0200884`は巻2（仏中）、8頁、8行、4段に出現することを示す。
+
 最初は比較的単純な例である。
 
-    kazama_entry_location   hanzi_entry   original_entry  definition remrks
-    K0200884    姡  活  今  掲出字は誤写。高山寺本・蓮成院本・西念寺本「姡」に作るにより改める。
+**例**
+- `kazama_location`: K0200884
+- `hanzi_entry`: 姡
+- `original_entry`: 活
+- `definition`: 今
+- `remrks`: 掲出字は誤写。高山寺本・蓮成院本・西念寺本「姡」に作るにより改める。
 
 この例では、女部の掲出字であり、異本に女偏の「姡」に作ることから、観智院本に誤写があることは明白である。
 
 次は、誤字かどうか判断に迷う例である。
 
-    kazama_entry_location   hanzi_entry   original_entry  definition remrks
+    kazama_location   hanzi_entry   original_entry  definition remrks
     K0104561    迷  〇  俗悉字　私逸反  掲出字は「⿺辶釆」の誤写か。
 
 この例の「迷」は「俗悉字」とあり、「悉」の「俗」体とあり、「悉」の下の「心」を「辶」のように書写することから生まれたと
@@ -46,7 +56,7 @@ GlyphWikiによれば、![𨒃](https://glyphwiki.org/glyph/u28483-g.50px.png)(�
 は[疑難字考釋與研究]に例があるとのことである。
 というわけで、この項目は次のように注記しておくのがよいであろう。
 
-    kazama_entry_location   hanzi_entry   original_entry  definition remrks
+    kazama_location   hanzi_entry   original_entry  definition remrks
     K0104561    迷  〇  俗悉字　私逸反  掲出字は「悉」の異体字「⿺辶半」が変化した字形か。
 
 ## 脱字
@@ -79,7 +89,7 @@ GlyphWikiによれば、![𨒃](https://glyphwiki.org/glyph/u28483-g.50px.png)(�
 
 注釈の一例を次に示す。
 
-    kazama_entry_location   hanzi_entry   original_entry  definition remrks
+    kazama_location   hanzi_entry   original_entry  definition remrks
     K0200663    奚／[如]    〇／〇  イカム（__L）   「如」脱字。蓮成院本「奚如」に作る。高山寺本「ー」を用いず「如」と記し、女部後半付近に記載。高山寺本が先行する例（岡田研究192頁）。
 
 ## 衍字

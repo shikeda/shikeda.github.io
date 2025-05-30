@@ -1,78 +1,52 @@
 ---
-title: "GlyphWikiの設定"
+title: "Setting up GlyphWiki"
 weight: 32
 ---
-Under preparation.
-## GlyphWikiの設定
 
-### BXglyphwiki パッケージバンドル
 
-花園フォントをLuaLaTeXで使うには、
-[BXglyphwiki パッケージバンドル](https://github.com/zr-tex8r/BXglyphwiki)を参考にする。
+# Setting up GlyphWiki
 
-toyjackによる[テンプレートファイル](https://github.com/toyjack/template_lualatex_wikiglyphwiki
-)が出ている。
+## The BXglyphwiki Package Bundle
 
-### LuaLaTeXでbxglyphwikiを使うサンプルファイル
+To use Hanazono fonts with LuaLaTeX, refer to the [BXglyphwiki package bundle](https://github.com/zr-tex8r/BXglyphwiki).
 
-次は、花園フォントに加えて、
-GlyphWikiの作字を使うサンプルファイル。
+A [template file](https://github.com/toyjack/template_lualatex_wikiglyphwiki) by toyjack is also available.
+
+## Sample File for Using bxglyphwiki with LuaLaTeX
+
+The following is a sample file that demonstrates the use of user-created characters (作字, *sakuji*) from GlyphWiki in addition to Hanazono fonts.
+
+
 
 ~~~tex
 \documentclass{jlreq}
 \usepackage{luatexja-fontspec}
-% BMPはHanaMinA, SIPはHanaMinB, ただし可能ならIPAexMincho
-% で置き換える, という設定
+% A setting where: HanaMinA is used for BMP (Basic Multilingual Plane) characters and HanaMinB is used for SIP (Supplementary Ideographic Plane) characters; however, these are to be replaced by IPAexMincho if possible.
 \setmainjfont[AltFont={
   {Range="20000-"2FFFF, Font=HanaMinB},
   {Range="0080-"FFFF, Font=IPAexMincho},
 }]{HanaMinA}
-% 花園明朝AFDKO版 2017-06-20
+% Hanazono Mincho AFDKO version 2017-06-20
 
-%%%%%%%%%%%%%%%% ここからがグリフウィキの設定
-% グリフウィキを使うのにも必要
+% Below are the GlyphWiki settings.
 \usepackage[luatex]{graphicx}
 
-% グリフウィキで登録された漢字字形を利用，lualatexで使用
+% Use Chinese character forms registered on GlyphWiki in Lualatex.
 % \GWI{zihai-021005}
-% texソース・ファイルと同じフォルダにbxglyphwiki.luaをおいておくこと
+% Place bxglyphwiki.lua in the same folder as the tex source file.
 \usepackage[luatex]{bxglyphwiki}
 
 \begin{document}
 
-これはGlyphWikiの「壽 (u58fd)」の例。
+Here's an example of "壽 (u58fd)" from GlyphWiki.
 
-(u58fd-g) (=zihai-024114)は\GWI{u58fd-g}、
-(u58fd-itaiji-009)は\GWI{u58fd-itaiji-009}、
-(u58fd-itaiji-010)は\GWI{u58fd-itaiji-010}
-と表示される。
 
+(u58fd-g) (=zihai-024114) is displayed as \GWI{u58fd-g},
+(u58fd-itaiji-009) is displayed as \GWI{u58fd-itaiji-009},
+(u58fd-itaiji-010) is displayed as \GWI{u58fd-itaiji-010}.
 
 \end{document}
 ~~~
 
-うまくできているようなら、このサンプルファイルを
-適宜加工して行く。
 
-### 注意点
-
-言語学の番号付き例文を示すのに、gb4e.styがよく
-使われている。これは、
-同時に配布されているcgloss4e.styとともに使用する。
-しかし、bxglyphwiki.styとの相性が悪い。
-
-gb4e.styの使用を取りやめて、番号付き例文は、
-enumerate環境を使う。次はその例。
-
-~~~tex
-\begin{enumerate}
-	\setcounter{enumi}{5}
-	\item　\label{ex:02-6}
-	\begin{enumerate}
-	\item 滂沲　（省略）　沱　類云正（図書寮本、水部、8頁、『類音決』を引用）\label{ex:02-6a}
-	\item 潜潛　干云上谷下正（図書寮本、水部、13頁、「干」は『干禄字書』の略称、「谷」は「俗」の略字）\label{ex:02-6b}
-	\end{enumerate}
-\end{enumerate}
-~~~
-
-この例だと、(6)(6a)(6b)のように番号を対応させることができる。
+If it works fine, then edit this sample file as needed.

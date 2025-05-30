@@ -56,7 +56,7 @@ Under preparation.
     K0101634_03	佡	呼莚反	龍龕手鏡「佡仚　許延反。輕也。二。」（巻1人部）。
     K0101641_01	⿰亻企	俗企字		
 
-最後のK0101641「⿰亻企」はUnicodeのu2cf7e(𬽾)にあるが、
+最後のK0101641「`⿰亻企`」はUnicodeのu2cf7e(𬽾)にあるが、
 環境により表示されない。GlypWikiで表示すると
 ![⿰亻企](https://glyphwiki.org/glyph/u2cf7e.50px.png)となる。
 
@@ -110,9 +110,11 @@ Under preparation.
 高麗本龍龕手鏡は「㑫」を![㑫](https://glyphwiki.org/glyph/hdic_hkrm-01016320.50px.png)に作るが、これは観智院本も同じである。
 
 K0101642「伱／你」はその前の「佡」「⿰亻企」の類似字形である。
+
 ## 同音字注
 
 同音字注は類音注ともいう。
+
 ## 仮名音注
 
 ## 声点

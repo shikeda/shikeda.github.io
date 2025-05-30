@@ -23,7 +23,7 @@
   <link rel="alternate" hreflang="en" href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-03-handling/" title="Handling Issues in Transcription, Notation, and Annotation">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.2eb9261045046b5a62a3b05a0d42dc83843b245d6ee2833aae5e96f3ec26c703.css" integrity="sha256-LrkmEEUEa1pio7BaDULcg4Q7JF1u4oM6rl6W8&#43;wmxwM=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/ja.search.min.4a9e9679d8ddbb5db50351ced6030a9de60b7326baefb7326b986dfa818ec988.js" integrity="sha256-Sp6Wedjdu121A1HO1gMKneYLcya677cya5ht&#43;oGOyYg=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/ja.search.min.d216503fa158ffd9867a4dc377b30cd9cead558e5085c7d3523904426e755718.js" integrity="sha256-0hZQP6FY/9mGek3Dd7MM2c6tVY5QhcfTUjkEQm51Vxg=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -570,7 +570,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/docs/krm/06-typesetting/06-04-vscode-texlive/" class="">VS CodeとTeX Live</a>
+    <a href="https://shikeda.github.io/docs/krm/06-typesetting/06-04-vscode-texlive/" class="">古辞書・訓点資料のためのLuaTeX組版備忘録</a>
   
 
         </li>
@@ -975,7 +975,7 @@ https://github.com/alex-shpak/hugo-book
 <p>なお、公開データ全体の構成やファイル形式の詳細については、<a href="https://shikeda.github.io/docs/notes/krm_main/contens/">公開データの概要</a>を参照されたい。</p>
 <p>注文の翻刻は、公開データ <code>krm_main</code> の <code>definition</code> カラムに記載される。
 <code>krm_notes</code> では、注文の構成要素（字体注、音注、義注、和訓、その他）に区分して <code>definition_elements</code> カラムに記載される。</p>
-<p>以下に用いる用語には、踊り字（iteration mark, 疊字符）のように日本語に加えて、英語と中国語を加えたところがある。</p>
+<p>以下に用いる用語には、踊り字（Iteration Mark, 疊字符）のように日本語に加えて、英語と中国語を加えたところがある。</p>
 <h2 id="書写上の問題">
   書写上の問題
   <a class="anchor" href="#%e6%9b%b8%e5%86%99%e4%b8%8a%e3%81%ae%e5%95%8f%e9%a1%8c">#</a>
@@ -985,7 +985,7 @@ https://github.com/alex-shpak/hugo-book
   誤字
   <a class="anchor" href="#%e8%aa%a4%e5%ad%97">#</a>
 </h3>
-<p>誤字（miswritten character, 誤字）であることが明らかな掲出字は、
+<p>誤字（Miswritten Character, 誤字）であることが明らかな掲出字は、
 校訂済みの字体を <code>hanzi_entry</code> に、原文の字体を <code>original_entry</code> に示し、
 <code>krm_notes</code> の <code>remarks</code> に校訂の根拠を示す。</p>
 <p>次に、<code>hanzi_entry</code>、<code>original_entry</code>、<code>remarks</code> の順に例示する。</p>
@@ -998,7 +998,7 @@ https://github.com/alex-shpak/hugo-book
   脱字
   <a class="anchor" href="#%e8%84%b1%e5%ad%97">#</a>
 </h3>
-<p>脱字（omitted character, 脫字）であることが明らかな掲出字は、
+<p>脱字（Omitted Character, 脫字）であることが明らかな掲出字は、
 「［］」（全角の角括弧）に入れて示す。
 説明が必要な場合には別途に記載する。</p>
 <p><strong>例</strong></p>
@@ -1273,6 +1273,10 @@ https://github.com/alex-shpak/hugo-book
 </h3>
 <p>ヲコト点の確実な例を確認していない。
 ヲコト点の確実な例が確認された場合は、平仮名により記す。</p>
+<p>次はヲコト点の例かもしれない。</p>
+<ul>
+<li><code>kazama_location</code>: K0601343, <code>hanzi_entry</code>: 玊, <code>definition</code>: 音夙（T）「シク」　又栗（T）「リク」　又欣救反　琢「ミカク」玉工也, <code>remarks</code>: 池田按：「栗」は「粟」の誤り。「玉」の朱点はヲコト点「を」か。「工也」は小字に作るが、『広韻』に「琢玉工」の義注があり、大字に翻刻した。</li>
+</ul>
 <h3 id="改行空白">
   改行・空白
   <a class="anchor" href="#%e6%94%b9%e8%a1%8c%e7%a9%ba%e7%99%bd">#</a>

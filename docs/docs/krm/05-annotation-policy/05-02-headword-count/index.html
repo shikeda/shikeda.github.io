@@ -13,13 +13,13 @@
   誤字
   #
 
-掲出字の誤字の例をいくつかあげる。">
+掲出字の誤字（Miswrittern Character）の例をいくつかあげる。">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://shikeda.github.io/docs/krm/05-annotation-policy/05-02-headword-count/">
   <meta property="og:site_name" content="HDIC project">
   <meta property="og:title" content="掲出字数の算出">
   <meta property="og:description" content="掲出字数の算出 # ここでは、誤字、脱字、衍字、補入、埋字、代用符号、踊り字などについて解説し、 掲出項目数の算出を行う。
-誤字 # 掲出字の誤字の例をいくつかあげる。">
+誤字 # 掲出字の誤字（Miswrittern Character）の例をいくつかあげる。">
   <meta property="og:locale" content="ja">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
@@ -29,7 +29,7 @@
   <link rel="alternate" hreflang="en" href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-02-headword-count/" title="Calculation of Headword Count">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.2eb9261045046b5a62a3b05a0d42dc83843b245d6ee2833aae5e96f3ec26c703.css" integrity="sha256-LrkmEEUEa1pio7BaDULcg4Q7JF1u4oM6rl6W8&#43;wmxwM=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/ja.search.min.4a9e9679d8ddbb5db50351ced6030a9de60b7326baefb7326b986dfa818ec988.js" integrity="sha256-Sp6Wedjdu121A1HO1gMKneYLcya677cya5ht&#43;oGOyYg=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/ja.search.min.d216503fa158ffd9867a4dc377b30cd9cead558e5085c7d3523904426e755718.js" integrity="sha256-0hZQP6FY/9mGek3Dd7MM2c6tVY5QhcfTUjkEQm51Vxg=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -576,7 +576,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/docs/krm/06-typesetting/06-04-vscode-texlive/" class="">VS CodeとTeX Live</a>
+    <a href="https://shikeda.github.io/docs/krm/06-typesetting/06-04-vscode-texlive/" class="">古辞書・訓点資料のためのLuaTeX組版備忘録</a>
   
 
         </li>
@@ -909,7 +909,7 @@ https://github.com/alex-shpak/hugo-book
     <li><a href="#誤字">誤字</a></li>
     <li><a href="#脱字">脱字</a></li>
     <li><a href="#衍字">衍字</a></li>
-    <li><a href="#埋字">埋字</a></li>
+    <li><a href="#埋字分註式">埋字（分註式）</a></li>
     <li><a href="#代用符号">代用符号（｜）</a></li>
     <li><a href="#踊り字〻">踊り字（〻）</a></li>
     <li><a href="#注文の文字を大字に書写">注文の文字を大字に書写</a></li>
@@ -953,19 +953,34 @@ https://github.com/alex-shpak/hugo-book
   誤字
   <a class="anchor" href="#%e8%aa%a4%e5%ad%97">#</a>
 </h2>
-<p>掲出字の誤字の例をいくつかあげる。</p>
+<p>掲出字の<strong>誤字</strong>（Miswrittern Character）の例をいくつかあげる。</p>
+<p>用例は、<code>krm_main.tsv</code>から必要部分を抜き出したものに、
+<code>krm_notes.tsv</code>の<code>rmarks</code>の内容を追加して示す。
+また、参照の便宜を考えて、風間版の所在を<code>kazama_location</code>として示す。
+<code>K0200884</code>は巻2（仏中）、8頁、8行、4段に出現することを示す。</p>
 <p>最初は比較的単純な例である。</p>
-<pre><code>kazama_entry_location   hanzi_entry   original_entry  definition remrks
-K0200884    姡  活  今  掲出字は誤写。高山寺本・蓮成院本・西念寺本「姡」に作るにより改める。
-</code></pre>
-<p>この例では、女部の掲出字であり、異本に女偏の「姡」に作ることから、観智院本に誤写があることは明白である。</p>
+<p><strong>例</strong></p>
+<ul>
+<li><code>kazama_location</code>: K0200884</li>
+<li><code>hanzi_entry</code>: 姡</li>
+<li><code>original_entry</code>: 活</li>
+<li><code>definition</code>: 今</li>
+<li><code>remrks</code>: 掲出字は誤写。高山寺本・蓮成院本・西念寺本「姡」に作るにより改める。</li>
+</ul>
+<p>この例は、女部の掲出字であり、異本に女偏の「姡」に作ることから、観智院本に誤写があることは明白である。</p>
 <p>次は、誤字かどうか判断に迷う例である。</p>
-<pre><code>kazama_entry_location   hanzi_entry   original_entry  definition remrks
-K0104561    迷  〇  俗悉字　私逸反  掲出字は「⿺辶釆」の誤写か。
-</code></pre>
-<p>この例の「迷」は「俗悉字」とあり、「悉」の「俗」体とあり、「悉」の下の「心」を「辶」のように書写することから生まれたと
-推測される。「悉」の異体字と「迷」とが衝突した例である。ここでは「掲出字は「⿺辶釆」の誤写か」と注記したが、
-他に例のない「⿺辶釆」を想定するのは適切でないと考えるに至った。</p>
+<p><strong>例</strong></p>
+<ul>
+<li><code>kazama_location</code>: K0104561</li>
+<li><code>hanzi_entry</code>: 迷</li>
+<li><code>original_entry</code>: 〇</li>
+<li><code>definition</code>: 俗悉字　私逸反</li>
+<li><code>remrks</code>: 掲出字は「悉」の異体字「⿺辶半」が変化した字形か。</li>
+</ul>
+<p>この例の「迷」は注文に「俗悉字」とあり、「悉」の「俗」体とされている。
+「迷」と「悉」とは別字であり、両者を結びつけるには誤写を想定する必要がある。
+「悉」の下の「心」を「辶」のように書写することから生まれたと
+推測される。「悉」の異体字と「迷」とが衝突した例である。</p>
 <p>「悉」から「迷」までの変化の過程は次のように想定できる。</p>
 <p><img src="https://glyphwiki.org/glyph/u6089.50px.png" alt="悉" /> &mdash;&gt;
 <img src="https://glyphwiki.org/glyph/u2263b.50px.png" alt="𢘻" /> &mdash;&gt;
@@ -973,97 +988,116 @@ K0104561    迷  〇  俗悉字　私逸反  掲出字は「⿺辶釆」の誤�
 <img src="https://glyphwiki.org/glyph/u28483-g.50px.png" alt="𨒃" /> &mdash;&gt;
 <img src="https://glyphwiki.org/glyph/u8ff7.50px.png" alt="迷" /></p>
 <p>GlyphWikiによれば、<img src="https://glyphwiki.org/glyph/u28483-g.50px.png" alt="𨒃" />(𨒃 u28483)
-は[疑難字考釋與研究]に例があるとのことである。
-というわけで、この項目は次のように注記しておくのがよいであろう。</p>
-<pre><code>kazama_entry_location   hanzi_entry   original_entry  definition remrks
-K0104561    迷  〇  俗悉字　私逸反  掲出字は「悉」の異体字「⿺辶半」が変化した字形か。
-</code></pre>
+は[疑難字考釋與研究]に例がある。</p>
 <h2 id="脱字">
   脱字
   <a class="anchor" href="#%e8%84%b1%e5%ad%97">#</a>
 </h2>
-<p>掲出字の脱字は、別に一覧したが、次に再掲する。
+<p>掲出字の<strong>脱字</strong>（Omitted Charcters）は、別に一覧したが、次に再掲する。
 脱字であることが明らかな掲出字は、「［］」（全角の角括弧）に入れて示す。</p>
-<p><strong>入力例</strong></p>
-<pre><code>是／[以]
-不／奈／[何]
-将／為／[便]
-嘻／[囉]
-奢／[侈]
-奚／[如]
-孕／[婦]
-娣／[婦]
-嘻／[囉]
-比／[目]
-将／[指]
-磬／[控]
-䴏／[豆]
-桃／花／[石]
-樹／[神]
-革／[葱]
-</code></pre>
-<p>次も脱字の例である（2022年4月27日記）</p>
-<pre><code>風／[流]
-</code></pre>
-<p>注釈の一例を次に示す。</p>
-<pre><code>kazama_entry_location   hanzi_entry   original_entry  definition remrks
-K0200663    奚／[如]    〇／〇  イカム（__L）   「如」脱字。蓮成院本「奚如」に作る。高山寺本「ー」を用いず「如」と記し、女部後半付近に記載。高山寺本が先行する例（岡田研究192頁）。
-</code></pre>
+<p><strong>例</strong></p>
+<pre tabindex="0"><code>是／［以］
+不／奈／［何］
+将／為／［便］
+嘻／［囉］
+奢／［侈］
+奚／［如］
+孕／［婦］
+娣／［婦］
+嘻／［囉］
+比／［目］
+将／［指］
+磬／［控］
+䴏／［豆］
+桃／花／［石］
+樹／［神］
+革／［葱］
+風／［流］
+</code></pre><p>注釈の一例を次に示す。</p>
+<p><strong>例</strong></p>
+<ul>
+<li><code>kazama_location</code>: K0200663</li>
+<li><code>hanzi_entry</code>: 奚／［如］</li>
+<li><code>original_entry</code>: 〇／〇</li>
+<li><code>definition</code>: イカム（__L</li>
+<li><code>remrks</code>: 「如」脱字。蓮成院本「奚如」に作る。高山寺本「ー」を用いず「如」と記し、女部後半付近に記載。高山寺本が先行する例（岡田研究192頁）。</li>
+</ul>
 <h2 id="衍字">
   衍字
   <a class="anchor" href="#%e8%a1%8d%e5%ad%97">#</a>
 </h2>
-<p>掲出字の衍字はほとんど認められない。</p>
-<pre><code>K0402481    ⿱赤廾  サカユ　シツカナリ
-K0402482    人  （無）  衍字か。あるいは掲出字は「奕」の異体で、熟語「奕奕」の踊り字を誤写するか。「奕奕」は詩経に例あり。
-</code></pre>
+<p>掲出字の<strong>衍字</strong>（Superfluous Characters）はほとんど認められない。</p>
+<p><strong>例</strong></p>
+<ul>
+<li><code>kazama_location</code>: K0402481, <code>hanzi_entry</code>: ⿱赤廾, <code>definition</code>: サカユ　シツカナリ</li>
+<li><code>kazama_location</code>: K0402482, <code>hanzi_entry</code>: 人, <code>definition</code>: （無）, <code>remarks</code>: 衍字か。あるいは掲出字は「奕」の異体で、熟語「奕奕」の踊り字を誤写するか。「奕奕」は詩経に例あり。</li>
+</ul>
 <p>「人」字が存在する理由は明確ではなく、衍字の疑いがある。</p>
-<h2 id="埋字">
-  埋字
-  <a class="anchor" href="#%e5%9f%8b%e5%ad%97">#</a>
+<h2 id="埋字分註式">
+  埋字（分註式）
+  <a class="anchor" href="#%e5%9f%8b%e5%ad%97%e5%88%86%e8%a8%bb%e5%bc%8f">#</a>
 </h2>
-<p>埋字とは、ひとつの項目の中に繰り込まれた項目のことである。</p>
-<pre><code>K0201261    娜  乃可（H）反　マヽハヽ　タヲヤカナリ　婀ー　ヨキカホ　ナマメク 「婀ー　ヨキカホ　ナマメク」は埋字項目か。
-</code></pre>
+<p><strong>埋字</strong>（Embedded Charcters）とは、ひとつの項目の中に繰り込まれた項目のことである。</p>
+<p><strong>例</strong></p>
+<ul>
+<li><code>kazama_location</code>: K0201261, <code>hanzi_entry</code>: 娜, <code>definition</code>:乃可（H）反　マヽハヽ　タヲヤカナリ　婀ー　ヨキカホ　ナマメク, <code>remarks</code>:「婀ー　ヨキカホ　ナマメク」は埋字項目か。</li>
+</ul>
 <p>この埋字を項目相当のものとすることもできるし、注文中で熟語について解説したものとすることもできる。</p>
+<p>熟字を単字に注の中に、埋め込む方式を「分註式」、埋め込まずに単字の掲出項目の次に
+独立した掲出項目とする方式を「独立式」という（岡田希雄『類聚名義抄の研究』313頁以下）。</p>
+<p>諸本の系統関係、前後関係を考察する上で重要な指標となるものであるが、ここではこれ以上触れない。</p>
 <h2 id="代用符号">
   代用符号（｜）
   <a class="anchor" href="#%e4%bb%a3%e7%94%a8%e7%ac%a6%e5%8f%b7">#</a>
 </h2>
 <p>前の項目と同一の掲出字が用いられる場合、それを代用して「丨」を用いる。このデータベースでは横書きの表示で見やすくするために「ー」を用い、その符号の後に、該当する掲出字を記載している。</p>
-<p>代用符号「ー」は、ほとんどの場合、前の項目の掲出字を指すとして問題ないが、ごくまれに前の項目を飛ばしたところの項目の掲出字が入ることがあるので、注意が必要である。</p>
+<p><strong>代用符号</strong>（Substitution Marks）の「ー」は、ほとんどの場合、前の項目の掲出字を指すとして問題ないが、ごくまれに前の項目を飛ばしたところの項目の掲出字が入ることがあるので、注意が必要である。</p>
 <p>次の例では、「ー」がかなり離れた掲出字を指している。</p>
-<pre><code>K0103841    以／後  ノチ
-K0103842    㣭  字公（L）反　數也
-K0103843    𢓈   音旬之去声　トヽム　メクル　アマネシ
-K0103851    徇  同　トナフ　*アハネシ（L___）　シタカフ（__HV_）　*イトナム
-K0103853    彴  止「已」約反　シタフ
-K0103854    已／ー  同
-K0103861    向／ー  ユクサキ（HH__）　ユクスヱ    掲出字は「向後」とすべきを誤る。岡田研究193-194頁に「ー」使用は高山寺本が適切との指摘あり。
-</code></pre>
+<p><strong>例</strong></p>
+<ul>
+<li><code>kazama_location</code>: K0103841, <code>hanzi_entry</code>: 以／後, <code>definition</code>: ノチ</li>
+<li><code>kazama_location</code>: K0103842, <code>hanzi_entry</code>: 㣭, <code>definition</code>: 字公（L）反　數也</li>
+<li><code>kazama_location</code>: K0103843, <code>hanzi_entry</code>: 𢓈, <code>definition</code>: 音旬之去声　トヽム　メクル　アマネシ</li>
+<li><code>kazama_location</code>: K0103851, <code>hanzi_entry</code>: 徇, <code>definition</code>: 同　トナフ　*アハネシ（L___）　シタカフ（_<em>HV</em>）　*イトナム</li>
+<li><code>kazama_location</code>: K0103853, <code>hanzi_entry</code>: 彴, <code>definition</code>: 止「已」約反　シタフ</li>
+<li><code>kazama_location</code>: K0103854, <code>hanzi_entry</code>: 已／ー, <code>definition</code>: 同</li>
+<li><code>kazama_location</code>: K0103861, <code>hanzi_entry</code>: 向／ー, <code>definition</code>: ユクサキ（HH__）　ユクスヱ, <code>remarks</code>: 掲出字は「向後」とすべきを誤る。岡田研究193-194頁に「ー」使用は高山寺本が適切との指摘あり。</li>
+</ul>
 <p>最後の二つの掲出字は、素直に考えれば「已／ー（彴）」と「向／ー（彴）」となるが、これでは意味が通じない。この箇所は岡田希雄が指摘したように、「向後」とすべきものである。その前の「已／ー」は「已／後」となるべきものである。
 つまり、この箇所は、元来「以／後」「已／ー」「向／ー」の順に掲出されていたところに、
-上に列記した項目の二番目のK0103842「㣭」から5番目のK0103853「彴」が挿入されたことが想定されるのである。</p>
+上に列記した項目の二番目の<code>K0103842</code>「㣭」から5番目の<code>K0103853</code>「彴」が挿入されたことが想定されるのである。</p>
 <h2 id="踊り字〻">
   踊り字（〻）
   <a class="anchor" href="#%e8%b8%8a%e3%82%8a%e5%ad%97%e3%80%bb">#</a>
 </h2>
-<p>踊り字は繰り返し符号などとも呼ばれる。漢字の踊り字は、現在、「々」を用いることが、このデータベースでは
+<p><strong>踊り字</strong>（Iteration Mark）は繰り返し符号などとも呼ばれる。漢字の踊り字は、現在、「々」を用いることが、このデータベースでは
 「〻」を用いている。観智院本では、次の例のように、熟語項目の2字目以降に用いられる。</p>
-<pre><code>K0105944    ー（迢）／〻（迢）  トホノカナリ
-K0202173    曽／ー（祖）／〻（母）  オホオハ（LHLHV）
-K0603671    郁／〻（郁）    マタラカナリ（LLVHL__）
-</code></pre>
+<p><strong>例</strong></p>
+<ul>
+<li><code>kazama_location</code>: K0105944, <code>hanzi_entry</code>: ー（迢）／〻（迢）, <code>definition</code>: トホノカナリ</li>
+<li><code>kazama_location</code>: K0202173, <code>hanzi_entry</code>: 曽／ー（祖）／〻（母）, <code>definition</code>: オホオハ（LHLHV）</li>
+<li><code>kazama_location</code>: K0603671, <code>hanzi_entry</code>: 郁／〻（郁）, <code>definition</code>: マタラカナリ（LLVHL__）</li>
+</ul>
 <h2 id="注文の文字を大字に書写">
   注文の文字を大字に書写
   <a class="anchor" href="#%e6%b3%a8%e6%96%87%e3%81%ae%e6%96%87%e5%ad%97%e3%82%92%e5%a4%a7%e5%ad%97%e3%81%ab%e6%9b%b8%e5%86%99">#</a>
 </h2>
 <p>注文の文字が掲出字と同じ大きさの大字で書写されて、掲出字と紛れやすい例がある。</p>
-<pre><code>K0205121    𠰍   音主　呼鷄  高山寺本・蓮成院本ともに「ー〻呼鷄」に作る。観智院本は次項に大字で書写。
-</code></pre>
+<p><strong>例</strong></p>
+<ul>
+<li><code>kazama_lcation</code>: K0205121</li>
+<li><code>hanzi_entry</code>: 𠰍</li>
+<li><code>definition</code>: 音主　呼鷄</li>
+<li><code>remarks</code>: 高山寺本・蓮成院本ともに「呼鷄」を「ー〻呼鷄」に作る。観智院本は「呼鷄」を大字で書写。</li>
+</ul>
 <p>口部の例である。観智院本は「呼鷄」を大字に書写するが、高山寺本・蓮成院本ともに「ー〻呼鷄」に作っており、注文の文字とすべき例である。</p>
-<pre><code>K0610062    憙  音喜（H-L）　又嬉　コノム（LLH）　喜「注也」　ネカフ　ツクス　ヨロコフ（LLH_）　ヒロシ（LL_）   注文「喜」は大字、「注也」はその左に朱筆。
-</code></pre>
+<p><strong>例</strong></p>
+<ul>
+<li><code>kazama_location</code>: K0610062</li>
+<li><code>hanzi_entry</code>: 憙</li>
+<li><code>definition</code>:音喜（H-L）　又嬉　コノム（LLH）　喜「注也」　ネカフ　ツクス　ヨロコフ（LLH_）　ヒロシ（LL_）</li>
+<li><code>remarks</code>: 注文「喜」は大字、「注也」はその左に朱筆。</li>
+</ul>
 <p>この例は心部にあるが、「喜」が大字で書写され掲出字のように見える。しかし「喜」の右に「注也」とあって、「喜」が注文の文字であって、掲出字でないことを明示している。</p>
 <h2 id="掲出項目数">
   掲出項目数
@@ -1107,9 +1141,8 @@ K0603671    郁／〻（郁）    マタラカナリ（LLVHL__）
 <p>とあるのは、人部に1字(単字形式)の掲出項目が616あることを示す。
 2字以上は複字形式であり、順に2字が203、3字が26、4字が2、5字が5、6字以上が3である
 ことを示す。項目数は855である。字数は次の計算式により、1,149と算出される。</p>
-<pre><code>(616 x 1) + (203 x 2) + (26 x 3) + (4 x 2) + (5 x 5) + (6 x 3) = 1,149
-</code></pre>
-<h3 id="掲出項目数の点検">
+<pre tabindex="0"><code>(616 x 1) + (203 x 2) + (26 x 3) + (4 x 2) + (5 x 5) + (6 x 3) = 1,149
+</code></pre><h3 id="掲出項目数の点検">
   掲出項目数の点検
   <a class="anchor" href="#%e6%8e%b2%e5%87%ba%e9%a0%85%e7%9b%ae%e6%95%b0%e3%81%ae%e7%82%b9%e6%a4%9c">#</a>
 </h3>
@@ -1388,18 +1421,19 @@ K0603671    郁／〻（郁）    マタラカナリ（LLVHL__）
   </tbody>
 </table>
 <p><strong>人部</strong>では、次の項目を2項目とすべきを誤って1項目としていた。
-項目ID(KR2ID)、掲出項目(Entry)の順に示す。たとえば、
-項目IDのK01008341は、仏上(01)、83ページ(083)、4行1字目(41)を示す。</p>
-<pre><code>K01008341   於／ー（何）    同
-K01008343   奈／ー（何）    同
-</code></pre>
+用例は <code>kazama_location</code>、<code>hanzi_entry</code>、<code>definition</code>の順に示す。。</p>
+<ul>
+<li><code>kazama_location</code>: K01008341, <code>hanzi_entry</code>: 於／ー（何）, <code>definition</code>: 同</li>
+<li><code>kazama_location</code>: K01008343, <code>hanzi_entry</code>: 奈／ー（何）, <code>definition</code>: 同</li>
+</ul>
 <p>国立国会図書館デジタルコレクションの<a href="https://dl.ndl.go.jp/info:ndljp/pid/2586891/10">該当ページ</a>右で確認できる。</p>
 <p>この他に脱字を補ったものが次の4項目である。</p>
-<pre><code>K0100513	是／[以]
-K0100842	不／奈／[何]
-K0103111	将／為／[便]
-K0103531	奢／[侈]
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K0100513, <code>hanzi_entry</code>: 是／［以］</li>
+<li><code>kazama_location</code>: K0100842, <code>hanzi_entry</code>: 不／奈／［何］</li>
+<li><code>kazama_location</code>: K0103111, <code>hanzi_entry</code>: 将／為／［便］</li>
+<li><code>kazama_location</code>: K0103531, <code>hanzi_entry</code>: 奢／［侈］</li>
+</ul>
 <p>池田論文の数値は、次のように項目数を修正する必要がある。
 修正した数値を<strong>太字</strong>で示す。</p>
 <table>
@@ -1434,9 +1468,10 @@ K0103531	奢／[侈]
 </table>
 <p><strong>辵部</strong>では、次の2項目が連続しており1項目のように見えるが、
 「迁」と「還」とは別字である。</p>
-<pre><code>K01050412   迁
-K0105042    還  音環(L)　カヘル-ス　メクル　マクラス　シリソク　マタ　ヤム　又音旋　和外ン
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K01050412, <code>hanzi_entry</code>: 迁</li>
+<li><code>kazama_location</code>: K01050420, <code>hanzi_entry</code>: 還, <code>definition</code>: 音環(L)　カヘル-ス　メクル　マクラス　シリソク　マタ　ヤム　又音旋　和外ン</li>
+</ul>
 <p>「迂」「迃」「迁」と連続する箇所であり、類似した字形の掲出字を連続して配列
 したものと考えられる。「迁」は無注の項目として扱うこととする。</p>
 <p>国立国会図書館デジタルコレクションの<a href="https://dl.ndl.go.jp/info:ndljp/pid/2586891/31">該当ページ</a>右で確認できる。</p>
@@ -1502,23 +1537,27 @@ K0105042    還  音環(L)　カヘル-ス　メクル　マクラス　シリ�
 </table>
 <p><strong>口部</strong>で掲出項目の認定が問題となるのは、3箇所ある。</p>
 <p>まず、次の「吉」と「喆」は連続して掲出されており、同一項のようにも見える。</p>
-<pre><code>K02047711   吉
-K02047712   喆  知列反　サトル（HH_）　アキラカナリ　シル　サカシ　シム
-</code></pre>
-<p>しかし、「吉」と「喆」とは別字である。「吉」は無注の例である。</p>
+<ul>
+<li><code>kazama_location</code>: K02047711, <code>hanzi_entry</code>: 吉</li>
+<li><code>kazama_location</code>: K02047712, <code>hanzi_entry</code>: 喆, <code>definition</code>: 知列反　サトル（HH_）　アキラカナリ　シル　サカシ　シム</li>
+</ul>
+<p>しかし、「吉」（広韻「居質切」入声質韻、吉）と「喆」（広韻「陟列切」入声薛韻、哲）とは別字である。
+「吉」は無注の例である。</p>
 <p>国立国会図書館デジタルコレクションの<a href="https://dl.ndl.go.jp/info:ndljp/pid/2586892/27">該当ページ</a>左を参照されたい。</p>
 <p>次の「 ⿰口⿰木㬅」と「𠾺」は連続して掲出されており、同一項目のようにも見える。</p>
-<pre><code>K02056421   㘄  魯登反
-K02056422   ⿰口⿰木㬅  
-K0205643   𠾺   俗善字
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K02056421, <code>hanzi_entry</code>: 㘄, <code>definition</code>: 魯登反</li>
+<li><code>kazama_location</code>: K02056422, <code>hanzi_entry</code>: ⿰口⿰木㬅</li>
+<li><code>kazama_location</code>: K02056430, <code>hanzi_entry</code>: 𠾺, <code>definition</code>: 俗善字</li>
+</ul>
 <p>しかし、「⿰口⿰木㬅」は「㘄」に字形が類似しており、そのために掲出されたと推測される。
 「⿰口⿰木㬅」は無注の例であろう。</p>
 <p>国立国会図書館デジタルコレクションの<a href="https://dl.ndl.go.jp/info:ndljp/pid/2586892/32">該当ページ</a>右を参照されたい。</p>
 <p>次の項目は認定の仕方によって1項目とも2項目ともなる例である。</p>
-<pre><code>K0203021    呴／吽／𤘘   ◉呴吽𤘘「クチサキラ（HHHVHL）」　「或本ニハ已上五字カキツヽケタリ」
-K0203022    吼／㖃  五正　呼厚反　イヒキ　ヨハフ　ホユ（LH）　ナク（HL）　和ク（L）
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K0203021, <code>hanzi_entry</code>: 呴／吽／𤘘, <code>definition</code>: ◉呴吽𤘘「クチサキラ（HHHVHL）」　「或本ニハ已上五字カキツヽケタリ」</li>
+<li><code>kazama_location</code>: K0203022, <code>hanzi_entry</code>: 吼／㖃, <code>definition</code>: 五正　呼厚反　イヒキ　ヨハフ　ホユ（LH）　ナク（HL）　和ク（L）</li>
+</ul>
 <p>「呴／吽／𤘘」に「或本云々」の注があって、一見、次の「吼／㖃」
 とは別の項目に見えるが、一つの項目とも判断できる。</p>
 <p>池田論文では標示の形式を重視して2項目とした。</p>
@@ -1597,10 +1636,11 @@ K0203022    吼／㖃  五正　呼厚反　イヒキ　ヨハフ　ホユ（LH�
   </tbody>
 </table>
 <p><strong>角部</strong>で掲出項目の認定が問題となるのは、次の箇所である。</p>
-<pre><code>K0301251    ⿳或或角／𧥑    （無）
-K0301252    𧥑   音必　篳俗　羗人吹角
-K0301253    觱  俗　クスヌク
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K0301251, <code>hanzi_entry</code>: ⿳或或角／𧥑, <code>definition</code>: （無）</li>
+<li><code>kazama_location</code>: K0301252, <code>hanzi_entry</code>: 𧥑, <code>definition</code>: 音必　篳俗　羗人吹角</li>
+<li><code>kazama_location</code>: K0301253, <code>hanzi_entry</code>: 觱, <code>definition</code>:俗　クスヌク</li>
+</ul>
 <p>環境によっては表示されないことがあるので、GlyphWikiを利用して説明しておく。</p>
 <p>最初のK0301251の掲出字は、<img src="https://glyphwiki.org/glyph/hdic_hkrm-03012511.50px.png" alt="𧥑" /><img src="https://glyphwiki.org/glyph/hdic_hkrm-03012512.50px.png" alt="𧥑" />、
 二番目のK0301252の掲出字は、<img src="https://glyphwiki.org/glyph/hdic_hkrm-03012520.50px.png" alt="𧥑" /> のような字形である。これら3字は連続して掲出されるが、1字目と2字目との間にわずかに空白が認められる。2字目と3字目の空白は1字分あり
@@ -1612,33 +1652,37 @@ K0301253    觱  俗　クスヌク
 <a href="https://dl.ndl.go.jp/info:ndljp/pid/2586893/10">該当ページ</a>
 右を参照されたい。</p>
 <p>ちなみに、観智院本のこの箇所は、龍龕手鏡巻4角部に極めて類似した項目が見えている。</p>
-<pre><code>Lb1690102   ⿳或旦角／⿳或或角  二俗。
-Lb1690104   ⿳咸咸角／𧥑 二古。
-Lb1690106   觱  今。音必。羗人吹角以驚与也。今作篳ー篥樂噐也。下又音佛。ー理也。五。
-</code></pre>
-<p>Lb1690104の掲出字は<img src="https://glyphwiki.org/glyph/zihai-144813.50px.png" alt="⿳咸咸角" /> <img src="https://glyphwiki.org/glyph/hdic_hkrm-03012512.50px.png" alt="𧥑" />となっている。</p>
+<ul>
+<li><code>location</code>: Lb1690102, <code>hanzi_entry</code>: ⿳或旦角／⿳或或角, <code>definition</code>:二俗。</li>
+<li><code>location</code>: Lb1690104, <code>hanzi_entry</code>: ⿳咸咸角／𧥑, <code>definition</code>: 二古。</li>
+<li><code>location</code>: Lb1690106, <code>hanzi_entry</code>: 觱, <code>definition</code>: 今。音必。羗人吹角以驚与也。今作篳ー篥樂噐也。下又音佛。ー理也。五。</li>
+</ul>
+<p><code>Lb1690104</code>の掲出字は<img src="https://glyphwiki.org/glyph/zihai-144813.50px.png" alt="⿳咸咸角" /> <img src="https://glyphwiki.org/glyph/hdic_hkrm-03012512.50px.png" alt="𧥑" />となっている。</p>
 <p><strong>髟部</strong>で掲出項目の認定が問題となるのは、次の箇所である。</p>
-<pre><code>K0303631    ⿰镸及／■／⿰镸用／⿰镸少  未詳　「⿰镸⿱右王⿰镸宀圭〈私入〉」    池田按：「⿰镸⿱右王⿰镸宀圭〈私入〉」は朱筆。埋字。ここでは項目として数えず。
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K0303631, <code>hanzi_entry</code>: ⿰镸及／■／⿰镸用／⿰镸少, <code>definition</code>: 未詳　「⿰镸⿱右王⿰镸宀圭〈私入〉」, <code>remacks</code>: 池田按：「⿰镸⿱右王⿰镸宀圭〈私入〉」は朱筆。埋字。ここでは項目として数えず。</li>
+</ul>
 <p>「⿰镸⿱右王⿰镸宀圭〈私入〉」を1項目として数えるかどうかにより掲出項目数が変わる。
 池田論文では、この項目を髟部の掲出項目数に含めなかった。</p>
 <p>国立国会図書館デジタルコレクションの
 <a href="https://dl.ndl.go.jp/info:ndljp/pid/2586893/22">該当ページ</a>
 右を参照されたい。</p>
 <p><strong>手部</strong>で掲出項目の認定が問題となるのは、次の箇所である。</p>
-<pre><code>K03061721	⿰扌水	スクフ
-K03061722	捏  二奴結反　下又音張　舉也　刾也　又勅貞反
-</code></pre>
-<p>K03061722「捏」の注文の最初に「二」とあることから当初は「⿰扌水」と「捏」とが
-一体のものとしていたが、分けることにした。本文内容には不審の点がある。
+<ul>
+<li><code>kazama_location</code>: K03061721, <code>hanzi_entry</code>: ⿰扌水, <code>definition</code>: スクフ</li>
+<li><code>kazama_location</code>: K03061722, <code>hanzi_entry</code>: 捏, <code>definition</code>: 二奴結反　下又音張　舉也　刾也　又勅貞反</li>
+</ul>
+<p><code>K03061722</code>「捏」の注文の最初に「二」とあることから、データベースでは当初「⿰扌水」と「捏」とが
+一体のものとしていたが、分けることにした。ただし、本文内容には不審の点が残る。
 宝菩提院本の影印本の74ページに見える。</p>
 <p>観智院本の該当箇所は、国立国会図書館デジタルコレクションの
 <a href="https://dl.ndl.go.jp/info:ndljp/pid/2586893/34">該当ページ</a>
 左を参照されたい。</p>
 <p>脱字を補ったのは次の2項目である。</p>
-<pre><code>K0303953	将／[指]
-K0304714	磬／[控]
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K0303953, <code>hanzi_entry</code>: 将／［指］</li>
+<li><code>kazama_location</code>: K0304714, <code>hanzi_entry</code>: 磬／［控］</li>
+</ul>
 <p>池田論文の数値は、次のように修正される。
 修正した数値を<strong>太字</strong>で示す。</p>
 <table>
@@ -1672,13 +1716,15 @@ K0304714	磬／[控]
   </tbody>
 </table>
 <p><strong>木部</strong>で掲出項目の認定が問題となるのは、次の箇所である。</p>
-<pre><code>K0310234    小／ー（櫃）／膳／ー（櫃）  アケノヒツ（HH___）
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K03102341, <code>hanzi_entry</code>: 小／ー（櫃）／膳／ー（櫃）, <code>definition</code>: アケノヒツ（HH___）</li>
+</ul>
 <p>日国によると、「小櫃」は和名抄に例があり、「膳櫃」は延喜式に例がある。別項目とするのがよいので、
 KRMのデータを次のように修正する。</p>
-<pre><code>K0310234    小／ー（櫃）  (無)
-K03102343    膳／ー（櫃）  アケノヒツ（HH___）
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K03102341, <code>hanzi_entry</code>: 小／ー（櫃）, <code>definition</code>:  (無)</li>
+<li><code>kazama_location</code>: K03102343, <code>hanzi_entry</code>: 膳／ー（櫃）, <code>definition</code>: アケノヒツ（HH___）</li>
+</ul>
 <p>国立国会図書館デジタルコレクションの
 <a href="https://dl.ndl.go.jp/info:ndljp/pid/2586893/55">該当ページ</a>
 右を参照されたい。</p>
@@ -1749,25 +1795,28 @@ K03102343    膳／ー（櫃）  アケノヒツ（HH___）
   </tbody>
 </table>
 <p><strong>火部</strong>の掲出項目数を酒井論文は512項目と数えているので、1項目の差がある。
-項目数の数え方で問題となるのは、3箇所ある。</p>
-<pre><code>K04038132   𤊹   （無）  次項目と連続するか。「火」部は酒井の集計より１項目多い。この算定によるかもしれない。
-K0403814    㶿／⿰火⿳朩冖子／⿰火⿱十子    三俗勃字　音悖　サカリ  
-</code></pre>
-<p>K04038132の「𤊹」の後に若干の空白があり、池田論文では無注の項目と数えた。</p>
+項目数の数え方で問題となるのは、3箇所ある。酒井論文との差は、そのいずれかの
+算出の違いによると考えられる。</p>
+<ul>
+<li><code>kazama_location</code>: K04038132, <code>hanzi_entry</code>: 𤊹, <code>definition</code>: （無）</li>
+<li><code>kazama_location</code>: K04038141, <code>hanzi_entry</code>: 㶿／⿰火⿳朩冖子／⿰火⿱十子, <code>definition</code>: 三俗勃字　音悖　サカリ</li>
+</ul>
+<p><code>K04038132</code> の「𤊹」の後に若干の空白があり、池田論文では無注の項目と数えた。</p>
 <p>該当箇所の原文は国立国会図書館デジタルコレクションの
 <a href="https://dl.ndl.go.jp/info:ndljp/pid/2586894/23">該当ページ</a>
 右を参照。</p>
-<pre><code>K04041732   焭  （無）  次項目と連続するか。「火」部は酒井の集計より１項目多い。この算定によるかもしれない。
-K0404174    ⿱⿱⿰火火冖凡／煢  俗通正　音瓊　ヒトリ　𠎽〈古〉　惸〈古〉　ヒトリアルヤモメ（HHL__HHH）　ヤモメ（HHH）
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K04041732, <code>hanzi_entry</code>: 焭, <code>definition</code>: （無）</li>
+<li><code>kazama_location</code>: K04041741, <code>hanzi_entry</code>: ⿱⿱⿰火火冖凡／煢, <code>defifnition</code>: 俗通正　音瓊　ヒトリ　𠎽〈古〉　惸〈古〉　ヒトリアルヤモメ（HHL__HHH）　ヤモメ（HHH）</li>
+</ul>
 <p>K0404174の「⿱⿱⿰火火冖凡／煢」の注文の最初に「俗通正」とあり、全体として1項目であったとも考えられる。
-しかし、K04041732の「焭」の空白スペースは明白であり、字体注記が前の項目を指す例もあることから、池田論文では
-無注の項目と数えた。</p>
+しかし、K04041732の「焭」の空白スペースは明白であり、字体注記が前の項目を指す例もあることから、池田論文では無注の項目と数えた。</p>
 <p>該当箇所の原文は国立国会図書館デジタルコレクションの
 <a href="https://dl.ndl.go.jp/info:ndljp/pid/2586894/24">該当ページ</a>
 左を参照。</p>
-<pre><code>K0405254    ⿱亦火  餘石反　盛也　カヽヤク　⿱赤火　ウレフ　ユク　和ヤク    「⿱赤火」は埋字とも、異体字注記とも見られる。
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K04052540, <code>hanzi_entry</code>: ⿱亦火, <code>definition</code>: 餘石反　盛也　カヽヤク　⿱赤火　ウレフ　ユク　和ヤク, <code>remarks</code>: 「⿱赤火」は埋字とも、異体字注記とも見られる。</li>
+</ul>
 <p>これは、備考欄の説明のとおりであるが、 「⿱赤火」はやや大きく書写されており、これを埋字と見れば1項目増加することとなる。
 しかし、<strong>正宗漢字索引</strong>では 「⿱赤火」を採っていないので、注文注の異体字注記とした。</p>
 <p>該当箇所の原文は国立国会図書館デジタルコレクションの
@@ -1820,21 +1869,23 @@ K0404174    ⿱⿱⿰火火冖凡／煢  俗通正　音瓊　ヒトリ　𠎽�
       </tr>
   </tbody>
 </table>
-<p><strong>水部</strong>で注意が必要なのは、「此クタリ二水ノトコロニアリ」と記す4項目である。</p>
-<pre><code>K0503381 ■ 「此クタリ二水ノトコロニアリ」　フチ(LH)    直前に補入符号あり。この1行4項を冫部に移すべき指示。酒井字順33頁参照。
-K0503382    减  俗減字　オトス（LLH）　ヘク（LHV）　ヘス　和ケム
-K0503383    冸  ソヽク
-K0503384    ⿰冫⿰关⺉  フカシ
-</code></pre>
+<p><strong>水部</strong>で注意が必要なのは、「此クタリ二水ノトコロニアリ」と記す次の4項目である。</p>
+<ul>
+<li><code>kazama_location</code>: K0503381, <code>hanzi_entry</code>: ■, <code>definition</code>: 「此クタリ二水ノトコロニアリ」　フチ(LH) , <code>definition</code>: 直前に補入符号あり。この1行4項を冫部に移すべき指示。酒井字順33頁参照。</li>
+<li><code>kazama_location</code>: K0503382, <code>hanzi_entry</code>: 减, <code>definition</code>: 俗減字　オトス（LLH）　ヘク（LHV）　ヘス　和ケム</li>
+<li><code>kazama_location</code>: K0503383, <code>hanzi_entry</code>: 冸, <code>definition</code>: ソヽク</li>
+<li><code>kazama_location</code>: K0503384, <code>hanzi_entry</code>: ⿰冫⿰关⺉, <code>definition</code>: フカシ</li>
+</ul>
 <p>この4項目は冫部に配属させて掲出項目数を算定している。</p>
 <p>該当箇所の原文は国立国会図書館デジタルコレクションの
 <a href="https://dl.ndl.go.jp/info:ndljp/pid/2586895/20">該当ページ</a>
 左を参照。</p>
 <p>水部の掲出項目数を酒井論文は1,322項目、池田論文は1,321項目と算定した。1項目の差がある。
 点検したところ、算定に差のでる可能性のあるのは次の項目である。</p>
-<pre><code>K0500131    水  尸癸反　ミツ（HHV）　カハ　月ー（水）　ツキノサハリ　和スイ（LH）
-</code></pre>
-<p>「月ー(水)」は熟語であり、これを埋字とみて項目に算入すれば、酒井論文と池田論文の
+<ul>
+<li><code>kazama_location</code>: K0500131, <code>hanzi_entry</code>: 水, <code>definition</code>: 尸癸反　ミツ（HHV）　カハ　月ー（水）　ツキノサハリ　和スイ（LH）</li>
+</ul>
+<p>「月ー（水）」は熟語であり、これを埋字とみて項目に算入すれば、酒井論文と池田論文の
 数値は同数となる。しかし、次の注文「和スイ（LH）」は「水」に対するものであり、挟み込むかたちで
 掲出項目を認定するのは躊躇される。
 この項目は、池田論文のまま1項目としておく。</p>
@@ -1843,19 +1894,22 @@ K0503384    ⿰冫⿰关⺉  フカシ
 左を参照。</p>
 <p><strong>足部</strong>の掲出項目数は、酒井論文が494項目、池田論文が493項目で、1項目の差がある。この差に
 該当しそうなのは次の項目である。</p>
-<pre><code>K0507631    踟／ー（蹰）    上馳(L)　又智音　或躊字　タチヤスラフ　オソシ   池田按：「躊字」は大字に作る。注文とみなす。
-</code></pre>
-<p>備考として記したように「躊字」を1項目として算定することができるかもしれない。しかし「躊」は
+<ul>
+<li><code>kazama_location</code>: K0507631, <code>hanzi_entry</code>: 踟／ー（蹰）, <code>definition</code>: 上馳(L)　又智音　或躊字　タチヤスラフ　オソシ, <code>remarks</code>: 池田按：「躊字」は大字に作る。注文とみなす。</li>
+</ul>
+<p>備考（<code>remarks</code>）として記したように「躊字」を1項目として算定することができるかもしれない。しかし「躊」は
 次の項目として記載されている。</p>
-<pre><code>K0507633    躊  音儔　タチモトホル　タチヤスラフ（LH____）
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K0507633, <code>hanzi_entry</code>: 躊, <code>definition</code>:音儔　タチモトホル　タチヤスラフ（LH____）</li>
+</ul>
 <p>「躊」が重出したとするよりは、注文の文字を大字に書写したものとするのが穏当であろうと考える。</p>
 <p>該当箇所の原文は国立国会図書館デジタルコレクションの
 <a href="https://dl.ndl.go.jp/info:ndljp/pid/2586895/42">該当ページ</a>
 右を参照。</p>
 <p><strong>豆部</strong>では、次の項目に脱字を認める。</p>
-<pre><code>K0601274    桃／花／[石]    此間音タウクヱシヤク（LHHHLLL）
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K05095640, <code>hanzi_entry</code>: 䴏／［豆］, <code>definition</code>: ソヒマメ</li>
+</ul>
 <p>これにより掲出項目数と掲出字数は次のように修正される。</p>
 <table>
   <thead>
@@ -1948,12 +2002,14 @@ K0503384    ⿰冫⿰关⺉  フカシ
 </table>
 <p><strong>石部</strong>の掲出項目数は、酒井論文が375項目、池田論文が376項目で、1項目の差がある。この差に
 該当しそうなのは次の項目である。</p>
-<pre><code>K0600132    ⿸𠂋帀   古　△在下
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K0600132, <code>hanzi_entry</code>: ⿸𠂋帀, <code>definition</code>: 古　△在下</li>
+</ul>
 <p>注文「△在下」の「△」がやや大きく書写されており、掲出字と誤認したものである。</p>
 <p>脱字を補うのは次の項目である。</p>
-<pre><code>桃／花／[石]    此間音タウクヱシヤク（LHHHLLL）
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K0601274, <code>hanzi_entry</code>: 桃／花／［石］, <code>definition</code>: 此間音タウクヱシヤク（LHHHLLL）</li>
+</ul>
 <p>石部の掲出項目数と掲出字数次のように修正される。</p>
 <table>
   <thead>
@@ -1987,8 +2043,9 @@ K0503384    ⿰冫⿰关⺉  フカシ
 </table>
 <p><strong>玉部</strong>の掲出項目数は、酒井論文が384項目、池田論文が383項目で、1項目の差がある。この差に
 該当しそうなのは次の項目である。</p>
-<pre><code>K0601343    玊  音夙（T）「シク」　又栗（T）「リク」　又欣救反　琢「ミカク」玉工也  池田按：「栗」は「粟」の誤り。「玉」の朱点はヲコト点「ヲ」か。「工也」は小字に作るが、『広韻』に「琢玉工」の義注があり、大字に翻刻した。
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K0601343, <code>hanzi_entry</code>: 玊, <code>definition</code>: 音夙（T）「シク」　又栗（T）「リク」　又欣救反　琢「ミカク」玉工也, <code>remarks</code>: 池田按：「栗」は「粟」の誤り。「玉」の朱点はヲコト点「を」か。「工也」は小字に作るが、『広韻』に「琢玉工」の義注があり、大字に翻刻した。</li>
+</ul>
 <p>「琢「ミカク」玉」とした「琢玉」を埋字とする余地がある。しかし、「琢」は別に掲載されており、
 注文の一部としてよいだろう。</p>
 <p>該当箇所の原文は国立国会図書館デジタルコレクションの
@@ -1996,16 +2053,18 @@ K0503384    ⿰冫⿰关⺉  フカシ
 左を参照。</p>
 <p><strong>心部</strong>の掲出項目数は、酒井論文が909項目、池田論文が908項目で、1項目の差がある。この差に
 該当しそうなのは次の項目である。</p>
-<pre><code>K0608452    㥶  「注」⿺⻎偘古　「注」⿱保言𠐨〈籀〉 池田按：「⿺⻎偘古」と「⿱保言𠐨」は大字だが、それぞれ「注」があり、注文であることを示す。
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K0608452, <code>hanzi_entry</code>: 㥶, <code>definition</code>: 「注」⿺⻎偘古　「注」⿱保言𠐨〈籀〉, <code>remarks</code>: 池田按：「⿺⻎偘古」と「⿱保言𠐨」は大字だが、それぞれ「注」があり、注文であることを示す。</li>
+</ul>
 <p>「⿺⻎偘古」と「⿱保言𠐨」は大字なので、掲出字と数える可能性がある。しかし、心部に配属される
 文字ではないし、「注」とも記されているので、数え違いは想定しにくい。</p>
 <p>該当箇所の原文は国立国会図書館デジタルコレクションの
 <a href="https://dl.ndl.go.jp/info:ndljp/pid/2586896/46">該当ページ</a>
 右を参照。</p>
 <p><strong>糸部</strong>では、酒井論文と池田論文とで掲出項目数に差がないが、次の項目の文字数を修正する。</p>
-<pre><code>K0612161	罘／䋄  ノアミ
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K0612161, <code>hanzi_entry</code>: 罘／䋄, <code>definition</code>: ノアミ</li>
+</ul>
 <p>掲出項目を「四／不／䋄」と誤認していたのを修正した。
 これにより掲出項目数と掲出字数は次のように修正される。</p>
 <table>
@@ -4332,7 +4391,7 @@ K1008184 「𡿨」は風間書房版に見えない。貴重図書複製会、�
     <li><a href="#誤字">誤字</a></li>
     <li><a href="#脱字">脱字</a></li>
     <li><a href="#衍字">衍字</a></li>
-    <li><a href="#埋字">埋字</a></li>
+    <li><a href="#埋字分註式">埋字（分註式）</a></li>
     <li><a href="#代用符号">代用符号（｜）</a></li>
     <li><a href="#踊り字〻">踊り字（〻）</a></li>
     <li><a href="#注文の文字を大字に書写">注文の文字を大字に書写</a></li>

@@ -2,19 +2,18 @@
 title: "花園明朝の設定"
 weight: 31
 ---
+# 花園明朝の設定
 
 ## 前提
 
 [TeX Live](https://texwiki.texjp.org/?TeX%20Live)が使えるように設定しておく。
 
 
-## 花園明朝の設定
-
-### 花園フォント
+## 花園フォント
 
 [花園明朝のフォント](http://fonts.jp/hanazono/)をパソコンにインストールしておく。
 
-### ブラウザでの確認
+## ブラウザでの確認
 
 たとえば、
 Chromeで
@@ -23,21 +22,23 @@ Chromeで
 
 漢字の一覧が表示されているかを確認。
 
-### 花園フォントをTexLiveにインストール
+## 花園フォントをTexLiveにインストール
 
 TeX Live での font の追加は、texmf-localディレクトリの下のfontsにいれる。
-fontsの中にopyetypeディレクトリがあるので、その中に入れれば大丈夫。
+fontsの中にopentypeディレクトリがあるので、その中に入れれば大丈夫。
 システムによってはfontsの場所が違うことがある。
 
-私は、Windows 11 にWSLでUbuntuを入れて、TeX Liveをインストールした環境にしたが、
+私は、Windows 11 に WSL で Ubuntu を入れて、TeX Live をインストールした環境にしたが、
 これだと
 
-  /usr/local/texlive/texmf-local/fonts/opentype/hanazono
+```
+/usr/local/texlive/texmf-local/fonts/opentype/hanazono
+```
 
 に HanaMinA.ttfと HanaMinB.ttfを入れた。
 
 
-### LuaLaTeXのサンプルファイル
+## LuaLaTeXのサンプルファイル
 
 次をsample1.texなどと名前を付けて保存し、
 LuaLaTeXでpdfファイルを生成する。

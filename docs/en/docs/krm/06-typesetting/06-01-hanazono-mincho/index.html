@@ -3,47 +3,49 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Under preparation.
-
-  前提
-  #
-
-TeX Liveが使えるように設定しておく。
-
-  花園明朝の設定
+<meta name="description" content="
+  Setting up Hanazono Mincho
   #
 
 
-  花園フォント
+  Prerequisites
   #
 
-花園明朝のフォントをパソコンにインストールしておく。
+Ensure that TeX Live is set up and ready to use.
 
-  ブラウザでの確認
+  Hanazono Fonts
   #
 
-たとえば、
-Chromeで
-ctext.orgのDictionaryの一部のページ
-を見てください。">
+Install the Hanazono Mincho fonts on your computer.
+
+  Browser Confirmation
+  #
+
+For example, open a page from the ctext.org Dictionary (e.g., radicals section) in the Chrome browser.
+Confirm that the list of Hanzi (Chinese characters) is displayed correctly.
+
+  Installing Hanazono Fonts in TeX Live
+  #
+
+To add fonts to TeX Live, place them in the fonts directory located under the texmf-local directory. Within the fonts directory, there should be an opentype subdirectory; placing the font files there should suffice. The exact location of the fonts directory may vary depending on your system configuration.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://shikeda.github.io/en/docs/krm/06-typesetting/06-01-hanazono-mincho/">
   <meta property="og:site_name" content="HDIC project">
-  <meta property="og:title" content="花園明朝の設定">
-  <meta property="og:description" content="Under preparation.
-前提 # TeX Liveが使えるように設定しておく。
-花園明朝の設定 # 花園フォント # 花園明朝のフォントをパソコンにインストールしておく。
-ブラウザでの確認 # たとえば、 Chromeで ctext.orgのDictionaryの一部のページ を見てください。">
+  <meta property="og:title" content="Setting up Hanazono Mincho">
+  <meta property="og:description" content="Setting up Hanazono Mincho # Prerequisites # Ensure that TeX Live is set up and ready to use.
+Hanazono Fonts # Install the Hanazono Mincho fonts on your computer.
+Browser Confirmation # For example, open a page from the ctext.org Dictionary (e.g., radicals section) in the Chrome browser. Confirm that the list of Hanzi (Chinese characters) is displayed correctly.
+Installing Hanazono Fonts in TeX Live # To add fonts to TeX Live, place them in the fonts directory located under the texmf-local directory. Within the fonts directory, there should be an opentype subdirectory; placing the font files there should suffice. The exact location of the fonts directory may vary depending on your system configuration.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
-<title>花園明朝の設定 | HDIC project</title>
+<title>Setting up Hanazono Mincho | HDIC project</title>
 <link rel="manifest" href="https://shikeda.github.io/manifest.json">
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
   <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/06-typesetting/06-01-hanazono-mincho/" title="花園明朝の設定">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.2eb9261045046b5a62a3b05a0d42dc83843b245d6ee2833aae5e96f3ec26c703.css" integrity="sha256-LrkmEEUEa1pio7BaDULcg4Q7JF1u4oM6rl6W8&#43;wmxwM=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/en.search.min.3b465d927960b2c169ed060b04ad26918a1227faf88ad3d8ee924aa1c199056d.js" integrity="sha256-O0ZdknlgssFp7QYLBK0mkYoSJ/r4itPY7pJKocGZBW0=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.99b9389b0d204453ce0040fe1dc30646b8ea767825282fa0d93e8fcf662941ae.js" integrity="sha256-mbk4mw0gRFPOAED&#43;HcMGRrjqdnglKC&#43;g2T6Pz2YpQa4=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -537,7 +539,7 @@ https://github.com/alex-shpak/hugo-book
   
     <input type="checkbox" id="section-8f36bd55eb0bd85ca8e0efcd3f2704d0" class="toggle" checked />
     <label for="section-8f36bd55eb0bd85ca8e0efcd3f2704d0" class="flex justify-between">
-      <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/" class="">翻刻・注釈の組版の設定</a>
+      <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/" class="">Typesetting Configuration for Transcriptions and Annotations</a>
     </label>
   
 
@@ -551,7 +553,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-01-hanazono-mincho/" class=" active">花園明朝の設定</a>
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-01-hanazono-mincho/" class=" active">Setting up Hanazono Mincho</a>
   
 
         </li>
@@ -564,7 +566,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-02-glypwiki/" class="">GlyphWikiの設定</a>
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-02-glypwiki/" class="">Setting up GlyphWiki</a>
   
 
         </li>
@@ -577,7 +579,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-03-sfkanbun-sty/" class="">sfkanbun.styの設定</a>
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-03-sfkanbun-sty/" class="">Setting up sfkanbun.sty</a>
   
 
         </li>
@@ -590,7 +592,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-04-vscode-texlive/" class="">VS CodeとTeX Live</a>
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-04-vscode-texlive/" class="">A Memorandum on LuaTeX Typesetting for Old Dictionaries and Kunten Materials</a>
   
 
         </li>
@@ -603,7 +605,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-05-online-tools/" class="">オンラインツール</a>
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-05-online-tools/" class="">Online Tools</a>
   
 
         </li>
@@ -666,7 +668,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="https://shikeda.github.io/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>花園明朝の設定</strong>
+  <strong>Setting up Hanazono Mincho</strong>
 
   <label for="toc-control">
     
@@ -682,15 +684,11 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#前提">前提</a></li>
-    <li><a href="#花園明朝の設定">花園明朝の設定</a>
-      <ul>
-        <li><a href="#花園フォント">花園フォント</a></li>
-        <li><a href="#ブラウザでの確認">ブラウザでの確認</a></li>
-        <li><a href="#花園フォントをtexliveにインストール">花園フォントをTexLiveにインストール</a></li>
-        <li><a href="#lualatexのサンプルファイル">LuaLaTeXのサンプルファイル</a></li>
-      </ul>
-    </li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#hanazono-fonts">Hanazono Fonts</a></li>
+    <li><a href="#browser-confirmation">Browser Confirmation</a></li>
+    <li><a href="#installing-hanazono-fonts-in-tex-live">Installing Hanazono Fonts in TeX Live</a></li>
+    <li><a href="#lualatex-sample-file">LuaLaTeX Sample File</a></li>
   </ul>
 </nav>
 
@@ -703,70 +701,59 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><p>Under preparation.</p>
-<h2 id="前提">
-  前提
-  <a class="anchor" href="#%e5%89%8d%e6%8f%90">#</a>
+  <article class="markdown"><h1 id="setting-up-hanazono-mincho">
+  Setting up Hanazono Mincho
+  <a class="anchor" href="#setting-up-hanazono-mincho">#</a>
+</h1>
+<h2 id="prerequisites">
+  Prerequisites
+  <a class="anchor" href="#prerequisites">#</a>
 </h2>
-<p><a href="https://texwiki.texjp.org/?TeX%20Live">TeX Live</a>が使えるように設定しておく。</p>
-<h2 id="花園明朝の設定">
-  花園明朝の設定
-  <a class="anchor" href="#%e8%8a%b1%e5%9c%92%e6%98%8e%e6%9c%9d%e3%81%ae%e8%a8%ad%e5%ae%9a">#</a>
+<p>Ensure that <a href="https://texwiki.texjp.org/?TeX%20Live">TeX Live</a> is set up and ready to use.</p>
+<h2 id="hanazono-fonts">
+  Hanazono Fonts
+  <a class="anchor" href="#hanazono-fonts">#</a>
 </h2>
-<h3 id="花園フォント">
-  花園フォント
-  <a class="anchor" href="#%e8%8a%b1%e5%9c%92%e3%83%95%e3%82%a9%e3%83%b3%e3%83%88">#</a>
-</h3>
-<p><a href="http://fonts.jp/hanazono/">花園明朝のフォント</a>をパソコンにインストールしておく。</p>
-<h3 id="ブラウザでの確認">
-  ブラウザでの確認
-  <a class="anchor" href="#%e3%83%96%e3%83%a9%e3%82%a6%e3%82%b6%e3%81%a7%e3%81%ae%e7%a2%ba%e8%aa%8d">#</a>
-</h3>
-<p>たとえば、
-Chromeで
-<a href="https://ctext.org/dictionary.pl?if=en&amp;rad=1">ctext.orgのDictionaryの一部のページ</a>
-を見てください。</p>
-<p>漢字の一覧が表示されているかを確認。</p>
-<h3 id="花園フォントをtexliveにインストール">
-  花園フォントをTexLiveにインストール
-  <a class="anchor" href="#%e8%8a%b1%e5%9c%92%e3%83%95%e3%82%a9%e3%83%b3%e3%83%88%e3%82%92texlive%e3%81%ab%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%88%e3%83%bc%e3%83%ab">#</a>
-</h3>
-<p>TeX Live での font の追加は、texmf-localディレクトリの下のfontsにいれる。
-fontsの中にopyetypeディレクトリがあるので、その中に入れれば大丈夫。
-システムによってはfontsの場所が違うことがある。</p>
-<p>私は、Windows 11 にWSLでUbuntuを入れて、TeX Liveをインストールした環境にしたが、
-これだと</p>
-<p>/usr/local/texlive/texmf-local/fonts/opentype/hanazono</p>
-<p>に HanaMinA.ttfと HanaMinB.ttfを入れた。</p>
-<h3 id="lualatexのサンプルファイル">
-  LuaLaTeXのサンプルファイル
-  <a class="anchor" href="#lualatex%e3%81%ae%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab">#</a>
-</h3>
-<p>次をsample1.texなどと名前を付けて保存し、
-LuaLaTeXでpdfファイルを生成する。</p>
+<p>Install the <a href="http://fonts.jp/hanazono/">Hanazono Mincho fonts</a> on your computer.</p>
+<h2 id="browser-confirmation">
+  Browser Confirmation
+  <a class="anchor" href="#browser-confirmation">#</a>
+</h2>
+<p>For example, open <a href="https://ctext.org/dictionary.pl?if=en&amp;rad=1">a page from the ctext.org Dictionary (e.g., radicals section)</a> in the Chrome browser.
+Confirm that the list of <strong><code>Hanzi (Chinese characters)</code></strong> is displayed correctly.</p>
+<h2 id="installing-hanazono-fonts-in-tex-live">
+  Installing Hanazono Fonts in TeX Live
+  <a class="anchor" href="#installing-hanazono-fonts-in-tex-live">#</a>
+</h2>
+<p>To add fonts to TeX Live, place them in the <code>fonts</code> directory located under the <code>texmf-local</code> directory. Within the <code>fonts</code> directory, there should be an <code>opentype</code> subdirectory; placing the font files there should suffice. The exact location of the <code>fonts</code> directory may vary depending on your system configuration.</p>
+<p>In my specific environment—TeX Live installed on Ubuntu via WSL (Windows Subsystem for Linux) on Windows 11—I placed <code>HanaMinA.ttf</code> and <code>HanaMinB.ttf</code> into the following directory:</p>
+<pre tabindex="0"><code>/usr/local/texlive/texmf-local/fonts/opentype/hanazono
+</code></pre><h2 id="lualatex-sample-file">
+  LuaLaTeX Sample File
+  <a class="anchor" href="#lualatex-sample-file">#</a>
+</h2>
+<p>Save the following content as a file named, for example, <code>sample1.tex</code>, and then generate a PDF file using LuaLaTeX:</p>
 <pre tabindex="0"><code>$ lualatex sample1.tex
-</code></pre><p>短いテキストだが、ちょっと時間がかかる。
-といっても1分かそこらだが、瞬時に生成されるわけではない。</p>
+</code></pre><p>Although the text is short, compilation may take a little while. It might be around a minute or so, but it is not generated instantaneously.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\documentclass</span>{jlreq}
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">\usepackage</span>{luatexja-fontspec}
-</span></span><span style="display:flex;"><span><span style="color:#75715e">% BMPはHanaMinA, SIPはHanaMinB, ただし可能ならIPAexMincho
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e">% で置き換える, という設定
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% A setting where: HanaMinA is used for BMP (Basic Multilingual Plane) characters and HanaMinB is used for SIP (Supplementary Ideographic Plane) characters; however, these are to be replaced by IPAexMincho if possible.
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">\setmainjfont</span>[AltFont={
 </span></span><span style="display:flex;"><span>  {Range=&#34;20000-&#34;2FFFF, Font=HanaMinB},
 </span></span><span style="display:flex;"><span>  {Range=&#34;0080-&#34;FFFF, Font=IPAexMincho},
 </span></span><span style="display:flex;"><span>}]{HanaMinA}
-</span></span><span style="display:flex;"><span><span style="color:#75715e">% 花園明朝AFDKO版 2017-06-20
+</span></span><span style="display:flex;"><span><span style="color:#75715e">% Hanazono Mincho AFDKO version 2017-06-20
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">\begin</span>{document}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>これはctext.orgのデータです。
+</span></span><span style="display:flex;"><span>This data is from ctext.org.
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>《康熙字典·一部》の「三」の項目です。
+</span></span><span style="display:flex;"><span>It is the entry for &#39;三&#39; from the *Kangxi Dictionary* (康熙字典), section &#39;一部&#39; (the first radical section, *ichibu*).
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>「𡘋與三同」の最初の文字が表示されるかどうかを確認してください。
+</span></span><span style="display:flex;"><span>Please confirm whether the first character of &#39;𡘋與三同&#39; is displayed correctly.
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>Kangxi:	《康熙字典·一部·二》三：〔古文〕弎《唐韻》《集韻》《韻會》蘇甘切《正韻》蘇監切，𡘋颯平聲。《說文》三，天地人之道也。謂以陽之一合隂之二，次第重之，其數三也。《老子·道德經》一生二，二生三，三生萬物。《史記·律書》數始於一，終於十，成於三。又《周禮·冬官考工記》凡兵無過三其身。又《左傳·昭七年》士文伯曰：政不可不愼，務三而已。一擇人，二因民，三從時。又《晉語》民生於三，事之如一。又《周語》人三爲衆，女三爲粲，獸三爲羣。又姓。明三成志。又漢複姓。屈原之後有三閭氏，三飯尞之後有三飯氏，三州孝子之後有三州氏。又去聲。《韻會》蘇暫切。《論語》三思而後行。又本作參。《博雅》參，三也。《周禮·冬官考工記》參分其股圍。《前漢·𠛬法志》秦造參夷之誅。𡘋與三同。又《韻補》叶疏簪切，音森。《詩·召南》摽有梅，其實三兮。下叶今。叁。<span style="color:#66d9ef">\\</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>次は「一部」の部首画数順のリストです。
+</span></span><span style="display:flex;"><span>The following is a list from the &#39;一部&#39; section, ordered by radical and then by stroke count.
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>0 strokes:	一<span style="color:#66d9ef">\\</span>
 </span></span><span style="display:flex;"><span>1 strokes:	丁 丂 七 丄 丅 丆 𠀀 𠀁 𠀂 𫠠 𬺰<span style="color:#66d9ef">\\</span>
@@ -789,8 +776,7 @@ LuaLaTeXでpdfファイルを生成する。</p>
 </span></span><span style="display:flex;"><span>19 strokes:	𠁠<span style="color:#66d9ef">\\</span>
 </span></span><span style="display:flex;"><span>21 strokes:	𬻱<span style="color:#66d9ef">\\</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">\end</span>{document}
-</span></span></code></pre></div><p>うまくできているようなら、このサンプルファイルを
-適宜、修正・加工する。</p>
+</span></span></code></pre></div><p>If this sample file is processed successfully, you can then modify and adapt it as needed.</p>
 </article>
  
       
@@ -827,15 +813,11 @@ LuaLaTeXでpdfファイルを生成する。</p>
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#前提">前提</a></li>
-    <li><a href="#花園明朝の設定">花園明朝の設定</a>
-      <ul>
-        <li><a href="#花園フォント">花園フォント</a></li>
-        <li><a href="#ブラウザでの確認">ブラウザでの確認</a></li>
-        <li><a href="#花園フォントをtexliveにインストール">花園フォントをTexLiveにインストール</a></li>
-        <li><a href="#lualatexのサンプルファイル">LuaLaTeXのサンプルファイル</a></li>
-      </ul>
-    </li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#hanazono-fonts">Hanazono Fonts</a></li>
+    <li><a href="#browser-confirmation">Browser Confirmation</a></li>
+    <li><a href="#installing-hanazono-fonts-in-tex-live">Installing Hanazono Fonts in TeX Live</a></li>
+    <li><a href="#lualatex-sample-file">LuaLaTeX Sample File</a></li>
   </ul>
 </nav>
 

@@ -394,6 +394,10 @@ Examples 9 and 10 are *Wa-on* (和音) readings; example 9 has **`Tone Marks` (*
 
 No definitive examples of **`Morphosyntactic Glosses` (*wokototen*)** have been confirmed in the manuscript at this time.
 Should any definitive examples be identified, they will be transcribed using Hiragana.
+。
+This may be an example of a *wokototen*.
+
+- `kazama_location`: K0601343, `hanzi_entry`: 玊, `definition`: 音夙（T）「シク」　又栗（T）「リク」　又欣救反　琢「ミカク」玉を工也, `remarks`: Ikeda's note: The character '栗' is a mistake for '粟'. The vermilion dot on the character '玉' may be the *wokototen* mark for 'wo (を)'. Although '工也' is written in small characters, it has been transcribed in large characters because the *Guangyun* provides an explanatory note for the meaning '琢玉工' (a jade craftsman).
 
 ### Line Breaks and Spacing (改行・空白, *kaigyō/kūhaku*)
 

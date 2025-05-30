@@ -3,24 +3,24 @@ title: "sfkanbun.styの設定"
 weight: 33
 ---
 
-## sfkanbun.styの設定
+# sfkanbun.styの設定
 
 訓点資料用スタイル・ファイル（kunten2e.sty）は、
 upLaTeXであれば使えるが、
 LuaLaTeXで使えない。このスタイル・ファイルで
 作成した文書ファイルもある。
 
-sfkanbunパッケージ (漢文sfkanbun.sty）は、
-
+sfkanbunパッケージ（漢文sfkanbun.sty）は、
 [漢文の訓点文の組版（藤田眞作著「入門・縦横文書術」所載）](http://xymtex.com/fujitas/kanbun/kanbunex.html)のものだが、
-LuaLaTeX対応させる[パッチ](https://oku.edu.mie-u.ac.jp/tex/mod/forum/discuss.php?d=2655&parent=15518)がでている。
+LuaLaTeX対応させたスタイル・ファイル（sfkanbun-lua.styにリネーム）を
+[https://github.com/shikeda/rose](https://github.com/shikeda/rose)においてある。
 
 
 そこで、kunten2e.styでよく利用するマクロと同機能
 sfkanbun.styのマクロを対応させて、TeXのソースファイルの
 変更を最小限とすることにした。
 
-### 双行
+## 双行
 
 双行とは割注のことである。
 
@@ -43,7 +43,7 @@ sfkanbun.styでは、多行割を用いる。
 \newcommand{\sougyou}[2]{\tagyobox{#1 \\ #2}}
 ~~~
 
-### 副双行
+## 副双行
 
 副双行とは、双行中にさらに双行を作るものである。
 kunten2e.styでは次のように入力する。

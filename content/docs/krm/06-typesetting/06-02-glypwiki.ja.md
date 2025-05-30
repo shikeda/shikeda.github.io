@@ -3,9 +3,9 @@ title: "GlyphWikiの設定"
 weight: 32
 ---
 
-## GlyphWikiの設定
+# GlyphWikiの設定
 
-### BXglyphwiki パッケージバンドル
+## BXglyphwiki パッケージバンドル
 
 花園フォントをLuaLaTeXで使うには、
 [BXglyphwiki パッケージバンドル](https://github.com/zr-tex8r/BXglyphwiki)を参考にする。
@@ -13,10 +13,10 @@ weight: 32
 toyjackによる[テンプレートファイル](https://github.com/toyjack/template_lualatex_wikiglyphwiki
 )が出ている。
 
-### LuaLaTeXでbxglyphwikiを使うサンプルファイル
+## LuaLaTeXでbxglyphwikiを使うサンプルファイル
 
 次は、花園フォントに加えて、
-GlyphWikiの作字を使うサンプルファイル。
+GlyphWiki の作字を使うサンプルファイル。
 
 ~~~tex
 \documentclass{jlreq}
@@ -29,11 +29,10 @@ GlyphWikiの作字を使うサンプルファイル。
 }]{HanaMinA}
 % 花園明朝AFDKO版 2017-06-20
 
-%%%%%%%%%%%%%%%% ここからがグリフウィキの設定
-% グリフウィキを使うのにも必要
+% ここからがグリフウィキの設定
 \usepackage[luatex]{graphicx}
 
-% グリフウィキで登録された漢字字形を利用，lualatexで使用
+% グリフウィキで登録された漢字字形をlualatexで使用
 % \GWI{zihai-021005}
 % texソース・ファイルと同じフォルダにbxglyphwiki.luaをおいておくこと
 \usepackage[luatex]{bxglyphwiki}
@@ -54,7 +53,7 @@ GlyphWikiの作字を使うサンプルファイル。
 うまくできているようなら、このサンプルファイルを
 適宜加工して行く。
 
-### 注意点
+## 注意点
 
 言語学の番号付き例文を示すのに、gb4e.styがよく
 使われている。これは、

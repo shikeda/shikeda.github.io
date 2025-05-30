@@ -1,98 +1,91 @@
 ---
-title: "sfkanbun.styの設定"
+title: "Setting up sfkanbun.sty"
 weight: 33
 ---
 
-## sfkanbun.styの設定
-
-訓点資料用スタイル・ファイル（kunten2e.sty）は、
-upLaTeXであれば使えるが、
-LuaLaTeXで使えない。このスタイル・ファイルで
-作成した文書ファイルもある。
-
-sfkanbunパッケージ (漢文sfkanbun.sty）は、
-
-[漢文の訓点文の組版（藤田眞作著「入門・縦横文書術」所載）](http://xymtex.com/fujitas/kanbun/kanbunex.html)のものだが、
-LuaLaTeX対応させる[パッチ](https://oku.edu.mie-u.ac.jp/tex/mod/forum/discuss.php?d=2655&parent=15518)がでている。
+# Setting up `sfkanbun.sty`
 
 
-そこで、kunten2e.styでよく利用するマクロと同機能
-sfkanbun.styのマクロを対応させて、TeXのソースファイルの
-変更を最小限とすることにした。
+The style file for *kunten* materials, `kunten2e.sty`, can be used with upLaTeX but is not compatible with LuaLaTeX. Some existing document files were created using this `kunten2e.sty` style file.
 
-### 双行
+The sfkanbun package (`sfkanbun.sty` for Kanbun texts) originates from the work on [Typesetting Kanbun with *Kundoku* Marks (漢文の訓点文の組版), featured in "Introduction to Vertical and Horizontal Document Composition" (入門・縦横文書術) by Fujita Shinsaku](http://xymtex.com/fujitas/kanbun/kanbunex.html). A modified version of this style file, adapted for LuaLaTeX compatibility and renamed `sfkanbun-lua.sty`, has been made available at [https://github.com/shikeda/rose](https://github.com/shikeda/rose).
 
-双行とは割注のことである。
+Therefore, to minimize changes to existing TeX source files, frequently used macros in `kunten2e.sty` have been mapped to macros in `sfkanbun.sty` that provide equivalent functionality, or compatibility has been otherwise ensured.
 
-kunten2e.styでは、次のように入力する。
+
+
+## Sōgyō (双行 - Double-Line Annotations)
+
+*Sōgyō* (双行) refers to a type of **`Interlinear Note`** (割注, *warichū*), specifically one that is typically presented in two lines.
+
+In `kunten2e.sty`, this is input as follows:
 
 ~~~tex
-\sougyou{右行}{左行}
+\sougyou{right-hand line}{left-hand line}
 ~~~
+*(In vertical text, the "right-hand line" is typically the first line of the two-line note, and the "left-hand line" is the second.)*
 
-sfkanbun.styでは、多行割を用いる。
+In `sfkanbun.sty`, the `\tagyobox` command (for multi-line interlinear notes) is used:
 
 ~~~tex
-\tagyobox{項目１ \\ 項目２ \\ ...}
+\tagyobox{item 1 \\ item 2 \\ ...}
 ~~~
 
-割注は、項目１と項目２とで十分なので、次のような
-コマンドを定義しておく。
+Since an **`Interlinear Note`** (*warichū*) often consists of just two lines (corresponding to "item 1" and "item 2" above), the following custom LaTeX command can be defined to simplify input for such cases:
 
 ~~~tex
 \newcommand{\sougyou}[2]{\tagyobox{#1 \\ #2}}
 ~~~
 
-### 副双行
 
-副双行とは、双行中にさらに双行を作るものである。
-kunten2e.styでは次のように入力する。
+## Nested Double-Line Annotations (副双行, *Fukusōgyō*)
 
-~~~tex
-\hukusougyou{右行}{左行}
-~~~
-
-これは、sfkanbun.styの複多行割で対応できる。
+A *fukusōgyō* (副双行) refers to creating an additional double-line annotation (*sōgyō*) within an existing *sōgyō* (double-line interlinear note).
+In `kunten2e.sty`, this is input as follows:
 
 ~~~tex
-\fukutagyobox{項目１ \\ 項目２ \\ ...}
+\hukusougyou{right-hand line}{left-hand line}
 ~~~
 
-副双行は、項目１と項目２とで十分なので、次のような
-コマンドを定義しておく。
+This functionality can be achieved in `sfkanbun.sty` using its feature for nested multi-line interlinear notes (`\fukutagyobox`).
+
+~~~tex
+\fukutagyobox{item 1 \\ item 2 \\ ...}
+~~~
+
+Since a nested double-line annotation typically requires only two items (lines), the following custom LaTeX command can be defined to simplify input for such cases:
 
 ~~~tex
 \newcommand{\hukusougyou}[2]{\fukutagyobox{#1 \\ #2}}
 ~~~
 
-## 送り仮名、返り点
+## Okurigana and Kaeriten Marks (送り仮名、返り点)
 
-sfkanbun.styの\kundokuが便利である。
+The `\kundoku` command from `sfkanbun.sty` is useful for typesetting *okurigana* (送り仮名, inflectional kana endings) and *kaeriten* (返り点, guiding marks for Japanese reading order of Kanbun). Its syntax is:
 
 ~~~tex
-\kundoku[制御]{親文字}{ルビ}{送りがな}{返り点}[肩返り点](句読点)
+\kundoku[control_options]{base_character}{ruby_text}{okurigana}{kaeriten_mark}[shoulder_kaeriten_mark](punctuation_mark)
 ~~~
 
-(句読点)はオプション。
+The `(punctuation_mark)` argument is optional.
 
-## ルビ
+## Ruby (ルビ)
 
-ルビを使うマクロはいくつかものがある。
-いろいろ試したが、luatexja-ruby.styを
-使うことにした。
+Several macros are available for using ruby (ルビ, small phonetic glosses alongside characters). After experimentation, we decided to use `luatexja-ruby.sty`.
 
+The basic syntax is:
 ~~~tex
 \ltjruby[⟨option⟩]{親|文|字}{おや|も|じ}
 ~~~
 
-\rubyという別名も定義されている。
+In this example, the command specifies that the ruby text 'おや' (*oya*) is to be applied to the base character '親'; 'も' (*mo*) to '文'; and 'じ' (*ji*) to '字'.
 
-経緯はわすれたが、\ukunというコマンドを
-定義してルビを付けていたので、次のように
-して元のファイルの書き換えをしないようにした。
+An alias `\ruby` is also defined for this command.
+
+Although the exact circumstances are no longer recalled, ruby was previously applied using a custom command named `\ukun`. To avoid rewriting original files that used this command, `\ukun` has been (re)defined as follows:
 
 ~~~tex
 \newcommand{\ukun}[2]{\ltjruby{#1}{#2}}
 ~~~
 
-\ukunを\rubyに一括変換してもよい。
+Alternatively, all instances of `\ukun` could be globally replaced with `\ruby`.

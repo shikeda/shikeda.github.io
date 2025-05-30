@@ -4,28 +4,27 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="
-  sfkanbun.styの設定
+  Setting up sfkanbun.sty
   #
 
-訓点資料用スタイル・ファイル（kunten2e.sty）は、
-upLaTeXであれば使えるが、
-LuaLaTeXで使えない。このスタイル・ファイルで
-作成した文書ファイルもある。">
+The style file for kunten materials, kunten2e.sty, can be used with upLaTeX but is not compatible with LuaLaTeX. Some existing document files were created using this kunten2e.sty style file.
+The sfkanbun package (sfkanbun.sty for Kanbun texts) originates from the work on Typesetting Kanbun with Kundoku Marks (漢文の訓点文の組版), featured in &ldquo;Introduction to Vertical and Horizontal Document Composition&rdquo; (入門・縦横文書術) by Fujita Shinsaku. A modified version of this style file, adapted for LuaLaTeX compatibility and renamed sfkanbun-lua.sty, has been made available at https://github.com/shikeda/rose.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://shikeda.github.io/en/docs/krm/06-typesetting/06-03-sfkanbun-sty/">
   <meta property="og:site_name" content="HDIC project">
-  <meta property="og:title" content="sfkanbun.styの設定">
-  <meta property="og:description" content="sfkanbun.styの設定 # 訓点資料用スタイル・ファイル（kunten2e.sty）は、 upLaTeXであれば使えるが、 LuaLaTeXで使えない。このスタイル・ファイルで 作成した文書ファイルもある。">
+  <meta property="og:title" content="Setting up sfkanbun.sty">
+  <meta property="og:description" content="Setting up sfkanbun.sty # The style file for kunten materials, kunten2e.sty, can be used with upLaTeX but is not compatible with LuaLaTeX. Some existing document files were created using this kunten2e.sty style file.
+The sfkanbun package (sfkanbun.sty for Kanbun texts) originates from the work on Typesetting Kanbun with Kundoku Marks (漢文の訓点文の組版), featured in “Introduction to Vertical and Horizontal Document Composition” (入門・縦横文書術) by Fujita Shinsaku. A modified version of this style file, adapted for LuaLaTeX compatibility and renamed sfkanbun-lua.sty, has been made available at https://github.com/shikeda/rose.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
-<title>sfkanbun.styの設定 | HDIC project</title>
+<title>Setting up sfkanbun.sty | HDIC project</title>
 <link rel="manifest" href="https://shikeda.github.io/manifest.json">
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
   <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/06-typesetting/06-03-sfkanbun-sty/" title="sfkanbun.styの設定">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.2eb9261045046b5a62a3b05a0d42dc83843b245d6ee2833aae5e96f3ec26c703.css" integrity="sha256-LrkmEEUEa1pio7BaDULcg4Q7JF1u4oM6rl6W8&#43;wmxwM=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/en.search.min.3b465d927960b2c169ed060b04ad26918a1227faf88ad3d8ee924aa1c199056d.js" integrity="sha256-O0ZdknlgssFp7QYLBK0mkYoSJ/r4itPY7pJKocGZBW0=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.99b9389b0d204453ce0040fe1dc30646b8ea767825282fa0d93e8fcf662941ae.js" integrity="sha256-mbk4mw0gRFPOAED&#43;HcMGRrjqdnglKC&#43;g2T6Pz2YpQa4=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -519,7 +518,7 @@ https://github.com/alex-shpak/hugo-book
   
     <input type="checkbox" id="section-8f36bd55eb0bd85ca8e0efcd3f2704d0" class="toggle" checked />
     <label for="section-8f36bd55eb0bd85ca8e0efcd3f2704d0" class="flex justify-between">
-      <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/" class="">翻刻・注釈の組版の設定</a>
+      <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/" class="">Typesetting Configuration for Transcriptions and Annotations</a>
     </label>
   
 
@@ -533,7 +532,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-01-hanazono-mincho/" class="">花園明朝の設定</a>
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-01-hanazono-mincho/" class="">Setting up Hanazono Mincho</a>
   
 
         </li>
@@ -546,7 +545,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-02-glypwiki/" class="">GlyphWikiの設定</a>
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-02-glypwiki/" class="">Setting up GlyphWiki</a>
   
 
         </li>
@@ -559,7 +558,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-03-sfkanbun-sty/" class=" active">sfkanbun.styの設定</a>
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-03-sfkanbun-sty/" class=" active">Setting up sfkanbun.sty</a>
   
 
         </li>
@@ -572,7 +571,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-04-vscode-texlive/" class="">VS CodeとTeX Live</a>
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-04-vscode-texlive/" class="">A Memorandum on LuaTeX Typesetting for Old Dictionaries and Kunten Materials</a>
   
 
         </li>
@@ -585,7 +584,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-05-online-tools/" class="">オンラインツール</a>
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-05-online-tools/" class="">Online Tools</a>
   
 
         </li>
@@ -648,7 +647,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="https://shikeda.github.io/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>sfkanbun.styの設定</strong>
+  <strong>Setting up sfkanbun.sty</strong>
 
   <label for="toc-control">
     
@@ -664,14 +663,10 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#sfkanbunstyの設定">sfkanbun.styの設定</a>
-      <ul>
-        <li><a href="#双行">双行</a></li>
-        <li><a href="#副双行">副双行</a></li>
-      </ul>
-    </li>
-    <li><a href="#送り仮名返り点">送り仮名、返り点</a></li>
-    <li><a href="#ルビ">ルビ</a></li>
+    <li><a href="#sōgyō-双行---double-line-annotations">Sōgyō (双行 - Double-Line Annotations)</a></li>
+    <li><a href="#nested-double-line-annotations-副双行-fukusōgyō">Nested Double-Line Annotations (副双行, <em>Fukusōgyō</em>)</a></li>
+    <li><a href="#okurigana-and-kaeriten-marks-送り仮名返り点">Okurigana and Kaeriten Marks (送り仮名、返り点)</a></li>
+    <li><a href="#ruby-ルビ">Ruby (ルビ)</a></li>
   </ul>
 </nav>
 
@@ -684,65 +679,55 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h2 id="sfkanbunstyの設定">
-  sfkanbun.styの設定
-  <a class="anchor" href="#sfkanbunsty%e3%81%ae%e8%a8%ad%e5%ae%9a">#</a>
+  <article class="markdown"><h1 id="setting-up-sfkanbunsty">
+  Setting up <code>sfkanbun.sty</code>
+  <a class="anchor" href="#setting-up-sfkanbunsty">#</a>
+</h1>
+<p>The style file for <em>kunten</em> materials, <code>kunten2e.sty</code>, can be used with upLaTeX but is not compatible with LuaLaTeX. Some existing document files were created using this <code>kunten2e.sty</code> style file.</p>
+<p>The sfkanbun package (<code>sfkanbun.sty</code> for Kanbun texts) originates from the work on <a href="http://xymtex.com/fujitas/kanbun/kanbunex.html">Typesetting Kanbun with <em>Kundoku</em> Marks (漢文の訓点文の組版), featured in &ldquo;Introduction to Vertical and Horizontal Document Composition&rdquo; (入門・縦横文書術) by Fujita Shinsaku</a>. A modified version of this style file, adapted for LuaLaTeX compatibility and renamed <code>sfkanbun-lua.sty</code>, has been made available at <a href="https://github.com/shikeda/rose">https://github.com/shikeda/rose</a>.</p>
+<p>Therefore, to minimize changes to existing TeX source files, frequently used macros in <code>kunten2e.sty</code> have been mapped to macros in <code>sfkanbun.sty</code> that provide equivalent functionality, or compatibility has been otherwise ensured.</p>
+<h2 id="sōgyō-双行---double-line-annotations">
+  Sōgyō (双行 - Double-Line Annotations)
+  <a class="anchor" href="#s%c5%8dgy%c5%8d-%e5%8f%8c%e8%a1%8c---double-line-annotations">#</a>
 </h2>
-<p>訓点資料用スタイル・ファイル（kunten2e.sty）は、
-upLaTeXであれば使えるが、
-LuaLaTeXで使えない。このスタイル・ファイルで
-作成した文書ファイルもある。</p>
-<p>sfkanbunパッケージ (漢文sfkanbun.sty）は、</p>
-<p><a href="http://xymtex.com/fujitas/kanbun/kanbunex.html">漢文の訓点文の組版（藤田眞作著「入門・縦横文書術」所載）</a>のものだが、
-LuaLaTeX対応させる<a href="https://oku.edu.mie-u.ac.jp/tex/mod/forum/discuss.php?d=2655&amp;parent=15518">パッチ</a>がでている。</p>
-<p>そこで、kunten2e.styでよく利用するマクロと同機能
-sfkanbun.styのマクロを対応させて、TeXのソースファイルの
-変更を最小限とすることにした。</p>
-<h3 id="双行">
-  双行
-  <a class="anchor" href="#%e5%8f%8c%e8%a1%8c">#</a>
-</h3>
-<p>双行とは割注のことである。</p>
-<p>kunten2e.styでは、次のように入力する。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\sougyou</span>{右行}{左行}
-</span></span></code></pre></div><p>sfkanbun.styでは、多行割を用いる。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\tagyobox</span>{項目１ <span style="color:#66d9ef">\\</span> 項目２ <span style="color:#66d9ef">\\</span> ...}
-</span></span></code></pre></div><p>割注は、項目１と項目２とで十分なので、次のような
-コマンドを定義しておく。</p>
+<p><em>Sōgyō</em> (双行) refers to a type of <strong><code>Interlinear Note</code></strong> (割注, <em>warichū</em>), specifically one that is typically presented in two lines.</p>
+<p>In <code>kunten2e.sty</code>, this is input as follows:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\sougyou</span>{right-hand line}{left-hand line}
+</span></span></code></pre></div><p><em>(In vertical text, the &ldquo;right-hand line&rdquo; is typically the first line of the two-line note, and the &ldquo;left-hand line&rdquo; is the second.)</em></p>
+<p>In <code>sfkanbun.sty</code>, the <code>\tagyobox</code> command (for multi-line interlinear notes) is used:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\tagyobox</span>{item 1 <span style="color:#66d9ef">\\</span> item 2 <span style="color:#66d9ef">\\</span> ...}
+</span></span></code></pre></div><p>Since an <strong><code>Interlinear Note</code></strong> (<em>warichū</em>) often consists of just two lines (corresponding to &ldquo;item 1&rdquo; and &ldquo;item 2&rdquo; above), the following custom LaTeX command can be defined to simplify input for such cases:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\newcommand</span>{<span style="color:#66d9ef">\sougyou</span>}[2]{<span style="color:#66d9ef">\tagyobox</span>{#1 <span style="color:#66d9ef">\\</span> #2}}
-</span></span></code></pre></div><h3 id="副双行">
-  副双行
-  <a class="anchor" href="#%e5%89%af%e5%8f%8c%e8%a1%8c">#</a>
-</h3>
-<p>副双行とは、双行中にさらに双行を作るものである。
-kunten2e.styでは次のように入力する。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\hukusougyou</span>{右行}{左行}
-</span></span></code></pre></div><p>これは、sfkanbun.styの複多行割で対応できる。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\fukutagyobox</span>{項目１ <span style="color:#66d9ef">\\</span> 項目２ <span style="color:#66d9ef">\\</span> ...}
-</span></span></code></pre></div><p>副双行は、項目１と項目２とで十分なので、次のような
-コマンドを定義しておく。</p>
+</span></span></code></pre></div><h2 id="nested-double-line-annotations-副双行-fukusōgyō">
+  Nested Double-Line Annotations (副双行, <em>Fukusōgyō</em>)
+  <a class="anchor" href="#nested-double-line-annotations-%e5%89%af%e5%8f%8c%e8%a1%8c-fukus%c5%8dgy%c5%8d">#</a>
+</h2>
+<p>A <em>fukusōgyō</em> (副双行) refers to creating an additional double-line annotation (<em>sōgyō</em>) within an existing <em>sōgyō</em> (double-line interlinear note).
+In <code>kunten2e.sty</code>, this is input as follows:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\hukusougyou</span>{right-hand line}{left-hand line}
+</span></span></code></pre></div><p>This functionality can be achieved in <code>sfkanbun.sty</code> using its feature for nested multi-line interlinear notes (<code>\fukutagyobox</code>).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\fukutagyobox</span>{item 1 <span style="color:#66d9ef">\\</span> item 2 <span style="color:#66d9ef">\\</span> ...}
+</span></span></code></pre></div><p>Since a nested double-line annotation typically requires only two items (lines), the following custom LaTeX command can be defined to simplify input for such cases:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\newcommand</span>{<span style="color:#66d9ef">\hukusougyou</span>}[2]{<span style="color:#66d9ef">\fukutagyobox</span>{#1 <span style="color:#66d9ef">\\</span> #2}}
-</span></span></code></pre></div><h2 id="送り仮名返り点">
-  送り仮名、返り点
-  <a class="anchor" href="#%e9%80%81%e3%82%8a%e4%bb%ae%e5%90%8d%e8%bf%94%e3%82%8a%e7%82%b9">#</a>
+</span></span></code></pre></div><h2 id="okurigana-and-kaeriten-marks-送り仮名返り点">
+  Okurigana and Kaeriten Marks (送り仮名、返り点)
+  <a class="anchor" href="#okurigana-and-kaeriten-marks-%e9%80%81%e3%82%8a%e4%bb%ae%e5%90%8d%e8%bf%94%e3%82%8a%e7%82%b9">#</a>
 </h2>
-<p>sfkanbun.styの\kundokuが便利である。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\kundoku</span><span style="color:#a6e22e">[制御]</span>{親文字}{ルビ}{送りがな}{返り点}[肩返り点](句読点)
-</span></span></code></pre></div><p>(句読点)はオプション。</p>
-<h2 id="ルビ">
-  ルビ
-  <a class="anchor" href="#%e3%83%ab%e3%83%93">#</a>
+<p>The <code>\kundoku</code> command from <code>sfkanbun.sty</code> is useful for typesetting <em>okurigana</em> (送り仮名, inflectional kana endings) and <em>kaeriten</em> (返り点, guiding marks for Japanese reading order of Kanbun). Its syntax is:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\kundoku</span><span style="color:#a6e22e">[control_options]</span>{base_character}{ruby_text}{okurigana}{kaeriten_mark}[shoulder_kaeriten_mark](punctuation_mark)
+</span></span></code></pre></div><p>The <code>(punctuation_mark)</code> argument is optional.</p>
+<h2 id="ruby-ルビ">
+  Ruby (ルビ)
+  <a class="anchor" href="#ruby-%e3%83%ab%e3%83%93">#</a>
 </h2>
-<p>ルビを使うマクロはいくつかものがある。
-いろいろ試したが、luatexja-ruby.styを
-使うことにした。</p>
+<p>Several macros are available for using ruby (ルビ, small phonetic glosses alongside characters). After experimentation, we decided to use <code>luatexja-ruby.sty</code>.</p>
+<p>The basic syntax is:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\ltjruby</span><span style="color:#a6e22e">[⟨option⟩]</span>{親|文|字}{おや|も|じ}
-</span></span></code></pre></div><p>\rubyという別名も定義されている。</p>
-<p>経緯はわすれたが、\ukunというコマンドを
-定義してルビを付けていたので、次のように
-して元のファイルの書き換えをしないようにした。</p>
+</span></span></code></pre></div><p>In this example, the command specifies that the ruby text &lsquo;おや&rsquo; (<em>oya</em>) is to be applied to the base character &lsquo;親&rsquo;; &lsquo;も&rsquo; (<em>mo</em>) to &lsquo;文&rsquo;; and &lsquo;じ&rsquo; (<em>ji</em>) to &lsquo;字&rsquo;.</p>
+<p>An alias <code>\ruby</code> is also defined for this command.</p>
+<p>Although the exact circumstances are no longer recalled, ruby was previously applied using a custom command named <code>\ukun</code>. To avoid rewriting original files that used this command, <code>\ukun</code> has been (re)defined as follows:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\newcommand</span>{<span style="color:#66d9ef">\ukun</span>}[2]{<span style="color:#66d9ef">\ltjruby</span>{#1}{#2}}
-</span></span></code></pre></div><p>\ukunを\rubyに一括変換してもよい。</p>
+</span></span></code></pre></div><p>Alternatively, all instances of <code>\ukun</code> could be globally replaced with <code>\ruby</code>.</p>
 </article>
  
       
@@ -779,14 +764,10 @@ kunten2e.styでは次のように入力する。</p>
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#sfkanbunstyの設定">sfkanbun.styの設定</a>
-      <ul>
-        <li><a href="#双行">双行</a></li>
-        <li><a href="#副双行">副双行</a></li>
-      </ul>
-    </li>
-    <li><a href="#送り仮名返り点">送り仮名、返り点</a></li>
-    <li><a href="#ルビ">ルビ</a></li>
+    <li><a href="#sōgyō-双行---double-line-annotations">Sōgyō (双行 - Double-Line Annotations)</a></li>
+    <li><a href="#nested-double-line-annotations-副双行-fukusōgyō">Nested Double-Line Annotations (副双行, <em>Fukusōgyō</em>)</a></li>
+    <li><a href="#okurigana-and-kaeriten-marks-送り仮名返り点">Okurigana and Kaeriten Marks (送り仮名、返り点)</a></li>
+    <li><a href="#ruby-ルビ">Ruby (ルビ)</a></li>
   </ul>
 </nav>
 

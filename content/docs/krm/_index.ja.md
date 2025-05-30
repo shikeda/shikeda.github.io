@@ -61,7 +61,7 @@ weight: 1
     - [花園明朝の設定](/docs/krm/06-typesetting/06-01-hanazono-mincho/)
     - [GlyphWikiの設定](/docs/krm/06-typesetting/06-02-glyphwiki/)
     - [sfkanbun.styの設定](/docs/krm/06-typesetting/06-03-sfkanbun-sty/)
-    - [VS CodeとTeX Live](/docs/krm/06-typesetting/06-04-vscode-texlive/)
+    - [古辞書・訓点資料のためのLuaTeX組版備忘録](/docs/krm/06-typesetting/06-04-vscode-texlive/)
     - [オンラインツール](/docs/krm/06-typesetting/06-05-online-tools/)
 - [進捗状況](/docs/krm/06-progress/)
 - [事例研究](/docs/krm/07-case-studies/)

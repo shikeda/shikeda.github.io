@@ -83,3 +83,8 @@ mojikyo.styは、Unicodeの漢字が自由に使えない
 GlypWikiをLuaLaTeXに対応した
 bxglypwiki.styを使えばよいだろう。
 
+- [花園明朝の設定](/docs/krm/06-typesetting/06-01-hanazono-mincho/)
+- [GlyphWikiの設定](/docs/krm/06-typesetting/06-02-glyphwiki/)
+- [sfkanbun.styの設定](/docs/krm/06-typesetting/06-03-sfkanbun-sty/)
+- [古辞書・訓点資料のためのLuaTeX組版備忘録](/docs/krm/06-typesetting/06-04-vscode-texlive/)
+- [オンラインツール](/docs/krm/06-typesetting/06-05-online-tools/)

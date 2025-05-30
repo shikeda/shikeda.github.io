@@ -1,76 +1,65 @@
 ---
-title: "花園明朝の設定"
+title: "Setting up Hanazono Mincho"
 weight: 31
 ---
-Under preparation.
-## 前提
 
-[TeX Live](https://texwiki.texjp.org/?TeX%20Live)が使えるように設定しておく。
+# Setting up Hanazono Mincho
 
+## Prerequisites
 
-## 花園明朝の設定
+Ensure that [TeX Live](https://texwiki.texjp.org/?TeX%20Live) is set up and ready to use.
 
-### 花園フォント
+## Hanazono Fonts
 
-[花園明朝のフォント](http://fonts.jp/hanazono/)をパソコンにインストールしておく。
+Install the [Hanazono Mincho fonts](http://fonts.jp/hanazono/) on your computer.
 
-### ブラウザでの確認
+## Browser Confirmation
 
-たとえば、
-Chromeで
-[ctext.orgのDictionaryの一部のページ](https://ctext.org/dictionary.pl?if=en&rad=1)
-を見てください。
+For example, open [a page from the ctext.org Dictionary (e.g., radicals section)](https://ctext.org/dictionary.pl?if=en&rad=1) in the Chrome browser.
+Confirm that the list of **`Hanzi (Chinese characters)`** is displayed correctly.
 
-漢字の一覧が表示されているかを確認。
+## Installing Hanazono Fonts in TeX Live
 
-### 花園フォントをTexLiveにインストール
+To add fonts to TeX Live, place them in the `fonts` directory located under the `texmf-local` directory. Within the `fonts` directory, there should be an `opentype` subdirectory; placing the font files there should suffice. The exact location of the `fonts` directory may vary depending on your system configuration.
 
-TeX Live での font の追加は、texmf-localディレクトリの下のfontsにいれる。
-fontsの中にopyetypeディレクトリがあるので、その中に入れれば大丈夫。
-システムによってはfontsの場所が違うことがある。
+In my specific environment—TeX Live installed on Ubuntu via WSL (Windows Subsystem for Linux) on Windows 11—I placed `HanaMinA.ttf` and `HanaMinB.ttf` into the following directory:
 
-私は、Windows 11 にWSLでUbuntuを入れて、TeX Liveをインストールした環境にしたが、
-これだと
+```
+/usr/local/texlive/texmf-local/fonts/opentype/hanazono
+```
 
-  /usr/local/texlive/texmf-local/fonts/opentype/hanazono
+## LuaLaTeX Sample File
 
-に HanaMinA.ttfと HanaMinB.ttfを入れた。
-
-
-### LuaLaTeXのサンプルファイル
-
-次をsample1.texなどと名前を付けて保存し、
-LuaLaTeXでpdfファイルを生成する。
+Save the following content as a file named, for example, `sample1.tex`, and then generate a PDF file using LuaLaTeX:
 
 ```
 $ lualatex sample1.tex
 ```
 
-短いテキストだが、ちょっと時間がかかる。
-といっても1分かそこらだが、瞬時に生成されるわけではない。
+
+Although the text is short, compilation may take a little while. It might be around a minute or so, but it is not generated instantaneously.
 
 
 ~~~tex
 \documentclass{jlreq}
 \usepackage{luatexja-fontspec}
-% BMPはHanaMinA, SIPはHanaMinB, ただし可能ならIPAexMincho
-% で置き換える, という設定
+% A setting where: HanaMinA is used for BMP (Basic Multilingual Plane) characters and HanaMinB is used for SIP (Supplementary Ideographic Plane) characters; however, these are to be replaced by IPAexMincho if possible.
 \setmainjfont[AltFont={
   {Range="20000-"2FFFF, Font=HanaMinB},
   {Range="0080-"FFFF, Font=IPAexMincho},
 }]{HanaMinA}
-% 花園明朝AFDKO版 2017-06-20
+% Hanazono Mincho AFDKO version 2017-06-20
 \begin{document}
 
-これはctext.orgのデータです。
+This data is from ctext.org.
 
-《康熙字典·一部》の「三」の項目です。
+It is the entry for '三' from the *Kangxi Dictionary* (康熙字典), section '一部' (the first radical section, *ichibu*).
 
-「𡘋與三同」の最初の文字が表示されるかどうかを確認してください。
+Please confirm whether the first character of '𡘋與三同' is displayed correctly.
 
 Kangxi:	《康熙字典·一部·二》三：〔古文〕弎《唐韻》《集韻》《韻會》蘇甘切《正韻》蘇監切，𡘋颯平聲。《說文》三，天地人之道也。謂以陽之一合隂之二，次第重之，其數三也。《老子·道德經》一生二，二生三，三生萬物。《史記·律書》數始於一，終於十，成於三。又《周禮·冬官考工記》凡兵無過三其身。又《左傳·昭七年》士文伯曰：政不可不愼，務三而已。一擇人，二因民，三從時。又《晉語》民生於三，事之如一。又《周語》人三爲衆，女三爲粲，獸三爲羣。又姓。明三成志。又漢複姓。屈原之後有三閭氏，三飯尞之後有三飯氏，三州孝子之後有三州氏。又去聲。《韻會》蘇暫切。《論語》三思而後行。又本作參。《博雅》參，三也。《周禮·冬官考工記》參分其股圍。《前漢·𠛬法志》秦造參夷之誅。𡘋與三同。又《韻補》叶疏簪切，音森。《詩·召南》摽有梅，其實三兮。下叶今。叁。\\
 
-次は「一部」の部首画数順のリストです。
+The following is a list from the '一部' section, ordered by radical and then by stroke count.
 
 0 strokes:	一\\
 1 strokes:	丁 丂 七 丄 丅 丆 𠀀 𠀁 𠀂 𫠠 𬺰\\
@@ -95,5 +84,4 @@ Kangxi:	《康熙字典·一部·二》三：〔古文〕弎《唐韻》《集�
 \end{document}
 ~~~
 
-うまくできているようなら、このサンプルファイルを
-適宜、修正・加工する。
+If this sample file is processed successfully, you can then modify and adapt it as needed.

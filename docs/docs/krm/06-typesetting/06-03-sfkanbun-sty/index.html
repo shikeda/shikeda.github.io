@@ -22,10 +22,10 @@ LuaLaTeXで使えない。このスタイル・ファイルで
 <title>sfkanbun.styの設定 | HDIC project</title>
 <link rel="manifest" href="https://shikeda.github.io/manifest.json">
 <link rel="icon" href="https://shikeda.github.io/favicon.png" type="image/x-icon">
-  <link rel="alternate" hreflang="en" href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-03-sfkanbun-sty/" title="sfkanbun.styの設定">
+  <link rel="alternate" hreflang="en" href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-03-sfkanbun-sty/" title="Setting up sfkanbun.sty">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.2eb9261045046b5a62a3b05a0d42dc83843b245d6ee2833aae5e96f3ec26c703.css" integrity="sha256-LrkmEEUEa1pio7BaDULcg4Q7JF1u4oM6rl6W8&#43;wmxwM=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/ja.search.min.4a9e9679d8ddbb5db50351ced6030a9de60b7326baefb7326b986dfa818ec988.js" integrity="sha256-Sp6Wedjdu121A1HO1gMKneYLcya677cya5ht&#43;oGOyYg=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/ja.search.min.d216503fa158ffd9867a4dc377b30cd9cead558e5085c7d3523904426e755718.js" integrity="sha256-0hZQP6FY/9mGek3Dd7MM2c6tVY5QhcfTUjkEQm51Vxg=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -572,7 +572,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://shikeda.github.io/docs/krm/06-typesetting/06-04-vscode-texlive/" class="">VS CodeとTeX Live</a>
+    <a href="https://shikeda.github.io/docs/krm/06-typesetting/06-04-vscode-texlive/" class="">古辞書・訓点資料のためのLuaTeX組版備忘録</a>
   
 
         </li>
@@ -902,12 +902,8 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#sfkanbunstyの設定">sfkanbun.styの設定</a>
-      <ul>
-        <li><a href="#双行">双行</a></li>
-        <li><a href="#副双行">副双行</a></li>
-      </ul>
-    </li>
+    <li><a href="#双行">双行</a></li>
+    <li><a href="#副双行">副双行</a></li>
     <li><a href="#送り仮名返り点">送り仮名、返り点</a></li>
     <li><a href="#ルビ">ルビ</a></li>
   </ul>
@@ -922,24 +918,25 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h2 id="sfkanbunstyの設定">
+  <article class="markdown"><h1 id="sfkanbunstyの設定">
   sfkanbun.styの設定
   <a class="anchor" href="#sfkanbunsty%e3%81%ae%e8%a8%ad%e5%ae%9a">#</a>
-</h2>
+</h1>
 <p>訓点資料用スタイル・ファイル（kunten2e.sty）は、
 upLaTeXであれば使えるが、
 LuaLaTeXで使えない。このスタイル・ファイルで
 作成した文書ファイルもある。</p>
-<p>sfkanbunパッケージ (漢文sfkanbun.sty）は、</p>
-<p><a href="http://xymtex.com/fujitas/kanbun/kanbunex.html">漢文の訓点文の組版（藤田眞作著「入門・縦横文書術」所載）</a>のものだが、
-LuaLaTeX対応させる<a href="https://oku.edu.mie-u.ac.jp/tex/mod/forum/discuss.php?d=2655&amp;parent=15518">パッチ</a>がでている。</p>
+<p>sfkanbunパッケージ（漢文sfkanbun.sty）は、
+<a href="http://xymtex.com/fujitas/kanbun/kanbunex.html">漢文の訓点文の組版（藤田眞作著「入門・縦横文書術」所載）</a>のものだが、
+LuaLaTeX対応させたスタイル・ファイル（sfkanbun-lua.styにリネーム）を
+<a href="https://github.com/shikeda/rose">https://github.com/shikeda/rose</a>においてある。</p>
 <p>そこで、kunten2e.styでよく利用するマクロと同機能
 sfkanbun.styのマクロを対応させて、TeXのソースファイルの
 変更を最小限とすることにした。</p>
-<h3 id="双行">
+<h2 id="双行">
   双行
   <a class="anchor" href="#%e5%8f%8c%e8%a1%8c">#</a>
-</h3>
+</h2>
 <p>双行とは割注のことである。</p>
 <p>kunten2e.styでは、次のように入力する。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\sougyou</span>{右行}{左行}
@@ -948,10 +945,10 @@ sfkanbun.styのマクロを対応させて、TeXのソースファイルの
 </span></span></code></pre></div><p>割注は、項目１と項目２とで十分なので、次のような
 コマンドを定義しておく。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\newcommand</span>{<span style="color:#66d9ef">\sougyou</span>}[2]{<span style="color:#66d9ef">\tagyobox</span>{#1 <span style="color:#66d9ef">\\</span> #2}}
-</span></span></code></pre></div><h3 id="副双行">
+</span></span></code></pre></div><h2 id="副双行">
   副双行
   <a class="anchor" href="#%e5%89%af%e5%8f%8c%e8%a1%8c">#</a>
-</h3>
+</h2>
 <p>副双行とは、双行中にさらに双行を作るものである。
 kunten2e.styでは次のように入力する。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span><span style="color:#66d9ef">\hukusougyou</span>{右行}{左行}
@@ -1017,12 +1014,8 @@ kunten2e.styでは次のように入力する。</p>
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#sfkanbunstyの設定">sfkanbun.styの設定</a>
-      <ul>
-        <li><a href="#双行">双行</a></li>
-        <li><a href="#副双行">副双行</a></li>
-      </ul>
-    </li>
+    <li><a href="#双行">双行</a></li>
+    <li><a href="#副双行">副双行</a></li>
     <li><a href="#送り仮名返り点">送り仮名、返り点</a></li>
     <li><a href="#ルビ">ルビ</a></li>
   </ul>
