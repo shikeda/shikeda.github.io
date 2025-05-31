@@ -29,7 +29,7 @@
   <link rel="alternate" hreflang="en" href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-04-onchu-problems/" title="Types and Decipherment Problems of Pronunciation Notes">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.2eb9261045046b5a62a3b05a0d42dc83843b245d6ee2833aae5e96f3ec26c703.css" integrity="sha256-LrkmEEUEa1pio7BaDULcg4Q7JF1u4oM6rl6W8&#43;wmxwM=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/ja.search.min.d216503fa158ffd9867a4dc377b30cd9cead558e5085c7d3523904426e755718.js" integrity="sha256-0hZQP6FY/9mGek3Dd7MM2c6tVY5QhcfTUjkEQm51Vxg=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/ja.search.min.e0151cf6cf2d48bd561700c94697c93f95c5dd21b3b71673ead3305bd9d85147.js" integrity="sha256-4BUc9s8tSL1WFwDJRpfJP5XF3SGztxZz6tMwW9nYUUc=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -957,33 +957,48 @@ https://github.com/alex-shpak/hugo-book
   <a class="anchor" href="#%e5%8f%8d%e5%88%87">#</a>
 </h2>
 <p>次は広韻に記載のない掲出字が連続して出現する箇所である。</p>
-<pre><code>K0101633    仱	紺音　渠廉反　古樂人
-K0101634    佡	俗仚字　丘豉反　呼莚反
-K0101641    ⿰亻企	俗企字
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K01016330, <code>hanzi_entry</code>: 仱, <code>definition</code>: 紺音　渠廉反　古樂人</li>
+<li><code>kazama_location</code>: K01016340, <code>hanzi_entry</code>: 佡, <code>definition</code>: 俗仚字　丘豉反　呼莚反</li>
+<li><code>kazama_location</code>: K01016410, <code>hanzi_entry</code>: ⿰亻企, <code>definition</code>: 俗企字</li>
+</ul>
 <p>この3項目を注文の内容の相違により区切って出現順の番号を付して表示し、それぞれに解説を加えてみよう。</p>
-<pre><code>K0101633_01	仱	紺音	広韻になし。「紺」は広韻「古暗切」（去声勘韻）。
-K0101633_02	仱	渠廉反	万象名義「渠廉反」。平声鹽韻羣母。
-K0101633_03	仱	古樂人	万象名義「古樂人也」。
-K0101634_01	佡	俗仚字	「仚」は説文「人在山上」。
-K0101634_02	佡	丘豉反	広韻になし。「仚」は広韻「許延切」（平声仙韻）。「丘豉反」は去声寘韻渓母。「企」は広韻「丘弭切」（上声紙韻）、「去智切」（去声寘韻）あり、後者の音に対応。
-K0101634_03	佡	呼莚反	龍龕手鏡「佡仚　許延反。輕也。二。」（巻1人部）。
-K0101641_01	⿰亻企	俗企字		
-</code></pre>
-<p>最後のK0101641「⿰亻企」はUnicodeのu2cf7e(𬽾)にあるが、
+<ul>
+<li><code>kazama_location</code>: K01016330, <code>hanzi_entry</code>: 仱,<br>
+<code>definition</code>:
+<ol>
+<li>紺音, <code>remarks</code>: 広韻になし。「紺」は広韻「古暗切」（去声勘韻）。</li>
+<li>渠廉反, <code>remarks</code>: 万象名義「渠廉反」。平声鹽韻羣母。</li>
+<li>古樂人, <code>remarks</code>: 万象名義「古樂人也」。</li>
+</ol>
+</li>
+<li><code>kazama_location</code>: K01016340, <code>hanzi_entry</code>: 佡,<br>
+<code>definition</code>:
+<ol>
+<li>俗仚字, <code>remarks</code>: 「仚」は説文「人在山上」。</li>
+<li>丘豉反, <code>remarks</code>: 広韻になし。「仚」は広韻「許延切」（平声仙韻）。「丘豉反」は去声寘韻渓母。「企」は広韻「丘弭切」（上声紙韻）、「去智切」（去声寘韻）あり、後者の音に対応。</li>
+<li>呼莚反, <code>remarks</code>: 龍龕手鏡「佡仚　許延反。輕也。二。」（巻1人部）。</li>
+</ol>
+</li>
+<li><code>kazama_location</code>: K01016410, <code>hanzi_entry</code>: ⿰亻企,
+<code>definition</code>:
+<ol>
+<li>俗企字</li>
+</ol>
+</li>
+</ul>
+<p>最後の <code>K01016410</code>「⿰亻企」はUnicodeのu2cf7e（𬽾）にあるが、
 環境により表示されない。GlypWikiで表示すると
 <img src="https://glyphwiki.org/glyph/u2cf7e.50px.png" alt="⿰亻企" />となる。</p>
-<p>さて、K0101634「佡」は広韻に見えない。万象名義や宋本玉篇にも見えない。
+<p>さて、<code>K01016340</code>「佡」は広韻に見えない。万象名義や宋本玉篇にも見えない。
 龍龕手鏡に「許延反」（平声仙韻）が見え、観智院本の「呼莚反」に近い。</p>
 <p>観智院本は、この他「丘豉反」（去声寘韻）が記載されている。
 この反切は玄応音義巻第四大灌頂經第一卷に</p>
-<pre><code>郁佡　丘豉反。經文作㑫、非也。（高麗本）
-</code></pre>
-<p>と見える。「佡」は金剛寺本・西方寺本同じだが、七寺本は「伱」に作る。</p>
+<pre tabindex="0"><code>郁佡　丘豉反。經文作㑫、非也。（高麗本）
+</code></pre><p>と見える。「佡」は金剛寺本・西方寺本同じだが、七寺本は「伱」に作る。</p>
 <p>また玄応音義巻第五七佛神呪經第一卷に</p>
-<pre><code>目佡　丘豉反。（高麗本）
-</code></pre>
-<p>と見える。この箇所は古写本が少なく、七寺本が「伱」に作る。
+<pre tabindex="0"><code>目佡　丘豉反。（高麗本）
+</code></pre><p>と見える。この箇所は古写本が少なく、七寺本が「伱」に作る。
 このどちらかは決定できないが、観智院本の「丘豉反」は玄応音義によるとしてよいであろう。</p>
 <p>大正蔵で大灌頂經の「郁佡」を探すと、佛説灌頂七萬二千神王護比丘呪經 (No. 1331 帛戸梨蜜多羅譯)に
 「神名闍羅尼郁⿰亻企目＊⿰亻企」（大正蔵21、496a）とあるのが該当するようである。
@@ -991,12 +1006,13 @@ K0101641_01	⿰亻企	俗企字
 「目⿰亻企」がいくつか使用されている。
 「郁⿰亻企」「目⿰亻企」はいずれも梵語音訳の例である。</p>
 <p>最後に問題とした3項目の前後の項目も見ておこう。</p>
-<pre><code>K0101632    㑫  俗捻字　又俗佡字歟
-K0101633    仱	紺音　渠廉反　古樂人
-K0101634    佡	俗仚字　丘豉反　呼莚反
-K0101641    ⿰亻企	俗企字
-K0101642    伱／你  尼(L&quot;)尒反　ナムチ　イマ　ヲヒ
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K01016320, <code>hanzi_entry</code>: 㑫, <code>definition</code>: 俗捻字　又俗佡字歟</li>
+<li><code>kazama_location</code>: K01016330, <code>hanzi_entry</code>: 仱, <code>definition</code>: 紺音　渠廉反　古樂人</li>
+<li><code>kazama_location</code>: K01016340, <code>hanzi_entry</code>: 佡, <code>definition</code>: 俗仚字　丘豉反　呼莚反</li>
+<li><code>kazama_location</code>: K01016410, <code>hanzi_entry</code>: ⿰亻企, <code>definition</code>: 俗企字</li>
+<li><code>kazama_location</code>: K01016421, <code>hanzi_entry</code>: 伱／你, <code>definition</code>: 尼(L&quot;)尒反　ナムチ　イマ　ヲヒ</li>
+</ul>
 <p>掲出字をGlyphWikiで表示すると次のようになる。</p>
 <p><img src="https://glyphwiki.org/glyph/hdic_hkrm-01016320.50px.png" alt="㑫" />
 <img src="https://glyphwiki.org/glyph/hdic_hkrm-01016330.50px.png" alt="仱" />
@@ -1004,22 +1020,25 @@ K0101642    伱／你  尼(L&quot;)尒反　ナムチ　イマ　ヲヒ
 <img src="https://glyphwiki.org/glyph/hdic_hkrm-01016410.50px.png" alt="⿰亻企" />
 <img src="https://glyphwiki.org/glyph/hdic_hkrm-01016421.50px.png" alt="伱" />
 <img src="https://glyphwiki.org/glyph/hdic_hkrm-01016422.50px.png" alt="你" /></p>
-<p>最初のK0101632「㑫」は玄応音義巻第四大灌頂經第一卷に「郁佡　丘豉反。經文作㑫、非也。」
-とある注文の「經文作㑫、非也」が関連しよう。</p>
+<p>最初のK0101632「㑫」は玄応音義巻第四大灌頂經第一卷に</p>
+<pre tabindex="0"><code>郁佡　丘豉反。經文作㑫、非也。
+</code></pre><p>とある注文の「經文作㑫、非也」が関連しよう。</p>
 <p>また、「㑫」は、龍龕手鏡に次のように見える。</p>
-<pre><code>La0390903   㑫  俗。乃叶反。又舊藏作弃。在七佛神咒經。（高麗本）
-</code></pre>
+<ul>
+<li><code>location</code>: La0390903, <code>hanzi_entry</code>: 㑫, <code>definition</code>: 俗。乃叶反。又舊藏作弃。在七佛神咒經。（高麗本）</li>
+</ul>
 <p>高麗本龍龕手鏡は「㑫」を<img src="https://glyphwiki.org/glyph/hdic_hkrm-01016320.50px.png" alt="㑫" />に作るが、これは観智院本も同じである。</p>
-<p>K0101642「伱／你」はその前の「佡」「⿰亻企」の類似字形である。</p>
+<p><code>K0101642</code>「伱／你」はその前の「佡」「⿰亻企」の類似字形である。</p>
 <h2 id="同音字注">
   同音字注
   <a class="anchor" href="#%e5%90%8c%e9%9f%b3%e5%ad%97%e6%b3%a8">#</a>
 </h2>
-<p>同音字注は類音注ともいう。</p>
+<p>同音字注（Homophone glosses）は類音注（Similar sound notes）ともいう。</p>
 <h2 id="仮名音注">
   仮名音注
   <a class="anchor" href="#%e4%bb%ae%e5%90%8d%e9%9f%b3%e6%b3%a8">#</a>
 </h2>
+<p>仮名音注（Kana Glosses）</p>
 <h2 id="声点">
   声点
   <a class="anchor" href="#%e5%a3%b0%e7%82%b9">#</a>

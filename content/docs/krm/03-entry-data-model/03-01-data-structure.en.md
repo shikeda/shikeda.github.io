@@ -31,7 +31,7 @@ A **`Headword`** (掲出字) is also referred to as *midashi*, *midashiji*, *hy�
 
 **`Original Glosses`** consist of the following components: **`Phonetic Gloss`** (音注, *onchū*), **`Semantic Gloss in Chinese`** (漢文義注, *kanbun gichū*), **`Japanese Native Reading (*wakun*)`** (和訓, *wakun*), **`Notes on Character Form`** (字体注, *jitaichū*), and **`Other`**.
 
-A **`Phonetic Gloss`** is provided through methods such as **`fanqie` spellings** (反切), **`Similar sound notes`** (類音注, *ruion-chū*), **`Kana glosses`** (片仮名音注, *kana-onchū*), **`Tone marks (*shōten*)`** (声点), and other notations.
+A **`Phonetic Gloss`** is provided through methods such as **`fanqie` spellings** (反切), **`Similar sound notes`** (類音注, *ruion-chū*), **`Kana glosses`** (仮名音注, *kana-onchū*), **`Tone marks (*shōten*)`** (声点), and other notations.
 
 A **`Semantic Gloss in Chinese`** is also sometimes referred to as *gichū* (義注, semantic gloss) or *kanbun imichū* (漢文意味注, semantic gloss in Chinese). Unless it causes misunderstanding, it is often simply referred to as **`Semantic Gloss`** (義注).
 

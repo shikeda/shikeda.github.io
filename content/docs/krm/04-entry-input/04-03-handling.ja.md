@@ -325,7 +325,7 @@ weight: 4
 
 **音注の種類**
 
-反切（*fanqie* spelling）、類音注（similar pronunciation annotation by character）、仮名音注（pronunciation annotation by kana）の三種がある。
+反切（*Fanqie* spellings）、類音注（Similar sound notes, Similar pronunciation annotation by character）、仮名音注（Kana glosses, Pronunciation annotation by kana）の三種がある。
 
 声点と双点の声点による濁音表示は、反切、類音注、仮名音注に対して施される。
 鼻音符号は、仮名音注に対して施される。
@@ -409,7 +409,7 @@ weight: 4
 掲出字に直接施された声点と片仮名音注、掲出字に直接施された傍訓と返点、注文末尾の異本注記である。
 これらをまとめて説明する。
 
-**掲出字の声点と片仮名音注**
+**掲出字の声点と仮名音注**
 
 掲出字に施され音読みを示す声点と片仮名は注文の最初に二重丸（◎，U+25CE）と被注字を付してその直後に記載する。声点は全角の丸括弧（）の中に略称で示し、片仮名は「　」を付す。
 

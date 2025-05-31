@@ -29,7 +29,7 @@
   <link rel="alternate" hreflang="en" href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-02-headword-count/" title="Calculation of Headword Count">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.2eb9261045046b5a62a3b05a0d42dc83843b245d6ee2833aae5e96f3ec26c703.css" integrity="sha256-LrkmEEUEa1pio7BaDULcg4Q7JF1u4oM6rl6W8&#43;wmxwM=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/ja.search.min.d216503fa158ffd9867a4dc377b30cd9cead558e5085c7d3523904426e755718.js" integrity="sha256-0hZQP6FY/9mGek3Dd7MM2c6tVY5QhcfTUjkEQm51Vxg=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/ja.search.min.e0151cf6cf2d48bd561700c94697c93f95c5dd21b3b71673ead3305bd9d85147.js" integrity="sha256-4BUc9s8tSL1WFwDJRpfJP5XF3SGztxZz6tMwW9nYUUc=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -2169,17 +2169,18 @@ KRMのデータを次のように修正する。</p>
   </tbody>
 </table>
 <p><strong>勹部</strong>は、次の箇所が問題となる。</p>
-<pre><code>K0705762    匑  音⿺麦羽　又穹　ー𠤂　謹敬皃 池田按：「ー𠤂」はやや大きく書写するが、注の一部とする。
-K0705764    𠤂   音躬
-</code></pre>
-<p>K0705762の「匑」の注文に見える
+<ul>
+<li><code>kazama_location</code>: K0705762, <code>hanzi_entry</code>: 匑, <code>definition</code>: 音⿺麦羽　又穹　ー𠤂　謹敬皃, <code>remarks</code>: 池田按：「ー𠤂」はやや大きく書写するが、注の一部とする。</li>
+<li><code>kazama_location</code>: K0705764, <code>hanzi_entry</code>: 𠤂, <code>definition</code>: 音躬</li>
+</ul>
+<p><code>K0705762</code>の「匑」の注文に見える
 「ー𠤂」の「ー」は代用符号なので、「匑𠤂」となり、その字義を「謹敬皃」とするものである。
-<strong>正宗漢字索引</strong>では「ー（匑）𠤂」を項目として採っている。
-「匑」は広韻に「謹敬之皃。又音穹。」（平声東韻、弓：居戎切）、「謹敬之皃」（平声東韻、穹：去宫切）とある。
+<strong>正宗漢字索引</strong>では「ー（匑）𠤂」を項目として採っている。</p>
+<p>「匑」は広韻に「謹敬之皃。又音穹。」（平声東韻、弓：居戎切）、「謹敬之皃」（平声東韻、穹：去宫切）とある。
 音注の「音⿺麦羽」は不審であるが、「又穹」とあるのは、平声東韻の音を指すと見ることができる。また、
-「匑」は万象名義に「丘陸反。謹敬皃。」、宋本玉篇に「丘六切。又丘弓切。匑𠤊謹敬皃。」とあり、
+「匑」は万象名義に「丘陸反。謹敬皃」、宋本玉篇に「丘六切。又丘弓切。匑𠤊謹敬皃」とあり、
 「丘陸反」「丘六切」は入声屋韻渓母であるから、広韻で「驅匊切」とする「麴󠄀」を誤写したものであろう。</p>
-<p>次項K0705764の「𠤂」には「音躬」とある。「𠤂」は広韻にないが、音注の「躬」は広韻「居戎切」（平声東韻、弓）であり、
+<p>次項<code>K0705764</code>の「𠤂」には「音躬」とある。「𠤂」は広韻にないが、音注の「躬」は広韻「居戎切」（平声東韻、弓）であり、
 「匑」と同音である。「𠤂」は万象名義、宋本玉篇、広韻に見えないが、
 集韻「𠤂匔」に「謹敬也或作匔」（平声東韻、窮：渠弓切）と見えている。</p>
 <p>以上からすれば、観智院本の「ー（匑）𠤂」は熟語とは考え難く、異体字を併記した可能性がある。</p>
@@ -2188,8 +2189,9 @@ K0705764    𠤂   音躬
 左を参照。</p>
 <p><strong>雨部</strong>の掲出項目数は、酒井論文が226項目、池田論文が228項目で、2項目の差がある。
 掲出項目の認定が問題となる箇所は次の例がある。</p>
-<pre><code>K0706733    霆  定（R）亭（L）挺（H）三音　霹靂　イナヒカリ（__LVHL）　イカツチ（H_HV_）  池田按：「霹靂」は義注。
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K0706733, <code>hanzi_entry</code>: 霆, <code>definition</code>: 定（R）亭（L）挺（H）三音　霹靂　イナヒカリ（__LVHL）　イカツチ（H_HV_）, <code>remarks</code>: 池田按：「霹靂」は義注。</li>
+</ul>
 <p>「霹靂」はやや大きく書写されている。またこの項目は2マス（2格）分のスペースを占めるが、
 「霹靂　イナヒカリ（__LVHL）」は2マス目に記されており、掲出項目であった可能性がある。
 しかし「霹靂」は別の箇所に掲出されており、内容的にも注文中の字句とみて差し支えないと
@@ -2198,23 +2200,25 @@ K0705764    𠤂   音躬
 <a href="https://dl.ndl.go.jp/info:ndljp/pid/2586897/37">該当ページ</a>
 左を参照。</p>
 <p>もうひとつは次の例である。関連する前後の項目もあわせて示す。</p>
-<pre><code>K0706853    雹  歩角反　アラレ（HHH）　和ハク　ハウ
-K07068541   𩅟   或
-K07068542   雹  （無）
-K0706861    𩂁／䨔／⿱𩅒田    俗
-</code></pre>
-<p>3番目のK07068542「雹」はこの行の末尾にあり、次の行のK0706861「𩂁／䨔／𩅒」
-に連続しているようにも見える。K07068542「雹」の下には若干の空白がある。
-また、最初のK0706853と三番目のK07068542の掲出字は同じく「雹」と翻刻したが、
+<ul>
+<li><code>kazama_location</code>: K07068530, <code>hanzi_entry</code>: 雹, <code>definition</code>: 歩角反　アラレ（HHH）　和ハク　ハウ</li>
+<li><code>kazama_location</code>: K07068541, <code>hanzi_entry</code>: 𩅟, <code>definition</code>: 或</li>
+<li><code>kazama_location</code>: K07068542, <code>hanzi_entry</code>: 雹, <code>definition</code>: （無）</li>
+<li><code>kazama_location</code>: K07068611, <code>hanzi_entry</code>: 𩂁／䨔／⿱𩅒田, <code>definition</code>: 俗</li>
+</ul>
+<p>3番目の<code>K07068542</code>「雹」はこの行の末尾にあり、次の行の<code>K07068611</code>「𩂁／䨔／𩅒」
+に連続しているようにも見える。<code>K07068542</code>「雹」の下には若干の空白がある。
+また、最初の<code>K07068530</code>と三番目の<code>K07068542</code>の掲出字は同じく「雹」と翻刻したが、
 原文では後者の下部分は⿱冖巳のように書写されており、何らかの字体注を書き込む
 スペースを確保するために空白としたと考えられる。</p>
-<p>ただし、例示の最後のK0706861「𩂁／䨔／⿱𩅒田」は、次の龍龕手鑑・巻2雨部の説明のように
-「雹」の異体字であるから、K07068542「雹」とK0706861「𩂁／䨔／⿱𩅒田」で
+<p>ただし、例示の最後の<code>K07068611</code>「𩂁／䨔／⿱𩅒田」は、次の龍龕手鑑・巻2雨部の説明のように
+「雹」の異体字であるから、<code>K07068542</code>「雹」と<code>K07068611</code>「𩂁／䨔／⿱𩅒田」で
 ひとつの項目であったとも考えられる。</p>
-<pre><code>Ls52b0802   䨔𩂁𩅒    三俗。
-Ls52b0805   𩄉𩅟𩇌 三古。
-Ls52b0808   雹  正。蒲各反。雨冰也。七。
-</code></pre>
+<ul>
+<li><code>location</code>: Ls52b0802, <code>hanzi_entry</code>: 䨔𩂁𩅒, <code>definition</code>: 三俗。</li>
+<li><code>location</code>: Ls52b0805, <code>hanzi_entry</code>: 𩄉𩅟𩇌, <code>definition</code>: 三古。</li>
+<li><code>location</code>: Ls52b0808, <code>hanzi_entry</code>: 雹, <code>definition</code>: 正。蒲各反。雨冰也。七。</li>
+</ul>
 <p>観智院本の掲出字と龍龕手鑑の掲出字とを対照して示すと次のようになる。
 字体注のみ示し、音注、和訓は略す。/は改行を示す。算用数字は観智院本の出現順の番号で、観智院本に見えない文字はx、類似する文字は()を付す。</p>
 <p>（観智院本）
@@ -2249,8 +2253,9 @@ xを付した<img src="https://glyphwiki.org/glyph/u29109.50px.png" alt="𩄉" /
 <a href="https://dl.ndl.go.jp/info:ndljp/pid/1126592/132">該当ページ</a>右を参照。</p>
 <p><strong>疒部</strong>の掲出項目数は、酒井論文が400項目、池田論文が399項目で、1項目の差がある。
 掲出項目の認定が問題となるのは次の箇所である。</p>
-<pre><code>K0712584    𤻿／⿸疒既   俗通　古界反　⿱⿰白旡月　正䐴　𦝫   池田按：⿱⿰白旡月は注文を大字に書写の例。
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K0712584, <code>hanzi_entry</code>: 𤻿／⿸疒既, <code>definition</code>: 俗通　古界反　⿱⿰白旡月　正䐴　𦝫, <code>remarks</code>: 池田按：⿱⿰白旡月は注文を大字に書写の例。</li>
+</ul>
 <p>「⿱⿰白旡月」は大字で書写され掲出字のようにも見えるが、「疒」を構成要素に含んでおらず、
 疒部の掲出字とするのは適切でないだろう。掲出字と字体注を次に示す。</p>
 <p><img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-07125841.50px.png" alt="𤻿" />
@@ -2262,15 +2267,17 @@ xを付した<img src="https://glyphwiki.org/glyph/u29109.50px.png" alt="𩄉" /
 右上を参照。</p>
 <p><strong>寸部</strong>の掲出項目数は、酒井論文が41項目、池田論文が39項目で、2項目の差がある。
 これは次の箇所が問題になると考えられる。</p>
-<pre><code>K0714374    戈／ー（射）    イツル　六ー　ムツマシ　賭ー　ノリユミ
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K07143741, <code>hanzi_entry</code>: 戈／ー（射）, <code>definition</code>: イツル　六ー　ムツマシ　賭ー　ノリユミ</li>
+</ul>
 <p>注にみえる「六ー（射）」と「賭ー（射）」とはいくぶん大きく書写されており、
-次の和訓とセットにして独立の項目とするのがよいであろう。そうするとこの箇所は
-次のように修正される。</p>
-<pre><code>K0714374    戈／ー（射）    イツル  池田按：「六ー　ムツマシ　賭ー　ノリユミ」とあるは埋字であろう。
-K07143743   六／ー（射）    ムツマシ
-K07143745   賭／ー（射）    ノリユミ
-</code></pre>
+次の和訓とセットにして独立の項目とするのがよいであろう。埋字、分註式の熟語である。
+そうするとこの箇所は次のように修正される。</p>
+<ul>
+<li><code>kazama_location</code>: K07143741, <code>hanzi_entry</code>: 戈／ー（射）, <code>definition</code>: イツル, <code>remarks</code>: 池田按：「六ー　ムツマシ　賭ー　ノリユミ」とあるは埋字であろう。</li>
+<li><code>kazama_location</code>: K07143743, <code>hanzi_entry</code>: 六／ー（射）, <code>definition</code>: ムツマシ</li>
+<li><code>kazama_location</code>: K07143745, <code>hanzi_entry</code>: 賭／ー（射）, <code>definition</code>: ノリユミ</li>
+</ul>
 <p>寸部の
 池田論文の数値は、次のように項目数を修正する必要がある。 修正した数値を太字で示す。</p>
 <table>
@@ -2304,8 +2311,9 @@ K07143745   賭／ー（射）    ノリユミ
   </tbody>
 </table>
 <p><strong>示部</strong>では、酒井論文と池田論文とで掲出項目数に差がないが、次の項目に脱字を認める。</p>
-<pre><code>K0700183	樹／[神]    コタマ（LHL）
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K0700183, <code>hanzi_entry</code>: 樹／［神］, <code>definition</code>: コタマ（LHL）</li>
+</ul>
 <p>これにより掲出項目数と掲出字数は次のように修正される。</p>
 <table>
   <thead>
@@ -2386,9 +2394,10 @@ K07143745   賭／ー（射）    ノリユミ
 </table>
 <p><strong>毛部</strong>の掲出項目数は、酒井論文が104項目、池田論文が103項目で、1項目の差がある。
 これは次の箇所が問題になると考えられる。</p>
-<pre><code>K0810064    ⿱三毛／⿱介毳／毳／𣯝   マコケ（HHLV）　カモ（HH）　音脆（R）「セイ」 和訓は毳の傍訓のように記載。⿱三毛／⿱介毳／毳／𣯝で一項目に修正。
-</code></pre>
-<p>備考として記したように、二つの和訓は「毳」の傍訓のように記されている。しかも「毳」の後は
+<ul>
+<li><code>kazama_location</code>: K0810064, <code>hanzi_entry</code>: ⿱三毛／⿱介毳／毳／𣯝, <code>definition</code>: マコケ（HHLV）　カモ（HH）　音脆（R）「セイ」, <code>remarks</code>: 和訓は毳の傍訓のように記載。⿱三毛／⿱介毳／毳／𣯝で一項目に修正。</li>
+</ul>
+<p>備考（<code>remarks</code>）として記したように、二つの和訓は「毳」の傍訓のように記されている。しかも「毳」の後は
 改行となり次行冒頭に「𣯝」が掲出される。
 「𣯝」は環境により表示されないので、GlyphWikiで示すと次のようになる。
 改行を/で示す。</p>
@@ -2450,13 +2459,15 @@ K07143745   賭／ー（射）    ノリユミ
 </table>
 <p><strong>食部</strong>の掲出項目数は、酒井論文が214項目、池田論文が213項目で、1項目の差がある。
 これは次の箇所が問題になると考えられる。</p>
-<pre><code>K0810483    餬／𩚩   「カユ」　「モラフ（HHL）」　今正　音胡　鬻〈正〉　饘也　モラフ（HHL）　ネヤス（LH_）　ヒサク（HH_）    和名抄に「未詳」とあるが名義抄にない例、箋注本四ノ四八オ（岡田研究97頁）。道円本和名抄「餲餅　四声字苑云餲［音与蝎同俗云餲餬今案餬寄食也為餅名未詳］餅名煎麺作蝎虫形也」（巻16飲食部）。
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K0810483, <code>hanzi_entry</code>: 餬／𩚩, <code>definition</code>: 「カユ」　「モラフ（HHL）」　今正　音胡　鬻〈正〉　饘也　モラフ（HHL）　ネヤス（LH_）　ヒサク（HH_）, <code>remarks</code>: 和名抄に「未詳」とあるが名義抄にない例、箋注本四ノ四八オ（岡田研究97頁）。道円本和名抄「餲餅　四声字苑云餲［音与蝎同俗云餲餬今案餬寄食也為餅名未詳］餅名煎麺作蝎虫形也」（巻16飲食部）。</li>
+</ul>
 <p>「カユ」「モラフ(HHL)」は掲出字「餬」の右下と左下に記載されており、独立した項目と見れなくもない。
 しかし、「餬／𩚩」は異体字を併記した例であり注にも「今正』と見えるし、蓮成院本は「餬／𩚩」は1項目となっている。</p>
 <p>もうひとつは次の例がある。</p>
-<pre><code>K0811044    䬭／𩚓／𩚾／𩜻／䬢／⿱⿰号丙食 俗
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K0811044, <code>hanzi_entry</code>: 䬭／𩚓／𩚾／𩜻／䬢／⿱⿰号丙食, <code>definition</code>: 俗</li>
+</ul>
 <p>難字が多いので、GlyphWikiで表示してみる。/は改行を示す。</p>
 <p><img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110421.50px.png" alt="𩞂" />
 <img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110422.50px.png" alt="饕" />
@@ -2523,8 +2534,9 @@ K07143745   賭／ー（射）    ノリユミ
 </table>
 <p><strong>弓部</strong>の掲出項目数は、酒井論文が102項目、池田論文が101項目で、1項目の差がある。
 これは次の箇所が問題になると考えられる。</p>
-<pre><code>K0902814    ⿰弓取／⿰弓亥／⿰弓丁／⿰弓𧴪   未詳
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K09028141, <code>hanzi_entry</code>: ⿰弓取／⿰弓亥／⿰弓丁／⿰弓𧴪, <code>definition</code>: 未詳</li>
+</ul>
 <p>「⿰弓丁」と「⿰弓𧴪」の間に改行があり、2項目と数える可能性がある。</p>
 <p><img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-09028141.50px.png" alt="⿰弓取" />
 <img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-09028142.50px.png" alt="⿰弓亥" />
@@ -2609,12 +2621,13 @@ K07143745   賭／ー（射）    ノリユミ
 </table>
 <p><strong>魚部</strong>の掲出項目数は、酒井論文が378項目、池田論文が379項目で、1項目の差がある。
 これは次の箇所が問題になると考えられる。</p>
-<pre><code>K1000864    鰐  音萼　ワニ（LL）
-K10008711   鱷  或
-K10008712   𩻙   正
-K10008713   鰐  （無）
-K1000872    䱟  *フナ
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K10008640, <code>hanzi_entry</code>: 鰐, <code>definition</code>: 音萼　ワニ（LL）</li>
+<li><code>kazama_location</code>: K10008711, <code>hanzi_entry</code>: 鱷, <code>definition</code>: 或</li>
+<li><code>kazama_location</code>: K10008712, <code>hanzi_entry</code>: 𩻙, <code>definition</code>: 正</li>
+<li><code>kazama_location</code>: K10008713, <code>hanzi_entry</code>: 鰐, <code>definition</code>: （無）</li>
+<li><code>kazama_location</code>: K10008720, <code>hanzi_entry</code>: 䱟, <code>definition</code>: *フナ</li>
+</ul>
 <p>観智院本の原文では最後の2文字（「鰐」と「䱟」）を1項目のように書写している。
 蓮成院本にこの2文字の掲出はない。</p>
 <p>1<img src="https://glyphwiki.org/glyph/sarashina_hkrm-10008640.50px.png" alt="鰐" />音萼　ワニ(LL)
@@ -2642,28 +2655,32 @@ K1000872    䱟  *フナ
 右を参照。</p>
 <p><strong>虫部</strong>の掲出項目数は、酒井論文が665項目、池田論文が664項目で、1項目の差がある。
 これは次の箇所が問題になると考えられる。</p>
-<pre><code>K1003073    ⿱⿱⿰虫虫冖虫／⿱⿱⿰虫虫冖磊／𧖁／⿱⿱市冖蟲／⿱⿱士宀蟲／⿱兩⿰虫虫（改行）／⿰虫⿰杀攵 俗⿳⿻十口冖各俗  
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K1003073, <code>hanzi_entry</code>: ⿱⿱⿰虫虫冖虫／⿱⿱⿰虫虫冖磊／𧖁／⿱⿱市冖蟲／⿱⿱士宀蟲／⿱兩⿰虫虫（改行）／⿰虫⿰杀攵, <code>definition</code>: 俗⿳⿻十口冖各俗</li>
+</ul>
 <p>異体字を列記した項目であるが、途中に改行が入っている。</p>
 <p>観智院本の該当箇所の原文は国立国会図書館デジタルコレクションの
 <a href="http://dl.ndl.go.jp/info:ndljp/pid/2586900/19">該当ページ</a>
 右を参照。</p>
 <p>もうひとつは次の箇所である。</p>
-<pre><code>K1003854    ⿱䖝⿰蚕蚕／⿱⿰天天蟲／䗝（改行）／⿱冖虫／蝅／⿱玄虫  俗
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K1003854, <code>hanzi_entry</code>: ⿱䖝⿰蚕蚕／⿱⿰天天蟲／䗝（改行）／⿱冖虫／蝅／⿱玄虫, <code>definition</code>: 俗</li>
+</ul>
 <p>「蠶」の異体字を列記した項目であるが、途中に改行が入っている。</p>
 <p>観智院本の該当箇所の原文は国立国会図書館デジタルコレクションの
 <a href="http://dl.ndl.go.jp/info:ndljp/pid/2586900/23">該当ページ</a>
 右を参照。</p>
 <p><strong>鬼部</strong>の掲出項目数は、酒井論文が74項目、池田論文が75項目で、1項目の差がある。
 これは次の箇所が問題になると考えられる。</p>
-<pre><code>K1004854    𩲀／𩱿／⿱勿鬼（改行）／𩲢／𩲑／𩲝／䰨／𩴎    俗
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K1004854, <code>hanzi_entry</code>: 𩲀／𩱿／⿱勿鬼（改行）／𩲢／𩲑／𩲝／䰨／𩴎, <code>definition</code>: 俗</li>
+</ul>
 <p>異体字を列記した項目であるが、途中に改行が入っている。</p>
-<pre><code>K1005034    ⿰我鬼  （無）  池田按：次の「未詳」項目に連続するか。
-K1005041    𩴜／⿺鬼有／⿺鬼麦／⿺鬼同／⿺鬼達／⿺鬼田／⿺鬼能／⿺鬼幸／⿺鬼𦍬／⿰田鬼    未詳
-</code></pre>
-<p>これは2項目と数えたが、K1005034「⿰我鬼」が次の「未詳」項目に連続するなら、1項目減となる。</p>
+<ul>
+<li><code>kazama_location</code>: K10050340, <code>hanzi_entry</code>: ⿰我鬼, <code>definition</code>: （無）, <code>remarks</code>:池田按：次の「未詳」項目に連続するか。</li>
+<li><code>kazama_location</code>: K10050411, <code>hanzi_entry</code>: 𩴜／⿺鬼有／⿺鬼麦／⿺鬼同／⿺鬼達／⿺鬼田／⿺鬼能／⿺鬼幸／⿺鬼𦍬／⿰田鬼, <code>definition</code>: 未詳</li>
+</ul>
+<p>これは2項目と数えたが、<code>K1005034</code>「⿰我鬼」が次の「未詳」項目に連続するなら、1項目減となる。</p>
 <p>観智院本の該当箇所の原文は国立国会図書館デジタルコレクションの
 <a href="http://dl.ndl.go.jp/info:ndljp/pid/2586900/28">該当ページ</a>
 右と
@@ -2671,19 +2688,21 @@ K1005041    𩴜／⿺鬼有／⿺鬼麦／⿺鬼同／⿺鬼達／⿺鬼田／�
 右を参照。</p>
 <p><strong>雑部</strong>の掲出項目数は、酒井論文が1,500項目、池田論文が1,501項目で、1項目の差がある。
 これは次の箇所が問題になると考えられる。</p>
-<pre><code>K1008183    ■  ツミ
-K1008184    𡿨   （無）  「甽」の異体字。
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K10081830, <code>hanzi_entry</code>: ■, <code>definition</code>: ツミ</li>
+<li><code>kazama_location</code>: K10081840, <code>hanzi_entry</code>: 𡿨, <code>definition</code>: （無）, <code>remarks</code>: 「甽」の異体字。</li>
+</ul>
 <p>■としたのは、<img src="https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01080610.50px.png" alt="鰐" />
 のように書写している。
-K1008184 「𡿨」は風間書房版に見えない。貴重図書複製会、新旧の天理版には
+<code>K10081840</code> 「𡿨」は風間書房版に見えない。貴重図書複製会、新旧の天理版には
 確認できるが、見落としやすい例である。</p>
 <p>観智院本の該当箇所の原文は国立国会図書館デジタルコレクションの
 <a href="http://dl.ndl.go.jp/info:ndljp/pid/2586900/44">該当ページ</a>
 左を参照。</p>
 <p><strong>雑部</strong>では、次の項目のデータに誤りがあった。</p>
-<pre><code>K1007541    多／少  ソコハク（LHLVL）
-</code></pre>
+<ul>
+<li><code>kazama_location</code>: K10075411, <code>hanzi_entry</code>: 多／少, <code>definition</code>: ソコハク（LHLVL）</li>
+</ul>
 <p>掲出項目を「多」のみとしていたのを修正した。</p>
 <p>これにより掲出項目数と掲出字数は次のように修正される。</p>
 <table>
@@ -4342,8 +4361,8 @@ K1008184 「𡿨」は風間書房版に見えない。貴重図書複製会、�
   追記
   <a class="anchor" href="#%e8%bf%bd%e8%a8%98">#</a>
 </h3>
-<p>K1010822陟厘について。
-原文「⿱陟厘」一字に作り、正宗索引・草川和訓集成、これに従う。
+<p>K10108221陟厘について。</p>
+<p>原文「⿱陟厘」一字に作り、正宗索引・草川和訓集成、これに従う。
 望月和訓集成、「陟厘」二字とする。
 道円本和名抄（巻17菜蔬部）「陟𨤲」に「音緾一本作厘和名阿乎乃利」とあり。
 新撰字鏡「陟釐	青乃利」（臨時雑要字）、
