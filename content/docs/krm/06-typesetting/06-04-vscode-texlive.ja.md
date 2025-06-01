@@ -22,8 +22,8 @@ VS Code (Visual Studio Code) は Microsoft が提供する無料の高機能な�
 
 ポイントは次の2点である。
 
-1. latexmkを利用するため.latexmkrcを設定。
-2. VS Codeのプラグイン（LaTeX Workshop）とsettings.jsonの設定。
+1. `latexmk`を利用するため`.latexmkrc`を設定。
+2. VS Codeのプラグイン（LaTeX Workshop）と`settings.json`の設定。
 
 
 以前は、toyjack'blogoに「vscodeでlualatex」という記事があったが現在はリンク切れなので、
@@ -175,7 +175,6 @@ $max_repeat   = 1;
 - [adbird（広告鳥） 備忘録](https://adbird.hatenablog.com/archive/category/LaTeX)
 - [金水敏 TeX のページ](http://www.let.osaka-u.ac.jp/~kinsui/tex/top.htm) **リンク切れ（2025年5月29日確認）**
 - [TeX Part3 文字・記号・数式、その他](http://xyoshiki.web.fc2.com/texindex3.html)
-
 
 
 ## `jlreq` ドキュメントクラスを利用した組版設定

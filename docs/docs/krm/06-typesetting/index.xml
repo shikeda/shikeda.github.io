@@ -16,9 +16,9 @@
     </item>
     <item>
       <title>GlyphWikiの設定</title>
-      <link>https://shikeda.github.io/docs/krm/06-typesetting/06-02-glypwiki/</link>
+      <link>https://shikeda.github.io/docs/krm/06-typesetting/06-02-glyphwiki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/docs/krm/06-typesetting/06-02-glypwiki/</guid>
+      <guid>https://shikeda.github.io/docs/krm/06-typesetting/06-02-glyphwiki/</guid>
       <description>&lt;h1 id=&#34;glyphwikiの設定&#34;&gt;&#xA;  GlyphWikiの設定&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#glyphwiki%e3%81%ae%e8%a8%ad%e5%ae%9a&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;bxglyphwiki-パッケージバンドル&#34;&gt;&#xA;  BXglyphwiki パッケージバンドル&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#bxglyphwiki-%e3%83%91%e3%83%83%e3%82%b1%e3%83%bc%e3%82%b8%e3%83%90%e3%83%b3%e3%83%89%e3%83%ab&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;花園フォントをLuaLaTeXで使うには、&#xA;&lt;a href=&#34;https://github.com/zr-tex8r/BXglyphwiki&#34;&gt;BXglyphwiki パッケージバンドル&lt;/a&gt;を参考にする。&lt;/p&gt;&#xA;&lt;p&gt;toyjackによる&lt;a href=&#34;https://github.com/toyjack/template_lualatex_wikiglyphwiki&#34;&gt;テンプレートファイル&lt;/a&gt;が出ている。&lt;/p&gt;</description>
     </item>
     <item>

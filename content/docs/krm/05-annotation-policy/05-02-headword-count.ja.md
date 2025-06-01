@@ -11,22 +11,29 @@ weight: 18
 # 掲出字数の算出
 
 ここでは、誤字、脱字、衍字、補入、埋字、代用符号、踊り字などについて解説し、
-掲出項目数の算出を行う。
+掲出字数の算出を行う。掲出字数は、掲出字の延べの字数のことである。
 
+そして、この掲出字数の算出の結果に基づき、掲出項目数の算出も行う。
+掲出項目数は、単字の掲出字からなる項目、2字の掲出字からなる項目のように、掲出項目を
+構成する字数ごとに集計する。
+
+最後に、名義抄の120の部ごとに、掲出字数と掲出項目数を一覧する。
+そこでは、酒井憲二が算出した掲出項目数と照合しながら、筆者らの算出との相違点
+も解説する。
 
 ## 誤字
 
-掲出字の**誤字**（Miswrittern Character）の例をいくつかあげる。
+掲出字の**誤字**（Miswritten Character）の例をいくつかあげる。
 
 用例は、`krm_main.tsv`から必要部分を抜き出したものに、
-`krm_notes.tsv`の`rmarks`の内容を追加して示す。
+`krm_notes.tsv`の`remarks`の内容を追加して示す。
 また、参照の便宜を考えて、風間版の所在を`kazama_location`として示す。
-`K0200884`は巻2（仏中）、8頁、8行、4段に出現することを示す。
+`K02008840`は巻2（仏中）、8頁、8行、4段に出現することを示す（最後の1桁の数値の説明は略）。
 
 最初は比較的単純な例である。
 
 **例**
-- `kazama_location`: K0200884
+- `kazama_location`: K02008840
 - `hanzi_entry`: 姡
 - `original_entry`: 活
 - `definition`: 今
@@ -37,7 +44,7 @@ weight: 18
 次は、誤字かどうか判断に迷う例である。
 
 **例**
-- `kazama_location`: K0104561
+- `kazama_location`: K01045610
 - `hanzi_entry`: 迷
 - `original_entry`: 〇
 - `definition`: 俗悉字　私逸反
@@ -50,10 +57,10 @@ weight: 18
 
 「悉」から「迷」までの変化の過程は次のように想定できる。
 
-![悉](https://glyphwiki.org/glyph/u6089.50px.png) ---> 
-![𢘻](https://glyphwiki.org/glyph/u2263b.50px.png) ---> 
-![𭜧](https://glyphwiki.org/glyph/u2d727-j.50px.png) ---> 
-![𨒃](https://glyphwiki.org/glyph/u28483-g.50px.png) ---> 
+![悉](https://glyphwiki.org/glyph/u6089.50px.png) → 
+![𢘻](https://glyphwiki.org/glyph/u2263b.50px.png) → 
+![𭜧](https://glyphwiki.org/glyph/u2d727-j.50px.png) → 
+![𨒃](https://glyphwiki.org/glyph/u28483-g.50px.png) → 
 ![迷](https://glyphwiki.org/glyph/u8ff7.50px.png) 
 
 GlyphWikiによれば、![𨒃](https://glyphwiki.org/glyph/u28483-g.50px.png)(𨒃 u28483)
@@ -61,8 +68,8 @@ GlyphWikiによれば、![𨒃](https://glyphwiki.org/glyph/u28483-g.50px.png)(�
 
 ## 脱字
 
-掲出字の**脱字**（Omitted Charcters）は、別に一覧したが、次に再掲する。
-脱字であることが明らかな掲出字は、「［］」（全角の角括弧）に入れて示す。
+掲出字の**脱字**（Omitted Characters）は、別に一覧したが、次に再掲する。
+脱字であることが明らかな掲出字は、全角の角括弧の［］に入れて示す。
 
 **例**
 ```
@@ -72,17 +79,6 @@ GlyphWikiによれば、![𨒃](https://glyphwiki.org/glyph/u28483-g.50px.png)(�
 嘻／［囉］
 奢／［侈］
 奚／［如］
-孕／［婦］
-娣／［婦］
-嘻／［囉］
-比／［目］
-将／［指］
-磬／［控］
-䴏／［豆］
-桃／花／［石］
-樹／［神］
-革／［葱］
-風／［流］
 ```
 
 注釈の一例を次に示す。
@@ -92,7 +88,7 @@ GlyphWikiによれば、![𨒃](https://glyphwiki.org/glyph/u28483-g.50px.png)(�
 - `hanzi_entry`: 奚／［如］
 - `original_entry`: 〇／〇
 - `definition`: イカム（__L
-- `remrks`: 「如」脱字。蓮成院本「奚如」に作る。高山寺本「ー」を用いず「如」と記し、女部後半付近に記載。高山寺本が先行する例（岡田研究192頁）。
+- `remarks`: 「如」脱字。蓮成院本「奚如」に作る。高山寺本「ー」を用いず「如」と記し、女部後半付近に記載。高山寺本が先行する例（岡田研究192頁）。
 
 ## 衍字
 
@@ -107,7 +103,7 @@ GlyphWikiによれば、![𨒃](https://glyphwiki.org/glyph/u28483-g.50px.png)(�
 
 ## 埋字（分註式）
 
-**埋字**（Embedded Charcters）とは、ひとつの項目の中に繰り込まれた項目のことである。
+**埋字**（Embedded Characters）とは、ひとつの項目の中に繰り込まれた項目のことである。
 
 **例**
 - `kazama_location`: K0201261, `hanzi_entry`: 娜, `definition`:乃可（H）反　マヽハヽ　タヲヤカナリ　婀ー　ヨキカホ　ナマメク, `remarks`:「婀ー　ヨキカホ　ナマメク」は埋字項目か。

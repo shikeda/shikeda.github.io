@@ -38,7 +38,7 @@ Finally, using page 62 of the *Butsujō* (仏上) volume of the Kanchi-in manusc
 
 
 - [Basic Principles and Analytical Focus for Annotation Creation](./05-01-basic-policy/)
-- [Calculation of Headword Count](./05-02-headword-count/)
+- [Calculation of Headword Character Count](./05-02-headword-count/)
 - [Types and Descriptive Formats of Notes on Character Form](./05-03-jitaichu-formats/)
 - [Types and Problems in Deciphering Phonetic Glosses](./05-04-onchu-problems/)
 - [Types and Quantities of Semantic Glosses in Chinese](./05-05-gichu-quantity/)

@@ -138,7 +138,7 @@ The following publications are essential references for determining the lexical 
 * **Mochizuki's Wakun Collection (望月和訓集成, *Mochizuki Wakun Shūsei*)**: Mochizuki Ikuko, ed. *Ruiju Myōgishō: Yonshu Shōten-tsuki Wakun Shūsei* (類聚名義抄：四種声点付和訓集成, *Ruiju Myōgishō*: A Collection of Wakun with Four Types of Tone Marks; Kasama Sakuin Sōkan 44). Tokyo: Kasama Shoin, 1974.
 * **Kusakawa's Wakun Collection (草川和訓集成, *Kusakawa Wakun Shūsei*)**: Kusakawa Noboru, ed. *Gohon Taishō Ruiju Myōgishō Wakun Shūsei* (五本対照類聚名義抄和訓集成, A Collection of Wakun from Five Collated Manuscripts of the *Ruiju Myōgishō*). Tokyo: Kyūko Shoin, 2000.
 * **Nakamura's Monzen (中村文選, *Nakamura Monzen*)**: Nakamura Munehiko. *Kujōke-bon Monzen Kokunshū* (九条家本 文選古訓集, Old Japanese Readings of the *Monzen* from the Kujō Family Manuscript). Tokyo: Kazama Shobō, 1983.
-* **Kundoku Goi Shūsei (訓点語彙集成, *Kunten Goi Shūsei*)**: Tsukishima Hiroshi, ed. *Kunten Goi Shūsei* (訓点語彙集成, A Comprehensive Collection of *Kunten* Vocabulary). 8 vols. and 1 supplementary vol. Tokyo: Kyūko Shoin, 2007–2009.
+* **Kunten Goi Shūsei (訓点語彙集成, *Kunten Goi Shūsei*)**: Tsukishima Hiroshi, ed. *Kunten Goi Shūsei* (訓点語彙集成, A Comprehensive Collection of *Kunten* Vocabulary). 8 vols. and 1 supplementary vol. Tokyo: Kyūko Shoin, 2007–2009.
 
 Many other books and articles also contain relevant descriptions. For example, the following works will be consulted sequentially:
 

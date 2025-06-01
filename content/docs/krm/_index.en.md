@@ -47,7 +47,7 @@ Note that while the explanation provided here overlaps in part with what is stat
     - [Handling Issues in Transcription, Notation, and Annotation](./04-entry-input/04-03-handling/)
 - [Basic Principles for Creating Annotations/Commentary](./05-annotation-policy/)
     - [Basic Principles and Analytical Focus for Annotation Creation](./05-annotation-policy/05-01-basic-policy/)
-    - [Calculation of Headword Count](./05-annotation-policy/05-02-headword-count/)
+    - [Calculation of Headword Character Count](./05-annotation-policy/05-02-headword-count/)
     - [Types and Descriptive Formats of Notes on Character Form](./05-annotation-policy/05-03-jitaichu-formats/)
     - [Types and Problems in Deciphering Phonetic Glosses](./05-annotation-policy/05-04-onchu-problems/)
     - [Types and Quantities of Semantic Glosses in Chinese](./05-annotation-policy/05-05-gichu-quantity/)

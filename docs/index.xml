@@ -132,7 +132,7 @@
       <link>https://shikeda.github.io/docs/krm/05-annotation-policy/05-02-headword-count/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://shikeda.github.io/docs/krm/05-annotation-policy/05-02-headword-count/</guid>
-      <description>&lt;h1 id=&#34;掲出字数の算出&#34;&gt;&#xA;  掲出字数の算出&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%8e%b2%e5%87%ba%e5%ad%97%e6%95%b0%e3%81%ae%e7%ae%97%e5%87%ba&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、誤字、脱字、衍字、補入、埋字、代用符号、踊り字などについて解説し、&#xA;掲出項目数の算出を行う。&lt;/p&gt;&#xA;&lt;h2 id=&#34;誤字&#34;&gt;&#xA;  誤字&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e8%aa%a4%e5%ad%97&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;掲出字の&lt;strong&gt;誤字&lt;/strong&gt;（Miswrittern Character）の例をいくつかあげる。&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;掲出字数の算出&#34;&gt;&#xA;  掲出字数の算出&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#%e6%8e%b2%e5%87%ba%e5%ad%97%e6%95%b0%e3%81%ae%e7%ae%97%e5%87%ba&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;ここでは、誤字、脱字、衍字、補入、埋字、代用符号、踊り字などについて解説し、&#xA;掲出字数の算出を行う。掲出字数は、掲出字の延べの字数のことである。&lt;/p&gt;</description>
     </item>
     <item>
       <title>字体注の種類と記載形式</title>
@@ -178,9 +178,9 @@
     </item>
     <item>
       <title>GlyphWikiの設定</title>
-      <link>https://shikeda.github.io/docs/krm/06-typesetting/06-02-glypwiki/</link>
+      <link>https://shikeda.github.io/docs/krm/06-typesetting/06-02-glyphwiki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://shikeda.github.io/docs/krm/06-typesetting/06-02-glypwiki/</guid>
+      <guid>https://shikeda.github.io/docs/krm/06-typesetting/06-02-glyphwiki/</guid>
       <description>&lt;h1 id=&#34;glyphwikiの設定&#34;&gt;&#xA;  GlyphWikiの設定&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#glyphwiki%e3%81%ae%e8%a8%ad%e5%ae%9a&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;bxglyphwiki-パッケージバンドル&#34;&gt;&#xA;  BXglyphwiki パッケージバンドル&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#bxglyphwiki-%e3%83%91%e3%83%83%e3%82%b1%e3%83%bc%e3%82%b8%e3%83%90%e3%83%b3%e3%83%89%e3%83%ab&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;花園フォントをLuaLaTeXで使うには、&#xA;&lt;a href=&#34;https://github.com/zr-tex8r/BXglyphwiki&#34;&gt;BXglyphwiki パッケージバンドル&lt;/a&gt;を参考にする。&lt;/p&gt;&#xA;&lt;p&gt;toyjackによる&lt;a href=&#34;https://github.com/toyjack/template_lualatex_wikiglyphwiki&#34;&gt;テンプレートファイル&lt;/a&gt;が出ている。&lt;/p&gt;</description>
     </item>
     <item>
