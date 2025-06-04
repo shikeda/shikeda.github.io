@@ -9,7 +9,7 @@ bookCollapseSection: true
 # bookSearchExclude: false
 ---
 
-# Overview of the *Ruiju Myōgishō
+# Overview of the *Ruiju Myōgishō*
 
 **Ikeda Shōju**
 

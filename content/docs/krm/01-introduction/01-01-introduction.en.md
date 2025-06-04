@@ -36,7 +36,7 @@ The extant manuscripts of the *Ruiju Myōgishō* fall into two distinct textual 
 The sole surviving exemplar of the original compilation is held by the Archives and Mausolea Department of the Imperial Household Agency, and this lineage is often referred to as the *gensenbon* (original compilation) tradition. The manuscript in question was introduced in 1950 as the *Zushoryō* manuscript (Library of Ancient Books manuscript).  
 The redacted lineage, alternatively termed the *kaihenbon-kei* (redacted version lineage) or *Kōekibon* tradition, includes several known manuscripts: the Kanchi-in manuscript, the Kōzan-ji manuscript, the Renshō-in manuscript, the Sainen-ji manuscript, and the Hōbodai-in manuscript. Of these, only the Kanchi-in manuscript survives in complete form; the remaining examples are fragmentary or incomplete. The redacted tradition has been the subject of sustained scholarly inquiry since the Edo period, beginning with the work of Ban Nobutomo and others.
 
-In Japanese scholarship, it is common practice to refer to individual manuscripts by appending *-bon* (meaning “copy” or “text”) to the name of the holding temple or institution—for example, *Kanchi-in-bon*. In this paper, however, these will be referred to using the English term “manuscript” for clarity and consistency.
+In Japanese scholarship, it is common practice to refer to individual manuscripts by appending *bon* (meaning “copy” or “text”) to the name of the holding temple or institution—for example, *Kanchi-in bon*. In this paper, however, these will be referred to using the English term “manuscript” for clarity and consistency.
 
 In contemporary scholarship, the work is frequently referred to in abbreviated form as the *Myōgishō*.
 
@@ -177,8 +177,8 @@ Several facsimile and reproduction editions exist. The commonly cited versions a
   - **New Tenri Edition (2018):** Published in Vols. 9–11 of the *Shin Tenri Toshokan Zenpon Sōsho*, based on high-resolution color photography taken after restoration, with commentary by Ōtsuki Makoto. Published by Tenri University Press and distributed by Yagi Shoten.  
     This edition includes references not only to the original volume and folio numbers, but also to the Old Tenri and Kazama Edition page numbers, enhancing its compatibility with the Kazama indexes.
 
-**Renjōin Manuscript**  
-Previously held at Kōfuku-ji’s Renjōin, this fragmentary manuscript (3 volumes) is now in the possession of Chinkoku Shukoku Shrine (Kuwana City, Mie Prefecture). Copied in the late Kamakura to early Muromachi period, it is also referred to as the Chinkoku Shukoku Shrine Manuscript.  
+**Renjō-in Manuscript**  
+Previously held at Kōfuku-ji’s Renjō-in , this fragmentary manuscript (3 volumes) is now in the possession of Chinkoku Shukoku Shrine (Kuwana City, Mie Prefecture). Copied in the late Kamakura to early Muromachi period, it is also referred to as the Chinkoku Shukoku Shrine Manuscript.  
 It comprises: Volume 1 (corresponding to *Butsu-jō* and *Butsu-chū* in the Kanchi-in Manuscript); Volume 2 (covering up to mid-*Hō-jō*); and Volume 3 (corresponding to *Sō*). A facsimile edition was issued in 1965 by the Mikkan Kokubun Shiryō Kankōkai under the title *Sanpō Ruiju Myōgishō*, with commentary by Ozaki Satoakira. A clearer reproduction was issued in 1986 by Benseisha.
 
 **Kōsan-ji Manuscript**  
@@ -260,13 +260,13 @@ This list is currently under development, and therefore may not yet include some
     * Imanishi, Hiroko. "*Ruiju Myōgishō*: Wakun no Hairetsu" (Arrangement of *Wakun* in the *Ruiju Myōgishō*). *Kuntengo to Kunten Shiryō*, no. 57 (1976): 61–86.
 
 13. **Inukai, Morimasa (1977)**
-    * Inukai, Morimasa. "*Ruiju Myōgishō*: Kanchi-in bon to Renjōin-bon to no 'Zatsu' Bu no Hikaku Taishō (Jō)" (A Comparative Study of the 'Miscellaneous' Section of the *Ruiju Myōgishō*: Kanchi-in and Renjōin Manuscripts (Part 1)). *Sugiyama Jogakuen Daigaku Kenkyū Ronshū* (*Journal of Sugiyama Jogakuen University*) 8, no. 2 (1977): 109–128.
+    * Inukai, Morimasa. "*Ruiju Myōgishō*: Kanchi-in bon to Renjō-in bon to no 'Zatsu' Bu no Hikaku Taishō (Jō)" (A Comparative Study of the 'Miscellaneous' Section of the *Ruiju Myōgishō*: Kanchi-in and Renjō-in Manuscripts (Part 1)). *Sugiyama Jogakuen Daigaku Kenkyū Ronshū* (*Journal of Sugiyama Jogakuen University*) 8, no. 2 (1977): 109–128.
 
 14. **Inukai, Morimasa (1978)**
-    * Inukai, Morimasa. "*Ruiju Myōgishō*: Kanchi-in bon to Renjōin-bon to no 'Zatsu' Bu no Hikaku Taishō (Chū)" (A Comparative Study of the 'Miscellaneous' Section of the *Ruiju Myōgishō*: Kanchi-in and Renjōin Manuscripts (Part 2)). *Sugiyama Jogakuen Daigaku Kenkyū Ronshū* (*Journal of Sugiyama Jogakuen University*) 9, no. 2 (1978): 69–85.
+    * Inukai, Morimasa. "*Ruiju Myōgishō*: Kanchi-in bon to Renjō-in bon to no 'Zatsu' Bu no Hikaku Taishō (Chū)" (A Comparative Study of the 'Miscellaneous' Section of the *Ruiju Myōgishō*: Kanchi-in and Renjō-in Manuscripts (Part 2)). *Sugiyama Jogakuen Daigaku Kenkyū Ronshū* (*Journal of Sugiyama Jogakuen University*) 9, no. 2 (1978): 69–85.
 
 15. **Inukai, Morimasa (1981)**
-    * Inukai, Morimasa. "*Ruiju Myōgishō*: Kanchi-in bon to Renjōin-bon to no 'Zatsu' Bu no Hikaku Taishō (Ge)" (A Comparative Study of the 'Miscellaneous' Section of the *Ruiju Myōgishō*: Kanchi-in and Renjōin Manuscripts (Part 3)). *Sugiyama Jogakuen Daigaku Kenkyū Ronshū* (*Journal of Sugiyama Jogakuen University*) 13, no. 2 (1981): 41–50.
+    * Inukai, Morimasa. "*Ruiju Myōgishō*: Kanchi-in bon to Renjō-in bon to no 'Zatsu' Bu no Hikaku Taishō (Ge)" (A Comparative Study of the 'Miscellaneous' Section of the *Ruiju Myōgishō*: Kanchi-in and Renjō-in Manuscripts (Part 3)). *Sugiyama Jogakuen Daigaku Kenkyū Ronshū* (*Journal of Sugiyama Jogakuen University*) 13, no. 2 (1981): 41–50.
 
 16. **Ishii, Yukio (1993)**
     * Ishii, Yukio. "'Shichijō Jisho' kō" (A Study of the "Shichijō Jisho"). *Gogaku Bungaku* (Hokkaidō Kyōiku Daigaku Gogaku Bungakkai), no. 31 (1993): 15–22.
@@ -344,7 +344,7 @@ This list is currently under development, and therefore may not yet include some
     * Ōtsuki, Makoto. *Heian Jidai Jisho Ronkō: Jisho to Zairyō* (Studies on Heian Period Dictionaries: Dictionaries and Materials). Tokyo: Yoshikawa Kōbunkan, 2019.
 
 41. **Sadakari, Itoku (1983)**
-    * Sadakari, Itoku. "Kanchi-in-bon *Ruiju Myōgishō* no Keisei ni kansuru Kōsatsu: Sono 1, Jijun o meguru Mondai" (A Study on the Formation of the Kanchi-in manuscript *Ruiju Myōgishō*: Part 1, Problems Concerning Character Order). Paper presented at the 48th Meeting of the Kuntengo Gakkai (Society for Kunten Language Research), Kyoto, May 20, 1983.
+    * Sadakari, Itoku. "Kanchi-in bon *Ruiju Myōgishō* no Keisei ni kansuru Kōsatsu: Sono 1, Jijun o meguru Mondai" (A Study on the Formation of the Kanchi-in manuscript *Ruiju Myōgishō*: Part 1, Problems Concerning Character Order). Paper presented at the 48th Meeting of the Kuntengo Gakkai (Society for Kunten Language Research), Kyoto, May 20, 1983.
 
 42. **Sadakari, Itoku (1998)**
     * Sadakari, Itoku. *Shinsen Jikyō no Kenkyū* (A Study of the *Shinsen Jikyō*). Tokyo: Kyūko Shoin, 1998.
@@ -419,7 +419,7 @@ This list is currently under development, and therefore may not yet include some
     * Wada, Kei. "Hōbodai-in bon *Ruiju Myōgishō* to Kanchi-in bon to no Hikaku kara: Ki no Bu o Chūshin ni shite" (From a Comparison between the Hōbodai-in Manuscript *Ruiju Myōgishō* and the Kanchi-in Manuscript: Focusing on the Tree Radical Section). *Kokubungaku Tōsa*, no. 18 (2006): 228–239.
 
 66. **Watanabe, Minoru (1960)**
-    * Watanabe, Minoru. "Sainnenjibon Renjōinbon *Ruiju Myōgishō* ni Tsuite: Kansai Daigaku Genzōhon no Shōkai o Ki ni Gen *Myōgishō* no Hensei no Suitei ni Oyobu" (On the Sainnenji and Renjōin Manuscripts of the *Ruiju Myōgishō*: Extending to an Estimation of the Original *Myōgishō*'s Compilation on the Occasion of Introducing the Manuscript Currently Held by Kansai University). In *Shimada Kyōju Koki Kinen Kokubungaku Ronshū* (Collection of Japanese Literature Papers Commemorating the 70th Birthday of Professor Shimada), edited by Kansai Daigaku Kokubungakkai (Kansai University Japanese Literature Society), 375–404. Suita, 1960.
+    * Watanabe, Minoru. "Sainnenjibon Renjō-in bon *Ruiju Myōgishō* ni Tsuite: Kansai Daigaku Genzōhon no Shōkai o Ki ni Gen *Myōgishō* no Hensei no Suitei ni Oyobu" (On the Sainnenji and Renjō-in Manuscripts of the *Ruiju Myōgishō*: Extending to an Estimation of the Original *Myōgishō*'s Compilation on the Occasion of Introducing the Manuscript Currently Held by Kansai University). In *Shimada Kyōju Koki Kinen Kokubungaku Ronshū* (Collection of Japanese Literature Papers Commemorating the 70th Birthday of Professor Shimada), edited by Kansai Daigaku Kokubungakkai (Kansai University Japanese Literature Society), 375–404. Suita, 1960.
 
 67. **Watanabe, Osamu (1953)**
     * Watanabe, Osamu. "Zushoryōbon *Ruiju Myōgishō* to Ishiyamadera-zō Hon *Daihannyakyō Jishō* to ni Tsuite" (On the Zushoryōbon *Ruiju Myōgishō* and the Ishiyamadera Manuscript *Daihannyakyō Jishō*). *Kokugogaku* 13 (1953): 35–50.
@@ -434,7 +434,7 @@ This list is currently under development, and therefore may not yet include some
     * Yamamoto, Hideto. "Kaihenbon *Ruiju Myōgishō* ni okeru *Monzen* Kun no Zōho ni tsuite" (On the Augmentation of *Wén Xuǎn* Readings in the Revised Lineage *Ruiju Myōgishō*). *Kokubungaku Kō*, no. 105 (1985): 35–51.
 
 71. **Yamamoto, Hideto (1985b)**
-    * Yamamoto, Hideto. "Renjōinbon *Ruiju Myōgishō* no Seiritsu ni tsuite: Ishitsu na Honbun o Yūsuru Bubun no Sonzai to sono Sojō" (On the Formation of the Renjōin manuscript *Ruiju Myōgishō*: The Existence and Origin of Sections with Heterogeneous Text). *Kamakura Jidaigo Kenkyū* 8 (1985): 134–159.
+    * Yamamoto, Hideto. "Renjō-in bon *Ruiju Myōgishō* no Seiritsu ni tsuite: Ishitsu na Honbun o Yūsuru Bubun no Sonzai to sono Sojō" (On the Formation of the Renjō-in manuscript *Ruiju Myōgishō*: The Existence and Origin of Sections with Heterogeneous Text). *Kamakura Jidaigo Kenkyū* 8 (1985): 134–159.
 
 72. **Yamamoto, Hideto (1988)**
     * Yamamoto, Hideto. "*Ruiju Myōgishō* ni okeru *Wamyō Ruijushō* o Shutten to suru Wakun no Sesshuhō ni tsuite: Gensenbon Hensan, Kaihen, Kaihengo no Zōho, no San Dankai ni Chakumoku shite" (On the Method of Adopting *Wakun* Sourced from the *Wamyō Ruijushō* in the *Ruiju Myōgishō*: Focusing on Three Stages—Original Compilation, Revision, and Post-Revision Augmentation). *Hiroshima Daigaku Bungakubu Kiyō* (Bulletin of the Faculty of Letters, Hiroshima University) 47 (1988): 1–28.
