@@ -7,12 +7,12 @@
   Calculation of Headword Character Count
   #
 
-This section will explain issues such as Miswritten Characters (誤字, goji), Omitted Characters (脱字, datsuji), Superfluous Characters (衍字, enji), interpolations (補入, honyū), Embedded Characters (埋字, umoji; referring to entries incorporated within another entry), Substitution Marks (代用符号, daiyō fugō), and Iteration Marks (踊り字, odoriji). Following this discussion, it will proceed to calculate the keishutsuji-sū (掲出字数). The keishutsuji-sū refers to the total number of characters that constitute all Headwords.">
+This section will explain issues such as Miswritten Characters (誤字, goji), Omitted Characters (脱字, datsuji), Superfluous Characters (衍字, enji), interpolations (補入, honyū), Embedded Items (埋字, umeji; referring to entries incorporated within another entry), Substitution Marks (代用符号, daiyō fugō), and Iteration Marks (踊り字, odoriji). Following this discussion, it will proceed to calculate the keishutsuji-sū (掲出字数). The keishutsuji-sū refers to the total number of characters that constitute all Headwords.">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-02-headword-count/">
   <meta property="og:site_name" content="HDIC project">
   <meta property="og:title" content="Calculation of Headword Count">
-  <meta property="og:description" content="Calculation of Headword Character Count # This section will explain issues such as Miswritten Characters (誤字, goji), Omitted Characters (脱字, datsuji), Superfluous Characters (衍字, enji), interpolations (補入, honyū), Embedded Characters (埋字, umoji; referring to entries incorporated within another entry), Substitution Marks (代用符号, daiyō fugō), and Iteration Marks (踊り字, odoriji). Following this discussion, it will proceed to calculate the keishutsuji-sū (掲出字数). The keishutsuji-sū refers to the total number of characters that constitute all Headwords.">
+  <meta property="og:description" content="Calculation of Headword Character Count # This section will explain issues such as Miswritten Characters (誤字, goji), Omitted Characters (脱字, datsuji), Superfluous Characters (衍字, enji), interpolations (補入, honyū), Embedded Items (埋字, umeji; referring to entries incorporated within another entry), Substitution Marks (代用符号, daiyō fugō), and Iteration Marks (踊り字, odoriji). Following this discussion, it will proceed to calculate the keishutsuji-sū (掲出字数). The keishutsuji-sū refers to the total number of characters that constitute all Headwords.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="docs">
@@ -22,7 +22,7 @@ This section will explain issues such as Miswritten Characters (誤字, goji), O
   <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/05-annotation-policy/05-02-headword-count/" title="掲出字数の算出">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.2eb9261045046b5a62a3b05a0d42dc83843b245d6ee2833aae5e96f3ec26c703.css" integrity="sha256-LrkmEEUEa1pio7BaDULcg4Q7JF1u4oM6rl6W8&#43;wmxwM=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/en.search.min.597eaa7f80ea426b2a6dbcb0ac13a9fb34d92dc6e95506db618126282dc1b36a.js" integrity="sha256-WX6qf4DqQmsqbbywrBOp&#43;zTZLcbpVQbbYYEmKC3Bs2o=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.8480f253c347e2d316e33023248a1a1c3984fbc0b1ff513ca6a6c7c7ec75116d.js" integrity="sha256-hIDyU8NH4tMW4zAjJIoaHDmE&#43;8Cx/1E8pqbHx&#43;x1EW0=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -686,6 +686,11 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#hōjō-法上--first-dharma-fascicle"><em>Hōjō</em> (法上 – First “Dharma” Fascicle)</a></li>
         <li><a href="#hōchū-法中--middle-dharma-fascicle"><em>Hōchū</em> (法中 – Middle &ldquo;Dharma&rdquo; Fascicle)</a></li>
         <li><a href="#hōge-法下--lower-dharma-fascicle"><em>Hōge</em> (法下 – Lower &ldquo;Dharma&rdquo; Fascicle)</a></li>
+        <li><a href="#sōjō-僧上--upper-sangha-fascicle"><em>Sōjō</em> (僧上 – Upper &ldquo;Sangha&rdquo; Fascicle)</a></li>
+        <li><a href="#sōchū-僧中--middle-sangha-fascicle">Sōchū (僧中 – Middle &ldquo;Sangha&rdquo; Fascicle)</a></li>
+        <li><a href="#sōge-僧下--lower-sangha-fascicle"><em>Sōge</em> (僧下 – Lower &ldquo;Sangha&rdquo; Fascicle)</a></li>
+        <li><a href="#summary-of-entry-counts-and-total-headword-character-counts-by-radical-section">Summary of <code>Entry</code> Counts and Total Headword Character Counts by Radical Section</a></li>
+        <li><a href="#addendum">Addendum</a></li>
       </ul>
     </li>
   </ul>
@@ -704,7 +709,7 @@ https://github.com/alex-shpak/hugo-book
   Calculation of Headword Character Count
   <a class="anchor" href="#calculation-of-headword-character-count">#</a>
 </h1>
-<p>This section will explain issues such as <strong><code>Miswritten Characters</code></strong> (誤字, <em>goji</em>), <strong><code>Omitted Characters</code></strong> (脱字, <em>datsuji</em>), <strong><code>Superfluous Characters</code></strong> (衍字, <em>enji</em>), interpolations (補入, <em>honyū</em>), <strong><code>Embedded Characters</code></strong> (埋字, <em>umoji</em>; referring to entries incorporated within another entry), <strong><code>Substitution Marks</code></strong> (代用符号, <em>daiyō fugō</em>), and <strong><code>Iteration Marks</code></strong> (踊り字, <em>odoriji</em>). Following this discussion, it will proceed to calculate the <em>keishutsuji-sū</em> (掲出字数). The <em>keishutsuji-sū</em> refers to the total number of characters that constitute all <strong><code>Headwords</code></strong>.</p>
+<p>This section will explain issues such as <strong><code>Miswritten Characters</code></strong> (誤字, <em>goji</em>), <strong><code>Omitted Characters</code></strong> (脱字, <em>datsuji</em>), <strong><code>Superfluous Characters</code></strong> (衍字, <em>enji</em>), interpolations (補入, <em>honyū</em>), <strong><code>Embedded Items</code></strong> (埋字, <em>umeji</em>; referring to entries incorporated within another entry), <strong><code>Substitution Marks</code></strong> (代用符号, <em>daiyō fugō</em>), and <strong><code>Iteration Marks</code></strong> (踊り字, <em>odoriji</em>). Following this discussion, it will proceed to calculate the <em>keishutsuji-sū</em> (掲出字数). The <em>keishutsuji-sū</em> refers to the total number of characters that constitute all <strong><code>Headwords</code></strong>.</p>
 <p>Then, based on the results of this <em>keishutsuji-sū</em> calculation, the number of <strong><code>Entries</code></strong> (<em>keishutsu kōmoku-sū</em>, 掲出項目数) will also be calculated. The number of <strong><code>Entries</code></strong> will be aggregated according to the number of characters constituting their <strong><code>Headwords</code></strong> (e.g., <strong><code>Entries</code></strong> with single-character <strong><code>Headwords</code></strong>, <strong><code>Entries</code></strong> with two-character <strong><code>Headwords</code></strong>, and so on).</p>
 <p>Finally, a list will be provided showing the <em>keishutsuji-sū</em> (total headword character count) and the number of <strong><code>Entries</code></strong> (<em>keishutsu kōmoku-sū</em>) for each of the 120 radical sections of the <em>Myōgishō</em>. In this listing, our calculated number of <strong><code>Entries</code></strong> will be compared with the entry count calculated by Sakai Kenji, and any discrepancies between our calculations and his will also be explained.</p>
 <h2 id="miswritten-characters-goji">
@@ -1839,6 +1844,2107 @@ However, character 6 from the Kanchi-in manuscript, <img src="https://glyphwiki.
 </ul>
 <p>Although the string &lsquo;⿱⿰白旡月&rsquo; is written in a large size and might appear to be a <strong><code>Headword</code></strong>, it does not contain the &lsquo;疒&rsquo; radical component. Therefore, it is not appropriate to classify it as a <strong><code>Headword</code></strong> belonging to the &ldquo;疒&rdquo; (Sickness) radical section.</p>
 <p>The original text for this section in the Kanchi-in manuscript can be referred to on the upper right of the <a href="https://dl.ndl.go.jp/info:ndljp/pid/2586897/67">corresponding page</a> in the National Diet Library Digital Collections.</p>
+<p>For the <strong>&ldquo;寸&rdquo; (Inch) radical section</strong> (寸部, <em>Sunbu</em>), Sakai (1967) counts 41 <strong><code>Entries</code></strong>, while Ikeda et al. (2020) count 39 <strong><code>Entries</code></strong>, a difference of two <strong><code>Entries</code></strong>. This discrepancy is thought to be related to the following instance:</p>
+<ul>
+<li><code>kazama_location</code>: K07143741, <code>hanzi_entry</code>: 戈／ー（射）, <code>definition</code> (representing <strong><code>Original Glosses</code></strong>): イツル　六ー　ムツマシ　賭ー　ノリユミ</li>
+</ul>
+<p>The strings &lsquo;六ー（射）&rsquo; and &lsquo;賭ー（射）&rsquo; appearing in the <strong><code>Original Glosses</code></strong> are written in a somewhat larger size. It is considered appropriate to treat each of these, along with their subsequent <strong><code>Japanese Native Readings</code> (<em>wakun</em>)</strong>, as independent <strong><code>Entries</code></strong>. These are considered <strong><code>Embedded Items</code> (<em>umeji</em>)</strong>, or compounds presented in the <strong><code>Divided-Annotation Style</code> (<em>Bunchūshiki</em>)</strong>. If treated this way, this instance is corrected as follows:</p>
+<ul>
+<li><code>kazama_location</code>: K07143741, <code>hanzi_entry</code>: 戈／ー（射）, <code>definition</code>: イツル, <code>remarks</code> (<strong><code>Compiler's Remark</code></strong>): Ikeda&rsquo;s note: The segment &lsquo;六ー　ムツマシ　賭ー　ノリユミ&rsquo; (originally part of this entry&rsquo;s gloss) is likely an <strong><code>Embedded Item (*umeji*)</code></strong> (or items that should be separate entries).</li>
+<li><code>kazama_location</code>: K07143743, <code>hanzi_entry</code>: 六／ー（射）, <code>definition</code>: ムツマシ</li>
+<li><code>kazama_location</code>: K07143745, <code>hanzi_entry</code>: 賭／ー（射）, <code>definition</code>: ノリユミ</li>
+</ul>
+<p>The figures for the &ldquo;寸&rdquo; (Inch) radical section in Ikeda et al. (2020) need to be corrected for the number of <strong><code>Entries</code></strong> as follows. The corrected figures are shown in <strong>bold</strong>:</p>
+<table>
+  <thead>
+      <tr>
+          <th>No.</th>
+          <th>Radical</th>
+          <th style="text-align: right">1-char</th>
+          <th style="text-align: right">2-char</th>
+          <th style="text-align: right">3-char</th>
+          <th style="text-align: right">4-char</th>
+          <th style="text-align: right">5-char</th>
+          <th style="text-align: right">6+ char</th>
+          <th style="text-align: right">No. of Entries</th>
+          <th style="text-align: right">No. of Chars</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>080</td>
+          <td>寸 (Inch)</td>
+          <td style="text-align: right">18</td>
+          <td style="text-align: right"><strong>23</strong></td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right"><strong>41</strong></td>
+          <td style="text-align: right"><strong>64</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p>For the <strong>&ldquo;示&rdquo; (Altar/Display) radical section</strong> (示部, <em>Shibu</em>), there is no difference in the number of <strong><code>Entries</code></strong> between Sakai (1967) and Ikeda et al. (2020). However, an <strong><code>Omitted Character</code></strong> is recognized in the <strong><code>Headword</code></strong> of the following <strong><code>Entry</code></strong>:</p>
+<ul>
+<li><code>kazama_location</code>: K0700183, <code>hanzi_entry</code>: 樹／［神］, <code>definition</code>: コタマ（LHL）</li>
+</ul>
+<p>As a result of supplying this omitted character, the breakdown of <strong><code>Entry</code></strong> counts by headword length and the total headword character count for this section are presented as follows (the total number of <strong><code>Entries</code></strong>, 232, remains unchanged):</p>
+<table>
+  <thead>
+      <tr>
+          <th>No.</th>
+          <th>Radical</th>
+          <th style="text-align: right">1-char</th>
+          <th style="text-align: right">2-char</th>
+          <th style="text-align: right">3-char</th>
+          <th style="text-align: right">4-char</th>
+          <th style="text-align: right">5-char</th>
+          <th style="text-align: right">6+ char</th>
+          <th style="text-align: right">No. of Entries</th>
+          <th style="text-align: right">No. of Chars</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>061</td>
+          <td>示 (Altar/Display)</td>
+          <td style="text-align: right">198</td>
+          <td style="text-align: right">27</td>
+          <td style="text-align: right">6</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">232</td>
+          <td style="text-align: right">275</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="sōjō-僧上--upper-sangha-fascicle">
+  <em>Sōjō</em> (僧上 – Upper &ldquo;Sangha&rdquo; Fascicle)
+  <a class="anchor" href="#s%c5%8dj%c5%8d-%e5%83%a7%e4%b8%8a--upper-sangha-fascicle">#</a>
+</h3>
+<p>In the <em><strong>Sōjō</strong></em> section, discrepancies in <strong><code>Entry</code></strong> counts between Sakai (1967) and Ikeda et al. (2020) are found for the following two radical sections. The figures presented in the table below are from Ikeda et al. (2020):</p>
+<table>
+  <thead>
+      <tr>
+          <th>No.</th>
+          <th>Radical</th>
+          <th style="text-align: right">1-char</th>
+          <th style="text-align: right">2-char</th>
+          <th style="text-align: right">3-char</th>
+          <th style="text-align: right">4-char</th>
+          <th style="text-align: right">5-char</th>
+          <th style="text-align: right">6+ char</th>
+          <th style="text-align: right">No. of Entries</th>
+          <th style="text-align: right">No. of Chars</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>086</td>
+          <td>毛 (Fur)</td>
+          <td style="text-align: right">60</td>
+          <td style="text-align: right">30</td>
+          <td style="text-align: right">9</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">104</td>
+          <td style="text-align: right">173</td>
+      </tr>
+      <tr>
+          <td>087</td>
+          <td>食 (Eat)</td>
+          <td style="text-align: right">120</td>
+          <td style="text-align: right">73</td>
+          <td style="text-align: right">17</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">213</td>
+          <td style="text-align: right">333</td>
+      </tr>
+  </tbody>
+</table>
+<p>For the <strong>&ldquo;毛&rdquo; (Fur) radical section</strong> (毛部, <em>Mōbu</em>), Sakai (1967) counts 104 <strong><code>Entries</code></strong>, while Ikeda et al. (2020) count 103 <strong><code>Entries</code></strong>, a difference of one <strong><code>Entry</code></strong>. This discrepancy is thought to be related to the following instance:</p>
+<ul>
+<li><code>kazama_location</code>: K08100641, <code>hanzi_entry</code>: ⿱三毛／⿱介毳／毳／𣯝, <code>definition</code> (representing <strong><code>Original Glosses</code></strong>): マコケ（HHLV）　カモ（HH）　音脆（R）「セイ」, <code>remarks</code> (<strong><code>Compiler's Remark</code></strong>): The <strong><code>Japanese Native Readings</code> (<em>wakun</em>)</strong> are written as if they are side-line <em>kun</em> readings for &lsquo;毳&rsquo;. Corrected to treat &lsquo;⿱三毛／⿱介毳／毳／𣯝&rsquo; as a single <strong><code>Entry</code></strong>.</li>
+</ul>
+<p>As noted in the <code>remarks</code> (the <strong><code>Compiler's Remark</code></strong>), the two <strong><code>Japanese Native Readings</code> (<em>wakun</em>)</strong> are written as if they are side-line <em>kun</em> readings for the character &lsquo;毳&rsquo;. Furthermore, in the original manuscript layout, there is a line break after &lsquo;毳&rsquo;, and &lsquo;𣯝&rsquo; appears as a <strong><code>Headword</code></strong> at the beginning of the next line.</p>
+<p>Since the character &lsquo;𣯝&rsquo; may not display correctly in all environments, the <strong><code>Headword</code></strong> in question, along with its associated readings from the <strong><code>Original Glosses</code></strong>, is shown using GlyphWiki images as follows. A slash &lsquo;/&rsquo; indicates a line break as found in the Kanchi-in manuscript&rsquo;s layout for this entry:</p>
+<p><img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08100641.50px.png" alt="⿱三毛" />
+<img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08100642.50px.png" alt="⿱介毳" />
+<img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08100643.50px.png" alt="毳" />
+マコケ（HHLV）　カモ（HH） /
+<img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08100644.50px.png" alt="𣯝" />
+音脆（R）「セイ」</p>
+<p>The character &lsquo;毳&rsquo; (<em>sui</em>, <em>zei</em>) has two pronunciations in the <em>Guangyun</em>: &ldquo;此芮切&rdquo; (<em>cǐ ruì qiè</em>; Departing tone, 祭韻, 清母 <em>Qing initial</em>) and &ldquo;楚税切&rdquo; (<em>chǔ shuì qiè</em>; Departing tone, 祭韻, 穿二母 <em>Chuan II initial</em>, for the character 㯔). The character &lsquo;脆&rsquo; also has the <em>fanqie</em> &ldquo;此芮切&rdquo;. The <em>Shuowen Jiezi</em>, under the &ldquo;毳&rdquo; radical section, states: &ldquo;獸細毛也。从三毛。凡毳之屬皆从毳。&rdquo; (Fine animal fur. Composed of three &lsquo;毛&rsquo; (fur) characters. All characters belonging to the 毳 category are derived from 毳). Considering this, it is appropriate to treat these four characters (<img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08100641.50px.png" alt="⿱三毛" />, <img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08100642.50px.png" alt="⿱介毳" />, <img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08100643.50px.png" alt="毳" />, and <img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08100644.50px.png" alt="𣯝" />) collectively as a single <strong><code>Basic Entry</code></strong>. The Renjō-in manuscript also treats these four characters as a single <strong><code>Entry</code></strong>.</p>
+<p>Regarding the <strong><code>Japanese Native Readings</code> (<em>wakun</em>)</strong>:
+The <em>wakun</em> &ldquo;カモ&rdquo; (<em>kamo</em>) is listed in the <em>Nihon Kokugo Daijiten</em> (<em>Nikkoku</em>) under the entry for &ldquo;かも 【氈】&rdquo; with the definition: &ldquo;A carpet woven from animal fur; also refers to woolen products in general. Also <em>ori-kamo</em>.&rdquo; Examples are found in the <em>Shinsen Jikyō</em> and the <em>Wamyō Ruijushō</em>.
+The <em>wakun</em> &ldquo;マコゲ&rdquo; (<em>makoge</em>) is not listed in the <em>Nikkoku</em>. Masamune&rsquo;s Kana Index records &ldquo;マコゲ&rdquo;. However, Mochizuki&rsquo;s <em>Wakun Shūsei</em> and Kusakawa&rsquo;s <em>Wakun Shūsei</em> list it as &ldquo;ニコゲ&rdquo; (<em>nikoge</em>) with a <em>mama</em> (i.e., &ldquo;as is,&rdquo; indicating a direct transcription of a possibly problematic form) note.
+The Maeda-bon manuscript of the <em>Iroha Jiruishō</em>, under the entry for &lsquo;毳&rsquo;, shows &ldquo;ニコゲ (HHLV)&rdquo;. The <em>Nikkoku</em> defines &ldquo;ニコゲ&rdquo; (<em>nikoge</em>) as: &ldquo;Fine, soft, short animal fur; also soft human hair. <em>Ubuge</em> (downy hair), <em>watage</em> (fluff).&rdquo; Examples are found in the <em>Wamyō Ruijushō</em> and other texts.</p>
+<p>The original text for this section in the Kanchi-in manuscript can be referred to on the right side of the <a href="https://dl.ndl.go.jp/info:ndljp/pid/2586898/54">corresponding page</a> in the National Diet Library Digital Collections.</p>
+<p>Incidentally, Volume 1 of the <em>Longkan Shoujian/Shoujing</em> (龍龕手鑑), under the &ldquo;毛&rdquo; (Fur) radical section, shows the following related entries:</p>
+<p><img src="https://glyphwiki.org/glyph/cbeta-18097.50px.png" alt="●" />
+<img src="https://glyphwiki.org/glyph/u23bdd.50px.png" alt="𣯝" />
+<img src="https://glyphwiki.org/glyph/u23be0.50px.png" alt="𣯠" />
+<img src="https://glyphwiki.org/glyph/u306b3.50px.png" alt="⿱亦毳" />
+四俗。 (Four popular forms.)
+<img src="https://glyphwiki.org/glyph/u6bf3.50px.png" alt="毳" />
+正。七稅昌稅二反。鳥獸細茸毛也。又斷也。亦姓五。 (Standard form. <em>Fanqie</em> spellings: 七稅反 (<em>qī shuì fǎn</em>) and 昌稅反 (<em>chāng shuì fǎn</em>). Meaning: &lsquo;Fine downy fur of birds and beasts. Also means to cut. Also a surname.&rsquo; Five (notes/entries in total for this group).)</p>
+<p>The <strong><code>Entry</code></strong> count and total headword character count for the &ldquo;毛&rdquo; (Fur) radical section are corrected as follows:</p>
+<table>
+  <thead>
+      <tr>
+          <th>No.</th>
+          <th>Radical</th>
+          <th style="text-align: right">1-char</th>
+          <th style="text-align: right">2-char</th>
+          <th style="text-align: right">3-char</th>
+          <th style="text-align: right">4-char</th>
+          <th style="text-align: right">5-char</th>
+          <th style="text-align: right">6+ char</th>
+          <th style="text-align: right">No. of Entries</th>
+          <th style="text-align: right">No. of Chars</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>086</td>
+          <td>毛 (Fur)</td>
+          <td style="text-align: right">59</td>
+          <td style="text-align: right">30</td>
+          <td style="text-align: right">9</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">103</td>
+          <td style="text-align: right">173</td>
+      </tr>
+  </tbody>
+</table>
+<p>For the <strong>&ldquo;食&rdquo; (Eat/Food) radical section</strong> (食部, <em>Shokubu</em>), Sakai (1967) counts 214 <strong><code>Entries</code></strong>, while Ikeda et al. (2020) count 213 <strong><code>Entries</code></strong>, a difference of one <strong><code>Entry</code></strong>. This discrepancy is thought to be related to the following instance:</p>
+<ul>
+<li><code>kazama_location</code>: K08104831, <code>hanzi_entry</code>: 餬／𩚩, <code>definition</code> (representing <strong><code>Original Glosses</code></strong>): 「カユ」　「モラフ（HHL）」　今正　音胡　鬻〈正〉　饘也　モラフ（HHL）　ネヤス（LH_）　ヒサク（HH_）, <code>remarks</code> (<strong><code>Compiler's Remark</code></strong>): An example noted as &lsquo;unknown&rsquo; (未詳, <em>mishō</em>) in the <em>Wamyō Ruijushō</em> but not present in the <em>Myōgishō</em> in this form; see <em>Senchūbon Wamyōshō</em> (Annotated Edition of the <em>Wamyō Ruijushō</em>), Vol. 4, p. 48 verso (Okada&rsquo;s research, p. 97).</li>
+</ul>
+<p>The <strong><code>Japanese Native Readings</code> (<em>wakun</em>)</strong> &lsquo;カユ&rsquo; (<em>kayu</em>) and &lsquo;モラフ&rsquo; (<em>morau</em>; HHL) are written to the bottom right and bottom left, respectively, of the <strong><code>Headword</code></strong> &lsquo;餬&rsquo;. While they could potentially be seen as constituting independent <strong><code>Entries</code></strong>, the <strong><code>Headword</code></strong> &lsquo;餬／𩚩&rsquo; is an example of co-listed <strong><code>variant characters</code> (<em>itaiji</em>)</strong>. Furthermore, the <strong><code>Original Glosses</code></strong> include the <strong><code>Form Classification Tag</code></strong> &lsquo;今正&rsquo; (<em>konsei</em>; &ldquo;current/standard&rdquo;), and the Renjō-in manuscript treats &lsquo;餬／𩚩&rsquo; as a single <strong><code>Entry</code></strong>.</p>
+<p>Another problematic instance is the following example:</p>
+<ul>
+<li><code>kazama_location</code>: K08110441, <code>hanzi_entry</code>: 䬭／𩚓／𩚾／𩜻／䬢／⿱⿰号丙食, <code>definition</code>: 俗 (Popular form)</li>
+</ul>
+<p>As this <strong><code>Headword</code></strong> contains many complex or rare characters, it is shown below using GlyphWiki images. A slash &lsquo;/&rsquo; indicates a line break (as found in the manuscript for this sequence):</p>
+<p><img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110421.50px.png" alt="𩞂" />
+<img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110422.50px.png" alt="饕" />
+或正叨通　他刀反　貪財　呉刀(R)<br>
+(Glyph notes for : 或正叨通 (<em>waku sei tō tsū</em>; Alternative, Standard, Also Common forms). <em>Fanqie</em>: 他刀反 (<em>tā dāo fǎn</em>). Meaning: 貪財 (greedy for wealth). <em>Go-on</em>: 刀(R) (<em>tō</em>).)<br>
+<img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110441.50px.png" alt="䬭" />
+<img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110442.50px.png" alt="𩚓" />
+<img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110443.50px.png" alt="𩚾" />
+<img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110444.50px.png" alt="𩜻" />/
+<img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110511.50px.png" alt="䬢" />
+<img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110512.50px.png" alt="⿱⿰号丙食" />俗 (Popular form)</p>
+<p>There is a line break between <img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110444.50px.png" alt="𩜻" /> and <img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110511.50px.png" alt="䬢" />, which might suggest that the <strong><code>Headword</code></strong> was split into two <strong><code>Entries</code></strong> at this point. However, as this is a sequence of <strong><code>variant characters</code> (<em>itaiji</em>)</strong> of &lsquo;饕&rsquo;, it is considered more appropriate to treat it as a single <strong><code>Entry</code></strong>.</p>
+<p>The original text for this section in the Kanchi-in manuscript can be referred to on the right side of the <a href="https://dl.ndl.go.jp/info:ndljp/pid/2586898/59">corresponding page</a> in the National Diet Library Digital Collections.</p>
+<h3 id="sōchū-僧中--middle-sangha-fascicle">
+  Sōchū (僧中 – Middle &ldquo;Sangha&rdquo; Fascicle)
+  <a class="anchor" href="#s%c5%8dch%c5%ab-%e5%83%a7%e4%b8%ad--middle-sangha-fascicle">#</a>
+</h3>
+<p>In the Sōchū section, discrepancies in Entry counts between Sakai (1967) and Ikeda et al. (2020) are found for the following two radical sections. The figures presented in the table below are from Ikeda et al. (2020):</p>
+<table>
+  <thead>
+      <tr>
+          <th>No.</th>
+          <th>Radical</th>
+          <th style="text-align: right">1-char</th>
+          <th style="text-align: right">2-char</th>
+          <th style="text-align: right">3-char</th>
+          <th style="text-align: right">4-char</th>
+          <th style="text-align: right">5-char</th>
+          <th style="text-align: right">6+ char</th>
+          <th style="text-align: right">No. of Entries</th>
+          <th style="text-align: right">No. of Chars</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>095</td>
+          <td>弓 (Bow)</td>
+          <td style="text-align: right">61</td>
+          <td style="text-align: right">32</td>
+          <td style="text-align: right">7</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">101</td>
+          <td style="text-align: right">150</td>
+      </tr>
+      <tr>
+          <td>111</td>
+          <td>鳥 (Bird)</td>
+          <td style="text-align: right">307</td>
+          <td style="text-align: right">184</td>
+          <td style="text-align: right">35</td>
+          <td style="text-align: right">6</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">533</td>
+          <td style="text-align: right">809</td>
+      </tr>
+  </tbody>
+</table>
+<p>For the <strong>&ldquo;弓&rdquo; (Bow) radical section</strong> (弓部, <em>Kyūbu</em>), Sakai (1967) counts 102 Entries, while Ikeda et al. (2020) count 101 Entries, a difference of one Entry. This discrepancy is thought to be related to the following instance:</p>
+<ul>
+<li><code>kazama_location</code>: K09028141, <code>hanzi_entry</code>: ⿰弓取／⿰弓亥／⿰弓丁／⿰弓𧴪, <code>definition</code>: 未詳 (Unknown)</li>
+</ul>
+<p>There is a line break in the manuscript between &lsquo;⿰弓丁&rsquo; (the third character of this Headword) and &lsquo;⿰弓𧴪&rsquo; (the fourth character of this Headword), which raises the possibility of counting them as two separate Entries.</p>
+<p>The Headword &lsquo;⿰弓取／⿰弓亥／⿰弓丁／⿰弓𧴪&rsquo; with its Original Gloss &ldquo;未詳&rdquo; (Unknown) appears as follows (line break indicated by /):</p>
+<p><img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-09028141.50px.png" alt="⿰弓取" />
+<img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-09028142.50px.png" alt="⿰弓亥" />
+<img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-09028143.50px.png" alt="⿰弓丁" />/
+<img src="https://glyphwiki.org/glyph/hdic-tanki10_hkrm-09028210.50px.png" alt="⿰弓𧴪" />
+/ 未詳 (Unknown)</p>
+<p>The original text for this section in the Kanchi-in manuscript can be referred to on the right side of the <a href="http://dl.ndl.go.jp/info:ndljp/pid/2586899/18">corresponding page</a> in the National Diet Library Digital Collections.</p>
+<p>For the <strong>&ldquo;鳥&rdquo; (Bird) radical section</strong> (鳥部, <em>Chōbu</em>), Sakai (1967) counts 532 Entries, while Ikeda et al. (2020) count 533 Entries, a difference of one Entry. Currently, no specific instances that might account for this discrepancy in Entry counting have been identified.</p>
+<h3 id="sōge-僧下--lower-sangha-fascicle">
+  <em>Sōge</em> (僧下 – Lower &ldquo;Sangha&rdquo; Fascicle)
+  <a class="anchor" href="#s%c5%8dge-%e5%83%a7%e4%b8%8b--lower-sangha-fascicle">#</a>
+</h3>
+<p>In the <em><strong>Sōge</strong></em> section, discrepancies in <strong><code>Entry</code></strong> counts between Sakai (1967) and Ikeda et al. (2020) are found for the following four radical sections. The figures presented in the table below are from Ikeda et al. (2020):</p>
+<table>
+  <thead>
+      <tr>
+          <th>No.</th>
+          <th>Radical</th>
+          <th style="text-align: right">1-char</th>
+          <th style="text-align: right">2-char</th>
+          <th style="text-align: right">3-char</th>
+          <th style="text-align: right">4-char</th>
+          <th style="text-align: right">5-char</th>
+          <th style="text-align: right">6+ char</th>
+          <th style="text-align: right">No. of Entries</th>
+          <th style="text-align: right">No. of Chars</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>113</td>
+          <td>魚 (Fish)</td>
+          <td style="text-align: right">232</td>
+          <td style="text-align: right">104</td>
+          <td style="text-align: right">41</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">379</td>
+          <td style="text-align: right">571</td>
+      </tr>
+      <tr>
+          <td>114</td>
+          <td>虫 (Insect)</td>
+          <td style="text-align: right">365</td>
+          <td style="text-align: right">257</td>
+          <td style="text-align: right">27</td>
+          <td style="text-align: right">9</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">5</td>
+          <td style="text-align: right">664</td>
+          <td style="text-align: right">1,041</td>
+      </tr>
+      <tr>
+          <td>117</td>
+          <td>鬼 (Ghost)</td>
+          <td style="text-align: right">51</td>
+          <td style="text-align: right">18</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">75</td>
+          <td style="text-align: right">121</td>
+      </tr>
+      <tr>
+          <td>120</td>
+          <td>雑 (Miscellaneous)</td>
+          <td style="text-align: right">1,076</td>
+          <td style="text-align: right">331</td>
+          <td style="text-align: right">73</td>
+          <td style="text-align: right">14</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">1,501</td>
+          <td style="text-align: right">2,056</td>
+      </tr>
+  </tbody>
+</table>
+<p>For the <strong>&ldquo;魚&rdquo; (Fish) radical section</strong> (魚部, <em>Gyobu</em>), Sakai (1967) counts 378 <strong><code>Entries</code></strong>, while Ikeda et al. (2020) count 379 <strong><code>Entries</code></strong>, a difference of one <strong><code>Entry</code></strong>. This discrepancy is thought to be related to the following instance:</p>
+<ul>
+<li><code>kazama_location</code>: K10008640, <code>hanzi_entry</code>: 鰐, <code>definition</code>: 音萼　ワニ（LL）</li>
+<li><code>kazama_location</code>: K10008711, <code>hanzi_entry</code>: 鱷, <code>definition</code>: 或</li>
+<li><code>kazama_location</code>: K10008712, <code>hanzi_entry</code>: 𩻙, <code>definition</code>: 正</li>
+<li><code>kazama_location</code>: K10008713, <code>hanzi_entry</code>: 鰐, <code>definition</code>: (Unannotated)</li>
+<li><code>kazama_location</code>: K10008720, <code>hanzi_entry</code>: 䱟, <code>definition</code>: *フナ</li>
+</ul>
+<p>In the original Kanchi-in manuscript, the last two characters (&lsquo;鰐&rsquo; from K10008713 and &lsquo;䱟&rsquo; from K10008720) are written as if they form a single <strong><code>Entry</code></strong>. These two characters are not listed as <strong><code>Headwords</code></strong> in the Renjō-in manuscript.</p>
+<p>The sequence of glyphs and the <em>wakun</em> &lsquo;フナ&rsquo; appears as:</p>
+<p>1<img src="https://glyphwiki.org/glyph/sarashina_hkrm-10008640.50px.png" alt="鰐" />音萼　ワニ(LL) (with its own glosses)<br>
+2<img src="https://glyphwiki.org/glyph/sarashina_hkrm-10008711.50px.png" alt="鱷" />或 (annotated 或 - variant)<br>
+3<img src="https://glyphwiki.org/glyph/sarashina_hkrm-10008712.50px.png" alt="𩻙" />正 (annotated 正 - standard)<br>
+4<img src="https://glyphwiki.org/glyph/sarashina_hkrm-10008713.50px.png" alt="鰐" /> (unannotated)<br>
+5<img src="https://glyphwiki.org/glyph/sarashina_hkrm-10008720.50px.png" alt="䱟" /> フナ (<em>funa</em>)</p>
+<p>Indeed, it is conceivable that the <strong><code>Japanese Native Reading</code> (<em>wakun</em>)</strong> &lsquo;フナ&rsquo; (<em>funa</em>) was intended as an annotation for both characters  (4)<img src="https://glyphwiki.org/glyph/sarashina_hkrm-10008713.50px.png" alt="鰐" /> and  (5)<img src="https://glyphwiki.org/glyph/sarashina_hkrm-10008720.50px.png" alt="䱟" /> together.</p>
+<p>Alternatively, at some stage of the revised compilation, there might have been a perceived difference in glyph form between  (1)<img src="https://glyphwiki.org/glyph/sarashina_hkrm-10008640.50px.png" alt="鰐" /> and (4)<img src="https://glyphwiki.org/glyph/sarashina_hkrm-10008713.50px.png" alt="鰐" />, and they might have been listed to distinguish them. The three characters  (2)<img src="https://glyphwiki.org/glyph/sarashina_hkrm-10008711.50px.png" alt="鱷" />,  (3)<img src="https://glyphwiki.org/glyph/sarashina_hkrm-10008712.50px.png" alt="𩻙" />, and  (4)<img src="https://glyphwiki.org/glyph/sarashina_hkrm-10008713.50px.png" alt="鰐" /> are written within a single cell (1マス, <em>hitomasu</em>).
+The common <em>kun</em> reading for &lsquo;鰐&rsquo; is &lsquo;ワニ&rsquo; (<em>wani</em>), so it is hesitant to read it as &lsquo;フナ&rsquo; (<em>funa</em>). It is preferable to consider &lsquo;フナ&rsquo; as corresponding only to &lsquo;䱟&rsquo;.</p>
+<p>The original text for this section in the Kanchi-in manuscript can be referred to on the right side of the <a href="http://dl.ndl.go.jp/info:ndljp/pid/2586900/8">corresponding page</a> in the National Diet Library Digital Collections.</p>
+<p>For the <strong>&ldquo;虫&rdquo; (Insect) radical section</strong> (虫部, <em>Chūbu</em>), Sakai (1967) counts 665 <strong><code>Entries</code></strong>, while Ikeda et al. (2020) count 664 <strong><code>Entries</code></strong>, a difference of one <strong><code>Entry</code></strong>. This discrepancy is thought to be related to the following instances:</p>
+<ul>
+<li><code>kazama_location</code>: K10030731, <code>hanzi_entry</code>: ⿱⿱⿰虫虫冖虫／⿱⿱⿰虫虫冖磊／𧖁／⿱⿱市冖蟲／⿱⿱士宀蟲／⿱兩⿰虫虫 (line break)／⿰虫⿰杀攵, <code>definition</code>: 俗⿳⿻十口冖各俗</li>
+</ul>
+<p>This is an <strong><code>Entry</code></strong> listing <strong><code>variant characters</code> (<em>itaiji</em>)</strong>, but there is a line break in the middle of the <strong><code>Headword</code></strong>.</p>
+<p>The original text for this section in the Kanchi-in manuscript can be referred to on the right side of the <a href="http://dl.ndl.go.jp/info:ndljp/pid/2586900/19">corresponding page</a> in the National Diet Library Digital Collections.</p>
+<p>Another problematic instance is the following:</p>
+<ul>
+<li><code>kazama_location</code>: K10038541, <code>hanzi_entry</code>: ⿱䖝⿰蚕蚕／⿱⿰天天蟲／䗝 (line break)／⿱冖虫／蝅／⿱玄虫, <code>definition</code>: 俗</li>
+</ul>
+<p>This is an <strong><code>Entry</code></strong> listing <strong><code>variant characters</code> (<em>itaiji</em>)</strong> of &lsquo;蠶&rsquo;, but there is a line break in the middle of the <strong><code>Headword</code></strong>.</p>
+<p>The original text for this section in the Kanchi-in manuscript can be referred to on the right side of the <a href="http://dl.ndl.go.jp/info:ndljp/pid/2586900/23">corresponding page</a> in the National Diet Library Digital Collections.</p>
+<p>For the <strong>&ldquo;鬼&rdquo; (Ghost) radical section</strong> (鬼部, <em>Kibu</em>), Sakai (1967) counts 74 <strong><code>Entries</code></strong>, while Ikeda et al. (2020) count 75 <strong><code>Entries</code></strong>, a difference of one <strong><code>Entry</code></strong>. This discrepancy is thought to be related to the following instances:</p>
+<ul>
+<li><code>kazama_location</code>: K10048541, <code>hanzi_entry</code>: 𩲀／𩱿／⿱勿鬼 (line break)／𩲢／𩲑／𩲝／䰨／𩴎, <code>definition</code>: 俗</li>
+</ul>
+<p>This is an <strong><code>Entry</code></strong> listing <strong><code>variant characters</code> (<em>itaiji</em>)</strong>, but there is a line break in the middle of the <strong><code>Headword</code></strong>.</p>
+<ul>
+<li><code>kazama_location</code>: K10050340, <code>hanzi_entry</code>: ⿰我鬼, <code>definition</code>: (Unannotated), <code>remarks</code> (<strong><code>Compiler's Remark</code></strong>): Ikeda&rsquo;s note: Could this be continuous with the following &lsquo;Unknown&rsquo; (未詳, <em>mishō</em>) <strong><code>Entry</code></strong>?</li>
+<li><code>kazama_location</code>: K10050411, <code>hanzi_entry</code>: 𩴜／⿺鬼有／⿺鬼麦／⿺鬼同／⿺鬼達／⿺鬼田／⿺鬼能／⿺鬼幸／⿺鬼𦍬／⿰田鬼, <code>definition</code>: 未詳 (Unknown)</li>
+</ul>
+<p>These were counted as two <strong><code>Entries</code></strong>, but if &lsquo;⿰我鬼&rsquo; (<code>K10050340</code>) is continuous with the following &lsquo;Unknown&rsquo; <strong><code>Entry</code></strong>, the count would decrease by one.</p>
+<p>The original text for these sections in the Kanchi-in manuscript can be referred to on the right side of the <a href="http://dl.ndl.go.jp/info:ndljp/pid/2586900/28">corresponding page</a> and the right side of the <a href="http://dl.ndl.go.jp/info:ndljp/pid/2586900/29">following page</a> in the National Diet Library Digital Collections.</p>
+<p>For the <strong>&ldquo;雑&rdquo; (Miscellaneous) radical section</strong> (雑部, <em>Zatsubu</em>), Sakai (1967) counts 1,500 <strong><code>Entries</code></strong>, while Ikeda et al. (2020) count 1,501 <strong><code>Entries</code></strong>, a difference of one <strong><code>Entry</code></strong>. This discrepancy is thought to be related to the following instance:</p>
+<ul>
+<li><code>kazama_location</code>: K10081830, <code>hanzi_entry</code>: ■, <code>definition</code>: ツミ</li>
+<li><code>kazama_location</code>: K10081840, <code>hanzi_entry</code>: 𡿨, <code>definition</code>: (Unannotated), <code>remarks</code> (<strong><code>Compiler's Remark</code></strong>): A <strong><code>variant character (*itaiji*)</code></strong> of &lsquo;甽&rsquo;.</li>
+</ul>
+<p>The character represented as &lsquo;■&rsquo; (in <code>K10081830</code>) is written in the manuscript like .
+The character &lsquo;𡿨&rsquo; (<code>K10081840</code>) is not found in the Kazama Shobō edition. It can be confirmed in the Kichō Tosho Fukuseikai edition and both the old and new Tenri editions, but it is an easily overlooked example.</p>
+<p>The original text for this section in the Kanchi-in manuscript can be referred to on the left side of the <a href="http://dl.ndl.go.jp/info:ndljp/pid/2586900/44">corresponding page</a> in the National Diet Library Digital Collections.</p>
+<p>Also in the <strong>&ldquo;雑&rdquo; (Miscellaneous) radical section</strong>, there was an error in the data for the following <strong><code>Entry</code></strong>:</p>
+<ul>
+<li><code>kazama_location</code>: K10075411, <code>hanzi_entry</code>: 多／少, <code>definition</code>: ソコハク（LHLVL）</li>
+</ul>
+<p>The <strong><code>Headword</code></strong> was previously misidentified as only &lsquo;多&rsquo; and has been corrected to &lsquo;多／少&rsquo;.</p>
+<p>As a result of these corrections, the breakdown of <strong><code>Entry</code></strong> counts by headword length and the total headword character count for this section are as follows:</p>
+<table>
+  <thead>
+      <tr>
+          <th>No.</th>
+          <th>Radical</th>
+          <th style="text-align: right">1-char</th>
+          <th style="text-align: right">2-char</th>
+          <th style="text-align: right">3-char</th>
+          <th style="text-align: right">4-char</th>
+          <th style="text-align: right">5-char</th>
+          <th style="text-align: right">6+ char</th>
+          <th style="text-align: right">No. of Entries</th>
+          <th style="text-align: right">No. of Chars</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>120</td>
+          <td>雑 (Miscellaneous)</td>
+          <td style="text-align: right">1,075</td>
+          <td style="text-align: right">332</td>
+          <td style="text-align: right">73</td>
+          <td style="text-align: right">14</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">1,501</td>
+          <td style="text-align: right">2,057</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="summary-of-entry-counts-and-total-headword-character-counts-by-radical-section">
+  Summary of <code>Entry</code> Counts and Total Headword Character Counts by Radical Section
+  <a class="anchor" href="#summary-of-entry-counts-and-total-headword-character-counts-by-radical-section">#</a>
+</h3>
+<p>It was necessary to correct the <strong><code>Entry</code></strong> counts from Ikeda et al. (2020) for the following three radical sections: No. 001 &ldquo;人&rdquo; (Man), No. 029 &ldquo;木&rdquo; (Tree), and No. 080 &ldquo;寸&rdquo; (Inch).
+For other radical sections where discrepancies with other tallies (e.g., Sakai (1967)) exist, these variations are generally due to differences in the criteria for identifying and counting <strong><code>Entries</code></strong>. In such cases, the counts from Ikeda et al. (2020) have been retained as is.
+Reflecting the corrections made based on the verifications discussed above, a complete list of <strong><code>Entry</code></strong> counts for all radical sections is provided below. The presented total headword character counts (<em>keishutsuji-sū</em>, 掲出字数) also incorporate corrections for clear instances of <strong><code>Omitted Characters</code></strong>.</p>
+<p><em><strong>Butsujō</strong></em> <strong>(仏上 – Upper &ldquo;Buddha&rdquo; Fascicle)</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>No.</th>
+          <th>Radical</th>
+          <th style="text-align: right">1-char</th>
+          <th style="text-align: right">2-char</th>
+          <th style="text-align: right">3-char</th>
+          <th style="text-align: right">4-char</th>
+          <th style="text-align: right">5-char</th>
+          <th style="text-align: right">6+ char</th>
+          <th style="text-align: right">No. of Entries</th>
+          <th style="text-align: right">No. of Chars</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>001</td>
+          <td>人 (Man)</td>
+          <td style="text-align: right">614</td>
+          <td style="text-align: right">205</td>
+          <td style="text-align: right">28</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">856</td>
+          <td style="text-align: right">1,153</td>
+      </tr>
+      <tr>
+          <td>002</td>
+          <td>彳 (Step)</td>
+          <td style="text-align: right">144</td>
+          <td style="text-align: right">38</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">185</td>
+          <td style="text-align: right">229</td>
+      </tr>
+      <tr>
+          <td>003</td>
+          <td>辵 (Walk)</td>
+          <td style="text-align: right">368</td>
+          <td style="text-align: right">81</td>
+          <td style="text-align: right">10</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">462</td>
+          <td style="text-align: right">575</td>
+      </tr>
+      <tr>
+          <td>004</td>
+          <td>匚 (Box Frame)</td>
+          <td style="text-align: right">48</td>
+          <td style="text-align: right">5</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">55</td>
+          <td style="text-align: right">64</td>
+      </tr>
+      <tr>
+          <td>005</td>
+          <td>走 (Run)</td>
+          <td style="text-align: right">162</td>
+          <td style="text-align: right">16</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">180</td>
+          <td style="text-align: right">201</td>
+      </tr>
+      <tr>
+          <td>006</td>
+          <td>麥 (Wheat)</td>
+          <td style="text-align: right">72</td>
+          <td style="text-align: right">12</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">89</td>
+          <td style="text-align: right">116</td>
+      </tr>
+      <tr>
+          <td>007</td>
+          <td>一 (One)</td>
+          <td style="text-align: right">65</td>
+          <td style="text-align: right">65</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">135</td>
+          <td style="text-align: right">212</td>
+      </tr>
+      <tr>
+          <td>008</td>
+          <td>丨 (Line)</td>
+          <td style="text-align: right">46</td>
+          <td style="text-align: right">20</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">69</td>
+          <td style="text-align: right">96</td>
+      </tr>
+      <tr>
+          <td>009</td>
+          <td>十 (Ten)</td>
+          <td style="text-align: right">58</td>
+          <td style="text-align: right">21</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">81</td>
+          <td style="text-align: right">106</td>
+      </tr>
+      <tr>
+          <td>010</td>
+          <td>身 (Body)</td>
+          <td style="text-align: right">73</td>
+          <td style="text-align: right">6</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">80</td>
+          <td style="text-align: right">88</td>
+      </tr>
+  </tbody>
+</table>
+<p><em><strong>Butsuchū</strong></em> <strong>(仏中 – Middle &ldquo;Buddha&rdquo; Fascicle)</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>No.</th>
+          <th>Radical</th>
+          <th style="text-align: right">1-char</th>
+          <th style="text-align: right">2-char</th>
+          <th style="text-align: right">3-char</th>
+          <th style="text-align: right">4-char</th>
+          <th style="text-align: right">5-char</th>
+          <th style="text-align: right">6+ char</th>
+          <th style="text-align: right">No. of Entries</th>
+          <th style="text-align: right">No. of Chars</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>011</td>
+          <td>耳 (Ear)</td>
+          <td style="text-align: right">114</td>
+          <td style="text-align: right">12</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">130</td>
+          <td style="text-align: right">153</td>
+      </tr>
+      <tr>
+          <td>012</td>
+          <td>女 (Woman)</td>
+          <td style="text-align: right">421</td>
+          <td style="text-align: right">94</td>
+          <td style="text-align: right">8</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">527</td>
+          <td style="text-align: right">650</td>
+      </tr>
+      <tr>
+          <td>013</td>
+          <td>舌 (Tongue)</td>
+          <td style="text-align: right">26</td>
+          <td style="text-align: right">5</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">35</td>
+          <td style="text-align: right">51</td>
+      </tr>
+      <tr>
+          <td>014</td>
+          <td>口 (Mouth)</td>
+          <td style="text-align: right">857</td>
+          <td style="text-align: right">147</td>
+          <td style="text-align: right">17</td>
+          <td style="text-align: right">9</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">1,036</td>
+          <td style="text-align: right">1,275</td>
+      </tr>
+      <tr>
+          <td>015</td>
+          <td>目 (Eye)</td>
+          <td style="text-align: right">399</td>
+          <td style="text-align: right">55</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">463</td>
+          <td style="text-align: right">552</td>
+      </tr>
+      <tr>
+          <td>016</td>
+          <td>鼻 (Nose)</td>
+          <td style="text-align: right">30</td>
+          <td style="text-align: right">6</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">37</td>
+          <td style="text-align: right">45</td>
+      </tr>
+      <tr>
+          <td>017</td>
+          <td>見 (See)</td>
+          <td style="text-align: right">117</td>
+          <td style="text-align: right">10</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">127</td>
+          <td style="text-align: right">137</td>
+      </tr>
+      <tr>
+          <td>018</td>
+          <td>日 (Sun)</td>
+          <td style="text-align: right">450</td>
+          <td style="text-align: right">96</td>
+          <td style="text-align: right">7</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">556</td>
+          <td style="text-align: right">676</td>
+      </tr>
+      <tr>
+          <td>019</td>
+          <td>田 (Field)</td>
+          <td style="text-align: right">129</td>
+          <td style="text-align: right">29</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">160</td>
+          <td style="text-align: right">193</td>
+      </tr>
+      <tr>
+          <td>020</td>
+          <td>肉 (Flesh)</td>
+          <td style="text-align: right">580</td>
+          <td style="text-align: right">119</td>
+          <td style="text-align: right">12</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">717</td>
+          <td style="text-align: right">888</td>
+      </tr>
+  </tbody>
+</table>
+<p><em><strong>Butsuge-hon</strong></em> <strong>(仏下本 – Lower &ldquo;Buddha&rdquo; Fascicle, First Part)</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>No.</th>
+          <th>Radical</th>
+          <th style="text-align: right">1-char</th>
+          <th style="text-align: right">2-char</th>
+          <th style="text-align: right">3-char</th>
+          <th style="text-align: right">4-char</th>
+          <th style="text-align: right">5-char</th>
+          <th style="text-align: right">6+ char</th>
+          <th style="text-align: right">No. of Entries</th>
+          <th style="text-align: right">No. of Chars</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>021</td>
+          <td>舟 (Boat)</td>
+          <td style="text-align: right">86</td>
+          <td style="text-align: right">16</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">104</td>
+          <td style="text-align: right">125</td>
+      </tr>
+      <tr>
+          <td>022</td>
+          <td>骨 (Bone)</td>
+          <td style="text-align: right">96</td>
+          <td style="text-align: right">18</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">117</td>
+          <td style="text-align: right">141</td>
+      </tr>
+      <tr>
+          <td>023</td>
+          <td>角 (Horn)</td>
+          <td style="text-align: right">104</td>
+          <td style="text-align: right">20</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">126</td>
+          <td style="text-align: right">150</td>
+      </tr>
+      <tr>
+          <td>024</td>
+          <td>貝 (Shell)</td>
+          <td style="text-align: right">187</td>
+          <td style="text-align: right">23</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">215</td>
+          <td style="text-align: right">251</td>
+      </tr>
+      <tr>
+          <td>025</td>
+          <td>頁 (Head)</td>
+          <td style="text-align: right">230</td>
+          <td style="text-align: right">54</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">287</td>
+          <td style="text-align: right">352</td>
+      </tr>
+      <tr>
+          <td>026</td>
+          <td>彡 (Bristle)</td>
+          <td style="text-align: right">22</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">26</td>
+          <td style="text-align: right">32</td>
+      </tr>
+      <tr>
+          <td>027</td>
+          <td>髟 (Hair)</td>
+          <td style="text-align: right">127</td>
+          <td style="text-align: right">28</td>
+          <td style="text-align: right">5</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">165</td>
+          <td style="text-align: right">221</td>
+      </tr>
+      <tr>
+          <td>028</td>
+          <td>手 (Hand)</td>
+          <td style="text-align: right">886</td>
+          <td style="text-align: right">220</td>
+          <td style="text-align: right">37</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">1,149</td>
+          <td style="text-align: right">1,467</td>
+      </tr>
+      <tr>
+          <td>029</td>
+          <td>木 (Tree)</td>
+          <td style="text-align: right">1,044</td>
+          <td style="text-align: right">243</td>
+          <td style="text-align: right">40</td>
+          <td style="text-align: right">6</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">1,334</td>
+          <td style="text-align: right">1,680</td>
+      </tr>
+      <tr>
+          <td>030</td>
+          <td>犬 (Dog)</td>
+          <td style="text-align: right">245</td>
+          <td style="text-align: right">53</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">305</td>
+          <td style="text-align: right">375</td>
+      </tr>
+  </tbody>
+</table>
+<p><em><strong>Butsuge-matsu</strong></em> <strong>(仏下末 – Lower &ldquo;Buddha&rdquo; Fascicle, Last Part)</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>No.</th>
+          <th>Radical</th>
+          <th style="text-align: right">1-char</th>
+          <th style="text-align: right">2-char</th>
+          <th style="text-align: right">3-char</th>
+          <th style="text-align: right">4-char</th>
+          <th style="text-align: right">5-char</th>
+          <th style="text-align: right">6+ char</th>
+          <th style="text-align: right">No. of Entries</th>
+          <th style="text-align: right">No. of Chars</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>031</td>
+          <td>牛 (Cow)</td>
+          <td style="text-align: right">156</td>
+          <td style="text-align: right">20</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">178</td>
+          <td style="text-align: right">202</td>
+      </tr>
+      <tr>
+          <td>032</td>
+          <td>片 (Slice)</td>
+          <td style="text-align: right">56</td>
+          <td style="text-align: right">9</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">65</td>
+          <td style="text-align: right">74</td>
+      </tr>
+      <tr>
+          <td>033</td>
+          <td>豸 (Small Beast)</td>
+          <td style="text-align: right">116</td>
+          <td style="text-align: right">14</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">130</td>
+          <td style="text-align: right">144</td>
+      </tr>
+      <tr>
+          <td>034</td>
+          <td>乙 (Twisting stroke)</td>
+          <td style="text-align: right">22</td>
+          <td style="text-align: right">10</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">32</td>
+          <td style="text-align: right">42</td>
+      </tr>
+      <tr>
+          <td>035</td>
+          <td>儿 (Legs)</td>
+          <td style="text-align: right">156</td>
+          <td style="text-align: right">52</td>
+          <td style="text-align: right">10</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">221</td>
+          <td style="text-align: right">302</td>
+      </tr>
+      <tr>
+          <td>036</td>
+          <td>𠬞 (Joined Hands)</td>
+          <td style="text-align: right">90</td>
+          <td style="text-align: right">16</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">107</td>
+          <td style="text-align: right">125</td>
+      </tr>
+      <tr>
+          <td>037</td>
+          <td>八 (Eight)</td>
+          <td style="text-align: right">77</td>
+          <td style="text-align: right">26</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">5</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">109</td>
+          <td style="text-align: right">152</td>
+      </tr>
+      <tr>
+          <td>038</td>
+          <td>大 (Big)</td>
+          <td style="text-align: right">119</td>
+          <td style="text-align: right">19</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">141</td>
+          <td style="text-align: right">166</td>
+      </tr>
+      <tr>
+          <td>039</td>
+          <td>火 (Fire)</td>
+          <td style="text-align: right">407</td>
+          <td style="text-align: right">91</td>
+          <td style="text-align: right">11</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">513</td>
+          <td style="text-align: right">648</td>
+      </tr>
+      <tr>
+          <td>040</td>
+          <td>黒 (Black)</td>
+          <td style="text-align: right">88</td>
+          <td style="text-align: right">7</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">96</td>
+          <td style="text-align: right">108</td>
+      </tr>
+  </tbody>
+</table>
+<p><em><strong>Hōjō</strong></em> <strong>(法上 – Upper &ldquo;Dharma&rdquo; Fascicle)</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>No.</th>
+          <th>Radical</th>
+          <th style="text-align: right">1-char</th>
+          <th style="text-align: right">2-char</th>
+          <th style="text-align: right">3-char</th>
+          <th style="text-align: right">4-char</th>
+          <th style="text-align: right">5-char</th>
+          <th style="text-align: right">6+ char</th>
+          <th style="text-align: right">No. of Entries</th>
+          <th style="text-align: right">No. of Chars</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>041</td>
+          <td>水 (Water)</td>
+          <td style="text-align: right">1,137</td>
+          <td style="text-align: right">149</td>
+          <td style="text-align: right">27</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">1,321</td>
+          <td style="text-align: right">1,564</td>
+      </tr>
+      <tr>
+          <td>042</td>
+          <td>冫 (Ice)</td>
+          <td style="text-align: right">75</td>
+          <td style="text-align: right">7</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">85</td>
+          <td style="text-align: right">98</td>
+      </tr>
+      <tr>
+          <td>043</td>
+          <td>言 (Speech)</td>
+          <td style="text-align: right">615</td>
+          <td style="text-align: right">74</td>
+          <td style="text-align: right">9</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">699</td>
+          <td style="text-align: right">795</td>
+      </tr>
+      <tr>
+          <td>044</td>
+          <td>足 (Foot)</td>
+          <td style="text-align: right">418</td>
+          <td style="text-align: right">62</td>
+          <td style="text-align: right">9</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">493</td>
+          <td style="text-align: right">589</td>
+      </tr>
+      <tr>
+          <td>045</td>
+          <td>立 (Stand)</td>
+          <td style="text-align: right">79</td>
+          <td style="text-align: right">17</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">96</td>
+          <td style="text-align: right">113</td>
+      </tr>
+      <tr>
+          <td>046</td>
+          <td>豆 (Bean)</td>
+          <td style="text-align: right">62</td>
+          <td style="text-align: right">19</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">85</td>
+          <td style="text-align: right">112</td>
+      </tr>
+      <tr>
+          <td>047</td>
+          <td>卜 (Divination)</td>
+          <td style="text-align: right">97</td>
+          <td style="text-align: right">26</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">124</td>
+          <td style="text-align: right">152</td>
+      </tr>
+      <tr>
+          <td>048</td>
+          <td>面 (Face)</td>
+          <td style="text-align: right">47</td>
+          <td style="text-align: right">6</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">54</td>
+          <td style="text-align: right">62</td>
+      </tr>
+      <tr>
+          <td>049</td>
+          <td>齒 (Tooth)</td>
+          <td style="text-align: right">94</td>
+          <td style="text-align: right">18</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">118</td>
+          <td style="text-align: right">157</td>
+      </tr>
+      <tr>
+          <td>050</td>
+          <td>山 (Mountain)</td>
+          <td style="text-align: right">430</td>
+          <td style="text-align: right">59</td>
+          <td style="text-align: right">5</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">497</td>
+          <td style="text-align: right">584</td>
+      </tr>
+  </tbody>
+</table>
+<p><em><strong>Hōchū</strong></em> <strong>(法中 – Middle &ldquo;Dharma&rdquo; Fascicle)</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>No.</th>
+          <th>Radical</th>
+          <th style="text-align: right">1-char</th>
+          <th style="text-align: right">2-char</th>
+          <th style="text-align: right">3-char</th>
+          <th style="text-align: right">4-char</th>
+          <th style="text-align: right">5-char</th>
+          <th style="text-align: right">6+ char</th>
+          <th style="text-align: right">No. of Entries</th>
+          <th style="text-align: right">No. of Chars</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>051</td>
+          <td>石 (Stone)</td>
+          <td style="text-align: right">307</td>
+          <td style="text-align: right">56</td>
+          <td style="text-align: right">6</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">376</td>
+          <td style="text-align: right">472</td>
+      </tr>
+      <tr>
+          <td>052</td>
+          <td>玉 (Jade)</td>
+          <td style="text-align: right">294</td>
+          <td style="text-align: right">76</td>
+          <td style="text-align: right">8</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">383</td>
+          <td style="text-align: right">496</td>
+      </tr>
+      <tr>
+          <td>053</td>
+          <td>色 (Colour)</td>
+          <td style="text-align: right">23</td>
+          <td style="text-align: right">7</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">30</td>
+          <td style="text-align: right">37</td>
+      </tr>
+      <tr>
+          <td>054</td>
+          <td>邑 (Town/City)</td>
+          <td style="text-align: right">306</td>
+          <td style="text-align: right">13</td>
+          <td style="text-align: right">5</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">327</td>
+          <td style="text-align: right">359</td>
+      </tr>
+      <tr>
+          <td>055</td>
+          <td>阜 (Mound)</td>
+          <td style="text-align: right">235</td>
+          <td style="text-align: right">40</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">279</td>
+          <td style="text-align: right">329</td>
+      </tr>
+      <tr>
+          <td>056</td>
+          <td>土 (Earth)</td>
+          <td style="text-align: right">496</td>
+          <td style="text-align: right">77</td>
+          <td style="text-align: right">5</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">585</td>
+          <td style="text-align: right">700</td>
+      </tr>
+      <tr>
+          <td>057</td>
+          <td>心 (Heart)</td>
+          <td style="text-align: right">730</td>
+          <td style="text-align: right">161</td>
+          <td style="text-align: right">13</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">908</td>
+          <td style="text-align: right">1,111</td>
+      </tr>
+      <tr>
+          <td>058</td>
+          <td>巾 (Cloth)</td>
+          <td style="text-align: right">212</td>
+          <td style="text-align: right">42</td>
+          <td style="text-align: right">7</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">261</td>
+          <td style="text-align: right">317</td>
+      </tr>
+      <tr>
+          <td>059</td>
+          <td>糸 (Silk)</td>
+          <td style="text-align: right">631</td>
+          <td style="text-align: right">94</td>
+          <td style="text-align: right">8</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">736</td>
+          <td style="text-align: right">855</td>
+      </tr>
+      <tr>
+          <td>060</td>
+          <td>衣 (Clothes)</td>
+          <td style="text-align: right">389</td>
+          <td style="text-align: right">56</td>
+          <td style="text-align: right">6</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">451</td>
+          <td style="text-align: right">519</td>
+      </tr>
+  </tbody>
+</table>
+<p><em><strong>Hōge</strong></em> <strong>(法下 – Lower &ldquo;Dharma&rdquo; Fascicle)</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>No.</th>
+          <th>Radical</th>
+          <th style="text-align: right">1-char</th>
+          <th style="text-align: right">2-char</th>
+          <th style="text-align: right">3-char</th>
+          <th style="text-align: right">4-char</th>
+          <th style="text-align: right">5-char</th>
+          <th style="text-align: right">6+ char</th>
+          <th style="text-align: right">No. of Entries</th>
+          <th style="text-align: right">No. of Chars</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>061</td>
+          <td>示 (Altar/Display)</td>
+          <td style="text-align: right">198</td>
+          <td style="text-align: right">27</td>
+          <td style="text-align: right">6</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">232</td>
+          <td style="text-align: right">275</td>
+      </tr>
+      <tr>
+          <td>062</td>
+          <td>禾 (Grain Stalk)</td>
+          <td style="text-align: right">454</td>
+          <td style="text-align: right">53</td>
+          <td style="text-align: right">5</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">516</td>
+          <td style="text-align: right">593</td>
+      </tr>
+      <tr>
+          <td>063</td>
+          <td>米 (Rice)</td>
+          <td style="text-align: right">194</td>
+          <td style="text-align: right">42</td>
+          <td style="text-align: right">9</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">248</td>
+          <td style="text-align: right">321</td>
+      </tr>
+      <tr>
+          <td>064</td>
+          <td>丶 (Dot)</td>
+          <td style="text-align: right">79</td>
+          <td style="text-align: right">39</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">122</td>
+          <td style="text-align: right">169</td>
+      </tr>
+      <tr>
+          <td>065</td>
+          <td>宀 (Roof)</td>
+          <td style="text-align: right">215</td>
+          <td style="text-align: right">81</td>
+          <td style="text-align: right">10</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">307</td>
+          <td style="text-align: right">415</td>
+      </tr>
+      <tr>
+          <td>066</td>
+          <td>勹 (Wrap)</td>
+          <td style="text-align: right">29</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">33</td>
+          <td style="text-align: right">37</td>
+      </tr>
+      <tr>
+          <td>067</td>
+          <td>穴 (Cave)</td>
+          <td style="text-align: right">162</td>
+          <td style="text-align: right">27</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">191</td>
+          <td style="text-align: right">222</td>
+      </tr>
+      <tr>
+          <td>068</td>
+          <td>雨 (Rain)</td>
+          <td style="text-align: right">177</td>
+          <td style="text-align: right">43</td>
+          <td style="text-align: right">6</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">228</td>
+          <td style="text-align: right">290</td>
+      </tr>
+      <tr>
+          <td>069</td>
+          <td>門 (Gate)</td>
+          <td style="text-align: right">208</td>
+          <td style="text-align: right">40</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">252</td>
+          <td style="text-align: right">306</td>
+      </tr>
+      <tr>
+          <td>070</td>
+          <td>囗 (Enclosure)</td>
+          <td style="text-align: right">67</td>
+          <td style="text-align: right">18</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">86</td>
+          <td style="text-align: right">106</td>
+      </tr>
+      <tr>
+          <td>071</td>
+          <td>尸 (Corpse)</td>
+          <td style="text-align: right">149</td>
+          <td style="text-align: right">34</td>
+          <td style="text-align: right">7</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">194</td>
+          <td style="text-align: right">260</td>
+      </tr>
+      <tr>
+          <td>072</td>
+          <td>虍 (Tiger)</td>
+          <td style="text-align: right">67</td>
+          <td style="text-align: right">14</td>
+          <td style="text-align: right">7</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">90</td>
+          <td style="text-align: right">127</td>
+      </tr>
+      <tr>
+          <td>073</td>
+          <td>广 (Shelter)</td>
+          <td style="text-align: right">233</td>
+          <td style="text-align: right">59</td>
+          <td style="text-align: right">12</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">305</td>
+          <td style="text-align: right">392</td>
+      </tr>
+      <tr>
+          <td>074</td>
+          <td>鹿 (Deer)</td>
+          <td style="text-align: right">33</td>
+          <td style="text-align: right">18</td>
+          <td style="text-align: right">6</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">58</td>
+          <td style="text-align: right">91</td>
+      </tr>
+      <tr>
+          <td>075</td>
+          <td>疒 (Sickness)</td>
+          <td style="text-align: right">234</td>
+          <td style="text-align: right">138</td>
+          <td style="text-align: right">23</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">399</td>
+          <td style="text-align: right">603</td>
+      </tr>
+      <tr>
+          <td>076</td>
+          <td>歹 (Death)</td>
+          <td style="text-align: right">121</td>
+          <td style="text-align: right">59</td>
+          <td style="text-align: right">9</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">189</td>
+          <td style="text-align: right">266</td>
+      </tr>
+      <tr>
+          <td>077</td>
+          <td>子 (Child)</td>
+          <td style="text-align: right">44</td>
+          <td style="text-align: right">26</td>
+          <td style="text-align: right">24</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">94</td>
+          <td style="text-align: right">168</td>
+      </tr>
+      <tr>
+          <td>078</td>
+          <td>斗 (Dipper)</td>
+          <td style="text-align: right">22</td>
+          <td style="text-align: right">9</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">31</td>
+          <td style="text-align: right">40</td>
+      </tr>
+      <tr>
+          <td>079</td>
+          <td>倝 (Rising Sun)</td>
+          <td style="text-align: right">17</td>
+          <td style="text-align: right">6</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">23</td>
+          <td style="text-align: right">29</td>
+      </tr>
+      <tr>
+          <td>080</td>
+          <td>寸 (Inch)</td>
+          <td style="text-align: right">18</td>
+          <td style="text-align: right">23</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">41</td>
+          <td style="text-align: right">64</td>
+      </tr>
+  </tbody>
+</table>
+<p><em><strong>Sōjō</strong></em> <strong>(僧上 – Upper &ldquo;Sangha&rdquo; Fascicle)</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>No.</th>
+          <th>Radical</th>
+          <th style="text-align: right">1-char</th>
+          <th style="text-align: right">2-char</th>
+          <th style="text-align: right">3-char</th>
+          <th style="text-align: right">4-char</th>
+          <th style="text-align: right">5-char</th>
+          <th style="text-align: right">6+ char</th>
+          <th style="text-align: right">No. of Entries</th>
+          <th style="text-align: right">No. of Chars</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>081</td>
+          <td>艸 (Grass)</td>
+          <td style="text-align: right">986</td>
+          <td style="text-align: right">513</td>
+          <td style="text-align: right">95</td>
+          <td style="text-align: right">10</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">1,609</td>
+          <td style="text-align: right">2,363</td>
+      </tr>
+      <tr>
+          <td>082</td>
+          <td>竹 (Bomboo)</td>
+          <td style="text-align: right">300</td>
+          <td style="text-align: right">159</td>
+          <td style="text-align: right">30</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">492</td>
+          <td style="text-align: right">722</td>
+      </tr>
+      <tr>
+          <td>083</td>
+          <td>力 (Power)</td>
+          <td style="text-align: right">73</td>
+          <td style="text-align: right">30</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">105</td>
+          <td style="text-align: right">139</td>
+      </tr>
+      <tr>
+          <td>084</td>
+          <td>刀 (Sword)</td>
+          <td style="text-align: right">151</td>
+          <td style="text-align: right">79</td>
+          <td style="text-align: right">9</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">240</td>
+          <td style="text-align: right">340</td>
+      </tr>
+      <tr>
+          <td>085</td>
+          <td>羽 (Feather)</td>
+          <td style="text-align: right">68</td>
+          <td style="text-align: right">30</td>
+          <td style="text-align: right">5</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">104</td>
+          <td style="text-align: right">147</td>
+      </tr>
+      <tr>
+          <td>086</td>
+          <td>毛 (Fur)</td>
+          <td style="text-align: right">59</td>
+          <td style="text-align: right">30</td>
+          <td style="text-align: right">8</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">103</td>
+          <td style="text-align: right">173</td>
+      </tr>
+      <tr>
+          <td>087</td>
+          <td>食 (Eat)</td>
+          <td style="text-align: right">120</td>
+          <td style="text-align: right">73</td>
+          <td style="text-align: right">17</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">213</td>
+          <td style="text-align: right">333</td>
+      </tr>
+      <tr>
+          <td>088</td>
+          <td>金 (Metal)</td>
+          <td style="text-align: right">469</td>
+          <td style="text-align: right">186</td>
+          <td style="text-align: right">19</td>
+          <td style="text-align: right">6</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">680</td>
+          <td style="text-align: right">922</td>
+      </tr>
+  </tbody>
+</table>
+<p><em><strong>Sōchū</strong></em> <strong>(僧中 – Middle &ldquo;Sangha&rdquo; Fascicle)</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>No.</th>
+          <th>Radical</th>
+          <th style="text-align: right">1-char</th>
+          <th style="text-align: right">2-char</th>
+          <th style="text-align: right">3-char</th>
+          <th style="text-align: right">4-char</th>
+          <th style="text-align: right">5-char</th>
+          <th style="text-align: right">6+ char</th>
+          <th style="text-align: right">No. of Entries</th>
+          <th style="text-align: right">No. of Chars</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>089</td>
+          <td>亼 (Assemble)</td>
+          <td style="text-align: right">49</td>
+          <td style="text-align: right">31</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">81</td>
+          <td style="text-align: right">115</td>
+      </tr>
+      <tr>
+          <td>090</td>
+          <td>爪 (Claw)</td>
+          <td style="text-align: right">34</td>
+          <td style="text-align: right">18</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">54</td>
+          <td style="text-align: right">78</td>
+      </tr>
+      <tr>
+          <td>091</td>
+          <td>网 (Net)</td>
+          <td style="text-align: right">73</td>
+          <td style="text-align: right">39</td>
+          <td style="text-align: right">8</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">122</td>
+          <td style="text-align: right">188</td>
+      </tr>
+      <tr>
+          <td>092</td>
+          <td>皿 (Dish)</td>
+          <td style="text-align: right">73</td>
+          <td style="text-align: right">37</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">115</td>
+          <td style="text-align: right">163</td>
+      </tr>
+      <tr>
+          <td>093</td>
+          <td>瓦 (Tile)</td>
+          <td style="text-align: right">73</td>
+          <td style="text-align: right">39</td>
+          <td style="text-align: right">7</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">120</td>
+          <td style="text-align: right">176</td>
+      </tr>
+      <tr>
+          <td>094</td>
+          <td>缶 (Can)</td>
+          <td style="text-align: right">35</td>
+          <td style="text-align: right">6</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">41</td>
+          <td style="text-align: right">47</td>
+      </tr>
+      <tr>
+          <td>095</td>
+          <td>弓 (Bow)</td>
+          <td style="text-align: right">61</td>
+          <td style="text-align: right">32</td>
+          <td style="text-align: right">7</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">101</td>
+          <td style="text-align: right">150</td>
+      </tr>
+      <tr>
+          <td>096</td>
+          <td>㫃 (Fluttering Flags)</td>
+          <td style="text-align: right">54</td>
+          <td style="text-align: right">18</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">73</td>
+          <td style="text-align: right">93</td>
+      </tr>
+      <tr>
+          <td>097</td>
+          <td>矢 (Arrow)</td>
+          <td style="text-align: right">30</td>
+          <td style="text-align: right">6</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">37</td>
+          <td style="text-align: right">45</td>
+      </tr>
+      <tr>
+          <td>098</td>
+          <td>斤 (Axe)</td>
+          <td style="text-align: right">48</td>
+          <td style="text-align: right">10</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">59</td>
+          <td style="text-align: right">72</td>
+      </tr>
+      <tr>
+          <td>099</td>
+          <td>矛 (Spear)</td>
+          <td style="text-align: right">25</td>
+          <td style="text-align: right">14</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">39</td>
+          <td style="text-align: right">53</td>
+      </tr>
+      <tr>
+          <td>100</td>
+          <td>戈 (Halberd)</td>
+          <td style="text-align: right">93</td>
+          <td style="text-align: right">31</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">129</td>
+          <td style="text-align: right">175</td>
+      </tr>
+      <tr>
+          <td>101</td>
+          <td>欠 (Yawn)</td>
+          <td style="text-align: right">87</td>
+          <td style="text-align: right">32</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">123</td>
+          <td style="text-align: right">164</td>
+      </tr>
+      <tr>
+          <td>102</td>
+          <td>又 (Right Hand)</td>
+          <td style="text-align: right">50</td>
+          <td style="text-align: right">30</td>
+          <td style="text-align: right">5</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">85</td>
+          <td style="text-align: right">125</td>
+      </tr>
+      <tr>
+          <td>103</td>
+          <td>攴 (Strike)</td>
+          <td style="text-align: right">157</td>
+          <td style="text-align: right">58</td>
+          <td style="text-align: right">8</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">225</td>
+          <td style="text-align: right">305</td>
+      </tr>
+      <tr>
+          <td>104</td>
+          <td>殳 (Weapon)</td>
+          <td style="text-align: right">62</td>
+          <td style="text-align: right">15</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">81</td>
+          <td style="text-align: right">104</td>
+      </tr>
+      <tr>
+          <td>105</td>
+          <td>皮 (Skin)</td>
+          <td style="text-align: right">54</td>
+          <td style="text-align: right">32</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">89</td>
+          <td style="text-align: right">130</td>
+      </tr>
+      <tr>
+          <td>106</td>
+          <td>革 (Leather)</td>
+          <td style="text-align: right">134</td>
+          <td style="text-align: right">70</td>
+          <td style="text-align: right">14</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">220</td>
+          <td style="text-align: right">328</td>
+      </tr>
+      <tr>
+          <td>107</td>
+          <td>韋 (Tanned Leather)</td>
+          <td style="text-align: right">34</td>
+          <td style="text-align: right">19</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">54</td>
+          <td style="text-align: right">75</td>
+      </tr>
+      <tr>
+          <td>108</td>
+          <td>車 (Cart)</td>
+          <td style="text-align: right">147</td>
+          <td style="text-align: right">74</td>
+          <td style="text-align: right">8</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">233</td>
+          <td style="text-align: right">335</td>
+      </tr>
+      <tr>
+          <td>109</td>
+          <td>羊 (Sheep)</td>
+          <td style="text-align: right">47</td>
+          <td style="text-align: right">25</td>
+          <td style="text-align: right">6</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">79</td>
+          <td style="text-align: right">119</td>
+      </tr>
+      <tr>
+          <td>110</td>
+          <td>馬 (Horse)</td>
+          <td style="text-align: right">188</td>
+          <td style="text-align: right">87</td>
+          <td style="text-align: right">14</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">292</td>
+          <td style="text-align: right">419</td>
+      </tr>
+      <tr>
+          <td>111</td>
+          <td>鳥 (Bird)</td>
+          <td style="text-align: right">307</td>
+          <td style="text-align: right">184</td>
+          <td style="text-align: right">35</td>
+          <td style="text-align: right">6</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">533</td>
+          <td style="text-align: right">809</td>
+      </tr>
+      <tr>
+          <td>112</td>
+          <td>隹 (Short-tailed Bird)</td>
+          <td style="text-align: right">59</td>
+          <td style="text-align: right">32</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">93</td>
+          <td style="text-align: right">129</td>
+      </tr>
+  </tbody>
+</table>
+<p><em><strong>Sōge</strong></em> <strong>(僧下 – Lower &ldquo;Sangha&rdquo; Fascicle)</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th>No.</th>
+          <th>Radical</th>
+          <th style="text-align: right">1-char</th>
+          <th style="text-align: right">2-char</th>
+          <th style="text-align: right">3-char</th>
+          <th style="text-align: right">4-char</th>
+          <th style="text-align: right">5-char</th>
+          <th style="text-align: right">6+ char</th>
+          <th style="text-align: right">No. of Entries</th>
+          <th style="text-align: right">No. of Chars</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>113</td>
+          <td>魚 (Fish)</td>
+          <td style="text-align: right">232</td>
+          <td style="text-align: right">104</td>
+          <td style="text-align: right">41</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">379</td>
+          <td style="text-align: right">571</td>
+      </tr>
+      <tr>
+          <td>114</td>
+          <td>虫 (Insect)</td>
+          <td style="text-align: right">365</td>
+          <td style="text-align: right">257</td>
+          <td style="text-align: right">27</td>
+          <td style="text-align: right">9</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">5</td>
+          <td style="text-align: right">664</td>
+          <td style="text-align: right">1,041</td>
+      </tr>
+      <tr>
+          <td>115</td>
+          <td>鼠 (Rat)</td>
+          <td style="text-align: right">34</td>
+          <td style="text-align: right">20</td>
+          <td style="text-align: right">6</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">61</td>
+          <td style="text-align: right">96</td>
+      </tr>
+      <tr>
+          <td>116</td>
+          <td>龜 (Turtle)</td>
+          <td style="text-align: right">23</td>
+          <td style="text-align: right">13</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">40</td>
+          <td style="text-align: right">61</td>
+      </tr>
+      <tr>
+          <td>117</td>
+          <td>鬼 (Ghost)</td>
+          <td style="text-align: right">51</td>
+          <td style="text-align: right">18</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">75</td>
+          <td style="text-align: right">121</td>
+      </tr>
+      <tr>
+          <td>118</td>
+          <td>風 (Wind)</td>
+          <td style="text-align: right">70</td>
+          <td style="text-align: right">32</td>
+          <td style="text-align: right">6</td>
+          <td style="text-align: right">2</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">110</td>
+          <td style="text-align: right">160</td>
+      </tr>
+      <tr>
+          <td>119</td>
+          <td>酉 (Wine)</td>
+          <td style="text-align: right">146</td>
+          <td style="text-align: right">53</td>
+          <td style="text-align: right">9</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">0</td>
+          <td style="text-align: right">1</td>
+          <td style="text-align: right">209</td>
+          <td style="text-align: right">289</td>
+      </tr>
+      <tr>
+          <td>120</td>
+          <td>雑 (Miscellaneous)</td>
+          <td style="text-align: right">1,075</td>
+          <td style="text-align: right">332</td>
+          <td style="text-align: right">73</td>
+          <td style="text-align: right">14</td>
+          <td style="text-align: right">4</td>
+          <td style="text-align: right">3</td>
+          <td style="text-align: right">1,501</td>
+          <td style="text-align: right">2,057</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Overall Total</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th><strong>Total</strong></th>
+          <th style="text-align: right">1-char</th>
+          <th style="text-align: right">2-char</th>
+          <th style="text-align: right">3-char</th>
+          <th style="text-align: right">4-char</th>
+          <th style="text-align: right">5-char</th>
+          <th style="text-align: right">6+ char</th>
+          <th style="text-align: right">No. of Entries</th>
+          <th style="text-align: right">No. of Chars</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td></td>
+          <td></td>
+          <td style="text-align: right">24,681</td>
+          <td style="text-align: right">6,670</td>
+          <td style="text-align: right">977</td>
+          <td style="text-align: right">167</td>
+          <td style="text-align: right">50</td>
+          <td style="text-align: right">65</td>
+          <td style="text-align: right">32,610</td>
+          <td style="text-align: right">42,344</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="addendum">
+  Addendum
+  <a class="anchor" href="#addendum">#</a>
+</h3>
+<p>Regarding <code>K10108221</code> &lsquo;陟厘&rsquo;:</p>
+<p>The Kanchi-in manuscript presents &lsquo;⿱陟厘&rsquo; (a ligature-like form combining &lsquo;陟&rsquo; and &lsquo;厘&rsquo;) as a single character, and Masamune&rsquo;s Index and Kusakawa&rsquo;s <em>Wakun Shūsei</em> follow this interpretation.
+Mochizuki&rsquo;s <em>Wakun Shūsei</em>, however, treats &lsquo;陟厘&rsquo; as two separate characters.
+The Dōen-bon manuscript of the <em>Wamyō Ruijushō</em> (Volume 17, &ldquo;Vegetables&rdquo; section) has an entry for &lsquo;陟𨤲&rsquo; with the annotation: &ldquo;音緾 一本作厘 和名 阿乎乃利&rdquo; (Pronunciation <em>ten</em> [for 陟]; one manuscript has 厘 [for 𨤲]; Japanese name: <em>Awonori</em>).
+The <em>Shinsen Jikyō</em> shows &lsquo;陟釐 青乃利&rsquo; (<em>Shokuri Aonori</em>) (under &ldquo;Miscellaneous characters for temporary needs&rdquo; - 臨時雑要字, <em>rinji zatsuyō ji</em>).
+The <em>Iroha Jiruishō</em> (Maeda-bon) has &lsquo;陟𨤲 アヲノリ&rsquo; (<em>Shokuri Awonori</em>) (under &ldquo;ア – Plants&rdquo;).
+Considering this evidence, it seems appropriate to interpret &lsquo;陟厘&rsquo; in the Kanchi-in manuscript as two separate characters.</p>
+<p>This interpretation would affect the calculation of the total headword character count (<em>keishutsuji-sū</em>), but this has not been reflected in the data tables presented above.
+(Noted December 15, 2022).</p>
+<p>March 14, 2024: Corrected errors in the aggregated numerical figures (in the preceding tables).</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -1908,6 +4014,11 @@ However, character 6 from the Kanchi-in manuscript, <img src="https://glyphwiki.
         <li><a href="#hōjō-法上--first-dharma-fascicle"><em>Hōjō</em> (法上 – First “Dharma” Fascicle)</a></li>
         <li><a href="#hōchū-法中--middle-dharma-fascicle"><em>Hōchū</em> (法中 – Middle &ldquo;Dharma&rdquo; Fascicle)</a></li>
         <li><a href="#hōge-法下--lower-dharma-fascicle"><em>Hōge</em> (法下 – Lower &ldquo;Dharma&rdquo; Fascicle)</a></li>
+        <li><a href="#sōjō-僧上--upper-sangha-fascicle"><em>Sōjō</em> (僧上 – Upper &ldquo;Sangha&rdquo; Fascicle)</a></li>
+        <li><a href="#sōchū-僧中--middle-sangha-fascicle">Sōchū (僧中 – Middle &ldquo;Sangha&rdquo; Fascicle)</a></li>
+        <li><a href="#sōge-僧下--lower-sangha-fascicle"><em>Sōge</em> (僧下 – Lower &ldquo;Sangha&rdquo; Fascicle)</a></li>
+        <li><a href="#summary-of-entry-counts-and-total-headword-character-counts-by-radical-section">Summary of <code>Entry</code> Counts and Total Headword Character Counts by Radical Section</a></li>
+        <li><a href="#addendum">Addendum</a></li>
       </ul>
     </li>
   </ul>

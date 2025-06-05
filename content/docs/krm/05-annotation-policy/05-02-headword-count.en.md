@@ -11,7 +11,7 @@ weight: 18
 
 # Calculation of Headword Character Count
 
-This section will explain issues such as **`Miswritten Characters`** (誤字, *goji*), **`Omitted Characters`** (脱字, *datsuji*), **`Superfluous Characters`** (衍字, *enji*), interpolations (補入, *honyū*), **`Embedded Characters`** (埋字, *umoji*; referring to entries incorporated within another entry), **`Substitution Marks`** (代用符号, *daiyō fugō*), and **`Iteration Marks`** (踊り字, *odoriji*). Following this discussion, it will proceed to calculate the *keishutsuji-sū* (掲出字数). The *keishutsuji-sū* refers to the total number of characters that constitute all **`Headwords`**.
+This section will explain issues such as **`Miswritten Characters`** (誤字, *goji*), **`Omitted Characters`** (脱字, *datsuji*), **`Superfluous Characters`** (衍字, *enji*), interpolations (補入, *honyū*), **`Embedded Items`** (埋字, *umeji*; referring to entries incorporated within another entry), **`Substitution Marks`** (代用符号, *daiyō fugō*), and **`Iteration Marks`** (踊り字, *odoriji*). Following this discussion, it will proceed to calculate the *keishutsuji-sū* (掲出字数). The *keishutsuji-sū* refers to the total number of characters that constitute all **`Headwords`**.
 
 Then, based on the results of this *keishutsuji-sū* calculation, the number of **`Entries`** (*keishutsu kōmoku-sū*, 掲出項目数) will also be calculated. The number of **`Entries`** will be aggregated according to the number of characters constituting their **`Headwords`** (e.g., **`Entries`** with single-character **`Headwords`**, **`Entries`** with two-character **`Headwords`**, and so on).
 
@@ -626,4 +626,435 @@ For the **"疒" (Sickness) radical section** (疒部, *Daibu*), Sakai (1967) cou
 Although the string '⿱⿰白旡月' is written in a large size and might appear to be a **`Headword`**, it does not contain the '疒' radical component. Therefore, it is not appropriate to classify it as a **`Headword`** belonging to the "疒" (Sickness) radical section.
 
 The original text for this section in the Kanchi-in manuscript can be referred to on the upper right of the [corresponding page](https://dl.ndl.go.jp/info:ndljp/pid/2586897/67) in the National Diet Library Digital Collections.
+
+
+
+For the **"寸" (Inch) radical section** (寸部, *Sunbu*), Sakai (1967) counts 41 **`Entries`**, while Ikeda et al. (2020) count 39 **`Entries`**, a difference of two **`Entries`**. This discrepancy is thought to be related to the following instance:
+
+* `kazama_location`: K07143741, `hanzi_entry`: 戈／ー（射）, `definition` (representing **`Original Glosses`**): イツル　六ー　ムツマシ　賭ー　ノリユミ
+
+The strings '六ー（射）' and '賭ー（射）' appearing in the **`Original Glosses`** are written in a somewhat larger size. It is considered appropriate to treat each of these, along with their subsequent **`Japanese Native Readings` (*wakun*)**, as independent **`Entries`**. These are considered **`Embedded Items` (*umeji*)**, or compounds presented in the **`Divided-Annotation Style` (*Bunchūshiki*)**. If treated this way, this instance is corrected as follows:
+
+* `kazama_location`: K07143741, `hanzi_entry`: 戈／ー（射）, `definition`: イツル, `remarks` (**`Compiler's Remark`**): Ikeda's note: The segment '六ー　ムツマシ　賭ー　ノリユミ' (originally part of this entry's gloss) is likely an **`Embedded Item (*umeji*)`** (or items that should be separate entries).
+* `kazama_location`: K07143743, `hanzi_entry`: 六／ー（射）, `definition`: ムツマシ
+* `kazama_location`: K07143745, `hanzi_entry`: 賭／ー（射）, `definition`: ノリユミ
+
+The figures for the "寸" (Inch) radical section in Ikeda et al. (2020) need to be corrected for the number of **`Entries`** as follows. The corrected figures are shown in **bold**:
+
+| No. | Radical    | 1-char | 2-char  | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|------------|-------:|--------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+| 080 | 寸 (Inch)  | 18     | **23** | 0      | 0      | 0      | 0       | **41** | **64** |
+
+For the **"示" (Altar/Display) radical section** (示部, *Shibu*), there is no difference in the number of **`Entries`** between Sakai (1967) and Ikeda et al. (2020). However, an **`Omitted Character`** is recognized in the **`Headword`** of the following **`Entry`**:
+
+* `kazama_location`: K0700183, `hanzi_entry`: 樹／［神］, `definition`: コタマ（LHL）
+
+As a result of supplying this omitted character, the breakdown of **`Entry`** counts by headword length and the total headword character count for this section are presented as follows (the total number of **`Entries`**, 232, remains unchanged):
+
+| No. | Radical          | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|------------------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+| 061 | 示 (Altar/Display) | 198    | 27     | 6      | 0      | 1      | 0       | 232            | 275          |
+
+### *Sōjō* (僧上 – Upper "Sangha" Fascicle)
+
+In the ***Sōjō*** section, discrepancies in **`Entry`** counts between Sakai (1967) and Ikeda et al. (2020) are found for the following two radical sections. The figures presented in the table below are from Ikeda et al. (2020):
+
+| No. | Radical    | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|------------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+| 086 | 毛 (Fur)   | 60     | 30     | 9      | 3      | 0      | 2       | 104            | 173          |
+| 087 | 食 (Eat)   | 120    | 73     | 17     | 1      | 0      | 2       | 213            | 333          |
+
+For the **"毛" (Fur) radical section** (毛部, *Mōbu*), Sakai (1967) counts 104 **`Entries`**, while Ikeda et al. (2020) count 103 **`Entries`**, a difference of one **`Entry`**. This discrepancy is thought to be related to the following instance:
+
+* `kazama_location`: K08100641, `hanzi_entry`: ⿱三毛／⿱介毳／毳／𣯝, `definition` (representing **`Original Glosses`**): マコケ（HHLV）　カモ（HH）　音脆（R）「セイ」, `remarks` (**`Compiler's Remark`**): The **`Japanese Native Readings` (*wakun*)** are written as if they are side-line *kun* readings for '毳'. Corrected to treat '⿱三毛／⿱介毳／毳／𣯝' as a single **`Entry`**.
+
+As noted in the `remarks` (the **`Compiler's Remark`**), the two **`Japanese Native Readings` (*wakun*)** are written as if they are side-line *kun* readings for the character '毳'. Furthermore, in the original manuscript layout, there is a line break after '毳', and '𣯝' appears as a **`Headword`** at the beginning of the next line.
+
+
+
+
+Since the character '𣯝' may not display correctly in all environments, the **`Headword`** in question, along with its associated readings from the **`Original Glosses`**, is shown using GlyphWiki images as follows. A slash '/' indicates a line break as found in the Kanchi-in manuscript's layout for this entry:
+
+![⿱三毛](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08100641.50px.png)
+![⿱介毳](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08100642.50px.png)
+![毳](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08100643.50px.png)
+マコケ（HHLV）　カモ（HH） /
+![𣯝](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08100644.50px.png)
+音脆（R）「セイ」
+
+The character '毳' (*sui*, *zei*) has two pronunciations in the *Guangyun*: "此芮切" (*cǐ ruì qiè*; Departing tone, 祭韻, 清母 *Qing initial*) and "楚税切" (*chǔ shuì qiè*; Departing tone, 祭韻, 穿二母 *Chuan II initial*, for the character 㯔). The character '脆' also has the *fanqie* "此芮切". The *Shuowen Jiezi*, under the "毳" radical section, states: "獸細毛也。从三毛。凡毳之屬皆从毳。" (Fine animal fur. Composed of three '毛' (fur) characters. All characters belonging to the 毳 category are derived from 毳). Considering this, it is appropriate to treat these four characters (![⿱三毛](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08100641.50px.png), ![⿱介毳](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08100642.50px.png), ![毳](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08100643.50px.png), and ![𣯝](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08100644.50px.png)) collectively as a single **`Basic Entry`**. The Renjō-in manuscript also treats these four characters as a single **`Entry`**.
+
+Regarding the **`Japanese Native Readings` (*wakun*)**:
+The *wakun* "カモ" (*kamo*) is listed in the *Nihon Kokugo Daijiten* (*Nikkoku*) under the entry for "かも 【氈】" with the definition: "A carpet woven from animal fur; also refers to woolen products in general. Also *ori-kamo*." Examples are found in the *Shinsen Jikyō* and the *Wamyō Ruijushō*.
+The *wakun* "マコゲ" (*makoge*) is not listed in the *Nikkoku*. Masamune's Kana Index records "マコゲ". However, Mochizuki's *Wakun Shūsei* and Kusakawa's *Wakun Shūsei* list it as "ニコゲ" (*nikoge*) with a *mama* (i.e., "as is," indicating a direct transcription of a possibly problematic form) note.
+The Maeda-bon manuscript of the *Iroha Jiruishō*, under the entry for '毳', shows "ニコゲ (HHLV)". The *Nikkoku* defines "ニコゲ" (*nikoge*) as: "Fine, soft, short animal fur; also soft human hair. *Ubuge* (downy hair), *watage* (fluff)." Examples are found in the *Wamyō Ruijushō* and other texts.
+
+The original text for this section in the Kanchi-in manuscript can be referred to on the right side of the [corresponding page](https://dl.ndl.go.jp/info:ndljp/pid/2586898/54) in the National Diet Library Digital Collections.
+
+Incidentally, Volume 1 of the *Longkan Shoujian/Shoujing* (龍龕手鑑), under the "毛" (Fur) radical section, shows the following related entries:
+
+![●](https://glyphwiki.org/glyph/cbeta-18097.50px.png)
+![𣯝](https://glyphwiki.org/glyph/u23bdd.50px.png)
+![𣯠](https://glyphwiki.org/glyph/u23be0.50px.png)
+![⿱亦毳](https://glyphwiki.org/glyph/u306b3.50px.png)
+四俗。 (Four popular forms.)
+![毳](https://glyphwiki.org/glyph/u6bf3.50px.png)
+正。七稅昌稅二反。鳥獸細茸毛也。又斷也。亦姓五。 (Standard form. *Fanqie* spellings: 七稅反 (*qī shuì fǎn*) and 昌稅反 (*chāng shuì fǎn*). Meaning: 'Fine downy fur of birds and beasts. Also means to cut. Also a surname.' Five (notes/entries in total for this group).)
+
+The **`Entry`** count and total headword character count for the "毛" (Fur) radical section are corrected as follows:
+
+
+| No. | Radical  | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|----------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:| 
+| 086 | 毛 (Fur) | 59     | 30     | 9      | 1      | 0      | 0       | 103            | 173          |
+
+
+
+For the **"食" (Eat/Food) radical section** (食部, *Shokubu*), Sakai (1967) counts 214 **`Entries`**, while Ikeda et al. (2020) count 213 **`Entries`**, a difference of one **`Entry`**. This discrepancy is thought to be related to the following instance:
+
+  * `kazama_location`: K08104831, `hanzi_entry`: 餬／𩚩, `definition` (representing **`Original Glosses`**): 「カユ」　「モラフ（HHL）」　今正　音胡　鬻〈正〉　饘也　モラフ（HHL）　ネヤス（LH\_）　ヒサク（HH\_）, `remarks` (**`Compiler's Remark`**): An example noted as 'unknown' (未詳, *mishō*) in the *Wamyō Ruijushō* but not present in the *Myōgishō* in this form; see *Senchūbon Wamyōshō* (Annotated Edition of the *Wamyō Ruijushō*), Vol. 4, p. 48 verso (Okada's research, p. 97).
+
+The **`Japanese Native Readings` (*wakun*)** 'カユ' (*kayu*) and 'モラフ' (*morau*; HHL) are written to the bottom right and bottom left, respectively, of the **`Headword`** '餬'. While they could potentially be seen as constituting independent **`Entries`**, the **`Headword`** '餬／𩚩' is an example of co-listed **`variant characters` (*itaiji*)**. Furthermore, the **`Original Glosses`** include the **`Form Classification Tag`** '今正' (*konsei*; "current/standard"), and the Renjō-in manuscript treats '餬／𩚩' as a single **`Entry`**.
+
+Another problematic instance is the following example:
+
+  * `kazama_location`: K08110441, `hanzi_entry`: 䬭／𩚓／𩚾／𩜻／䬢／⿱⿰号丙食, `definition`: 俗 (Popular form)
+
+As this **`Headword`** contains many complex or rare characters, it is shown below using GlyphWiki images. A slash '/' indicates a line break (as found in the manuscript for this sequence):
+
+![𩞂](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110421.50px.png)
+![饕](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110422.50px.png)
+或正叨通　他刀反　貪財　呉刀(R)   
+(Glyph notes for : 或正叨通 (*waku sei tō tsū*; Alternative, Standard, Also Common forms). *Fanqie*: 他刀反 (*tā dāo fǎn*). Meaning: 貪財 (greedy for wealth). *Go-on*: 刀(R) (*tō*).)  
+![䬭](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110441.50px.png)
+![𩚓](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110442.50px.png)
+![𩚾](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110443.50px.png)
+![𩜻](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110444.50px.png)/
+![䬢](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110511.50px.png)
+![⿱⿰号丙食](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110512.50px.png)俗 (Popular form)
+
+
+There is a line break between ![𩜻](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110444.50px.png) and ![䬢](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-08110511.50px.png), which might suggest that the **`Headword`** was split into two **`Entries`** at this point. However, as this is a sequence of **`variant characters` (*itaiji*)** of '饕', it is considered more appropriate to treat it as a single **`Entry`**.
+
+The original text for this section in the Kanchi-in manuscript can be referred to on the right side of the [corresponding page](https://dl.ndl.go.jp/info:ndljp/pid/2586898/59) in the National Diet Library Digital Collections.
+
+
+### Sōchū (僧中 – Middle "Sangha" Fascicle)
+
+In the Sōchū section, discrepancies in Entry counts between Sakai (1967) and Ikeda et al. (2020) are found for the following two radical sections. The figures presented in the table below are from Ikeda et al. (2020):
+
+| No. | Radical  | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|----------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:| 
+|095 |	弓 (Bow) |	61 |	32 |	7 |	1 |	0 |	0 |	101 |	150 |
+|111 |	鳥 (Bird) |	307 |	184 |	35 |	6 |	1 |	0 |	533 |	809 |
+
+For the **"弓" (Bow) radical section** (弓部, *Kyūbu*), Sakai (1967) counts 102 Entries, while Ikeda et al. (2020) count 101 Entries, a difference of one Entry. This discrepancy is thought to be related to the following instance:
+
+* `kazama_location`: K09028141, `hanzi_entry`: ⿰弓取／⿰弓亥／⿰弓丁／⿰弓𧴪, `definition`: 未詳 (Unknown)
+
+There is a line break in the manuscript between '⿰弓丁' (the third character of this Headword) and '⿰弓𧴪' (the fourth character of this Headword), which raises the possibility of counting them as two separate Entries.
+
+The Headword '⿰弓取／⿰弓亥／⿰弓丁／⿰弓𧴪' with its Original Gloss "未詳" (Unknown) appears as follows (line break indicated by /):
+
+
+![⿰弓取](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-09028141.50px.png)
+![⿰弓亥](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-09028142.50px.png)
+![⿰弓丁](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-09028143.50px.png)/
+![⿰弓𧴪](https://glyphwiki.org/glyph/hdic-tanki10_hkrm-09028210.50px.png)
+/ 未詳 (Unknown)
+
+The original text for this section in the Kanchi-in manuscript can be referred to on the right side of the [corresponding page](http://dl.ndl.go.jp/info:ndljp/pid/2586899/18) in the National Diet Library Digital Collections.
+
+For the **"鳥" (Bird) radical section** (鳥部, *Chōbu*), Sakai (1967) counts 532 Entries, while Ikeda et al. (2020) count 533 Entries, a difference of one Entry. Currently, no specific instances that might account for this discrepancy in Entry counting have been identified.
+
+
+### *Sōge* (僧下 – Lower "Sangha" Fascicle)
+
+In the ***Sōge*** section, discrepancies in **`Entry`** counts between Sakai (1967) and Ikeda et al. (2020) are found for the following four radical sections. The figures presented in the table below are from Ikeda et al. (2020):
+
+| No. | Radical         | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|-----------------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+| 113 | 魚 (Fish)       | 232    | 104    | 41     | 2      | 0      | 0       | 379            | 571          |
+| 114 | 虫 (Insect)     | 365    | 257    | 27     | 9      | 1      | 5       | 664            | 1,041        |
+| 117 | 鬼 (Ghost)      | 51     | 18     | 1      | 2      | 1      | 2       | 75             | 121          |
+| 120 | 雑 (Miscellaneous) | 1,076  | 331    | 73     | 14     | 4      | 3       | 1,501          | 2,056        |
+
+
+For the **"魚" (Fish) radical section** (魚部, *Gyobu*), Sakai (1967) counts 378 **`Entries`**, while Ikeda et al. (2020) count 379 **`Entries`**, a difference of one **`Entry`**. This discrepancy is thought to be related to the following instance:
+
+  * `kazama_location`: K10008640, `hanzi_entry`: 鰐, `definition`: 音萼　ワニ（LL）
+  * `kazama_location`: K10008711, `hanzi_entry`: 鱷, `definition`: 或
+  * `kazama_location`: K10008712, `hanzi_entry`: 𩻙, `definition`: 正
+  * `kazama_location`: K10008713, `hanzi_entry`: 鰐, `definition`: (Unannotated)
+  * `kazama_location`: K10008720, `hanzi_entry`: 䱟, `definition`: \*フナ
+
+In the original Kanchi-in manuscript, the last two characters ('鰐' from K10008713 and '䱟' from K10008720) are written as if they form a single **`Entry`**. These two characters are not listed as **`Headwords`** in the Renjō-in manuscript.
+
+The sequence of glyphs and the *wakun* 'フナ' appears as:
+
+
+1![鰐](https://glyphwiki.org/glyph/sarashina_hkrm-10008640.50px.png)音萼　ワニ(LL) (with its own glosses)  
+2![鱷](https://glyphwiki.org/glyph/sarashina_hkrm-10008711.50px.png)或 (annotated 或 - variant)  
+3![𩻙](https://glyphwiki.org/glyph/sarashina_hkrm-10008712.50px.png)正 (annotated 正 - standard)  
+4![鰐](https://glyphwiki.org/glyph/sarashina_hkrm-10008713.50px.png) (unannotated)  
+5![䱟](https://glyphwiki.org/glyph/sarashina_hkrm-10008720.50px.png) フナ (*funa*)
+
+
+Indeed, it is conceivable that the **`Japanese Native Reading` (*wakun*)** 'フナ' (*funa*) was intended as an annotation for both characters  (4)![鰐](https://glyphwiki.org/glyph/sarashina_hkrm-10008713.50px.png) and  (5)![䱟](https://glyphwiki.org/glyph/sarashina_hkrm-10008720.50px.png) together.
+
+Alternatively, at some stage of the revised compilation, there might have been a perceived difference in glyph form between  (1)![鰐](https://glyphwiki.org/glyph/sarashina_hkrm-10008640.50px.png) and (4)![鰐](https://glyphwiki.org/glyph/sarashina_hkrm-10008713.50px.png), and they might have been listed to distinguish them. The three characters  (2)![鱷](https://glyphwiki.org/glyph/sarashina_hkrm-10008711.50px.png),  (3)![𩻙](https://glyphwiki.org/glyph/sarashina_hkrm-10008712.50px.png), and  (4)![鰐](https://glyphwiki.org/glyph/sarashina_hkrm-10008713.50px.png) are written within a single cell (1マス, *hitomasu*).
+The common *kun* reading for '鰐' is 'ワニ' (*wani*), so it is hesitant to read it as 'フナ' (*funa*). It is preferable to consider 'フナ' as corresponding only to '䱟'.
+
+The original text for this section in the Kanchi-in manuscript can be referred to on the right side of the [corresponding page](http://dl.ndl.go.jp/info:ndljp/pid/2586900/8) in the National Diet Library Digital Collections.
+
+
+
+For the **"虫" (Insect) radical section** (虫部, *Chūbu*), Sakai (1967) counts 665 **`Entries`**, while Ikeda et al. (2020) count 664 **`Entries`**, a difference of one **`Entry`**. This discrepancy is thought to be related to the following instances:
+
+  * `kazama_location`: K10030731, `hanzi_entry`: ⿱⿱⿰虫虫冖虫／⿱⿱⿰虫虫冖磊／𧖁／⿱⿱市冖蟲／⿱⿱士宀蟲／⿱兩⿰虫虫 (line break)／⿰虫⿰杀攵, `definition`: 俗⿳⿻十口冖各俗
+
+This is an **`Entry`** listing **`variant characters` (*itaiji*)**, but there is a line break in the middle of the **`Headword`**.
+
+The original text for this section in the Kanchi-in manuscript can be referred to on the right side of the [corresponding page](http://dl.ndl.go.jp/info:ndljp/pid/2586900/19) in the National Diet Library Digital Collections.
+
+Another problematic instance is the following:
+
+  * `kazama_location`: K10038541, `hanzi_entry`: ⿱䖝⿰蚕蚕／⿱⿰天天蟲／䗝 (line break)／⿱冖虫／蝅／⿱玄虫, `definition`: 俗
+
+This is an **`Entry`** listing **`variant characters` (*itaiji*)** of '蠶', but there is a line break in the middle of the **`Headword`**.
+
+The original text for this section in the Kanchi-in manuscript can be referred to on the right side of the [corresponding page](http://dl.ndl.go.jp/info:ndljp/pid/2586900/23) in the National Diet Library Digital Collections.
+
+
+For the **"鬼" (Ghost) radical section** (鬼部, *Kibu*), Sakai (1967) counts 74 **`Entries`**, while Ikeda et al. (2020) count 75 **`Entries`**, a difference of one **`Entry`**. This discrepancy is thought to be related to the following instances:
+
+  * `kazama_location`: K10048541, `hanzi_entry`: 𩲀／𩱿／⿱勿鬼 (line break)／𩲢／𩲑／𩲝／䰨／𩴎, `definition`: 俗
+
+This is an **`Entry`** listing **`variant characters` (*itaiji*)**, but there is a line break in the middle of the **`Headword`**.
+
+  * `kazama_location`: K10050340, `hanzi_entry`: ⿰我鬼, `definition`: (Unannotated), `remarks` (**`Compiler's Remark`**): Ikeda's note: Could this be continuous with the following 'Unknown' (未詳, *mishō*) **`Entry`**?
+  * `kazama_location`: K10050411, `hanzi_entry`: 𩴜／⿺鬼有／⿺鬼麦／⿺鬼同／⿺鬼達／⿺鬼田／⿺鬼能／⿺鬼幸／⿺鬼𦍬／⿰田鬼, `definition`: 未詳 (Unknown)
+
+These were counted as two **`Entries`**, but if '⿰我鬼' (`K10050340`) is continuous with the following 'Unknown' **`Entry`**, the count would decrease by one.
+
+The original text for these sections in the Kanchi-in manuscript can be referred to on the right side of the [corresponding page](http://dl.ndl.go.jp/info:ndljp/pid/2586900/28) and the right side of the [following page](http://dl.ndl.go.jp/info:ndljp/pid/2586900/29) in the National Diet Library Digital Collections.
+
+
+
+For the **"雑" (Miscellaneous) radical section** (雑部, *Zatsubu*), Sakai (1967) counts 1,500 **`Entries`**, while Ikeda et al. (2020) count 1,501 **`Entries`**, a difference of one **`Entry`**. This discrepancy is thought to be related to the following instance:
+
+  * `kazama_location`: K10081830, `hanzi_entry`: ■, `definition`: ツミ
+  * `kazama_location`: K10081840, `hanzi_entry`: 𡿨, `definition`: (Unannotated), `remarks` (**`Compiler's Remark`**): A **`variant character (*itaiji*)`** of '甽'.
+
+The character represented as '■' (in `K10081830`) is written in the manuscript like .
+The character '𡿨' (`K10081840`) is not found in the Kazama Shobō edition. It can be confirmed in the Kichō Tosho Fukuseikai edition and both the old and new Tenri editions, but it is an easily overlooked example.
+
+The original text for this section in the Kanchi-in manuscript can be referred to on the left side of the [corresponding page](http://dl.ndl.go.jp/info:ndljp/pid/2586900/44) in the National Diet Library Digital Collections.
+
+Also in the **"雑" (Miscellaneous) radical section**, there was an error in the data for the following **`Entry`**:
+
+  * `kazama_location`: K10075411, `hanzi_entry`: 多／少, `definition`: ソコハク（LHLVL）
+
+The **`Headword`** was previously misidentified as only '多' and has been corrected to '多／少'.
+
+As a result of these corrections, the breakdown of **`Entry`** counts by headword length and the total headword character count for this section are as follows:
+
+| No. | Radical             | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|---------------------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+| 120 | 雑 (Miscellaneous) | 1,075  | 332    | 73     | 14     | 4      | 4       | 1,501          | 2,057        |
+
+
+### Summary of `Entry` Counts and Total Headword Character Counts by Radical Section
+
+It was necessary to correct the **`Entry`** counts from Ikeda et al. (2020) for the following three radical sections: No. 001 "人" (Man), No. 029 "木" (Tree), and No. 080 "寸" (Inch).
+For other radical sections where discrepancies with other tallies (e.g., Sakai (1967)) exist, these variations are generally due to differences in the criteria for identifying and counting **`Entries`**. In such cases, the counts from Ikeda et al. (2020) have been retained as is.
+Reflecting the corrections made based on the verifications discussed above, a complete list of **`Entry`** counts for all radical sections is provided below. The presented total headword character counts (*keishutsuji-sū*, 掲出字数) also incorporate corrections for clear instances of **`Omitted Characters`**.
+
+
+
+ ***Butsujō*** **(仏上 – Upper "Buddha" Fascicle)** 
+
+| No. | Radical | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+| 001 | 人 (Man)  | 614    | 205    | 28     | 4      | 2      | 3       | 856            | 1,153        |
+| 002 | 彳 (Step) | 144  | 38   | 3   | 0  | 0  | 0  | 185  | 229    |
+| 003 | 辵 (Walk) | 368  | 81   | 10  | 2  | 0  | 1  | 462  | 575    |
+| 004 | 匚 (Box Frame) | 48   | 5    | 2   | 0  | 0  | 0  | 55   | 64     |
+| 005 | 走 (Run) | 162  | 16   | 1   | 1  | 0  | 0  | 180  | 201    |
+| 006 | 麥 (Wheat) | 72   | 12   | 1   | 3  | 1  | 0  | 89   | 116    |
+| 007 | 一 (One) | 65   | 65   | 3   | 2  | 0  | 0  | 135  | 212    |
+| 008 | 丨 (Line) | 46   | 20   | 2   | 1  | 0  | 0  | 69   | 96     |
+| 009 | 十 (Ten) | 58   | 21   | 2   | 0  | 0  | 0  | 81   | 106    |
+| 010 | 身 (Body) | 73   | 6    | 1   | 0  | 0  | 0  | 80   | 88     |
+
+***Butsuchū*** **(仏中 – Middle "Buddha" Fascicle)** 
+| No. | Radical | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+| 011 | 耳 (Ear) | 114  | 12   | 2   | 1  | 1  | 0  | 130    | 153    |
+| 012 | 女 (Woman) | 421  | 94   | 8   | 3  | 1  | 0  | 527    | 650    |
+| 013 | 舌 (Tongue) | 26   | 5    | 2   | 1  | 1  | 0  | 35     | 51     |
+| 014 | 口 (Mouth) | 857  | 147  | 17  | 9  | 4  | 2  | 1,036  | 1,275  |
+| 015 | 目 (Eye) | 399  | 55   | 4   | 2  | 0  | 3  | 463    | 552    |
+| 016 | 鼻 (Nose) | 30   | 6    | 1   | 0  | 0  | 0  | 37     | 45     |
+| 017 | 見 (See) | 117  | 10   | 0   | 0  | 0  | 0  | 127    | 137    |
+| 018 | 日 (Sun) | 450  | 96   | 7   | 2  | 1  | 0  | 556    | 676    |
+| 019 | 田 (Field) | 129  | 29   | 2   | 0  | 0  | 0  | 160    | 193    |
+| 020 | 肉 (Flesh) | 580  | 119  | 12  | 2  | 1  | 3  | 717    | 888    |
+
+***Butsuge-hon*** **(仏下本 – Lower "Buddha" Fascicle, First Part)**
+| No. | Radical | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+| 021 | 舟 (Boat) | 86     | 16   | 1   | 1  | 0  | 0  | 104    | 125    |
+| 022 | 骨 (Bone)| 96     | 18   | 3   | 0  | 0  | 0  | 117    | 141    |
+| 023 | 角 (Horn) | 104    | 20   | 2   | 0  | 0  | 0  | 126    | 150    |
+| 024 | 貝 (Shell) | 187    | 23   | 4   | 0  | 0  | 1  | 215    | 251    |
+| 025 | 頁 (Head) | 230    | 54   | 2   | 0  | 0  | 1  | 287    | 352    |
+| 026 | 彡 (Bristle) | 22     | 2    | 2   | 0  | 0  | 0  | 26     | 32     |
+| 027 | 髟 (Hair) | 127    | 28   | 5   | 2  | 3  | 0  | 165    | 221    |
+| 028 | 手 (Hand) | 886    | 220  | 37  | 3  | 2  | 1  | 1,149  | 1,467  |
+| 029 | 木 (Tree) | 1,044  | 243  | 40  | 6  | 0  | 1  | 1,334  | 1,680  |
+| 030 | 犬 (Dog) | 245    | 53   | 4   | 3  | 0  | 0  | 305    | 375    |
+
+
+***Butsuge-matsu*** **(仏下末 – Lower "Buddha" Fascicle, Last Part)**
+| No. | Radical | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+| 031 | 牛 (Cow) | 156  | 20  | 2   | 0  | 0  | 0  | 178  | 202  |
+| 032 | 片 (Slice) | 56   | 9   | 0   | 0  | 0  | 0  | 65   | 74   |
+| 033 | 豸 (Small Beast) | 116  | 14  | 0   | 0  | 0  | 0  | 130  | 144  |
+| 034 | 乙 (Twisting stroke) | 22   | 10  | 0   | 0  | 0  | 0  | 32   | 42   |
+| 035 | 儿 (Legs) | 156  | 52  | 10  | 3  | 0  | 0  | 221  | 302  |
+| 036 | 𠬞 (Joined Hands) | 90   | 16  | 1   | 0  | 0  | 0  | 107  | 125  |
+| 037 | 八 (Eight) | 77   | 26  | 1   | 5  | 0  | 0  | 109  | 152  |
+| 038 | 大 (Big) | 119  | 19  | 3   | 0  | 0  | 0  | 141  | 166  |
+| 039 | 火 (Fire) | 407  | 91  | 11  | 1  | 1  | 2  | 513  | 648  |
+| 040 | 黒 (Black) | 88   | 7   | 0   | 0  | 0  | 1  | 96   | 108  |
+
+
+***Hōjō*** **(法上 – Upper "Dharma" Fascicle)**
+| No. | Radical | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+| 041 | 水 (Water) | 1,137  | 149  | 27  | 4  | 0  | 4  | 1,321  | 1,564  |
+| 042 | 冫 (Ice) | 75     | 7    | 3   | 0  | 0  | 0  | 85     | 98     |
+| 043 | 言 (Speech) | 615    | 74   | 9   | 0  | 1  | 0  | 699    | 795    |
+| 044 | 足 (Foot) | 418    | 62   | 9   | 2  | 1  | 1  | 493    | 589    |
+| 045 | 立 (Stand) | 79     | 17   | 0   | 0  | 0  | 0  | 96     | 113    |
+| 046 | 豆 (Bean) | 62     | 19   | 4   | 0  | 0  | 0  | 85     | 112    |
+| 047 | 卜 (Divination) | 97     | 26   | 1   | 0  | 0  | 0  | 124    | 152    |
+| 048 | 面 (Face) | 47     | 6    | 1   | 0  | 0  | 0  | 54     | 62     |
+| 049 | 齒 (Tooth) | 94     | 18   | 2   | 1  | 1  | 2  | 118    | 157    |
+| 050 | 山 (Mountain) | 430    | 59   | 5   | 1  | 1  | 1  | 497    | 584    |
+
+***Hōchū*** **(法中 – Middle "Dharma" Fascicle)**
+| No. | Radical | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+| 051 | 石 (Stone) | 307  | 56   | 6   | 3  | 0  | 4  | 376  | 472    |
+| 052 | 玉 (Jade) | 294  | 76   | 8   | 1  | 3  | 1  | 383  | 496    |
+| 053 | 色 (Colour) | 23   | 7    | 0   | 0  | 0  | 0  | 30   | 37     |
+| 054 | 邑 (Town/City) | 306  | 13   | 5   | 3  | 0  | 0  | 327  | 359    |
+| 055 | 阜 (Mound) | 235  | 40   | 3   | 0  | 1  | 0  | 279  | 329    |
+| 056 | 土 (Earth) | 496  | 77   | 5   | 4  | 1  | 2  | 585  | 700    |
+| 057 | 心 (Heart) | 730  | 161  | 13  | 1  | 2  | 1  | 908  | 1,111  |
+| 058 | 巾 (Cloth) | 212  | 42   | 7   | 0  | 0  | 0  | 261  | 317    |
+| 059 | 糸 (Silk) | 631  | 94   | 8   | 3  | 0  | 0  | 736  | 855    |
+| 060 | 衣 (Clothes) | 389  | 56   | 6   | 0  | 0  | 0  | 451  | 519    |
+
+***Hōge*** **(法下 – Lower "Dharma" Fascicle)**
+| No. | Radical | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+| 061 | 示 (Altar/Display) | 198  | 27  | 6   | 0  | 1  | 0  | 232  | 275  |
+| 062 | 禾 (Grain Stalk) | 454  | 53  | 5   | 3  | 0  | 1  | 516  | 593  |
+| 063 | 米 (Rice) | 194  | 42  | 9   | 1  | 1  | 1  | 248  | 321  |
+| 064 | 丶 (Dot) | 79   | 39  | 4   | 0  | 0  | 0  | 122  | 169  |
+| 065 | 宀 (Roof) | 215  | 81  | 10  | 0  | 0  | 1  | 307  | 415  |
+| 066 | 勹 (Wrap) | 29   | 4   | 0   | 0  | 0  | 0  | 33   | 37   |
+| 067 | 穴 (Cave) | 162  | 27  | 2   | 0  | 0  | 0  | 191  | 222  |
+| 068 | 雨 (Rain) | 177  | 43  | 6   | 1  | 1  | 0  | 228  | 290  |
+| 069 | 門 (Gate) | 208  | 40  | 3   | 0  | 0  | 1  | 252  | 306  |
+| 070 | 囗 (Enclosure) | 67   | 18  | 1   | 0  | 0  | 0  | 86   | 106  |
+| 071 | 尸 (Corpse) | 149  | 34  | 7   | 2  | 0  | 2  | 194  | 260  |
+| 072 | 虍 (Tiger) | 67   | 14  | 7   | 1  | 0  | 1  | 90   | 127  |
+| 073 | 广 (Shelter) | 233  | 59   | 12  | 0  | 1  | 0  | 305  | 392  |
+| 074 | 鹿 (Deer) | 33   | 18   | 6   | 1  | 0  | 0  | 58   | 91   |
+| 075 | 疒 (Sickness) | 234  | 138  | 23  | 1  | 1  | 2  | 399  | 603  |
+| 076 | 歹 (Death) | 121  | 59   | 9   | 0  | 0  | 0  | 189  | 266  |
+| 077 | 子 (Child) | 44   | 26   | 24  | 0  | 0  | 0  | 94   | 168  |
+| 078 | 斗 (Dipper) | 22   | 9    | 0   | 0  | 0  | 0  | 31   | 40   |
+| 079 | 倝 (Rising Sun) | 17   | 6    | 0   | 0  | 0  | 0  | 23   | 29   |
+| 080 | 寸 (Inch) | 18   | 23   | 0   | 0  | 0  | 0  | 41   | 64   |
+
+***Sōjō*** **(僧上 – Upper "Sangha" Fascicle)**
+| No. | Radical | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+| 081 | 艸 (Grass) | 986  | 513  | 95  | 10  | 4  | 1  | 1,609  | 2,363  |
+| 082 | 竹 (Bomboo) | 300  | 159  | 30  | 1   | 2  | 0  | 492    | 722    |
+| 083 | 力 (Power) | 73   | 30   | 2   | 0   | 0  | 0  | 105    | 139    |
+| 084 | 刀 (Sword) | 151  | 79   | 9   | 1   | 0  | 0  | 240    | 340    |
+| 085 | 羽 (Feather) | 68   | 30   | 5   | 1   | 0  | 0  | 104    | 147    |
+| 086 | 毛 (Fur) | 59   | 30   | 8   | 4   | 0  | 2  | 103    | 173    |
+| 087 | 食 (Eat) | 120  | 73   | 17  | 1   | 0  | 2  | 213    | 333    |
+| 088 | 金 (Metal) | 469  | 186  | 19  | 6   | 0  | 0  | 680    | 922    |
+
+***Sōchū*** **(僧中 – Middle "Sangha" Fascicle)**
+| No. | Radical | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+| 089 | 亼 (Assemble) | 49   | 31   | 0   | 1  | 0  | 0  | 81   | 115  |
+| 090 | 爪 (Claw) | 34   | 18   | 1   | 0  | 1  | 0  | 54   | 78   |
+| 091 | 网 (Net) | 73   | 39   | 8   | 1  | 0  | 1  | 122  | 188  |
+| 092 | 皿 (Dish) | 73   | 37   | 4   | 1  | 0  | 0  | 115  | 163  |
+| 093 | 瓦 (Tile) | 73   | 39   | 7   | 1  | 0  | 0  | 120  | 176  |
+| 094 | 缶 (Can) | 35   | 6    | 0   | 0  | 0  | 0  | 41   | 47   |
+| 095 | 弓 (Bow) | 61   | 32   | 7   | 1  | 0  | 0  | 101  | 150  |
+| 096 | 㫃 (Fluttering Flags) | 54   | 18   | 1   | 0  | 0  | 0  | 73   | 93   |
+| 097 | 矢 (Arrow) | 30   | 6    | 1   | 0  | 0  | 0  | 37   | 45   |
+| 098 | 斤 (Axe) | 48   | 10   | 0   | 1  | 0  | 0  | 59   | 72   |
+| 099 | 矛 (Spear) | 25   | 14   | 0   | 0  | 0  | 0  | 39   | 53   |
+| 100 | 戈 (Halberd) | 93   | 31   | 2   | 2  | 0  | 1  | 129  | 175  |
+| 101 | 欠 (Yawn) | 87   | 32   | 3   | 1  | 0  | 0  | 123  | 164  |
+| 102 | 又 (Right Hand) | 50   | 30   | 5   | 0  | 0  | 0  | 85   | 125  |
+| 103 | 攴 (Strike) | 157  | 58   | 8   | 2  | 0  | 0  | 225  | 305  |
+| 104 | 殳 (Weapon) | 62   | 15   | 4   | 0  | 0  | 0  | 81   | 104  |
+| 105 | 皮 (Skin) | 54   | 32   | 2   | 0  | 0  | 1  | 89   | 130  |
+| 106 | 革 (Leather) | 134  | 70   | 14  | 0  | 1  | 1  | 220  | 328  |
+| 107 | 韋 (Tanned Leather) | 34   | 19   | 1   | 0  | 0  | 0  | 54   | 75   |
+| 108 | 車 (Cart) | 147  | 74   | 8   | 4  | 0  | 0  | 233  | 335  |
+| 109 | 羊 (Sheep) | 47   | 25   | 6   | 1  | 0  | 0  | 79   | 119  |
+| 110 | 馬 (Horse) | 188  | 87   | 14  | 1  | 1  | 1  | 292  | 419  |
+| 111 | 鳥 (Bird) | 307  | 184  | 35  | 6  | 1  | 0  | 533  | 809  |
+| 112 | 隹 (Short-tailed Bird) | 59   | 32   | 2   | 0  | 0  | 0  | 93   | 129  |
+
+***Sōge*** **(僧下 – Lower "Sangha" Fascicle)**
+| No. | Radical | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+| 113 | 魚 (Fish) | 232    | 104  | 41  | 2   | 0  | 0  | 379    | 571    |
+| 114 | 虫 (Insect) | 365    | 257  | 27  | 9   | 1  | 5  | 664    | 1,041  |
+| 115 | 鼠 (Rat) | 34     | 20   | 6   | 1   | 0  | 0  | 61     | 96     |
+| 116 | 龜 (Turtle) | 23     | 13   | 4   | 0   | 0  | 0  | 40     | 61     |
+| 117 | 鬼 (Ghost) | 51     | 18   | 1   | 2   | 1  | 2  | 75     | 121    |
+| 118 | 風 (Wind) | 70     | 32   | 6   | 2   | 0  | 0  | 110    | 160    |
+| 119 | 酉 (Wine) | 146    | 53   | 9   | 0   | 0  | 1  | 209    | 289    |
+| 120 | 雑 (Miscellaneous) | 1,075  | 332  | 73  | 14  | 4  | 3  | 1,501  | 2,057  |
+
+**Overall Total**
+|     | **Total** | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+|     |         | 24,681 | 6,670  | 977    | 167    | 50     | 65      | 32,610         | 42,344       |
+
+
+### Addendum
+
+Regarding `K10108221` '陟厘':
+
+The Kanchi-in manuscript presents '⿱陟厘' (a ligature-like form combining '陟' and '厘') as a single character, and Masamune's Index and Kusakawa's *Wakun Shūsei* follow this interpretation.
+Mochizuki's *Wakun Shūsei*, however, treats '陟厘' as two separate characters.
+The Dōen-bon manuscript of the *Wamyō Ruijushō* (Volume 17, "Vegetables" section) has an entry for '陟𨤲' with the annotation: "音緾 一本作厘 和名 阿乎乃利" (Pronunciation *ten* [for 陟]; one manuscript has 厘 [for 𨤲]; Japanese name: *Awonori*).
+The *Shinsen Jikyō* shows '陟釐 青乃利' (*Shokuri Aonori*) (under "Miscellaneous characters for temporary needs" - 臨時雑要字, *rinji zatsuyō ji*).
+The *Iroha Jiruishō* (Maeda-bon) has '陟𨤲 アヲノリ' (*Shokuri Awonori*) (under "ア – Plants").
+Considering this evidence, it seems appropriate to interpret '陟厘' in the Kanchi-in manuscript as two separate characters.
+
+This interpretation would affect the calculation of the total headword character count (*keishutsuji-sū*), but this has not been reflected in the data tables presented above.
+(Noted December 15, 2022).
+
+March 14, 2024: Corrected errors in the aggregated numerical figures (in the preceding tables).
+
 
