@@ -1,5 +1,5 @@
 ---
-title: "Calculation of Headword Count"
+title: "Calculation of Headword Character Count"
 weight: 18
 # bookFlatSection: false
 # bookToc: true

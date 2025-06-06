@@ -66,7 +66,7 @@ Although the **`Headword`** is transcribed as '覲', its actual glyph form in th
 
 Information on the character '覲' in GlyphWiki can be found at [https://glyphwiki.org/wiki/u50c5](https://glyphwiki.org/wiki/u50c5). Various glyphs are registered there; if the desired glyph is available, it can be used. If not, one can create and register a new glyph.
 
-Glyphs in HDIC (Integrated Database of Hanzi Dictionaries in Early Japan) typically begin with the prefix `hdic-`. For the Kanchiin manuscript of the *Ruiju Myōgishō*, an additional `hkrm-` is appended, followed by an 8-digit number indicating its location information to form the GlyphWiki glyph name.
+Glyphs in HDIC (Integrated Database of Hanzi Dictionaries in Early Japan) typically begin with the prefix `hdic-`. For the Kanchi-in manuscript of the *Ruiju Myōgishō*, an additional `hkrm-` is appended, followed by an 8-digit number indicating its location information to form the GlyphWiki glyph name.
 
 Regarding the glyph ![覲](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-02081630.50px.png),
 searching for '覲' in the HNG (Hanzi Normative Glyphs Database) at [https://search.hng-data.org/search](https://search.hng-data.org/search) confirms that an example exists in the Ueno manuscript of the *Hanshu* (Book of Han), specifically in the *Yang Xiong* (楊雄) section.
