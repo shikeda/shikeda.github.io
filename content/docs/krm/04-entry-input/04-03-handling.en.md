@@ -173,7 +173,7 @@ Example 9 (类 for 類) is used in **`Entries`** derived from category names in 
 Example 10 (欤 for 歟) is used in notes expressing doubt or questioning the correctness of characters or phrases (these are considered types of editorial notes or *ango*).
 
 
-### `Variant Characters (*itaiji*)` (異体字)
+### `Variant Characters` (*itaiji*) (異体字)
 
 While care has been taken to input **`variant characters` (*itaiji*)** used as **`Headwords`** in a form that is faithful to, or closely approximates, their appearance in the original manuscript, the basic policy for **`variant characters` (*itaiji*)** appearing within the **`Original Glosses`** is to normalize them to their common or standard forms.
 
@@ -201,7 +201,7 @@ The marks "〱" (KUNOJITEN, U+3031), "〳" (KUNOJITEN WITH VOICED SOUND MARK, U+
 
 ### `Substitution Marks` (代用符号, *daiyō fugō*)
 
-The **`Substitution Mark`** (代用符号, *daiyō fugō*), appearing as '｜' in **`Headwords`** that are compound words (熟語, *jukugo*), is a symbol used when substituting for an annotated character (被注字, *hichūji*; also 被釋字, *hishakuji*; i.e., the target character of an annotation) or a previously listed **`Headword`**. In the data, this '｜' mark is input using 'ー' (CHOONPU - long vowel mark, U+30FC), and the actual character it represents is then input within full-width parentheses '（）'.
+The **`Substitution Marks`** (代用符号, *daiyō fugō*), appearing as '｜' in **`Headwords`** that are compound words (熟語, *jukugo*), is a symbol used when substituting for an annotated character (被注字, *hichūji*; also 被釋字, *hishakuji*; i.e., the target character of an annotation) or a previously listed **`Headword`**. In the data, this '｜' mark is input using 'ー' (CHOONPU - long vowel mark, U+30FC), and the actual character it represents is then input within full-width parentheses '（）'.
 
 When the symbol '｜' is used within the **`Original Glosses`** to indicate the same character as the **`Headword`**, it is simply input as 'ー' (CHOONPU - long vowel mark, U+30FC), without an accompanying indication of the character it represents.
 
@@ -304,7 +304,7 @@ In example 2, the '◇' mark indicates that this is an annotation in literary Ch
 
 
 
-### `Tone Marks (*shōten*)` (声点)
+### `Tone Marks` (*shōten*) (声点)
 
 Since **`Tone Marks` (*shōten*)** are a feature of great interest to users of the *Myōgishō* data, they are explained in detail here.
 
@@ -390,7 +390,7 @@ Examples 9 and 10 are *Wa-on* (和音) readings; example 9 has **`Tone Marks` (*
 "Regarding **`Tone Marks` (*shōten*)**, while distinguishing between those written in red ink (朱点, *shuten* – also referred to by some specialists as **`Vermilion Glosses`**) and those written in black ink (墨点, *bokuten*) is important, this distinction has not been made in the current data input. We anticipate detailed verification by specialists in historical Japanese phonology."
 
 
-### `Morphosyntactic Glosses (*wokototen*)` (ヲコト点)
+### `Morphosyntactic Glosses` (*wokototen*) (ヲコト点)
 
 No definitive examples of **`Morphosyntactic Glosses` (*wokototen*)** have been confirmed in the manuscript at this time.
 Should any definitive examples be identified, they will be transcribed using Hiragana.

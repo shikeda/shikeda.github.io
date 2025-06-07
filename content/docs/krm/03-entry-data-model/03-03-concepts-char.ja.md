@@ -29,19 +29,19 @@ weight: 6
 [^注1]:Harumichi Ishizuka, Shoju Ikeda, Jun Shirai, and Tomokazu Takada, "The data-base focusing on the standard of writing Chinese characters in Dunhuang manuscripts," in *Proceedings of the Nara Symposium for Digital Silk Roads*: December 10-12, 2003, Nara-ken New Public Hall, Nara, Japan, ed. Kinji Ono (Tokyo: National Institute of Informatics, 2004), 133.
 
 
-書體 (Shotai): Socially common form of the type of a Chinese character. In many instances, the usage of a particular type is determined by the purpose of writing, 楷書, 草書, etc.
-字體 (Jitai): Socially common standard of writing Chinese character existing within the 書體.
-字形 (Jikei): Shape itself of a Chinese character as recognized within the standard of the 字體.
+書體 (*Shotai*): Socially common form of the type of a Chinese character. In many instances, the usage of a particular type is determined by the purpose of writing, 楷書, 草書, etc.
+字體 (*Jitai*): Socially common standard of writing Chinese character existing within the 書體.
+字形 (*Jikei*): Shape itself of a Chinese character as recognized within the standard of the 字體.
 
 この英文の説明を踏まえて、この文書では、
-「書體（書体）」は'script styles (*shotai*)'、
-「字體（字体）」は'standard of writing Chinese characters (*jitai*)'、
-「字形」は'shapes of Chinese characters (*jikei*) (字形)'という用語を用いることとする。
+「書體（書体）」は **`Script Styles` (*Shotai*)**、
+「字體（字体）」は **`Standard of Writing Chinese Characters` (*jitai*)**、
+「字形」は **`Shapes of Chinese Characters` (*jikei*) (字形)**という用語を用いることとする。
 
 
 ## 異体字
 
-**異体字**（variant glyph）は「字体」レベルにおいて、「正字」に対応する概念である。
+**異体字**（Variant Characters）は「字体」レベルにおいて、「正字」に対応する概念である。
 石塚晴通「漢字字体の日本的標準」（『国語と国文学』76（5）、1999）
 などに示される漢字字体史研究のモデルでは、漢字字体の標準は
 時代・地域により変遷するという考えをとっており、
@@ -55,7 +55,7 @@ HNGは[漢字字体規範史データセット](https://www.hng-data.org)で利�
 
 ## 形近字
 
-**形近字**（similar glyph character）とは、字形が近似しているが別字であるものである。**類形別字**あるいは**類形異字**と呼ばれる。観智院本『類聚名義抄』の研究では、
+**形近字**（Graphically Similar Characters）とは、字形が近似しているが別字であるものである。**類形別字**あるいは**類形異字**と呼ばれる。観智院本『類聚名義抄』の研究では、
 酒井憲二「類聚名義抄の字順と部首排列」（『本邦辞書史論叢』三省堂、1967）
 が部首内の字順について「類似字形排列」を見出しているが、
 これは、異体字および形近字が連続して掲出されると言い換えることができる。

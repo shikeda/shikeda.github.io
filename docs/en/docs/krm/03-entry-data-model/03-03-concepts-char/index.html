@@ -26,7 +26,7 @@ The terms &ldquo;書体&rdquo; (shotai, script style), &ldquo;字体&rdquo; (jit
   <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/03-entry-data-model/03-03-concepts-char/" title="文字表記に関する概念">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.2eb9261045046b5a62a3b05a0d42dc83843b245d6ee2833aae5e96f3ec26c703.css" integrity="sha256-LrkmEEUEa1pio7BaDULcg4Q7JF1u4oM6rl6W8&#43;wmxwM=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/en.search.min.7583c481ee9e13705d83780ed0996352ed4c419bbd76333ba537901c8ba284e0.js" integrity="sha256-dYPEge6eE3Bdg3gO0JljUu1MQZu9djM7pTeQHIuihOA=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.463089124d2601a93000aca59d697f8a6876fe5c7a72ff6b73cab1ae372dec65.js" integrity="sha256-RjCJEk0mAakwAKylnWl/imh2/lx6cv9rc8qxrjct7GU=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -701,30 +701,30 @@ https://github.com/alex-shpak/hugo-book
 <p>The English definitions provided by Ishizuka et al. are as follows<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>:</p>
 <blockquote>
 <ul>
-<li>書體 (Shotai): Socially common form of the type of a Chinese character. In many instances, the usage of a particular type is determined by the purpose of writing, 楷書, 草書, etc.</li>
-<li>字體 (Jitai): Socially common standard of writing Chinese character existing within the 書體.</li>
-<li>字形 (Jikei): Shape itself of a Chinese character as recognized within the standard of the 字體.</li>
+<li>書體 (<em>Shotai</em>): Socially common form of the type of a Chinese character. In many instances, the usage of a particular type is determined by the purpose of writing, 楷書, 草書, etc.</li>
+<li>字體 (<em>Jitai</em>): Socially common standard of writing Chinese character existing within the 書體.</li>
+<li>字形 (<em>Jikei</em>): Shape itself of a Chinese character as recognized within the standard of the 字體.</li>
 </ul></blockquote>
 <p>Based on these English explanations (from Ishizuka et al., 2003, which are consistent with the translated 1984 definitions), this document will use the following English terms:</p>
 <ul>
-<li>For 「書體（書体）」: <strong><code>script styles</code> (<em>shotai</em>)</strong> (書体)</li>
-<li>For 「字體（字体）」: <strong><code>the standard of writing Chinese characters</code> (<em>jitai</em>)</strong> (字体)</li>
-<li>For 「字形」: <strong><code>shapes of Chinese characters</code> (<em>jikei</em>)</strong> (字形)</li>
+<li>For 「書體（書体）」: <strong><code>Script Styles</code> (<em>shotai</em>)</strong> (書体)</li>
+<li>For 「字體（字体）」: <strong><code>Standard of Writing Chinese Characters</code> (<em>jitai</em>)</strong> (字体)</li>
+<li>For 「字形」: <strong><code>Shapes of Chinese Characters</code> (<em>jikei</em>)</strong> (字形)</li>
 </ul>
 <h2 id="variant-characters-異体字">
   Variant Characters (異体字)
   <a class="anchor" href="#variant-characters-%e7%95%b0%e4%bd%93%e5%ad%97">#</a>
 </h2>
-<p>The term <strong><code>variant characters</code> (<em>itaiji</em>)</strong> (異体字) is, at the level of <strong><code>character standards</code> (<em>jitai</em>)</strong> (字体), a concept corresponding to &ldquo;<strong><code>standard characters</code></strong>&rdquo; (正字, <em>seiji</em>).
+<p>The term <strong><code>Variant Characters</code> (<em>itaiji</em>)</strong> (異体字) is, at the level of <strong><code>Character Standards</code> (<em>iitai</em>)</strong> (字体), a concept corresponding to &ldquo;<strong><code>Standard Characters</code> (<em>seiji</em>)</strong>&rdquo; (正字).
 In models of the historical study of Chinese character forms, such as those presented by Ishizuka Harumichi in &ldquo;Kanji Jitai no Nihonteki Hyōjun&rdquo; (Japanese Standards of Chinese Character Forms; <em>Kokugo to Kokubungaku</em> 76, no. 5, 1999), the standard for Chinese character forms is considered to have changed according to period and region. The <strong>Hanzi Normative Glyphs Database (HNG)</strong> was intended to empirically demonstrate this model. Related data, including materials from its predecessor (the Ishizuka Register of Chinese Character Standards of Writing), can be accessed via the <strong>Hanzi Normative Glyphs Dataset</strong> available at <a href="https://www.hng-data.org">https://www.hng-data.org</a>.</p>
-<p>While &ldquo;<strong><code>variant characters</code></strong>&rdquo; are generally understood to refer to character forms that are not &ldquo;<strong><code>standard characters</code></strong>,&rdquo; Ishizuka&rsquo;s model posits that the standard for Chinese character forms—that is, the &ldquo;<strong><code>standard character</code></strong>&quot;—differs by period and region, making it impossible to distinguish <em>a priori</em> between &ldquo;<strong><code>standard characters</code></strong>&rdquo; and &ldquo;<strong><code>variant characters (*itaiji*)</code></strong>.&rdquo; In this document, we consider <strong><code>variant characters (*itaiji*)</code></strong> as variations of Chinese character forms. We judge that a character indicates a variant if it is accompanied by <strong><code>Form Classification Tags</code></strong> (字体注記, <em>jitaichūki</em>, also referred to as 字級, <em>jikyū</em>) such as &ldquo;正&rdquo; (standard), &ldquo;俗&rdquo; (popular/vulgar), &ldquo;通&rdquo; (common), or &ldquo;或&rdquo; (alternative).</p>
-<p>The practice of calling <strong><code>Form Classification Tags</code></strong> like &ldquo;正&rdquo; or &ldquo;俗&rdquo; <em>jikyū</em> (字級) follows Lee Kyeong Won in his <em>Zui-Tang Ziyangxue Yanjiu</em> (隋唐字様學研究; A Study of Sui and Tang Dynasty Character Lexicography; PhD diss., National Taiwan Normal University, Graduate Institute of Chinese, 1997).</p>
+<p>While &ldquo;<strong><code>Variant Characters</code></strong>&rdquo; are generally understood to refer to character forms that are not &ldquo;<strong><code>Standard Characters</code></strong>,&rdquo; Ishizuka&rsquo;s model posits that the standard for Chinese character forms—that is, the &ldquo;<strong><code>Standard Character</code></strong>&quot;—differs by period and region, making it impossible to distinguish <em>a priori</em> between &ldquo;<strong><code>Standard Characters</code></strong>&rdquo; and &ldquo;<strong><code>Variant Characters</code> (<em>itaiji</em>)</strong>.&rdquo; In this document, we consider <strong><code>Variant Characters</code> (<em>itaiji</em>)</strong> as variations of Chinese character forms. We judge that a character indicates a variant if it is accompanied by <strong><code>Form Classification Tags</code></strong> (字体注記, <em>jitaichūki</em>, also referred to as 字級, <em>zìjí</em>) such as &ldquo;正&rdquo; (standard), &ldquo;俗&rdquo; (popular/vulgar), &ldquo;通&rdquo; (common), or &ldquo;或&rdquo; (alternative).</p>
+<p>The practice of calling <strong><code>Form Classification Tags</code></strong> like &ldquo;正&rdquo; or &ldquo;俗&rdquo; <em>zìjí</em> (字級) follows Lee Kyeong Won in his <em>Zui-Tang Ziyangxue Yanjiu</em> (隋唐字様學研究; A Study of Sui and Tang Dynasty Character Lexicography; PhD diss., National Taiwan Normal University, Graduate Institute of Chinese, 1997).</p>
 <h2 id="graphically-similar-characters-形近字">
   Graphically Similar Characters (形近字)
   <a class="anchor" href="#graphically-similar-characters-%e5%bd%a2%e8%bf%91%e5%ad%97">#</a>
 </h2>
-<p><strong><code>Graphically similar characters</code> (<em>keikinki</em>)</strong> (形近字) are distinct characters that have similar visual forms. They are also known as <em>ruikei betsuji</em> (類形別字) or <em>ruikei iji</em> (類形異字) (distinct characters of similar form).
-In the study of the Kanchi-in manuscript of the <em>Ruiju Myōgishō</em>, Sakai Kenji, in his article “Ruiju Myōgishō no Jijun to Bushu Hairetsu” (Character Order and Radical Arrangement in the <em>Ruiju Myōgishō</em>),<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> identified an &ldquo;arrangement by similar character forms&rdquo; (類似字形排列, <em>ruiji jikei hairetsu</em>) within radical sections. This can be rephrased as <strong><code>variant characters </code>(<em>itaiji</em>)</strong> and <strong><code>graphically similar characters</code></strong> being listed consecutively.</p>
+<p><strong><code>Graphically Similar Characters</code> (<em>keikinki</em>)</strong> (形近字) are distinct characters that have similar visual forms. They are also known as <em>ruikei betsuji</em> (類形別字) or <em>ruikei iji</em> (類形異字) (distinct characters of similar form).
+In the study of the Kanchi-in manuscript of the <em>Ruiju Myōgishō</em>, Sakai Kenji, in his article “Ruiju Myōgishō no Jijun to Bushu Hairetsu” (Character Order and Radical Arrangement in the <em>Ruiju Myōgishō</em>),<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> identified an &ldquo;arrangement by similar character forms&rdquo; (類似字形排列, <em>ruiji jikei hairetsu</em>) within radical sections. This can be rephrased as <strong><code>Variant Characters </code>(<em>itaiji</em>)</strong> and <strong><code>Graphically Similar Characters</code></strong> being listed consecutively.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
