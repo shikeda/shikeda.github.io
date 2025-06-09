@@ -70,7 +70,9 @@ The work lists Chinese characters both as individual graphs and compounds, accom
 
 ## Radical Structure
 
-According to the Kanchi-in manuscript, the *Ruiju Myōgishō* is organized into 120 sections grouped under the three divisions of the Buddhist Triratna: Buddha (仏), Dharma (法), and Sangha (僧). Each division contains 40 sections based on semantic radicals. The table below presents the full list of radicals used, shown with their associated head characters (部首字).
+According to the Kanchi-in manuscript, the *Ruiju Myōgishō* is organized into 120 sections grouped under the three divisions of the Buddhist Triratna: Buddha (仏), Dharma (法), and Sangha (僧). 
+Each division is further subdivided into several volumes or fascicles (巻 *kan*), such as "Upper," "Middle," and "Lower.
+Each division contains 40 sections based on semantic radicals. The table below presents the full list of radicals used, shown with their associated head characters (部首字).
 
 **Buddha Division (仏)**  
 (*Upper Volume*)  
@@ -141,7 +143,7 @@ The Kanchi-in manuscript of the revised compilation—also known as the **Kaihen
 
 There is a substantial expansion of single-character entries. For items carried over from the original compilation, Japanese native readings have been added and reorganized; for new entries introduced in the revised version, a large number of Japanese native readings have been supplemented as well, resulting in a significantly enlarged corpus of Japanese native readings.
 
-**`Notes on Character Form`** (字体注), which provide details on **`variant characters` (*itaiji*)** and distinctions such as "standard" (正, *sei*) and "popular/variant" (俗, *zoku*) forms, along with **`Phonetic Glosses`** (字音注) indicating **`Go-on`** (呉音; also known as *Wa-on*, reflecting 5th-6th century pronunciations from Southern China, possibly transmitted via the Korean Peninsula) and **`Kan-on`** (漢音; also known as **`Sei-on`**, reflecting 7th-9th century pronunciations from Northern China, notably the Chang'an dialect) for the characters, together constitute a rich repository of materials for the study of Japanese linguistic history.
+**`Notes on Character Form`** (字体注), which provide details on **`Variant Characters` (*itaiji*)** and distinctions such as "standard" (正, *sei*) and "popular/variant" (俗, *zoku*) forms, along with **`Phonetic Glosses`** (字音注) indicating **`Go-on`** (呉音; also known as *Wa-on*, reflecting 5th-6th century pronunciations from Southern China, possibly transmitted via the Korean Peninsula) and **`Kan-on`** (漢音; also known as **`Sei-on`**, reflecting 7th-9th century pronunciations from Northern China, notably the Chang'an dialect) for the characters, together constitute a rich repository of materials for the study of Japanese linguistic history.
 
 Within each radical category, headword entries are often arranged either by visual similarity or according to the character ordering found in the *Yupian*—referred to here as the *Gyokuhen jijun-gun* (“Yupian character order groups”).
 

@@ -324,7 +324,7 @@ The voiced sound mark (濁音符号, *dakuon fugō*), indicated by double dots (
 
 **Nasal Sound Symbols (鼻音符号, *bion fugō*)**
 
-The nasal sound symbol (鼻音符号, *bion fugō*;  also 鼻音符, *bíyīnfú* in Chinese) is represented by "(N)" in the data. In the manuscript, nasal sound symbols appear in forms such as ✓, v, レ, or 」. If it is necessary to refer to the specific shape of a nasal sound symbol, the check mark '✓' (U+2713) is used for explanatory purposes.
+The nasal sound symbol (鼻音符号, *bion fugō*;  also 鼻音符, *bíyīnfú* in Chinese) is represented by the English letter 'V' (U+004E) in the data. In the manuscript, nasal sound symbols appear in forms such as ✓, v, レ, or 」. If it is necessary to refer to the specific shape of a nasal sound symbol, the check mark '✓' (U+2713) is used for explanatory purposes.
 
 **Multiple `Tone Marks` (*shōten*)**
 

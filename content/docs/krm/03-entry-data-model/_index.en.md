@@ -10,7 +10,7 @@ bookToc: true
 
 Regarding the Kanchi-in manuscript *Ruiju Myōgishō*:
 
-First, under **`Entry Data Structure`**, we present the internal components of an **`Entry`** (such as **`Headword`**, **`Phonetic Gloss`**, and **`Wakun (*Japanese native reading*)`**) using specific examples (visual representations and transcriptions), and provide an abstracted and visualized diagram of the **`Entry`** structure.
+First, under **`Entry Data Structure`**, we present the internal components of an **`Entry`** (such as **`Headword`**, **`Phonetic Gloss`**, and **`Japanese Native Reading`*(wakun)***) using specific examples (visual representations and transcriptions), and provide an abstracted and visualized diagram of the **`Entry`** structure.
 
 Next, under **`Types of Entries`**, different kinds, such as basic **`Entries`** and supplementary **`Entries`**, are discussed.
 
