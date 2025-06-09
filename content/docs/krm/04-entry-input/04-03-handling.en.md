@@ -455,7 +455,9 @@ A compiler's decipherment note (解讀注記, *jiědú zhùjì* in Chinese) may 
 
 For this example, the following content would be recorded in the `remarks` column (as a **`Compiler's Remark`**):
 
-> Masamune's Index, under 'オホ（-ヒ）チイル', notes: "'ホ（-ヒ）' is a mark indicating 'ホ' was deleted. Should it be 'オチイル'?" Kusakawa's *Wakun Shūsei* records 'オホ' and 'チイル' separately. Mochizuki's *Wakun Shūsei* records 'オチイル'. Ikeda's note: Follow Masamune and Mochizuki.
+```
+Masamune's Index, under 'オホ（-ヒ）チイル', notes: "'ホ（-ヒ）' is a mark indicating 'ホ' was deleted. Should it be 'オチイル'?" Kusakawa's *Wakun Shūsei* records 'オホ' and 'チイル' separately. Mochizuki's *Wakun Shūsei* records 'オチイル'. Ikeda's note: Follow Masamune and Mochizuki.
+```
 
 **`Fanqie` Spellings within `Headwords`**
 
