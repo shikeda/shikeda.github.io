@@ -29,10 +29,10 @@ bookCollapseSection: true
 6. [準備中](/docs/notes/krm-main/case-study/6/)
 
 
-# Historical Research on Japanese: A Case Study of the Kanchi-in Manuscript of the Ruiju Myōgishō
+# Historical Research on Japanese: A Case Study of the Kanchi-in Manuscript of the *Ruiju Myōgishō*
 
 
-This section presents historical research on Japanese using the Kanchi-in manuscript of the Ruiju Myōgishō. Based on the knowledge obtained during the process of deciphering the Myōgishō, we aim to correct errors in the textual interpretation and improve its accuracy. While particularly focusing on the issue of *wakun* (Japanese glosses), we also address the issue of *kanji* (Chinese character) readings.
+This section presents historical research on Japanese using the Kanchi-in manuscript of the *Ruiju Myōgishō*. Based on the knowledge obtained during the process of deciphering the *Myōgishō*, we aim to correct errors in the textual interpretation and improve its accuracy. While particularly focusing on the issue of *wakun* (Japanese glosses), we also address the issue of *kanji* (Chinese character) readings.
 
 *Wakun* is a valuable resource for the vocabulary and phonological history of Japanese, and phonetic notations such as *fanqie* (反切), similar sound glosses (類音注), *kana* glosses (仮名注), and *shōten* (声点) are important resources for the history of Japanese *kanji* readings, with a significant body of research accumulated to date. It is our hope that this research will contribute to providing new analytical perspectives.
 

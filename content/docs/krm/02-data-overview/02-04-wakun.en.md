@@ -37,7 +37,7 @@ The comparison of the new and old column names is as follows:
 |-------------------------|---------------|
 | wakun_id                | KRID_wakun_no |
 | definition_seq_id       | KRID_no       |
-| kazama_entry_location   | KR2ID         |
+| kazama_location   | KR2ID         |
 | hanzi_entry             | Entry         |
 | wakun_elements          | Def           |
 | wakun_form              | Word_form     |
@@ -59,7 +59,7 @@ Next, the content of the column names will be explained.
 | :------------------------- | :-------------------------------------------------- |
 | wakun_id                   | An ID for each **`Japanese Native Reading (*wakun*)`**. This is derived from `definition_seq_id` by extracting only those elements where the type (from `definition_type_name` in `krm_notes`) is **`Japanese Native Reading (*wakun*)`**. Suffixes 'b', 'c', 'd' are appended for variant forms. |
 | definition_seq_id        | An identifier for each component of the **`Definition (Original Glosses)`** or for the **`Headword`** itself within an **`Entry`**. It is formed by appending a sequential suffix (e.g., "_00" for the **`Headword`** or overall **`Entry`** note, "_01", "_02" for subsequent elements of the **`Definition (Original Glosses)`** in order of appearance) to the 5-digit numeric part of the `entry_id`. (This ID links to records in `krm_notes`). |
-| kazama_entry_location    | ID including location information (Kazama edition: K, Book/volume, page(xxx), line(y), column(zz)), ranked 1, 2, ..., n for multiple **`Entries`** in a column. "Book(volume)" represents the volume number, "page(xxx)" the page number, "line(y)" the line number, and "column(zz)" the column number. |
+| kazama_location    | ID including location information (Kazama edition: K, Book/volume, page(xxx), line(y), column(zz)), ranked 1, 2, ..., n for multiple **`Entries`** in a column. "Book(volume)" represents the volume number, "page(xxx)" the page number, "line(y)" the line number, and "column(zz)" the column number. |
 | hanzi_entry              | The collated **`Headword`** (using **`Hanzi (Chinese characters)`**) to which this **`Japanese Native Reading (*wakun*)`** pertains. Principally Kangxi Dictionary forms, though Unicode-representable new forms (common-use, popular variants) may be retained.                                |
 | wakun_elements           | Extracted elements of **`Japanese Native Readings (*wakun*)`** from the full **`Definition (Original Glosses)`**. Each record typically corresponds to one such element.                                                                                                            |
 | wakun_form               | The lexical form of the **`Japanese Native Reading (*wakun*)`**. Inflected words are generally given in their dictionary (citation) form, excluding grammatical particles. The particles 'no' and 'to' from *Monzen* (文選) style readings are omitted.                                     |

@@ -25,7 +25,7 @@
   <link rel="alternate" hreflang="en" href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-07-ndl/" title="krm_ndl">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.2eb9261045046b5a62a3b05a0d42dc83843b245d6ee2833aae5e96f3ec26c703.css" integrity="sha256-LrkmEEUEa1pio7BaDULcg4Q7JF1u4oM6rl6W8&#43;wmxwM=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/ja.search.min.f0e167c33edffd876fe3a0831c9a1f6594f932f8597146197922498015cf59b5.js" integrity="sha256-8OFnwz7f/Ydv46CDHJofZZT5MvhZcUYZeSJJgBXPWbU=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/ja.search.min.ef9e37c231bab35cd211da50b90301afc78236863aa066c15824828b20606764.js" integrity="sha256-7543wjG6s1zSEdpQuQMBr8eCNoY6oGbBWCSCiyBgZ2Q=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -900,7 +900,17 @@ https://github.com/alex-shpak/hugo-book
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#krm_main-との連携"><code>krm_main</code> との連携</a>
+      <ul>
+        <li><a href="#質問">質問</a></li>
+        <li><a href="#回答">回答</a></li>
+        <li><a href="#まとめ">まとめ</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
 
 
@@ -948,7 +958,231 @@ https://github.com/alex-shpak/hugo-book
       </tr>
   </tbody>
 </table>
-<p><code>krm_main</code> との連携がとりやすいようするため、改良を加える予定である。</p>
+<h2 id="krm_main-との連携">
+  <code>krm_main</code> との連携
+  <a class="anchor" href="#krm_main-%e3%81%a8%e3%81%ae%e9%80%a3%e6%90%ba">#</a>
+</h2>
+<p><code>krm_main</code> との連携をとるためには、ChatGPTやGeminiなどの生成AIで次の質問をすれば適切な回答が得られる。ここではExcelを用いるように指示しているが、Pythonで処理したい場合は、ExcelをPythonに
+置き換えてください。</p>
+<p>以下はChatGPTへの質問と回答の例です。</p>
+<h3 id="質問">
+  質問
+  <a class="anchor" href="#%e8%b3%aa%e5%95%8f">#</a>
+</h3>
+<p><code>krm_main.tsv</code>ファイルと<code>krm_ndl.tsv</code>ファイルを、<code>krm_main.tsv</code>の<code>kazama_location</code>列と<code>krm_ndl.tsv</code>の<code>Kazama</code>列を使ってExcelでジョインする方法を教えてください。また、以下の対応を含めてください：</p>
+<ul>
+<li>&ldquo;仏上&rdquo; → &ldquo;K01&rdquo;</li>
+<li>&ldquo;仏中&rdquo; → &ldquo;K02&rdquo;</li>
+<li>&ldquo;仏下本&rdquo; → &ldquo;K03&rdquo;</li>
+<li>&ldquo;仏下末&rdquo; → &ldquo;K04&rdquo;</li>
+<li>&ldquo;法上&rdquo; → &ldquo;K05&rdquo;</li>
+<li>&ldquo;法中&rdquo; → &ldquo;K06&rdquo;</li>
+<li>&ldquo;法下&rdquo; → &ldquo;K07&rdquo;</li>
+<li>&ldquo;僧上&rdquo; → &ldquo;K08&rdquo;</li>
+<li>&ldquo;僧中&rdquo; → &ldquo;K09&rdquo;</li>
+<li>&ldquo;僧下&rdquo; → &ldquo;K10&rdquo;</li>
+</ul>
+<p>以下はファイルのサンプルデータです：</p>
+<h4 id="サンプル-krm_maintsv">
+  サンプル <code>krm_main.tsv</code>:
+  <a class="anchor" href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-krm_maintsv">#</a>
+</h4>
+<table>
+  <thead>
+      <tr>
+          <th>entry_id</th>
+          <th>hanzi_id</th>
+          <th>kazama_location</th>
+          <th>tenri_location</th>
+          <th>volume_name</th>
+          <th>radical_name</th>
+          <th>volume_radical_index</th>
+          <th>hanzi_entry</th>
+          <th>original_entry</th>
+          <th>definition</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>F00001</td>
+          <td>S00001</td>
+          <td>K01001310</td>
+          <td>Ta023310</td>
+          <td>仏上</td>
+          <td>人</td>
+          <td>v1#1</td>
+          <td>人</td>
+          <td>〇</td>
+          <td>音仁（LV）「ニン」　ヒト（HL）　ワレ（LL）　サネ　マホル　ユク</td>
+      </tr>
+      <tr>
+          <td>F00002</td>
+          <td>S00002</td>
+          <td>K01001331</td>
+          <td>Ta023331</td>
+          <td>仏上</td>
+          <td>人</td>
+          <td>v1#1</td>
+          <td>一／人</td>
+          <td>〇／〇</td>
+          <td>ヒトリ（LH_）</td>
+      </tr>
+      <tr>
+          <td>F00003</td>
+          <td>S00004</td>
+          <td>K01001341</td>
+          <td>Ta023341</td>
+          <td>仏上</td>
+          <td>人</td>
+          <td>v1#1</td>
+          <td>二／人</td>
+          <td>〇／〇</td>
+          <td>フタリ（HHL）</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="サンプル-krm_ndltsv">
+  サンプル <code>krm_ndl.tsv</code>:
+  <a class="anchor" href="#%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab-krm_ndltsv">#</a>
+</h4>
+<table>
+  <thead>
+      <tr>
+          <th>Book</th>
+          <th>Radical</th>
+          <th>Kazama</th>
+          <th>Tenri</th>
+          <th>NDL_url</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>仏上</td>
+          <td>人</td>
+          <td>1</td>
+          <td>23</td>
+          <td><a href="https://dl.ndl.go.jp/info:ndljp/pid/2586891/6">https://dl.ndl.go.jp/info:ndljp/pid/2586891/6</a></td>
+      </tr>
+      <tr>
+          <td>仏上</td>
+          <td>人</td>
+          <td>2</td>
+          <td>24</td>
+          <td><a href="https://dl.ndl.go.jp/info:ndljp/pid/2586891/7">https://dl.ndl.go.jp/info:ndljp/pid/2586891/7</a></td>
+      </tr>
+      <tr>
+          <td>仏上</td>
+          <td>人</td>
+          <td>3</td>
+          <td>25</td>
+          <td><a href="https://dl.ndl.go.jp/info:ndljp/pid/2586891/7">https://dl.ndl.go.jp/info:ndljp/pid/2586891/7</a></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="回答">
+  回答
+  <a class="anchor" href="#%e5%9b%9e%e7%ad%94">#</a>
+</h3>
+<p><code>krm_main.tsv</code>ファイルと<code>krm_ndl.tsv</code>ファイルを、<code>krm_main.tsv</code>の<code>kazama_location</code>列と<code>krm_ndl.tsv</code>の<code>Kazama</code>列を使ってExcelでジョインする方法は、次の手順で行えます：</p>
+<ol>
+<li>
+<p><strong>データの準備:</strong></p>
+<ul>
+<li><code>krm_main.tsv</code>と<code>krm_ndl.tsv</code>の両方をExcelにインポートし、それぞれを別々のシート（例えば、<code>krm_main</code>と<code>krm_ndl</code>）に分けて配置します。</li>
+</ul>
+</li>
+<li>
+<p><strong>対応表の作成:</strong></p>
+<ul>
+<li>新しいシート（例えば「対応表」）を作成し、<code>kazama_location</code>と<code>Kazama</code>の対応を以下のように記入します。</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th>kazama_location</th>
+          <th>Kazama</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>仏上</td>
+          <td>K01</td>
+      </tr>
+      <tr>
+          <td>仏中</td>
+          <td>K02</td>
+      </tr>
+      <tr>
+          <td>仏下本</td>
+          <td>K03</td>
+      </tr>
+      <tr>
+          <td>仏下末</td>
+          <td>K04</td>
+      </tr>
+      <tr>
+          <td>法上</td>
+          <td>K05</td>
+      </tr>
+      <tr>
+          <td>法中</td>
+          <td>K06</td>
+      </tr>
+      <tr>
+          <td>法下</td>
+          <td>K07</td>
+      </tr>
+      <tr>
+          <td>僧上</td>
+          <td>K08</td>
+      </tr>
+      <tr>
+          <td>僧中</td>
+          <td>K09</td>
+      </tr>
+      <tr>
+          <td>僧下</td>
+          <td>K10</td>
+      </tr>
+  </tbody>
+</table>
+</li>
+<li>
+<p><strong>Kazamaコードの検索:</strong></p>
+<ul>
+<li><code>krm_main</code>シートに新しい列（例えば「Kazamaコード」）を追加します。</li>
+<li><code>VLOOKUP</code>関数を使用して、<code>kazama_location</code>の値に基づいて「対応表」シートから<code>Kazama</code>コードを取得します。</li>
+</ul>
+<p>新しい列（例えば、G列）に次の数式を入力します：</p>
+<pre tabindex="0"><code>=VLOOKUP(D2, 対応表!$A$2:$B$11, 2, FALSE)
+</code></pre><ul>
+<li><code>D2</code>は<code>krm_main</code>シートの<code>kazama_location</code>列のセルです。</li>
+<li><code>対応表!$A$2:$B$11</code>は<code>対応表</code>シートの<code>kazama_location</code>と<code>Kazama</code>の対応範囲です。</li>
+</ul>
+</li>
+<li>
+<p><strong>データの結合:</strong></p>
+<ul>
+<li>再度<code>VLOOKUP</code>を使用して、<code>krm_main</code>と<code>krm_ndl</code>を<code>Kazama</code>コードを基に結合します。</li>
+<li>例えば、<code>krm_main</code>シートに新しい列を作成し、<code>krm_ndl</code>シートの<code>NDL_url</code>を取得します。次の数式を入力します：</li>
+</ul>
+<pre tabindex="0"><code>=VLOOKUP(G2, krm_ndl!$C$2:$E$100, 3, FALSE)
+</code></pre><ul>
+<li><code>G2</code>は<code>krm_main</code>シートの「Kazamaコード」列のセルです。</li>
+<li><code>krm_ndl!$C$2:$E$100</code>は<code>krm_ndl</code>シートの<code>Kazama</code>と<code>NDL_url</code>が含まれる範囲です。</li>
+</ul>
+</li>
+</ol>
+<h3 id="まとめ">
+  まとめ
+  <a class="anchor" href="#%e3%81%be%e3%81%a8%e3%82%81">#</a>
+</h3>
+<p>この方法では、以下の手順でデータを結びつけることができます：</p>
+<ul>
+<li><code>kazama_location</code>と<code>Kazama</code>コードの対応表を作成する。</li>
+<li><code>VLOOKUP</code>関数を使用して、<code>krm_main</code>と<code>krm_ndl</code>を<code>Kazama</code>コードを基に結びつける。</li>
+</ul>
+<p>この手法を使うことで、Excelで効率的にデータを結びつけることができます。</p>
 </article>
  
       
@@ -983,7 +1217,17 @@ https://github.com/alex-shpak/hugo-book
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#krm_main-との連携"><code>krm_main</code> との連携</a>
+      <ul>
+        <li><a href="#質問">質問</a></li>
+        <li><a href="#回答">回答</a></li>
+        <li><a href="#まとめ">まとめ</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
 
  

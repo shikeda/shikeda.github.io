@@ -24,7 +24,7 @@ Handling Issues in Transcription, Notation, and Annotation # The Myōgishō is a
   <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/04-entry-input/04-03-handling/" title="書写・表記・注記における問題と対応">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.2eb9261045046b5a62a3b05a0d42dc83843b245d6ee2833aae5e96f3ec26c703.css" integrity="sha256-LrkmEEUEa1pio7BaDULcg4Q7JF1u4oM6rl6W8&#43;wmxwM=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/en.search.min.68d971ab9958f098eaecaca496d302c83e4559a7463275f89dbb16e6a38621a4.js" integrity="sha256-aNlxq5lY8Jjq7KykltMCyD5FWadGMnX4nbsW5qOGIaQ=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.a8e61b693da99d4420cf6a36b1c1e116715d31d1a0fe85ec2a0b5079608ccad4.js" integrity="sha256-qOYbaT2pnUQgz2o2scHhFnFdMdGg/oXsKgtQeWCMytQ=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -853,6 +853,7 @@ Therefore, it is transcribed as &ldquo;［＿］覽反&rdquo;.</p>
 <li>牜 → 物 (<em>butsu</em>, <em>mono</em>)</li>
 <li>类 → 類 (<em>rui</em>)</li>
 <li>欤 → 歟 (<em>yo</em>, <em>ka</em>)</li>
+<li>乚　→　訓 (<em>kun</em>)</li>
 </ol>
 <p>Among these, examples 1 through 4 are illustrated in the prefatory notes (凡例, <em>hanrei</em>) of the <em>Myōgishō</em> in a section explaining &ldquo;注中多略用片&rdquo; (meaning &ldquo;in the glosses, abbreviated forms, often single components of characters [like radicals or katakana], are frequently used&rdquo;).</p>
 <p>Example 1 (亠 for 音 &lsquo;sound/pronunciation&rsquo;), Example 5 (乂 for 反 &lsquo;reversal&rsquo;, used in <strong><code>fanqie</code></strong> spellings), and Example 6 (禾 for 和 &lsquo;harmony/Japanese&rsquo;, used to denote <strong><code>Go-on</code></strong> (和音, <em>Wa-on</em>) pronunciations) are frequently used in <strong><code>Phonetic Glosses</code></strong>.</p>
@@ -862,6 +863,7 @@ For instance, <strong><code>Headwords</code></strong> containing &lsquo;谷&rsqu
 The <strong><code>Entry</code></strong> for &lsquo;豅&rsquo;, for example, has its semantic meaning given in the original text as &ldquo;大長谷&rdquo; (large long valley), so &lsquo;谷&rsquo; is retained as is.</p>
 <p>Example 9 (类 for 類) is used in <strong><code>Entries</code></strong> derived from category names in the <em>Wamyō Ruijushō</em> (倭名類聚抄), such as &ldquo;草類&rdquo; (types of grasses) and &ldquo;苔類&rdquo; (types of mosses).</p>
 <p>Example 10 (欤 for 歟) is used in notes expressing doubt or questioning the correctness of characters or phrases (these are considered types of editorial notes or <em>ango</em>).</p>
+<p>Example 11, &lsquo;乚&rsquo; (for &lsquo;訓&rsquo; <em>kun</em>), is used in the context of <strong><code>Japanese Native Readings (*wakun*)</code></strong>. Examples from the transcribed data include: the gloss <code>訓ヱ</code> for the <strong><code>Headword</code></strong> &lsquo;畫&rsquo;; <code>凡訓カラスヘミ</code> for &lsquo;蚖&rsquo;; <code>一訓コカヒス</code> for &lsquo;蠶&rsquo;; and <code>訓イクサ</code> for &lsquo;師&rsquo;.</p>
 <h3 id="variant-characters-itaiji-異体字">
   <code>Variant Characters</code> (<em>itaiji</em>) (異体字)
   <a class="anchor" href="#variant-characters-itaiji-%e7%95%b0%e4%bd%93%e5%ad%97">#</a>
@@ -1104,8 +1106,10 @@ Annotations in literary Chinese (such as <strong><code>Fanqie spellings</code></
 <em>(This <code>hanzi_entry</code> (⿰阝⿱𠂉夕) is followed by its <code>Japanese Native Reading (*wakun*)</code> &lsquo;オチイル&rsquo; with <code>Tone Marks</code> and a decipherment note &ldquo;ホを見消してチ&rdquo; [meaning &ldquo;&lsquo;ホ&rsquo; is deleted and replaced by &lsquo;チ&rsquo;&rdquo;].)</em></li>
 </ul>
 <p>For this example, the following content would be recorded in the <code>remarks</code> column (as a <strong><code>Compiler's Remark</code></strong>):</p>
-<pre tabindex="0"><code>Masamune&#39;s Index, under &#39;オホ（-ヒ）チイル&#39;, notes: &#34;&#39;ホ（-ヒ）&#39; is a mark indicating &#39;ホ&#39; was deleted. Should it be &#39;オチイル&#39;?&#34; Kusakawa&#39;s *Wakun Shūsei* records &#39;オホ&#39; and &#39;チイル&#39; separately. Mochizuki&#39;s *Wakun Shūsei* records &#39;オチイル&#39;. Ikeda&#39;s note: Follow Masamune and Mochizuki.
-</code></pre><p><strong><code>Fanqie</code> Spellings within <code>Headwords</code></strong></p>
+<ul>
+<li><code>remarks</code>: Masamune&rsquo;s Index, under &lsquo;オホ（-ヒ）チイル&rsquo;, notes: &ldquo;&lsquo;ホ（-ヒ）&rsquo; is a mark indicating &lsquo;ホ&rsquo; was deleted. Should it be &lsquo;オチイル&rsquo;?&rdquo; Kusakawa&rsquo;s <em>Wakun Shūsei</em> records &lsquo;オホ&rsquo; and &lsquo;チイル&rsquo; separately. Mochizuki&rsquo;s <em>Wakun Shūsei</em> records &lsquo;オチイル&rsquo;. Ikeda&rsquo;s note: Follow Masamune and Mochizuki.</li>
+</ul>
+<p><strong><code>Fanqie</code> Spellings within <code>Headwords</code></strong></p>
 <p>If a <strong><code>Fanqie spelling</code></strong> is inserted within a <strong><code>Multi-Character Form Headword</code></strong> (typically an idiom/compound), a forward slash &lsquo;/&rsquo; (half-width slash) is used to indicate the separation.</p>
 <p><strong>Example:</strong></p>
 <ul>

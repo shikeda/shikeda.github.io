@@ -54,8 +54,8 @@ While `mojikyo.sty` was useful when Unicode **`Hanzi (Chinese characters)`** cou
 
 The approach would be to enable the use of Hanazono Mincho fonts and then utilize `bxglyphwiki.sty`, which is compatible with LuaLaTeX, for GlyphWiki integration.
 
-- [Setting up Hanazono Mincho](./06-typesetting/06-01-hanazono-mincho/)
-- [Setting up GlyphWiki](./06-typesetting/06-02-glyphwiki/)
-- [Setting up sfkanbun.sty](./06-typesetting/06-03-sfkanbun-sty/)
-- [A Memorandum on LuaTeX Typesetting for Old Dictionaries and Kunten Materials](./06-typesetting/06-04-vscode-texlive/)
-- [Online Tools](./06-typesetting/06-05-online-tools/)
+- [Setting up Hanazono Mincho](./06-01-hanazono-mincho/)
+- [Setting up GlyphWiki](./06-02-glyphwiki/)
+- [Setting up sfkanbun.sty](./06-03-sfkanbun-sty/)
+- [A Memorandum on LuaTeX Typesetting for Old Dictionaries and Kunten Materials](./06-04-vscode-texlive/)
+- [Online Tools](./06-05-online-tools/)

@@ -24,7 +24,7 @@ This data cross-references the locations within the Kanchi-in manuscript of the 
   <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/02-data-overview/02-07-ndl/" title="krm_ndl">
 <link rel="stylesheet" href="https://shikeda.github.io/book.min.2eb9261045046b5a62a3b05a0d42dc83843b245d6ee2833aae5e96f3ec26c703.css" integrity="sha256-LrkmEEUEa1pio7BaDULcg4Q7JF1u4oM6rl6W8&#43;wmxwM=" crossorigin="anonymous">
   <script defer src="https://shikeda.github.io/flexsearch.min.js"></script>
-  <script defer src="https://shikeda.github.io/en.search.min.68d971ab9958f098eaecaca496d302c83e4559a7463275f89dbb16e6a38621a4.js" integrity="sha256-aNlxq5lY8Jjq7KykltMCyD5FWadGMnX4nbsW5qOGIaQ=" crossorigin="anonymous"></script>
+  <script defer src="https://shikeda.github.io/en.search.min.a8e61b693da99d4420cf6a36b1c1e116715d31d1a0fe85ec2a0b5079608ccad4.js" integrity="sha256-qOYbaT2pnUQgz2o2scHhFnFdMdGg/oXsKgtQeWCMytQ=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -661,7 +661,17 @@ https://github.com/alex-shpak/hugo-book
   <aside class="hidden clearfix">
     
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#integration-with-krm_main">Integration with krm_main</a>
+      <ul>
+        <li><a href="#questions">Questions</a></li>
+        <li><a href="#answers">Answers</a></li>
+        <li><a href="#summary">Summary</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
 
 
@@ -707,7 +717,230 @@ https://github.com/alex-shpak/hugo-book
       </tr>
   </tbody>
 </table>
-<p>We plan to make improvements to facilitate easier integration with <code>krm_main</code>.</p>
+<h2 id="integration-with-krm_main">
+  Integration with krm_main
+  <a class="anchor" href="#integration-with-krm_main">#</a>
+</h2>
+<p>To integrate with krm_main, you can ask the following questions using generative AI tools like ChatGPT or Gemini to get appropriate answers. While the instructions here are to use Excel, if you wish to process the data with Python, simply replace Excel with Python.</p>
+<p>Below are examples of questions and answers for ChatGPT.</p>
+<h3 id="questions">
+  Questions
+  <a class="anchor" href="#questions">#</a>
+</h3>
+<p>How can I join the <code>krm_main.tsv</code> and <code>krm_ndl.tsv</code> files in Excel using the <code>kazama_location</code> column in <code>krm_main.tsv</code> and the <code>Kazama</code> column in <code>krm_ndl.tsv</code>? Please also include the following mapping:</p>
+<ul>
+<li>&ldquo;仏上&rdquo; → &ldquo;K01&rdquo;</li>
+<li>&ldquo;仏中&rdquo; → &ldquo;K02&rdquo;</li>
+<li>&ldquo;仏下本&rdquo; → &ldquo;K03&rdquo;</li>
+<li>&ldquo;仏下末&rdquo; → &ldquo;K04&rdquo;</li>
+<li>&ldquo;法上&rdquo; → &ldquo;K05&rdquo;</li>
+<li>&ldquo;法中&rdquo; → &ldquo;K06&rdquo;</li>
+<li>&ldquo;法下&rdquo; → &ldquo;K07&rdquo;</li>
+<li>&ldquo;僧上&rdquo; → &ldquo;K08&rdquo;</li>
+<li>&ldquo;僧中&rdquo; → &ldquo;K09&rdquo;</li>
+<li>&ldquo;僧下&rdquo; → &ldquo;K10&rdquo;</li>
+</ul>
+<p>Here are the sample data for the files:</p>
+<h4 id="sample-krm_maintsv">
+  Sample <code>krm_main.tsv</code>:
+  <a class="anchor" href="#sample-krm_maintsv">#</a>
+</h4>
+<table>
+  <thead>
+      <tr>
+          <th>entry_id</th>
+          <th>hanzi_id</th>
+          <th>kazama_location</th>
+          <th>tenri_location</th>
+          <th>volume_name</th>
+          <th>radical_name</th>
+          <th>volume_radical_index</th>
+          <th>hanzi_entry</th>
+          <th>original_entry</th>
+          <th>definition</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>F00001</td>
+          <td>S00001</td>
+          <td>K01001310</td>
+          <td>Ta023310</td>
+          <td>仏上</td>
+          <td>人</td>
+          <td>v1#1</td>
+          <td>人</td>
+          <td>〇</td>
+          <td>音仁（LV）「ニン」　ヒト（HL）　ワレ（LL）　サネ　マホル　ユク</td>
+      </tr>
+      <tr>
+          <td>F00002</td>
+          <td>S00002</td>
+          <td>K01001331</td>
+          <td>Ta023331</td>
+          <td>仏上</td>
+          <td>人</td>
+          <td>v1#1</td>
+          <td>一／人</td>
+          <td>〇／〇</td>
+          <td>ヒトリ（LH_）</td>
+      </tr>
+      <tr>
+          <td>F00003</td>
+          <td>S00004</td>
+          <td>K01001341</td>
+          <td>Ta023341</td>
+          <td>仏上</td>
+          <td>人</td>
+          <td>v1#1</td>
+          <td>二／人</td>
+          <td>〇／〇</td>
+          <td>フタリ（HHL）</td>
+      </tr>
+  </tbody>
+</table>
+<h4 id="sample-krm_ndltsv">
+  Sample <code>krm_ndl.tsv</code>:
+  <a class="anchor" href="#sample-krm_ndltsv">#</a>
+</h4>
+<table>
+  <thead>
+      <tr>
+          <th>Book</th>
+          <th>Radical</th>
+          <th>Kazama</th>
+          <th>Tenri</th>
+          <th>NDL_url</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>仏上</td>
+          <td>人</td>
+          <td>1</td>
+          <td>23</td>
+          <td><a href="https://dl.ndl.go.jp/info:ndljp/pid/2586891/6">https://dl.ndl.go.jp/info:ndljp/pid/2586891/6</a></td>
+      </tr>
+      <tr>
+          <td>仏上</td>
+          <td>人</td>
+          <td>2</td>
+          <td>24</td>
+          <td><a href="https://dl.ndl.go.jp/info:ndljp/pid/2586891/7">https://dl.ndl.go.jp/info:ndljp/pid/2586891/7</a></td>
+      </tr>
+      <tr>
+          <td>仏上</td>
+          <td>人</td>
+          <td>3</td>
+          <td>25</td>
+          <td><a href="https://dl.ndl.go.jp/info:ndljp/pid/2586891/7">https://dl.ndl.go.jp/info:ndljp/pid/2586891/7</a></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="answers">
+  Answers
+  <a class="anchor" href="#answers">#</a>
+</h3>
+<p>To join the <code>krm_main.tsv</code> and <code>krm_ndl.tsv</code> files in Excel using the <code>kazama_location</code> column in <code>krm_main.tsv</code> and the <code>Kazama</code> column in <code>krm_ndl.tsv</code>, follow these steps:</p>
+<ol>
+<li>
+<p><strong>Prepare the Data:</strong></p>
+<ul>
+<li>Import both the <code>krm_main.tsv</code> and <code>krm_ndl.tsv</code> files into Excel as separate sheets. Name them <code>krm_main</code> and <code>krm_ndl</code>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Create a Mapping Table:</strong></p>
+<ul>
+<li>Create a new sheet (for example, named &ldquo;Mapping&rdquo;) to include the mapping between <code>kazama_location</code> and <code>Kazama</code> codes. Use the following mapping:</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th>kazama_location</th>
+          <th>Kazama</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>仏上</td>
+          <td>K01</td>
+      </tr>
+      <tr>
+          <td>仏中</td>
+          <td>K02</td>
+      </tr>
+      <tr>
+          <td>仏下本</td>
+          <td>K03</td>
+      </tr>
+      <tr>
+          <td>仏下末</td>
+          <td>K04</td>
+      </tr>
+      <tr>
+          <td>法上</td>
+          <td>K05</td>
+      </tr>
+      <tr>
+          <td>法中</td>
+          <td>K06</td>
+      </tr>
+      <tr>
+          <td>法下</td>
+          <td>K07</td>
+      </tr>
+      <tr>
+          <td>僧上</td>
+          <td>K08</td>
+      </tr>
+      <tr>
+          <td>僧中</td>
+          <td>K09</td>
+      </tr>
+      <tr>
+          <td>僧下</td>
+          <td>K10</td>
+      </tr>
+  </tbody>
+</table>
+</li>
+<li>
+<p><strong>Lookup the Kazama Code:</strong></p>
+<ul>
+<li>In the <code>krm_main</code> sheet, add a new column (e.g., &ldquo;Kazama Code&rdquo;).</li>
+<li>Use the <code>VLOOKUP</code> function to lookup the value in <code>kazama_location</code> and return the corresponding <code>Kazama</code> code from the &ldquo;Mapping&rdquo; sheet.</li>
+</ul>
+<p>Enter the following formula in the new column (e.g., G2):</p>
+<pre tabindex="0"><code>=VLOOKUP(D2, Mapping!$A$2:$B$11, 2, FALSE)
+</code></pre><ul>
+<li><code>D2</code> is the cell in the <code>kazama_location</code> column in the <code>krm_main</code> sheet.</li>
+<li><code>Mapping!$A$2:$B$11</code> refers to the range in the &ldquo;Mapping&rdquo; sheet that contains the <code>kazama_location</code> and <code>Kazama</code> values.</li>
+</ul>
+</li>
+<li>
+<p><strong>Join the Data:</strong></p>
+<ul>
+<li>Use <code>VLOOKUP</code> again to join <code>krm_main</code> and <code>krm_ndl</code> based on the <code>Kazama</code> code.</li>
+<li>For example, in the <code>krm_main</code> sheet, use this formula to retrieve the <code>NDL_url</code> from the <code>krm_ndl</code> sheet:</li>
+</ul>
+<pre tabindex="0"><code>=VLOOKUP(G2, krm_ndl!$C$2:$E$100, 3, FALSE)
+</code></pre><ul>
+<li><code>G2</code> is the &ldquo;Kazama Code&rdquo; column in the <code>krm_main</code> sheet.</li>
+<li><code>krm_ndl!$C$2:$E$100</code> refers to the range in the <code>krm_ndl</code> sheet that includes the <code>Kazama</code> and <code>NDL_url</code> columns.</li>
+</ul>
+</li>
+</ol>
+<h3 id="summary">
+  Summary
+  <a class="anchor" href="#summary">#</a>
+</h3>
+<p>With this approach, you can:</p>
+<ul>
+<li>Create a mapping table between <code>kazama_location</code> and <code>Kazama</code> codes.</li>
+<li>Use <code>VLOOKUP</code> to join <code>krm_main</code> and <code>krm_ndl</code> based on the <code>Kazama</code> code.</li>
+</ul>
+<p>This method allows you to efficiently join the data using the mapping and Excel functions.</p>
 </article>
  
       
@@ -742,7 +975,17 @@ https://github.com/alex-shpak/hugo-book
       <div class="book-toc-content">
         
   
-<nav id="TableOfContents"></nav>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#integration-with-krm_main">Integration with krm_main</a>
+      <ul>
+        <li><a href="#questions">Questions</a></li>
+        <li><a href="#answers">Answers</a></li>
+        <li><a href="#summary">Summary</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
 
  

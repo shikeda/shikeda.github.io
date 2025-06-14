@@ -158,6 +158,7 @@ This section discusses frequently used **`Abbreviated Characters`** (略字, *ry
 8.  牜 → 物 (*butsu*, *mono*)
 9.  类 → 類 (*rui*)
 10. 欤 → 歟 (*yo*, *ka*)
+11. 乚　→　訓 (*kun*)
 
 Among these, examples 1 through 4 are illustrated in the prefatory notes (凡例, *hanrei*) of the *Myōgishō* in a section explaining "注中多略用片" (meaning "in the glosses, abbreviated forms, often single components of characters [like radicals or katakana], are frequently used").
 
@@ -172,6 +173,7 @@ Example 9 (类 for 類) is used in **`Entries`** derived from category names in 
 
 Example 10 (欤 for 歟) is used in notes expressing doubt or questioning the correctness of characters or phrases (these are considered types of editorial notes or *ango*).
 
+Example 11, '乚' (for '訓' *kun*), is used in the context of **`Japanese Native Readings (*wakun*)`**. Examples from the transcribed data include: the gloss `訓ヱ` for the **`Headword`** '畫'; `凡訓カラスヘミ` for '蚖'; `一訓コカヒス` for '蠶'; and `訓イクサ` for '師'.
 
 ### `Variant Characters` (*itaiji*) (異体字)
 
@@ -455,9 +457,9 @@ A compiler's decipherment note (解讀注記, *jiědú zhùjì* in Chinese) may 
 
 For this example, the following content would be recorded in the `remarks` column (as a **`Compiler's Remark`**):
 
-```
-Masamune's Index, under 'オホ（-ヒ）チイル', notes: "'ホ（-ヒ）' is a mark indicating 'ホ' was deleted. Should it be 'オチイル'?" Kusakawa's *Wakun Shūsei* records 'オホ' and 'チイル' separately. Mochizuki's *Wakun Shūsei* records 'オチイル'. Ikeda's note: Follow Masamune and Mochizuki.
-```
+
+- `remarks`: Masamune's Index, under 'オホ（-ヒ）チイル', notes: "'ホ（-ヒ）' is a mark indicating 'ホ' was deleted. Should it be 'オチイル'?" Kusakawa's *Wakun Shūsei* records 'オホ' and 'チイル' separately. Mochizuki's *Wakun Shūsei* records 'オチイル'. Ikeda's note: Follow Masamune and Mochizuki.
+
 
 **`Fanqie` Spellings within `Headwords`**
 
