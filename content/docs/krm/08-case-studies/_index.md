@@ -21,12 +21,12 @@ bookCollapseSection: true
 事例研究として次のトピックを取り上げる。順次、内容を追加してゆく予定である。
 
 
-1. [和訓「ウゴク」の調査](/docs/notes/krm-main/case-study/1-ugoku/)　
-2. [和訓「ミル」の調査](/docs/notes/krm-main/case-study/2-miru/)　
-3. [和訓の使用頻度](/docs/notes/krm-main/case-study/3-wakun-uf/)　
-4. [同仮名異語の区別](/docs/notes/krm-main/case-study/4-kana-split/)　
-5. [DHSJRとの連携](/docs/notes/krm-main/case-study/5-dhsjr/)
-6. [準備中](/docs/notes/krm-main/case-study/6/)
+1. [和訓「ウゴク」の調査](/docs/krm/08-case-studies/08-01-ugoku/)　
+2. [和訓「ミル」の調査](/docs/krm/08-case-studies/08-02-miru/)　
+3. [和訓の使用頻度](/docs/krm/08-case-studies/08-03-wakun-uf)　
+4. [同仮名異語の区別](/docs/krm/08-case-studies/08-04-kana-split/)　
+5. [DDHSJRとの連携](/docs/krm/08-case-studies/08-05-dhsjr/)
+6. [人文系研究者のための「AI対話型」文献分析入門 〜観智院本類聚名義抄を例に〜](/docs/krm/08-case-studies/08-06-getting_started_ai_humanities)
 
 
 # Historical Research on Japanese: A Case Study of the Kanchi-in Manuscript of the *Ruiju Myōgishō*
@@ -44,9 +44,9 @@ The following topics will be addressed as case studies. We plan to add content s
 * For the phonetic notations, I have provided the Japanese terms along with their English equivalents where applicable, for clarity.
 
 
-1. [Investigating Wakun "Ugoku"](/docs/notes/krm-main/case-study/1-ugoku/)　
-2. [Investigating Wakun "Miru"](/docs/notes/krm-main/case-study/2-miru/)　
-3. [Wakun Usage Frequency](/docs/notes/krm-main/case-study/3-wakun-uf/)　
-4. [Homograph Distinction](/docs/notes/krm-main/case-study/4-kana-split/)　
-5. [DHSJR Collaboration](/docs/notes/krm-main/case-study/5-dhsjr/)
-6. [Under preparation](/docs/notes/krm-main/case-study/6/)
+1. [Investigating Wakun "Ugoku"](/docs/krm/08-case-studies/08-01-ugoku)　
+2. [Investigating Wakun "Miru"](/docs/krm/08-case-studies/08-02-miru/)　
+3. [Wakun Usage Frequency](/docs/krm/08-case-studies/08-03-wakun-uf)　
+4. [Homograph Distinction](/docs/krm/08-case-studies/08-04-kana-split/)　
+5. [DHSJR Collaboration](/docs/krm/08-case-studies/08-05-dhsjr/)
+6. [Getting Started with Conversational AI for Humanities Research](/docs/krm/08-case-studies/08-06-getting_started_ai_humanities)
