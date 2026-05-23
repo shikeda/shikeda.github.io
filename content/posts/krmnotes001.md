@@ -1,18 +1,16 @@
 ---
-title = "KRM本文翻刻のサイトを開設"
-description = ""
-tags = [
-    "名義抄",
-    "観智院本",
-    "Hugo",
-    "GitHub",
-]
-date = "2022-01-06"
-categories = [
-    "KRM",
-    "HDIC",
-]
-menu = "main"
+title: "KRM本文翻刻のサイトを開設"
+description: ""
+tags:
+  - "名義抄"
+  - "観智院本"
+  - "Hugo"
+  - "GitHub"
+date: "2022-01-06"
+categories:
+  - "KRM"
+  - "HDIC"
+menu: "main"
 ---
 平安時代漢字字書総合データベース(HDIC)は
 2014年にスタートしたが、代表者の
