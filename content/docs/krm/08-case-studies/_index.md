@@ -1,5 +1,4 @@
 ---
-bookCollapseSection: true
 weight: 50
 title: 事例研究
 # bookFlatSection: false
