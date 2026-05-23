@@ -3,9 +3,8 @@ name: Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - master  # masterブランチへのpushで自動実行
-
-  workflow_dispatch:  # 手動実行も可能にする
+      - main
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -24,7 +23,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.147.0  # ← 自分の hugo version に合わせる
+      HUGO_VERSION: 0.152.0  # ← 確定
     steps:
       - name: Install Hugo CLI
         run: |
@@ -35,7 +34,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive  # テーマをsubmoduleで管理している場合
+          submodules: recursive
           fetch-depth: 0
 
       - name: Setup Pages
@@ -53,7 +52,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public  # ← Hugoのデフォルト出力先
+          path: ./public
 
   deploy:
     environment:
