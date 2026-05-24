@@ -1,48 +1,22 @@
 baseURL = 'https://shikeda.github.io/'
 title = 'HDIC project'
-# languageCode = 'ja' # 不要（defaultContentLanguageで指定するため）
 theme = "hugo-book"
-
 hasCJKLanguage = true
-# metaDataFormat = "yaml" # YAMLはデフォルトなので省略可。明示的に残すのはOK。
+cleanDestinationDir = true
 
-# publishDir = "docs" # GitHub Pagesで docs ディレクトリを使う場合の設定
-cleanDestinationDir = true # ビルド前に古いファイルを自動削除
+defaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = false
+enableMissingTranslationPlaceholders = false
 
-
-
-# ====== 多言語設定 ======
 [languages]
   [languages.ja]
     languageName = "Japanese"
-    # その他のjaに関する設定（例: weight, paramsなど）
-
+    weight = 1
   [languages.en]
     languageName = "English"
-    # その他のenに関する設定（例: weight, paramsなど）
-    # weight = 1 # メニュー表示順などで使うことがあります
-
-# デフォルト言語の指定（[languages] の後にまとめて書くのが一般的）
-defaultContentLanguage = "ja"
-defaultContentLanguageInSubdir = false # デフォルト言語のコンテンツをサブディレクトリに入れない（ルートに配置する）
-
-# 翻訳が見つからない場合のプレースホルダ表示設定
-enableMissingTranslationPlaceholders = false
+    weight = 2
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
-# ====== 各種設定 (Themes, Modules, etc.) ======
-# 必要に応じて、テーマ固有の設定やモジュールの設定などをここに追加します。
-# [params]
-#    BookMermaid = true
-# [markup.goldmark.renderer]
-#  unsafe = true
-#   someThemeSetting = "value"
-#
-# [module]
-#   [module.hugoVersion]
-#     extended = true
-#     min = "0.XX.0"
