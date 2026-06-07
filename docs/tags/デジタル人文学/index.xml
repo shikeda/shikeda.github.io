@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>デジタル人文学 on HDIC project</title>
+    <link>https://shikeda.github.io/tags/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E4%BA%BA%E6%96%87%E5%AD%A6/</link>
+    <description>Recent content in デジタル人文学 on HDIC project</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 25 May 2026 07:22:52 +0900</lastBuildDate>
+    <atom:link href="https://shikeda.github.io/tags/%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E4%BA%BA%E6%96%87%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>宋本廣韻データの利用の仕方</title>
+      <link>https://shikeda.github.io/posts/how-to-use-song-edition-guangyun/</link>
+      <pubDate>Mon, 25 May 2026 07:22:52 +0900</pubDate>
+      <guid>https://shikeda.github.io/posts/how-to-use-song-edition-guangyun/</guid>
+      <description>漢字データベースプロジェクトで公開されている「宋本廣韻データ」の入手方法から、GitHubからのデータダウンロード、形成AI（Claude）を活用してXMLデータをPythonスクリプトで解析し、研究に便利なJSON形式の辞書データへと一気に構造化する実践的な手順を紹介します。</description>
+    </item>
+  </channel>
+</rss>

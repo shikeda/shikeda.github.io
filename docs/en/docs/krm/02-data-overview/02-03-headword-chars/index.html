@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  krm_headword_chars
+  #
+
+
+  Overview and file formats
+  #
+
+Headwords in the Myōgishō can consist of single Chinese characters or multiple Chinese characters (multi-character compounds). The krm_headword_chars data file provides a list of all constituent characters that form these Headwords from the Myōgishō. The characters are ordered according to the sequence of Entries (items) in the Myōgishō and then by the order of appearance of characters within each Headword.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://shikeda.github.io/en/docs/krm/02-data-overview/02-03-headword-chars/">
+  <meta property="og:site_name" content="HDIC project">
+  <meta property="og:title" content="krm_headword_chars">
+  <meta property="og:description" content="krm_headword_chars # Overview and file formats # Headwords in the Myōgishō can consist of single Chinese characters or multiple Chinese characters (multi-character compounds). The krm_headword_chars data file provides a list of all constituent characters that form these Headwords from the Myōgishō. The characters are ordered according to the sequence of Entries (items) in the Myōgishō and then by the order of appearance of characters within each Headword.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+<title>krm_headword_chars | HDIC project</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+  <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/02-data-overview/02-03-headword-chars/" title="krm_headword_chars">
+<link rel="stylesheet" href="/book.min.4d3bb7566f5bf9515e6c4a4edd9e9b459cdd54401eac7617ee90fa7a70775515.css" integrity="sha256-TTu3Vm9b&#43;VFebEpO3Z6bRZzdVEAerHYX7pD6enB3VRU=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.a8e61b693da99d4420cf6a36b1c1e116715d31d1a0fe85ec2a0b5079608ccad4.js" integrity="sha256-qOYbaT2pnUQgz2o2scHhFnFdMdGg/oXsKgtQeWCMytQ=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/en/"><span>HDIC project</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="https://shikeda.github.io/docs/krm/02-data-overview/02-03-headword-chars/">
+          Japanese
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/" class="">Ruiju Myogisho</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e7dbf83a24df60860d23e02b56f87423" class="toggle"  />
+    <label for="section-e7dbf83a24df60860d23e02b56f87423" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/01-introduction/" class="">Overview</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/01-introduction/01-01-introduction/" class="">Overview of the Ruiju Myōgishō</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9f632e0a7ae621e7f83ef7ed3353234b" class="toggle" checked />
+    <label for="section-9f632e0a7ae621e7f83ef7ed3353234b" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/" class="">Overview of Published Data</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-01-main/" class="">krm_main</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-02-notes/" class="">krm_notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-03-headword-chars/" class=" active">krm_headword_chars</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-04-wakun/" class="">krm_wakun</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-05-definitions/" class="">krm_definitions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-06-pronunciations/" class="">krm_pronunciations</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-07-ndl/" class="">krm_ndl</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-077a59e45e0113617025bd14f45c5101" class="toggle"  />
+    <label for="section-077a59e45e0113617025bd14f45c5101" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/" class="">Entry Data Model</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/" class="">Entry Data Structure</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-02-types-of-entries/" class="">Types of Entries</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-03-concepts-char/" class="">Concepts Related to Character Notation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/" class="">Examples of Entry Data Files</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ddf1480ded40be9d667f83a08b5df0a0" class="toggle"  />
+    <label for="section-ddf1480ded40be9d667f83a08b5df0a0" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/04-entry-input/" class="">Input of Entry Data</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-01-id/" class="">Headwords, Entry Structure, and ID System</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-02-char/" class="">Character Encoding and Representation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-03-handling/" class="">Handling Issues in Transcription, Notation, and Annotation</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5ecfab0c3c8eab72f964e397ca85b0c4" class="toggle"  />
+    <label for="section-5ecfab0c3c8eab72f964e397ca85b0c4" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/" class="">Basic Policy for Annotation Creation</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-01-basic-policy/" class="">Basic Policy and Subjects of Analysis for Annotation Creation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-02-headword-count/" class="">Calculation of Headword Character Count</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-03-jitaichu-formats/" class="">Types and Notation Formats of Character Form Notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-04-onchu-problems/" class="">Types and Decipherment Problems of Pronunciation Notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-05-gichu-quantity/" class="">Types and Quantity of Meaning Notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-06-wakun-materials/" class="">Basic Materials for Wakun Annotation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-07-annotation-examples/" class="">Concrete Examples of Annotation Description</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-469a52e8d9b96942c01c6f5c30502e7a" class="toggle"  />
+    <label for="section-469a52e8d9b96942c01c6f5c30502e7a" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/" class="">Typesetting Configuration for Transcriptions and Annotations</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-01-hanazono-mincho/" class="">Setting up Hanazono Mincho</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-02-glyphwiki/" class="">Setting up GlyphWiki</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-03-sfkanbun-sty/" class="">Setting up sfkanbun.sty</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-04-vscode-texlive/" class="">A Memorandum on LuaTeX Typesetting for Old Dictionaries and Kunten Materials</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-05-online-tools/" class="">Online Tools</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+
+    <div style="text-align: right; padding: 1rem;">
+      
+
+  
+    <a href="/docs/krm/02-data-overview/02-03-headword-chars/">日本語</a>
+  
+
+
+    </div>
+
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>krm_headword_chars</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview-and-file-formats">Overview and file formats</a></li>
+    <li><a href="#description-of-each-column">Description of each column</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="krm_headword_chars">
+  krm_headword_chars
+  <a class="anchor" href="#krm_headword_chars">#</a>
+</h1>
+<h2 id="overview-and-file-formats">
+  Overview and file formats
+  <a class="anchor" href="#overview-and-file-formats">#</a>
+</h2>
+<p><strong><code>Headwords</code></strong> in the <em>Myōgishō</em> can consist of single <strong>Chinese characters</strong> or multiple <strong>Chinese characters</strong> (multi-character compounds). The <code>krm_headword_chars</code> data file provides a list of all <strong>constituent characters that form these <code>Headwords</code></strong> from the <em>Myōgishō</em>. The characters are ordered according to the sequence of <strong><code>Entries</code></strong> (items) in the <em>Myōgishō</em> and then by the order of appearance of characters within each <strong><code>Headword</code></strong>.</p>
+<p>In the <em>Myōgishō</em> database, the primary data file <code>krm_main</code>, the <code>krm_notes</code> file (containing data for <strong><code>Compiler's Remarks</code></strong>), and the <code>krm_wakun</code> file (<strong><code>Japanese Native Reading (*wakun*)</code></strong> data) are all structured on an <strong><code>Entry</code></strong>-by-<strong><code>Entry</code></strong> basis. Consequently, for <strong><code>Headwords</code></strong> composed of multiple <strong>Chinese characters</strong>, any character subsequent to the first cannot be directly referenced from these particular data files.</p>
+<p>To search for <strong><code>Headwords</code></strong> from the <em>Myōgishō</em> character by character, display their original manuscript images, or perform analyses at the individual <strong>Chinese character</strong> level, a complete list of all constituent characters of the <strong><code>Headwords</code></strong>, including those from the second character onwards in multi-character compounds, is necessary.</p>
+<p>The <code>krm_headword_chars</code> data file was created for this purpose. This data is provided in TSV and JSON formats. Each row (or record) corresponds to a single constituent character of a <strong><code>Headword</code></strong> and includes information such as: the sequential ID of the <strong><code>Headword</code></strong> (single or multi-character) in the <em>Myōgishō</em> to which the constituent character belongs (<code>hanzi_id</code>); the ID of the <em>Myōgishō</em> <strong><code>Entry</code></strong> to which this character&rsquo;s <strong><code>Headword</code></strong> belongs (<code>entry_id</code>); the order of the character within its <strong><code>Headword</code></strong> (<code>character_order</code>); the character itself (<code>constituent_char</code>); the file name of the individually cropped image for the character (<code>img_file_name</code>); and location information for that character in both the Kazama and Tenri editions (<code>kazama_location_id</code>, <code>tenri_location_id</code>). This enables information access at the individual character level while allowing linkage with <strong><code>Entry</code></strong>-based data files such as <code>krm_main</code>.</p>
+<h2 id="description-of-each-column">
+  Description of each column
+  <a class="anchor" href="#description-of-each-column">#</a>
+</h2>
+<p>The column names and their descriptions for <code>krm_headword_chars</code> are as follows:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Column Name</th>
+          <th style="text-align: left">English Explanation</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">hanzi_id</td>
+          <td style="text-align: left">A sequential ID assigned to each <strong><code>Headword</code></strong> (whether single or multi-character) in the order of its appearance in the <em>Myōgishō</em>. It consists of a 5-digit numeric ID starting with &lsquo;S&rsquo;.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">entry_id</td>
+          <td style="text-align: left">The ID of the <strong><code>Entry</code></strong> (from <code>krm_main</code>) to which the <strong><code>Headword</code></strong> (containing this constituent character) belongs. This ID is a 5-digit numeric value starting with &lsquo;F&rsquo;. For some newly added <strong><code>Entries</code></strong>, a &lsquo;b&rsquo; suffix is appended.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">constituent_char</td>
+          <td style="text-align: left">The constituent <strong>Chinese character</strong> itself. Abbreviation marks (ー) and iteration marks (〻) are converted to the actual characters they represent. Collated <strong>Chinese characters</strong> are, in principle, Kangxi Dictionary forms; the handling of Unicode new character forms (common-use forms, popular variants) is specified separately. For detailed collation notes, refer to <code>krm_notes</code> (for <strong><code>Compiler's Remarks</code></strong> on collation).</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">character_order</td>
+          <td style="text-align: left">Indicates the numerical order of appearance of the character within its <strong><code>Headword</code></strong>.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">kazama_location_id</td>
+          <td style="text-align: left">An ID indicating the location of this constituent character in the Kazama Edition: K + Volume (2 digits) + Page (3 digits) + Line (1 digit) + Segment (1 digit) + Character Order in Segment (1 digit).</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">tenri_location_id</td>
+          <td style="text-align: left">An ID indicating the location of this constituent character in the Tenri Edition: T + Volume (a/b/c) + Page (3 digits) + Line (1 digit) + Segment (1 digit) + Character Order in Segment (1 digit).</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">img_file_name</td>
+          <td style="text-align: left">File name of the image for the constituent <strong><code>Headword</code></strong> character (including the .jpg extension). The main part of the file name consists of a 7-digit number for images from Volume 1 to Volume 9, and an 8-digit number for images from Volume 10. For 7-digit numbers, the first digit indicates the volume number; for 8-digit numbers, the first two digits indicate Volume 10. The last 6 digits are based on the order of appearance, assigned according to a unique internal rule. Detailed documentation for this naming convention is not available as the work was completed over two decades ago. Null if no image is available.</td>
+      </tr>
+  </tbody>
+</table>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+
+  
+    <a href="/docs/krm/02-data-overview/02-03-headword-chars/">日本語</a>
+  
+
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview-and-file-formats">Overview and file formats</a></li>
+    <li><a href="#description-of-each-column">Description of each column</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

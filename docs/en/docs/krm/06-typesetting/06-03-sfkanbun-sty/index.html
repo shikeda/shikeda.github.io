@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  Setting up sfkanbun.sty
+  #
+
+The style file for kunten materials, kunten2e.sty, can be used with upLaTeX but is not compatible with LuaLaTeX. Some existing document files were created using this kunten2e.sty style file.
+The sfkanbun package (sfkanbun.sty for Kanbun texts) originates from the work on Typesetting Kanbun with Kundoku Marks (漢文の訓点文の組版), featured in &ldquo;Introduction to Vertical and Horizontal Document Composition&rdquo; (入門・縦横文書術) by Fujita Shinsaku. A modified version of this style file, adapted for LuaLaTeX compatibility and renamed sfkanbun-lua.sty, has been made available at https://github.com/shikeda/rose.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://shikeda.github.io/en/docs/krm/06-typesetting/06-03-sfkanbun-sty/">
+  <meta property="og:site_name" content="HDIC project">
+  <meta property="og:title" content="Setting up sfkanbun.sty">
+  <meta property="og:description" content="Setting up sfkanbun.sty # The style file for kunten materials, kunten2e.sty, can be used with upLaTeX but is not compatible with LuaLaTeX. Some existing document files were created using this kunten2e.sty style file.
+The sfkanbun package (sfkanbun.sty for Kanbun texts) originates from the work on Typesetting Kanbun with Kundoku Marks (漢文の訓点文の組版), featured in “Introduction to Vertical and Horizontal Document Composition” (入門・縦横文書術) by Fujita Shinsaku. A modified version of this style file, adapted for LuaLaTeX compatibility and renamed sfkanbun-lua.sty, has been made available at https://github.com/shikeda/rose.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+<title>Setting up sfkanbun.sty | HDIC project</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+  <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/06-typesetting/06-03-sfkanbun-sty/" title="sfkanbun.styの設定">
+<link rel="stylesheet" href="/book.min.4d3bb7566f5bf9515e6c4a4edd9e9b459cdd54401eac7617ee90fa7a70775515.css" integrity="sha256-TTu3Vm9b&#43;VFebEpO3Z6bRZzdVEAerHYX7pD6enB3VRU=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.a8e61b693da99d4420cf6a36b1c1e116715d31d1a0fe85ec2a0b5079608ccad4.js" integrity="sha256-qOYbaT2pnUQgz2o2scHhFnFdMdGg/oXsKgtQeWCMytQ=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/en/"><span>HDIC project</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="https://shikeda.github.io/docs/krm/06-typesetting/06-03-sfkanbun-sty/">
+          Japanese
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/" class="">Ruiju Myogisho</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e7dbf83a24df60860d23e02b56f87423" class="toggle"  />
+    <label for="section-e7dbf83a24df60860d23e02b56f87423" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/01-introduction/" class="">Overview</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/01-introduction/01-01-introduction/" class="">Overview of the Ruiju Myōgishō</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9f632e0a7ae621e7f83ef7ed3353234b" class="toggle"  />
+    <label for="section-9f632e0a7ae621e7f83ef7ed3353234b" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/" class="">Overview of Published Data</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-01-main/" class="">krm_main</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-02-notes/" class="">krm_notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-03-headword-chars/" class="">krm_headword_chars</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-04-wakun/" class="">krm_wakun</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-05-definitions/" class="">krm_definitions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-06-pronunciations/" class="">krm_pronunciations</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-07-ndl/" class="">krm_ndl</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-077a59e45e0113617025bd14f45c5101" class="toggle"  />
+    <label for="section-077a59e45e0113617025bd14f45c5101" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/" class="">Entry Data Model</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/" class="">Entry Data Structure</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-02-types-of-entries/" class="">Types of Entries</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-03-concepts-char/" class="">Concepts Related to Character Notation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/" class="">Examples of Entry Data Files</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ddf1480ded40be9d667f83a08b5df0a0" class="toggle"  />
+    <label for="section-ddf1480ded40be9d667f83a08b5df0a0" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/04-entry-input/" class="">Input of Entry Data</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-01-id/" class="">Headwords, Entry Structure, and ID System</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-02-char/" class="">Character Encoding and Representation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-03-handling/" class="">Handling Issues in Transcription, Notation, and Annotation</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5ecfab0c3c8eab72f964e397ca85b0c4" class="toggle"  />
+    <label for="section-5ecfab0c3c8eab72f964e397ca85b0c4" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/" class="">Basic Policy for Annotation Creation</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-01-basic-policy/" class="">Basic Policy and Subjects of Analysis for Annotation Creation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-02-headword-count/" class="">Calculation of Headword Character Count</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-03-jitaichu-formats/" class="">Types and Notation Formats of Character Form Notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-04-onchu-problems/" class="">Types and Decipherment Problems of Pronunciation Notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-05-gichu-quantity/" class="">Types and Quantity of Meaning Notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-06-wakun-materials/" class="">Basic Materials for Wakun Annotation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-07-annotation-examples/" class="">Concrete Examples of Annotation Description</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-469a52e8d9b96942c01c6f5c30502e7a" class="toggle" checked />
+    <label for="section-469a52e8d9b96942c01c6f5c30502e7a" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/" class="">Typesetting Configuration for Transcriptions and Annotations</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-01-hanazono-mincho/" class="">Setting up Hanazono Mincho</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-02-glyphwiki/" class="">Setting up GlyphWiki</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-03-sfkanbun-sty/" class=" active">Setting up sfkanbun.sty</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-04-vscode-texlive/" class="">A Memorandum on LuaTeX Typesetting for Old Dictionaries and Kunten Materials</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-05-online-tools/" class="">Online Tools</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+
+    <div style="text-align: right; padding: 1rem;">
+      
+
+  
+    <a href="/docs/krm/06-typesetting/06-03-sfkanbun-sty/">日本語</a>
+  
+
+
+    </div>
+
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Setting up sfkanbun.sty</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#sōgyō-双行---double-line-annotations">Sōgyō (双行 - Double-Line Annotations)</a></li>
+    <li><a href="#nested-double-line-annotations-副双行-fukusōgyō">Nested Double-Line Annotations (副双行, <em>Fukusōgyō</em>)</a></li>
+    <li><a href="#okurigana-and-kaeriten-marks-送り仮名返り点">Okurigana and Kaeriten Marks (送り仮名、返り点)</a></li>
+    <li><a href="#ruby-ルビ">Ruby (ルビ)</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="setting-up-sfkanbunsty">
+  Setting up <code>sfkanbun.sty</code>
+  <a class="anchor" href="#setting-up-sfkanbunsty">#</a>
+</h1>
+<p>The style file for <em>kunten</em> materials, <code>kunten2e.sty</code>, can be used with upLaTeX but is not compatible with LuaLaTeX. Some existing document files were created using this <code>kunten2e.sty</code> style file.</p>
+<p>The sfkanbun package (<code>sfkanbun.sty</code> for Kanbun texts) originates from the work on <a href="http://xymtex.com/fujitas/kanbun/kanbunex.html">Typesetting Kanbun with <em>Kundoku</em> Marks (漢文の訓点文の組版), featured in &ldquo;Introduction to Vertical and Horizontal Document Composition&rdquo; (入門・縦横文書術) by Fujita Shinsaku</a>. A modified version of this style file, adapted for LuaLaTeX compatibility and renamed <code>sfkanbun-lua.sty</code>, has been made available at <a href="https://github.com/shikeda/rose">https://github.com/shikeda/rose</a>.</p>
+<p>Therefore, to minimize changes to existing TeX source files, frequently used macros in <code>kunten2e.sty</code> have been mapped to macros in <code>sfkanbun.sty</code> that provide equivalent functionality, or compatibility has been otherwise ensured.</p>
+<h2 id="sōgyō-双行---double-line-annotations">
+  Sōgyō (双行 - Double-Line Annotations)
+  <a class="anchor" href="#s%c5%8dgy%c5%8d-%e5%8f%8c%e8%a1%8c---double-line-annotations">#</a>
+</h2>
+<p><em>Sōgyō</em> (双行) refers to a type of <strong><code>Interlinear Note</code></strong> (割注, <em>warichū</em>), specifically one that is typically presented in two lines.</p>
+<p>In <code>kunten2e.sty</code>, this is input as follows:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl"><span class="k">\sougyou</span><span class="nb">{</span>right-hand line<span class="nb">}{</span>left-hand line<span class="nb">}</span>
+</span></span></code></pre></div><p><em>(In vertical text, the &ldquo;right-hand line&rdquo; is typically the first line of the two-line note, and the &ldquo;left-hand line&rdquo; is the second.)</em></p>
+<p>In <code>sfkanbun.sty</code>, the <code>\tagyobox</code> command (for multi-line interlinear notes) is used:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl"><span class="k">\tagyobox</span><span class="nb">{</span>item 1 <span class="k">\\</span> item 2 <span class="k">\\</span> ...<span class="nb">}</span>
+</span></span></code></pre></div><p>Since an <strong><code>Interlinear Note</code></strong> (<em>warichū</em>) often consists of just two lines (corresponding to &ldquo;item 1&rdquo; and &ldquo;item 2&rdquo; above), the following custom LaTeX command can be defined to simplify input for such cases:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl"><span class="k">\newcommand</span><span class="nb">{</span><span class="k">\sougyou</span><span class="nb">}</span>[2]<span class="nb">{</span><span class="k">\tagyobox</span><span class="nb">{</span>#1 <span class="k">\\</span> #2<span class="nb">}}</span>
+</span></span></code></pre></div><h2 id="nested-double-line-annotations-副双行-fukusōgyō">
+  Nested Double-Line Annotations (副双行, <em>Fukusōgyō</em>)
+  <a class="anchor" href="#nested-double-line-annotations-%e5%89%af%e5%8f%8c%e8%a1%8c-fukus%c5%8dgy%c5%8d">#</a>
+</h2>
+<p>A <em>fukusōgyō</em> (副双行) refers to creating an additional double-line annotation (<em>sōgyō</em>) within an existing <em>sōgyō</em> (double-line interlinear note).
+In <code>kunten2e.sty</code>, this is input as follows:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl"><span class="k">\hukusougyou</span><span class="nb">{</span>right-hand line<span class="nb">}{</span>left-hand line<span class="nb">}</span>
+</span></span></code></pre></div><p>This functionality can be achieved in <code>sfkanbun.sty</code> using its feature for nested multi-line interlinear notes (<code>\fukutagyobox</code>).</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl"><span class="k">\fukutagyobox</span><span class="nb">{</span>item 1 <span class="k">\\</span> item 2 <span class="k">\\</span> ...<span class="nb">}</span>
+</span></span></code></pre></div><p>Since a nested double-line annotation typically requires only two items (lines), the following custom LaTeX command can be defined to simplify input for such cases:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl"><span class="k">\newcommand</span><span class="nb">{</span><span class="k">\hukusougyou</span><span class="nb">}</span>[2]<span class="nb">{</span><span class="k">\fukutagyobox</span><span class="nb">{</span>#1 <span class="k">\\</span> #2<span class="nb">}}</span>
+</span></span></code></pre></div><h2 id="okurigana-and-kaeriten-marks-送り仮名返り点">
+  Okurigana and Kaeriten Marks (送り仮名、返り点)
+  <a class="anchor" href="#okurigana-and-kaeriten-marks-%e9%80%81%e3%82%8a%e4%bb%ae%e5%90%8d%e8%bf%94%e3%82%8a%e7%82%b9">#</a>
+</h2>
+<p>The <code>\kundoku</code> command from <code>sfkanbun.sty</code> is useful for typesetting <em>okurigana</em> (送り仮名, inflectional kana endings) and <em>kaeriten</em> (返り点, guiding marks for Japanese reading order of Kanbun). Its syntax is:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl"><span class="k">\kundoku</span><span class="na">[control_options]</span><span class="nb">{</span>base<span class="nb">_</span>character<span class="nb">}{</span>ruby<span class="nb">_</span>text<span class="nb">}{</span>okurigana<span class="nb">}{</span>kaeriten<span class="nb">_</span>mark<span class="nb">}</span>[shoulder<span class="nb">_</span>kaeriten<span class="nb">_</span>mark](punctuation<span class="nb">_</span>mark)
+</span></span></code></pre></div><p>The <code>(punctuation_mark)</code> argument is optional.</p>
+<h2 id="ruby-ルビ">
+  Ruby (ルビ)
+  <a class="anchor" href="#ruby-%e3%83%ab%e3%83%93">#</a>
+</h2>
+<p>Several macros are available for using ruby (ルビ, small phonetic glosses alongside characters). After experimentation, we decided to use <code>luatexja-ruby.sty</code>.</p>
+<p>The basic syntax is:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl"><span class="k">\ltjruby</span><span class="na">[⟨option⟩]</span><span class="nb">{</span>親|文|字<span class="nb">}{</span>おや|も|じ<span class="nb">}</span>
+</span></span></code></pre></div><p>In this example, the command specifies that the ruby text &lsquo;おや&rsquo; (<em>oya</em>) is to be applied to the base character &lsquo;親&rsquo;; &lsquo;も&rsquo; (<em>mo</em>) to &lsquo;文&rsquo;; and &lsquo;じ&rsquo; (<em>ji</em>) to &lsquo;字&rsquo;.</p>
+<p>An alias <code>\ruby</code> is also defined for this command.</p>
+<p>Although the exact circumstances are no longer recalled, ruby was previously applied using a custom command named <code>\ukun</code>. To avoid rewriting original files that used this command, <code>\ukun</code> has been (re)defined as follows:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-tex" data-lang="tex"><span class="line"><span class="cl"><span class="k">\newcommand</span><span class="nb">{</span><span class="k">\ukun</span><span class="nb">}</span>[2]<span class="nb">{</span><span class="k">\ltjruby</span><span class="nb">{</span>#1<span class="nb">}{</span>#2<span class="nb">}}</span>
+</span></span></code></pre></div><p>Alternatively, all instances of <code>\ukun</code> could be globally replaced with <code>\ruby</code>.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+
+  
+    <a href="/docs/krm/06-typesetting/06-03-sfkanbun-sty/">日本語</a>
+  
+
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#sōgyō-双行---double-line-annotations">Sōgyō (双行 - Double-Line Annotations)</a></li>
+    <li><a href="#nested-double-line-annotations-副双行-fukusōgyō">Nested Double-Line Annotations (副双行, <em>Fukusōgyō</em>)</a></li>
+    <li><a href="#okurigana-and-kaeriten-marks-送り仮名返り点">Okurigana and Kaeriten Marks (送り仮名、返り点)</a></li>
+    <li><a href="#ruby-ルビ">Ruby (ルビ)</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

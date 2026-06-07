@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  Basic Principles for Creating Annotations/Commentary
+  #
+
+The scholarly apparatus for the Myōgishō in this database includes elements such as Textual Collation (kōkan), Source Criticism (shutten kōshō, 出典考証), Review of Previous Scholarship (kenkyūshi seiri), Lexical Analysis (goshaku), and Additional Expositions (yosetsu). The content of each is explained as follows:">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://shikeda.github.io/en/docs/krm/05-annotation-policy/">
+  <meta property="og:site_name" content="HDIC project">
+  <meta property="og:title" content="Basic Policy for Annotation Creation">
+  <meta property="og:description" content="Basic Principles for Creating Annotations/Commentary # The scholarly apparatus for the Myōgishō in this database includes elements such as Textual Collation (kōkan), Source Criticism (shutten kōshō, 出典考証), Review of Previous Scholarship (kenkyūshi seiri), Lexical Analysis (goshaku), and Additional Expositions (yosetsu). The content of each is explained as follows:">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+<title>Basic Policy for Annotation Creation | HDIC project</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+  <link rel="alternate" hreflang="ja" href="https://shikeda.github.io/docs/krm/05-annotation-policy/" title="注釈データ入力の詳細">
+<link rel="stylesheet" href="/book.min.4d3bb7566f5bf9515e6c4a4edd9e9b459cdd54401eac7617ee90fa7a70775515.css" integrity="sha256-TTu3Vm9b&#43;VFebEpO3Z6bRZzdVEAerHYX7pD6enB3VRU=" crossorigin="anonymous">
+  <script defer src="/flexsearch.min.js"></script>
+  <script defer src="/en.search.min.a8e61b693da99d4420cf6a36b1c1e116715d31d1a0fe85ec2a0b5079608ccad4.js" integrity="sha256-qOYbaT2pnUQgz2o2scHhFnFdMdGg/oXsKgtQeWCMytQ=" crossorigin="anonymous"></script>
+<link rel="alternate" type="application/rss+xml" href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/index.xml" title="HDIC project" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/en/"><span>HDIC project</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="https://shikeda.github.io/docs/krm/05-annotation-policy/">
+          Japanese
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/" class="">Ruiju Myogisho</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-e7dbf83a24df60860d23e02b56f87423" class="toggle"  />
+    <label for="section-e7dbf83a24df60860d23e02b56f87423" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/01-introduction/" class="">Overview</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/01-introduction/01-01-introduction/" class="">Overview of the Ruiju Myōgishō</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-9f632e0a7ae621e7f83ef7ed3353234b" class="toggle"  />
+    <label for="section-9f632e0a7ae621e7f83ef7ed3353234b" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/" class="">Overview of Published Data</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-01-main/" class="">krm_main</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-02-notes/" class="">krm_notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-03-headword-chars/" class="">krm_headword_chars</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-04-wakun/" class="">krm_wakun</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-05-definitions/" class="">krm_definitions</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-06-pronunciations/" class="">krm_pronunciations</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/02-data-overview/02-07-ndl/" class="">krm_ndl</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-077a59e45e0113617025bd14f45c5101" class="toggle"  />
+    <label for="section-077a59e45e0113617025bd14f45c5101" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/" class="">Entry Data Model</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-01-data-structure/" class="">Entry Data Structure</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-02-types-of-entries/" class="">Types of Entries</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-03-concepts-char/" class="">Concepts Related to Character Notation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/03-entry-data-model/03-04-data-example/" class="">Examples of Entry Data Files</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-ddf1480ded40be9d667f83a08b5df0a0" class="toggle"  />
+    <label for="section-ddf1480ded40be9d667f83a08b5df0a0" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/04-entry-input/" class="">Input of Entry Data</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-01-id/" class="">Headwords, Entry Structure, and ID System</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-02-char/" class="">Character Encoding and Representation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/04-entry-input/04-03-handling/" class="">Handling Issues in Transcription, Notation, and Annotation</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-5ecfab0c3c8eab72f964e397ca85b0c4" class="toggle" checked />
+    <label for="section-5ecfab0c3c8eab72f964e397ca85b0c4" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/" class="active">Basic Policy for Annotation Creation</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-01-basic-policy/" class="">Basic Policy and Subjects of Analysis for Annotation Creation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-02-headword-count/" class="">Calculation of Headword Character Count</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-03-jitaichu-formats/" class="">Types and Notation Formats of Character Form Notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-04-onchu-problems/" class="">Types and Decipherment Problems of Pronunciation Notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-05-gichu-quantity/" class="">Types and Quantity of Meaning Notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-06-wakun-materials/" class="">Basic Materials for Wakun Annotation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/05-annotation-policy/05-07-annotation-examples/" class="">Concrete Examples of Annotation Description</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-469a52e8d9b96942c01c6f5c30502e7a" class="toggle"  />
+    <label for="section-469a52e8d9b96942c01c6f5c30502e7a" class="flex justify-between">
+      <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/" class="">Typesetting Configuration for Transcriptions and Annotations</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-01-hanazono-mincho/" class="">Setting up Hanazono Mincho</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-02-glyphwiki/" class="">Setting up GlyphWiki</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-03-sfkanbun-sty/" class="">Setting up sfkanbun.sty</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-04-vscode-texlive/" class="">A Memorandum on LuaTeX Typesetting for Old Dictionaries and Kunten Materials</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="https://shikeda.github.io/en/docs/krm/06-typesetting/06-05-online-tools/" class="">Online Tools</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+
+    <div style="text-align: right; padding: 1rem;">
+      
+
+  
+    <a href="/docs/krm/05-annotation-policy/">日本語</a>
+  
+
+
+    </div>
+
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Basic Policy for Annotation Creation</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents"></nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="basic-principles-for-creating-annotationscommentary">
+  Basic Principles for Creating Annotations/Commentary
+  <a class="anchor" href="#basic-principles-for-creating-annotationscommentary">#</a>
+</h1>
+<p>The scholarly apparatus for the <em>Myōgishō</em> in this database includes elements such as <strong><code>Textual Collation</code></strong> (<em>kōkan</em>), <strong><code>Source Criticism</code></strong> (<em>shutten kōshō</em>, 出典考証), <strong><code>Review of Previous Scholarship</code></strong> (<em>kenkyūshi seiri</em>), <strong><code>Lexical Analysis</code></strong> (<em>goshaku</em>), and <strong><code>Additional Expositions</code></strong> (<em>yosetsu</em>). The content of each is explained as follows:</p>
+<ul>
+<li><strong><code>Textual Collation</code></strong> (校勘, <em>kōkan</em>): Involves presenting textual variants by comparing the <em>Myōgishō</em> text with the main texts of other manuscripts and with fragmentary textual evidence (逸文, <em>itsubun</em>), conducting comparative analyses, correcting scribal errors, and reconstructing the original text.</li>
+<li><strong><code>Source Criticism</code></strong> (出典考証, <em>shutten kōshō</em>): Entails searching for original sources cited in the <em>Myōgishō</em>, analyzing citation methods, and clarifying distinctions between direct and indirect (second-hand) citations.</li>
+<li><strong><code>Review of Previous Scholarship</code></strong> (研究史整理, <em>kenkyūshi seiri</em>): Summarizes and introduces the views and findings of previous scholars.</li>
+<li><strong><code>Lexical Analysis</code></strong> (語釈, <em>goshaku</em>): Consists of philological analysis concerning semantic meanings, phonology, and orthography of words and characters.</li>
+<li><strong><code>Additional Expositions</code></strong> (余説, <em>yosetsu</em>): These are the annotator&rsquo;s (i.e., the database compiler&rsquo;s) own detailed discussions and considerations based on the analysis of specific <strong><code>Entries</code></strong> or elements within them.</li>
+</ul>
+<p>Ideally, annotations should be concise and clear. However, as a preliminary step, it is necessary to gather as much relevant material as possible for a given annotation. Only after this preparatory stage is complete can the work of selecting and refining the collected materials begin.</p>
+<p>The materials collected to date are recorded as <strong><code>Compiler's Remarks</code></strong> in the <code>remarks</code> column of the <code>krm_notes</code> file.</p>
+<p>In this document, we will first classify the <strong><code>Entries</code></strong> of the <em>Myōgishō</em> by their <strong><code>Headwords</code></strong> and the various types of <strong><code>Original Glosses</code></strong> they contain, and then present the quantities for each category. Based on this, we will consider the priority for creating annotations for each type of <strong><code>Headword</code></strong> and each category of <strong><code>Original Gloss</code></strong> element, focusing our primary analytical efforts on <strong><code>Japanese Native Readings</code> (<em>wakun</em>)</strong> and <strong><code>Phonetic Glosses</code></strong>. This will clarify the <strong>basic principles for annotation creation and the primary subjects of analysis</strong>.</p>
+<p>Next, we will provide and explain specific examples of scribal errors, omissions, and superfluous characters (衍字, <em>enji</em>). We will also describe how such information is recorded in the <strong><code>Compiler's Remarks</code></strong> and conduct a <strong>calculation of the number of <code>Headword</code> characters</strong>.</p>
+<p>For <strong><code>Notes on Character Form</code></strong> (字体注, <em>jitaichū</em>), we will organize their <strong>types and descriptive formats</strong>. By clarifying the content and format of these original notes, we aim to minimize the need for extensive commentary on them within the <strong><code>Compiler's Remarks</code></strong>.</p>
+<p>Regarding <strong><code>Semantic Glosses in Chinese</code></strong> (義注, <em>gichū</em>), we will indicate their <strong>types and quantities</strong>, and introduce examples of such glosses that have been mistakenly identified as katakana.</p>
+<p>For <strong><code>Japanese Native Readings</code></strong> (和訓, <em>wakun</em>), given the extensive body of previous research, we will provide a list of these studies and the abbreviations used for them in the <strong><code>Compiler's Remarks</code></strong>. This will serve as an introduction to the <strong>foundational materials for annotating <em>wakun</em></strong>.</p>
+<p>Finally, using page 62 of the <em>Butsujō</em> (仏上) volume of the Kanchi-in manuscript of the <em>Ruiju Myōgishō</em> as a <strong>specific example of annotation practice</strong>, we will introduce the content of the <strong><code>Compiler's Remarks</code></strong>. This will demonstrate how subtle differences in <strong><code>Hanzi (Chinese character)</code></strong> glyph forms can be explained in the annotations through the use of GlyphWiki.</p>
+<ul>
+<li><a href="./05-01-basic-policy/">Basic Principles and Analytical Focus for Annotation Creation</a></li>
+<li><a href="./05-02-headword-count/">Calculation of Headword Character Count</a></li>
+<li><a href="./05-03-jitaichu-formats/">Types and Descriptive Formats of Notes on Character Form</a></li>
+<li><a href="./05-04-onchu-problems/">Types and Problems in Deciphering Phonetic Glosses</a></li>
+<li><a href="./05-05-gichu-quantity/">Types and Quantities of Semantic Glosses in Chinese</a></li>
+<li><a href="./05-06-wakun-materials/">Foundational Materials for Annotating Japanese Native Readings (<em>wakun</em>)</a></li>
+<li><a href="./05-07-annotation-examples/">Specific Examples of Annotation Practice</a></li>
+</ul>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  
+
+  
+    <a href="/docs/krm/05-annotation-policy/">日本語</a>
+  
+
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents"></nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

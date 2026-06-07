@@ -1,17 +1,3 @@
-/* コードブロック内の文字列を見やすくする（monokai の薄い黄色を上書き） */
-.chroma .s,
-.chroma .s1,
-.chroma .s2,
-.chroma .sa,
-.chroma .sb,
-.chroma .sc,
-.chroma .sd,
-.chroma .sh,
-.chroma .si,
-.chroma .sx {
-  color: #ffb347 !important;  /* 見やすいオレンジ（濃い背景で視認しやすい） */
-}
-
 /* Generated using: hugo gen chromastyles --style=monokai */
 
 /* Background */ .bg { color:#f8f8f2;background-color:#272822; }
