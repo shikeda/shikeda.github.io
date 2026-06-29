@@ -152,9 +152,9 @@ python3 gy_dhsjr_link.py \
   [itaiji] JSON読み込み: itaiji_gy_compare.json
   異体字マップ件数: 4014
 処理中: 30-048-02_RMK.tsv
-  → linked_out20260628/30-048-02_RMK_gy_linked.tsv (27985 行)
-  → linked_out20260628/dhsjr_gy_unmatched.tsv (3646 行)
-  → linked_out20260628/dhsjr_gy_multi.tsv (7191 行)
+  → linked_out/30-048-02_RMK_gy_linked.tsv (27985 行)
+  → linked_out/dhsjr_gy_unmatched.tsv (3646 行)
+  → linked_out/dhsjr_gy_multi.tsv (7191 行)
 完了。
 ```
 

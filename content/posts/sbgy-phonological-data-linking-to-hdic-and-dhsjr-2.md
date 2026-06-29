@@ -113,7 +113,7 @@ python3 gy_dhsjr_link.py  --dhsjr updated_30-048-02_RMK.tsv --gy 廣韻.csv --ou
 # dhsjr_gy_unmatched.blocks.tsv Unicode ブロック別集計
 
 
-`dhsjr_gy_multi.tsv`にUnicodeの16進数番号と、CJK統合漢字やCJK統合漢字拡張Aなどの文字ブロックを与えるPythonスクリプト[check_blocks.py](/downloads/scripts/check_blocks.py)を用意して次を実行しました。
+`dhsjr_gy_unmatched.tsv`にUnicodeの16進数番号と、CJK統合漢字やCJK統合漢字拡張Aなどの文字ブロックを与えるPythonスクリプト[check_blocks.py](/downloads/scripts/check_blocks.py)を用意して次を実行しました。
 
 
 ```bash
