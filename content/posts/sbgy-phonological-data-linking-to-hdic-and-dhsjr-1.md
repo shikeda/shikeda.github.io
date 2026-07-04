@@ -162,7 +162,8 @@ DHSJRに収録の各種の漢字音データベースにもつなげることが
 
 ## `gy_dhsjr_link.py` の使い方
 
-[sbgy-data-tools](/https://github.com/shikeda/sbgy-data-tools) リポジトリに含まれる `gy_dhsjr_link.py` の使い方を説明します。
+[sbgy-data-tools](https://github.com/shikeda/sbgy-data-tools/tree/main/scripts) リポジトリに含まれる
+[`gy_dhsjr_link.py`](/downloads/scripts/gy_dhsjr_link.py) の使い方を説明します。
 
 ## ワークフロー
 
