@@ -297,6 +297,18 @@ YYQD_PAT = re.compile(
 # 小韻字號が "1a1" のような \d+a\d+ 形式の行は sbgy.xml では added_word として扱われる
 _SUPPLEMENTARY_JIGO_PAT = re.compile(r'^\d+a\d+$')
 _BRACKET_HANZI_PAT = re.compile(r'^［(.+)］$')  # 補字の字頭表記: ［嬹］ → 嬹
+_ANGLE_NOTE_HANZI_PAT = re.compile(r'^(.+?)〈.+〉$')  # 字頭注記: 䍧〈牂〉 → 䍧
+
+
+def gy_headword_keys(hanzi: str) -> list[str]:
+    """廣韻の字頭から索引用キーを返す。注記付き字頭は主字でも引けるようにする。"""
+    keys = [hanzi]
+    m = _ANGLE_NOTE_HANZI_PAT.match(hanzi)
+    if m:
+        main = m.group(1).strip()
+        if main and main not in keys:
+            keys.append(main)
+    return keys
 
 
 def parse_yyqd(yyqd: str) -> dict[str, str] | None:
@@ -349,6 +361,9 @@ def build_gy_index(gy_path: Path) -> dict[str, list[dict]]:
     字頭の ［○］ 括弧を除去して通常エントリと同様にインデックス登録する。
     小韻字號の値（"1a1" 等）は parsed["小韻字號"] に保持されるため、
     GY_小韻字號 列でその性質を確認できる。
+
+    字頭が "䍧〈牂〉" のような注記付き表記の場合は、元の字頭に加えて
+    主字 "䍧" でも引けるようにする。
     """
     index: dict[str, list[dict]] = defaultdict(list)
     with gy_path.open("r", encoding="utf-8-sig") as fh:
@@ -370,7 +385,8 @@ def build_gy_index(gy_path: Path) -> dict[str, list[dict]]:
             parsed["韻目原貌"] = row["韻目原貌"]
             parsed["小韻號"]  = row["小韻號"]
             parsed["小韻字號"] = koshu_jigo
-            index[hanzi].append(parsed)
+            for key in gy_headword_keys(hanzi):
+                index[key].append(parsed)
     return dict(index)
 
 
