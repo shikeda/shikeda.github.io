@@ -1,6 +1,6 @@
 ---
 title: "--itaiji-json 用JSONファイル目録"
-date: 2026-07-04T17:30:00+09:00
+date: 2026-07-04T10:30:00+09:00
 draft: false
 tags:
   - 廣韻
