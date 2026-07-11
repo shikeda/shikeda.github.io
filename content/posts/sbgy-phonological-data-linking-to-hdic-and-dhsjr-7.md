@@ -95,13 +95,13 @@ python3 01_extract_raw.py --all   # HTML → vol{N}/jiyun_juan{N}_raw.json
 python3 02_build_tables.py --all  # raw.json → groups.tsv / chars.tsv / toc.tsv
 ```
 
-[`01_extract_raw.py`](/downloads/data/jy/01_extract_raw.py) は、ctext.orgの保存ページ内で行数が最大のテーブルを本文とみなし、
+[`01_extract_raw.py`](/downloads/scripts/jy/01_extract_raw.py) は、ctext.orgの保存ページ内で行数が最大のテーブルを本文とみなし、
 各行の `td.ctext` を子ノード順に走査して `('char'|'note'|'anchor', text)` の
 セグメント列に変換します。集韻データには、僻字画像（`<img alt="ctextchar:NNNN">`）が
 見出し字位置だけでなく、注釈文（`inlinecomment`）の**途中**にも埋め込まれることがあるため、
 再帰的なテキスト抽出でこれを拾う実装になっています。
 
-[`02_build_tables.py`](/downloads/data/jy/02_build_tables.py) は、セクション見出しを次の3種に分類します。
+[`02_build_tables.py`](/downloads/scripts/jy/02_build_tables.py) は、セクション見出しを次の3種に分類します。
 
 - `front_matter`: 提要・韻例など、巻頭の前付け
 - `toc`: 「平聲一」のような声調巻の見出しで、韻目索引（韻名・反切・独用/通用）が本文
