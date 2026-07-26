@@ -19,7 +19,7 @@ This section provides an overview of the *Ruiju Myōgishō*, detailing its extan
 
 - [Manuscript Traditions](./01-01-introduction#manuscript-traditions)
 - [Compiler](./01-01-introduction#compiler)
-- [Date of Compilation](./01-introduction/01-01-introduction#date-of-compilation)
+- [Date of Compilation](./01-01-introduction#date-of-compilation)
 - [Significance](./01-01-introduction#significance)
 - [Radical Structure](./01-01-introduction#radical-structure)
 - [Number of Entries](./01-01-introduction#number-of-entries)

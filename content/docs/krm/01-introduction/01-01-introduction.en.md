@@ -71,7 +71,7 @@ The work lists Chinese characters both as individual graphs and compounds, accom
 ## Radical Structure
 
 According to the Kanchi-in manuscript, the *Ruiju Myōgishō* is organized into 120 sections grouped under the three divisions of the Buddhist Triratna: Buddha (仏), Dharma (法), and Sangha (僧). 
-Each division is further subdivided into several volumes or fascicles (巻 *kan*), such as "Upper," "Middle," and "Lower.
+Each division is further subdivided into several volumes or fascicles (巻 *kan*), such as "Upper," "Middle," and "Lower."
 Each division contains 40 sections based on semantic radicals. The table below presents the full list of radicals used, shown with their associated head characters (部首字).
 
 **Buddha Division (仏)**  
@@ -106,7 +106,9 @@ Additionally, the ordering of radicals reflects both semantic grouping (e.g., pa
 
 ## Number of Entries
 
-The term *entry* refers to a unit consisting of both the headword and its accompanying definitions (original glosses). To provide a general sense of the scope of the *Ruiju Myōgishō*, we may look to the Kanchi-in manuscript for a representative overview. The following table presents a summary of the number of entries, the number of individual headwords, and the number of compound expressions found in each of the ten volumes, from the *Buddha (Upper)* through the *Sangha (Lower)* sections.
+The term *entry* refers to a unit consisting of both the headword and its accompanying definitions (original glosses). To provide a general sense of the scope of the *Ruiju Myōgishō*, we may look to the Kanchi-in manuscript for a representative overview. The following table presents a summary of the number of entries, the number of individual headwords, and the number of compound expressions found in each of the ten volumes, from the *Buddha (Upper)* through the *Sangha (Lower)* sections.[^1]
+
+[^1]: These figures differ in some respects from those given in Ikeda, Shōju, Liú Guānwěi, Jung Munho, Zhāng Xīnfāng, and Lǐ Yuán, "Kanchi-in bon *Ruiju Myōgishō* Zenbun Tekisuto Dētabēsu: Sono Kōchiku Hōhō to Keishutsu Kōmokusu-tō no Keiryō" (*Kuntengo to Kunten Shiryō* 144, 2020): 105–129, owing to subsequent corrections made after further review; this does not affect the overall picture.
 
 **Table: Number of Entries, Characters, and Compound Expressions by Volume (Kanchi-in Manuscript)**  
 The following table summarizes the distribution of character entries across the ten volumes of the *Ruiju Myōgishō* as preserved in the Kanchi-in manuscript. The work is structured into three main sections—Buddha (仏), Dharma (法), and Sangha (僧)—each comprising multiple volumes. The entries are classified by the number of characters per expression (from single-character to seven or more), along with totals for entries, characters, and compound expressions.
@@ -180,7 +182,7 @@ Several facsimile and reproduction editions exist. The commonly cited versions a
     This edition includes references not only to the original volume and folio numbers, but also to the Old Tenri and Kazama Edition page numbers, enhancing its compatibility with the Kazama indexes.
 
 **Renjō-in Manuscript**  
-Previously held at Kōfuku-ji’s Renjō-in , this fragmentary manuscript (3 volumes) is now in the possession of Chinkoku Shukoku Shrine (Kuwana City, Mie Prefecture). Copied in the late Kamakura to early Muromachi period, it is also referred to as the Chinkoku Shukoku Shrine Manuscript.  
+Previously held at Kōfuku-ji’s Renjō-in, this fragmentary manuscript (3 volumes) is now in the possession of Chinkoku Shukoku Shrine (Kuwana City, Mie Prefecture). Copied in the late Kamakura to early Muromachi period, it is also referred to as the Chinkoku Shukoku Shrine Manuscript.  
 It comprises: Volume 1 (corresponding to *Butsu-jō* and *Butsu-chū* in the Kanchi-in Manuscript); Volume 2 (covering up to mid-*Hō-jō*); and Volume 3 (corresponding to *Sō*). A facsimile edition was issued in 1965 by the Mikkan Kokubun Shiryō Kankōkai under the title *Sanpō Ruiju Myōgishō*, with commentary by Ozaki Satoakira. A clearer reproduction was issued in 1986 by Benseisha.
 
 **Kōsan-ji Manuscript**  
