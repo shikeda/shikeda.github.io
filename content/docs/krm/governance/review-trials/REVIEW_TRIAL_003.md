@@ -8,13 +8,15 @@ Purpose: Third pilot of the KRM Documentation review workflow, and the first run
 
 A combined review-and-fix pass was run on the KRM Orientation section's overview page and its section index, in both languages. Three mechanical defects were found and fixed directly under `Allowed` authority: a malformed internal link, a missing closing quotation mark, and a stray space before a comma — all in the English version. Three further items were found that involve dates, a scholarly-accuracy footnote, and a judgment call about duplicated prose; these were left unmodified and recorded as `Requires Confirmation`, per instruction. All fixes were verified with a Hugo build comparing rendered output before and after.
 
+**Confirmation update (2026-07-27, same day)**: the project owner reviewed UR1–UR3 and resolved all three. UR1 (possible duplicate paragraph) and UR2 (publication-date field) were confirmed as correct as-is; no change was made. UR3 (missing data-revision footnote) was confirmed as needing addition; a proposed English translation of the Japanese footnote was drafted, approved, applied, and verified with a further Hugo build. See §4 and §6 for details.
+
 ---
 
 ### 2. Scope of Review
 
 - **Primary files**: `content/docs/krm/01-introduction/01-01-introduction.ja.md`, `content/docs/krm/01-introduction/01-01-introduction.en.md`, `content/docs/krm/01-introduction/_index.ja.md`, `content/docs/krm/01-introduction/_index.en.md`
 - **Related files**: `content/docs/krm/_index.ja.md` / `.en.md` (inbound links into this section), `content/menu/index.md` (inbound link via `relref`), `content/posts/2026-05-24-hugo-github-actions-setup.md` (an unrelated mention of this section's URL, inspected but out of scope)
-- **Files changed**: `content/docs/krm/01-introduction/_index.en.md` (1 line), `content/docs/krm/01-introduction/01-01-introduction.en.md` (2 lines)
+- **Files changed**: `content/docs/krm/01-introduction/_index.en.md` (1 line), `content/docs/krm/01-introduction/01-01-introduction.en.md` (2 lines for RR1–RR3, plus a footnote addition for UR3 after confirmation — see §6)
 - **Document layer**: Orientation (`DOCUMENTATION_BLUEPRINT.md` Layer 1)
 - **Document type**: Overview (`01-01-introduction.*.md` is a dense page combining Overview framing with Concept Reference/bibliographic content; `_index.*.md` are section index pages per `DOCUMENTATION_STYLE_GUIDE.md` §6)
 - **Language status**: bilingual-required by policy (ja/en pairs present for both the article and the index)
@@ -102,7 +104,7 @@ Authority status values used below follow `EDITORIAL_CONVENTIONS.md`'s Authority
 - Proposed action: confirm with the project owner whether the second paragraph is an accidental leftover before removing it; `EDITORIAL_CONVENTIONS.md`'s Paragraphing row allows removing "accidental repetition" as `Allowed`, but also flags "condense prose where nuance may be lost" as `Requires Confirmation` — this finding sits on that boundary, so it was treated conservatively.
 - Authority status: `Requires Confirmation`
 - Human confirmation required: Yes
-- Resolution / Disposition: not actioned this round; recorded.
+- Resolution / Disposition: **Confirmation obtained (project owner, 2026-07-27)**: the duplicate paragraph is acceptable as-is. No change made; closed with no action.
 
 **UR2 — Publication-date field mismatch between language versions**
 - File and location: `01-01-introduction.ja.md:16-17` vs `01-01-introduction.en.md:16`
@@ -112,7 +114,7 @@ Authority status values used below follow `EDITORIAL_CONVENTIONS.md`'s Authority
 - Proposed action: confirm the correct original-publication date and update-history convention for the English version.
 - Authority status: `Requires Confirmation` — `EDITORIAL_CONVENTIONS.md` §12 explicitly excludes dates from "ordinary typos."
 - Human confirmation required: Yes
-- Resolution / Disposition: not actioned this round; recorded.
+- Resolution / Disposition: **Confirmation obtained (project owner, 2026-07-27)**: April 20, 2025 is correctly the English version's own first-publication date — it is not an error and not the same fact as the Japanese version's 2022 original-publication date. No change made; closed with no action.
 
 **UR3 — Missing data-revision footnote in the English "Number of Entries" section**
 - File and location: `01-01-introduction.ja.md:106-108` (footnote `[^1]`) vs `01-01-introduction.en.md:107-126` (no equivalent footnote)
@@ -122,7 +124,7 @@ Authority status values used below follow `EDITORIAL_CONVENTIONS.md`'s Authority
 - Proposed action: confirm whether an equivalent footnote/caveat should be added to the English version.
 - Authority status: `Requires Confirmation` — adding scholarly caveat content is translation/language-adjustment work affecting protected content per `I18N_POLICY.md` §12.
 - Human confirmation required: Yes
-- Resolution / Disposition: not actioned this round; recorded.
+- Resolution / Disposition: **Confirmation obtained (project owner, 2026-07-27)**: addition approved. Two draft options were proposed (a full citation matching the References-list entry's author/title/journal form, and a shorter cross-reference to that entry); the full-citation option was approved and applied as a new footnote (`[^1]`) at the end of the paragraph introducing the entry-count table in `01-01-introduction.en.md`, in the same position as the Japanese footnote. Verified with a further Hugo build: the footnote renders as a numbered in-text marker with a matching footnote-section entry, structurally identical to the Japanese page's existing footnote. Fixed and verified; closed.
 
 ---
 
@@ -133,18 +135,20 @@ detected → recorded → classified as mechanical (RR1–RR3) or Requires Confi
 assigned under user instruction → reviewed →
 Allowed under existing standards; no additional approval required (RR1–RR3) →
 updated → verified → outcome recorded →
-UR1–UR3 carried forward pending confirmation → closed for this round
+UR1–UR3 carried forward pending confirmation →
+Approval obtained same day (UR1 no-change, UR2 no-change, UR3 addition) →
+UR3 updated → UR3 verified → outcome recorded → closed
 ```
 
 ---
 
 ### 6. Change and Validation
 
-- **Files changed**: `content/docs/krm/01-introduction/_index.en.md` (1 line), `content/docs/krm/01-introduction/01-01-introduction.en.md` (2 lines). No other file was modified; the Japanese-language files in scope were read and evaluated but not edited.
-- **Verification method**: `git status --short`/`git status` before editing (clean baseline); `git diff` after editing, confirming both diffs were limited to the three designated lines; `hugo --minify` build to a scratch destination.
-- **Build result**: 159 JA pages / 51 EN pages, 0 build errors.
-- **Rendered-output checks**: the English section-index page's generated link resolves to `./01-01-introduction#date-of-compilation` with zero remaining occurrences of the doubled `01-introduction/01-introduction` path; the English article page's rendered HTML shows the quotation mark correctly paired (`&ldquo;...Lower.&rdquo;`) and the stray space before the comma removed.
-- **Protected-content check**: none of the three fixes touched dates, citations, transcriptions, bibliographic entries, or data values. The three items that do touch that territory (UR1–UR3) were identified and left unmodified rather than resolved.
+- **Files changed**: `content/docs/krm/01-introduction/_index.en.md` (1 line), `content/docs/krm/01-introduction/01-01-introduction.en.md` (2 lines for RR1–RR3; a further 2-line footnote addition for UR3 after confirmation). No other file was modified; the Japanese-language files in scope were read and evaluated but not edited.
+- **Verification method**: `git status --short`/`git status` before editing (clean baseline); `git diff` after each round of editing; `hugo --minify` build to a scratch destination, run twice — once after RR1–RR3, once after the UR3 footnote addition.
+- **Build result**: 159 JA pages / 51 EN pages, 0 build errors after RR1–RR3; 160 JA pages / 51 EN pages, 0 build errors after the UR3 addition (the JA count increase reflects `REVIEW_TRIAL_003.md` itself becoming a built page between the two checks, not a defect — see `REVIEW_TRIAL_001.md`/`002.md` §8 for the same effect).
+- **Rendered-output checks**: the English section-index page's generated link resolves to `./01-01-introduction#date-of-compilation` with zero remaining occurrences of the doubled `01-introduction/01-introduction` path; the English article page's rendered HTML shows the quotation mark correctly paired (`&ldquo;...Lower.&rdquo;`) and the stray space before the comma removed. After the UR3 addition, the rendered HTML shows a numbered footnote reference (`<sup id=fnref:1>`) at the end of the table-introducing sentence and a matching `<div class=footnotes>` entry at the foot of the article, structurally identical to the Japanese page's existing footnote markup.
+- **Protected-content check**: none of RR1–RR3 touched dates, citations, transcriptions, bibliographic entries, or data values. UR3's footnote addition reproduces an existing citation already present in the article's References list (entry 10, "Ikeda, Shōju et al. (2020)") rather than introducing new bibliographic information.
 
 ---
 
@@ -152,11 +156,11 @@ UR1–UR3 carried forward pending confirmation → closed for this round
 
 - **Overall judgment**: Pass
 - **Required revisions remaining**: none (RR1, RR2, RR3 resolved and verified)
-- **Confirmation-blocking issues**: none — UR1–UR3 are recorded as `Requires Confirmation` but do not block acceptance of the fixes made in this round, consistent with the `Unresolved but recorded` judgment value in `REVIEW_CHECKLIST.md` §2
-- **Non-blocking improvement candidates**: NB1 (section-index framing), NB2 (`weight` inconsistency)
-- **Unresolved but recorded**: UR1 (possible duplicate paragraph), UR2 (publication-date mismatch), UR3 (missing data-revision footnote in English)
+- **Confirmation-blocking issues**: none
+- **Non-blocking improvement candidates**: NB1 (section-index framing), NB2 (`weight` inconsistency) — both still open, not addressed this trial
+- **Unresolved but recorded**: none remaining — UR1 and UR2 confirmed as correct-as-is (no change), UR3 confirmed and resolved (footnote added and verified); see §4
 - **Files changed**: `01-introduction/_index.en.md`, `01-introduction/01-01-introduction.en.md`
-- **Validation performed**: `git status`, `git diff`, `hugo --minify` build (159 JA / 51 EN, 0 errors), rendered-output inspection of the affected pages
+- **Validation performed**: `git status`, `git diff`, two `hugo --minify` builds (159 JA / 51 EN after RR1–RR3; 160 JA / 51 EN after the UR3 footnote addition), rendered-output inspection of the affected pages including footnote markup
 - **Reviewer**: Claude (this session)
 - **Review date**: 2026-07-27
 
@@ -167,3 +171,4 @@ UR1–UR3 carried forward pending confirmation → closed for this round
 - This trial was run in combined review-and-fix mode rather than the two-stage review-only/fix-only process of Trials 001–002. The Allowed/Requires-Confirmation boundary from `EDITORIAL_CONVENTIONS.md` proved sufficient on its own to gate which items could be actioned immediately within a single pass, without needing a separate approval round for the mechanical items.
 - UR1 illustrates a genuine boundary case in `EDITORIAL_CONVENTIONS.md`'s Paragraphing row, which lists "remove accidental repetition" as `Allowed` but "condense prose where nuance may be lost" as `Requires Confirmation`. The same finding could plausibly be argued into either category; this trial resolved the ambiguity by choosing the more conservative classification rather than resolving it unilaterally. This suggests the Paragraphing row's boundary between those two cells could be sharpened, but no change to `EDITORIAL_CONVENTIONS.md` is proposed here.
 - UR2 and UR3 were both found via routine bilingual comparison (reading the ja/en pair side by side), not via any specific checklist item naming "compare dates" or "compare footnotes." The I18N Review conditional checklist's existing items ("language differences are classified before being resolved") were broad enough to catch them once the comparison was made, but did not prompt the comparison itself.
+- The confirmation round for UR1–UR3 (same day) showed the `Requires Confirmation` → `Approval obtained` path working as intended: for UR3, a concrete draft (with two citation-form options) was proposed before any file was touched, and only applied after the project owner selected one. For UR1 and UR2, confirmation resolved the finding as "no change needed" rather than approving a specific edit — `governance/review-trials/REVIEW_TRIAL_TEMPLATE.md`'s Resolution/Disposition field already accommodates this (it is not limited to "fixed" outcomes), so no template change is proposed.
