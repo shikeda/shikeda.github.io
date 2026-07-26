@@ -12,7 +12,7 @@ This document explains how to input **`Entry`** data for the Kanchi-in manuscrip
 
 An **`Entry`** consists of a **`Headword`** and **`Original Glosses`**. This section focuses on matters common to the input of **`Headwords`** and **`Original Glosses`** for the main **`Entry`** data of the *"Myōgishō"* (e.g., `krm_main.tsv`).
 
-Among the input rules explained in this document, those concerning **character representation methods** (such as for characters outside of Unicode, special symbols, etc.) may also apply to other published data, including `krm_notes` (the file containing data for **`Compiler's Remarks`**). For details on the overall structure and file formats of the published data, please refer to the [Overview of Public Data](../krm/02-data-overview/). 
+Among the input rules explained in this document, those concerning **character representation methods** (such as for characters outside of Unicode, special symbols, etc.) may also apply to other published data, including `krm_notes` (the file containing data for **`Compiler's Remarks`**). For details on the overall structure and file formats of the published data, please refer to the [Overview of Public Data](../02-data-overview/). 
 
 The published data primarily uses TSV format, but some data is also available in JSON format for better readability.
 
