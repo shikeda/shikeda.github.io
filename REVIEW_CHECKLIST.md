@@ -339,6 +339,22 @@ Use `N/A` only for individual checklist items.
 
 ---
 
+### 7.1 Review Records vs. Checklist Execution
+
+This checklist supports the judgment made during a review. It does not require every stored Review Record to reproduce every checklist row.
+
+A summary-style Review Record is acceptable when it remains third-party traceable: scope, judgment, evidence, source standards, required actions, and unresolved items must all be recoverable from the record.
+
+Preserve the full row-by-row checklist output when a strict audit trail is required.
+
+Distinguish `files reviewed` from `files changed`. A review does not imply an edit.
+
+For an audit-only review with no edit, `change summary` may be recorded as `no changes; review only` or equivalent.
+
+A reusable template for summary-style Review Records is maintained outside `content/`, at `governance/review-trials/REVIEW_TRIAL_TEMPLATE.md`, so that blank or partially filled copies are never published as Hugo pages. It does not replace this checklist.
+
+---
+
 ## 8. Boundary with Maintenance
 
 This checklist is for deciding whether a specific new page, edit, revision, or standards change can be accepted.
