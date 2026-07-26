@@ -31,7 +31,7 @@ Note that while the explanation provided here overlaps in part with what is stat
 - [Overview of Public Data](./02-data-overview/)
     - [krm_main](./02-data-overview/02-01-main/)
     - [krm_notes](./02-data-overview/02-02-notes/)
-    - [krm_headword_chars](./02-data-overview/02-03-headword_chars/)
+    - [krm_headword_chars](./02-data-overview/02-03-headword-chars/)
     - [krm_wakun](./02-data-overview/02-04-wakun/)　
     - [krm_definitions](./02-data-overview/02-05-definitions/)　
     - [krm_pronunciations](./02-data-overview/02-06-pronunciations/)　
