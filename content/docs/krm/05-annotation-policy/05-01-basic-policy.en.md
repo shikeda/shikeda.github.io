@@ -37,7 +37,7 @@ graph TB
     C --> H(Other);
     H --- O(("Approx. 1,300"));
 {{< /mermaid >}}
-Note: In the diagram, "Japanese Native Readings" refers to `Japanese Native Readings` (*wakun*) as defined in the glossary.
+Note: In the diagram, "Japanese Native Readings" refers to the term `Japanese Native Readings` (*wakun*) used throughout this documentation.
 
 ## Understanding the Main Text
 

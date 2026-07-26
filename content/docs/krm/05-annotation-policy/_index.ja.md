@@ -1,6 +1,5 @@
 ---
-title: "注釈データ入力の詳細"
-# 掲出字と注文の分類
+title: "注釈作成の基本方針"
 weight: 16
 # bookFlatSection: false
 # bookToc: true

@@ -1,6 +1,5 @@
 ---
 title: "Basic Policy for Annotation Creation"
-# 掲出字と注文の分類
 weight: 16
 # bookFlatSection: false
 # bookToc: true
