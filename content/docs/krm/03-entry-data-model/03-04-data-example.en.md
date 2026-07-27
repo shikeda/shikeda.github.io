@@ -1,5 +1,5 @@
 ---
-title: "Examples of Entry Data Files"
+title: "Publication and Updates of Entry Data Files"
 weight: 7
 # bookFlatSection: false
 # bookToc: true
@@ -144,7 +144,7 @@ A summary of the Chinese character dictionaries included in the HDIC and the ini
 
 An explanation of what GitHub is and the significance of publishing research data through this system can be summarized as follows:
 
-GitHub is widely used as a platform for managing and publishing software source code. In recent years, however, it has also been utilized in various research fields, including the humanities, for sharing and publishing research data. GitHub is built upon a version control system called "Git," which records the entire editing history and clearly preserves the an audit trail of changes. This makes it possible to track who made what changes and when, thereby enhancing the transparency and reproducibility of research data.
+GitHub is widely used as a platform for managing and publishing software source code. In recent years, however, it has also been utilized in various research fields, including the humanities, for sharing and publishing research data. GitHub is built upon a version control system called "Git," which records the entire editing history and clearly preserves an audit trail of changes. This makes it possible to track who made what changes and when, thereby enhancing the transparency and reproducibility of research data.
 
 Furthermore, GitHub facilitates collaborative editing among multiple individuals. Features such as pull requests and issues allow for dialogue and peer-review-like interactions with other researchers to be recorded. Its appeal also lies in features like document creation using Markdown notation and the ability to view file-specific revision histories, making it relatively easy to use even for humanities researchers who do not write programs.
 

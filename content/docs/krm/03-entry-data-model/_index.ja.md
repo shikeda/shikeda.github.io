@@ -21,5 +21,5 @@ bookToc: true
 - [項目データ構造](./03-01-data-structure/)
 - [項目の種類](./03-02-types-of-entries/)
 - [文字表記に関する概念](./03-03-concepts-char/)
-- [項目データファイルの例](./03-04-data-example/)
+- [項目データファイルの公開・更新](./03-04-data-example/)
 
