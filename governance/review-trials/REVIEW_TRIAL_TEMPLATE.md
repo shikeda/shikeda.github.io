@@ -4,7 +4,7 @@ Reusable template for KRM Documentation Review Trial records, per `REVIEW_CHECKL
 
 This file is kept outside `content/` deliberately, so that a blank or partially filled copy is never built or published as a Hugo page. It is not itself a Review Record.
 
-**To use it**: copy this file, fill in every applicable bracketed field, and delete this instructional header. Following the convention already established by `content/docs/krm/governance/review-trials/REVIEW_TRIAL_001.md` and `REVIEW_TRIAL_002.md`, completed records currently live under `content/docs/krm/governance/review-trials/` as the next `REVIEW_TRIAL_NNN.md` — and are therefore published. Whether that should change is a separate decision, not implied by this template.
+**To use it**: copy this file, fill in every applicable bracketed field, and delete this instructional header. Completed records live alongside this template, under `governance/review-trials/`, as the next `REVIEW_TRIAL_NNN.md`. Records were originally published as Hugo pages under `content/docs/krm/governance/review-trials/`, but Trials 001–006 were moved out of `content/` so that Review Trial records are not published as part of the site, matching this template's own location.
 
 Delete any section that does not apply (for example, §9 when no external audit was performed) rather than leaving it as an empty placeholder.
 
