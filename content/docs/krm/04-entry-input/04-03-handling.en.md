@@ -9,8 +9,6 @@ weight: 4
 # bookSearchExclude: false
 ---
 
-Under preparation.
-
 # Handling Issues in Transcription, Notation, and Annotation
 
 The *Myōgishō* is a dictionary of **`Hanzi (Chinese characters)`**. To accurately decipher its content and convert it into digital text, it is necessary to first understand the various characteristics visible in the original *Myōgishō* manuscripts and then to establish specific methods for data input and processing.
@@ -34,7 +32,7 @@ Finally, various ingenious methods are also applied to information added beyond 
 * unannotated **`Entries`** (無注記, *muchūki*), and
 * other noteworthy cases.
 
-We will also explain how these are input and processed. The explanation of **`Tone Marks` (*shōten*)** will concurrently cover voiced sound symbols and nasal sound symbols."
+We will also explain how these are input and processed. The explanation of **`Tone Marks` (*shōten*)** will concurrently cover voiced sound symbols and nasal sound symbols.
 
 While the primary focus of this explanation will be on issues common to the entire text of the *Myōgishō*, if there are problems specific to the constituent elements of an **`Entry`**—namely the **`Headword`**, **`Notes on Character Form`**, **`Phonetic Glosses`**, **`Semantic Glosses in Chinese`**, and **`Japanese Native Readings` (*wakun*)**—these will also be addressed according to their significance.
 For example, "iteration marks" (踊り字, *odoriji*) are a common issue across various elements of an **`Entry`**, whereas "**`Tone Marks` (*shōten*)**" and "nasal sound symbols" (鼻音符号, *bionfugō*) are particularly problematic in the context of **`Phonetic Glosses`**.
@@ -114,9 +112,9 @@ Examples are shown below in the order of **`Headword`** (`hanzi_entry`), relevan
 
 The marks used for corrections in the main text include **`Transposition Marks`** (転倒符, *tentōfu*), **`Deletion Marks`** (見消符, *misekechifu*), and **`Interpolation Marks`** (補入符, *honyūfu*).
 
-* **`Transposition Marks`** (転倒符, *tentōfu*; also called 顛倒符, *tentōfu*)[^1] are used to correct the order of characters within a **`Multi-Character Form Headword`**.
-* **`Deletion Marks`** (見消符, *misekechifu*; also called 抹消符, *masshōfu*)[^2] often indicate that the correct **`Headword`** is provided as a side note  (e.g., 傍記 or 傍書).
-* **`Interpolation Marks`** (補入符, *honyūfu*)[^3] are used to correct the order of **`Entries`**.
+* **`Transposition Marks`** (転倒符, *tentōfu*; also called 顛倒符, *tentōfu*) are used to correct the order of characters within a **`Multi-Character Form Headword`**.
+* **`Deletion Marks`** (見消符, *misekechifu*; also called 抹消符, *masshōfu*) often indicate that the correct **`Headword`** is provided as a side note  (e.g., 傍記 or 傍書).
+* **`Interpolation Marks`** (補入符, *honyūfu*) are used to correct the order of **`Entries`**.
 
 When inputting the main text data, the text is entered in its corrected form as indicated by these correction marks, and the details of such corrections are recorded in the `remarks` column (which forms part of the **`Compiler's Remarks`**).
 
@@ -326,7 +324,7 @@ The voiced sound mark (濁音符号, *dakuon fugō*), indicated by double dots (
 
 **Nasal Sound Symbols (鼻音符号, *bion fugō*)**
 
-The nasal sound symbol (鼻音符号, *bion fugō*;  also 鼻音符, *bíyīnfú* in Chinese) is represented by the English letter 'V' (U+004E) in the data. In the manuscript, nasal sound symbols appear in forms such as ✓, v, レ, or 」. If it is necessary to refer to the specific shape of a nasal sound symbol, the check mark '✓' (U+2713) is used for explanatory purposes.
+The nasal sound symbol (鼻音符号, *bion fugō*;  also 鼻音符, *bíyīnfú* in Chinese) is represented by the English letter 'N' (U+004E) in the data. In the manuscript, nasal sound symbols appear in forms such as ✓, v, レ, or 」. If it is necessary to refer to the specific shape of a nasal sound symbol, the check mark '✓' (U+2713) is used for explanatory purposes.
 
 **Multiple `Tone Marks` (*shōten*)**
 
@@ -396,7 +394,7 @@ Examples 9 and 10 are *Wa-on* (和音) readings; example 9 has **`Tone Marks` (*
 
 No definitive examples of **`Morphosyntactic Glosses` (*wokototen*)** have been confirmed in the manuscript at this time.
 Should any definitive examples be identified, they will be transcribed using Hiragana.
-。
+
 This may be an example of a *wokototen*.
 
 - `kazama_location`: K0601343, `hanzi_entry`: 玊, `definition`: 音夙（T）「シク」　又栗（T）「リク」　又欣救反　琢「ミカク」玉を工也, `remarks`: Ikeda's note: The character '栗' is a mistake for '粟'. The vermilion dot on the character '玉' may be the *wokototen* mark for 'wo (を)'. Although '工也' is written in small characters, it has been transcribed in large characters because the *Guangyun* provides an explanatory note for the meaning '琢玉工' (a jade craftsman).
