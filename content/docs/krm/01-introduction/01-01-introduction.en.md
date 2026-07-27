@@ -86,11 +86,11 @@ Each division contains 40 sections based on semantic radicals. The table below p
 
 **Dharma Division (法)**  
 (*Upper Volume*)  
-41 水 42 冫 43 言 44 足 45 立 46 豆 47 卜 48 面 49 歯 50 山  
+41 水 42 冫 43 言 44 足 45 立 46 豆 47 卜 48 面 49 齒 50 山  
 (*Middle Volume*)  
 51 石 52 玉 53 色 54 邑 55 阜 56 土 57 心 58 巾 59 糸 60 衣  
 (*Lower Volume*)  
-61 示 62 禾 63 米 64 丶 65 宀 66 勹 67 穴 68 雨 69 門 70 口 71 尸 72 虍 73 广 74 鹿 75 疒 76 歹 77 子 78 斗 79 倝 80 寸
+61 示 62 禾 63 米 64 丶 65 宀 66 勹 67 穴 68 雨 69 門 70 囗 71 尸 72 虍 73 广 74 鹿 75 疒 76 歹 77 子 78 斗 79 倝 80 寸
 
 **Sangha Division (僧)**  
 (*Upper Volume*)  
@@ -98,7 +98,7 @@ Each division contains 40 sections based on semantic radicals. The table below p
 (*Middle Volume*)  
 89 亼 90 爪 91 网 92 皿 93 瓦 94 缶 95 弓 96 㫃 97 矢 98 斤 99 矛 100 戈 101 欠 102 又 103 攴 104 殳 105 皮 106 革 107 韋 108 車 109 羊 110 馬 111 鳥 112 隹  
 (*Lower Volume*)  
-113 魚 114 虫 115 鼠 116 亀 117 鬼 118 風 119 酉 120 雑
+113 魚 114 虫 115 鼠 116 龜 117 鬼 118 風 119 酉 120 雑
 
 **Note on Organization:**  
 The radical system employed in the *Ruiju Myōgishō* follows the structure of the *Yùpiān* (『玉篇』) compiled by Liang dynasty scholar Gu Yewang, which comprises 542 sections. Radicals of similar form were grouped together (e.g., integrating 彳 and 行 under a single radical), while those with fewer entries were consolidated into the final miscellaneous section (雑).  
