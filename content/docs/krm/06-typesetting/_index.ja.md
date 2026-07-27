@@ -38,7 +38,7 @@ Webのコンテンツは、マークダウンで書いてあるので、
 簡単に使えるのが条件となる
 
 1. 花園明朝
-2. GlypWiki
+2. GlyphWiki
 
 
 この二つを簡単に利用するには、
@@ -46,7 +46,7 @@ LuaLaTeXがよさそうである。
 upLaTeXでも使えそうだが、
 使えるように設定するのに苦労しそうである。
 
-割注、傍訓など複雑な組版んついては、
+割注、傍訓など複雑な組版については、
 マクロファイルで対応する。
 いくつかのものが公表されている。
 
@@ -80,8 +80,8 @@ mojikyo.styは、Unicodeの漢字が自由に使えない
 そのまま入力・処理できるので、使う必要はない。
 
 花園明朝を使えるようにして、
-GlypWikiをLuaLaTeXに対応した
-bxglypwiki.styを使えばよいだろう。
+GlyphWikiをLuaLaTeXに対応した
+bxglyphwiki.styを使えばよいだろう。
 
 - [花園明朝の設定](/docs/krm/06-typesetting/06-01-hanazono-mincho/)
 - [GlyphWikiの設定](/docs/krm/06-typesetting/06-02-glyphwiki/)
