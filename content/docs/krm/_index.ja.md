@@ -119,4 +119,4 @@ hdic.jpのサイトの維持・管理には、守岡知彦氏による技術支�
 観智院本『類聚名義抄』全文テキストデータベースの構築と公開は、天理図書館当局から特別に御許可を賜り推進しているものであり、天理図書館善本叢書の版元である八木書店各位にも格別の御配慮を賜っている。ここに記して感謝の意を表する。
 
 
-This work was supported by JSPS KAKENHI Grant Numbers 16H03422, 19H00526, 23K17500 and 25K00466.
+This work was supported by JSPS KAKENHI Grant Numbers 16H03422, 19H00526, 23K17500, 25K00466 and 26K21717.

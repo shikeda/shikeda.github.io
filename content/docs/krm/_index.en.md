@@ -108,4 +108,4 @@ Maintaining and managing the constructed data is a significant challenge.
 
 The construction and publication of the full-text database of the *Ruiju Myōgishō* of the Kanchi-in manuscript are being carried out with special permission from the authorities of Tenri Library, and we have also received exceptional consideration from Yagi Shoten, the publisher of the Tenri Library Rare Books Series. We hereby express our gratitude for this.
 
-This work was supported by JSPS KAKENHI Grant Numbers 16H03422, 19H00526, 23K17500 and 25K00466.
+This work was supported by JSPS KAKENHI Grant Numbers 16H03422, 19H00526, 23K17500, 25K00466 and 26K21717.
