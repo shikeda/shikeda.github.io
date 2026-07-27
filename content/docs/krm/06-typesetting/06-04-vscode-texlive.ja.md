@@ -169,7 +169,7 @@ $max_repeat   = 1;
 - [LuaLaTeXで日本語文書を作成する際のヒントや気になったこと](https://lualatexlab.blog.fc2.com/blog-entry-62.html)  【基本】LuaLaTeXで縦書きする
 - [LaTeX（LuaLaTeX） で A5・縦書き・2段組の小説本・エッセイ本を作る](https://adbird.hatenablog.com/entry/2018/12/27/161700)
 - [日本語 LaTeX の新常識 2021](https://qiita.com/wtsnjp/items/76557b1598445a1fc9da)
-– [[LaTeX] fn2end --- footnote を endnote に変換する](https://konoyonohana.blog.fc2.com/blog-entry-424.html)
+- [[LaTeX] fn2end --- footnote を endnote に変換する](https://konoyonohana.blog.fc2.com/blog-entry-424.html)
 - [jlreq](https://www.tug.org/texlive//Contents/live/texmf-dist/doc/latex/jlreq/jlreq-ja.html)
 - [jlreq sample](https://github.com/zr-tex8r/latex-jlreq-sample)
 - [adbird（広告鳥） 備忘録](https://adbird.hatenablog.com/archive/category/LaTeX)
@@ -458,7 +458,7 @@ bxglyphwiki.styは他のスタイル・ファイルと相性が
 他のスタイル・ファイルを外したり、順序を入れ替えたり、
 調整してください。
 
-### sfkanbunパッケージ (漢文) sfkanbun.sty 
+### sfkanbunパッケージ (漢文) sfkanbun.sty
 
 藤田眞作氏作成のスタイルファイルを利用する。
 

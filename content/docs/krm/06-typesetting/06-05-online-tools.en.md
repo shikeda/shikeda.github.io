@@ -2,7 +2,10 @@
 title: "Online Tools"
 weight: 35
 ---
-# Links to frequently used online tools
+
+# Online Tools
+
+## Links to frequently used online tools
 
 - [Kanji Database Project 漢字データベースプロジェクト](http://kanji-database.sourceforge.net)
 - [CHISE IDS find 漢字検索](http://www.chise.org/ids-find)
