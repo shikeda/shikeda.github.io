@@ -53,7 +53,7 @@ HDIC独自のカラム名は**太字**とした。
 | DHSJR (Japanese) | HDIC (English)            | Key         | English Explanation                                                                 | Japanese Explanation (from DHSJR)                     |
 | :--------------- | :------------------------ | :---------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------- |
 | ID               | dhsjr\_id                  |             | DHSJR unique ID for each single **`Hanzi (Chinese character)`** (integrated data only)                                                                                                                                                                                                            | 単字ごとのユニークID（統合データのみ）                            |
-| **音注ID** | **`pronunciation_id`** | Primary Key | ID for each **`Phonetic Gloss`**. This is derived from `definition_seq_id` by extracting only those elements where the type (from `definition_type_name` in `krm_notes`) is **`Phonetic Gloss`**. Suffixes 'b', 'c', 'd' are appended for variant forms.                                           | 音注ID。kr\_definition\_sequence\_idから、注文の種類が音注のものだけを取り出したもの。変異形を追加したものには末尾にxを付した。 *(User indicates 'x' is incorrect, and 'b,c,d' is correct for variants)* |
+| **音注ID** | **`pronunciation_id`** | Primary Key | ID for each **`Phonetic Gloss`**. This is derived from `definition_seq_id` by extracting only those elements where the type (from `definition_type_name` in `krm_notes`) is **`Phonetic Gloss`**. Suffixes 'b', 'c', 'd' are appended for variant forms.                                           | 音注ID。kr\_definition\_sequence\_idから、注文の種類が音注のものだけを取り出したもの。変異形を追加したものには末尾にb, c, dを付した。 |
 | **注文ID** | **`definition_seq_id`** | Foreign Key | An identifier for each component of the **`Definition (Original Glosses)`** or for the **`Headword`** itself within an **`Entry`**. It is formed by appending a sequential suffix (e.g., "\_00" for the **`Headword`**, "\_01", "\_02" for subsequent elements) to the corresponding `entry_id`. | 連番で与えられるFで始まる5桁の見出しの数値IDに加えて、見出しの下に記される注文の各要素を出現順に区分し、出現の順番に\_01、\_02のように追加したもの。見出しには\_00を追加する。 |
 | 資料番号         | material\_id               |             | Material ID                                                                                                                                                                                                                                                                                     | 資料ID                                                |
 | 資料名           | material\_name             |             | Name of the material                                                                                                                                                                                                                                                                            | 資料の名称                                            |
@@ -86,7 +86,7 @@ HDIC独自のカラム名は**太字**とした。
 K・巻数（2桁）・風間版頁数（3桁）・行数（1桁）、段数（1桁）の形式で示す。
 たとえばK0201474は巻2、14頁、7行、4段に出現することを表す。
 
-現在は、事例研究の[DHSJRとの連携](/docs/krm/08-case-studies/5-dhsjr/)にて
+現在は、事例研究の[DHSJRとの連携](/docs/krm/08-case-studies/08-05-dhsjr/)にて
 検討しているので、そちらも参照されたい。
 
 

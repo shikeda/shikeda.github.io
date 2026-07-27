@@ -46,7 +46,7 @@ The `krm_wakun` file exclusively lists **`Japanese Native Reading` (*wakun*)** d
 
 Furthermore, instances requiring particularly detailed explanation are described in the `remarks` column of the `krm_notes` file as **`Compiler's Remarks`**.
 
-For more details on the overall structure of the published data and file formats, please refer to the [Overview of Public Data](/docs/krm/02-data-overview/).
+For more details on the overall structure of the published data and file formats, please refer to the [Overview of Public Data](/en/docs/krm/02-data-overview/).
 
 The transcription of the **`Original Glosses`** is recorded in the `definition` column of the `krm_main` public data file.
 In the `krm_notes` file, the constituent elements of the **`Original Glosses`**—namely **`Notes on Character Form`**, **`Phonetic Glosses`**, **`Semantic Glosses in Chinese`**, **`Japanese Native Readings` (*wakun*)**, and **`Other`** information—are categorized and recorded in the `definition_elements` column.
@@ -58,7 +58,7 @@ This section addresses issues such as **`Miswritten Characters`** (誤字, *goji
 
 ### `Miswritten Characters` (誤字, *goji*)
 
-When a **`Headword`** is clearly a **`Miswritten Character`** (誤字, *goji*), the collated (corrected) form is recorded in the `hanzi_entry` column, and the original manuscript form is recorded in the `original_entry` column. The basis for the collation is provided in the `remarks` column of the `krm_notes` file (for details on `krm_notes`, please refer to the relevant section in the [Overview of Public Data](/docs/krm/02-data-overview/)).
+When a **`Headword`** is clearly a **`Miswritten Character`** (誤字, *goji*), the collated (corrected) form is recorded in the `hanzi_entry` column, and the original manuscript form is recorded in the `original_entry` column. The basis for the collation is provided in the `remarks` column of the `krm_notes` file (for details on `krm_notes`, please refer to the relevant section in the [Overview of Public Data](/en/docs/krm/02-data-overview/)).
 
 **Examples (Original Japanese remarks):**
 - `hanzi_entry`: 向／後, `original_entry`: 〇／ー（彴）, `remarks`: 掲出字は「向後」とすべきを誤る。岡田研究193-194頁に「ー」使用は高山寺本が適切との指摘あり。

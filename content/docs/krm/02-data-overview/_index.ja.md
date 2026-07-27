@@ -60,7 +60,7 @@ KRMを付していたが、仕様変更後のファイルは、krmを付すこ�
 ![ER diagram.](/images/krmer.drawio.png)
 
 なお、krm_notes.json は入れ子構造を持つデータであり、各レコードは複数の定義（definitions）の配列を内部に含んでいる。
-この詳細な構造については、[別ページ](./02-02-notes)にて説明する。
+この詳細な構造については、[別ページ](./02-02-notes/)にて説明する。
 
 
 ![ER_notes図](/images/krm_notes_er.drawio.png)

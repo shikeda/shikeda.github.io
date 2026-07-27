@@ -57,7 +57,7 @@ The JSON representation of `krm_notes` utilizes a nested format, as detailed bel
 ![ER_notes diagram](/images/krm_notes_er.drawio.png)
 
 
-In the **ER diagram**, the `krm_notes` table is shown as a child table linked to `krm_main` (as detailed in the [krm_main section](./02-01-main)) by `entry_id`. However, in the **actual JSON data**, the equivalent of the `krm_notes` table is not flat: instead, it is implemented as a **nested array of objects** under the key `"definitions"` within each top-level record (referred to as a `krm_main` conceptual record).
+In the **ER diagram**, the `krm_notes` table is shown as a child table linked to `krm_main` (as detailed in the [krm_main section](./02-01-main/)) by `entry_id`. However, in the **actual JSON data**, the equivalent of the `krm_notes` table is not flat: instead, it is implemented as a **nested array of objects** under the key `"definitions"` within each top-level record (referred to as a `krm_main` conceptual record).
 
 Each object inside the `definitions` array corresponds to a definition note and contains the following fields:
 
