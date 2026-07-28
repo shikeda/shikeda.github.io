@@ -99,11 +99,11 @@ weight: 19
 
 張馨方は簡略化して記載しているので、次には注文の全体をあげておこう。適宜改行を入れ、番号を付した。
 
-1. ![滴](https://glyphwiki.org/glyph/hdic_hkrm-05023611.50px.png)![𤁷](https://glyphwiki.org/glyph/hdic_hkrm-05023612.50px.png)**二正**　丁狄反　シタヽル(LL@@)　音的　アマツヒ 
+1. ![滴](https://glyphwiki.org/glyph/hdic_hkrm-05023611.50px.png)![𤁷](https://glyphwiki.org/glyph/hdic_hkrm-05023612.50px.png)**二正**　丁狄反　シタヽル(LL__)　音的　アマツヒ 
 2. ![𣾪](https://glyphwiki.org/glyph/hdic_hkrm-05023620.50px.png)**或**  
 3. ![渧](https://glyphwiki.org/glyph/hdic_hkrm-05023631.50px.png)![滳](https://glyphwiki.org/glyph/hdic_hkrm-05023632.50px.png)**二俗**  
 4. ![滳](https://glyphwiki.org/glyph/hdic_hkrm-05023640.50px.png)音商　阿懸名  
-5. ![渧](https://glyphwiki.org/glyph/hdic_hkrm-05023710.50px.png)音帝　音テイ(LH)　シタヽル(LLL"L)　アマツヒ　水ツミ　又都歴反　**俗滳字**  
+5. ![渧](https://glyphwiki.org/glyph/hdic_hkrm-05023710.50px.png)音帝　音テイ(LH)　シタヽル(LLLVL)　アマツヒ　水ツミ　又都歴反　**俗滳字**  
 
 1、2、3はいずれも「○★」の記載形式である。1は音注「丁狄反」と和訓「シタヽル」から考えて、![滴](https://glyphwiki.org/glyph/u6ef4.50px.png)であろう。「滴」は
 万象名義と新撰字鏡でも![滴](https://glyphwiki.org/glyph/hdic_hkrm-05023611.50px.png)の字形としている。
@@ -119,11 +119,11 @@ weight: 19
 
 観智院本以外の改編本において、この箇所が残るのは蓮成院本であるが、そこには次のように見えている（中一12裏）。
 
-1. ![滴](https://glyphwiki.org/glyph/u6ef4.50px.png)![𤁷](https://glyphwiki.org/glyph/u24077.50px.png)**二正**　丁狄反　シタヽル(LL@@)　アマツヒ　音的 
+1. ![滴](https://glyphwiki.org/glyph/u6ef4.50px.png)![𤁷](https://glyphwiki.org/glyph/u24077.50px.png)**二正**　丁狄反　シタヽル(LL__)　アマツヒ　音的 
 2. ![𣾪](https://glyphwiki.org/glyph/u23faa.50px.png)**或**  
 3. ![渧](https://glyphwiki.org/glyph/u6e27.50px.png)![滳](https://glyphwiki.org/glyph/twedu-a02301-004.50px.png)**二俗**  
 4. ![滳](https://glyphwiki.org/glyph/ligang_hkrm-05023640.50px.png)音商　阿懸名  
-5. ![渧](https://glyphwiki.org/glyph/u6e27.50px.png)音帝　音テイ(LL)　アマツヒ　シタヽル(LLL"L)　水ツミ　又都歴反　**俗滳字**  
+5. ![渧](https://glyphwiki.org/glyph/u6e27.50px.png)音帝　音テイ(LL)　アマツヒ　シタヽル(LLLVL)　水ツミ　又都歴反　**俗滳字**  
 
 1の![𤁷](https://glyphwiki.org/glyph/u24077.50px.png)のしんにょう（辶）は原文で1点であるが、作字の都合で2点となっている。
 

@@ -14,7 +14,7 @@ This section explains the types of annotations such as '正' (standard), '通' (
 
 ## Form Classification Tags and Notation Formats
 
-Lee Kyeong Won[^1] refers to annotations such as '正' (standard), '通' (common), and '俗' (popular/vulgar) as a **`Form Classification Tag`** (字級, *jikyū*).
+Lee Kyeong Won[^1] refers to annotations such as '正' (standard), '通' (common), and '俗' (popular/vulgar) as a **`Form Classification Tag`** (字級, *zìjí*).
 
 Regarding the notation formats of **`Notes on Character Form`** and the types of **`Form Classification Tags`**, there is a study by Zhang Xinfang[^2]. That study narrows its focus to six notation formats and seven **`Form Classification Tags`**, and organizes their patterns of occurrence.
 
@@ -88,11 +88,11 @@ Let us take up '滴' (Kanchi-in manuscript, *Hōjō* 23), the example cited by Z
 
 Since Zhang Xinfang's presentation is simplified, the full text of the **`Original Glosses`** is given below. Line breaks have been inserted as appropriate, and numbers have been assigned.
 
-1. ![滴](https://glyphwiki.org/glyph/hdic_hkrm-05023611.50px.png)![𤁷](https://glyphwiki.org/glyph/hdic_hkrm-05023612.50px.png)**二正**　丁狄反　シタヽル(LL@@)　音的　アマツヒ 
+1. ![滴](https://glyphwiki.org/glyph/hdic_hkrm-05023611.50px.png)![𤁷](https://glyphwiki.org/glyph/hdic_hkrm-05023612.50px.png)**二正**　丁狄反　シタヽル(LL__)　音的　アマツヒ 
 2. ![𣾪](https://glyphwiki.org/glyph/hdic_hkrm-05023620.50px.png)**或**  
 3. ![渧](https://glyphwiki.org/glyph/hdic_hkrm-05023631.50px.png)![滳](https://glyphwiki.org/glyph/hdic_hkrm-05023632.50px.png)**二俗**  
 4. ![滳](https://glyphwiki.org/glyph/hdic_hkrm-05023640.50px.png)音商　阿懸名  
-5. ![渧](https://glyphwiki.org/glyph/hdic_hkrm-05023710.50px.png)音帝　音テイ(LH)　シタヽル(LLL"L)　アマツヒ　水ツミ　又都歴反　**俗滳字**  
+5. ![渧](https://glyphwiki.org/glyph/hdic_hkrm-05023710.50px.png)音帝　音テイ(LH)　シタヽル(LLLVL)　アマツヒ　水ツミ　又都歴反　**俗滳字**  
 
 Items 1, 2, and 3 are all in the '○★' notation format. Based on the **`Phonetic Gloss`** '丁狄反' and the **`Japanese Native Reading` (*wakun*)** 'シタヽル' in item 1, this is presumably ![滴](https://glyphwiki.org/glyph/u6ef4.50px.png). '滴' is also given the glyph form ![滴](https://glyphwiki.org/glyph/hdic_hkrm-05023611.50px.png) in both the *Tenrei Banshō Meigi* and the *Shinsen Jikyō*, which can be confirmed via a [CHISE](https://www.chise.org/est/view/character/滴) search. '滴' is not included in HNG (Hanzi Normative Glyphs Database), but '適,' which has '啇' as one of its constituent components, is written with the '啇' portion in the form of '商' in Japanese manuscripts (the *Miroku Jōshō*, *Inseidaikyō*, and *Bussetsu Daikyō*).
 
@@ -104,11 +104,11 @@ Item 1 has wormhole damage and is difficult to decipher, but **Masamune's Index*
 
 Among the revised-compilation manuscripts other than the Kanchi-in manuscript, this passage survives only in the Renjō-in manuscript, where it appears as follows (Middle volume, fascicle 1, folio 12 verso).
 
-1. ![滴](https://glyphwiki.org/glyph/u6ef4.50px.png)![𤁷](https://glyphwiki.org/glyph/u24077.50px.png)**二正**　丁狄反　シタヽル(LL@@)　アマツヒ　音的 
+1. ![滴](https://glyphwiki.org/glyph/u6ef4.50px.png)![𤁷](https://glyphwiki.org/glyph/u24077.50px.png)**二正**　丁狄反　シタヽル(LL__)　アマツヒ　音的 
 2. ![𣾪](https://glyphwiki.org/glyph/u23faa.50px.png)**或**  
 3. ![渧](https://glyphwiki.org/glyph/u6e27.50px.png)![滳](https://glyphwiki.org/glyph/twedu-a02301-004.50px.png)**二俗**  
 4. ![滳](https://glyphwiki.org/glyph/ligang_hkrm-05023640.50px.png)音商　阿懸名  
-5. ![渧](https://glyphwiki.org/glyph/u6e27.50px.png)音帝　音テイ(LL)　アマツヒ　シタヽル(LLL"L)　水ツミ　又都歴反　**俗滳字**  
+5. ![渧](https://glyphwiki.org/glyph/u6e27.50px.png)音帝　音テイ(LL)　アマツヒ　シタヽル(LLLVL)　水ツミ　又都歴反　**俗滳字**  
 
 For item 1, the '辶' (*shinnyō*, motion radical) of ![𤁷](https://glyphwiki.org/glyph/u24077.50px.png) has a single dot in the original text, but appears with two dots here for reasons of glyph construction.
 
