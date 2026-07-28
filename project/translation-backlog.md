@@ -1,14 +1,3 @@
----
-title: "Translation Backlog"
-weight: 62
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-bookCollapseSection: true
-# bookComments: false
-# bookSearchExclude: false
----
-
 # Translation Backlog
 
 `content/docs/krm/` 全体のレビュー（Review Trial 001〜014）を通じて確認された、英語版が未整備の

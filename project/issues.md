@@ -1,23 +1,11 @@
----
-title: "未解決事項一覧 (Open Issues)"
-weight: 61
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-bookCollapseSection: true
-# bookComments: false
-# bookSearchExclude: false
----
-
 # 未解決事項一覧 (Open Issues)
 
-このページは、`governance/review-trials/`（リポジトリ直下、非公開）に記録された各 Review Trial のうち、
+このファイルは、`governance/review-trials/`（リポジトリ直下、非公開）に記録された各 Review Trial のうち、
 **現時点で未解決のまま残っている項目**をまとめたものである。Review Trial で見つかった問題の大半は
-その場で修正・検証済みだが、本ページに挙げる項目は、プロジェクトオーナーの判断や、まとまった作業量を
+その場で修正・検証済みだが、本ファイルに挙げる項目は、プロジェクトオーナーの判断や、まとまった作業量を
 要するため、意図的に手を付けずに記録のみされている。
 
-各 Review Trial の詳細な経緯・根拠・検証記録は、リポジトリの `governance/review-trials/REVIEW_TRIAL_NNN.md`
-（本サイトでは非公開）を参照。
+各 Review Trial の詳細な経緯・根拠・検証記録は、`governance/review-trials/REVIEW_TRIAL_NNN.md` を参照。
 
 2026年7月28日時点の状況。
 
@@ -26,7 +14,7 @@ bookCollapseSection: true
 ## 1. 翻訳状況に関する項目 (Translation Status)
 
 `05-annotation-policy/` と `06-typesetting/` のレビュー（Review Trial 011, 012）で見つかった、
-英語版ページの翻訳状況に関する2種類の課題。詳細は [Translation Backlog](../translation-backlog/) を参照。
+英語版ページの翻訳状況に関する2種類の課題。詳細は [translation-backlog.md](./translation-backlog.md) を参照。
 
 ### Translation Pending（未翻訳）
 
@@ -75,3 +63,10 @@ Requires Confirmation ではなく Allowed 相当だが、記事内容そのも�
 上記以外の Requires Confirmation 項目（Trial 001〜014 の UR1〜UR7 等、多数）は、
 すべてプロジェクトオーナーの確認を経て解決済み・クローズ済みである。個別の経緯は
 各 `governance/review-trials/REVIEW_TRIAL_NNN.md` を参照。
+
+---
+
+## 更新履歴
+
+- 2026-07-28: `content/docs/krm/project/issues.md` として作成、公開を避けるためリポジトリ直下
+  `project/issues.md` に移動。

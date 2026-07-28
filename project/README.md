@@ -1,26 +1,15 @@
----
-title: "Project Management Documents"
-weight: 60
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-bookCollapseSection: true
-# bookComments: false
-# bookSearchExclude: false
----
-
 # Project Management Documents
 
-このディレクトリには、`content/docs/krm/` の運用・整備状況を管理するためのドキュメントを置く。
-KRM Documentation 本体（学術的な内容）とは性格が異なり、進捗管理のための記録である点は
-`07-progress/`（注釈作成の進捗状況）と同様の位置づけになる。
+このディレクトリ（リポジトリ直下、`content/` の外＝非公開）には、`content/docs/krm/` の運用・整備状況を
+管理するためのドキュメントを置く。`governance/review-trials/` と同様、Hugo のビルド対象外であり、
+サイトとして公開されることはない。
 
 ## このディレクトリのファイル
 
-- **[Open Issues](../issues/)** — Review Trial（`governance/review-trials/`、リポジトリ直下・非公開）で
-  見つかったが未解決のまま残っている項目の一覧。翻訳状況に関する2項目（Translation Pending /
-  Intentional Summary）と、その他の軽微なバックログ項目をまとめている。
-- **[Translation Backlog](../translation-backlog/)** — 英語版が未整備のページを
+- **[issues.md](./issues.md)** — Review Trial（`governance/review-trials/`）で見つかったが未解決のまま
+  残っている項目の一覧。翻訳状況に関する2項目（Translation Pending / Intentional Summary）と、
+  その他の軽微なバックログ項目をまとめている。
+- **[translation-backlog.md](./translation-backlog.md)** — 英語版が未整備のページを
   「Core Documentation（未翻訳）」「Summary Only（意図的な要約）」「Japanese Only（方針上、翻訳不要）」
   の3区分に整理したチェックリスト。
 
