@@ -1,5 +1,5 @@
 ---
-title: "Types and Decipherment Problems of Pronunciation Notes"
+title: "Types and Decipherment Problems of Phonetic Glosses"
 weight: 20
 # bookFlatSection: false
 # bookToc: true
@@ -8,90 +8,74 @@ weight: 20
 # bookComments: false
 # bookSearchExclude: false
 ---
-Under preparation.
+# Types and Decipherment Problems of Phonetic Glosses
 
-# Types and Decipherment Problems of Pronunciation Notes
+In examining **`Phonetic Glosses`**, comparison with the *Guangyun*'s phonetic glosses is fundamental. In the original compilation of the *Myōgishō*, citations from the *Tōgū Qieyun* (東宮切韻) are frequent, and it is expected that **`Phonetic Glosses`** derived from *Qieyun*-lineage rhyme books are likewise numerous in the revised compilation. In the original compilation of the *Myōgishō*, citations from the original *Yupian* (原本玉篇) and the *Tenrei Banshō Meigi* are about as frequent as those from the *Tōgū Qieyun*, so collation of the Kanchi-in manuscript's **`Phonetic Glosses`** against these must also be carried out. The most frequently cited source in the original compilation of the *Myōgishō* is Xuanying's *Yiqiejing yinyi*, so the Kanchi-in manuscript's **`Phonetic Glosses`** must likewise be collated against the *Yiqiejing yinyi*. Additionally, the original compilation of the *Myōgishō* also contains **`Phonetic Glosses`** derived from the *Wamyō Ruijushō*, which sometimes diverge from the Middle Chinese phonological system.
 
-音注の検討では、広韻の音注との比較が基本となる。
-原撰本名義抄では、東宮切韻の引用頻度が高く、
-切韻系韻書に由来する音注が改編本でも多くなっていると
-予想される。
-原撰本名義抄では、この他に原本玉篇、万象名義の引用が多い
-東宮切韻と同程度あり、観智院本の音注についても照合が必要である。原撰本名義抄で引用頻度が
-最も多いのは玄応の一切経音義であり、同様に観智院本の音注と一切経音義との照合するが必要である。
-また、原撰本名義抄には和名抄由来の音注もあり、漢語の中古音の体系と相違することがある。
+However, depending on how one counts, the Kanchi-in manuscript contains approximately 24,000 **`Phonetic Glosses`**, and collation will take considerable time. First, using the *Guangyun* as a reference, we will investigate whether each **`Headword`** appears there, its rhyme group, its *fanqie* spelling, and its *xiaoyun* character, among other points. Next, for **`Phonetic Glosses`** that do not match the *Guangyun*, we will examine them in turn against the *Tenrei Banshō Meigi*, the Song edition of the *Yupian*, the *Yiqiejing yinyi*, the *Wamyō Ruijushō*, and other sources.
 
-しかし、観智院本の音注は数え方にもよるが、約24,000あり、照合には時間を要する
-まずは、広韻を参考にして、掲出字の有無、所属韻、反切、小韻字などを調査する。
-次に広韻に一致しない音注を、万象名義、宋本玉篇、一切経音義、
-和名抄などについて、順次検討して行くということにする。
+Although there is no direct citation in the original compilation of the *Myōgishō*, the revised compilation contains entries similar to those in the *Longkan Shoujian/Shoujing*, so reference to the *Longkan Shoujian/Shoujing* is also indispensable.
 
-原撰本名義抄では直接的な引用はないが、改編本には龍龕手鏡の類似する項目があるので、
-龍龕手鏡の参照も欠かせない。
+## Types of Phonetic Glosses
 
-## 音注の種類
+In terms of notational form, there are **`Fanqie spellings`**, homophone-character glosses, **`Kana glosses`**, and **`Tone Marks`**.
 
-表記形式では、
-反切、同音字注、仮名音注、声点
-がある。
+In terms of content, there are *Seion* (正音, standard pronunciations), *Kan-on*, *Wa-on*, and *Go-on*.
 
-内容では、
-正音、漢音、和音、呉音がある。
+## Fanqie Spellings
 
-## 反切
+The following is a passage where **`Headwords`** not recorded in the *Guangyun* appear in succession.
 
-次は広韻に記載のない掲出字が連続して出現する箇所である。
+- `kazama_location`: K01016330, `hanzi_entry`: 仱, `definition`: 紺音　渠廉反　古樂人
+- `kazama_location`: K01016340, `hanzi_entry`: 佡, `definition`: 俗仚字　丘豉反　呼莚反
+- `kazama_location`: K01016410, `hanzi_entry`: ⿰亻企, `definition`: 俗企字
 
-    K0101633    仱	紺音　渠廉反　古樂人
-    K0101634    佡	俗仚字　丘豉反　呼莚反
-    K0101641    ⿰亻企	俗企字
+Let us divide these three entries according to the differences in the content of their **`Original Glosses`**, number them in order of appearance, and add a commentary to each.
 
-この3項目を注文の内容の相違により区切って出現順の番号を付して表示し、それぞれに解説を加えてみよう。
+- `kazama_location`: K01016330, `hanzi_entry`: 仱,  
+    `definition`:
+    1. 紺音, `remarks`: Not found in the *Guangyun*. '紺' appears in the *Guangyun* as 古暗切 (Departing tone, *Kan* rhyme).
+    2. 渠廉反, `remarks`: *Tenrei Banshō Meigi*: 渠廉反. Level tone, *Yan* rhyme, *Qun* initial.
+    3. 古樂人, `remarks`: *Tenrei Banshō Meigi*: 古樂人也.
+- `kazama_location`: K01016340, `hanzi_entry`: 佡,   
+    `definition`: 
+    1. 俗仚字, `remarks`: '仚' appears in the *Shuowen Jiezi* as '人在山上' (a person atop a mountain).
+    2. 丘豉反, `remarks`: Not found in the *Guangyun*. '仚' appears in the *Guangyun* as 許延切 (Level tone, *Xian* rhyme). '丘豉反' corresponds to the Departing tone, *Zhi* rhyme, *Xi* initial. '企' appears in the *Guangyun* as both 丘弭切 (Rising tone, *Zhi* rhyme) and 去智切 (Departing tone, *Zhi* rhyme); this corresponds to the latter reading.
+    3. 呼莚反, `remarks`: *Longkan Shoujian/Shoujing*: '佡仚　許延反。輕也。二。' (Fascicle 1, '人' radical).
+- `kazama_location`: K01016410, `hanzi_entry`: ⿰亻企, 
+    `definition`: 
+    1. 俗企字
 
-    K0101633_01	仱	紺音	広韻になし。「紺」は広韻「古暗切」（去声勘韻）。
-    K0101633_02	仱	渠廉反	万象名義「渠廉反」。平声鹽韻羣母。
-    K0101633_03	仱	古樂人	万象名義「古樂人也」。
-    K0101634_01	佡	俗仚字	「仚」は説文「人在山上」。
-    K0101634_02	佡	丘豉反	広韻になし。「仚」は広韻「許延切」（平声仙韻）。「丘豉反」は去声寘韻渓母。「企」は広韻「丘弭切」（上声紙韻）、「去智切」（去声寘韻）あり、後者の音に対応。
-    K0101634_03	佡	呼莚反	龍龕手鏡「佡仚　許延反。輕也。二。」（巻1人部）。
-    K0101641_01	⿰亻企	俗企字		
 
-最後のK0101641「`⿰亻企`」はUnicodeのu2cf7e(𬽾)にあるが、
-環境により表示されない。GlypWikiで表示すると
-![⿰亻企](https://glyphwiki.org/glyph/u2cf7e.50px.png)となる。
+The last one, `K01016410` '⿰亻企', is at Unicode U+2CF7E (𬽾), but may not display depending on the environment. Displayed via GlyphWiki, it appears as ![⿰亻企](https://glyphwiki.org/glyph/u2cf7e.50px.png).
 
-さて、K0101634「佡」は広韻に見えない。万象名義や宋本玉篇にも見えない。
-龍龕手鏡に「許延反」（平声仙韻）が見え、観智院本の「呼莚反」に近い。
+Now, `K01016340` '佡' does not appear in the *Guangyun*. Nor does it appear in the *Tenrei Banshō Meigi* or the Song edition of the *Yupian*. The *Longkan Shoujian/Shoujing* gives '許延反' (Level tone, *Xian* rhyme), which is close to the Kanchi-in manuscript's '呼莚反'.
 
-観智院本は、この他「丘豉反」（去声寘韻）が記載されている。
-この反切は玄応音義巻第四大灌頂經第一卷に
+The Kanchi-in manuscript additionally records '丘豉反' (Departing tone, *Zhi* rhyme). This *fanqie* spelling appears in Xuanying's *Yiqiejing yinyi*, Fascicle 4, in the first fascicle of the *Great Consecration Sūtra* (大灌頂經), as:
+```
+郁佡　丘豉反。經文作㑫、非也。（高麗本）
+```
+'佡' agrees between the Kongō-ji and Saihō-ji manuscripts, but the Nanatsu-dera manuscript writes '伱'.
 
-    郁佡　丘豉反。經文作㑫、非也。（高麗本）
+Additionally, in Xuanying's *Yiqiejing yinyi*, Fascicle 5, in the first fascicle of the *Sūtra of the Spells of the Seven Buddhas* (七佛神呪經), it appears as:
 
-と見える。「佡」は金剛寺本・西方寺本同じだが、七寺本は「伱」に作る。
+```
+目佡　丘豉反。（高麗本）
+```
 
-また玄応音義巻第五七佛神呪經第一卷に
+Few old manuscripts survive for this passage, and the Nanatsu-dera manuscript writes '伱'. It is not possible to determine which of these two is correct, but it seems reasonable to regard the Kanchi-in manuscript's '丘豉反' as deriving from the *Yiqiejing yinyi*.
 
-    目佡　丘豉反。（高麗本）
+Searching the Taishō Tripiṭaka for '郁佡' in the *Great Consecration Sūtra*, the corresponding passage appears to be in the *Sūtra of the Seven Myriad Two Thousand Spirit-King Protector Bhikṣus Spoken by the Buddha at the Consecration* (佛説灌頂七萬二千神王護比丘呪經, Taishō No. 1331, translated by Śrīmitra), which reads '神名闍羅尼郁⿰亻企目＊⿰亻企' (Taishō vol. 21, 496a). Searching for '目佡' in the *Sūtra of the Spells of the Seven Buddhas*, several instances of '目⿰亻企' are used in the *Great Dhāraṇī Spirit-Spell Sūtra Spoken by the Seven Buddhas and Eight Bodhisattvas* (七佛八菩薩所説大陀羅尼神呪經, Taishō No. 1332). Both '郁⿰亻企' and '目⿰亻企' are examples of Sanskrit phonetic transliteration.
 
-と見える。この箇所は古写本が少なく、七寺本が「伱」に作る。
-このどちらかは決定できないが、観智院本の「丘豉反」は玄応音義によるとしてよいであろう。
+Finally, let us also look at the entries surrounding the three entries discussed above.
 
-大正蔵で大灌頂經の「郁佡」を探すと、佛説灌頂七萬二千神王護比丘呪經 (No. 1331 帛戸梨蜜多羅譯)に
-「神名闍羅尼郁⿰亻企目＊⿰亻企」（大正蔵21、496a）とあるのが該当するようである。
-七佛神呪經の「目佡」を探すと、七佛八菩薩所説大陀羅尼神呪經 (No. 1332)に
-「目⿰亻企」がいくつか使用されている。
-「郁⿰亻企」「目⿰亻企」はいずれも梵語音訳の例である。
+- `kazama_location`: K01016320, `hanzi_entry`: 㑫, `definition`: 俗捻字　又俗佡字歟
+- `kazama_location`: K01016330, `hanzi_entry`: 仱, `definition`: 紺音　渠廉反　古樂人
+- `kazama_location`: K01016340, `hanzi_entry`: 佡, `definition`: 俗仚字　丘豉反　呼莚反
+- `kazama_location`: K01016410, `hanzi_entry`: ⿰亻企, `definition`: 俗企字
+- `kazama_location`: K01016421, `hanzi_entry`: 伱／你, `definition`: 尼(LV)尒反　ナムチ　イマ　ヲヒ
 
-最後に問題とした3項目の前後の項目も見ておこう。
-
-    K0101632    㑫  俗捻字　又俗佡字歟
-    K0101633    仱	紺音　渠廉反　古樂人
-    K0101634    佡	俗仚字　丘豉反　呼莚反
-    K0101641    ⿰亻企	俗企字
-    K0101642    伱／你  尼(L")尒反　ナムチ　イマ　ヲヒ
-
-掲出字をGlyphWikiで表示すると次のようになる。
+The **`Headwords`** are shown via GlyphWiki as follows.
 
 ![㑫](https://glyphwiki.org/glyph/hdic_hkrm-01016320.50px.png)
 ![仱](https://glyphwiki.org/glyph/hdic_hkrm-01016330.50px.png)
@@ -100,55 +84,76 @@ Under preparation.
 ![伱](https://glyphwiki.org/glyph/hdic_hkrm-01016421.50px.png)
 ![你](https://glyphwiki.org/glyph/hdic_hkrm-01016422.50px.png)
 
-最初のK0101632「㑫」は玄応音義巻第四大灌頂經第一卷に「郁佡　丘豉反。經文作㑫、非也。」
-とある注文の「經文作㑫、非也」が関連しよう。
+The first one, K0101632 '㑫', is presumably related to the note "經文作㑫、非也" ("the sutra text writes it as 㑫, which is incorrect") found in Xuanying's *Yiqiejing yinyi*, Fascicle 4, in the first fascicle of the *Great Consecration Sūtra*:
+```
+郁佡　丘豉反。經文作㑫、非也。
+```
 
-また、「㑫」は、龍龕手鏡に次のように見える。
+Additionally, '㑫' appears in the *Longkan Shoujian/Shoujing* as follows.
 
-    La0390903   㑫  俗。乃叶反。又舊藏作弃。在七佛神咒經。（高麗本）
+- `location`: La0390903, `hanzi_entry`: 㑫, `definition`: 俗。乃叶反。又舊藏作弃。在七佛神咒經。（高麗本）
 
-高麗本龍龕手鏡は「㑫」を![㑫](https://glyphwiki.org/glyph/hdic_hkrm-01016320.50px.png)に作るが、これは観智院本も同じである。
+The Korean edition of the *Longkan Shoujian/Shoujing* writes '㑫' as ![㑫](https://glyphwiki.org/glyph/hdic_hkrm-01016320.50px.png), which agrees with the Kanchi-in manuscript.
 
-K0101642「伱／你」はその前の「佡」「⿰亻企」の類似字形である。
+`K0101642` '伱／你' is a glyph form similar to the preceding '佡' and '⿰亻企'.
 
-## 同音字注
+## Homophone-Character Glosses
 
-同音字注は類音注ともいう。
+**`Homophone glosses`** (同音字注, *dōonji-chū*) are also called **`Similar sound notes`** (類音注, *ruion-chū*). These are annotations that indicate a **`Headword`**'s pronunciation using a single homophonous or near-homophonous character, mostly in the form '音◯' or '◯音.' For two-character compounds, the marker '二音' ("two readings") may be appended, giving the form '◯△二音.'
 
-## 仮名音注
+For example, '留' has '音流,' indicating it is read with the pronunciation of '流.' The two-character compound '鷦鷯' has '焦(L)「セウ」遼(L)「レウ」二音,' recording the **`Similar sound notes`** for '鷦' and '鷯' together under a single '二音.' Special cases that also indicate tone, such as '音鴛之上声' ("pronounced as 鴛, Rising tone"), are classified under "Other."
 
-## 声点
+## Kana Glosses
 
-## 片仮名と誤認されやす反切
+**`Kana glosses`** (仮名音注, *kana-onchū*) are phonetic glosses written in katakana. Irregular examples that use Chinese characters to indicate a palatalized (*yōon*) or voiced (*dakuon*) sound are also included among **`Kana glosses`**.
+
+For example, '正' has '和者ウ,' indicating a palatalized sound using Chinese characters, and '堂' has '俗云堕ウ,' indicating a voiced sound using Chinese characters.
+
+## Tone Marks
+
+**`Tone Marks`** indicate the tonal category (the four tones, or six tones) and the voiced/unvoiced distinction, applied to **`Headwords`** and to the characters used within **`Phonetic Glosses`**. Following a specification change in March 2025, KRM represents these with a single Roman letter, as shown below.
+
+| Category | Symbol |
+|-----|-----|
+| 平 (Level) | L |
+| 平軽 (Light Level) | F |
+| 上 (Rising) | H |
+| 去 (Departing) | R |
+| 入 (Entering) | T |
+| 入軽 (Light Entering) | S |
+| 濁 (Voiced) | V |
+| No tone mark | _ |
+| Nasal symbol | N |
+
+## Fanqie Spellings Easily Mistaken for Katakana
 
     K0310343    楔  先結反　始死ー齒　又工八反　門雨邊木　ニハサクラ　ニハクサ
     K0401963    尬  工八反　又斤音　又五點反　ー尬行不正
 
-最初の「楔」は広韻「古黠切」（入声黠韻、戛）、「先結切」（入声屑韻、屑）の二音あり、「工八反」は「古黠切」に対応。
-「工八反」を正宗索引・草川和訓集成は「エハメ」で採録するが、和訓でなく反切とすべき例である。
+The first one, '楔', has two readings in the *Guangyun*: 古黠切 (Entering tone, *Xia* rhyme, *xiaoyun* 戛) and 先結切 (Entering tone, *Xie* rhyme, *xiaoyun* 屑); '工八反' corresponds to 古黠切. Masamune's Index and Kusakawa's *Wakun Shūsei* record '工八反' as 'エハメ' (*ehame*), but this is an example that should be classified as a *fanqie* spelling rather than a **`Japanese Native Reading` (*wakun*)**.
 
-二番目の「尬」は広韻「古拜切」（去声怪韻、誡）だが、万象名義「公八反」、新撰字鏡「公八公鎋二反」、宋本玉篇「公拜公鎋二切」とあり、入声黠韻の反切（「公八」）を記載する。正宗索引と草川和訓集成は「コハメ」で採録するが、和訓でなく反切とすべき例である。
+The second one, '尬', appears in the *Guangyun* as 古拜切 (Departing tone, *Guai* rhyme, *xiaoyun* 誡), but the *Tenrei Banshō Meigi* gives 公八反, the *Shinsen Jikyō* gives 公八公鎋二反, and the Song edition of the *Yupian* gives 公拜公鎋二切 — all of which record a *fanqie* spelling for the Entering tone, *Xia* rhyme ('公八'). Masamune's Index and Kusakawa's *Wakun Shūsei* record this as 'コハメ' (*kohame*), but this too is an example that should be classified as a *fanqie* spelling rather than a **`Japanese Native Reading` (*wakun*)**.
 
 
-## 参考文献
+## References
 
-- 吉田金彦「類聚名義抄にみえる和音注について」『国語学』6、44-53頁、1951年
-- 小松英雄「図書寮本類聚名義抄にみえる特殊な注音方式とその性格(上)」『訓点語と訓点資料』10、416-435頁、1958年
-- 渡辺修「類聚名義抄の呉音の性格」『大妻女子大学文学部紀要』1、37-44頁、1969年
-- 渡辺修「類聚名義抄の「呉音」の体系」『国語と国文学』47(10)、109-123頁、1970年
-- 渡辺修「類聚名義抄の和音の性格」『大妻女子大学文学部紀要』3、93-106頁、1971年
-- 田尻英三「図書寮本類聚名義抄の和音注の性格」『語文研究』33、1-12頁、1972年
-- 沼本克明「図書寮本類聚名義抄「真興音(和音)」論続貂」『国語と国文学』55(10)、54-68頁、1978年
-- 望月郁子「観智院本「類聚名義抄」の和音注―法華経字彙との関連において」『訓点語と訓点資料』63、1-26頁、1979年
-- 沼本克明「観智院本類聚名義抄和音分韻表」『鎌倉時代語研究』3、61-78頁、1980年
-- 武市真弘「類聚名義抄和訓の傍書の分類--音韻に関するものについて」『山口女子大学研究報告 第1部 人文・社会科学』7、41-44頁、1981年
-- 沖森卓也「観智院本類聚名義抄の和音の声調」『白百合女子大学研究紀要』18、58-98頁、1982年
-- 望月郁子「観智院本「類聚名義抄」の正音注―同音字注における図書寮本との一致を中心に」『人文論叢』41、77-96頁、1990年
-- 沼本克明「類聚名義抄に於ける濁音字母の歴史的位置」『国文学攷』132・133、10-22頁、1992年
-- 望月郁子「観智院本「類聚名義抄」の和音注一覧--「韻鏡」に則っての整理の試み-1-」『人文論叢』45(1)、131-172頁、1994年
-- 望月郁子「観智院本「類聚名義抄」の和音注一覧-2-「韻鏡」に則っての整理の試み」『人文論叢』45(2)、87-122頁、1995年
-- 佐々木勇「改編本『類聚名義抄』と三巻本『色葉字類抄』の漢音」『訓点語と訓点資料』116、29-51頁、2006年
-- 肥爪周二「濁音標示・喉内鼻音韻尾標示の相関--観智院本類聚名義抄を中心に」『訓点語と訓点資料』116、52-70頁、2006年
-- 佐々木勇「図書寮本『類聚名義抄』院政期点における漢音声調」『国語国文』75(4)、12-29頁、2006年
-- 鈴木裕也「改編本『類聚名義抄』における和音注の継承と増補について」『訓点語と訓点資料』144、82-104頁、2020年
-- 鈴木裕也「改編本『類聚名義抄』の呉音注と共通祖本について」『国語国文』90(2)、27-57頁、2021年
+- Yoshida, Kanehiko. "Ruiju Myōgishō ni Mieru Wa-on-chū ni Tsuite" (On the *Wa-on* Notes Found in the *Ruiju Myōgishō*). *Kokugogaku* 6 (1951): 44–53.
+- Komatsu, Hideo. "Zushoryōbon Ruiju Myōgishō ni Mieru Tokushu na Chūon Hōshiki to sono Seikaku (Jō)" (The Special Phonetic Notation Method Found in the Zushoryōbon *Ruiju Myōgishō* and Its Character, Part 1). *Kuntengo to Kunten Shiryō* 10 (1958): 416–435.
+- Watanabe, Osamu. "Ruiju Myōgishō no Go-on no Seikaku" (The Character of the *Go-on* Readings in the *Ruiju Myōgishō*). *Ōtsuma Joshi Daigaku Bungakubu Kiyō* 1 (1969): 37–44.
+- Watanabe, Osamu. "Ruiju Myōgishō no 'Go-on' no Taikei" (The System of the '*Go-on*' Readings in the *Ruiju Myōgishō*). *Kokugo to Kokubungaku* 47, no. 10 (1970): 109–123.
+- Watanabe, Osamu. "Ruiju Myōgishō no Wa-on no Seikaku" (The Character of the *Wa-on* Readings in the *Ruiju Myōgishō*). *Ōtsuma Joshi Daigaku Bungakubu Kiyō* 3 (1971): 93–106.
+- Tajiri, Eizō. "Zushoryōbon Ruiju Myōgishō no Wa-on-chū no Seikaku" (The Character of the *Wa-on* Notes in the Zushoryōbon *Ruiju Myōgishō*). *Gobun Kenkyū* 33 (1972): 1–12.
+- Numoto, Katsuaki. "Zushoryōbon Ruiju Myōgishō 'Shinkō-on (Wa-on)' Ron Zokuchō" (A Supplementary Note on the Discussion of 'Shinkō-on (*Wa-on*)' in the Zushoryōbon *Ruiju Myōgishō*). *Kokugo to Kokubungaku* 55, no. 10 (1978): 54–68.
+- Mochizuki, Ikuko. "Kanchi-in-bon 'Ruiju Myōgishō' no Wa-on-chū — Hokekyō Jii to no Kanren ni Oite" (The *Wa-on* Notes of the Kanchi-in Manuscript *Ruiju Myōgishō*: In Relation to the *Hokekyō Jii*). *Kuntengo to Kunten Shiryō* 63 (1979): 1–26.
+- Numoto, Katsuaki. "Kanchi-in-bon Ruiju Myōgishō Wa-on Bun'in-hyō" (A Table of *Wa-on* Rhyme Classifications in the Kanchi-in Manuscript *Ruiju Myōgishō*). *Kamakura Jidaigo Kenkyū* 3 (1980): 61–78.
+- Takeichi, Masahiro. "Ruiju Myōgishō Wakun no Bōsho no Bunrui — Onin ni Kansuru Mono ni Tsuite" (A Classification of the Marginal Glosses on the *Wakun* of the *Ruiju Myōgishō*: Concerning Those Related to Phonology). *Yamaguchi Joshi Daigaku Kenkyū Hōkoku, Dai 1-bu, Jinbun, Shakai Kagaku* 7 (1981): 41–44.
+- Okimori, Takuya. "Kanchi-in-bon Ruiju Myōgishō no Wa-on no Seichō" (The Tonal Values of the *Wa-on* Readings in the Kanchi-in Manuscript *Ruiju Myōgishō*). *Shirayuri Joshi Daigaku Kenkyū Kiyō* 18 (1982): 58–98.
+- Mochizuki, Ikuko. "Kanchi-in-bon 'Ruiju Myōgishō' no Seion-chū — Dōonji-chū ni Okeru Zushoryōbon to no Icchi o Chūshin ni" (The *Sei-on* Notes of the Kanchi-in Manuscript *Ruiju Myōgishō*: Focusing on Agreement with the Zushoryōbon in Homophone-Character Notes). *Jinbun Ronsō* 41 (1990): 77–96.
+- Numoto, Katsuaki. "Ruiju Myōgishō ni Okeru Dakuon Jibo no Rekishiteki Ichi" (The Historical Position of Voiced-Sound Graphemes in the *Ruiju Myōgishō*). *Kokubungaku Kō* 132/133 (1992): 10–22.
+- Mochizuki, Ikuko. "Kanchi-in-bon 'Ruiju Myōgishō' no Wa-on-chū Ichiran — 'Inkyō' ni Nottotte no Seiri no Kokoromi (1)" (A List of *Wa-on* Notes in the Kanchi-in Manuscript *Ruiju Myōgishō*: An Attempt at Organization Following the *Yunjing*, Part 1). *Jinbun Ronsō* 45, no. 1 (1994): 131–172.
+- Mochizuki, Ikuko. "Kanchi-in-bon 'Ruiju Myōgishō' no Wa-on-chū Ichiran (2) — 'Inkyō' ni Nottotte no Seiri no Kokoromi" (A List of *Wa-on* Notes in the Kanchi-in Manuscript *Ruiju Myōgishō*, Part 2: An Attempt at Organization Following the *Yunjing*). *Jinbun Ronsō* 45, no. 2 (1995): 87–122.
+- Sasaki, Isamu. "Kaihenbon 'Ruiju Myōgishō' to Sankanbon 'Iroha Jiruishō' no Kan-on" (The *Kan-on* Readings of the Revised-Compilation *Ruiju Myōgishō* and the Three-Fascicle *Iroha Jiruishō*). *Kuntengo to Kunten Shiryō* 116 (2006): 29–51.
+- Hizume, Shūji. "Dakuon Hyōji, Kōnai Bion In'bi Hyōji no Sōkan — Kanchi-in-bon Ruiju Myōgishō o Chūshin ni" (The Correlation Between Voiced-Sound Notation and Velar Nasal Coda Notation: Focusing on the Kanchi-in Manuscript *Ruiju Myōgishō*). *Kuntengo to Kunten Shiryō* 116 (2006): 52–70.
+- Sasaki, Isamu. "Zushoryōbon 'Ruiju Myōgishō' Insei-ki Ten ni Okeru Kan-on Seichō" (The Tonal Values of *Kan-on* Readings in the Insei-Period Glosses of the Zushoryōbon *Ruiju Myōgishō*). *Kokugo Kokubun* 75, no. 4 (2006): 12–29.
+- Suzuki, Yūya. "Kaihenbon 'Ruiju Myōgishō' ni Okeru Wa-on-chū no Keishō to Zōho ni Tsuite" (On the Inheritance and Augmentation of *Wa-on* Notes in the Revised-Compilation *Ruiju Myōgishō*). *Kuntengo to Kunten Shiryō* 144 (2020): 82–104.
+- Suzuki, Yūya. "Kaihenbon 'Ruiju Myōgishō' no Go-on-chū to Kyōtsū Sohon ni Tsuite" (On the *Go-on* Notes of the Revised-Compilation *Ruiju Myōgishō* and Their Common Ancestral Text). *Kokugo Kokubun* 90, no. 2 (2021): 27–57.
