@@ -12,6 +12,10 @@
 - **[translation-backlog.md](./translation-backlog.md)** — 英語版が未整備のページを
   「Core Documentation（未翻訳）」「Summary Only（意図的な要約）」「Japanese Only（方針上、翻訳不要）」
   の3区分に整理したチェックリスト。
+- **[workflows/](./workflows/)** — 翻訳作業など、継続的なタスクの手順（SOP）を定義する再利用可能な
+  プロンプト集。詳細は [workflows/README.md](./workflows/README.md) を参照。翻訳タスクの実施記録は、
+  `governance/review-trials/` と対をなす非公開ディレクトリ `governance/translation-review-trials/`
+  に `TRANSLATION_REVIEW_TRIAL_NNN.md` として残す。
 
 ## 背景：Review Trial による統治文書ベースのレビュー
 
@@ -34,7 +38,8 @@
 `content/docs/krm/` のレビュー完了後の想定作業は次のとおり（2026年7月28日時点）。
 
 1. `content/docs/krm/` レビュー完了（Review Trial 001〜014）
-2. 本ディレクトリの Open Issues／Translation Backlog 作成 ← 今ここ
-3. 日本語のみのページへの英文要旨の付与（英語版作成）
+2. 本ディレクトリの Open Issues／Translation Backlog 作成
+3. 日本語のみのページへの英文要旨の付与（英語版作成） ← 今ここ（`05-annotation-policy/` から着手、
+   `workflows/translation-workflow.md` の SOP に従って順次翻訳中）
 4. Documentation 公開
 5. `content/posts/` は日本語中心で継続（必要な記事だけ後から英訳）
