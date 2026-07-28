@@ -55,7 +55,7 @@ Requires Confirmation ではなく Allowed 相当だが、記事内容そのも�
 | 3 | Trial 003 NB1 | セクション索引ページが、要約ではなく本文記事のヘッダーをそのまま複製している | `01-introduction/_index.ja.md`, `_index.en.md` |
 | 4 | Trial 003 NB2 | `weight` の値が言語版間で不一致（ja: 2 / en: 3）。現状表示への影響はない | `01-introduction/01-01-introduction.ja.md`, `.en.md` |
 | 5 | Trial 007 NB1 | 「その他」節への参照リンクの一文が、他の節と異なり表の前後で重複している | `07-progress/2.md` |
-| 6 | 05-03 翻訳時 (2026-07-28) | 声点表記が古い翻刻方針のまま（声点無し `@` → `_`、濁声点 `"` → `V` に統一する必要あり）。`05-03-jitaichu-formats.{ja,en}.md` は修正済み。全体的な見直しは後回しにしている | `05-annotation-policy/05-04-onchu-problems.{ja,en}.md`、`08-case-studies/08-02-miru.md`、`08-case-studies/08-04-kana-split.md` ほか、声点付き和訓・音注を含む可能性のある全ページ |
+| 6 | 05-03 翻訳時 (2026-07-28) | 声点表記が古い翻刻方針のまま（声点無し `@` → `_`、濁声点 `"` → `V` に統一する必要あり）。`05-03-jitaichu-formats.{ja,en}.md`、`05-04-onchu-problems.{ja,en}.md` は修正済み。全体的な見直しは後回しにしている | `08-case-studies/08-02-miru.md`、`08-case-studies/08-04-kana-split.md` ほか、声点付き和訓・音注を含む可能性のある全ページ |
 
 ---
 
@@ -72,3 +72,6 @@ Requires Confirmation ではなく Allowed 相当だが、記事内容そのも�
 - 2026-07-28: `content/docs/krm/project/issues.md` として作成、公開を避けるためリポジトリ直下
   `project/issues.md` に移動。
 - 2026-07-28: 項目6（声点表記の古い翻刻方針）を追加。
+- 2026-07-28: 項目6を更新（05-04 も修正済みに反映）、項目7（05-04 の記載漏れ・脱字の疑い）を追加。
+- 2026-07-28: 項目7を解決済みとして削除。脱字はプロジェクトオーナーが `05-04-onchu-problems.ja.md` を直接修正。
+  「同音字注」「仮名音注」「声点」の本文は `08-05-dhsjr.md` の記述を要約のうえ ja/en 両版に追記。

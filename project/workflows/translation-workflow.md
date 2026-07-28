@@ -10,9 +10,9 @@ The current translation target is specified below.
 
 ## 2. Current Translation Target
 Translate the following file:
-- `05-04-onchu-problems.ja.md`
+- `05-05-gichu-quantity.ja.md`
 ↓
-- `05-04-onchu-problems.en.md`
+- `05-05-gichu-quantity.en.md`
 
 *(Note: Update the target files above for each execution.)*
 
@@ -69,9 +69,9 @@ The Translation Review Trial record MUST explicitly include:
 
 ## 2. 現在の翻訳対象
 以下のファイルを翻訳してください。
-- `05-04-onchu-problems.ja.md`
+- `05-05-gichu-quantity.ja.md`
 ↓
-- `05-04-onchu-problems.en.md`
+- `05-05-gichu-quantity.en.md`
 
 *(注：新しい翻訳タスクのたびに上記の対象ファイルを更新してください。)*
 
