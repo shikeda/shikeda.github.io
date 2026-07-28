@@ -15,7 +15,7 @@ weight: 1
 
 ## はじめに
 
-『類聚名義抄』は日本古辞書の雄編として名高い。 
+『類聚名義抄』は日本古辞書の雄編として名高い。
 書名の読み方は「るいじゅみょうぎしょう」である。
 源順撰『倭名類聚抄』の「類聚」と、空海撰『篆隷万象名義』の
 「名義」とを採用して書名としたとされる。
@@ -53,7 +53,7 @@ weight: 1
     - [注釈作成の基本方針と分析対象](/docs/krm/05-annotation-policy/05-01-basic-policy/)
     - [掲出字数の算出](/docs/krm/05-annotation-policy/05-02-headword-count/)
     - [字体注の種類と記載形式](/docs/krm/05-annotation-policy/05-03-jitaichu-formats/)
-    - [音注の種類と解読上の問題点 ](/docs/krm/05-annotation-policy/05-04-onchu-problems/)
+    - [音注の種類と解読上の問題点](/docs/krm/05-annotation-policy/05-04-onchu-problems/)
     - [義注の種類と数量](/docs/krm/05-annotation-policy/05-05-gichu-quantity/)
     - [和訓注釈のための基礎資料](/docs/krm/05-annotation-policy/05-06-wakun-materials/)
     - [注釈記述の具体例](/docs/krm/05-annotation-policy/05-07-annotation-examples/)
@@ -63,8 +63,8 @@ weight: 1
     - [sfkanbun.styの設定](/docs/krm/06-typesetting/06-03-sfkanbun-sty/)
     - [古辞書・訓点資料のためのLuaTeX組版備忘録](/docs/krm/06-typesetting/06-04-vscode-texlive/)
     - [オンラインツール](/docs/krm/06-typesetting/06-05-online-tools/)
-- [進捗状況](/docs/krm/06-progress/)
-- [事例研究](/docs/krm/07-case-studies/)
+- [進捗状況](/docs/krm/07-progress/)
+- [事例研究](/docs/krm/08-case-studies/)
 
 
 

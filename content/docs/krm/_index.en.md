@@ -1,9 +1,9 @@
 ---
 title: "Ruiju Myogisho"
-weight: 2
+weight: 1
 # date: 2022-01-09
-bookFlatSection: true
-bookToc: true
+# bookFlatSection: true
+# bookToc: true
 # bookHidden: true
 # bookHidden: false
 # bookCollapseSection: false
@@ -11,11 +11,11 @@ bookToc: true
 # bookSearchExclude: false
 ---
 
-#  *Ruiju Myōgishō* (KRM): Full text Database of the Kanchi-in Manuscript
+# *Ruiju Myōgishō* (KRM): Full text Database of the Kanchi-in Manuscript
 
 ## Introduction
 
-The *Ruiju Myōgishō* is renowned as a masterpiece among old Japanese dictionaries. The book title is read as "ruiju myōgishō." It is said that the title was formed by taking "Ruiju" from Minamoto no Shitagō's *Wamyō Ruijushō* and "Myōgi" from Kūkai's *Tenrei Banshō Myeigi*.
+The *Ruiju Myōgishō* is renowned as a masterpiece among old Japanese dictionaries. The book title is read as "ruiju myōgishō." It is said that the title was formed by taking "Ruiju" from Minamoto no Shitagō's *Wamyō Ruijushō* and "Myōgi" from Kūkai's *Tenrei Banshō Meigi*.
 
 
 Here, we will first describe the outline of the *Ruiju Myōgishō* and its various versions. Next, regarding the Kanchi-in manuscript, which is the only extant complete manuscript of the *Ruiju Myōgishō*, we will explain the structure of its entries, and then describe the details of the input method for the text of the Kanchi-in manuscript.
@@ -27,7 +27,7 @@ Note that while the explanation provided here overlaps in part with what is stat
 
 ## Contents
 
-- [Overview](./01-introduction/01-01-introduction/)
+- [Overview](./01-introduction/)
 - [Overview of Public Data](./02-data-overview/)
     - [krm_main](./02-data-overview/02-01-main/)
     - [krm_notes](./02-data-overview/02-02-notes/)
@@ -90,7 +90,7 @@ The search screen is available at the following URL, where you can use the HDIC 
 
 We would like to express our gratitude to [Tomohiko Morioka](https://researchmap.jp/morioka-tomohiko?lang=en) for his technical support in maintaining and managing the hdic.jp website.
 
-The text data is available at the following URL, where we publish the text files created by the Integrated Database of Hanzi Dictionaries in Early Japan (HDIC). 
+The text data is available at the following URL, where we publish the text files created by the Integrated Database of Hanzi Dictionaries in Early Japan (HDIC).
 
 We preserve records of data revisions and provide the latest versions of the full-text databases for the Song Dynasty edition of the *Yupian*, the Kosanji manuscript of the *Tenrei Banshō Meigi*, and the Tenji manuscript of the *Shinsen Jikyō*.
 
