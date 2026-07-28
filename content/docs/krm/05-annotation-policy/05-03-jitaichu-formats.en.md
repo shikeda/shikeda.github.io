@@ -8,28 +8,19 @@ weight: 19
 # bookComments: false
 # bookSearchExclude: false
 ---
-Under preparation.
-
 # Types and Notation Formats of Character Form Notes
 
-ここでは、「正」「通」「俗」などの注記の種類と
-これらの注記と注記対象字との記載状況を解説する。
-また、「滴」を例にして記載内容の検討を行い、
-どのように注釈を作成すればよいかを考える材料とする。
+This section explains the types of annotations such as '正' (standard), '通' (common), and '俗' (popular/vulgar), as well as the notational relationship between these annotations and the characters they annotate. It also examines the recorded content using '滴' as an example, providing material for considering how annotations should be created.
 
-## 字級と記載形式
+## Form Classification Tags and Notation Formats
 
-李景遠[^1]により、「正」「通」「俗」などの注記を「字級」と呼ぶ。
+Lee Kyeong Won[^1] refers to annotations such as '正' (standard), '通' (common), and '俗' (popular/vulgar) as a **`Form Classification Tag`** (字級, *jikyū*).
 
-字体注の記載形式と字級の種類については、張馨方[^2]による調査がある。
-そこでは6種の記載形式と7種の字級とに絞って、
-出現状況を整理している。
+Regarding the notation formats of **`Notes on Character Form`** and the types of **`Form Classification Tags`**, there is a study by Zhang Xinfang[^2]. That study narrows its focus to six notation formats and seven **`Form Classification Tags`**, and organizes their patterns of occurrence.
 
-ここでは観智院本で調査した数値を紹介してみよう。調査範囲は図書寮本・蓮成院本に共通する
-水部、冫部、言部である。
+Here, let us introduce the figures surveyed in the Kanchi-in manuscript. The scope of the survey is the "水" (water), "冫" (ice), and "言" (speech) radical sections, which are common to both the Zushoryō and Renjō-in manuscripts.
 
-改編本類聚名義抄において、注文中の漢字字体はその記載形式により次の6種に
-分ける。○は漢字字体、★は字級を示す。
+In the revised compilation of the *Ruiju Myōgishō*, the character forms appearing within the **`Original Glosses`** are divided into the following six types according to their notation format. Here, '○' indicates a character form and '★' indicates a **`Form Classification Tag`**.
 
 1. ○★
 2. ★○
@@ -37,24 +28,22 @@ Under preparation.
 4. ★作○
 5. ★○字
 6. ★為○字
-   
-字級は次の7種類あるとする。
 
-1. 正
-2. 俗
-3. 通
-4. 今
-5. 或
-6. 古
-7. 俗通
+The **`Form Classification Tags`** are considered to be of the following seven types.
 
-## 観智院本の記載状況（水冫言）
+1. 正 (standard)
+2. 俗 (popular/vulgar)
+3. 通 (common)
+4. 今 (current/present form)
+5. 或 (alternative)
+6. 古 (archaic)
+7. 俗通 (popular/vulgar & common)
 
-観智院本の水部、冫部、言部の範囲について、
-注文中の漢字字体の記載状況をまとめると次の表のようになる。
-分類と数値は張馨方の調査による。
+## Notation Status in the Kanchi-in Manuscript (Water, Ice, Speech Radicals)
 
-| 記載形式 | 字級   | 用例  |
+Summarizing the notation status of character forms appearing within the **`Original Glosses`**, for the scope of the "水" (water), "冫" (ice), and "言" (speech) radical sections in the Kanchi-in manuscript, produces the table below. The classification and figures are based on Zhang Xinfang's survey.
+
+| Notation Format | Form Classification Tag | Instances |
 |------|:------|-----:|
 | ○★   | ○正   | 17  |
 |      | ○俗   | 8   |
@@ -62,16 +51,16 @@ Under preparation.
 |      | ○或   | 25  |
 |      | ○古   | 2   |
 |      | ○俗通  | 1   |
-|      | 小計   | 55  |
+|      | Subtotal | 55  |
 | ★○   | 正○   | 2   |
 |      | 俗○   | 8   |
 |      | 或○   | 1   |
 |      | 古○   | 1   |
-|      | 小計   | 12  |
+|      | Subtotal | 12  |
 | ★為○  | 或為○  | 1   |
-|      | 小計   | 1   |
+|      | Subtotal | 1   |
 | ★作○  | 或作○  | 1   |
-|      | 小計   | 1   |
+|      | Subtotal | 1   |
 | ★○字  | 正○字  | 11  |
 |      | 俗○字  | 149 |
 |      | 通○字  | 2   |
@@ -79,18 +68,16 @@ Under preparation.
 |      | 或○字  | 25  |
 |      | 古○字  | 4   |
 |      | 俗通○字 | 1   |
-|      | 小計   | 194 |
+|      | Subtotal | 194 |
 | ★為○字 | 今為○字 | 1   |
-|      | 小計   | 1   |
-|      | 合計   |
+|      | Subtotal | 1   |
+|      | Total   | 264 |
 
-## 「滴」とその関連項目
+## '滴' and Its Related Items
 
-### 観智院本の 「滴」の記載
+### The Kanchi-in Manuscript's Record of '滴'
 
-張馨方が例としてあげる
-「滴」（観智院本法上23）をとりあげて、記載形式と字級のありようを検討してみよう。
-字体注記は**太字**とする。
+Let us take up '滴' (Kanchi-in manuscript, *Hōjō* 23), the example cited by Zhang Xinfang, and examine the state of its notation format and **`Form Classification Tag`**. **`Notes on Character Form`** are shown in **bold**.
 
 ![滴](https://glyphwiki.org/glyph/hdic_hkrm-05023611.50px.png)
 ![𤁷](https://glyphwiki.org/glyph/hdic_hkrm-05023612.50px.png)**二正**
@@ -99,7 +86,7 @@ Under preparation.
 ![滳](https://glyphwiki.org/glyph/hdic_hkrm-05023632.50px.png)**二俗**
 ![渧](https://glyphwiki.org/glyph/hdic_hkrm-05023710.50px.png)**俗滳字**
 
-張馨方は簡略化して記載しているので、次には注文の全体をあげておこう。適宜改行を入れ、番号を付した。
+Since Zhang Xinfang's presentation is simplified, the full text of the **`Original Glosses`** is given below. Line breaks have been inserted as appropriate, and numbers have been assigned.
 
 1. ![滴](https://glyphwiki.org/glyph/hdic_hkrm-05023611.50px.png)![𤁷](https://glyphwiki.org/glyph/hdic_hkrm-05023612.50px.png)**二正**　丁狄反　シタヽル(LL@@)　音的　アマツヒ 
 2. ![𣾪](https://glyphwiki.org/glyph/hdic_hkrm-05023620.50px.png)**或**  
@@ -107,19 +94,15 @@ Under preparation.
 4. ![滳](https://glyphwiki.org/glyph/hdic_hkrm-05023640.50px.png)音商　阿懸名  
 5. ![渧](https://glyphwiki.org/glyph/hdic_hkrm-05023710.50px.png)音帝　音テイ(LH)　シタヽル(LLL"L)　アマツヒ　水ツミ　又都歴反　**俗滳字**  
 
-1、2、3はいずれも「○★」の記載形式である。1は音注「丁狄反」と和訓「シタヽル」から考えて、![滴](https://glyphwiki.org/glyph/u6ef4.50px.png)であろう。「滴」は
-万象名義と新撰字鏡でも![滴](https://glyphwiki.org/glyph/hdic_hkrm-05023611.50px.png)の字形としている。
-[CHISE](https://www.chise.org/est/view/character/滴)の検索
-で確認できる。「滴」はHNGに収録されていないが、「啇」を漢字の構成要素に持つ「適」は、
-日本写本（弥勒上生、院政大教、仏説大教）では「啇」の部分を「商」の字形としている。
+Items 1, 2, and 3 are all in the '○★' notation format. Based on the **`Phonetic Gloss`** '丁狄反' and the **`Japanese Native Reading` (*wakun*)** 'シタヽル' in item 1, this is presumably ![滴](https://glyphwiki.org/glyph/u6ef4.50px.png). '滴' is also given the glyph form ![滴](https://glyphwiki.org/glyph/hdic_hkrm-05023611.50px.png) in both the *Tenrei Banshō Meigi* and the *Shinsen Jikyō*, which can be confirmed via a [CHISE](https://www.chise.org/est/view/character/滴) search. '滴' is not included in HNG (Hanzi Normative Glyphs Database), but '適,' which has '啇' as one of its constituent components, is written with the '啇' portion in the form of '商' in Japanese manuscripts (the *Miroku Jōshō*, *Inseidaikyō*, and *Bussetsu Daikyō*).
 
-一方、4は1の![滴](https://glyphwiki.org/glyph/hdic_hkrm-05023611.50px.png)と同じ字形だが、注文に「音商　阿懸名」とあり、「滳」と考えられる。
+Meanwhile, item 4 has the same glyph form as item 1's ![滴](https://glyphwiki.org/glyph/hdic_hkrm-05023611.50px.png), but its **`Original Glosses`** read "音商　阿懸名," suggesting it should be understood as '滳.'
 
-1は虫損があり、判読に難があるが、**正宗索引**は1の![滴](https://glyphwiki.org/glyph/hdic_hkrm-05023611.50px.png)、3の![滳](https://glyphwiki.org/glyph/hdic_hkrm-05023632.50px.png)、4の![滳](https://glyphwiki.org/glyph/hdic_hkrm-05023640.50px.png)を、同じ字形に判読している。
+Item 1 has wormhole damage and is difficult to decipher, but **Masamune's Index** reads item 1's ![滴](https://glyphwiki.org/glyph/hdic_hkrm-05023611.50px.png), item 3's ![滳](https://glyphwiki.org/glyph/hdic_hkrm-05023632.50px.png), and item 4's ![滳](https://glyphwiki.org/glyph/hdic_hkrm-05023640.50px.png) as the same glyph form.
 
-### 蓮成院本の 「滴」の記載
+### The Renjō-in Manuscript's Record of '滴'
 
-観智院本以外の改編本において、この箇所が残るのは蓮成院本であるが、そこには次のように見えている（中一12裏）。
+Among the revised-compilation manuscripts other than the Kanchi-in manuscript, this passage survives only in the Renjō-in manuscript, where it appears as follows (Middle volume, fascicle 1, folio 12 verso).
 
 1. ![滴](https://glyphwiki.org/glyph/u6ef4.50px.png)![𤁷](https://glyphwiki.org/glyph/u24077.50px.png)**二正**　丁狄反　シタヽル(LL@@)　アマツヒ　音的 
 2. ![𣾪](https://glyphwiki.org/glyph/u23faa.50px.png)**或**  
@@ -127,53 +110,33 @@ Under preparation.
 4. ![滳](https://glyphwiki.org/glyph/ligang_hkrm-05023640.50px.png)音商　阿懸名  
 5. ![渧](https://glyphwiki.org/glyph/u6e27.50px.png)音帝　音テイ(LL)　アマツヒ　シタヽル(LLL"L)　水ツミ　又都歴反　**俗滳字**  
 
-1の![𤁷](https://glyphwiki.org/glyph/u24077.50px.png)のしんにょう（辶）は原文で1点であるが、作字の都合で2点となっている。
+For item 1, the '辶' (*shinnyō*, motion radical) of ![𤁷](https://glyphwiki.org/glyph/u24077.50px.png) has a single dot in the original text, but appears with two dots here for reasons of glyph construction.
 
-蓮成院本では、観智院本で同一字形であった1、3、4の![滴](https://glyphwiki.org/glyph/hdic_hkrm-05023611.50px.png)をそれぞれ![滴](https://glyphwiki.org/glyph/u6ef4.50px.png)、![滳](https://glyphwiki.org/glyph/twedu-a02301-004.50px.png)、![滳](https://glyphwiki.org/glyph/ligang_hkrm-05023640.50px.png)と区別している。
+In the Renjō-in manuscript, items 1, 3, and 4, which shared the same glyph form ![滴](https://glyphwiki.org/glyph/hdic_hkrm-05023611.50px.png) in the Kanchi-in manuscript, are distinguished as ![滴](https://glyphwiki.org/glyph/u6ef4.50px.png), ![滳](https://glyphwiki.org/glyph/twedu-a02301-004.50px.png), and ![滳](https://glyphwiki.org/glyph/ligang_hkrm-05023640.50px.png), respectively.
 
-蓮成院本の記載内容が観智院本よりも整っており、合理的な内容となっている。
-ただ、蓮成院本のような記載内容が崩れて観智院本のようになったのか、観智院本の記載内容に矛盾があるのでそれを正して蓮成院本になったのか、この例だけで判断するのは難しい。類例を集めて検討する必要があろう。
+The content of the Renjō-in manuscript is more consistent and rational than that of the Kanchi-in manuscript. However, it is difficult to determine from this example alone whether the Renjō-in-style content became corrupted into the Kanchi-in form, or whether the Kanchi-in content contained an inconsistency that was subsequently corrected in the Renjō-in manuscript. Further examples of this kind need to be collected and examined.
 
-なお、注文では、1の記載順序に相違がある。ただし、観智院本は3行書きの注文となっていて不審である。本来は2行書きであり、「音的」が注文末にあったと推測される。蓮成院本はこの箇所を3行書きとしているが、和訓の後の注文末に「音的」があって通例にかなっている。
+It should also be noted that the order of the **`Original Glosses`** for item 1 differs between the two manuscripts. However, the Kanchi-in manuscript's **`Original Glosses`** for this item are, unusually, written across three lines; it is presumed that they were originally written across two lines, with '音的' at the end. The Renjō-in manuscript also presents this passage across three lines, but there, '音的' appears at the end of the **`Original Glosses`**, following the **`Japanese Native Reading` (*wakun*)**, which is consistent with the usual practice.
 
-### 龍龕手鏡の 「滴」の記載
+### The *Longkan Shoujian/Shoujing*'s Record of '滴'
 
-龍龕手鏡（鑑）では、水部は巻二に収録され、高麗本を欠くが、宋本に「滴」は次のように見える（巻二水部第三・入声）。
+In the *Longkan Shoujian/Shoujing* (龍龕手鏡／手鑑), the "水" (water) radical is contained in Fascicle 2. While the Korean edition lacks this section, the Song edition gives '滴' as follows (Fascicle 2, "水" radical, No. 3, Entering tone).
 
 1. ![渧](https://glyphwiki.org/glyph/u6e27.50px.png)**俗** 
 2. ![𤁷](https://glyphwiki.org/glyph/u24077.50px.png)**今**
 3. ![滴](https://glyphwiki.org/glyph/u6ef4.50px.png)![𣾪](https://glyphwiki.org/glyph/u23faa.50px.png)**二正**音的水ー也四
 
-この3項目は「滴」に関連した内容である。
-改編本と比べると記載の順序と字級に相違がある。
-改編本は、「二正」-->「或」-->「二俗」の順序で、「二正」が
-最初にあるが、
-龍龕手鑑は、「俗」-->「今」-->「二正」の順序で、「二正」が最後にある。
-字級を見ると、![渧](https://glyphwiki.org/glyph/u6e27.50px.png)を「俗」、
-![滴](https://glyphwiki.org/glyph/u6ef4.50px.png)を「正」とする点は一致するが、
-改編本は![𤁷](https://glyphwiki.org/glyph/hdic_hkrm-05023612.50px.png)を「正」、龍龕手鑑は近似する字形の![𤁷](https://glyphwiki.org/glyph/u24077.50px.png)を「今」としている。また、
-![𣾪](https://glyphwiki.org/glyph/u23faa.50px.png)を改編本は「或」、龍龕手鑑は「正」とする相違がある。
+These three items all concern '滴'. Compared with the revised-compilation manuscripts, there are differences in both the order of presentation and the **`Form Classification Tags`** used. The revised compilation presents them in the order "二正" → "或" → "二俗," with "二正" appearing first. The *Longkan Shoujian/Shoujing*, by contrast, presents them in the order "俗" → "今" → "二正," with "二正" appearing last. Looking at the **`Form Classification Tags`**, both agree in tagging ![渧](https://glyphwiki.org/glyph/u6e27.50px.png) as "俗" and ![滴](https://glyphwiki.org/glyph/u6ef4.50px.png) as "正." However, the revised compilation tags ![𤁷](https://glyphwiki.org/glyph/hdic_hkrm-05023612.50px.png) as "正," while the *Longkan Shoujian/Shoujing* tags the similar glyph form ![𤁷](https://glyphwiki.org/glyph/u24077.50px.png) as "今." There is likewise a discrepancy in that the revised compilation tags ![𣾪](https://glyphwiki.org/glyph/u23faa.50px.png) as "或," while the *Longkan Shoujian/Shoujing* tags it as "正."
 
-一方、「滳」は別の箇所に見えている（巻二水部第三・平声）
+Meanwhile, '滳' appears in a different location (Fascicle 2, "水" radical, No. 3, Level tone).
 
 ![滳](https://glyphwiki.org/glyph/ligang_hkrm-05023640.50px.png)音商ー河縣名又都歴反
 
-「滳」に同音字注「音商」、意義注「ー河縣名」、又音の反切「又都歴反」を記載する。
-意義注に「ー河縣名」とあるのは「滳河」は「縣名」であるという意味である。
-隋書に「滳河開皇十六年置」とあり、開皇十六年（596）に設置された県名である。
-現在の山東省済南市に位置する商河県である。
-改編本の「阿懸名」は文意通らず不審であったが、「阿」は「河」の誤写としてよいであろう。
-「滳河、縣名」と区切って理解すべきなのを「滳、河縣名」と区切って理解したために
-生じた誤りと考えられる。
-それはともかく、県名（地名）の「滳河」として用いる時は「音商」であり、
-それとは別に「又都歴反」の音があるという説明である。
-「滴」は広韻に「水滴也，亦作𤁷」（入声錫韻）、的：都歴切)とあり、
-「又都歴反」は「滴」に対応することを知る。つまり、
-「滳」は県名（地名）「滳河」では「音商」であるが、
-「都歴反」の「滴」に通用して用いられることを示している。
+For '滳,' a homophone **`Phonetic Gloss`** "音商," a **`Semantic Gloss in Chinese`** "ー河縣名," and a *fanqie* spelling for an alternate reading, "又都歴反," are given. The **`Semantic Gloss in Chinese`** "ー河縣名" means that "滳河" is the name of a county (縣, *xiàn*). The *Book of Sui* states "滳河開皇十六年置" (Dihe was established in the 16th year of the Kaihuang era), a county name established in 596 (Kaihuang 16), corresponding to present-day Shanghe County in Jinan City, Shandong Province. The revised compilation's "阿懸名" is grammatically unintelligible and questionable, but '阿' may reasonably be regarded as a scribal error for '河.' It is presumed that this error arose from parsing "滳河、縣名" (Dihe, a county name) as "滳、河縣名" instead of correctly as "滳河、縣名."
 
-「滴」とその関連項目は、原撰本たる図書寮本に詳細な記載があり、種々検討すべきであるが、
-ひとまずここまでとしておく。
+Setting that aside, when used as the county (place) name "滳河," the reading is "音商"; separately from this, there is also the reading "又都歴反." The *Guangyun* gives '滴' under the Entering tone (入声), *Xi* rhyme (錫韻), *xiaoyun* '的': *dūlì qiè* (都歴切), with the gloss "水滴也，亦作𤁷" ("[means] to drip water; also written 𤁷"), from which we know that "又都歴反" corresponds to '滴.' In other words, this shows that while '滳' is read "音商" as the county (place) name "滳河," it is also used interchangeably with '滴,' read as "都歴反."
 
-[^1]:李景遠『隋唐字様學研究』國立臺灣師範大學國文研究所博士論文、1997
-[^2]:張馨方「注文中の漢字字体の記載からみた改編本系『類聚名義抄』」『北海道大学大学院文学研究科研究論集』17 、2017
+'滴' and its related items are treated in detail in the Zushoryō manuscript, the original compilation, and various points warrant further examination; for now, this discussion will stop here.
+
+[^1]: Lee Kyeong Won, *Zui-Tang Ziyangxue Yanjiu* (隋唐字様學研究; A Study of Sui and Tang Dynasty Character Lexicography), PhD diss., National Taiwan Normal University, Graduate Institute of Chinese, 1997.
+[^2]: Zhang Xinfang, "Chūmonchū no Kanji Jitai no Kisai kara Mita Kaihenbon-kei *Ruiju Myōgishō*" (注文中の漢字字体の記載からみた改編本系『類聚名義抄』; The Revised-Compilation Lineage of the *Ruiju Myōgishō* as Seen from the Notation of Chinese Character Forms within the Original Glosses), *Hokkaidō Daigaku Daigakuin Bungaku Kenkyūka Kenkyū Ronshū* (北海道大学大学院文学研究科研究論集; Hokkaido University Graduate School of Letters Research Bulletin) 17 (2017).
