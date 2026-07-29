@@ -81,4 +81,4 @@ is also being independently constructed by the research group.
 The headwords are being processed in two ways. One is to input the headwords using the computer-readable characters, and the other is to cut a picture of each head word down from a photocopy of the original books. The annotation text, which refers to the pronunciation, meaning and variants of each headword, is inputted using computer-readable text.
 
 
-© 2022-2025  HDIC Database Project.  This work was supported by JSPS KAKENHI Grant Numbers 25370506, 16H03422, 19H00526, 23K17500 and 25K00466.
+© 2022-2026  HDIC Database Project.  This work was supported by JSPS KAKENHI Grant Numbers 25370506, 16H03422, 19H00526, 23K17500, 25K00466 and 26K21717.
