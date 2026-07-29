@@ -10,9 +10,9 @@ The current translation target is specified below.
 
 ## 2. Current Translation Target
 Translate the following file:
-- `05-05-gichu-quantity.ja.md`
+- `05-06-wakun-materials.ja.md`
 ↓
-- `05-05-gichu-quantity.en.md`
+- `05-06-wakun-materials.en.md`
 
 *(Note: Update the target files above for each execution.)*
 
@@ -22,6 +22,7 @@ The objective is to produce an English page that is accurate, consistent, mainta
 - **Style & Formatting:** Translate in a style consistent with the existing English KRM Documentation. Maintain the exact formatting and capitalization used in previously translated pages.
 - **Terminology:** Ensure terminology is consistent with `GLOSSARY_CONVENTIONS.md` and previously translated pages. Reuse previously established terminology whenever possible. Do not introduce new English equivalents for established technical terms unless necessary.
 - **Primary Sources:** Keep cited Chinese and Japanese primary texts in their original language unless an English translation is strictly necessary for basic comprehension.
+- **Classical Work Titles:** Use established English titles for well-known classical works whenever available (e.g., the *Shuowen Jiezi*, the *Classic of Poetry*, the *Book of Sui*, the *Book of Han*), rather than inventing a new romanization or descriptive translation for each occurrence. This reduces title variation across pages.
 - **Audience Adjustments:** Add brief explanatory wording only when required for an international reader. Do not expand the scholarly argument, alter the scholarly discussion, or introduce new interpretations.
 - **Non-Translate Targets:** Do NOT translate the following elements:
   - filenames
@@ -69,9 +70,9 @@ The Translation Review Trial record MUST explicitly include:
 
 ## 2. 現在の翻訳対象
 以下のファイルを翻訳してください。
-- `05-05-gichu-quantity.ja.md`
+- `05-06-wakun-materials.ja.md`
 ↓
-- `05-05-gichu-quantity.en.md`
+- `05-06-wakun-materials.en.md`
 
 *(注：新しい翻訳タスクのたびに上記の対象ファイルを更新してください。)*
 
@@ -79,6 +80,7 @@ The Translation Review Trial record MUST explicitly include:
 - **スタイルとフォーマット:** 既存の英語版KRMドキュメンテーションと一貫性のあるスタイルで翻訳してください。これまでに翻訳されたページで使用されているフォーマットと大文字・小文字の使い分け（キャピタライゼーション）を正確に維持してください。
 - **用語:** `GLOSSARY_CONVENTIONS.md` およびこれまでに翻訳されたページと用語の一貫性を保ってください。絶対に必要な場合を除き、定着している専門用語に対して新しい英語の対応語を導入しないでください。
 - **一次資料:** 引用されている漢文および日本語の一次資料は、基本的な内容理解のために英語訳が厳密に必要となる場合を除き、元の言語のままにしてください。
+- **古典籍の書名:** 著名な古典籍については、その都度ローマ字表記や説明的な訳語を新たに作るのではなく、定着した英語書名がある場合はそれを用いてください（例：『説文解字』→ *Shuowen Jiezi*、『詩経』→ *Classic of Poetry*、『隋書』→ *Book of Sui*、『漢書』→ *Book of Han*）。これにより書名表記の揺れを減らします。
 - **読者に向けた調整:** 国際的な読者にとって必要な場合にのみ、簡潔な説明の文言を追加してください。学術的な議論を広げたり、学術的な考察を改変したり、新たな解釈を導入したりしないでください。
 - **翻訳対象外:** 以下の要素は翻訳**しないでください**。
   - ファイル名
