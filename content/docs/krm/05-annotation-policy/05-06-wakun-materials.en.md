@@ -1,5 +1,5 @@
 ---
-title: "Basic Materials for Wakun Annotation"
+title: "Foundational Materials for Annotating Japanese Native Readings (Wakun)"
 weight: 22
 # bookFlatSection: false
 # bookToc: true
@@ -8,201 +8,165 @@ weight: 22
 # bookComments: false
 # bookSearchExclude: false
 ---
-# Basic Materials for Wakun Annotation
 
-Under preparation.
+# Foundational Materials for Annotating Japanese Native Readings (*wakun*)
 
-# 和訓注釈のための基礎資料
-
-ここでは、まず、略称を用いる参考文献とその他の参考文献をあげる。
-次に、和訓の同定に関して、若干の例をあげて解説する。
+This section first lists the reference works cited by abbreviation, along with other reference works. It then provides several concrete examples illustrating the identification of **`Japanese Native Readings` (*wakun*)**.
 
 
-## 参考文献
+## References
 
-### 略称を用いる参考文献
+### References Cited by Abbreviation
 
-和訓は、その語形の認定に関して次の索引類は必ず参照すべきものである。
-これらは頻用するので、略称を用いて示す。
+For determining the word forms of *wakun*, the following indexes must always be consulted. As they are used frequently, they are indicated here by abbreviation.
 
-- **正宗索引** 正宗敦夫編『類聚名義抄 第二巻 漢字索引仮名索引』風間書房、1955
-- **望月和訓集成** 望月郁子編『類聚名義抄：四種声点付和訓集成』（笠間索引叢刊44）笠間書院、1974
-- **草川和訓集成** 草川昇編『五本対照類聚名義抄和訓集成』汲古書院、2000
-- **中村文選** 中村宗彦『九条本文選古訓集』風間書房、1983
+- **Masamune's Index** (正宗索引, *Masamune Sakuin*): Masamune Atsuo, ed. *Ruiju Myōgishō, Dainikan: Kanji Sakuin, Kana Sakuin* (類聚名義抄 第二巻 漢字索引仮名索引, *Ruiju Myōgishō*, Vol. 2: Kanji Index, Kana Index). Tokyo: Kazama Shobō, 1955.
+- **Mochizuki's Wakun Collection** (望月和訓集成, *Mochizuki Wakun Shūsei*): Mochizuki Ikuko, ed. *Ruiju Myōgishō: Yonshu Shōten-tsuki Wakun Shūsei* (類聚名義抄：四種声点付和訓集成, *Ruiju Myōgishō*: A Collection of *Wakun* with Four Types of Tone Marks; Kasama Sakuin Sōkan 44). Tokyo: Kasama Shoin, 1974.
+- **Kusakawa's Wakun Collection** (草川和訓集成, *Kusakawa Wakun Shūsei*): Kusakawa Noboru, ed. *Gohon Taishō Ruiju Myōgishō Wakun Shūsei* (五本対照類聚名義抄和訓集成, A Collection of *Wakun* from Five Collated Manuscripts of the *Ruiju Myōgishō*). Tokyo: Kyūko Shoin, 2000.
+- **Nakamura's Monzen** (中村文選, *Nakamura Monzen*): Nakamura Munehiko. *Kujōbon Monzen Kokunshū* (九条本文選古訓集, Old Kokun Readings of the *Monzen*, Kujō Manuscript). Tokyo: Kazama Shobō, 1983.
+- **Kunten Goi Shūsei** (訓点語彙集成, *Kunten Goi Shūsei*): Tsukishima Hiroshi, ed. *Kunten Goi Shūsei* (訓点語彙集成, A Comprehensive Collection of *Kunten* Vocabulary). 8 vols. and 1 supplementary vol. Tokyo: Kyūko Shoin, 2007–2009.
 
-次の著作にも、本文の解読に参考となる記述が多い。これらも
-頻用するので、略称を用いて示す。
+The following are consulted as Japanese-language dictionaries, Kanji-Japanese dictionaries, and reference tools for literary Chinese.
 
-- **岡田研究** 岡田希雄『類聚名義抄の研究』一条書房、1944
-- **小松論考** 小松英雄『日本声調史論考』風間書房、1971
-- **望月研究** 望月郁子『類聚名義抄の文献学的研究』笠間書院、1992
-- **築島著作集三** 築島裕『築島裕著作集 第三巻 古辞書と音義』汲古書院、2016
-- **吉田国語** 吉田金彦『古辞書と国語』臨川書店、2013
+- **Nikkoku** (日国, *Nikkoku*): *Nihon Kokugo Daijiten Dainihan* Henshū Iinkai and Shōgakukan Kokugo Jiten Henshūbu, eds. *Nihon Kokugo Daijiten* (日本国語大辞典, Comprehensive Japanese Dictionary). 2nd ed. Tokyo: Shōgakukan, 2000–2002. Content made available via JapanKnowledge starting November 2006.
+- **Daikanwa** (大漢和, *Daikanwa*): Morohashi Tetsuji. *Dai Kan-Wa Jiten, Shūtei Daini-han* (大漢和辞典 修訂第二版, The Great Chinese-Japanese Dictionary, Revised 2nd Edition). Edited by Kamata Tadashi and Yoneyama Toratarō. 12 vols., plus Vocabulary Index and Supplement. Tokyo: Taishūkan Shoten, 1990–2000. Included as additional content in JapanKnowledge starting April 2021.
+- **Kokun Isan** (故訓匯纂, *Kokun Isan*): Zong Fukang (宗福邦), Chen Shiyao (陳世鐃), and Xiao Haibo (蕭海波), chief eds. *Guxun Huizuan* (故訓匯纂, Compilation of Ancient Glosses). Beijing: Shangwu Yinshuguan (商務印書館), 2003. A compilation of glosses found in 250 texts, from the pre-Qin period to the late Qing dynasty.
 
-同様に、略称を用いる論文を次に示す。
+The following works also contain much material useful for deciphering the main text. As these too are used frequently, they are likewise indicated by abbreviation.
 
-- **西端誤写考察** 西端幸雄「類聚名義抄における誤写の考察」『訓点語と訓点資料』45、37-54頁、1971
-- **西端誤写諸例** 西端幸雄「類聚名義抄における誤写の諸例」『訓点語と訓点資料』52、31-71頁、1973
+- **Okada's Study** (岡田研究, *Okada Kenkyū*): Okada Mareo. *Ruiju Myōgishō no Kenkyū* (類聚名義抄の研究, Research on the *Ruiju Myōgishō*). Kyoto: Ichijō Shobō, 1944.
+- **Komatsu's Study** (小松論考, *Komatsu Ronkō*): Komatsu Hideo. *Nihon Seichōshi Ronkō* (日本声調史論考, Studies in the History of Japanese Accent). Tokyo: Kazama Shobō, 1971.
+- **Mochizuki's Study** (望月研究, *Mochizuki Kenkyū*): Mochizuki Ikuko. *Ruiju Myōgishō no Bunkengakuteki Kenkyū* (類聚名義抄の文献学的研究, A Philological Study of the *Ruiju Myōgishō*). Tokyo: Kasama Shoin, 1992.
+- **Tsukishima's Collected Works, Vol. 3** (築島著作集三, *Tsukishima Chosakushū San*): Tsukishima Hiroshi. *Tsukishima Hiroshi Chosakushū, Dai San-kan: Kojisho to Ongi* (築島裕著作集 第三巻 古辞書と音義, Collected Works of Tsukishima Hiroshi, Vol. 3: Old Dictionaries and Phonetic/Semantic Glosses). Tokyo: Kyūko Shoin, 2016.
+- **Yoshida's Kokugo** (吉田国語, *Yoshida Kokugo*): Yoshida Kanehiko. *Kojisho to Kokugo* (古辞書と国語, Old Dictionaries and the Japanese Language). Kyoto: Rinsen Shoten, 2013.
 
-小林恭治による西念寺本に関する論考は数が多いので、小林恭治「観智院本から見た項目の有無」
-のように、氏名とタイトルを簡略に示す。★を付したものは未確認のものである。
+Likewise, the following papers are cited by abbreviation.
 
-- **観智院本から見た項目の有無** 小林恭治「西念寺本類聚名義抄における増補と脱漏―観智院本から見た項目の有無について―」『鶴見大学仏教文化研究所紀要』5、47–66頁、2000年
-- **観智院本にない項目** 小林恭治「西念寺本類聚名義抄における増補と脱漏―観智院本にない項目について―」『鶴見大学紀要 第1部 国語国文学編』38、197–217頁、2001年、★
-- **標出漢字の有無** 小林恭治「西念寺本類聚名義抄の増補と脱漏―観智院本との比較による標出漢字の有無について―」『鶴見大学仏教文化研究所紀要』6、39–66頁、2001年
-- **西念寺本にない漢字注記** 小林恭治「西念寺本類聚名義抄における増補と脱漏–西念寺本にない漢字注記について–」『鶴見大学紀要 第1部 国語国文学編』39、61-90頁、2002年
-- **観智院本にない漢字注記(1)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―観智院本にない漢字注記について―(一)」『鶴見大学仏教文化研究所紀要』7、17-34頁、2002年
-- **観智院本にない漢字注記(2)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―観智院本にない漢字注記について―(二)」『鶴見大学紀要 第1部 国語国文学編』40、91–110頁、2003年
-- **観智院本にない漢字注記(3)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―観智院本にない漢字注記について―(二)」『鶴見大学仏教文化研究所紀要』8、27–55頁、2003年
-- **西念寺本にないカタカナ注記(1)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―西念寺本にないカタカナ注記について―(一)」『鶴見大学紀要第1部 日本語・日本文学編』41、1–25頁、2004年
-- **西念寺本にないカタカナ注記(2)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―西念寺本にないカタカナ注記について―(二)」『鶴見大学仏教文化研究所紀要』9、69–97頁、2004年
-- **西念寺本にないカタカナ注記(3)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―西念寺本にないカタカナ注記について―(三)」『鶴見大学紀要第1部 日本語・日本文学編』42、1-23頁、2005年
-- **西念寺本にないカタカナ注記(4)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―西念寺本にないカタカナ注記について―（四）」『鶴見大学仏教文化研究所紀要』10、147–164頁、2005年
-- **西念寺本にないカタカナ注記(5)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―西念寺本にないカタカナ注記について―（五）」『鶴見大学紀要 第1部 国語国文学編』43、1–22頁、2006年
-- **観智院本にないカタカナ注記(1)** 小林恭治「『西念寺本類聚名義抄』における増補と脱漏―観智院本にないカタカナ注記について―（一）」『鶴見大学仏教文化研究所紀要』11、141–158頁、2006年
-- **観智院本にないカタカナ注記(2)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―観智院本にないカタカナ注記について―(二)」『鶴見大学紀要第1部 日本語・日本文学編』44、325–351頁、2007年
-- **観智院本にないカタカナ注記(3)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―観智院本にないカタカナ注記について―(三)」『鶴見大学仏教文化研究所紀要』12、43–65頁、2007年
-- **観智院本にないカタカナ注記(4)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―観智院本にないカタカナ注記について―(四)」『鶴見大学紀要 第1部 日本語・日本文学編』45、19–35頁、2008年
-- **観智院本にないカタカナ注記(5)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―観智院本にないカタカナ注記について―(五)」『鶴見大学仏教文化研究所紀要』13、43–61頁、2008年
-- **観智院本にないカタカナ注記(6)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―観智院本にないカタカナ注記について―(六)」『鶴見大学紀要 第1部 日本語・日本文学編』46、1–28頁、2009年
-- **観智院本にないカタカナ注記(7)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―観智院本にないカタカナ注記について―(七)」『鶴見大学仏教文化研究所紀要』14、39–73頁、2009年
-- **異本注記の有無について(1)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―異本注記の有無について―(一)」『鶴見大学紀要第1部 日本語・日本文学編』47、31–52頁、2010年
-- **異本注記の有無について(2)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―異本注記の有無について―(二)」『鶴見大学仏教文化研究所紀』15、37–60頁、2010年
-- **異本注記の有無について(3)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―異本注記の有無について―(三)」『鶴見大学紀要第1部 日本語・日本文学編』48、1–27頁、2011年
-- **異本注記の有無について(4)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―異本注記の有無について―(四)」『鶴見大学紀要第4部 人文・社会・自然科学編』48、127–136頁、2011年
-- **異本注記の有無について(5)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―異本注記の有無について―(五)」『鶴見大学紀要第1部 日本語・日本文学編』49、1–20頁、2012年
-- **異本注記の有無について(6)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―異本注記の有無について―(六)」『鶴見大学紀要第4部 人文・社会・自然科学編』49、159–166頁、2012年
-- **異本注記の有無について(7)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―異本注記の有無について―(七)」『鶴見大学紀要第1部 日本語・日本文学編』50、1–23頁、2013年
-- **異本注記の有無について(8)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―異本注記の有無について―(八)」『鶴見大学紀要第4部 人文・社会・自然科学編』50、126–138頁、2013年
-- **異本注記の有無について(9)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―異本注記の有無について―(九)」『鶴見大学紀要第4部 人文・社会・自然科学編』51、87–98頁、2014年
-- **異本注記の有無について(10)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―異本注記の有無について―(十)」『鶴見大学紀要第4部 人文・社会・自然科学編』52、123–134頁、2015年
-- **異本注記の有無について(11)** 小林恭治「西念寺本類聚名義抄における増補と脱漏―異本注記の有無について―(十一)」『鶴見大学紀要第4部 人文・社会・自然科学編』53、110–120頁、2016年
+- **Nishihata's Study of Scribal Errors** (西端誤写考察, *Nishihata Gosha Kōsatsu*): Nishihata Yukio. "*Ruiju Myōgishō* ni okeru Gosha no Kōsatsu" (A Study of Scribal Errors in the *Ruiju Myōgishō*). *Kuntengo to Kunten Shiryō* 45 (1971): 37–54.
+- **Nishihata's Examples of Scribal Errors** (西端誤写諸例, *Nishihata Gosha Shorei*): Nishihata Yukio. "*Ruiju Myōgishō* ni okeru Gosha no Shorei" (Various Examples of Scribal Errors in the *Ruiju Myōgishō*). *Kuntengo to Kunten Shiryō* 52 (1973): 31–71.
 
-### 略称を用いない参考文献
+Kobayashi Kyōji has published numerous articles concerning the Sainenji manuscript; these are therefore cited in abbreviated form, giving the author's name and a short title, as in "Kobayashi Kyōji, 'Kanchi-in-bon kara Mita Kōmoku no Umu.'"
 
-次は略称を用いず、著者名、タイトル、掲載誌名、巻号、刊行年を示す。
-注釈で参照する際には、副題は省略することがある。★を付したものは未確認のものである。
-図書寮本の和訓に関する論考も観智院本の読解に参考となるので、掲げている。
+- **Kanchi-in-bon kara Mita Kōmoku no Umu** (観智院本から見た項目の有無): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Kanchi-in-bon kara Mita Kōmoku no Umu ni Tsuite" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On the Presence or Absence of Entries as Seen from the Kanchi-in Manuscript). *Tsurumi Daigaku Bukkyō Bunka Kenkyūjo Kiyō* 5 (2000): 47–66.
+- **Kanchi-in-bon ni Nai Kōmoku** (観智院本にない項目): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Kanchi-in-bon ni Nai Kōmoku ni Tsuite" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On Entries Absent from the Kanchi-in Manuscript). *Tsurumi Daigaku Kiyō, Dai 1-bu, Kokugo Kokubungaku-hen* 38 (2001): 197–217.
+- **Hyōshutsu Kanji no Umu** (標出漢字の有無): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* no Zōho to Datsuro: Kanchi-in-bon to no Hikaku ni yoru Hyōshutsu Kanji no Umu ni Tsuite" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On the Presence or Absence of Head Characters through Comparison with the Kanchi-in Manuscript). *Tsurumi Daigaku Bukkyō Bunka Kenkyūjo Kiyō* 6 (2001): 39–66.
+- **Sainenji-bon ni Nai Kanji Chūki** (西念寺本にない漢字注記): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Sainenji-bon ni Nai Kanji Chūki ni Tsuite" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On Character-Form Annotations Absent from the Sainenji Manuscript). *Tsurumi Daigaku Kiyō, Dai 1-bu, Kokugo Kokubungaku-hen* 39 (2002): 61–90.
+- **Kanchi-in-bon ni Nai Kanji Chūki (1)** (観智院本にない漢字注記(1)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Kanchi-in-bon ni Nai Kanji Chūki ni Tsuite (1)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On Character-Form Annotations Absent from the Kanchi-in Manuscript (1)). *Tsurumi Daigaku Bukkyō Bunka Kenkyūjo Kiyō* 7 (2002): 17–34.
+- **Kanchi-in-bon ni Nai Kanji Chūki (2)** (観智院本にない漢字注記(2)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Kanchi-in-bon ni Nai Kanji Chūki ni Tsuite (2)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On Character-Form Annotations Absent from the Kanchi-in Manuscript (2)). *Tsurumi Daigaku Kiyō, Dai 1-bu, Kokugo Kokubungaku-hen* 40 (2003): 91–110.
+- **Kanchi-in-bon ni Nai Kanji Chūki (3)** (観智院本にない漢字注記(3)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Kanchi-in-bon ni Nai Kanji Chūki ni Tsuite (3)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On Character-Form Annotations Absent from the Kanchi-in Manuscript (3)). *Tsurumi Daigaku Bukkyō Bunka Kenkyūjo Kiyō* 8 (2003): 27–55.
+- **Sainenji-bon ni Nai Katakana Chūki (1)** (西念寺本にないカタカナ注記(1)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Sainenji-bon ni Nai Katakana Chūki ni Tsuite (1)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On Katakana Annotations Absent from the Sainenji Manuscript (1)). *Tsurumi Daigaku Kiyō, Dai 1-bu, Nihongo/Nihon Bungaku-hen* 41 (2004): 1–25.
+- **Sainenji-bon ni Nai Katakana Chūki (2)** (西念寺本にないカタカナ注記(2)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Sainenji-bon ni Nai Katakana Chūki ni Tsuite (2)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On Katakana Annotations Absent from the Sainenji Manuscript (2)). *Tsurumi Daigaku Bukkyō Bunka Kenkyūjo Kiyō* 9 (2004): 69–97.
+- **Sainenji-bon ni Nai Katakana Chūki (3)** (西念寺本にないカタカナ注記(3)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Sainenji-bon ni Nai Katakana Chūki ni Tsuite (3)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On Katakana Annotations Absent from the Sainenji Manuscript (3)). *Tsurumi Daigaku Kiyō, Dai 1-bu, Nihongo/Nihon Bungaku-hen* 42 (2005): 1–23.
+- **Sainenji-bon ni Nai Katakana Chūki (4)** (西念寺本にないカタカナ注記(4)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Sainenji-bon ni Nai Katakana Chūki ni Tsuite (4)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On Katakana Annotations Absent from the Sainenji Manuscript (4)). *Tsurumi Daigaku Bukkyō Bunka Kenkyūjo Kiyō* 10 (2005): 147–164.
+- **Sainenji-bon ni Nai Katakana Chūki (5)** (西念寺本にないカタカナ注記(5)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Sainenji-bon ni Nai Katakana Chūki ni Tsuite (5)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On Katakana Annotations Absent from the Sainenji Manuscript (5)). *Tsurumi Daigaku Kiyō, Dai 1-bu, Kokugo Kokubungaku-hen* 43 (2006): 1–22.
+- **Kanchi-in-bon ni Nai Katakana Chūki (1)** (観智院本にないカタカナ注記(1)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Kanchi-in-bon ni Nai Katakana Chūki ni Tsuite (1)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On Katakana Annotations Absent from the Kanchi-in Manuscript (1)). *Tsurumi Daigaku Bukkyō Bunka Kenkyūjo Kiyō* 11 (2006): 141–158.
+- **Kanchi-in-bon ni Nai Katakana Chūki (2)** (観智院本にないカタカナ注記(2)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Kanchi-in-bon ni Nai Katakana Chūki ni Tsuite (2)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On Katakana Annotations Absent from the Kanchi-in Manuscript (2)). *Tsurumi Daigaku Kiyō, Dai 1-bu, Nihongo/Nihon Bungaku-hen* 44 (2007): 325–351.
+- **Kanchi-in-bon ni Nai Katakana Chūki (3)** (観智院本にないカタカナ注記(3)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Kanchi-in-bon ni Nai Katakana Chūki ni Tsuite (3)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On Katakana Annotations Absent from the Kanchi-in Manuscript (3)). *Tsurumi Daigaku Bukkyō Bunka Kenkyūjo Kiyō* 12 (2007): 43–65.
+- **Kanchi-in-bon ni Nai Katakana Chūki (4)** (観智院本にないカタカナ注記(4)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Kanchi-in-bon ni Nai Katakana Chūki ni Tsuite (4)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On Katakana Annotations Absent from the Kanchi-in Manuscript (4)). *Tsurumi Daigaku Kiyō, Dai 1-bu, Nihongo/Nihon Bungaku-hen* 45 (2008): 19–35.
+- **Kanchi-in-bon ni Nai Katakana Chūki (5)** (観智院本にないカタカナ注記(5)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Kanchi-in-bon ni Nai Katakana Chūki ni Tsuite (5)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On Katakana Annotations Absent from the Kanchi-in Manuscript (5)). *Tsurumi Daigaku Bukkyō Bunka Kenkyūjo Kiyō* 13 (2008): 43–61.
+- **Kanchi-in-bon ni Nai Katakana Chūki (6)** (観智院本にないカタカナ注記(6)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Kanchi-in-bon ni Nai Katakana Chūki ni Tsuite (6)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On Katakana Annotations Absent from the Kanchi-in Manuscript (6)). *Tsurumi Daigaku Kiyō, Dai 1-bu, Nihongo/Nihon Bungaku-hen* 46 (2009): 1–28.
+- **Kanchi-in-bon ni Nai Katakana Chūki (7)** (観智院本にないカタカナ注記(7)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Kanchi-in-bon ni Nai Katakana Chūki ni Tsuite (7)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On Katakana Annotations Absent from the Kanchi-in Manuscript (7)). *Tsurumi Daigaku Bukkyō Bunka Kenkyūjo Kiyō* 14 (2009): 39–73.
+- **Ihon Chūki no Umu ni Tsuite (1)** (異本注記の有無について(1)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Ihon Chūki no Umu ni Tsuite (1)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On the Presence or Absence of Variant-Manuscript Annotations (1)). *Tsurumi Daigaku Kiyō, Dai 1-bu, Nihongo/Nihon Bungaku-hen* 47 (2010): 31–52.
+- **Ihon Chūki no Umu ni Tsuite (2)** (異本注記の有無について(2)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Ihon Chūki no Umu ni Tsuite (2)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On the Presence or Absence of Variant-Manuscript Annotations (2)). *Tsurumi Daigaku Bukkyō Bunka Kenkyūjo Kiyō* 15 (2010): 37–60.
+- **Ihon Chūki no Umu ni Tsuite (3)** (異本注記の有無について(3)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Ihon Chūki no Umu ni Tsuite (3)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On the Presence or Absence of Variant-Manuscript Annotations (3)). *Tsurumi Daigaku Kiyō, Dai 1-bu, Nihongo/Nihon Bungaku-hen* 48 (2011): 1–27.
+- **Ihon Chūki no Umu ni Tsuite (4)** (異本注記の有無について(4)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Ihon Chūki no Umu ni Tsuite (4)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On the Presence or Absence of Variant-Manuscript Annotations (4)). *Tsurumi Daigaku Kiyō, Dai 4-bu, Jinbun/Shakai/Shizen Kagaku-hen* 48 (2011): 127–136.
+- **Ihon Chūki no Umu ni Tsuite (5)** (異本注記の有無について(5)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Ihon Chūki no Umu ni Tsuite (5)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On the Presence or Absence of Variant-Manuscript Annotations (5)). *Tsurumi Daigaku Kiyō, Dai 1-bu, Nihongo/Nihon Bungaku-hen* 49 (2012): 1–20.
+- **Ihon Chūki no Umu ni Tsuite (6)** (異本注記の有無について(6)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Ihon Chūki no Umu ni Tsuite (6)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On the Presence or Absence of Variant-Manuscript Annotations (6)). *Tsurumi Daigaku Kiyō, Dai 4-bu, Jinbun/Shakai/Shizen Kagaku-hen* 49 (2012): 159–166.
+- **Ihon Chūki no Umu ni Tsuite (7)** (異本注記の有無について(7)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Ihon Chūki no Umu ni Tsuite (7)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On the Presence or Absence of Variant-Manuscript Annotations (7)). *Tsurumi Daigaku Kiyō, Dai 1-bu, Nihongo/Nihon Bungaku-hen* 50 (2013): 1–23.
+- **Ihon Chūki no Umu ni Tsuite (8)** (異本注記の有無について(8)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Ihon Chūki no Umu ni Tsuite (8)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On the Presence or Absence of Variant-Manuscript Annotations (8)). *Tsurumi Daigaku Kiyō, Dai 4-bu, Jinbun/Shakai/Shizen Kagaku-hen* 50 (2013): 126–138.
+- **Ihon Chūki no Umu ni Tsuite (9)** (異本注記の有無について(9)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Ihon Chūki no Umu ni Tsuite (9)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On the Presence or Absence of Variant-Manuscript Annotations (9)). *Tsurumi Daigaku Kiyō, Dai 4-bu, Jinbun/Shakai/Shizen Kagaku-hen* 51 (2014): 87–98.
+- **Ihon Chūki no Umu ni Tsuite (10)** (異本注記の有無について(10)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Ihon Chūki no Umu ni Tsuite (10)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On the Presence or Absence of Variant-Manuscript Annotations (10)). *Tsurumi Daigaku Kiyō, Dai 4-bu, Jinbun/Shakai/Shizen Kagaku-hen* 52 (2015): 123–134.
+- **Ihon Chūki no Umu ni Tsuite (11)** (異本注記の有無について(11)): Kobayashi Kyōji. "Sainenji-bon *Ruiju Myōgishō* ni okeru Zōho to Datsuro: Ihon Chūki no Umu ni Tsuite (11)" (Additions and Omissions in the Sainenji Manuscript *Ruiju Myōgishō*: On the Presence or Absence of Variant-Manuscript Annotations (11)). *Tsurumi Daigaku Kiyō, Dai 4-bu, Jinbun/Shakai/Shizen Kagaku-hen* 53 (2016): 110–120.
 
-- 築島裕「類聚名義抄の倭訓の源流について」『国語と国文学』27(7)、1950年
-- 中田祝夫「類聚名義抄使用者のために」『類聚名義抄』風間書房、1955年
-- 門前正彦「漢文訓読史上の一問題（四）―「并」字の訓について」『訓点語と訓点資料』14、83-94頁、1960年
-- 築島裕『平安時代の漢文訓読語につきての研究』東京大学出版会、1963年
-- こまつひでお「語調史料としての類聚名義抄―図書寮本および観智院本にみえる和訓の声点の均質性の検討」『東京教育大学文学部紀要』47、1-37頁、1964年
-- 門前正彦「漢文訓読史上の一問題（五）―「欲」字の訓について―」『訓点語と訓点資料』25、111-120頁、1963年
-- 小林芳規『平安鎌倉時代に於ける漢籍訓読の国語史的研究』東京大学出版会、1967年
-- 秋永一枝「馬淵和夫著「和名類聚抄古写本声点本本文および索引」,望月郁子編「類聚名義抄四種声点付和訓集成」」『国語学』99、81-85頁、1974年、★
-- 望月郁子「声点の声調認定の方法―「類聚名義抄」の第二類動詞終止形語末のかなの声点を中心に」『国語学』102、31-49頁、1975年、★
-- 犬飼隆「古代語の「濁」拍について : 観智院本類聚名義抄の複声点付和訓を中心に」『学習院女子短期大学紀要』15、1-30頁、1977年、★
-- 犬飼守薫「『類聚名義抄』―観智院本と蓮成院本と―の「雑」部の比較対象（上）」『椙山女学園大学研究論集』8(2)、 1977年、★
-- 犬飼守薫「『類聚名義抄』―観智院本と蓮成院本と―の「雑」部の比較対象（中）」『椙山女学園大学研究論集』9(2)、 1978年、★
-- 松本光隆「書陵部蔵医心方・成簣堂文庫蔵医心方における付訓の基盤―和名類聚抄・本草和名との比較を通して―」『鎌倉時代語研究』3、 133–154頁、1980年
-- 犬飼守薫「『類聚名義抄』―観智院本と蓮成院本と―の「雑」部の比較対象（下）」『椙山女学園大学研究論集』13(2)、 1981年、★
-- 高瀬正一「和訓よりみた「新撰字鏡」と「観智院本類聚名義抄」について」『語文研究』44、103-114頁、1978年
-- 風間力三「類聚名義抄の文選読」『甲南大学紀要文学編』36、1980年、★
-- 山本秀人「改編本類聚名義抄における文選訓の増補について」『国文学攷』105、1985年
-- 山本秀人「蓮成院本類聚名義抄の成立について―異質な本文を有する部分の存在とその素性―」『鎌倉時代語研究』8、134-159頁、1985
-- 山本秀人「改編本類聚名義抄における新撰字鏡を出典とする和訓の増補について―熟字訓を対象として―」『国語学』144、1986
-- 山本秀人「類聚名義抄における和名類聚抄を出典とする和訓の摂取法について―原撰本編纂、改編、改編後の増補、の三段階に着目して―」『広島大学文学部紀要』47、1988年
-- 山本真吾「慶応義塾図書館蔵『性霊集略注』出典攷―類聚名義抄からの引用を中心として―」『鎌倉時代語研究』14、47-49頁、1991年
-- 添田建治郎「図書寮本類聚名義抄に見られる「重複差声」の意義について」『山口国文』15、86-99頁、1992年
-- 草川昇「類聚名義抄和訓小考」『日本語論究２　古典日本語と辞書』、和泉書院、23-49頁、1992年
-- 河野敏宏「観智院本『類聚名義抄』所引の『本草和名』について」『日本語論究２ 古典日本語と辞書』、和泉書院、69-85頁、1992年
-- 石井行雄『七帖字書』考『語学文学』31、15–22頁、1993年
-- 蔵中進『則天文字の研究』翰林書房、1995年
-- 石井行雄「『顕縁抄』所引字書逸文類聚」『語学文学』37、11-18頁、1999年
-- 呉美寧「図書寮本類聚名義抄における論語の和訓について」『国語国文研究』 116、35-48頁、2000年
-- 山本秀人「改編本類聚名義抄における増補された和訓の色葉字類抄との関係について」『高知大国文』31、1-20頁、2000年
-- 山本秀人「類聚名義抄における史記の訓の採録について―図書寮本における不採録の訓を中心に—」『鎌倉時代語研究』23、武蔵野書院、466-491頁、2000年
-- 山本秀人「図書寮本類聚名義抄における出典無表示の和訓について―国書の訓との関わりを中心に―」『高知大国文』32、48-72頁、2001年
-- 築島裕「静嘉堂文庫蔵本毛詩鄭箋古点解説」『毛詩鄭箋（三）』（古典研究会叢書漢籍之部３）汲古書院、2004年
-- 高橋宏幸「『図書寮本類聚名義抄』所引「月令・月」の和訓について」『国文学論考』40、72-80頁、2004年
-- 高橋宏幸「『図書寮本類聚名義抄』所引「律」をめぐって―附、「允亮抄」」『国文学論考』41、58-69頁2005年
-- 高橋宏幸「『図書寮本類聚名義抄』所引『古文孝経』の和訓について」『国文学論考』42、14-21頁、2006年
-- 高橋宏幸「『図書寮本類聚名義抄』所引「顔氏家訓」の和訓について」『国文学論考』43、15-26頁、2007年
-- 山本秀人「改編本類聚名義抄における「東人云」について（上）–新撰字鏡との関連を中心に–」『国語語彙史の研究 三十』和泉書院、145-157頁、2011年
-- 小林恭治「改編本系類聚名義抄における「過」項目の注記配列について」『訓点語と訓点資料』127、120-131頁、2011年
-- 近藤泰弘「平安時代の漢文訓読語の分類」『訓点語と訓点資料』127、90-103頁、2011年
-- 山本秀人「改編本類聚名義抄における「東人云」について（下）–語としての性格・意味の探求–」『国語語彙史の研究 三十一』和泉書院、169-194頁、2012年
-- 平子達也「平安時代京都方言における下降調に関する試論 : 観智院本『類聚名義抄』に見られる平声軽点の粗雑な写しを手がかりにして」『日本語の研究』9(1)、1-15頁、2013年、★
-- 山本秀人「『三宝類字集 高山寺本』解題」『新天理図書館善本叢書 第８巻 三宝類字集 高山寺本』八木書店、2016年
-- 加藤浩司「観智院本類聚名義抄の人字和訓ワレと僧字和訓ヤハラグ・ネンコロおよび僧字の成立について」『都留文科大學研究紀要』85、45-58頁、2017年
-- 佐藤栄作「カタカナの字体から見た声点とその位置 : 図書寮本『類聚名義抄』,観智院本『類聚名義抄』の書写者と声点」『論集』13、23-40頁、2017年、★
-- 萩原義雄「観智院本『類聚名義抄』和訓語彙から垣間見たことばの運行」『駒澤日本文化』13、1-69頁、2019年
+### References Cited Without Abbreviation
 
-## 和訓の同定
+The following list gives, without abbreviation, the author's name, title, journal name, volume/issue number, and year of publication. When cited in annotations, subtitles are sometimes omitted. Studies concerning the *wakun* of the Zushoryō manuscript are also useful for interpreting the Kanchi-in manuscript, and so are included here.
 
-### 和訓と仮名音注との区別が問題となる例
+- Tsukishima, Hiroshi. "*Ruiju Myōgishō* no Wakun no Genryū ni Tsuite" (On the Origins of the *Wakun* in the *Ruiju Myōgishō*). *Kokugo to Kokubungaku* 27, no. 7 (1950).
+- Nakada, Norio. "*Ruiju Myōgishō* Shiyōsha no Tame ni" (For Users of the *Ruiju Myōgishō*). In *Ruiju Myōgishō*. Tokyo: Kazama Shobō, 1955.
+- Kadosaki, Masahiko. "Kanbun Kundokushi-jō no Ichi Mondai (Yon): 'Hei' no Kun ni Tsuite" (A Problem in the History of Kanbun-Kundoku Reading, Part 4: On the Reading of the Character 并). *Kuntengo to Kunten Shiryō* 14 (1960): 83–94.
+- Tsukishima, Hiroshi. *Heian Jidai no Kanbun Kundokugo ni Tsuite no Kenkyū* (A Study of Kanbun-Kundoku Vocabulary in the Heian Period). Tokyo: Tōkyō Daigaku Shuppankai, 1963.
+- Komatsu, Hideo (こまつひでお). "Gochō Shiryō to shite no *Ruiju Myōgishō*: Zushoryōbon oyobi Kanchi-in-bon ni Mieru Wakun no Shōten no Kinshitsusei no Kentō" (The *Ruiju Myōgishō* as a Source for Pitch-Accent History: An Examination of the Homogeneity of Tone Marks on the *Wakun* Found in the Zushoryō and Kanchi-in Manuscripts). *Tōkyō Kyōiku Daigaku Bungakubu Kiyō* 47 (1964): 1–37.
+- Kadosaki, Masahiko. "Kanbun Kundokushi-jō no Ichi Mondai (Go): 'Yoku' no Kun ni Tsuite" (A Problem in the History of Kanbun-Kundoku Reading, Part 5: On the Reading of the Character 欲). *Kuntengo to Kunten Shiryō* 25 (1963): 111–120.
+- Kobayashi, Yoshinori. *Heian Kamakura Jidai ni Okeru Kanseki Kundoku no Kokugoshiteki Kenkyū* (A Study in the History of the Japanese Language on the Kundoku Reading of Chinese Texts in the Heian and Kamakura Periods). Tokyo: Tōkyō Daigaku Shuppankai, 1967.
+- Akinaga, Kazue. Review of *Wamyō Ruijushō Koshahon Shōtenbon Honbun oyobi Sakuin* (Text and Index of Old Tone-Marked Manuscripts of the *Wamyō Ruijushō*), by Mabuchi Kazuo, and *Ruiju Myōgishō Yonshu Shōten-tsuki Wakun Shūsei* (A Collection of *Wakun* with Four Types of Tone Marks in the *Ruiju Myōgishō*), edited by Mochizuki Ikuko. *Kokugogaku* 99 (1974): 81–85.
+- Mochizuki, Ikuko. "Shōten no Seichō Nintei no Hōhō: *Ruiju Myōgishō* no Dai Ni-rui Dōshi Shūshikei Gomatsu no Kana no Shōten o Chūshin ni" (Methods for Determining Tonal Values from Tone Marks: Focusing on the Tone Marks on the Final Kana of Second-Conjugation Verb Shūshikei Forms in the *Ruiju Myōgishō*). *Kokugogaku* 102 (1975): 31–49.
+- Inukai, Takashi. "Kodaigo no 'Daku' Haku ni Tsuite: Kanchi-in-bon *Ruiju Myōgishō* no Fukushōten-tsuki Wakun o Chūshin ni" (On the Voiced Mora in Old Japanese: Focusing on *Wakun* with Compound Tone Marks in the Kanchi-in Manuscript *Ruiju Myōgishō*). *Gakushūin Joshi Tanki Daigaku Kiyō* 15 (1977): 1–30.
+- Inukai, Morimasa. "*Ruiju Myōgishō*: Kanchi-in bon to Renjō-in bon to no 'Zatsu' Bu no Hikaku Taishō (Jō)" (A Comparative Study of the 'Miscellaneous' Section of the *Ruiju Myōgishō*: Kanchi-in and Renjō-in Manuscripts, Part 1). *Sugiyama Jogakuen Daigaku Kenkyū Ronshū* 8, no. 2 (1977).
+- Inukai, Morimasa. "*Ruiju Myōgishō*: Kanchi-in bon to Renjō-in bon to no 'Zatsu' Bu no Hikaku Taishō (Chū)" (A Comparative Study of the 'Miscellaneous' Section of the *Ruiju Myōgishō*: Kanchi-in and Renjō-in Manuscripts, Part 2). *Sugiyama Jogakuen Daigaku Kenkyū Ronshū* 9, no. 2 (1978).
+- Matsumoto, Mitsutaka. "Shoryōbu-zō *Ishinpō*, Seikidō Bunko-zō *Ishinpō* ni okeru Fukun no Kiban: *Wamyō Ruijushō*, *Honzō Wamyō* to no Hikaku o Tōshite" (The Basis of Kun-Reading Annotations in the Shoryōbu and Seikidō Bunko Manuscripts of the *Ishinpō*: Through Comparison with the *Wamyō Ruijushō* and *Honzō Wamyō*). *Kamakura Jidaigo Kenkyū* 3 (1980): 133–154.
+- Inukai, Morimasa. "*Ruiju Myōgishō*: Kanchi-in bon to Renjō-in bon to no 'Zatsu' Bu no Hikaku Taishō (Ge)" (A Comparative Study of the 'Miscellaneous' Section of the *Ruiju Myōgishō*: Kanchi-in and Renjō-in Manuscripts, Part 3). *Sugiyama Jogakuen Daigaku Kenkyū Ronshū* 13, no. 2 (1981).
+- Takase, Shōichi. "Wakun yori Mita '*Shinsen Jikyō*' to '*Kanchi-in bon Ruiju Myōgishō*' ni Tsuite" (On the *Shinsen Jikyō* and the Kanchi-in Manuscript *Ruiju Myōgishō*, Viewed from Their *Wakun*). *Gobun Kenkyū*, nos. 44/45 (1978): 103–114.
+- Kazama, Rikizō. "*Ruiju Myōgishō* no *Monzen* Yomi" (Readings from the *Wén Xuǎn* in the *Ruiju Myōgishō*). *Kōnan Daigaku Kiyō: Bungakuhen* 36 (1979).
+- Yamamoto, Hideto. "Kaihenbon *Ruiju Myōgishō* ni okeru *Monzen* Kun no Zōho ni Tsuite" (On the Augmentation of *Monzen* Readings in the Revised *Ruiju Myōgishō*). *Kokubungaku Kō* 105 (1985).
+- Yamamoto, Hideto. "Renjō-in bon *Ruiju Myōgishō* no Seiritsu ni Tsuite: Ishitsu na Honbun o Yūsuru Bubun no Sonzai to sono Sojō" (On the Formation of the Renjō-in Manuscript *Ruiju Myōgishō*: The Existence and Origin of Sections with Heterogeneous Text). *Kamakura Jidaigo Kenkyū* 8 (1985): 134–159.
+- Yamamoto, Hideto. "Kaihenbon *Ruiju Myōgishō* ni okeru *Shinsen Jikyō* o Shutten to suru Wakun no Zōho ni Tsuite: Jukujikun o Taishō to shite" (On the Augmentation of *Wakun* Sourced from the *Shinsen Jikyō* in the Revised *Ruiju Myōgishō*: Focusing on Compound-Character Readings). *Kokugogaku* 144 (1986).
+- Yamamoto, Hideto. "*Ruiju Myōgishō* ni okeru *Wamyō Ruijushō* o Shutten to suru Wakun no Sesshuhō ni Tsuite: Gensenbon Hensan, Kaihen, Kaihengo no Zōho, no San Dankai ni Chakumoku shite" (On the Method of Adopting *Wakun* Sourced from the *Wamyō Ruijushō* in the *Ruiju Myōgishō*: Focusing on Three Stages — Original Compilation, Revision, and Post-Revision Augmentation). *Hiroshima Daigaku Bungakubu Kiyō* 47 (1988).
+- Yamamoto, Shingo. "Keiō Gijuku Toshokan-zō *Shōryōshū Ryakuchū* Shuttenkō: *Ruiju Myōgishō* kara no In'yō o Chūshin to shite" (A Study of the Sources of the *Shōryōshū Ryakuchū* Held by the Keio University Library: Focusing on Citations from the *Ruiju Myōgishō*). *Kamakura Jidaigo Kenkyū* 14 (1991): 32–55.
+- Soeda, Kenjirō. "Zushoryōbon *Ruiju Myōgishō* ni Mirareru 'Chōfuku Sasei' no Igi ni Tsuite" (On the Significance of "Duplicate Differential Tone Marks" Found in the Zushoryōbon *Ruiju Myōgishō*). *Yamaguchi Kokubun* 15 (1992): 86–99.
+- Kusakawa, Noboru. "*Ruiju Myōgishō* Wakun Shōkō" (A Short Study of the *Wakun* in the *Ruiju Myōgishō*). In *Nihongo Ronkyū 2: Koten Nihongo to Jisho* (Japanese Language Studies 2: Classical Japanese and Dictionaries), 23–49. Osaka: Izumi Shoin, 1992.
+- Kōno, Toshihiro. "Kanchi-in bon *Ruiju Myōgishō* Shoin no *Honzō Wamyō* ni Tsuite" (On the *Honzō Wamyō* Cited in the Kanchi-in Manuscript of the *Ruiju Myōgishō*). In *Nihongo Ronkyū 2: Koten Nihongo to Jisho*, 69–85. Osaka: Izumi Shoin, 1992.
+- Ishii, Yukio. "'Shichijō Jisho' Kō" (A Study of the "Shichijō Jisho"). *Gogaku Bungaku* 31 (1993): 15–22.
+- Kuranaka, Susumu. *Sokuten Moji no Kenkyū* (A Study of the Zetian Characters). Tokyo: Kanrin Shobō, 1995.
+- Ishii, Yukio. "'Kenenshō' Shoin Jisho Itsubun Ruijū" (A Collection of Lost Dictionary Fragments Cited in the "Kenenshō"). *Gogaku Bungaku* 37 (1999): 11–18.
+- Oh, Miyoung. "Zushoryōbon *Ruiju Myōgishō* ni okeru *Rongo* no Wakun ni Tsuite" (On the *Wakun* Readings from the *Analects* in the Zushoryō Manuscript *Ruiju Myōgishō*). *Kokugo Kokubun Kenkyū* 116 (2000): 35–48.
+- Yamamoto, Hideto. "Kaihenbon *Ruiju Myōgishō* ni okeru Zōho sareta Wakun no *Iroha Jiruishō* to no Kankei ni Tsuite" (On the Relationship between *Wakun* Added in the Revised *Ruiju Myōgishō* and the *Iroha Jiruishō*). *Kōchidai Kokubun* 31 (2000): 1–20.
+- Yamamoto, Hideto. "*Ruiju Myōgishō* ni okeru *Shiki* no Kun no Sairoku ni Tsuite: Zushoryōbon ni okeru Fusairoku no Kun o Chūshin ni" (On the Recording of *Shǐjì* Readings in the *Ruiju Myōgishō*: Focusing on Readings Not Recorded in the Zushoryōbon). *Kamakura Jidaigo Kenkyū* 23 (Tokyo: Musashino Shoin, 2000): 466–491.
+- Yamamoto, Hideto. "Zushoryōbon *Ruiju Myōgishō* ni okeru Shutten Muhyōji no Wakun ni Tsuite: Kokusho no Kun to no Kakawari o Chūshin ni" (On *Wakun* with No Source Indication in the Zushoryōbon *Ruiju Myōgishō*: Focusing on the Relationship with Readings in Japanese Texts). *Kōchidai Kokubun* 32 (2001): 48–72.
+- Tsukishima, Hiroshi. "Seikadō Bunko Zōbon *Mōshi Teisen* Koten Kaisetsu" (Commentary on the Old Glosses of the Seikadō Bunko Manuscript of the *Maoshi Zhengjian*). In *Mōshi Teisen (San)* (Koten Kenkyūkai Sōsho, Kanseki no Bu 3). Tokyo: Kyūko Shoin, 2004.
+- Takahashi, Hiroyuki. "*Zushoryōbon Ruiju Myōgishō* Shoin 'Gatsuryō, Getsu' no Wakun ni Tsuite" (On the *Wakun* for "Gatsuryō, Getsu" Cited in the *Zushoryōbon Ruiju Myōgishō*). *Kokubungaku Ronkō* 40 (2004): 72–80.
+- Takahashi, Hiroyuki. "*Zushoryōbon Ruiju Myōgishō* Shoin 'Ritsu' o Megutte: Fu, 'Inryōshō'" (On "Ritsu" Cited in the *Zushoryōbon Ruiju Myōgishō*, with an Appendix on the *Inryōshō*). *Kokubungaku Ronkō* 41 (2005): 58–69.
+- Takahashi, Hiroyuki. "*Zushoryōbon Ruiju Myōgishō* Shoin *Kobun Kōkyō* no Wakun ni Tsuite" (On the *Wakun* for the *Gǔwén Xiàojīng* Cited in the *Zushoryōbon Ruiju Myōgishō*). *Kokubungaku Ronkō* 42 (2006): 14–21.
+- Takahashi, Hiroyuki. "*Zushoryōbon Ruiju Myōgishō* Shoin *Ganshi Kakun* no Wakun ni Tsuite" (On the *Wakun* for the *Yánshì Jiāxùn* Cited in the *Zushoryōbon Ruiju Myōgishō*). *Kokubungaku Ronkō* 43 (2007): 15–26.
+- Yamamoto, Hideto. "Kaihenbon *Ruiju Myōgishō* ni okeru 'Azumabito un' ni Tsuite (Jō): *Shinsen Jikyō* to no Kankei o Chūshin ni" (On "Azumabito un" in the Revised *Ruiju Myōgishō*, Part 1: Focusing on the Relationship with the *Shinsen Jikyō*). In *Kokugo Goishi no Kenkyū 30*, 145–157. Osaka: Izumi Shoin, 2011.
+- Kobayashi, Kyōji. "Kaihenbon-kei *Ruiju Myōgishō* ni okeru 'Ka' Kōmoku no Chūki Hairetsu ni Tsuite" (On the Arrangement of Annotations in the '過' Entry of the Revised-Lineage *Ruiju Myōgishō*). *Kuntengo to Kunten Shiryō* 127 (2011): 120–131.
+- Kondō, Yasuhiro. "Heian Jidai no Kanbun Kundokugo no Bunrui" (A Classification of Kanbun-Kundoku Vocabulary of the Heian Period). *Kuntengo to Kunten Shiryō* 127 (2011): 90–103.
+- Yamamoto, Hideto. "Kaihenbon *Ruiju Myōgishō* ni okeru 'Azumabito un' ni Tsuite (Ge): Go to shite no Seikaku / Imi no Tankyū" (On "Azumabito un" in the Revised *Ruiju Myōgishō*, Part 2: Exploring Its Nature and Meaning as Language). In *Kokugo Goishi no Kenkyū 31*, 169–194. Osaka: Izumi Shoin, 2012.
+- Hirako, Tatsuya. "Heian Jidai Kyōto Hōgen ni okeru Kakōchō ni kansuru Shiron: Kanchi-in-bon *Ruiju Myōgishō* ni Mirareru Heishō Keiten no Sozatsu na Utsushi o Tegakari ni shite" (A Tentative Study on Falling Tone in the Heian-Period Kyoto Dialect: Using Careless Copying of Light-Level-Tone Marks in the Kanchi-in Manuscript *Ruiju Myōgishō* as a Clue). *Nihongo no Kenkyū* 9, no. 1 (2013): 1–15.
+- Yamamoto, Hideto. "*Sanbō Ruiji-shū Kōzan-ji-bon* Kaidai" (Bibliographical Introduction to the Kōzan-ji Manuscript of the *Sanbō Ruiji-shū*). In *Shin Tenri Toshokan Zenpon Sōsho, Dai 8-kan: Sanbō Ruiji-shū, Kōzan-ji-bon*. Tokyo: Yagi Shoten, 2016.
+- Katō, Kōji. "Kanchi-in bon *Ruiju Myōgishō* no Jinji Wakun *Ware* to Sōji Wakun *Yawaragu* / *Nengoro* oyobi Sōji no Seiritsu ni Tsuite" (On the *Wakun* *Ware* for the Character 人, the *Wakun* *Yawaragu* / *Nengoro* for the Character 僧, and the Formation of the Character 僧 in the Kanchi-in Manuscript *Ruiju Myōgishō*). *Tsuru Bunka Daigaku Kenkyū Kiyō* 85 (2017): 45–58.
+- Satō, Eisaku. "Katakana no Jitai kara Mita Shōten to sono Ichi: Zushoryōbon *Ruiju Myōgishō*, Kanchi-in-bon *Ruiju Myōgishō* no Shosha-sha to Shōten" (Tone Marks and Their Placement as Seen from Katakana Character Forms: The Scribes and Tone Marks of the Zushoryōbon and Kanchi-in-bon *Ruiju Myōgishō*). *Ronshū* 13 (2017): 23–40.
+- Hagihara, Yoshio. "Kanchi-in bon *Ruiju Myōgishō* Wakun Goi kara Kaimamita Kotoba no Unkō" (Glimpses of Language Use Seen from the *Wakun* Vocabulary of the Kanchi-in Manuscript *Ruiju Myōgishō*). *Komazawa Nihon Bunka* 13 (2019): 1–69.
 
-    K0103261    ⿰亻㔾	⿰亻已	氾音　ハム	
+## Identifying *Wakun*
 
-**草川和訓集成**に「ハム」として採録するが、和訓ではなく仮名音注である。
+On rare occasions, an **`Original Gloss`** that is not in fact a **`Japanese Native Reading` (*wakun*)** may mistakenly be treated as one. A few concrete examples are given below to illustrate this. The passage in question in each example is shown in **bold**.
 
-掲出字は原文に「⿰亻已」とあり、旁を「已」とするが、同音字注は「氾音」とある。
-この「氾」は「符咸切」（平声凡韻、凡）、「孚梵切」（去声梵韻、汎）の二音があり、
-仮名音注「ハム」を記載したとするのがよいであろう。
-とすると、掲出字「⿰亻已」は「⿰亻㔾」とありたいところである。
-Unicodeで、「⿰亻㔾」は、U+2CF62 (𬽢）、「⿰亻巳」はU+3436(㐶)にあるが、
-「⿰亻已」は確認できない。
+### An Example Where Distinguishing a *Wakun* from a Kana Phonetic Gloss Is at Issue
 
-### 漢字の誤写を仮名とする例
+- `kazama_location`: K01032610, `hanzi_entry`: ⿰亻㔾, `original_entry`: ⿰亻已, `definition`: 氾音　ハム
 
-    K0601141    砂  〇	音沙「サ」　イサコ(HH_)　丆(一云)スナコ(LLL)　俗沙
+**Kusakawa's Wakun Collection** records this as "ハム" (*hamu*), treating it as a *wakun*, but it is in fact a **`Kana gloss`** (仮名音注), not a *wakun*.
 
-問題となるのは「丆(一云)スナコ(LLL)」とした部分である。
+The **`Headword`** is written in the original manuscript as "⿰亻已", with "已" as the phonetic component, while the **`Homophone gloss`** reads "氾音" ("pronounced as 氾"). This character "氾" has two readings — "符咸切" (Level tone, *Xián* rhyme, *xiaoyun* 凡) and "孚梵切" (Departing tone, *Fàn* rhyme, *xiaoyun* 汎) — and it is best understood that the **`Kana gloss`** "ハム" was recorded to indicate this pronunciation.
+If so, the **`Headword`** "⿰亻已" would be expected to read "⿰亻㔾" instead. In Unicode, "⿰亻㔾" corresponds to U+2CF62 (𬽢), and "⿰亻巳" to U+3436 (㐶), but "⿰亻已" cannot be confirmed as an assigned character.
 
-**正宗索引**・**草川和訓集成**は「マスナコ」で採録するが、
-**望月和訓集成**は「スナコ」で採録している。どちらが正しいのであろうか。
+### An Example Where a Scribal Error in a Chinese Character Was Mistaken for Kana
 
-「砂」は、図書寮本に「順云和ー以佐古[イサコ](HHHV)一云須奈古[スナコ](LLLV)」
-とあって「順」すなわち源順の和名抄を典拠とする。
-道円本和名抄には「砂　和名以左古又須奈古」（巻1地部）とある。
-そうすると、観智院本の原文に「丆」とあるのは、片仮名「マ」ではなく、
-「一云」を誤写したものである。
-**望月和訓集成**のように「スナコ」で採録するのが妥当である。
+- `kazama_location`: K06011410, `hanzi_entry`: 砂, `definition`: 音沙「サ」　イサコ(HH_)　丆(一云)スナコ(LLL)　俗沙
 
-もうひとつ例をあげよう。
+The passage in question is the part reading "丆(一云)スナコ(LLL)".
 
-    F05881  腊  〇	キタヒ-フ(HHH-_)　久也　キタヒモフ(HHH__)　[音]昔　小牜全干也
+**Masamune's Index** and **Kusakawa's Wakun Collection** record this as "マスナコ" (*masunako*), whereas **Mochizuki's Wakun Collection** records it as "スナコ" (*sunako*). Which of these is correct?
 
-**正宗索引**と**草川和訓集成**は、注文末尾の「小牜全干也」を和訓と解釈している。しかし、これは漢文義注とするのがよい。
+For "砂", the Zushoryō manuscript gives "順云和ー以佐古（HHV）一云須奈古（LLV）", citing "順" — that is, Minamoto no Shitagō's *Wamyō Ruijushō* (和名抄) — as its source. The *Senchūbon Wamyōshō* (箋注本和名抄, an annotated recension of the *Wamyō Ruijushō*) gives, in its "Heaven and Earth" section (天地部) of Fascicle 1: "砂　和名以佐古又須奈古". This being so, the "丆" found in the original text of the Kanchi-in manuscript is not the katakana "マ" (*ma*), but rather a scribal error for "一云" ("alternatively called"). It is therefore appropriate to record this as "スナコ" (*sunako*), as **Mochizuki's Wakun Collection** does.
 
-まずの「小牜」について、
-**正宗索引**は「小（し）牜」（小はホの異体）に「シの字脱か」とし、
-**草川和訓集成**は「ホモノ（ホシモノ？）」で立項し、「小牜」と翻字し、備考に「ヒモノ？」とする。
-また、**草川和訓索引**の「ヒモノ」に「小牜」としママを付す。
+Let us take up one more example.
 
-次に「全干也」について、
-**正宗索引**と**草川和訓集成**は「人モ」「テヽ」で採録している。
+- `kazama_location`: K02135520, `hanzi_entry`: 腊, `definition`: キタヒ-フ(HHH-\_)　久也　キタヒモフ(HHH\_\_) ［音］昔　小牜全干也
 
-しかし、「小牜全干也」は和訓ではなく、漢文義注である。
-周礼・天官「凡田獸之脯腊」の注に「腊、小物全乾者」（康煕字典による）ある。
-観智院本「小牜」は漢字「小物」で問題ない。「全干也」の部分を漢字とすると
-「干」と「乾」との相違がある。「干」は広韻「古寒切」（平声寒韻）であり、「乾」と
-同音で、この二字は通用する。
+**Masamune's Index** and **Kusakawa's Wakun Collection** interpret the phrase "小牜全干也" at the end of the **`Original Gloss`** as a *wakun*. However, it is better understood as a **`Semantic Gloss in Chinese`** (漢文義注).
 
-さて、観智院本の「小牜全干也」は、周礼を直接的に参照したのだろうか、
-それとも間接的な参照なのであろうか。間接的な参照とすれば、
-玄応の一切経音義か、顧野王の原本玉篇が予想される。原本玉篇の残巻と
-逸文は存しないので、
-万象名義と宋本玉篇を参照することにして、この二書に
-「腊」を求めてみると次を見出す。参考に広韻の本文もあげる。
+First, regarding "小牜": **Masamune's Index** reads it as "小（し）牜" (with 小 as a variant form of ホ), suggesting that the character シ may have been dropped; **Kusakawa's Wakun Collection** enters it as "ホモノ" (possibly "ホシモノ"), transliterating it as "小牜", with "ヒモノ？" noted as a remark. In addition, **Kusakawa's Wakun Index** marks "小牜" as *sic* (mama) under the entry "ヒモノ".
 
-    腊  胥亦反。久也、小物全干也。（万象名義、2帖66裏）
-    腊  思亦切。乾肉也。《周禮》：腊人掌乾肉。（宋本玉篇、上71表）
-    腊  乾肉見經典（広韻・入声昔韻、昔：思積切）
+Next, regarding "全干也": **Masamune's Index** and **Kusakawa's Wakun Collection** record this as "人モ" and "テヽ" respectively.
 
-これらを見比べると、観智院本の「小牜全干也」は万象名義の「小物全干也」に一致しており、
-原撰本名義抄で万象名義を引いていたものか、
-改編本名義抄で万象名義を増補したのかは不明であるが、万象名義に由来することは
-確かと考えられる。
+However, "小牜全干也" is not a *wakun*, but a **`Semantic Gloss in Chinese`**. The commentary on the phrase "凡田獸之脯腊" in the "Offices of Heaven" (天官) section of the *Rites of Zhou* (周礼) gives: "腊、小物全乾者" (according to the *Kangxi Zidian*). The Kanchi-in manuscript's "小牜" poses no problem when read as the Chinese characters "小物". As for the "全干也" portion, if read as Chinese characters, there is a difference between "干" and "乾". "干" is given in the *Guangyun* as "古寒切" (Level tone, *Hán* rhyme); it is homophonous with "乾", and the two characters are used interchangeably.
 
-ちなみに、玄応の一切経音義には次のように見える。徐時儀の校訂本による。
+Now, does the Kanchi-in manuscript's "小牜全干也" refer directly to the *Rites of Zhou*, or is it an indirect reference? If indirect, one would expect it to derive from Xuanying's *Yiqiejing yinyi* or from Gu Yewang's original *Yupian*. Since the surviving fragments and quoted remnants of the original *Yupian* do not preserve this entry, we instead consult the *Tenrei Banshō Meigi* and the Song edition of the *Yupian*; searching these two works for "腊" yields the following. For reference, the text of the *Guangyun* is also given.
 
-    脯腊    胥亦反。 [註: 胥亦反《磧》爲‘思亦反’。] 《周禮》：脯腊。鄭玄曰：乾肉薄析之曰脯，小物全乾曰腊。腊猶昔，謂久昔也。（卷第十二雜阿含經第十九卷）
+-    腊  胥亦反。久也、小物全干也。（万象名義、2帖66裏）
+-    腊  思亦切。乾肉也。《周禮》：腊人掌乾肉。（宋本玉篇、上71表）
+-    腊  乾肉見經典（広韻・入声昔韻、昔：思積切）
 
-ここには「小物全乾曰腊」とあって「乾」と「干」との相違がある。
-
-（要確認）周礼
-天官冢宰:	
-臘人：掌乾肉，凡田獸之脯、臘、膴、肸之事。凡祭祀，共豆脯、薦脯、膴、肸，凡臘物。賓客、喪紀，共其脯、臘，凡乾肉之事。
+Comparing these, the Kanchi-in manuscript's "小牜全干也" agrees with the *Tenrei Banshō Meigi*'s "小物全干也", and it can be concluded with confidence that it derives from the *Tenrei Banshō Meigi*. However, it remains unclear whether this citation of the *Tenrei Banshō Meigi* was already present in the original compilation of the *Myōgishō*, or whether it was added as an augmentation in the revised compilation.

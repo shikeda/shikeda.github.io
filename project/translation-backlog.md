@@ -24,7 +24,7 @@
 - [ ] 05-03 (`05-03-jitaichu-formats`) — 字体注の種類と記載形式
 - [ ] 05-04 (`05-04-onchu-problems`) — 音注の種類と解読上の問題点
 - [ ] 05-05 (`05-05-gichu-quantity`) — 義注の種類と数量（英語版に未翻訳の日本語見出しが二重に残る付随的な不具合あり）
-- [ ] 05-06 (`05-06-wakun-materials`) — 和訓注釈のための基礎資料（同上）
+- [x] 05-06 (`05-06-wakun-materials`) — 和訓注釈のための基礎資料（Translation Review Trial 004 で全訳完了）
 - [ ] 05-07 (`05-07-annotation-examples`) — 注釈記述の具体例
 
 ### Summary Only
