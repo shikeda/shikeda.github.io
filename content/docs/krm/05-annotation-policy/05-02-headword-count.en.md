@@ -171,7 +171,7 @@ This example is from the "心" (heart) radical section. Here, the character '喜
 
 ### Number of `Entries` and Total Headword Character Count
 
-The number of **`Entries`** in the Kanchi-in manuscript of the *Ruiju Myōgishō* was published in: Ikeda Shoju, Liu Guanwei, Jun Munho, Zhang Xinfang, and Li Yuan, “Full-text Database of *Ruiju Myōgishō*, Kanchi-in MS : A Look at Development Methods and Calculating the Number of Headwords.” (*Kuntengo to Kuten Shiryō* 144, 2020). This paper classifies **`Entries`** by the number of characters in their **`Headwords`** and provides a detailed breakdown of these counts.
+The number of **`Entries`** in the Kanchi-in manuscript of the *Ruiju Myōgishō* was published in: Ikeda Shoju, Liu Guanwei, Jung Munho, Zhang Xinfang, and Li Yuan, “Full-text Database of *Ruiju Myōgishō*, Kanchi-in MS : A Look at Development Methods and Calculating the Number of Headwords.” (*Kuntengo to Kuten Shiryō* 144, 2020). This paper classifies **`Entries`** by the number of characters in their **`Headwords`** and provides a detailed breakdown of these counts.
 
 For example, a table row such as:
 

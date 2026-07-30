@@ -1,5 +1,5 @@
 ---
-title: "Ruiju Myogisho"
+title: "Ruiju Myōgishō"
 weight: 1
 # date: 2022-01-09
 # bookFlatSection: true
@@ -11,7 +11,7 @@ weight: 1
 # bookSearchExclude: false
 ---
 
-# *Ruiju Myōgishō* (KRM): Full text Database of the Kanchi-in Manuscript
+# *Ruiju Myōgishō* (KRM): Full-text Database of the Kanchi-in Manuscript
 
 ## Introduction
 
@@ -21,14 +21,14 @@ The *Ruiju Myōgishō* is renowned as a masterpiece among old Japanese dictionar
 Here, we will first describe the outline of the *Ruiju Myōgishō* and its various versions. Next, regarding the Kanchi-in manuscript, which is the only extant complete manuscript of the *Ruiju Myōgishō*, we will explain the structure of its entries, and then describe the details of the input method for the text of the Kanchi-in manuscript.
 
 
-Note that while the explanation provided here overlaps in part with what is stated in the paper by Ikeda Shoju, Liu Guanwei, Jun Munho, Zhang Xinfang, and Li Yuan, “Full-text Database of *Ruiju Myōgishō*, Kanchi-in MS : A Look at Development Methods and Calculating the Number of Headwords." (*Kuntengo to Kuten Shiryō* 144, 2020), it has been completely overhauled and rewritten by the first author, Ikeda, who organized the terminology and substantially added subsequent research findings.
+Note that while the explanation provided here overlaps in part with what is stated in the paper by Ikeda Shoju, Liu Guanwei, Jung Munho, Zhang Xinfang, and Li Yuan, “Full-text Database of *Ruiju Myōgishō*, Kanchi-in MS : A Look at Development Methods and Calculating the Number of Headwords." (*Kuntengo to Kuten Shiryō* 144, 2020), it has been completely overhauled and rewritten by the first author, Ikeda, who organized the terminology and substantially added subsequent research findings.
 
 
 
 ## Contents
 
 - [Overview](./01-introduction/)
-- [Overview of Public Data](./02-data-overview/)
+- [Overview of Published Data](./02-data-overview/)
     - [krm_main](./02-data-overview/02-01-main/)
     - [krm_notes](./02-data-overview/02-02-notes/)
     - [krm_headword_chars](./02-data-overview/02-03-headword-chars/)
@@ -41,26 +41,26 @@ Note that while the explanation provided here overlaps in part with what is stat
     - [Types of Entries](./03-entry-data-model/03-02-types-of-entries/)
     - [Concepts Related to Character Notation](./03-entry-data-model/03-03-concepts-char/)
     - [Publication and Updates of Entry Data Files](./03-entry-data-model/03-04-data-example/)
-- [Item Data Entry](./04-entry-input/)
-    - [Head Characters, Entry Structure, and ID System](./04-entry-input/04-01-id/)
+- [Input of Entry Data](./04-entry-input/)
+    - [Headwords, Entry Structure, and ID System](./04-entry-input/04-01-id/)
     - [Character Encoding and Representation](./04-entry-input/04-02-char/)
     - [Handling Issues in Transcription, Notation, and Annotation](./04-entry-input/04-03-handling/)
-- [Basic Principles for Creating Annotations/Commentary](./05-annotation-policy/)
-    - [Basic Principles and Analytical Focus for Annotation Creation](./05-annotation-policy/05-01-basic-policy/)
+- [Basic Policy for Annotation Creation](./05-annotation-policy/)
+    - [Basic Policy and Subjects of Analysis for Annotation Creation](./05-annotation-policy/05-01-basic-policy/)
     - [Calculation of Headword Character Count](./05-annotation-policy/05-02-headword-count/)
-    - [Types and Descriptive Formats of Notes on Character Form](./05-annotation-policy/05-03-jitaichu-formats/)
-    - [Types and Problems in Deciphering Phonetic Glosses](./05-annotation-policy/05-04-onchu-problems/)
+    - [Types and Notation Formats of Character Form Notes](./05-annotation-policy/05-03-jitaichu-formats/)
+    - [Types and Decipherment Problems of Phonetic Glosses](./05-annotation-policy/05-04-onchu-problems/)
     - [Types and Quantities of Semantic Glosses in Chinese](./05-annotation-policy/05-05-gichu-quantity/)
-    - [Foundational Materials for Annotating Japanese Native Readings (*wakun*)](./05-annotation-policy/05-06-wakun-materials/)
-    - [Specific Examples of Annotation Practice](./05-annotation-policy/05-07-annotation-examples/)
-- [Typesetting Settings for Transcriptions and Annotations](./06-typesetting/)
+    - [Foundational Materials for Annotating Japanese Native Readings (Wakun)](./05-annotation-policy/05-06-wakun-materials/)
+    - [Concrete Examples of Annotation Description](./05-annotation-policy/05-07-annotation-examples/)
+- [Typesetting Configuration for Transcriptions and Annotations](./06-typesetting/)
     - [Setting up Hanazono Mincho](./06-typesetting/06-01-hanazono-mincho/)
     - [Setting up GlyphWiki](./06-typesetting/06-02-glyphwiki/)
     - [Setting up sfkanbun.sty](./06-typesetting/06-03-sfkanbun-sty/)
     - [A Memorandum on LuaTeX Typesetting for Old Dictionaries and Kunten Materials](./06-typesetting/06-04-vscode-texlive/)
     - [Online Tools](./06-typesetting/06-05-online-tools/)
-- [Project Progress](./07-progress/)
-- [Historical Research on Japanese: A Case Study of the KRM Manuscript](./08-case-studies/)
+- [Project Progress](/docs/krm/07-progress/)
+- [Historical Research on Japanese: A Case Study of the KRM Manuscript](/docs/krm/08-case-studies/)
 
 ## Database Construction Process
 
@@ -69,7 +69,7 @@ The *Ruiju Myōgishō* of the Kanchi-in manuscript is an old handwritten manuscr
 **Step 1:** Scan the facsimile edition and cut out each listed character to create an image database of the *Ruiju Myōgishō* of the Kanchi-in manuscript. The image files of the listed characters are named according to the location of the listed character. This image file name will later be used as the listed character ID.
 
 
-**Step 2:** Add the location information to the existing *Tenrei Banshō Meigi* database by referring to the "Kanji Index" included in Atsuo Masamune's *Ruiju Myōgishō Volume 2* (Kazama Shobō, 1955). Input the location information from the "Kanji Index" into the *Tenrei Banshō Meigi* data rearranged in the order of the *Dai Kanwa Jiten* index numbers compiled by Tetsuji Morohashi. Then, rearrange it according to the order of locations in the Kanchi-in manuscript, collate it with the text of the Kanchi-in manuscript, and add the page numbers and character order of the Kanchi-in manuscript that are not found in the "Kanji Index."
+**Step 2:** Add the location information to the existing *Tenrei Banshō Meigi* database by referring to the "Kanji Index" included in Masamune Atsuo's *Ruiju Myōgishō, Volume 2* (Kazama Shobō, 1955). Input the location information from the "Kanji Index" into the *Tenrei Banshō Meigi* data rearranged in the order of the *Dai Kanwa Jiten* index numbers compiled by Morohashi Tetsuji. Then, rearrange it according to the order of locations in the Kanchi-in manuscript, collate it with the text of the Kanchi-in manuscript, and add the page numbers and character order of the Kanchi-in manuscript that are not found in the "Kanji Index."
 
 **Step 3:** Take in various information included in the *Tenrei Banshō Meigi* database (*Dai Kanwa Jiten* index numbers, Unicode numbers, kanji characters, location information in the *Tenrei Banshō Meigi*) and the corresponding location information of the *Ruiju Myōgishō* Kanchi-in manuscript created in Step 2, into the *Ruiju Myōgishō* Kanchi-in manuscript image database (created in Step 1) to create an input database for the *Ruiju Myōgishō* Kanchi-in manuscript text.
 
@@ -92,7 +92,7 @@ We would like to express our gratitude to [Tomohiko Morioka](https://researchmap
 
 The text data is available at the following URL, where we publish the text files created by the Integrated Database of Hanzi Dictionaries in Early Japan (HDIC).
 
-We preserve records of data revisions and provide the latest versions of the full-text databases for the Song Dynasty edition of the *Yupian*, the Kosanji manuscript of the *Tenrei Banshō Meigi*, and the Tenji manuscript of the *Shinsen Jikyō*.
+We preserve records of data revisions and provide the latest versions of the full-text databases for the Song Dynasty edition of the *Yupian*, the Kōzan-ji manuscript of the *Tenrei Banshō Meigi*, and the Tenji manuscript of the *Shinsen Jikyō*.
 
 [https://github.com/shikeda/HDIC](https://github.com/shikeda/HDIC)
 
@@ -108,4 +108,4 @@ Maintaining and managing the constructed data is a significant challenge.
 
 The construction and publication of the full-text database of the *Ruiju Myōgishō* of the Kanchi-in manuscript are being carried out with special permission from the authorities of Tenri Library, and we have also received exceptional consideration from Yagi Shoten, the publisher of the Tenri Library Rare Books Series. We hereby express our gratitude for this.
 
-This work was supported by JSPS KAKENHI Grant Numbers 16H03422, 19H00526, 23K17500, 25K00466 and 26K21717.
+This work was supported by JSPS KAKENHI Grant Numbers 25370506, 16H03422, 19H00526, 23K17500, 25K00466 and 26K21717.

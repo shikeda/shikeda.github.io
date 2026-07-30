@@ -92,12 +92,12 @@ HDICのインターネットでの情報提供は、メインサイト、検索�
 
 [https://hdic.jp](https://hdic.jp)
 
-検索画面は次のURLで、平安漢字字書総合データベース（HDIC）を検索するHDIC Viewerを利用できる。HDIC Viewerは劉冠偉が維持・管理を行っており、パソコンの他、スマートフォンでの検索を可能としている。
+検索画面は次のURLで、平安漢字字書総合データベース（HDIC）を検索するHDIC Viewerを利用できる。HDIC Viewerは[劉冠偉](https://researchmap.jp/liuguanwei)が維持・管理を行っており、パソコンの他、スマートフォンでの検索を可能としている。
 
 
 [https://viewer.hdic.jp](https://viewer.hdic.jp)
 
-hdic.jpのサイトの維持・管理には、守岡知彦氏による技術支援を受けていおり、感謝申し上げる。
+hdic.jpのサイトの維持・管理には、[守岡知彦](https://researchmap.jp/morioka-tomohiko)氏による技術支援を受けていおり、感謝申し上げる。
 
 テキストデータは次のURLで、
 平安漢字字書総合データベース（HDIC）で作成したテキストファイルを公開している。
@@ -119,4 +119,4 @@ hdic.jpのサイトの維持・管理には、守岡知彦氏による技術支�
 観智院本『類聚名義抄』全文テキストデータベースの構築と公開は、天理図書館当局から特別に御許可を賜り推進しているものであり、天理図書館善本叢書の版元である八木書店各位にも格別の御配慮を賜っている。ここに記して感謝の意を表する。
 
 
-This work was supported by JSPS KAKENHI Grant Numbers 16H03422, 19H00526, 23K17500, 25K00466 and 26K21717.
+This work was supported by JSPS KAKENHI Grant Numbers 25370506, 16H03422, 19H00526, 23K17500, 25K00466 and 26K21717.
