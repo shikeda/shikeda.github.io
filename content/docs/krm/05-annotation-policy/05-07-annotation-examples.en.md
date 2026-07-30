@@ -8,243 +8,241 @@ weight: 23
 # bookComments: false
 # bookSearchExclude: false
 ---
-
-
 # Concrete Examples of Annotation Description
 
-Under preparation.
+## Foreword
 
-## 前書き
+### A Trial Draft of the Annotations
 
-### 注釈の試作
+How annotations should be created, and further, how the completed annotations should be
+published, are matters currently under consideration.
 
-注釈をどのように作成するか、さらに
-作成した注釈をどのように公表するかは
-現在、検討中である。
+As a trial, some examples of annotations have been created here. Comments and feedback would be
+most welcome. Note that some items that should be annotated remain blank — for example,
+**K0106261　匜**. These are intended to be filled in and revised in the future.
 
-試みに、注釈の例を作成してみた。
-ご意見いただければ幸いである。
-なお、**K0106261　匜**など、注釈すべきなのに、未記載のところが残っている。
-今後、追加修正したい。
+### Texts Used
 
-### 使用テキスト
-
-注釈の対象とする
-観智院本類聚名義抄の本文は、仏上62頁（天理版34ウ）とする。
-この箇所は、八木書店のWebに原寸大高精細カラー版
-『類聚名義抄　観智院本』（新天理図書館善本叢書第9-11巻、八木書店、2018）の
-影印本文見本が公開されている。
+The **`Main Text`** of the Kanchi-in manuscript of the *Ruiju Myōgishō* that serves as the subject
+of annotation here is page 62 of the *Butsujō* (仏上) volume (the Tenri edition, folio 34 verso).
+For this passage, a full-size, high-resolution color facsimile sample is published on the Yagi
+Shoten website, from *Ruiju Myōgishō Kanchi-in-bon* (類聚名義抄　観智院本; *Shin Tenri Toshokan
+Zenpon Sōsho* [New Tenri Library Rare Books Series], vols. 9–11; Yagi Shoten, 2018).
 
 https://company.books-yagi.co.jp/wp-content/uploads/2018/03/95596.pdf
 
-貴重図書複製会（1937）の影印は国立国会図書館のデジタルコレクションでみることができる。
-仏上62頁は次のURLである。
+A facsimile from the Kichō Tosho Fukuseikai (1937) can be viewed in the National Diet Library
+Digital Collections. The URL for *Butsujō* page 62 is as follows.
 
 
 https://dl.ndl.go.jp/info:ndljp/pid/2586891/37
 
-蓮成院本は、
-『鎮国守国神社蔵本三宝類聚名義抄』（勉誠社、1986）による。
+For the Renjō-in manuscript, reference is made to *Sanpō Ruiju Myōgishō* (鎮国守国神社蔵本三宝類聚名義抄;
+*Sanpō Ruiju Myōgishō*, Held by Chinkoku Shukoku Shrine; Benseisha, 1986).
 
-国文学研究資料館の新日本古典籍総合データベースでは、
-宮内庁書陵部本が閲覧できる。
-次に観智院本仏上62頁に対応する箇所のURLをあげる。
+In the New Japanese Classical Text Comprehensive Database (新日本古典籍総合データベース) of the
+National Institute of Japanese Literature, the manuscript held by the Archives and Mausolea
+Department of the Imperial Household Agency (書陵部) can be viewed. The URL for the passage
+corresponding to page 62 of the *Butsujō* volume in the Kanchi-in manuscript is given below.
 
 https://kotenseki.nijl.ac.jp/biblio/100256105/viewer/75
 
-高山寺本は
-『三宝類字集　高山寺本』 （新天理図書館善本叢書第8巻、八木書店、2016）
-による。
+For the Kōzan-ji manuscript, reference is made to *Sanbō Ruiji-shū Kōzan-ji-bon* (三宝類字集　高山寺本;
+*Shin Tenri Toshokan Zenpon Sōsho*, vol. 8; Yagi Shoten, 2016).
 
-西念寺本は、天理図書館、関西大学に所蔵のものがよく知られる。
+The best-known exemplars of the Sainenji manuscript are those held by Tenri Central Library and
+Kansai University.
 
-天理図書館本は、未公刊であるので、同図書館に願い出て影印を
-入手する必要がある。
+Since the Tenri Central Library exemplar is unpublished, a facsimile must be obtained by applying
+directly to the library.
 
-国文学研究資料館の新日本古典籍総合データベースでは、
-関西大学本が閲覧できる。
-次に観智院本仏上62頁に対応する箇所のURLをあげる。
+In the New Japanese Classical Text Comprehensive Database of the National Institute of Japanese
+Literature, the Kansai University exemplar can be viewed. The URL for the passage corresponding to
+page 62 of the *Butsujō* volume in the Kanchi-in manuscript is given below.
 
 https://kotenseki.nijl.ac.jp/biblio/100302544/viewer/43
 
-この他に宮内庁書陵部本のマイクロデジタル変換の画像が閲覧できる。
-次に観智院本仏上62頁に対応する箇所のURLをあげる。
+In addition, digitized microfilm images of the Archives and Mausolea Department exemplar can be
+viewed. The URL for the passage corresponding to page 62 of the *Butsujō* volume in the Kanchi-in
+manuscript is given below.
 
 https://kotenseki.nijl.ac.jp/biblio/100256105/viewer/37
 
-天理図書館本、関西大学本、書陵部本の三本を比較すると、
-関西大学本には若干の誤脱があるようである。
-西念寺本をWebで閲覧するのであれば、書陵部本によるのがよいであろう。
+Comparing the Tenri Central Library, Kansai University, and Archives and Mausolea Department
+exemplars, the Kansai University exemplar appears to contain a certain number of scribal errors
+and omissions. For viewing the Sainenji manuscript online, the Archives and Mausolea Department
+exemplar is likely preferable.
 
-### 凡例
+### Conventions
 
-観智院本の所在は、K0106212のように示す。これは観智院本第1帖62頁1行2段目に
-該当項目があることを表している。
-KRM.tsvで公開している掲出項目(Entry)を「建／䢖 」のように示す。
-／は複数の掲出字がある場合の区切りである。
+Locations in the Kanchi-in manuscript are indicated in the form K0106212. This indicates that the
+corresponding item is found in Fascicle 1, page 62, line 1, column 2 of the Kanchi-in manuscript.
+The **`Entry`** published in KRM.tsv is shown in the form "建／䢖". The "／" mark separates multiple
+**`Headwords`** when more than one is present.
 
-その次にGlyphWikiにより原文の字形、本文、注の順に示す。
-注では注文の出現順に付した番号を最初に掲げて、注釈対象箇所を
-明記している。
+Next, the original glyph forms are shown via GlyphWiki, followed by the **`Main Text`** and then
+the **`Notes`**, in that order. In the notes, the number assigned according to the order of
+appearance within the **`Original Gloss`** is given first, clearly identifying the specific
+passage being annotated.
 
-## 仏上
+## *Butsujō*
 ### 3辵
 #### K0106212 建／䢖 
 ![䢖](https://glyphwiki.org/glyph/sarashina_hkrm-01062121.50px.png)![䢖](https://glyphwiki.org/glyph/sarashina_hkrm-01062122.50px.png)
 
-（本文）
+(Main Text)
 居彦(RV)反　タツ(LH)　ヲヨフ　サル　イタル　ヨロコフ　コホス　クツカヘル　和コン
 
-（注）
+(Notes)
 
 1	居彦(RV)反  
-	「建」は広韻「居万切」（去声願韻見母、建）。「䢖」は広韻「餘律切」（入声術韻喩四母、聿）。「彦」は「魚變切」（去声線韻疑母）。「彦」の声点、観智院本去声濁、高山寺本去濁（o-）、西念寺本去声、蓮成院本なし。
+	"建" appears in the *Guangyun* as "居万切" (Departing tone, Yuan rhyme (願韻), Jian initial; xiaoyun 建). "䢖" appears in the *Guangyun* as "餘律切" (Entering tone, Shu rhyme (術韻), *Yu* IV initial; xiaoyun 聿). "彦" is "魚變切" (Departing tone, Xian rhyme (線韻), Yi initial). As for the **`Tone Mark`** on "彦": the Kanchi-in manuscript marks it Departing, voiced; the Kōzan-ji manuscript marks it Departing, voiced (in the "-o" shape); the Sainenji manuscript marks it Departing; the Renjō-in manuscript has none.
 
 2	タツ(LH)  
-	高山寺本同、蓮成院本・西念寺本声点なし。万象名義「立也」「樹也」。中村文選68頁(西京)「建タテテ」。
+	The Kōzan-ji manuscript agrees; the Renjō-in and Sainenji manuscripts have no **`Tone Mark`**. The *Tenrei Banshō Meigi* gives "立也" (to stand) and "樹也" (to erect). Nakamura's Monzen, p. 68 (西京), has "建タテテ" ("erecting").
 
 3	ヲヨフ  
-	高山寺本「オヨフ(HH_)」、蓮成院本・西念寺本「オヨフ」。
+	The Kōzan-ji manuscript has "オヨフ(HH_)"; the Renjō-in and Sainenji manuscripts have "オヨフ".
 
 4	サル  
-	高山寺本「サ爪(LH)」、西念寺本「サ爪」、蓮成院本「サス」。西端誤写諸例39頁①誤字294。中村文選1頁(表)「建サスコト」。
+	The Kōzan-ji manuscript has "サ爪(LH)"; the Sainenji manuscript has "サ爪"; the Renjō-in manuscript has "サス". Nishihata, *Gosha Shorei* (Examples of Scribal Errors), p. 39, item ①, error no. 294. Nakamura's Monzen, p. 1 (表), has "建サスコト".
 
 5	イタル  
-	万象名義「至也」。
+	The *Tenrei Banshō Meigi* gives "至也" (to arrive).
 
 6	ヨロコフ  
-	高山寺本・蓮成院本・西念寺本は「ヨ」を異体字に書写。
+	The Kōzan-ji, Renjō-in, and Sainenji manuscripts all write "ヨ" as a **`Variant Character`** (*itaiji*).
 
 7	コホス  
-	高山寺本「コ小爪(LLVH)」。西念寺本「コ小爪(LLVH)」(声点存疑)。訓点語彙集成「建」に「イタル/コボス/サス/タツ」の訓あり。
+	The Kōzan-ji manuscript has "コ小爪(LLVH)". The Sainenji manuscript also has "コ小爪(LLVH)" (the **`Tone Mark`** is uncertain, 存疑). The *Kunten Goi Shūsei* records the readings "イタル", "コボス", "サス", and "タツ" for "建".
 
 8	クツカヘル  
-	西念寺本同、高山寺本・蓮成院本になし。集韻「建㨴　覆也漢書居高屋之上建瓴水或作㨴」（上声阮韻、湕：紀偃切）。「高屋建瓴」はクラウン日中辞典「高屋建瓴 gāo wū jiàn líng」に「成語・成句　高い所からまっすぐ下方を見おろせる地形．また，流れの勢いを阻むことができないたとえ．『史記』高祖本紀に見えることば．地勢が出兵するのに有利で，まるで屋根から水がめの水を傾けると，水がまっすぐ流れていくようだ，という意から．」とある。「瓴」は水を入れるかめの意。
+	The Sainenji manuscript agrees; the Kōzan-ji and Renjō-in manuscripts lack this reading. The *Jiyun* gives "建㨴　覆也漢書居高屋之上建瓴水或作㨴" (Rising tone, Ruan rhyme (阮韻); xiaoyun 湕: "紀偃切"). The *Crown Japanese-Chinese Dictionary*, under the idiom "高屋建瓴" ("gāo wū jiàn líng"), gives: "A set phrase (成語・成句): terrain from which one can look straight down from a high place; also a metaphor for a force whose momentum cannot be stopped. The phrase appears in the 'Basic Annals of Gaozu' (高祖本紀) of the *Shiji* (史記): the terrain is advantageous for launching troops, as though water were being poured from a jar atop a roof — it flows straight down without resistance." "瓴" means a jar for holding water.
 
 9	和コン  
-	観智院本・蓮成院本・西念寺本「禾コン」、高山寺本「音コン」。
+	The Kanchi-in, Renjō-in, and Sainenji manuscripts have "禾コン"; the Kōzan-ji manuscript has "音コン".
 
 #### K0106214 𨑭 
 ![𨑭](https://glyphwiki.org/glyph/sarashina_hkrm-01062140.50px.png)
 
-（本文）
+(Main Text)
 丑連反　安行也　トコロ
 
-（注）
+(Notes)
 
 1	丑連反  
-	広韻・万象名義なし。宋本玉篇「斯子切」、龍龕手鏡「丑連反」。原文「刃」は「丑」の異体字。観智院本・蓮成院本・西念寺本「刃」、高山寺本「丑」に作る。「連」（平声仙韻）に高山寺本・西念寺本は平声点あり。
+	Not found in the *Guangyun* or the *Tenrei Banshō Meigi*. The Song edition of the *Yupian* gives "斯子切"; the *Longkan Shoujian/Shoujing* gives "丑連反". In the original text, "刃" is a **`Variant Character`** of "丑". The Kanchi-in, Renjō-in, and Sainenji manuscripts write "刃"; the Kōzan-ji manuscript writes "丑". For "連" (Level tone, Xian rhyme (仙韻)), the Kōzan-ji and Sainenji manuscripts have a Level **`Tone Mark`**.
 
 2	安行也  
-	龍龕手鏡「緩歩也」。
+	The *Longkan Shoujian/Shoujing* gives "緩歩也" (to walk unhurriedly).
 
 3	トコロ  
-	類似形字の「処」による誤訓か。
+	Possibly a misreading arising from the graphically similar character "処".
 
 #### K0106221 辿
 ![辿](https://glyphwiki.org/glyph/sarashina_hkrm-01062210.50px.png)
 
 
-（本文）
+(Main Text)
 俗
 
-（注）
+(Notes)
 
 1	俗  
-	掲出字を観智院本・高山寺本・蓮成院本「辿」に作るが、西念寺本のみ「![𢌚](https://glyphwiki.org/glyph/u2231a.50px.png)」に作る、龍龕手鏡「
-	![𨑭](https://glyphwiki.org/glyph/sarashina_hkrm-01062140.50px.png)![辿](https://glyphwiki.org/glyph/zihai-063232.50px.png)(𨑭辿)」
-	を「二同」とする。
+	The Kanchi-in, Kōzan-ji, and Renjō-in manuscripts write the **`Headword`** as "辿", but the Sainenji manuscript alone writes it as "![𢌚](https://glyphwiki.org/glyph/u2231a.50px.png)". The *Longkan Shoujian/Shoujing* labels
+	"![𨑭](https://glyphwiki.org/glyph/sarashina_hkrm-01062140.50px.png)![辿](https://glyphwiki.org/glyph/zihai-063232.50px.png)(𨑭辿)"
+	with the **`Form Classification Tag`** "二同" ("the second is the same").
 
 
 #### Ta084220 延
 ![延](https://glyphwiki.org/glyph/sarashina_hkrm-01062220.50px.png)
 
-（本文）
+(Main Text)
 以然反　ノフ(LH)　ヒク　ヲヨフ　シリソク　ミチヒク　ヒサシ　チカツク　ホヒコル　スヽム　アヒタ　トヲシ　ナカシ　ヒロク(__LV)　和エン
 
 
-（注）
+(Notes)
 
 1	以然反  
-	広韻「以然切」（平声仙韻）、「于線切」（去声線韻、衍）。前者に対応。万象名義「餘旗反」、宋本玉篇「余旃切」（平声仙韻）。高山寺本「然」に平声濁の声点あり（-oの形状）、他本は声点なし。
+	The *Guangyun* gives "以然切" (Level tone, Xian rhyme (仙韻)) and "于線切" (Departing tone, Xian rhyme (線韻); xiaoyun 衍); this corresponds to the former. The *Tenrei Banshō Meigi* gives "餘旗反"; the Song edition of the *Yupian* gives "余旃切" (Level tone, Xian rhyme (仙韻)). In the Kōzan-ji manuscript, "然" carries the Level, voiced **`Tone Mark`** (in the "-o" shape); the other manuscripts have no **`Tone Mark`**.
 
 2	ノフ(LH)  
-	高山寺本「ノフ(LHV)」、蓮成院本・西念寺本「ノフ」。万象名義「陳也」。訓点語彙集成に「オヨブ/スゴス/ススム/チカヅク/ナガシ/ノバフ/ノブ/ヒク/ミチビク/ヰル」の訓あり。
+	The Kōzan-ji manuscript has "ノフ(LHV)"; the Renjō-in and Sainenji manuscripts have "ノフ". The *Tenrei Banshō Meigi* gives "陳也" (to lay out). The *Kunten Goi Shūsei* records the readings "オヨブ", "スゴス", "ススム", "チカヅク", "ナガシ", "ノバフ", "ノブ", "ヒク", "ミチビク", and "ヰル".
 
 3	ヒク  
-	蓮成院本・西念寺本同、高山寺本「ヒク(HL)」。中村文選60頁(西京)「重閨、幽闥アリテ、轉ウタヽ相踰コエ延ヒケリ」（重閨、幽闥は宮中の小さい門）。
+	The Renjō-in and Sainenji manuscripts agree; the Kōzan-ji manuscript has "ヒク(HL)". Nakamura's Monzen, p. 60 (西京), has "重閨、幽闥アリテ、轉ウタヽ相踰コエ延ヒケリ" (重閨 and 幽闥 are small doors within the palace).
 
 4	ヲヨフ  
-	蓮成院本・西念寺本「オヨフ」、高山寺本「オヨフ(HHLV)」。万象名義「及也」。中村文選280頁(羽)「延オヨヒ」。
+	The Renjō-in and Sainenji manuscripts have "オヨフ"; the Kōzan-ji manuscript has "オヨフ(HHLV)". The *Tenrei Banshō Meigi* gives "及也" (to reach). Nakamura's Monzen, p. 280 (羽), has "延オヨヒ".
 
 5	シリソク  
-	蓮成院本同、高山寺本「シリソク(LL__)」、西念寺本「シリツク」。万象名義「退也」。中村文選73頁(西京)「遷延(ト)シリソキ「退也」」(上野)「(ト)シリソキ「作延遷」」。
+	The Renjō-in manuscript agrees; the Kōzan-ji manuscript has "シリソク(LL__)"; the Sainenji manuscript has "シリツク". The *Tenrei Banshō Meigi* gives "退也" (to withdraw). Nakamura's Monzen, p. 73 (西京), has "遷延(ト)シリソキ「退也」"; (上野) has "(ト)シリソキ「作延遷」".
 
 6	ミチヒク  
-	蓮成院本・西念寺本同、高山寺本「ミチヒク(HH__)」。中村文選234頁(甘)「延ミチヒク」。
+	The Renjō-in and Sainenji manuscripts agree; the Kōzan-ji manuscript has "ミチヒク(HH__)". Nakamura's Monzen, p. 234 (甘), has "延ミチヒク".
 
 7	ヒサシ  
-	高山寺本・蓮成院本・西念寺本同。「迥」「遠」に「ヒサシ」の訓あり、そのくずし字によるか。
+	The Kōzan-ji, Renjō-in, and Sainenji manuscripts agree. The characters "迥" and "遠" both carry the reading "ヒサシ"; this reading may derive from their cursive forms.
 
 8	チカツク  
-	高山寺本・蓮成院本・西念寺本同。「延」の異体字「𮞅」が「近」に類似した字形による訓か。
+	The Kōzan-ji, Renjō-in, and Sainenji manuscripts agree. This reading may arise because the **`Variant Character`** of "延", "𮞅", has a form resembling "近".
 
 9	ホヒコル  
-	西念寺本同、高山寺本・蓮成院本「小ヒコル」。日国「ほびこ・る 【蔓延】」に「いっぱいに広がる。はびこる。」の意とし、万葉集4123（雲保妣許里）、石山寺本法華経玄賛平安中期点（蔓）の例をあげる。
+	The Sainenji manuscript agrees; the Kōzan-ji and Renjō-in manuscripts have "小ヒコル". The *Nikkoku*, under "ほびこ・る【蔓延】", gives the meaning "to spread everywhere; to run rampant," citing examples from *Man'yōshū* poem 4123 (雲保妣許里) and the mid-Heian-period glosses on the Ishiyama-dera manuscript of the *Hokekyō Genzan* (法華経玄賛, on "蔓").
 
 10	スヽム  
-	蓮成院本・西念寺本同、高山寺本「爪ヽム」。万象名義「進也」。中村文選443頁(閑)「延スヽメ」。
+	The Renjō-in and Sainenji manuscripts agree; the Kōzan-ji manuscript has "爪ヽム". The *Tenrei Banshō Meigi* gives "進也" (to advance). Nakamura's Monzen, p. 443 (閑), has "延スヽメ".
 
 11	アヒタ  
-	高山寺本・蓮成院本・西念寺本同。万象名義「間也」。
+	The Kōzan-ji, Renjō-in, and Sainenji manuscripts agree. The *Tenrei Banshō Meigi* gives "間也" (an interval).
 
 12	トヲシ  
-	高山寺本同、蓮成院本・西念寺本「トホシ」。広韻「遠也」。
+	The Kōzan-ji manuscript agrees; the Renjō-in and Sainenji manuscripts have "トホシ". The *Guangyun* gives "遠也" (far).
 
 13	ナカシ  
-	蓮成院本同、高山寺本「ナカシ(LLVH)」、西念寺本「ナカシ」の左に「ー‥ー」あり、声点か。万象名義「長也」。中村文選339頁(魯)「曼延(ト)[ナカシ]／(寛永)ハヒコレリ[ナカシ・ナカクノヘリ]」。
+	The Renjō-in manuscript agrees; the Kōzan-ji manuscript has "ナカシ(LLVH)". In the Sainenji manuscript, there is a mark "ー‥ー" to the left of "ナカシ", possibly a **`Tone Mark`**. The *Tenrei Banshō Meigi* gives "長也" (long). Nakamura's Monzen, p. 339 (魯), has "曼延(ト)[ナカシ]" / (寛永 edition) "ハヒコレリ[ナカシ・ナカクノヘリ]".
 
 14	ヒロク(__LV)  
-	高山寺本「ヒロク(HHLV)」、蓮成院本・西念寺本「ヒロク」。
+	The Kōzan-ji manuscript has "ヒロク(HHLV)"; the Renjō-in and Sainenji manuscripts have "ヒロク".
 
 15	和エン  
-	高山寺本なし。観智院本・蓮成院本「禾エン」。西念寺本「禾エン(_L)」。
+	Absent from the Kōzan-ji manuscript. The Kanchi-in and Renjō-in manuscripts have "禾エン". The Sainenji manuscript has "禾エン(_L)".
 
 #### K0106231 ⿺辶屲 
 ![⿺辶屲](https://glyphwiki.org/glyph/sarashina_hkrm-01062310.50px.png)
 
-（本文）
+(Main Text)
 或
 
-（注）
+(Notes)
 
 1	或  
-	観智院本・高山寺本同、西念寺本「⿺辶屲」。
+	The Kanchi-in and Kōzan-ji manuscripts agree; the Sainenji manuscript has "⿺辶屲".
 
 
 #### K0106232 ⿺辶&CDP-8C66;𨒌
 ![⿺辶&CDP-8C66;](https://glyphwiki.org/glyph/sarashina_hkrm-01062321.50px.png)![𨒌](https://glyphwiki.org/glyph/sarashina_hkrm-01062322.50px.png)
 
-（本文）
+(Main Text)
 俗
 
-（注）
+(Notes)
 
 1	俗  
-	「⿺辶&CDP-8C66;」はUnicodeにあり（𮞅  u2e785 ![𮞅](https://glyphwiki.org/glyph/u2e785.50px.png)）。
+	"⿺辶&CDP-8C66;" exists in Unicode (𮞅　u2e785 ![𮞅](https://glyphwiki.org/glyph/u2e785.50px.png)).
 
 #### K0106233 ⿺辶⿱艹⿱丿止
 ![⿺辶⿱艹⿱丿止](https://glyphwiki.org/glyph/sarashina_hkrm-01062330.50px.png)
 
-（本文）
+(Main Text)
 ムシロ　シキ物　ホヒコル
 
-（注）  
+(Notes)  
 1	ムシロ  
-	西本「ムシロ」さらに「音延」あり（岡田希雄『類聚名義抄の研究』252頁）。蓮成院本・西念寺本「ムシロ」あり、高山寺本なし。西念寺本のみ注末に「音延」あり（草川昇「類聚名義抄和訓小考」44頁例29）。「音延」西念寺本の増補（小林恭治「観智院本にない漢字注記(2)」例32）。池田按：掲出字は観智院本・高山寺本・蓮成院本同じ。西念寺本「莚」に作る。「莚」は広韻「草名」（平声仙韻、延：以然切）、「蔓莚不斷」（去声線韻、衍：于線切）。西念寺本の音注は「亠延(L)」と平声点あり。
+	The Sainenji manuscript has "ムシロ", and further has "音延" (Okada Mareo, *Ruiju Myōgishō no Kenkyū*, p. 252). The Renjō-in and Sainenji manuscripts have "ムシロ"; the Kōzan-ji manuscript lacks it. Only the Sainenji manuscript has "音延" at the end of the note (Kusakawa, Noboru, "Ruiju Myōgishō Wakun Shōkō," p. 44, example 29). "音延" is an addition in the Sainenji manuscript (Kobayashi Kyōji, "Kanchi-in-bon ni Nai Kanji Chūki (2)," example 32). Ikeda's note: the **`Headword`** is the same in the Kanchi-in, Kōzan-ji, and Renjō-in manuscripts. The Sainenji manuscript writes it as "莚". "莚" appears in the *Guangyun* as "草名" (name of a plant; Level tone, Xian rhyme (仙韻); xiaoyun 延: "以然切") and as "蔓莚不斷" (Departing tone, Xian rhyme (線韻); xiaoyun 衍: "于線切"). The Sainenji manuscript's **`Phonetic Gloss`** is "亠延(L)", with a Level **`Tone Mark`**.
 
 2	シキ物  
-	原文「シキ牜」。高山寺本・蓮成院本「シ＼牜」、観智院本・西念寺本「シキ牜」。
+	The original text has "シキ牜". The Kōzan-ji and Renjō-in manuscripts have "シ＼牜"; the Kanchi-in and Sainenji manuscripts have "シキ牜".
 
 3	ホヒコル  
 	
@@ -252,162 +250,162 @@ KRM.tsvで公開している掲出項目(Entry)を「建／䢖 」のように�
 #### K0106234 蔓／莚
 ![蔓](https://glyphwiki.org/glyph/sarashina_hkrm-01062341.50px.png)![莚](https://glyphwiki.org/glyph/sarashina_hkrm-01062342.50px.png)
 
-（本文）
+(Main Text)
 ハヒコル
 
-（注）  
+(Notes)  
 1	ハヒコル  
-	高山寺本・西念寺本同、蓮成院本「小ヒコル」。中村文選138頁(蜀)「風連莚蔓トハヒコレリ於蘭臯」。
+	The Kōzan-ji and Sainenji manuscripts agree; the Renjō-in manuscript has "小ヒコル". Nakamura's Monzen, p. 138 (蜀), has "風連莚蔓トハヒコレリ於蘭臯".
 
 #### K0106241 ー（莚）／䝯
 ![莚](https://glyphwiki.org/glyph/sarashina_hkrm-01062342.50px.png)![䝯](https://glyphwiki.org/glyph/sarashina_hkrm-01062412.50px.png)
 
-（本文）
+(Main Text)
 同
 
-（注）  
+(Notes)  
 1	同  
-	中村文選264頁(上)「䝯丘陵ハヒコリ「連也又延也」／(寛文)ハヒコレリ・ソヒテ」。
+	Nakamura's Monzen, p. 264 (上), has "䝯丘陵ハヒコリ「連也又延也」／(寛文 edition) ハヒコレリ・ソヒテ".
 
 #### K0106242　筵
 ![筵](https://glyphwiki.org/glyph/sarashina_hkrm-01062420.50px.png)
 
-（本文）
+(Main Text)
 ナカムシロ
 
-（注）  
+(Notes)  
 1	ナカムシロ  
-	観智院本・高山寺本・蓮成院本は掲出字を「⿱竹𨒌」、西念寺本は「筵」に作る。日国「なが‐むしろ 【長筵】」に「たけの長いむしろ。天皇が徒歩で歩くときや神事に祭神が遷御するときの道に敷くむしろ。また、畳の表。」の意とし、延喜式「長席」、新儀式「長筵」、塘中納言物語の例をあげる。
+	The Kanchi-in, Kōzan-ji, and Renjō-in manuscripts write the **`Headword`** as "⿱竹𨒌"; the Sainenji manuscript writes it as "筵". The *Nikkoku*, under "なが‐むしろ【長筵】", gives the meaning: "A long straw mat. A mat spread along the path when the Emperor walks on foot, or when a deity is conveyed in procession during a religious rite. Also, the surface covering of a tatami mat." It cites examples from the *Engishiki* ("長席"), the *Shingishiki* ("長筵"), and the *Tsutsumi Chūnagon Monogatari*.
 
 
 #### K0106243　𨒌
 ![𨒌](https://glyphwiki.org/glyph/sarashina_hkrm-01062430.50px.png)
 
-（本文）
+(Main Text)
 𨒌並征字
 
-（注）  
+(Notes)  
 1	𨒌並征字  
-	観智院本・高山寺本同。蓮成院本は掲出字「𨒌𨒌」注文「並征字」とする。  
-	観智院本・西念寺本の注文の「𨒌」は![𨒌](https://glyphwiki.org/glyph/sarashina_hkrm-01062430.50px.png)に同じ。蓮成院本はこれと同じ掲出字を二字併記。  
-	西念寺本は掲出字「延」が観智院本と相違するが、注文「𨒌並征字」は観智院本に同じ。西念寺本の本文が文意よく通じる。
-	西念寺本は更に掲出字「𨒙」（𨒙 u28499 ![𨒙](https://glyphwiki.org/glyph/sarashina_hkrm-01049340.50px.png)）注文「亠石」を記載する。
+	The Kanchi-in and Kōzan-ji manuscripts agree. The Renjō-in manuscript has the **`Headword`** "𨒌𨒌" with the **`Original Gloss`** "並征字".  
+	The "𨒌" in the **`Original Glosses`** of the Kanchi-in and Sainenji manuscripts is the same as ![𨒌](https://glyphwiki.org/glyph/sarashina_hkrm-01062430.50px.png). The Renjō-in manuscript writes this same **`Headword`** twice, side by side.  
+	In the Sainenji manuscript, the **`Headword`** "延" differs from the Kanchi-in manuscript, but the **`Original Gloss`** "𨒌並征字" matches the Kanchi-in manuscript. The Sainenji manuscript's **`Main Text`** makes better sense.
+	The Sainenji manuscript further records the **`Headword`** "𨒙" (𨒙　u28499　![𨒙](https://glyphwiki.org/glyph/sarashina_hkrm-01049340.50px.png)) with the **`Original Gloss`** "亠石".
 
 ------
 ### 4匚
 #### K0106251 匚
 ![匚](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062510.50px.png)
 
-（本文）
+(Main Text)
 方音　受物之器　《玉ー》云甫玉切
 
-（注）  
+(Notes)  
 1	方音  
-	広韻「府良切」（平声陽韻、方）。観智院本は掲出字に朱の庵点（〽）あり。高山寺本・蓮成院本・西念寺本は庵点なし。高山寺本は前行に「第四匚篇」あり。観智院本は朱「四」、蓮成院本は小字「四」を小字右寄せ、西念寺本は「四」あり。観智院本・蓮成院本・西念寺本「方亠」、高山寺本「方(L)音」。
+	The *Guangyun* gives "府良切" (Level tone, Yang rhyme (陽韻); xiaoyun 方). The Kanchi-in manuscript has a vermilion *iori-ten* mark (〽) on the **`Headword`**; the Kōzan-ji, Renjō-in, and Sainenji manuscripts have no such mark. The Kōzan-ji manuscript has "第四匚篇" on the preceding line. The Kanchi-in manuscript has "四" in vermilion; the Renjō-in manuscript has a small "四" set to the right; the Sainenji manuscript has "四". The Kanchi-in, Renjō-in, and Sainenji manuscripts have "方亠"; the Kōzan-ji manuscript has "方(L)音".
 
 2	受物之器  
-	説文「受物之器」。
+	The *Shuowen Jiezi* gives "受物之器" (a vessel for holding things).
 
 3	《玉ー》云甫玉切  
-	観智院本「《玉ー》云甫玉切」あり、蓮成院本・高山寺本・西念寺本なし。観智院本の増補。宋本玉篇「甫王切」とあり「玉」は「王」を誤写（小林恭治「西念寺本に見えない漢字注記」例17）。
+	The Kanchi-in manuscript has "《玉ー》云甫玉切"; the Renjō-in, Kōzan-ji, and Sainenji manuscripts lack it. This is an addition in the Kanchi-in manuscript. The Song edition of the *Yupian* gives "甫王切"; "玉" is a scribal error for "王" (Kobayashi Kyōji, "Sainenji-bon ni Mienai Kanji Chūki" [Character-Form Annotations Not Visible in the Sainenji Manuscript], example 17).
 
 #### K0106252 匠
 ![匠](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062520.50px.png)
 
-（本文）
+(Main Text)
 音上　呉音昌(R)　⿺辶⿱一斤俗　ツヒニ〈是歟〉　タクミ(LLL)
 
-（注）  
+(Notes)  
 1	音上  
-	広韻「疾亮切」（去声漾韻）。「上」は「時掌切」（上声養韻）、「時亮切」（去声漾韻、尚）。観智院本・蓮成院本・西念寺本「亠上」、高山寺本「音上(R)」。
+	The *Guangyun* gives "疾亮切" (Departing tone, Yang rhyme (漾韻)). "上" is "時掌切" (Rising tone, Yang rhyme (養韻)) and "時亮切" (Departing tone, Yang rhyme (漾韻); xiaoyun 尚). The Kanchi-in, Renjō-in, and Sainenji manuscripts have "亠上"; the Kōzan-ji manuscript has "音上(R)".
 
 2	呉音昌(R)  
-	高山寺本「呉ー唱(R)」、蓮成院本・西念寺本「呉ー唱」。石山寺本大般若経字抄「匠」(⿺辶⿱一斤)に「音唱」「タクミ」（9オ）、「音唱」（21オ）。
+	The Kōzan-ji manuscript has "呉ー唱(R)"; the Renjō-in and Sainenji manuscripts have "呉ー唱". In the Ishiyama-dera manuscript of the *Dai-Hannya-kyō Jishō*, the entry for "匠" (⿺辶⿱一斤) has "音唱" and "タクミ" (fol. 9r), and "音唱" (fol. 21r).
 
 3	⿺辶⿱一斤俗  
-	⿺辶⿱一斤は𮞆 (u2e786)。干禄字書「⿺辶⿱一斤匠　上俗下正」。
+	"⿺辶⿱一斤" is 𮞆 (U+2E786). The *Ganlu Zishu* gives "⿺辶⿱一斤匠　上俗下正" (of the two, the upper is the vulgar/popular form and the lower is the standard form).
 
 4	ツヒニ〈是歟〉  
-	観智院本は「是歟」をやや小さく書写。「遂」のくずし字に由来する訓か、不審。
+	The Kanchi-in manuscript writes "是歟" in a slightly smaller size. This reading may derive from the cursive form of "遂", though this remains uncertain.
 
 5	タクミ(LLL)  
-	道円本和名抄「工匠　四声字苑云工［功反和名太久美］匠［上反］巧人也」（巻2人倫部）。大般若経字抄「匠」に「タクミ」（9オ）。観智院本・高山寺本「タクミ(LLL)」、蓮成院本「タクミ」、西念寺本「タクミ(LLL)」（存疑）。
+	The Dōen-bon manuscript of the *Wamyō Ruijushō* gives "工匠　四声字苑云工［功反和名太久美］匠［上反］巧人也" (Vol. 2, Jinrin [Human Relations] Section). The *Dai-Hannya-kyō Jishō* has "タクミ" for "匠" (fol. 9r). The Kanchi-in and Kōzan-ji manuscripts have "タクミ(LLL)"; the Renjō-in manuscript has "タクミ"; the Sainenji manuscript has "タクミ(LLL)" (uncertain, 存疑).
 
 
 #### K0106253 匧
 ![匧](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062530.50px.png)
 
-（本文）
+(Main Text)
 苦俠(S)反　篋俗
 
-（注）  
+(Notes)  
 1	苦俠(S)反  
-	広韻「苦協切」（入声怗韻、愜）。観智院本・高山寺本「俠」に入声点あり、蓮成院本・西念寺本に声点なし。
+	The *Guangyun* gives "苦協切" (Entering tone, Tie rhyme (怗韻); xiaoyun 愜). In the Kanchi-in and Kōzan-ji manuscripts, "俠" carries an Entering **`Tone Mark`**; the Renjō-in and Sainenji manuscripts have no **`Tone Mark`**.
 
 2	篋俗  
-	蓮成院本「」を掲出字と同じ大きさに書写。宋本玉篇「匧　或作篋」。新撰字鏡「匧　篋字」、龍龕手鏡巻1匚部に「⿷匚夹　俗通；匧　正。苦叶反。函ー也。二。」。
+	The Renjō-in manuscript writes "「」" in the same size as the **`Headword`**. The Song edition of the *Yupian* gives "匧　或作篋" (匧 is also written as 篋). The *Shinsen Jikyō* gives "匧　篋字" (匧 is the character 篋); the *Longkan Shoujian/Shoujing*, Fascicle 1, "匚" radical section, gives "⿷匚夹　俗通；匧　正。苦叶反。函ー也。二。"
 
 
 #### K0106254 匧
 ![匧](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062540.50px.png)
 
-（本文）
+(Main Text)
 正
 
-（注）  
+(Notes)  
 1	正  
-	観智院本・蓮成院本・高山寺本「正」あり、西念寺本なし。西念寺本の脱漏（小林恭治「西念寺本に見えない漢字注記」例18）。
+	The Kanchi-in, Renjō-in, and Kōzan-ji manuscripts have "正"; the Sainenji manuscript lacks it. This is an omission in the Sainenji manuscript (Kobayashi Kyōji, "Sainenji-bon ni Mienai Kanji Chūki," example 18).
 
 #### K0106261 匜
 ![匜](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062610.50px.png)
 
-（本文）
+(Main Text)
 移(L)音　又戈(弋)尒反　⿺乚㐌⿺辶㐌
 
-（注）  
+(Notes)  
 1	移(L)音  
-	広韻「弋支切」（平声支韻喩四母、移）、「移爾切」（上声紙韻喩四母、酏）。前者に対応。観智院本「移(L)亠」、高山寺本「移(L)音」、蓮成院本「移亠」。西念寺本「移」の右行「一」との間に「｜」あり、元来「移亠」であったか、「移(L)亠」の可能性もあり。
+	The *Guangyun* gives "弋支切" (Level tone, Zhi rhyme (支韻), *Yu* IV initial; xiaoyun 移) and "移爾切" (Rising tone, Zhi rhyme (紙韻), *Yu* IV initial; xiaoyun 酏); this corresponds to the former. The Kanchi-in manuscript has "移(L)亠"; the Kōzan-ji manuscript has "移(L)音"; the Renjō-in manuscript has "移亠". In the Sainenji manuscript, there is a "｜" mark between "移" and the "一" on the line to its right; this may originally have been "移亠", though "移(L)亠" is also possible.
 
 2	又戈(弋)尒反  
-	広韻「弋支切」（平声支韻喩四母、移）、「移爾切」（上声紙韻喩四母、酏）。「爾(尒)」は「兒氏切」（上声紙韻日母）。観智院本・西念寺本「戈尒反」、高山寺本「弋尓反」、蓮成院本「弋尒反」。
+	The *Guangyun* gives "弋支切" (Level tone, Zhi rhyme (支韻), *Yu* IV initial; xiaoyun 移) and "移爾切" (Rising tone, Zhi rhyme (紙韻), *Yu* IV initial; xiaoyun 酏). "爾(尒)" is "兒氏切" (Rising tone, Zhi rhyme (紙韻), Ri initial). The Kanchi-in and Sainenji manuscripts have "戈尒反"; the Kōzan-ji manuscript has "弋尓反"; the Renjō-in manuscript has "弋尒反".
 
 3	⿺乚㐌⿺辶㐌  
 
 #### K0106262 𠤷
 ![𠤷](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062620.50px.png)
 
-（本文）
+(Main Text)
 ハンサフ(LLLVL)
 
-（注）  
+(Notes)  
 1	ハンサフ(LLLVL)  
 	
 #### K0106263 匡
 ![匡](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062630.50px.png)
 
-（本文）
+(Main Text)
 俗　去王(L)反　タヽス-シ(LHVH-_)　マサシ　タクマシ　オツ　カシコマル　スヽメリ　マウス　スケ　ヤム　呉音况
 
-（注）  
+(Notes)  
 1	俗  
 	
 2	去王(L)反  
-	広韻「去王切」（平声陽韻）、「渠放切」（去声漾韻、狂）。
+	The *Guangyun* gives "去王切" (Level tone, Yang rhyme (陽韻)) and "渠放切" (Departing tone, Yang rhyme (漾韻); xiaoyun 狂).
 
 3	タヽス-シ(LHVH-_)  
-	中村文選8頁(序)「匡タヽスニ「正也」」。
+	Nakamura's Monzen, p. 8 (序), has "匡タヽスニ「正也」".
 
 4	マサシ  
-	訓点語彙集成「匡」に「ウルハシ/タスク/タダシ/タダシウス/タダシクス/タダス」の訓あり。
+	The *Kunten Goi Shūsei* records the readings "ウルハシ", "タスク", "タダシ", "タダシウス", "タダシクス", and "タダス" for "匡".
 
 5	タクマシ  
-	「逞」の訓に関連するか。
+	Possibly related to the reading of "逞".
 
 6	オツ  
 	
 
 7	カシコマル  
-	訓点語彙集成「屈」に「カシコマル」の訓あり、これに関連するか。
+	The *Kunten Goi Shūsei* records the reading "カシコマル" for "屈"; this may be related.
 
 8	スヽメリ  
 	
@@ -416,21 +414,21 @@ KRM.tsvで公開している掲出項目(Entry)を「建／䢖 」のように�
 	
 
 10	スケ  
-	正宗索引「スケ」と「ヤム」に分けて採録。西端幸雄「スチヤム」と判読し高山寺本「スケ　ヤム」、蓮成院本「カケヤム」とする（西端誤写諸例39頁①誤字313）。今、正宗に従う。
+	Masamune's Index records this as two separate readings, "スケ" and "ヤム". Nishihata Yukio reads it as "スチヤム", taking the Kōzan-ji manuscript as "スケ　ヤム" and the Renjō-in manuscript as "カケヤム" (Nishihata, *Gosha Shorei*, p. 39, item ①, error no. 313). Here, Masamune's reading is followed.
 
 11	ヤム  
 	
 12	呉音况  
-	石山寺本大般若経字抄「匡」(⿺辶⿱一王)に「音况」「タヽス」（25オ）。
+	In the Ishiyama-dera manuscript of the *Dai-Hannya-kyō Jishō*, the entry for "匡" (⿺辶⿱一王) has "音况" and "タヽス" (fol. 25r).
 
 
 #### K0106271 匡／⿷匚主
 ![匡](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062711.50px.png)![⿷匚主](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062712.50px.png)
 
-（本文）
+(Main Text)
 二正　筺或
 
-（注）  
+(Notes)  
 1	二正  
 	
 
@@ -439,92 +437,92 @@ KRM.tsvで公開している掲出項目(Entry)を「建／䢖 」のように�
 #### K0106272 ⿸厂王
 ![⿸厂王](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062720.50px.png)
 
-（本文）
+(Main Text)
 （無）
 
-（注）  
+(Notes)  
 1	（無）  
-	宋・太祖、趙匡胤の諱による缺筆。
+	An omitted stroke, in observance of the naming taboo (避諱) for Zhao Kuangyin (趙匡胤), Emperor Taizu of the Song dynasty (缺筆).
 
 #### K0106273 高／匡
 ![高](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062731.50px.png)![匡](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062732.50px.png)
 
-（本文）
+(Main Text)
 マカフラタカ(LHHVHHH)
 
-（注）  
+(Notes)  
 1	マカフラタカ(LHHVHHH)  
-	日国「まかぶら-だか（眶高）」に「まかぶらの高いこと。眉のあたりが突起していること」の義とし、高山寺本「マカブラダカ」、保元物語を挙例。同じく日国「こう-きょう（高匡）」に「（「匡」は目のふちの意）目が落ちくぼんで、そのまわりが骨ばっていること」と説き、三教指帰下「折頞。高匡。頤。隅目。噅口。無鬚。似孔雀貝」を挙例。
+	The *Nikkoku*, under "まかぶら-だか【眶高】", gives the meaning "having a high *makabura*; the area around the eyebrows being raised," citing the Kōzan-ji manuscript's "マカブラダカ" and an example from the *Hōgen Monogatari*. Likewise, the *Nikkoku*, under "こう-きょう【高匡】" ("匡" meaning the rim of the eye), explains "the eyes being sunken, with the surrounding area being bony," citing an example from the *Sangō Shiiki* (三教指帰), Part 3: "折頞。高匡。頤。隅目。噅口。無鬚。似孔雀貝".
 
 #### K0106274 匴
 ![匴](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062740.50px.png)
 
-（本文）
+(Main Text)
 蘇管(H)反　竹莒
 
-（注）  
+(Notes)  
 1	蘇管(H)反  
-	広韻「蘇管切」（上声緩韻、算）。
+	The *Guangyun* gives "蘇管切" (Rising tone, Huan rhyme (緩韻); xiaoyun 算).
 
 2	竹莒  
-	説文「渌米籔也」。万象名義「盝也、米藪也」。宋本玉篇「𣿍米藪」。広韻「器也冠箱也」。
+	The *Shuowen Jiezi* gives "渌米籔也" (a basket for draining rice). The *Tenrei Banshō Meigi* gives "盝也、米藪也" (a drainer; a basket for rice). The Song edition of the *Yupian* gives "𣿍米藪" (a basket for draining rice). The *Guangyun* gives "器也冠箱也" (a vessel; a box for a cap).
 
 #### K0106281 㔯
 ![㔯](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062810.50px.png)
 
-（本文）
+(Main Text)
 全音　炊䉛
 
-（注）  
+(Notes)  
 1	全音  
-	原文「⿱𠆢乇音」。広韻「似宣切」（平声仙韻邪母、旋）。「全」は「疾縁切」（平声仙韻從母）。
+	The original text has "⿱𠆢乇音". The *Guangyun* gives "似宣切" (Level tone, Xian rhyme (仙韻), Xie initial; xiaoyun 旋). "全" is "疾縁切" (Level tone, Xian rhyme (仙韻), Cong initial).
 
 2	炊䉛  
-	万象名義「𠤰　似治反。漉米。䉛。上文。」。説文「籔」に「炊䉛也」とあり、炊きもののざるの意。
+	The *Tenrei Banshō Meigi* gives "𠤰　似治反。漉米。䉛。上文。". The *Shuowen Jiezi*, under "籔", gives "炊䉛也", meaning a bamboo strainer used for cooking.
 
 #### K0106282　㔶
 ![㔶](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062820.50px.png)
 
-（本文）
+(Main Text)
 㯯⿳⺮夅貝二或　真音　小桮
 
-（注）  
+(Notes)  
 1	㯯𥴶二或  
-	「㯯」は広韻「格木説文同上」(前項は㔶）（去声送韻、貢：古送切）。「𥴶」は「都感切」（上声感韻、黕）。
+	"㯯" appears in the *Guangyun* as "格木説文同上" (the preceding item is 㔶) (Departing tone, Song rhyme (送韻); xiaoyun 貢: "古送切"). "𥴶" is "都感切" (Rising tone, Gan rhyme (感韻); xiaoyun 黕).
 
 2	真音  
-	広韻「古禫切」（上声感韻、感）、「古送切」（去声送韻、貢）。観智院本「真音」は「貢音」の誤写。
+	The *Guangyun* gives "古禫切" (Rising tone, Gan rhyme (感韻); xiaoyun 感) and "古送切" (Departing tone, Song rhyme (送韻); xiaoyun 貢). The Kanchi-in manuscript's "真音" is a scribal error for "貢音".
 
 3	小桮  
-	説文「小桮也」（桮は杯に同じ）。広韻「小杯名」（去声送韻、貢）。万象名義「小盃也」。小さいさかずきの意。
+	The *Shuowen Jiezi* gives "小桮也" (桮 is the same as 杯). The *Guangyun* gives "小杯名" (Departing tone, Song rhyme (送韻); xiaoyun 貢). The *Tenrei Banshō Meigi* gives "小盃也". The meaning is a small cup.
 
 #### K0106283　匪
 ![匪](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062830.50px.png)
 
-（本文）
+(Main Text)
 甫尾反　アラス　マフ　スケ　ナカシ　ナシ　カノ　ユルナリ　ナイカシロ　ワカツ　和ヒ　呉彼
 
-（注）  
+(Notes)  
 1	甫尾反  
-	広韻「府尾切」（上声尾韻）。
+	The *Guangyun* gives "府尾切" (Rising tone, Wei rhyme (尾韻)).
 
 2	アラス  
-	万象名義「非也」、大般若経字抄「不也」。
+	The *Tenrei Banshō Meigi* gives "非也" (not); the *Dai-Hannya-kyō Jishō* gives "不也" (not).
 
 3	マフ  
-	正宗索引「マフ」に「高・西マコト字鏡集にもあり」。草川昇「類聚名義抄和訓小考」45頁例30に考証あり。
+	Masamune's Index, under "マフ", notes: "Also in the Kōzan-ji and Sainenji manuscripts as マコト; also found in the *Jikyōshū*." A detailed discussion appears in Kusakawa, Noboru, "Ruiju Myōgishō Wakun Shōkō," p. 45, example 30.
 
 4	スケ  
-	「ケ」は「チ」のごとく書写。正宗索引「スケナカシ」で採録。草川和訓集成「スケ」と「ナカレ」で採録、「ナカレ」は観智院本空白、「ナカレ」に蓮成院本・高山寺本・西念寺本ありとする。草川昇は「「スケナカシ」を一訓として扱っているのは不自然で、「スケ」「ナカシ」ではなく、「ナカレ」の誤りであろう」とする（草川昇「類聚名義抄和訓小考」45頁例30）。白川字通は「スヂナガシ」で採録。中村文選46頁(東都)「匪ス」。小林恭治「観智院本にないカタカナ注記(6)」例54と55では観智院本「スチナカシ」、西念寺本「爪ケ　ナカレ　タケヽツワオ」、高山寺本「スケ　ナカレ　タケ＼ツハモノ」、蓮成院本「ナカレ（ナは小字）　タケ＼ツハモノ（右に牜）」とし、諸説について藤堂説「スチナカシ」、正宗説「スケナカシ」、長島説「スケ」「ナカシ」、草川説「スケ」「ナカレ」と整理。本来、形容詞「素気無（すげな）し」の活用形「スケナカレ」であったか推測する。「タケ＼ツハモノ」は観智院本の脱漏。
+	"ケ" is written in a form resembling "チ". Masamune's Index records this as "スケナカシ". Kusakawa's Wakun Collection records it as separate readings "スケ" and "ナカレ", noting that "ナカレ" is blank in the Kanchi-in manuscript but present in the Renjō-in, Kōzan-ji, and Sainenji manuscripts. Kusakawa Noboru argues that treating "スケナカシ" as a single reading is unnatural, and that it should likely be read not as "スケ" + "ナカシ" but as an error for "ナカレ" (Kusakawa, Noboru, "Ruiju Myōgishō Wakun Shōkō," p. 45, example 30). Shirakawa's *Jitsū* records it as "スヂナガシ". Nakamura's Monzen, p. 46 (東都), has "匪ス". Kobayashi Kyōji, "Kanchi-in-bon ni Nai Katakana Chūki (6)," examples 54 and 55, organizes the readings as follows: the Kanchi-in manuscript has "スチナカシ"; the Sainenji manuscript has "爪ケ　ナカレ　タケヽツワオ"; the Kōzan-ji manuscript has "スケ　ナカレ　タケ＼ツハモノ"; the Renjō-in manuscript has "ナカレ（ナ written small）　タケ＼ツハモノ（with 牜 to the right）"; and among the various interpretations, Tōdō reads it "スチナカシ", Masamune reads it "スケナカシ", Nagashima reads it as separate "スケ" and "ナカシ", and Kusakawa reads it as separate "スケ" and "ナカレ". It is conjectured that this may originally have been "スケナカレ", the inflected form of the adjective 素気無（すげな）し ("curt, indifferent"). "タケ＼ツハモノ" is an omission in the Kanchi-in manuscript.
 
 5	ナカシ  
-	「ケ」は「チ」のごとく書写。正宗索引「スケナカシ」で採録。草川和訓集成「スケ」と「ナカレ」で採録、「ナカレ」は観智院本空白、「ナカレ」に蓮成院本・高山寺本・西念寺本ありとする。白川字通は「スヂナガシ」で採録。
+	"ケ" is written in a form resembling "チ". Masamune's Index records this as "スケナカシ". Kusakawa's Wakun Collection records it as separate readings "スケ" and "ナカレ", noting that "ナカレ" is blank in the Kanchi-in manuscript but present in the Renjō-in, Kōzan-ji, and Sainenji manuscripts. Shirakawa's *Jitsū* records it as "スヂナガシ".
 
 6	ナシ  
-	西本には高本や観本に見えない「タケキツハ物」という訓が見える（岡田希雄『類聚名義抄の研究』249頁、195頁）。草川和訓集成「ナシ」で採録。池田按：西念寺本「タケキツハ物ナシ」、蓮成院本「タケキツハ物ナシ（モノを見消して牜に訂す）、高山寺本「タケキツハモノナシ」あり。
+	The Sainenji manuscript has a reading "タケキツハ物", not found in the Kōzan-ji or Kanchi-in manuscripts (Okada Mareo, *Ruiju Myōgishō no Kenkyū*, pp. 249, 195). Kusakawa's Wakun Collection records it as "ナシ". Ikeda's note: the Sainenji manuscript has "タケキツハ物ナシ"; the Renjō-in manuscript has "タケキツハ物ナシ" (with "モノ" struck through and corrected to "牜"); the Kōzan-ji manuscript has "タケキツハモノナシ".
 
 7	カノ  
-	正宗索引補正「セノか」「「セ」虫ばみにて不明」とする。草川和訓集成「カノ」で採録し、蓮成院本・高山寺本・西念寺本も「カノ」とする。白川字通に「彼と通じ指示詞に用いる」とし「かの、かれ」の義をあげる。万象名義「彼也」。
+	Masamune's Index, Supplement and Corrections, gives "セノか", noting: "'セ' is obscured by worm damage and unclear." Kusakawa's Wakun Collection records this as "カノ", and the Renjō-in, Kōzan-ji, and Sainenji manuscripts likewise have "カノ". Shirakawa's *Jitsū* notes that it is "used interchangeably with 彼 as a demonstrative," giving the meanings "かの" and "かれ". The *Tenrei Banshō Meigi* gives "彼也" (that).
 
 8	ユルナリ  
 
@@ -533,10 +531,10 @@ KRM.tsvで公開している掲出項目(Entry)を「建／䢖 」のように�
 
 
 10	ワカツ  
-	原文「禾カツ」。万象名義「分也」。
+	The original text has "禾カツ". The *Tenrei Banshō Meigi* gives "分也" (to divide).
 
 11	和ヒ  
-	高山寺本「音ヒ(R)」(Hとも見える)。  
+	The Kōzan-ji manuscript has "音ヒ(R)" (which may also appear as H).  
 
 12	呉彼  
-	石山寺本大般若経字抄「匪」に「音彼」「不也」（17ウ）。
+	In the Ishiyama-dera manuscript of the *Dai-Hannya-kyō Jishō*, the entry for "匪" has "音彼" and "不也" (fol. 17v).

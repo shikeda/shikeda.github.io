@@ -10,9 +10,9 @@ The current translation target is specified below.
 
 ## 2. Current Translation Target
 Translate the following file:
-- `05-06-wakun-materials.ja.md`
+- `05-07-annotation-examples.ja.md`
 ↓
-- `05-06-wakun-materials.en.md`
+- `05-07-annotation-examples.en.md`
 
 *(Note: Update the target files above for each execution.)*
 
@@ -70,9 +70,9 @@ The Translation Review Trial record MUST explicitly include:
 
 ## 2. 現在の翻訳対象
 以下のファイルを翻訳してください。
-- `05-06-wakun-materials.ja.md`
+- `05-07-annotation-examples.ja.md`
 ↓
-- `05-06-wakun-materials.en.md`
+- `05-07-annotation-examples.en.md`
 
 *(注：新しい翻訳タスクのたびに上記の対象ファイルを更新してください。)*
 
