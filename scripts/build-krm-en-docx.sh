@@ -66,6 +66,7 @@ if [[ -z "$meta_title" ]]; then
 fi
 
 processed_files=("$cover_file")
+heading_shift_script="scripts/shift_markdown_headings.py"
 
 for file in "${files[@]}"; do
   if [[ ! -f "$file" ]]; then
@@ -82,6 +83,17 @@ for file in "${files[@]}"; do
     -e 's#](/images/#](images/#g' \
     -e 's#src="/images/#src="images/#g' \
     "$file" > "$tmp_file"
+
+  # Hugoでは章の _index.en.md と各子ページ（NN-NN-*.en.md）が別ファイル
+  # ・別URLであり、hugo-book のサイドバーがディレクトリ構造から自動的に
+  # 親子関係を表示するため、そのままで問題ない。一方Pandocはそのような
+  # 階層を知らず、連結した各ファイルの見出し1（#）をすべて同格の章として
+  # 扱ってしまう。子ページだけ見出しを1段階下げることで、Word版でも
+  # 「章の _index = Heading 1」「子ページ = Heading 2以下」の階層を再現する。
+  # 元のMarkdownファイルは変更せず、この一時ファイルにのみ適用する。
+  if [[ "$(basename "$file")" != _index.* ]]; then
+    python3 "$heading_shift_script" "$tmp_file" "$tmp_file" --by 1
+  fi
 
   processed_files+=("$tmp_file")
 done
