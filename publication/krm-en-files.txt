@@ -4,7 +4,6 @@ content/docs/krm/02-data-overview/02-01-main.en.md
 content/docs/krm/02-data-overview/02-02-notes.en.md
 content/docs/krm/02-data-overview/02-03-headword-chars.en.md
 content/docs/krm/02-data-overview/02-04-wakun.en.md
-content/docs/krm/02-data-overview/02-05-definitions.en.md
 content/docs/krm/02-data-overview/02-06-pronunciations.en.md
 content/docs/krm/02-data-overview/02-07-ndl.en.md
 content/docs/krm/03-entry-data-model/_index.en.md

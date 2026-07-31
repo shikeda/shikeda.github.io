@@ -37,7 +37,6 @@ weight: 1
     - [krm_notes](/docs/krm/02-data-overview/02-02-notes/)
     - [krm_headword_chars](/docs/krm/02-data-overview/02-03-headword-chars/)
     - [krm_wakun](/docs/krm/02-data-overview/02-04-wakun/)　
-    - [krm_definitions](/docs/krm/02-data-overview/02-05-definitions/)　
     - [krm_pronunciations](/docs/krm/02-data-overview/02-06-pronunciations/)　
     - [krm_ndl](/docs/krm/02-data-overview/02-07-ndl/)　
 - [項目データモデル](/docs/krm/03-entry-data-model/)
