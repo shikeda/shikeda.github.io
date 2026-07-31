@@ -60,7 +60,7 @@ According to GlyphWiki, an example of  ![𨒃](https://glyphwiki.org/glyph/u2848
 
 
 
-### `Omitted Characters` (脱字, *datsuji*)
+## `Omitted Characters` (脱字, *datsuji*)
 
 **`Omitted Characters`** (*datsuji*) in **`Headwords`**, which have been detailed elsewhere, are handled as follows: when a character is clearly omitted from a **`Headword`**, the presumed omitted character is indicated by enclosing it in full-width square brackets "［］".
 
@@ -83,7 +83,6 @@ An example of the corresponding annotation is shown below:
 * `definition`: イカム（__L
 * `remarks`: The character '如' is omitted. The Renjō-in manuscript has '奚如'. The Kōzan-ji manuscript does not use the substitution mark 'ー' but explicitly writes '如', and this entry is located near the latter half of the "女" (woman) radical section. This Kōzan-ji manuscript usage is considered to be an earlier example (Okada's research, p. 192).
 
-### Superfluous Characters
 ## `Superfluous Characters` (*enji*)
 
 Instances of **`Superfluous Characters`** (*enji*) in **`Headwords`** are rarely found.
@@ -147,7 +146,7 @@ In the Kanchi-in manuscript, the '〻' mark is typically used for the second and
 * `kazama_location`: K06036711, `hanzi_entry`: 郁／〻（郁）, `definition`: マタラカナリ（LLVHL__）
 
 
-### Characters in `Original Glosses` Written in Large Size
+## Characters in `Original Glosses` Written in Large Size
 
 There are instances where characters within the **`Original Glosses`** are written in a large size, similar to **`Headwords`**, which can lead to confusion.
 
@@ -846,7 +845,7 @@ For the **"雑" (Miscellaneous) radical section** (雑部, *Zatsubu*), Sakai (19
   * `kazama_location`: K10081830, `hanzi_entry`: ■, `definition`: ツミ
   * `kazama_location`: K10081840, `hanzi_entry`: 𡿨, `definition`: (Unannotated), `remarks` (**`Compiler's Remark`**): A **`variant character (*itaiji*)`** of '甽'.
 
-The character represented as '■' (in `K10081830`) is written in the manuscript like .
+The character represented as '■' (in `K10081830`) is written in the manuscript like ![鰐](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01080610.50px.png).
 The character '𡿨' (`K10081840`) is not found in the Kazama Shobō edition. It can be confirmed in the Kichō Tosho Fukuseikai edition and both the old and new Tenri editions, but it is an easily overlooked example.
 
 The original text for this section in the Kanchi-in manuscript can be referred to on the left side of the [corresponding page](http://dl.ndl.go.jp/info:ndljp/pid/2586900/44) in the National Diet Library Digital Collections.

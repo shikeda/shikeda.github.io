@@ -151,7 +151,7 @@ There are also **`Compound Expressions`** (state modifiers) formed by adding the
 For example, '騞然' describes the sound/appearance of cutting something with a blade, and '睟然' describes a lustrous appearance.
 In the *Ruiju Myōgishō*, glossing '騞' with 'ー然' and '睟' with 'ー然潤澤皃' are examples of using this construction.
 
-### Semantic Glosses in Chinese Mistaken for Katakana
+## Semantic Glosses in Chinese Mistaken for Katakana
 
 Scribal errors in **`Semantic Glosses in Chinese`** are common. It is important to search for the source text and confirm what meaning is being explained and in what context the gloss is used.
 

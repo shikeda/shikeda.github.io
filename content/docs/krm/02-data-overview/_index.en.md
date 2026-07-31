@@ -67,7 +67,7 @@ The files after the specification change have been published at [https://github.
 
 
 
-### ER Diagram
+## ER Diagram
 
 The following ER diagram shows the relationship between the three tables: `krm_main`, `krm_notes`, and `krm_wakun`.
 

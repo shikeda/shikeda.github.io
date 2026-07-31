@@ -64,7 +64,7 @@ Similarly, in Example 2, from the **`Original Glosses`** "今正," it is stated 
 
 Examples 3 and 4 are cases where no **Form Classification Tags** are visible in the **`Original Glosses`**. In Example 3, the difference between "若" and "𠰥" is a minimal variation between "艹" (grass radical) and "䒑" (grass head). Similarly, in Example 4, the difference between "政" and "⿰正攴" is a slight variation between "攵" (knock radical) and "攴" (tap/rap radical). In both cases, it is clear that they are in a **`variant character` (*itaiji*)** relationship.
 
-In Example 5, while  has the note "溺字" (indicating, as per the Guangyun, that 㲻 is an ancient form of 溺 'drowning' ["古作㲻"]), the subsequent **`Entry`**  lacks **`Original Glosses`**. This example involves "㲻" and its **`variant character` (*itaiji*)**, so [GlyphWiki](https://glyphwiki.org/) is used to display them to clarify their difference.
+In Example 5, while ![㲻](https://glyphwiki.org/glyph/hdic_hkrm-01007840.50px.png) has the note "溺字" (indicating, as per the Guangyun, that 㲻 is an ancient form of 溺 'drowning' ["古作㲻"]), the subsequent **`Entry`** ![㲻](https://glyphwiki.org/glyph/hdic_hkrm-01008110.50px.png) lacks **`Original Glosses`**. This example involves "㲻" and its **`variant character` (*itaiji*)**, so [GlyphWiki](https://glyphwiki.org/) is used to display them to clarify their difference.
 
 ### Idiom Entries
 

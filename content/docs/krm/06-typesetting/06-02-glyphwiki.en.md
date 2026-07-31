@@ -50,3 +50,22 @@ Here's an example of "壽 (u58fd)" from GlyphWiki.
 
 
 If it works fine, then edit this sample file as needed.
+
+## Notes
+
+`gb4e.sty` is commonly used to present numbered linguistic examples. It is used together with `cgloss4e.sty`, which is distributed alongside it. However, it is incompatible with `bxglyphwiki.sty`.
+
+Instead of using `gb4e.sty`, numbered examples are presented using the `enumerate` environment. An example is given below.
+
+~~~tex
+\begin{enumerate}
+	\setcounter{enumi}{5}
+	\item　\label{ex:02-6}
+	\begin{enumerate}
+	\item 滂沲　（省略）　沱　類云正（図書寮本、水部、8頁、『類音決』を引用）\label{ex:02-6a}
+	\item 潜潛　干云上谷下正（図書寮本、水部、13頁、「干」は『干禄字書』の略称、「谷」は「俗」の略字）\label{ex:02-6b}
+	\end{enumerate}
+\end{enumerate}
+~~~
+
+With this approach, the numbering can correspond as (6), (6a), (6b).
