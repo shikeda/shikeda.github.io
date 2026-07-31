@@ -1,5 +1,4 @@
 content/docs/krm/01-introduction/_index.en.md
-content/docs/krm/01-introduction/01-01-introduction.en.md
 content/docs/krm/02-data-overview/_index.en.md
 content/docs/krm/02-data-overview/02-01-main.en.md
 content/docs/krm/02-data-overview/02-02-notes.en.md
@@ -31,4 +30,5 @@ content/docs/krm/06-typesetting/06-02-glyphwiki.en.md
 content/docs/krm/06-typesetting/06-03-sfkanbun-sty.en.md
 content/docs/krm/06-typesetting/06-04-vscode-texlive.en.md
 content/docs/krm/06-typesetting/06-05-online-tools.en.md
+content/docs/krm/09-development-history/_index.en.md
 
