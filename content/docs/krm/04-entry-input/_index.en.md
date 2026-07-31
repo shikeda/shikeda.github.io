@@ -16,12 +16,12 @@ Among the input rules explained in this document, those concerning **character r
 
 The published data primarily uses TSV format, but some data is also available in JSON format for better readability.
 
-First, we will explain the **`Headwords`, `Entry` Structure, and ID System**. The ID system for KRM data is complex, so users are advised to read this section carefully.
+First, we will explain the **`Headwords`, `Entry` Arrangement, and ID System**. The ID system for KRM data is complex, so users are advised to read this section carefully.
 Next, we will discuss **Character Encoding and Representation** using Unicode. We will also explain the handling of characters that cannot be represented by Unicode, as multiple methods are used in combination.
 Finally, we will organize **scribal issues** such as misspellings and omissions; **notation formats for characters and words** like abbreviation marks and iteration marks; and **additional notes and layout** features such as interlinear notes and small character annotations. We will then summarize the **Handling of Issues in Transcription, Notation, and Annotation**.
 
 
-- [Headwords, Entry Structure, and ID System](./04-01-id/)
+- [Headwords, Entry Arrangement, and ID System](./04-01-id/)
 - [Character Encoding and Representation](./04-02-char/)
 - [Handling Issues in Transcription, Notation, and Annotation](./04-03-handling/)
 

@@ -45,7 +45,7 @@ weight: 1
     - [文字表記に関する概念](/docs/krm/03-entry-data-model/03-03-concepts-char/)
     - [項目データファイルの例](/docs/krm/03-entry-data-model/03-04-data-example/)
 - [項目データ入力](/docs/krm/04-entry-input/)
-    - [掲出字・項目構造とID体系](/docs/krm/04-entry-input/04-01-id/)
+    - [掲出字・項目配置とID体系](/docs/krm/04-entry-input/04-01-id/)
     - [文字の符号化と表現](/docs/krm/04-entry-input/04-02-char/)
     - [書写・表記・注記における問題と対応](/docs/krm/04-entry-input/04-03-handling/)
 - [注釈作成の基本方針](/docs/krm/05-annotation-policy/)
