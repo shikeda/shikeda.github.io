@@ -16,6 +16,10 @@ hugo server
 
 ## ライセンス
 
-コンテンツ: CC BY 4.0 / コード: MIT
+- Data, documentation, and site content: CC BY-SA 4.0
+- Software in `scripts/`: MIT License
+- Third-party themes and external materials retain their own licenses.
 
+See `LICENSE`, `LICENSES/CC-BY-SA-4.0.txt`, `LICENSES/MIT.txt`, and
+`scripts/LICENSE`.
 

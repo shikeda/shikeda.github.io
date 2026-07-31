@@ -1,0 +1,21 @@
+HDIC Project Site License Policy
+
+This repository contains data, documentation, site content, software,
+and third-party materials. Different parts of the repository are governed
+by different licenses.
+
+Data, documentation, and site content are provided under the Creative
+Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+See `LICENSES/CC-BY-SA-4.0.txt`.
+
+Software in `scripts/` is provided under the MIT License.
+See `scripts/LICENSE` and `LICENSES/MIT.txt`.
+
+Third-party themes and external materials retain their own licenses.
+For example, `themes/hugo-book/` is governed by its own license file.
+
+日本語要約:
+
+- データ、Documentation、サイトコンテンツ: CC BY-SA 4.0
+- `scripts/` 以下のソフトウェア: MIT License
+- 第三者テーマおよび外部資料: それぞれのライセンスに従う
