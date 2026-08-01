@@ -41,4 +41,12 @@ weight: 35
 - [インターネット上で閲覧できる古辞書一覧](https://hjl.hatenablog.com/entry/2020/03/09/120000#f-9db82ab4)
 - [十三経注疏 内閣文庫](https://www.digital.archives.go.jp/DAS/meta/listPhoto?LANG=default&BID=F1000000000000094179&ID=&TYPE=dljpeg)
 
+## Generative AI, AI Agents, and IDEs Primarily Used
+
+- [ChatGPT](https://chatgpt.com/)
+- [Claude](https://claude.ai/)
+- [Gemini](https://gemini.google.com/)
+- [Claude Code](https://docs.anthropic.com/)
+- [Codex](https://platform.openai.com/)
+- [Cursor](https://www.cursor.com/)
 
