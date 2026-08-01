@@ -53,7 +53,7 @@ Relationship
 ## 対象データベース {-}
 
 Resource Title
-:   KRM: Database of the Kanchi-in Manuscript of the Ruijū Myōgishō
+:   KRM: Database of the Kanchi-in Manuscript of the Ruiju Myōgishō
 
 Repository
 :   <https://github.com/shikeda/krm>
@@ -65,7 +65,7 @@ KRM Dataset DOI
 :   [10.5281/zenodo.15481563](https://doi.org/10.5281/zenodo.15481563)
 
 Data Citation
-:   Ikeda, Shōju. (2025). *KRM: Database of the Kanchi-in Manuscript of the Ruijū Myōgishō*. Version v1.2.6. Zenodo. <https://doi.org/10.5281/zenodo.15481563>.
+:   Ikeda, Shōju. (2025). *KRM: Database of the Kanchi-in Manuscript of the Ruiju Myōgishō*. Version v1.2.6. Zenodo. <https://doi.org/10.5281/zenodo.15481563>.
 
 KRM Data License
 :   CC BY-SA 4.0

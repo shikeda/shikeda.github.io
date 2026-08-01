@@ -37,7 +37,7 @@
 英語版が先行して改訂され、日本語版への反映が保留中。英語版の構成・表記確定後に対応する。
 
 - [ ] `content/docs/krm/_index.en.md` の冒頭再構成（About This Documentation／Resource Documented／
-  Relationship to the HDIC Project／About the Ruijū Myōgishō／How This Documentation Is Organized 等）
+  Relationship to the HDIC Project／About the Ruiju Myōgishō／How This Documentation Is Organized 等）
   → `_index.ja.md` へ反映
 - [ ] `09-development-history/_index.en.md`（新設章） → `09-development-history/_index.ja.md` の作成
 
