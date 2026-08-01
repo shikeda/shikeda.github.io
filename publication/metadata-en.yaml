@@ -3,8 +3,8 @@ subtitle: Scholarly and Technical Documentation for the KRM Database
 author: Shōju Ikeda
 date: "draft"
 version: "Version 0.9 (draft)"
-# Only `title` is actually read by scripts/build-krm-en-docx.sh (as a -M
+# Only `title` is actually read by scripts/build-krm-docx.sh (as a -M
 # override, since --file-scope would otherwise let the last chapter
 # file's own `title:` win). The other fields are kept here as a record
-# of current values; publication/cover.md's own front matter is what
+# of current values; publication/cover-en.md's own front matter is what
 # actually renders the Word title page and must be kept in sync by hand.

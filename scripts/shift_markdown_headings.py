@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Shift ATX Markdown heading levels (# .. ######) down by a fixed amount.
 
-Used by scripts/build-krm-en-docx.sh to nest each KRM Documentation child
+Used by scripts/build-krm-docx.sh to nest each KRM Documentation child
 page one level below its chapter's _index page when assembling the
 combined Word document -- without touching the source .md files, which
 must keep their own top-level H1 for Hugo (each page is its own document

@@ -1,0 +1,9 @@
+title: KRM Documentation
+subtitle: 類聚名義抄観智院本データベース(KRM)のための学術・技術文書
+author: 池田証壽
+date: "draft"
+version: "Version 0.9 (draft)"
+# title のみが scripts/build-krm-docx.sh から実際に読み込まれる（-M による上書き。
+# --file-scope では各章ファイル自身の title: が勝ってしまうため）。他のフィールドは
+# 現在値の記録として残しているだけで、実際にWordのタイトルページを描画するのは
+# publication/cover-ja.md 自身のフロントマターであり、手動で同期させる必要がある。

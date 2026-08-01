@@ -3,10 +3,19 @@ set -euo pipefail
 
 cd "$(dirname "$0")/.."
 
-output="publication/KRM_Documentation_en.docx"
-file_list="publication/krm-en-files.txt"
-cover_file="publication/cover.md"
-metadata_file="publication/metadata-en.yaml"
+lang="${1:-}"
+
+if [[ "$lang" != "en" && "$lang" != "ja" ]]; then
+  echo "Usage: $0 <en|ja>" >&2
+  exit 1
+fi
+
+mkdir -p output
+
+output="output/KRM_Documentation_${lang}.docx"
+file_list="publication/krm-${lang}-files.txt"
+cover_file="publication/cover-${lang}.md"
+metadata_file="publication/metadata-${lang}.yaml"
 reference_doc="publication/reference.docx"
 tmp_dir="$(mktemp -d)"
 
@@ -48,10 +57,10 @@ fi
 # ends up showing whichever chapter happens to be *last* in the file list,
 # not the book's own title (only `title` collides this way: none of the
 # chapter files set `subtitle`/`author`/`date`, so those three come through
-# untouched from cover.md's own front matter). Metadata given via -M on the
-# command line is the one thing guaranteed to win regardless of file order,
-# so the book title is re-asserted that way, read from metadata-en.yaml so
-# it can't drift from the value recorded there.
+# untouched from the cover file's own front matter). Metadata given via -M
+# on the command line is the one thing guaranteed to win regardless of file
+# order, so the book title is re-asserted that way, read from
+# metadata-${lang}.yaml so it can't drift from the value recorded there.
 read_metadata_field() {
   local key="$1"
   sed -n "s/^${key}:[[:space:]]*\"\\{0,1\\}\\([^\"]*\\)\"\\{0,1\\}[[:space:]]*\$/\\1/p" \
@@ -84,11 +93,11 @@ for file in "${files[@]}"; do
     -e 's#src="/images/#src="images/#g' \
     "$file" > "$tmp_file"
 
-  # Hugoでは章の _index.en.md と各子ページ（NN-NN-*.en.md）が別ファイル
-  # ・別URLであり、hugo-book のサイドバーがディレクトリ構造から自動的に
-  # 親子関係を表示するため、そのままで問題ない。一方Pandocはそのような
-  # 階層を知らず、連結した各ファイルの見出し1（#）をすべて同格の章として
-  # 扱ってしまう。子ページだけ見出しを1段階下げることで、Word版でも
+  # Hugoでは章の _index.{en,ja}.md と各子ページ（NN-NN-*.{en,ja}.md）が
+  # 別ファイル・別URLであり、hugo-book のサイドバーがディレクトリ構造から
+  # 自動的に親子関係を表示するため、そのままで問題ない。一方Pandocはその
+  # ような階層を知らず、連結した各ファイルの見出し1（#）をすべて同格の章
+  # として扱ってしまう。子ページだけ見出しを1段階下げることで、Word版でも
   # 「章の _index = Heading 1」「子ページ = Heading 2以下」の階層を再現する。
   # 元のMarkdownファイルは変更せず、この一時ファイルにのみ適用する。
   if [[ "$(basename "$file")" != _index.* ]]; then
