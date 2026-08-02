@@ -77,7 +77,7 @@ According to GlyphWiki, an example of  ![𨒃](https://glyphwiki.org/glyph/u2848
 An example of the corresponding annotation is shown below:
 
 **Example:**
-* `kazama_location`: K0200663
+* `kazama_location`: K02006630
 * `hanzi_entry`: 奚／［如］
 * `original_entry`: 〇／〇
 * `definition`: イカム（__L
@@ -88,8 +88,8 @@ An example of the corresponding annotation is shown below:
 Instances of **`Superfluous Characters`** (*enji*) in **`Headwords`** are rarely found.
 
 **Example:**
-* `kazama_location`: K0402481, `hanzi_entry`: ⿱赤廾, `definition`: サカユ　シツカナリ
-* `kazama_location`: K0402482, `hanzi_entry`: 人, `definition`: （無） (Unannotated), `remarks`: Could this '人' be a superfluous character? Alternatively, the **`Headword`** might be a variant of '奕', and this '人' a miscopied iteration mark for the compound '奕奕'. The compound '奕奕' has examples in the *Shijing* (Book of Odes).
+* `kazama_location`: K04024810, `hanzi_entry`: ⿱赤廾, `definition`: サカユ　シツカナリ
+* `kazama_location`: K04024820, `hanzi_entry`: 人, `definition`: （無） (Unannotated), `remarks`: Could this '人' be a superfluous character? Alternatively, the **`Headword`** might be a variant of '奕', and this '人' a miscopied iteration mark for the compound '奕奕'. The compound '奕奕' has examples in the *Shijing* (Book of Odes).
 
 The reason for the presence of the character '人' in the second entry is unclear, and it is suspected to be a superfluous character.
 
@@ -100,7 +100,7 @@ The reason for the presence of the character '人' in the second entry is unclea
 **`Embedded Characters`** (*umeji*) refer to **`Entry`**-like segments that are incorporated within another main **`Entry`**.
 
 **Example:**
-* `kazama_location`: K0201261
+* `kazama_location`: K02012610
 * `hanzi_entry`: 娜
 * `definition` (representing **`Original Glosses`**): 乃可（H）反　マヽハヽ　タヲヤカナリ　婀ー　ヨキカホ　ナマメク
 * `remarks` (**`Compiler's Remark`**): Could the segment "婀ー　ヨキカホ　ナマメク" be an embedded item/entry?
@@ -341,12 +341,12 @@ As some characters may not display correctly depending on the viewing environmen
 
 The **`Headword`** of the first **`Entry`** (K03012511 in the previous example, with `hanzi_entry`: ⿳或或角／𧥑) is composed of the glyphs ![𧥑](https://glyphwiki.org/glyph/hdic_hkrm-03012511.50px.png) and ![𧥑](https://glyphwiki.org/glyph/hdic_hkrm-03012512.50px.png). The **`Headword`** of the second **`Entry`** (K03012520, with `hanzi_entry`: 𧥑) is the glyph ![𧥑](https://glyphwiki.org/glyph/hdic_hkrm-03012520.50px.png). 
 These three glyphs appear consecutively in the manuscript. 
-A slight space is observed between the first glyph and the second glyph (both part of K0301251's **`Headword`**). A clear space, equivalent to one character width, is found between the second glyph (the end of K03012511's **`Headword`**) and the third glyph (the **`Headword`** of K03012520). If we represent the slight space with '\_' and the one-character space with '\_\_', the sequence appears as:
+A slight space is observed between the first glyph and the second glyph (both part of K03012511's **`Headword`**). A clear space, equivalent to one character width, is found between the second glyph (the end of K03012511's **`Headword`**) and the third glyph (the **`Headword`** of K03012520). If we represent the slight space with '\_' and the one-character space with '\_\_', the sequence appears as:
 
 ![𧥑](https://glyphwiki.org/glyph/hdic_hkrm-03012511.50px.png) \_ ![𧥑](https://glyphwiki.org/glyph/hdic_hkrm-03012512.50px.png) \_\_ ![𧥑](https://glyphwiki.org/glyph/hdic_hkrm-03012520.50px.png)
 
 The calculated number of **`Entries`** can vary depending on whether these three visually consecutive **`Headword`** glyphs are counted as one, two, or three separate **`Entries`**.
-In Ikeda et al. (2020), this sequence was counted as two **`Entries`**. This determination was based on the clear space between the second glyph (the last character of the first **`Entry`**'s **`Headword`**) and the third glyph (the **`Headword`** of the second **`Entry`**), and the fact that the first **`Entry`** (K0301251, '⿳或或角／𧥑') is unannotated.
+In Ikeda et al. (2020), this sequence was counted as two **`Entries`**. This determination was based on the clear space between the second glyph (the last character of the first **`Entry`**'s **`Headword`**) and the third glyph (the **`Headword`** of the second **`Entry`**), and the fact that the first **`Entry`** (K03012511, '⿳或或角／𧥑') is unannotated.
 
 Please refer to the right side of the [corresponding page](https://dl.ndl.go.jp/info:ndljp/pid/2586893/10) in the National Diet Library Digital Collections.
 
@@ -449,7 +449,7 @@ The original text for this section can be referred to on the right side of the [
 For the **"水" (Water) radical section** (水部, *Sui-bu*), attention should be paid to the following four **`Entries`**, which are associated with the note "此クタリ二水ノトコロニアリ" (These items are in the place of 冫 [*nisui*, the ice radical]):
 
 * `kazama_location`: K05033810, `hanzi_entry`: ■, `definition`: 「此クタリ二水ノトコロニアリ」　フチ(LH)
-    *(Compiler's Note for K0503381: An **`Interpolation Mark`** appears immediately before this. This note indicates that these four **`Entries`** on this line should be moved to the "冫" (*nisui*) radical section. See Sakai, *Jijun* [Character Order], p. 33.)*
+    *(Compiler's Note for K05033810: An **`Interpolation Mark`** appears immediately before this. This note indicates that these four **`Entries`** on this line should be moved to the "冫" (*nisui*) radical section. See Sakai, *Jijun* [Character Order], p. 33.)*
 * `kazama_location`: K05033820, `hanzi_entry`: 减, `definition`: 俗減字　オトス（LLH）　ヘク（LHV）　ヘス　和ケム
 * `kazama_location`: K05033830, `hanzi_entry`: 冸, `definition`: ソヽク
 * `kazama_location`: K05033840, `hanzi_entry`: ⿰冫⿰关⺉, `definition`: フカシ
@@ -646,7 +646,7 @@ The figures for the "寸" (Inch) radical section in Ikeda et al. (2020) need to 
 
 For the **"示" (Altar/Display) radical section** (示部, *Shibu*), there is no difference in the number of **`Entries`** between Sakai (1967) and Ikeda et al. (2020). However, an **`Omitted Character`** is recognized in the **`Headword`** of the following **`Entry`**:
 
-* `kazama_location`: K0700183, `hanzi_entry`: 樹／［神］, `definition`: コタマ（LHL）
+* `kazama_location`: K07001830, `hanzi_entry`: 樹／［神］, `definition`: コタマ（LHL）
 
 As a result of supplying this omitted character, the breakdown of **`Entry`** counts by headword length and the total headword character count for this section are presented as follows (the total number of **`Entries`**, 232, remains unchanged):
 

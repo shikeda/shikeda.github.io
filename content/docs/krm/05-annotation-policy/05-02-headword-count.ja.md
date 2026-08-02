@@ -84,7 +84,7 @@ GlyphWikiによれば、![𨒃](https://glyphwiki.org/glyph/u28483-g.50px.png)(�
 注釈の一例を次に示す。
 
 **例**
-- `kazama_location`: K0200663
+- `kazama_location`: K02006630
 - `hanzi_entry`: 奚／［如］
 - `original_entry`: 〇／〇
 - `definition`: イカム（__L
@@ -95,8 +95,8 @@ GlyphWikiによれば、![𨒃](https://glyphwiki.org/glyph/u28483-g.50px.png)(�
 掲出字の**衍字**（Superfluous Characters）はほとんど認められない。
 
 **例**
-- `kazama_location`: K0402481, `hanzi_entry`: ⿱赤廾, `definition`: サカユ　シツカナリ
-- `kazama_location`: K0402482, `hanzi_entry`: 人, `definition`: （無）, `remarks`: 衍字か。あるいは掲出字は「奕」の異体で、熟語「奕奕」の踊り字を誤写するか。「奕奕」は詩経に例あり。
+- `kazama_location`: K04024810, `hanzi_entry`: ⿱赤廾, `definition`: サカユ　シツカナリ
+- `kazama_location`: K04024820, `hanzi_entry`: 人, `definition`: （無）, `remarks`: 衍字か。あるいは掲出字は「奕」の異体で、熟語「奕奕」の踊り字を誤写するか。「奕奕」は詩経に例あり。
 
 「人」字が存在する理由は明確ではなく、衍字の疑いがある。
 
@@ -106,7 +106,7 @@ GlyphWikiによれば、![𨒃](https://glyphwiki.org/glyph/u28483-g.50px.png)(�
 **埋字**（Embedded Characters）とは、ひとつの項目の中に繰り込まれた項目のことである。
 
 **例**
-- `kazama_location`: K0201261, `hanzi_entry`: 娜, `definition`:乃可（H）反　マヽハヽ　タヲヤカナリ　婀ー　ヨキカホ　ナマメク, `remarks`:「婀ー　ヨキカホ　ナマメク」は埋字項目か。
+- `kazama_location`: K02012610, `hanzi_entry`: 娜, `definition`:乃可（H）反　マヽハヽ　タヲヤカナリ　婀ー　ヨキカホ　ナマメク, `remarks`:「婀ー　ヨキカホ　ナマメク」は埋字項目か。
 
 この埋字を項目相当のものとすることもできるし、注文中で熟語について解説したものとすることもできる。
 
@@ -460,7 +460,7 @@ KRMのデータを次のように修正する。
 - `kazama_location`: K04041732, `hanzi_entry`: 焭, `definition`: （無）
 - `kazama_location`: K04041741, `hanzi_entry`: ⿱⿱⿰火火冖凡／煢, `definition`: 俗通正　音瓊　ヒトリ　𠎽〈古〉　惸〈古〉　ヒトリアルヤモメ（HHL__HHH）　ヤモメ（HHH）
 
-K0404174の「⿱⿱⿰火火冖凡／煢」の注文の最初に「俗通正」とあり、全体として1項目であったとも考えられる。
+K04041741の「⿱⿱⿰火火冖凡／煢」の注文の最初に「俗通正」とあり、全体として1項目であったとも考えられる。
 しかし、K04041732の「焭」の空白スペースは明白であり、字体注記が前の項目を指す例もあることから、池田ほか（2020）では無注の項目と数えた。
 
 該当箇所の原文は国立国会図書館デジタルコレクションの
@@ -619,7 +619,7 @@ K0404174の「⿱⿱⿰火火冖凡／煢」の注文の最初に「俗通正」
 - `kazama_location`: K07057620, `hanzi_entry`: 匑, `definition`: 音⿺麦羽　又穹　ー𠤂　謹敬皃, `remarks`: 池田按：「ー𠤂」はやや大きく書写するが、注の一部とする。
 - `kazama_location`: K07057640, `hanzi_entry`: 𠤂, `definition`: 音躬
 
-`K0705762`の「匑」の注文に見える
+`K07057620`の「匑」の注文に見える
 「ー𠤂」の「ー」は代用符号なので、「匑𠤂」となり、その字義を「謹敬皃」とするものである。
 **正宗漢字索引**では「ー（匑）𠤂」を項目として採っている。
 
@@ -747,7 +747,7 @@ xを付した![𩄉](https://glyphwiki.org/glyph/u29109.50px.png)と
 
 **示部**では、酒井（1967）と池田ほか（2020）とで掲出項目数に差がないが、次の項目に脱字を認める。
 
-- `kazama_location`: K0700183, `hanzi_entry`: 樹／［神］, `definition`: コタマ（LHL）
+- `kazama_location`: K07001830, `hanzi_entry`: 樹／［神］, `definition`: コタマ（LHL）
 
 これにより掲出項目数と掲出字数は次のように修正される。
 
@@ -769,7 +769,7 @@ xを付した![𩄉](https://glyphwiki.org/glyph/u29109.50px.png)と
 **毛部**の掲出項目数は、酒井（1967）が104項目、池田ほか（2020）が103項目で、1項目の差がある。
 これは次の箇所が問題になると考えられる。
 
-- `kazama_location`: K0810064, `hanzi_entry`: ⿱三毛／⿱介毳／毳／𣯝, `definition`: マコケ（HHLV）　カモ（HH）　音脆（R）「セイ」, `remarks`: 和訓は毳の傍訓のように記載。⿱三毛／⿱介毳／毳／𣯝で一項目に修正。
+- `kazama_location`: K08100641, `hanzi_entry`: ⿱三毛／⿱介毳／毳／𣯝, `definition`: マコケ（HHLV）　カモ（HH）　音脆（R）「セイ」, `remarks`: 和訓は毳の傍訓のように記載。⿱三毛／⿱介毳／毳／𣯝で一項目に修正。
 
 備考（`remarks`）として記したように、二つの和訓は「毳」の傍訓のように記されている。しかも「毳」の後は
 改行となり次行冒頭に「𣯝」が掲出される。
@@ -961,7 +961,7 @@ xを付した![𩄉](https://glyphwiki.org/glyph/u29109.50px.png)と
 - `kazama_location`: K10050340, `hanzi_entry`: ⿰我鬼, `definition`: （無）, `remarks`:池田按：次の「未詳」項目に連続するか。
 - `kazama_location`: K10050411, `hanzi_entry`: 𩴜／⿺鬼有／⿺鬼麦／⿺鬼同／⿺鬼達／⿺鬼田／⿺鬼能／⿺鬼幸／⿺鬼𦍬／⿰田鬼, `definition`: 未詳
 
-これは2項目と数えたが、`K1005034`「⿰我鬼」が次の「未詳」項目に連続するなら、1項目減となる。
+これは2項目と数えたが、`K10050340`「⿰我鬼」が次の「未詳」項目に連続するなら、1項目減となる。
 
 観智院本の該当箇所の原文は国立国会図書館デジタルコレクションの
 [該当ページ](http://dl.ndl.go.jp/info:ndljp/pid/2586900/28)

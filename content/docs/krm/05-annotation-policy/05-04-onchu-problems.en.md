@@ -84,7 +84,7 @@ The **`Headwords`** are shown via GlyphWiki as follows.
 ![伱](https://glyphwiki.org/glyph/hdic_hkrm-01016421.50px.png)
 ![你](https://glyphwiki.org/glyph/hdic_hkrm-01016422.50px.png)
 
-The first one, K0101632 '㑫', is presumably related to the note "經文作㑫、非也" ("the sutra text writes it as 㑫, which is incorrect") found in Xuanying's *Yiqiejing yinyi*, Fascicle 4, in the first fascicle of the *Great Consecration Sūtra*:
+The first one, K01016320 '㑫', is presumably related to the note "經文作㑫、非也" ("the sutra text writes it as 㑫, which is incorrect") found in Xuanying's *Yiqiejing yinyi*, Fascicle 4, in the first fascicle of the *Great Consecration Sūtra*:
 ```
 郁佡　丘豉反。經文作㑫、非也。
 ```
@@ -95,7 +95,7 @@ Additionally, '㑫' appears in the *Longkan Shoujian/Shoujing* as follows.
 
 The Korean edition of the *Longkan Shoujian/Shoujing* writes '㑫' as ![㑫](https://glyphwiki.org/glyph/hdic_hkrm-01016320.50px.png), which agrees with the Kanchi-in manuscript.
 
-`K0101642` '伱／你' is a glyph form similar to the preceding '佡' and '⿰亻企'.
+`K01016421` '伱／你' is a glyph form similar to the preceding '佡' and '⿰亻企'.
 
 ## Homophone-Character Glosses
 
@@ -127,8 +127,8 @@ For example, '正' has '和者ウ,' indicating a palatalized sound using Chinese
 
 ## Fanqie Spellings Easily Mistaken for Katakana
 
-    K0310343    楔  先結反　始死ー齒　又工八反　門雨邊木　ニハサクラ　ニハクサ
-    K0401963    尬  工八反　又斤音　又五點反　ー尬行不正
+    K03103430    楔  先結反　始死ー齒　又工八反　門雨邊木　ニハサクラ　ニハクサ
+    K04019630    尬  工八反　又斤音　又五點反　ー尬行不正
 
 The first one, '楔', has two readings in the *Guangyun*: 古黠切 (Entering tone, *Xia* rhyme, *xiaoyun* 戛) and 先結切 (Entering tone, *Xie* rhyme, *xiaoyun* 屑); '工八反' corresponds to 古黠切. Masamune's Index and Kusakawa's *Wakun Shūsei* record '工八反' as 'エハメ' (*ehame*), but this is an example that should be classified as a *fanqie* spelling rather than a **`Japanese Native Reading` (*wakun*)**.
 

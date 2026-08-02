@@ -19,7 +19,7 @@ published, are matters currently under consideration.
 
 As a trial, some examples of annotations have been created here. Comments and feedback would be
 most welcome. Note that some items that should be annotated remain blank — for example,
-**K0106261　匜**. These are intended to be filled in and revised in the future.
+**K01062610　匜**. These are intended to be filled in and revised in the future.
 
 ### Texts Used
 
@@ -75,8 +75,11 @@ exemplar is likely preferable.
 
 ### Conventions
 
-Locations in the Kanchi-in manuscript are indicated in the form K0106212. This indicates that the
-corresponding item is found in Fascicle 1, page 62, line 1, column 2 of the Kanchi-in manuscript.
+Locations in the Kanchi-in manuscript are indicated in the form K01062121. This indicates the first
+character of the item found in Fascicle 1, page 62, line 1, column 2 of the Kanchi-in manuscript.
+The final digit indicates the character's position within the **`Entry`**: 0 for an **`Entry`** with
+a single **`Headword`** character, or 1, 2, ... in order for **`Entries`** with multiple **`Headword`**
+characters.
 The **`Entry`** published in KRM.tsv is shown in the form "建／䢖". The "／" mark separates multiple
 **`Headwords`** when more than one is present.
 
@@ -87,7 +90,7 @@ passage being annotated.
 
 ## *Butsujō*
 ### 3辵
-#### K0106212 建／䢖 
+#### K01062121 建／䢖 
 ![䢖](https://glyphwiki.org/glyph/sarashina_hkrm-01062121.50px.png)![䢖](https://glyphwiki.org/glyph/sarashina_hkrm-01062122.50px.png)
 
 (Main Text)
@@ -122,7 +125,7 @@ passage being annotated.
 9	和コン  
 	The Kanchi-in, Renjō-in, and Sainenji manuscripts have "禾コン"; the Kōzan-ji manuscript has "音コン".
 
-#### K0106214 𨑭 
+#### K01062140 𨑭 
 ![𨑭](https://glyphwiki.org/glyph/sarashina_hkrm-01062140.50px.png)
 
 (Main Text)
@@ -139,7 +142,7 @@ passage being annotated.
 3	トコロ  
 	Possibly a misreading arising from the graphically similar character "処".
 
-#### K0106221 辿
+#### K01062210 辿
 ![辿](https://glyphwiki.org/glyph/sarashina_hkrm-01062210.50px.png)
 
 
@@ -208,7 +211,7 @@ passage being annotated.
 15	和エン  
 	Absent from the Kōzan-ji manuscript. The Kanchi-in and Renjō-in manuscripts have "禾エン". The Sainenji manuscript has "禾エン(_L)".
 
-#### K0106231 ⿺辶屲 
+#### K01062310 ⿺辶屲 
 ![⿺辶屲](https://glyphwiki.org/glyph/sarashina_hkrm-01062310.50px.png)
 
 (Main Text)
@@ -220,7 +223,7 @@ passage being annotated.
 	The Kanchi-in and Kōzan-ji manuscripts agree; the Sainenji manuscript has "⿺辶屲".
 
 
-#### K0106232 ⿺辶&CDP-8C66;𨒌
+#### K01062321 ⿺辶&CDP-8C66;𨒌
 ![⿺辶&CDP-8C66;](https://glyphwiki.org/glyph/sarashina_hkrm-01062321.50px.png)![𨒌](https://glyphwiki.org/glyph/sarashina_hkrm-01062322.50px.png)
 
 (Main Text)
@@ -231,7 +234,7 @@ passage being annotated.
 1	俗  
 	"⿺辶&CDP-8C66;" exists in Unicode (𮞅　u2e785 ![𮞅](https://glyphwiki.org/glyph/u2e785.50px.png)).
 
-#### K0106233 ⿺辶⿱艹⿱丿止
+#### K01062330 ⿺辶⿱艹⿱丿止
 ![⿺辶⿱艹⿱丿止](https://glyphwiki.org/glyph/sarashina_hkrm-01062330.50px.png)
 
 (Main Text)
@@ -247,7 +250,7 @@ passage being annotated.
 3	ホヒコル  
 	
 
-#### K0106234 蔓／莚
+#### K01062341 蔓／莚
 ![蔓](https://glyphwiki.org/glyph/sarashina_hkrm-01062341.50px.png)![莚](https://glyphwiki.org/glyph/sarashina_hkrm-01062342.50px.png)
 
 (Main Text)
@@ -257,7 +260,7 @@ passage being annotated.
 1	ハヒコル  
 	The Kōzan-ji and Sainenji manuscripts agree; the Renjō-in manuscript has "小ヒコル". Nakamura's Monzen, p. 138 (蜀), has "風連莚蔓トハヒコレリ於蘭臯".
 
-#### K0106241 ー（莚）／䝯
+#### K01062411 ー（莚）／䝯
 ![莚](https://glyphwiki.org/glyph/sarashina_hkrm-01062342.50px.png)![䝯](https://glyphwiki.org/glyph/sarashina_hkrm-01062412.50px.png)
 
 (Main Text)
@@ -267,7 +270,7 @@ passage being annotated.
 1	同  
 	Nakamura's Monzen, p. 264 (上), has "䝯丘陵ハヒコリ「連也又延也」／(寛文 edition) ハヒコレリ・ソヒテ".
 
-#### K0106242　筵
+#### K01062420　筵
 ![筵](https://glyphwiki.org/glyph/sarashina_hkrm-01062420.50px.png)
 
 (Main Text)
@@ -278,7 +281,7 @@ passage being annotated.
 	The Kanchi-in, Kōzan-ji, and Renjō-in manuscripts write the **`Headword`** as "⿱竹𨒌"; the Sainenji manuscript writes it as "筵". The *Nikkoku*, under "なが‐むしろ【長筵】", gives the meaning: "A long straw mat. A mat spread along the path when the Emperor walks on foot, or when a deity is conveyed in procession during a religious rite. Also, the surface covering of a tatami mat." It cites examples from the *Engishiki* ("長席"), the *Shingishiki* ("長筵"), and the *Tsutsumi Chūnagon Monogatari*.
 
 
-#### K0106243　𨒌
+#### K01062430　𨒌
 ![𨒌](https://glyphwiki.org/glyph/sarashina_hkrm-01062430.50px.png)
 
 (Main Text)
@@ -293,7 +296,7 @@ passage being annotated.
 
 ------
 ### 4匚
-#### K0106251 匚
+#### K01062510 匚
 ![匚](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062510.50px.png)
 
 (Main Text)
@@ -309,7 +312,7 @@ passage being annotated.
 3	《玉ー》云甫玉切  
 	The Kanchi-in manuscript has "《玉ー》云甫玉切"; the Renjō-in, Kōzan-ji, and Sainenji manuscripts lack it. This is an addition in the Kanchi-in manuscript. The Song edition of the *Yupian* gives "甫王切"; "玉" is a scribal error for "王" (Kobayashi Kyōji, "Sainenji-bon ni Mienai Kanji Chūki" [Character-Form Annotations Not Visible in the Sainenji Manuscript], example 17).
 
-#### K0106252 匠
+#### K01062520 匠
 ![匠](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062520.50px.png)
 
 (Main Text)
@@ -332,7 +335,7 @@ passage being annotated.
 	The Dōen-bon manuscript of the *Wamyō Ruijushō* gives "工匠　四声字苑云工［功反和名太久美］匠［上反］巧人也" (Vol. 2, Jinrin [Human Relations] Section). The *Dai-Hannya-kyō Jishō* has "タクミ" for "匠" (fol. 9r). The Kanchi-in and Kōzan-ji manuscripts have "タクミ(LLL)"; the Renjō-in manuscript has "タクミ"; the Sainenji manuscript has "タクミ(LLL)" (uncertain, 存疑).
 
 
-#### K0106253 匧
+#### K01062530 匧
 ![匧](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062530.50px.png)
 
 (Main Text)
@@ -346,7 +349,7 @@ passage being annotated.
 	The Renjō-in manuscript writes "「」" in the same size as the **`Headword`**. The Song edition of the *Yupian* gives "匧　或作篋" (匧 is also written as 篋). The *Shinsen Jikyō* gives "匧　篋字" (匧 is the character 篋); the *Longkan Shoujian/Shoujing*, Fascicle 1, "匚" radical section, gives "⿷匚夹　俗通；匧　正。苦叶反。函ー也。二。"
 
 
-#### K0106254 匧
+#### K01062540 匧
 ![匧](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062540.50px.png)
 
 (Main Text)
@@ -356,7 +359,7 @@ passage being annotated.
 1	正  
 	The Kanchi-in, Renjō-in, and Kōzan-ji manuscripts have "正"; the Sainenji manuscript lacks it. This is an omission in the Sainenji manuscript (Kobayashi Kyōji, "Sainenji-bon ni Mienai Kanji Chūki," example 18).
 
-#### K0106261 匜
+#### K01062610 匜
 ![匜](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062610.50px.png)
 
 (Main Text)
@@ -371,7 +374,7 @@ passage being annotated.
 
 3	⿺乚㐌⿺辶㐌  
 
-#### K0106262 𠤷
+#### K01062620 𠤷
 ![𠤷](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062620.50px.png)
 
 (Main Text)
@@ -380,7 +383,7 @@ passage being annotated.
 (Notes)  
 1	ハンサフ(LLLVL)  
 	
-#### K0106263 匡
+#### K01062630 匡
 ![匡](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062630.50px.png)
 
 (Main Text)
@@ -422,7 +425,7 @@ passage being annotated.
 	In the Ishiyama-dera manuscript of the *Dai-Hannya-kyō Jishō*, the entry for "匡" (⿺辶⿱一王) has "音况" and "タヽス" (fol. 25r).
 
 
-#### K0106271 匡／⿷匚主
+#### K01062711 匡／⿷匚主
 ![匡](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062711.50px.png)![⿷匚主](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062712.50px.png)
 
 (Main Text)
@@ -434,7 +437,7 @@ passage being annotated.
 
 2	筺或  
 	
-#### K0106272 ⿸厂王
+#### K01062720 ⿸厂王
 ![⿸厂王](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062720.50px.png)
 
 (Main Text)
@@ -444,7 +447,7 @@ passage being annotated.
 1	（無）  
 	An omitted stroke, in observance of the naming taboo (避諱) for Zhao Kuangyin (趙匡胤), Emperor Taizu of the Song dynasty (缺筆).
 
-#### K0106273 高／匡
+#### K01062731 高／匡
 ![高](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062731.50px.png)![匡](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062732.50px.png)
 
 (Main Text)
@@ -454,7 +457,7 @@ passage being annotated.
 1	マカフラタカ(LHHVHHH)  
 	The *Nikkoku*, under "まかぶら-だか【眶高】", gives the meaning "having a high *makabura*; the area around the eyebrows being raised," citing the Kōzan-ji manuscript's "マカブラダカ" and an example from the *Hōgen Monogatari*. Likewise, the *Nikkoku*, under "こう-きょう【高匡】" ("匡" meaning the rim of the eye), explains "the eyes being sunken, with the surrounding area being bony," citing an example from the *Sangō Shiiki* (三教指帰), Part 3: "折頞。高匡。頤。隅目。噅口。無鬚。似孔雀貝".
 
-#### K0106274 匴
+#### K01062740 匴
 ![匴](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062740.50px.png)
 
 (Main Text)
@@ -467,7 +470,7 @@ passage being annotated.
 2	竹莒  
 	The *Shuowen Jiezi* gives "渌米籔也" (a basket for draining rice). The *Tenrei Banshō Meigi* gives "盝也、米藪也" (a drainer; a basket for rice). The Song edition of the *Yupian* gives "𣿍米藪" (a basket for draining rice). The *Guangyun* gives "器也冠箱也" (a vessel; a box for a cap).
 
-#### K0106281 㔯
+#### K01062810 㔯
 ![㔯](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062810.50px.png)
 
 (Main Text)
@@ -480,7 +483,7 @@ passage being annotated.
 2	炊䉛  
 	The *Tenrei Banshō Meigi* gives "𠤰　似治反。漉米。䉛。上文。". The *Shuowen Jiezi*, under "籔", gives "炊䉛也", meaning a bamboo strainer used for cooking.
 
-#### K0106282　㔶
+#### K01062820　㔶
 ![㔶](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062820.50px.png)
 
 (Main Text)
@@ -496,7 +499,7 @@ passage being annotated.
 3	小桮  
 	The *Shuowen Jiezi* gives "小桮也" (桮 is the same as 杯). The *Guangyun* gives "小杯名" (Departing tone, Song rhyme (送韻); xiaoyun 貢). The *Tenrei Banshō Meigi* gives "小盃也". The meaning is a small cup.
 
-#### K0106283　匪
+#### K01062830　匪
 ![匪](https://glyphwiki.org/glyph/hdic-tanki01_hkrm-01062830.50px.png)
 
 (Main Text)
