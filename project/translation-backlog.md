@@ -12,7 +12,7 @@
 - **Japanese Only** — `I18N_POLICY.md` の方針により、そもそも英語版が必須とされていないページ
   （Records/progress pages、Case studies）。翻訳の要否自体がオープンな判断事項。
 
-2026年8月1日時点。チェックは翻訳（または翻訳要否の判断）が完了した時点で入れる。
+2026年8月2日時点。チェックは翻訳（または翻訳要否の判断）が完了した時点で入れる。
 
 ---
 
@@ -39,7 +39,16 @@
 - [ ] `content/docs/krm/_index.en.md` の冒頭再構成（About This Documentation／Resource Documented／
   Relationship to the HDIC Project／About the Ruiju Myōgishō／How This Documentation Is Organized 等）
   → `_index.ja.md` へ反映
-- [ ] `09-development-history/_index.en.md`（新設章） → `09-development-history/_index.ja.md` の作成
+- [x] `09-development-history/_index.en.md`（新設章） → `09-development-history/_index.ja.md` の作成
+  （2026年8月2日完了。あわせて `_index.ja.md` から該当2節を削除し、章一覧にリンクを追加）
+
+### Other Known Gaps
+
+EN/JA対応監査の過程で見つかった、上記カテゴリに当てはまらない個別の不整合。
+
+- [ ] `01-introduction/_index.en.md` の参考文献リストが `_index.ja.md` より少ない（EN 86件 / JA 89件）。
+  確認済みの不足例：西端幸雄(1973)、田村夏紀(2019)、高橋宏幸(2004)、高橋宏幸(2005)。
+  範囲が広いため、翻訳未了箇所とは別に、参考文献リストの英訳補完タスクとして扱う。
 
 ### Japanese Only
 
