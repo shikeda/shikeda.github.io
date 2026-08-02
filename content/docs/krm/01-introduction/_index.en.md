@@ -11,7 +11,7 @@ bookCollapseSection: true
 
 # Overview of the *Ruiju Myōgishō*
 
-**Ikeda Shōju**
+**Shōju Ikeda**
 
 Date published: April 20, 2025
 
@@ -64,9 +64,6 @@ The *Ruiju Myōgishō* lists Chinese characters, presented either as individual 
 * `Notes on Character Form` (字体注) that specify orthographic variants such as "standard" (正) and "popular/variant" (俗) forms.
 
 Furthermore, tone marks (`shōten`, 声点) are sometimes added to both the Sino-Japanese and native readings. Consequently, the *Myōgishō* is an invaluable resource for research in the history of the Japanese lexicon, the historical phonology of Sino-Japanese character readings, and the history of Chinese character forms as used in Japan.
-
-
-The work lists Chinese characters both as individual graphs and compounds, accompanied by fanqie spellings, homophone glosses, katakana transcriptions for Sino-Japanese readings, literary Chinese definitions, native Japanese readings (*wakun*) in katakana, and annotations indicating orthographic variants such as “standard” and “popular” forms. Phonetic marks (*shōten*) are sometimes added to both the Sino-Japanese and native readings.
 
 ## Radical Structure
 
