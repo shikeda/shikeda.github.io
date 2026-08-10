@@ -26,6 +26,8 @@ Furthermore, its annotations written in literary Chinese—which include **`fanq
 
 It was first published in March 2022, and in March 2025, a revised edition with specification changes and detailed explanations will be released.
 
+The `hanzi_entry` values represent a normalized scholarly transcription of the manuscript, using Kangxi Dictionary forms where applicable; the `original_entry` column separately preserves each **`Headword`**'s as-written form, since the headword is the basic unit used for character identification. The `definition` column, by contrast, records only the collated reading of the **`Original Glosses`**; notable cases are recorded in the `remarks` column of [krm_notes](./02-02-notes/). When a research question depends on the precise reading of the manuscript, consult the facsimile editions listed in [Chapter 1: Overview](../01-introduction/#facsimile).
+
 
 ## Kanji and Hanzi
 
