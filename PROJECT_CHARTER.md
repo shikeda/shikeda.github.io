@@ -2,8 +2,6 @@
 
 ## Purpose
 
-## Purpose
-
 This Charter defines the long-term governance and guiding principles of the KRM Documentation Project.
 
 It provides a shared framework for both human contributors and AI assistants. Its purpose is to ensure that all future work follows consistent architectural principles, regardless of the individual contributor or AI system.
@@ -256,6 +254,16 @@ of the Ruiju Myōgishō Database.
 Its purpose is not only to document KRM itself,
 but also to provide a reusable methodological framework for building digital lexical resources for historical Japanese texts.
 
+KRM Documentation must also make clear that the transcription is a scholarly interpretation of the manuscript,
+not a substitute for the manuscript itself.
+
+Its authority should therefore rest not on assumed or unexamined correctness,
+but on accuracy,
+transparency,
+traceability,
+documented editorial decisions,
+and the continuing possibility of verification against the primary source.
+
 ---
 
 # 7. Documentation Principles
@@ -279,9 +287,77 @@ prioritize
 
 8. International readability without sacrificing scholarly precision.
 
+9. Explicit interpretation over apparent neutrality.
+
+   The transcription is a scholarly interpretation of the manuscript, not a
+   transparent copy of it. Documentation must keep this fact visible, rather
+   than allowing the transcription to be treated as self-evidently
+   authoritative through repeated, unquestioned use.
+
 ---
 
-# 8. Long-term Vision
+# 8. Verifiability of the Transcription
+
+The KRM transcription is created to support the reading,
+interpretation,
+analysis,
+and citation
+of the Ruiju Myōgishō manuscript.
+
+It is not the primary source itself.
+
+The transcription necessarily reflects a series of scholarly decisions, including,
+where applicable,
+identification of written characters,
+distinction of graphic variants,
+segmentation of entries,
+classification of annotations,
+normalization decisions,
+and other editorial decisions involved in the transcription.
+
+These decisions may be highly reliable,
+but they remain decisions.
+
+As KRM becomes more widely used and more often cited as authoritative,
+this interpretive character must remain visible rather than being obscured by familiarity.
+
+An established convention is not thereby invalid merely because it is a scholarly construction.
+What must be avoided is the loss of the path back to the manuscript evidence,
+not the fact of stabilization itself.
+
+## Principle of Source Verification
+
+1. The transcription is an aid for reading and studying the Ruiju Myōgishō manuscript.
+   It should not be treated as an independent replacement for the manuscript.
+
+2. When the accuracy,
+   interpretation,
+   or applicability
+   of a transcription is important to a research question,
+   verify the reading against the available facsimile or photographic reproduction.
+
+3. When a KRM example constitutes critical evidence for a scholarly argument,
+   verification against the manuscript image is required.
+
+4. Documentation should make such verification as practical as possible by preserving
+   stable references between the transcription and manuscript evidence.
+
+5. Where readings remain uncertain,
+   the uncertainty should be documented rather than concealed by the apparent
+   precision of the digital representation.
+
+Scholarly authority should arise from accuracy,
+transparency,
+methodological consistency,
+provenance,
+traceability,
+explicit documentation of uncertainty,
+and independent verifiability —
+not from assumed infallibility.
+
+---
+
+# 9. Long-term Vision
 
 The Documentation should evolve from
 
@@ -297,7 +373,7 @@ Design decisions should remain valuable ten years from now.
 
 ---
 
-# 9. Repository Structure
+# 10. Repository Structure
 
 The repository is organized as follows.
 
@@ -315,7 +391,7 @@ The repository layout is intended to accommodate future documentation projects, 
 
 ---
 
-# 10. Audience
+# 11. Audience
 
 The intended readership should gradually expand.
 
@@ -339,7 +415,7 @@ Emerging Users
 
 ---
 
-# 11. Scope
+# 12. Scope
 
 The Documentation should clearly define
 
@@ -355,7 +431,7 @@ These evolve together with the project.
 
 ---
 
-# 12. Phase Rules
+# 13. Phase Rules
 
 Each phase has different deliverables.
 
@@ -389,7 +465,7 @@ The Charter remains valid throughout every phase.
 
 ---
 
-# 13. Current Task
+# 14. Current Task
 
 This Charter defines the entire project.
 
@@ -422,7 +498,7 @@ directory names.
 
 ---
 
-# 14. Success Criteria
+# 15. Success Criteria
 
 The current phase is successful if it produces
 
@@ -436,7 +512,7 @@ without altering scholarly content.
 
 ---
 
-# 15. Deliverables (Phase 1)
+# 16. Deliverables (Phase 1)
 
 Produce
 
@@ -506,7 +582,7 @@ brief rationale.
 
 ---
 
-# 16. Living Document
+# 17. Living Document
 
 This Charter is expected to evolve.
 
