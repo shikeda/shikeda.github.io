@@ -14,6 +14,8 @@ title: "Overview of Published Data"
 
 ## Introduction
 
+This chapter is part of the Core Documentation. It documents the published KRM data files and how they relate to one another.
+
 This database is a full-text digitization of the Kanchi-in manuscript of the *Ruiju Myōgishō* (abbreviated as KRM), incorporating location information, textual collation, source studies, and more. It is one of the **Hanzi** dictionary databases comprising the **Integrated Database of Hanzi Dictionaries in Early Japan** (abbreviated as HDIC). **The terms 'kanji' and 'hanzi' are explained later.**
 
 The Kanchi-in manuscript of the *Ruiju Myōgishō* is a **Hanzi (Chinese character)** dictionary compiled in the twelfth century by a Shingon Buddhist monk. It has long been regarded as an important resource for research in Japanese historical linguistics due to its extensive collection of:

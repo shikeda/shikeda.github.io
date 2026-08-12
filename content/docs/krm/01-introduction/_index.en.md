@@ -15,7 +15,7 @@ bookCollapseSection: true
 
 Date published: April 20, 2025
 
-This section provides an overview of the *Ruiju Myōgishō*, detailing its extant manuscripts, presumed compiler and provenance, scholarly significance, structural organization, textual sources, available facsimiles and indices, as well as pertinent secondary literature.
+This chapter is part of the Core Documentation. It provides an overview of the *Ruiju Myōgishō*, detailing its extant manuscripts, presumed compiler and provenance, scholarly significance, structural organization, textual sources, available facsimiles and indices, as well as pertinent secondary literature.
 
 - [Manuscript Traditions](#manuscript-traditions)
 - [Compiler](#compiler)

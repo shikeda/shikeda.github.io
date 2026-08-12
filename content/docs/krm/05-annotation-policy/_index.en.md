@@ -11,6 +11,8 @@ bookCollapseSection: true
 
 # Basic Principles for Creating Annotations/Commentary
 
+This chapter is part of the Core Documentation. It explains the annotation principles and evidence categories used throughout KRM.
+
 The scholarly apparatus for the *Myōgishō* in this database includes elements such as **`Textual Collation`** (*kōkan*), **`Source Criticism`** (*shutten kōshō*, 出典考証), **`Review of Previous Scholarship`** (*kenkyūshi seiri*), **`Lexical Analysis`** (*goshaku*), and **`Additional Expositions`** (*yosetsu*). The content of each is explained as follows:
 
 * **`Textual Collation`** (校勘, *kōkan*): Involves presenting textual variants by comparing the *Myōgishō* text with the main texts of other manuscripts and with fragmentary textual evidence (逸文, *itsubun*), conducting comparative analyses, correcting scribal errors, and reconstructing the original text.

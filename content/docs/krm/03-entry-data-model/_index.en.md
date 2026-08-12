@@ -7,6 +7,7 @@ bookToc: true
 
 # Entry Data Model
 
+This chapter is part of the Core Documentation. It defines the Entry data model and related concepts.
 
 Regarding the Kanchi-in manuscript *Ruiju Myōgishō*:
 

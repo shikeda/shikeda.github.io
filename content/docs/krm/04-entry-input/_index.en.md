@@ -7,6 +7,7 @@ bookToc: true
 
 # Input of Entry Data
 
+This chapter is part of the Core Documentation. It defines the editorial and encoding rules for inputting Entry data.
 
 This document explains how to input **`Entry`** data for the Kanchi-in manuscript of the *Ruiju Myōgishō*. Hereinafter, the Kanchi-in manuscript of the *Ruiju Myōgishō* will be referred to as *"Myōgishō"* or "KRM."
 

@@ -66,6 +66,8 @@ For a full description see [Chapter 1: Overview of the *Ruiju Myōgishō*](./01-
 
 ## How This Documentation Is Organized
 
+Chapters 1–5 make up the **Core Documentation** — the primary reference for the KRM data model, input conventions, and annotation policy. Chapters 6–9 provide supporting material: typesetting workflow, project records, and case studies.
+
 This documentation is organized into the following chapters:
 
 1. **[Overview of the *Ruiju Myōgishō*](./01-introduction/)** — the source manuscript: its textual traditions, compiler, date, significance, and structure.
