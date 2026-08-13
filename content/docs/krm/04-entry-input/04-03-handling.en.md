@@ -387,7 +387,7 @@ Examples 7 and 8 are *Go-on* (呉音) readings; example 7 is a **`Similar sound 
 Examples 9 and 10 are *Wa-on* (和音) readings; example 9 has **`Tone Marks` (*shōten*)** recorded, while example 10 has both **`Tone Marks` (*shōten*)** and nasal sound symbols.
 
 
-"Regarding **`Tone Marks` (*shōten*)**, while distinguishing between those written in red ink (朱点, *shuten* – also referred to by some specialists as **`Vermilion Glosses`**) and those written in black ink (墨点, *bokuten*) is important, this distinction has not been made in the current data input. We anticipate detailed verification by specialists in historical Japanese phonology."
+"Regarding **`Tone Marks` (*shōten*)**, while distinguishing between those written in red ink (朱点, *shuten* – also referred to by some specialists as **`Vermilion Glosses`**) and those written in black ink (墨点, *bokuten*) is important, this distinction has not been made in the current data input, since **`Tone Marks`** are applied in red ink in the vast majority of cases. Rare exceptions using a black dot (墨星点, *bokuseiten*) or black ring (墨圏点, *bokuenten*) do occur, and these have been noted in the `remarks` column of `krm_notes.tsv`."
 
 
 ### `Morphosyntactic Glosses` (*wokototen*) (ヲコト点)
