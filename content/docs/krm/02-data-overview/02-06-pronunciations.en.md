@@ -14,7 +14,7 @@ weight: 16
 ## Overview and file formats
 
 The **`Phonetic Glosses`** in the Kanchi-in manuscript of the *Ruiju Myōgishō* (hereafter *Myōgishō*) include **`Fanqie spellings`** (反切), **`Similar sound notes`** (類音注, *ruion-chū*), and **`Kana glosses`** (仮名注, *kana-chū*). These are often accompanied by **`Tone marks`** (声点, *shōten*).
-As a database for Sino-Japanese pronunciations, the **"Database of Historical Sino-Japanese Readings"** (abbreviated as DHSJR), developed by Professor Katō Taitsuru and others, offers exceptionally rich content. 
+As a database for Sino-Japanese pronunciations, the **"Database of Historical Sino-Japanese Readings"** (abbreviated as DHSJR), developed by Professor Katō Daikaku and others, offers exceptionally rich content. 
 Its specifications are also publicly available in detail. 
 Accordingly, as part of the HDIC project, we have decided to release data in accordance with the DHSJR specifications.
 
@@ -65,5 +65,13 @@ HDIC's original column names are indicated in **bold**.
 
 The `material_location` is indicated in the format: K + Volume (2 digits) + Kazama Edition Page (3 digits) + Line (1 digit) + Segment (1 digit). For example, `K0201474` indicates an appearance in Volume 2, Page 14, Line 7, Segment 4.
 
-Currently, this is under consideration in the case study "[Linkage with DHSJR](/docs/krm/08-case-studies/08-05-dhsjr/)," which should also be consulted.
+Collaboration with DHSJR proceeded as follows.
+
+- The DHSJR project aims to make Sino-Japanese character and word readings, from the Heian–Kamakura periods through the present, cross-searchable based on annotations such as **`Kana glosses`**, **`Tone marks`**, and **`Fanqie spellings`**. It is led by Professor Katō Daikaku of Waseda University.
+- To include the *Myōgishō* in DHSJR, **`Phonetic Glosses`** were extracted from KRM's full-text data (`krm_main.tsv` and `krm_notes.tsv`) and matched against DHSJR's requirements.
+- Each of DHSJR's 23 defined data columns (e.g., character headword, **`Tone marks`**, **`Kana glosses`**, **`Fanqie spellings`**, **`Similar sound notes`**, material location) was individually mapped to the corresponding KRM data items.
+- Discussions with Professor Katō Daikaku and other DHSJR members began on February 17, 2025; following review and verification by DHSJR, the data was published on September 10, 2025, under resource ID `30-048-02` (filename `30-048-02_RMK`).
+- From June 23 to July 12, 2026, the DHSJR-provided data was reviewed and refined; this work is recorded in the [DHSJR repository's commit history](https://github.com/daikaku/DHSJR/commits/main/).
+
+These details, along with issues identified while preparing the data, are compiled as Supporting Documentation in the case study "[Linkage with DHSJR](/en/docs/krm/08-case-studies/08-05-dhsjr/)," which includes many explanations useful for using KRM as a resource for Sino-Japanese phonological history.
 

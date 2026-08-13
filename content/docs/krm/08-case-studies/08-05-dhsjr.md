@@ -11,7 +11,8 @@ weight: 55
 
 # **DHSJRとの連携 (Collaboration with DHSJR)**
 
-本ページは[事例研究](../)（Examples and Applications）の一つである。KRMにおける音注の扱いについては[音注の種類と解読上の問題点](/docs/krm/05-annotation-policy/05-04-onchu-problems/)を参照。
+この文書は、2025年2月16日に執筆を開始し、DHSJRとの連携作業の問題を
+検討しながら、記録を残し、最終的に2025年6月19日に編集作業を終えたものである。事例研究（Examples and Applications）の一つとして残すこととした。なお、KRMにおける音注の扱いについては[音注の種類と解読上の問題点](/docs/krm/05-annotation-policy/05-04-onchu-problems/)を参照。
 
 ## **DHSJRとは**
 
