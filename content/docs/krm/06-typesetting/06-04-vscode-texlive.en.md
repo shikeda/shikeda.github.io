@@ -4,6 +4,8 @@ weight: 34
 ---
 # A Memorandum on LuaTeX Typesetting for Old Dictionaries and Kunten Materials
 
+This page is a detailed workflow memorandum within the Supporting Documentation. For the typesetting environment overview, see [Typesetting Configuration for Transcriptions and Annotations](../).
+
 This document is a memorandum detailing the setup methods for typesetting transcriptions and annotations of old dictionaries and *kunten* materials. It focuses on using a LuaTeX environment (with TeX Live and VS Code recommended), along with Hanazono Mincho fonts, GlyphWiki, and either `sfkanbun.sty` or a LuaLaTeX-compatible version of `kunten2e.sty`.
 
 

@@ -11,6 +11,8 @@ weight: 55
 
 # **DHSJRとの連携 (Collaboration with DHSJR)**
 
+本ページは[事例研究](../)（Examples and Applications）の一つである。KRMにおける音注の扱いについては[音注の種類と解読上の問題点](/docs/krm/05-annotation-policy/05-04-onchu-problems/)を参照。
+
 ## **DHSJRとは**
 
 DHSJRとは「資料横断的な漢字音・漢語音データベース」の

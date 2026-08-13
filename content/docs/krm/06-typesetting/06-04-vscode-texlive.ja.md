@@ -5,6 +5,8 @@ weight: 34
 
 # 古辞書・訓点資料のためのLuaTeX組版備忘録
 
+本ページはSupporting Documentationに属する詳細な作業メモである。組版環境全体の概要は[翻刻・注釈の組版の設定](../)を参照。
+
 この文書は、LuaTeX (TeX Live, VS Code推奨) 環境で、花園明朝、GlyphWiki、および `sfkanbun.sty` (またはLuaTeX対応化した `kunten2e.sty`) を用いて古辞書や訓点資料の翻刻・注釈を組版するための設定方法を解説する備忘録です。
 
 
