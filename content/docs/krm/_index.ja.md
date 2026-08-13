@@ -31,6 +31,8 @@ weight: 1
 
 ## 内容
 
+第1章から第5章までが**Core Documentation**（中核文書）であり、KRMの項目データモデル・入力規則・注釈方針に関する主要な参照文書である。第6章から第9章は、組版設定・進捗記録・事例研究などの補足資料である。
+
 - [資料紹介](/docs/krm/01-introduction/)
 - [公開データの概要](/docs/krm/02-data-overview/)
     - [krm_main](/docs/krm/02-data-overview/02-01-main/)
