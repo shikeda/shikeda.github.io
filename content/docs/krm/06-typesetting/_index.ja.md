@@ -7,6 +7,8 @@ weight: 30
 
 ## はじめに
 
+本章はSupporting Documentation（補足資料）である。KRMの翻刻・注釈を組版するための作業手順を解説するものであり、規範的なデータ仕様の一部ではない。
+
 LuaTeX + 花園明朝 + GlyphWiki + sfkanbun.sty
 の環境で古辞書の翻刻と注釈の組版を行う方法をまとめる。
 

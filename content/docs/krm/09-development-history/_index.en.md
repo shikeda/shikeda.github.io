@@ -6,6 +6,8 @@ weight: 60
 
 # Development History
 
+This chapter is part of the Project Records. It documents how the KRM Database was constructed, distinct from the normative Core Documentation.
+
 ## Database Construction Process
 
 The *Ruiju Myōgishō* of the Kanchi-in manuscript is an old handwritten manuscript, and because it contains an extremely large number of difficult characters, we proceeded with database construction using the following steps.

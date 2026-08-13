@@ -8,6 +8,8 @@ weight: 30
 
 ## Introduction
 
+This chapter is Supporting Documentation. It provides workflow documentation for typesetting KRM transcriptions and annotations; it is not part of the normative data specification.
+
 This document outlines methods for typesetting transcriptions and annotations of old dictionaries using an environment comprising LuaTeX, Hanazono Mincho fonts, GlyphWiki, and the `sfkanbun.sty` package.
 
 It is recommended to use LuaTeX via TeX Live and VS Code as the editor. Instructions for installing and using TeX Live and VS Code are widely available on the web and will be omitted here.
