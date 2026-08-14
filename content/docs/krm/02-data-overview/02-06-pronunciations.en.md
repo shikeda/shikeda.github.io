@@ -65,6 +65,8 @@ HDIC's original column names are indicated in **bold**.
 
 The `material_location` is indicated in the format: K + Volume (2 digits) + Kazama Edition Page (3 digits) + Line (1 digit) + Segment (1 digit). For example, `K0201474` indicates an appearance in Volume 2, Page 14, Line 7, Segment 4.
 
+## Collaboration with DHSJR
+
 Collaboration with DHSJR proceeded as follows.
 
 - The DHSJR project aims to make Sino-Japanese character and word readings, from the Heian–Kamakura periods through the present, cross-searchable based on annotations such as **`Kana glosses`**, **`Tone marks`**, and **`Fanqie spellings`**. It is led by Professor Katō Daikaku of Waseda University.
