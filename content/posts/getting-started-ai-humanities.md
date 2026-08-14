@@ -1,12 +1,16 @@
 ---
 title: "人文系研究者のための「AI対話型」文献分析入門 〜観智院本類聚名義抄を例に〜"
-weight: 56
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
+date: 2025-06-19T18:07:02+09:00
+draft: false
+categories:
+  - デジタル人文学
+  - 日本古辞書
+tags:
+  - NotebookLM
+  - AI活用
+  - 類聚名義抄
+  - KRM
+summary: "HDICで公開されている『観智院本類聚名義抄』の全文テキストデータをNotebookLMに読み込ませ、対話形式で文献分析を行う手順を、プログラミング未経験の人文系研究者向けに解説する。"
 ---
 
 # 人文系研究者のための「AI対話型」文献分析入門 〜観智院本類聚名義抄を例に〜
