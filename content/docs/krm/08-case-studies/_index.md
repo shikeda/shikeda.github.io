@@ -44,6 +44,6 @@ The following topics will be addressed as case studies. We plan to add content s
 
 1. [Investigating Wakun "Ugoku"](/docs/krm/08-case-studies/08-01-ugoku)　
 2. [Investigating Wakun "Miru"](/docs/krm/08-case-studies/08-02-miru/)　
-3. [Wakun Usage Frequency](/docs/krm/08-case-studies/08-03-wakun-uf)　
+3. [Wakun Usage Frequency](/en/docs/krm/08-case-studies/08-03-wakun-uf/)　
 4. [Homograph Distinction](/docs/krm/08-case-studies/08-04-kana-split/)　
 5. [DHSJR Collaboration](/en/docs/krm/08-case-studies/08-05-dhsjr/)
