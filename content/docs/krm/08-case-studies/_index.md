@@ -24,7 +24,7 @@ bookCollapseSection: true
 2. [和訓「ミル」の調査](/docs/krm/08-case-studies/08-02-miru/)　
 3. [和訓の使用頻度](/docs/krm/08-case-studies/08-03-wakun-uf)　
 4. [同仮名異語の区別](/docs/krm/08-case-studies/08-04-kana-split/)　
-5. [DDHSJRとの連携](/docs/krm/08-case-studies/08-05-dhsjr/)
+5. [DHSJRとの連携](/docs/krm/08-case-studies/08-05-dhsjr/)
 6. [人文系研究者のための「AI対話型」文献分析入門 〜観智院本類聚名義抄を例に〜](/docs/krm/08-case-studies/08-06-getting_started_ai_humanities)
 
 
@@ -47,5 +47,5 @@ The following topics will be addressed as case studies. We plan to add content s
 2. [Investigating Wakun "Miru"](/docs/krm/08-case-studies/08-02-miru/)　
 3. [Wakun Usage Frequency](/docs/krm/08-case-studies/08-03-wakun-uf)　
 4. [Homograph Distinction](/docs/krm/08-case-studies/08-04-kana-split/)　
-5. [DHSJR Collaboration](/docs/krm/08-case-studies/08-05-dhsjr/)
+5. [DHSJR Collaboration](/en/docs/krm/08-case-studies/08-05-dhsjr/)
 6. [Getting Started with Conversational AI for Humanities Research](/docs/krm/08-case-studies/08-06-getting_started_ai_humanities)
