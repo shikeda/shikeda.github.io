@@ -1,5 +1,5 @@
 ---
-title: "Basic Policy for Annotation Creation"
+title: "Basic Principles for Creating Annotations/Commentary"
 weight: 16
 # bookFlatSection: false
 # bookToc: true

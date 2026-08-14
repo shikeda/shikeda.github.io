@@ -1,5 +1,5 @@
 ---
-title: "Basic Policy and Subjects of Analysis for Annotation Creation"
+title: "Basic Principles and Analytical Focus for Annotation Creation"
 weight: 17
 # bookFlatSection: false
 # bookToc: true
