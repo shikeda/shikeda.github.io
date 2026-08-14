@@ -28,7 +28,7 @@ bookCollapseSection: true
 6. [人文系研究者のための「AI対話型」文献分析入門 〜観智院本類聚名義抄を例に〜](/docs/krm/08-case-studies/08-06-getting_started_ai_humanities)
 
 
-# Historical Research on Japanese: A Case Study of the Kanchi-in Manuscript of the *Ruiju Myōgishō*
+## Historical Research on Japanese: A Case Study of the Kanchi-in Manuscript of the *Ruiju Myōgishō*
 
 
 This chapter is Examples and Applications, presented primarily in Japanese. This section presents historical research on Japanese using the Kanchi-in manuscript of the *Ruiju Myōgishō*. Based on the knowledge obtained during the process of deciphering the *Myōgishō*, we aim to correct errors in the textual interpretation and improve its accuracy. While particularly focusing on the issue of *wakun* (Japanese glosses), we also address the issue of *kanji* (Chinese character) readings.

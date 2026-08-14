@@ -9,6 +9,8 @@ bookCollapseSection: true
 # bookSearchExclude: false
 ---
 
+# 進捗状況
+
 本章はProject Records（進捗記録）である。ここには観智院本類聚名義抄の注釈作成の進捗状況をまとめる。
 
 - [掲出字](/docs/krm/07-progress/1/)
