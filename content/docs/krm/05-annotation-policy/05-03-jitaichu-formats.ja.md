@@ -1,6 +1,6 @@
 ---
 title: "字体注の種類と記載形式"
-weight: 19
+weight: 20
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

@@ -1,6 +1,6 @@
 ---
 title: "Types and Quantities of Semantic Glosses in Chinese"
-weight: 21
+weight: 22
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

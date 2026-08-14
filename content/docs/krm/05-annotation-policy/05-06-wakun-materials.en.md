@@ -1,6 +1,6 @@
 ---
 title: "Foundational Materials for Annotating Japanese Native Readings (Wakun)"
-weight: 22
+weight: 23
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

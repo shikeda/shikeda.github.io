@@ -1,6 +1,6 @@
 ---
 title: "和訓注釈のための基礎資料"
-weight: 22
+weight: 23
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

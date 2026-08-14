@@ -1,6 +1,6 @@
 ---
 title: "Types and Decipherment Problems of Phonetic Glosses"
-weight: 20
+weight: 21
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

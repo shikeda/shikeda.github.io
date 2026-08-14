@@ -51,6 +51,7 @@ bookCollapseSection: true
 
 - [注釈作成の基本方針と分析対象](./05-01-basic-policy/)
 - [掲出字数の算出](./05-02-headword-count/)
+- [部首別の掲出項目数と掲出字数](./05-02b-headword-count-by-fascicle/)
 - [字体注の種類と記載形式](./05-03-jitaichu-formats/)
 - [音注の種類と解読上の問題点 ](./05-04-onchu-problems/)
 - [義注の種類と数量](./05-05-gichu-quantity/)

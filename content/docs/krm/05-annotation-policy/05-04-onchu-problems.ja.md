@@ -1,6 +1,6 @@
 ---
 title: "音注の種類と解読上の問題点"
-weight: 20
+weight: 21
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

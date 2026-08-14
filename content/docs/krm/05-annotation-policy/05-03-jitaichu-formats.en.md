@@ -1,6 +1,6 @@
 ---
 title: "Types and Notation Formats of Character Form Notes"
-weight: 19
+weight: 20
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

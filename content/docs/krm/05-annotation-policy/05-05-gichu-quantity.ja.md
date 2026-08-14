@@ -1,6 +1,6 @@
 ---
 title: "義注の種類と数量"
-weight: 21
+weight: 22
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false
