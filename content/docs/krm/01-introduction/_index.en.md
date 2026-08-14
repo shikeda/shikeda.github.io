@@ -218,9 +218,9 @@ A facsimile edition was published in 2002 by Taishō University Press, with comm
 
 While there are numerous references, the following list focuses on works related to bibliographical studies and source research, presented in chronological order of publication.
 
-Note that the first and last page numbers of each source have been omitted. Additionally, due to the large number of articles by KOBAYASHI Kyoji regarding “Additions and Omissions in the Sainenji Manuscript of the *Ruiju Myōgishō*,” only the earliest and most recent ones are included here.
+Note that the first and last page numbers of each source have been omitted. Additionally, due to the large number of articles by KOBAYASHI Kyoji regarding textual variants among manuscripts of the *Ruiju Myōgishō*, only the earliest and most recent ones are included here; the full list of these articles is given in [Foundational Materials for Annotating Japanese Native Readings (*wakun*)](/en/docs/krm/05-annotation-policy/05-06-wakun-materials/).
 
-This list is currently under development, and therefore may not yet include some works that should be listed.
+This list represents the principal works consulted in constructing the *Ruiju Myōgishō* full-text database, and is not intended to be exhaustive.
 
 
 
