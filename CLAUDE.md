@@ -66,6 +66,27 @@ Hugo and publishes `./public` to GitHub Pages. There is no manual deploy step.
 - **`static/`** — images and downloadable files served as-is.
 - **`public/`** — Hugo build output; gitignored, never edit directly.
 
+## Publication Pipeline (Word/PDF Export)
+
+Separately from the Hugo site, `content/docs/krm/` is also compiled into a Word document via Pandoc.
+This pipeline is tracked in git (unlike `public/`) and has its own handling rules:
+
+- **`publication/`** — `cover-{en,ja}.md` (title page front matter and document-info fields),
+  `metadata-{en,ja}.yaml` (record of current version/date values), `krm-{en,ja}-files.txt`
+  (ordered file manifest fed to Pandoc — must be kept in sync with the chapters actually present
+  under `content/docs/krm/`), `reference.docx` (Pandoc reference/style template).
+- **`scripts/build-krm-docx.sh <en|ja>`** — builds `output/KRM_Documentation_<lang>.docx` from the
+  files listed in `publication/krm-<lang>-files.txt`. Internally rewrites Hugo-relative links to
+  absolute `https://shikeda.github.io/...` URLs (`scripts/rewrite_internal_links.py`) and demotes
+  child-page headings one level (`scripts/shift_markdown_headings.py`) so the Word doc's heading
+  hierarchy matches Hugo's section/page structure.
+- **`scripts/build-reference-docx.py`** — regenerates `publication/reference.docx`; also holds the
+  `DOC_TITLE`/`DOC_VERSION`/`DOC_DATE` constants that control the Word doc's running header/footer.
+- **`output/`** — the built `.docx`/`.pdf` files. **Tracked in git but user-managed**: the user
+  edits these directly in Word between builds, so `git status` may show them as modified or even
+  deleted outside of any build script run. Do not edit, regenerate, or commit files under `output/`
+  unless the user explicitly asks for that specific action.
+
 ## Governing Documents (KRM Documentation work)
 
 Editing anything under `content/docs/krm/` is governed by a stack of project-standard documents,
@@ -93,6 +114,11 @@ database specifications** unless explicitly instructed. AI assistants may restru
 and improve navigation/terminology/discoverability around that content, but not its substance. If
 a task seems to require scholarly judgment, stop and ask rather than guessing.
 
+This "ask rather than guess" rule is not limited to scholarly content: it also applies to licensing
+fields, version/date metadata, and any other convention the governing documents above don't
+explicitly settle. When they're silent, defer to what's already recorded rather than inferring a
+new rule, and ask the user instead of picking a plausible-sounding default.
+
 The project is currently in **Phase 4 (Project Standards)** per `PROJECT_CHARTER.md` — large-scale
 chapter-level refactoring of `content/docs/krm/` should not begin until the user explicitly
 instructs it, even if a gap in the standards is obvious.
@@ -105,3 +131,16 @@ instructs it, even if a gap in the standards is obvious.
   `headword-chars` inconsistency, leftover `localhost` links) are tracked in `ROADMAP.md`; don't
   "fix" these opportunistically inside an unrelated change without flagging it, since link targets
   in this documentation are sometimes intentionally provisional.
+- Several facts are intentionally duplicated across files rather than defined once: KAKENHI grant
+  numbers (site content + `publication/` metadata), document version/date (`cover-{en,ja}.md`,
+  `metadata-{en,ja}.yaml`, `content/docs/krm/_index.*.md`), and the Word build file manifests
+  (`krm-en-files.txt` vs `krm-ja-files.txt`, which should list the same chapters per language).
+  When asked to update one of these, grep the repo for other occurrences of the same fact before
+  considering the task done, rather than fixing only the location the user pointed at.
+
+## Collaboration Conventions
+
+- When a task is framed as analysis, audit, or review (e.g. "分析して", "監査して", the user hasn't
+  also said "修正して"/"直して"), default to reporting findings and, if changes are warranted,
+  presenting them as a diff or a numbered list of proposed edits — without touching files or
+  committing — until the user explicitly approves applying them.
