@@ -55,7 +55,7 @@ The comparison of the new and old column names is as follows:
 
 Next, the content of the column names will be explained.
 
-| New Column Name (v1.2.0)   | English Explanation (Final Revised)                                                                                                                                                                                                                                                           |
+| New Column Name (v1.2.0)   | English Explanation                                                                                                                                                                                                                                                           |
 | :------------------------- | :-------------------------------------------------- |
 | wakun_id                   | An ID for each **`Japanese Native Reading (*wakun*)`**. This is derived from `definition_seq_id` by extracting only those elements where the type (from `definition_type_name` in `krm_notes`) is **`Japanese Native Reading (*wakun*)`**. Suffixes 'b', 'c', 'd' are appended for variant forms. |
 | definition_seq_id        | An identifier for each component of the **`Definition (Original Glosses)`** or for the **`Headword`** itself within an **`Entry`**. It is formed by appending a sequential suffix (e.g., "_00" for the **`Headword`** or overall **`Entry`** note, "_01", "_02" for subsequent elements of the **`Definition (Original Glosses)`** in order of appearance) to the 5-digit numeric part of the `entry_id`. (This ID links to records in `krm_notes`). |

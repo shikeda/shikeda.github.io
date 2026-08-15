@@ -95,7 +95,7 @@ This structure can be conceptually represented in the ER diagram as follows:
 Next, the content of the column names will be explained.
 
 
-| New Column Name (v1.2.6) | English Explanation (Further Revised)      |
+| New Column Name (v1.2.6) | English Explanation      |
 | :----------------------- | :------------------------------------------------------------ |
 | entry_id                 | A heading **`Entry`** ID consisting of a 5-digit numeric ID starting with 'F'. For some newly added **`Entries`**, a 'b' suffix is appended.    |
 | definition_seq_id        | An identifier for each component of the **`Definition (Original Glosses)`** or for the **`Headword`** itself within an **`Entry`**. It is formed by appending a sequential suffix (e.g., "_00" for the **`Headword`** or overall **`Entry`** note, "_01", "_02" for subsequent elements of the **`Definition (Original Glosses)`** in order of appearance) to the 5-digit numeric part of the corresponding `entry_id`.                                          |
