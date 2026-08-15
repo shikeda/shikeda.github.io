@@ -18,6 +18,7 @@ content/docs/krm/04-entry-input/04-03-handling.en.md
 content/docs/krm/05-annotation-policy/_index.en.md
 content/docs/krm/05-annotation-policy/05-01-basic-policy.en.md
 content/docs/krm/05-annotation-policy/05-02-headword-count.en.md
+content/docs/krm/05-annotation-policy/05-02b-headword-count-by-fascicle.en.md
 content/docs/krm/05-annotation-policy/05-03-jitaichu-formats.en.md
 content/docs/krm/05-annotation-policy/05-04-onchu-problems.en.md
 content/docs/krm/05-annotation-policy/05-05-gichu-quantity.en.md
