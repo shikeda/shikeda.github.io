@@ -68,7 +68,7 @@ FOOTER_DISTANCE = Mm(12.5)
 
 DOC_TITLE = "KRM Documentation"
 DOC_VERSION = "Version 0.9"
-DOC_DATE = "July 2026"
+DOC_DATE = "August 2026"
 
 
 # ---------------------------------------------------------------------------
