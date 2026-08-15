@@ -76,6 +76,7 @@ fi
 
 processed_files=("$cover_file")
 heading_shift_script="scripts/shift_markdown_headings.py"
+link_rewrite_script="scripts/rewrite_internal_links.py"
 
 for file in "${files[@]}"; do
   if [[ ! -f "$file" ]]; then
@@ -92,6 +93,13 @@ for file in "${files[@]}"; do
     -e 's#](/images/#](images/#g' \
     -e 's#src="/images/#src="images/#g' \
     "$file" > "$tmp_file"
+
+  # Hugoの相対リンク（./foo/, ../foo/）やルート相対リンク（/docs/krm/...,
+  # /en/docs/krm/...）はHugoサイト内でしか解決できないため、Pandocで生成した
+  # Word文書内ではリンク切れになる。該当ページのサイトURLを基準に絶対URL
+  # （https://shikeda.github.io/...）へ変換する。画像パスや外部リンク・
+  # アンカーのみのリンクは対象外（rewrite_internal_links.py内で判定）。
+  python3 "$link_rewrite_script" "$tmp_file" "$file" "$lang"
 
   # Hugoでは章の _index.{en,ja}.md と各子ページ（NN-NN-*.{en,ja}.md）が
   # 別ファイル・別URLであり、hugo-book のサイドバーがディレクトリ構造から
