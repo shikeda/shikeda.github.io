@@ -92,4 +92,4 @@ For details including the version of the released data, author information, and 
 
 We would like to express our gratitude to Tenri Central Library and Yagi Bookstore for granting permission to publish the decipherment text of the Kanchi-in manuscript of the *Ruiju Myogisho*.  
 
-This research is partly supported by JSPS KAKENHI Grant Numbers 16H03422, 19H00526, 23K17500 and 25K00466. We gratefully acknowledge this support.
+This research is partly supported by JSPS KAKENHI Grant Numbers 16H03422, 19H00526, 23K17500, 25K00466 and 26K21717. We gratefully acknowledge this support.
