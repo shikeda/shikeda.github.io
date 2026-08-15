@@ -4,7 +4,7 @@ subtitle: Scholarly and Technical Documentation for the KRM Database
 author:
   - Shōju Ikeda
   - "Professor Emeritus, Hokkaido University"
-date: "Version 0.9 (draft) — publication date to be finalized"
+date: "Version 0.9 (complete draft) — 15 August 2026"
 ---
 
 # Document Information {-}
@@ -18,13 +18,16 @@ Subtitle
 :   Scholarly and Technical Documentation for the KRM Database
 
 Documentation Version
-:   0.9 (draft; Version 1.0 planned on completion of this reorganization)
+:   0.9 (complete draft; Version 1.0 planned on completion of this reorganization)
+
+Draft Completion Date
+:   15 August 2026
 
 Publication Date
 :   *draft — to be finalized at Version 1.0*
 
 Last Updated
-:   *draft — to be finalized at Version 1.0*
+:   15 August 2026
 
 Author
 :   Shōju Ikeda
@@ -77,4 +80,4 @@ Software License
 
 | Version | Date | Changes |
 | --- | --- | --- |
-| 0.9 | draft | Front-matter reorganization in progress: separated Documentation and Dataset identity, DOI, and licenses. |
+| 0.9 | 2026-08-15 | Complete English draft, following documentation reorganization and structural review (Core Documentation labeling, navigation fixes, page splits, case-study bilingual pages). |

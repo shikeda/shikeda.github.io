@@ -22,9 +22,10 @@ weight: 1
 This documentation is intended for readers working with the KRM data directly — researchers in Japanese historical linguistics, lexicography, and digital humanities — as well as readers who want to understand how the KRM Database was built and is maintained.
 
 - **Author:** Shōju Ikeda, Professor Emeritus, Hokkaido University
-- **Documentation Version:** 0.9 (draft; Version 1.0 planned on completion of this reorganization)
+- **Documentation Version:** 0.9 (complete draft; Version 1.0 planned on completion of this reorganization)
+- **Draft Completion Date:** 15 August 2026
 - **Publication Date:** *draft — to be finalized at Version 1.0*
-- **Last Updated:** *draft — to be finalized at Version 1.0*
+- **Last Updated:** 15 August 2026
 - **Project Website:** [https://shikeda.github.io/](https://shikeda.github.io/)
 - **Documentation Website:** [https://shikeda.github.io/docs/krm/](https://shikeda.github.io/docs/krm/)
 - **Documentation License:** [CC BY-SA 4.0](https://github.com/shikeda/krm/blob/main/LICENSE)
