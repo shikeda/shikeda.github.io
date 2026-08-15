@@ -602,6 +602,8 @@ General rules:
 - commented-out metadata should be minimized unless there is a reason to preserve it.
 - page title, H1, and navigation label should not contradict each other.
 
+Author and publication-date metadata may be retained for pages that originated as independently published articles, research notes, or case studies. They are not required for Core Reference pages or section index pages.
+
 Language-specific metadata and filename policy belong to `I18N_POLICY.md`.
 
 ---

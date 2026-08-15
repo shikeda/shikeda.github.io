@@ -4,7 +4,7 @@ subtitle: 類聚名義抄観智院本データベース(KRM)のための学術�
 author:
   - 池田証壽
   - "北海道大学名誉教授"
-date: "Version 0.9（草稿）— 公開日未定"
+date: "Version 0.9（完全なドラフト）— 2026年8月15日"
 ---
 
 # 文書情報 {-}
@@ -18,13 +18,16 @@ date: "Version 0.9（草稿）— 公開日未定"
 :   類聚名義抄観智院本データベース(KRM)のための学術・技術文書
 
 Documentation Version
-:   0.9（草稿。本再構成の完了後にVersion 1.0を予定）
+:   0.9（完全なドラフト。本再構成の完了後にVersion 1.0を予定）
+
+ドラフト完成日
+:   2026年8月15日
 
 公開日
-:   *草稿 — Version 1.0で確定*
+:   *ドラフト — Version 1.0の時点で確定*
 
 最終更新日
-:   *草稿 — Version 1.0で確定*
+:   2026年8月15日
 
 著者
 :   池田証壽
@@ -45,7 +48,7 @@ Documentation License
 :   CC BY-SA 4.0
 
 推奨引用形式（Documentation）
-:   *(草稿 — Version 1.0で確定)* Ikeda, Shōju. *KRM Documentation*. Version 0.9. <https://shikeda.github.io/docs/krm/>.
+:   *(ドラフト — Version 1.0の時点で確定)* Ikeda, Shōju. *KRM Documentation*. Version 0.9. <https://shikeda.github.io/docs/krm/>.
 
 Relationship
 :   KRM DocumentationはKRM Databaseの文書である。KRM DatabaseはGitHubおよびZenodoで公開されている。
@@ -77,4 +80,4 @@ Software License
 
 | バージョン | 日付 | 変更内容 |
 | --- | --- | --- |
-| 0.9 | draft | 冒頭部分の再構成を実施中：DocumentationとDatasetのアイデンティティ、DOI、ライセンスを分離。 |
+| 0.9 | 2026-08-15 | 完全な日本語ドラフト。文書の再編と構造見直しを経たもの（Core Documentationのラベル付け、ナビゲーション修正、ページ分割、事例研究のバイリンガルページ化）。 |

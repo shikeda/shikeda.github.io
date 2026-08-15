@@ -18,6 +18,7 @@ content/docs/krm/04-entry-input/04-03-handling.ja.md
 content/docs/krm/05-annotation-policy/_index.ja.md
 content/docs/krm/05-annotation-policy/05-01-basic-policy.ja.md
 content/docs/krm/05-annotation-policy/05-02-headword-count.ja.md
+content/docs/krm/05-annotation-policy/05-02b-headword-count-by-fascicle.ja.md
 content/docs/krm/05-annotation-policy/05-03-jitaichu-formats.ja.md
 content/docs/krm/05-annotation-policy/05-04-onchu-problems.ja.md
 content/docs/krm/05-annotation-policy/05-05-gichu-quantity.ja.md
@@ -29,3 +30,4 @@ content/docs/krm/06-typesetting/06-02-glyphwiki.ja.md
 content/docs/krm/06-typesetting/06-03-sfkanbun-sty.ja.md
 content/docs/krm/06-typesetting/06-04-vscode-texlive.ja.md
 content/docs/krm/06-typesetting/06-05-online-tools.ja.md
+content/docs/krm/09-development-history/_index.ja.md
