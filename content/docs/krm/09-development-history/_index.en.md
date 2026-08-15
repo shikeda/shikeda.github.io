@@ -40,3 +40,7 @@ The text data created by the Integrated Database of Hanzi Dictionaries in Early 
 The KRM data specifically underwent a specification change in March 2025, and its current full-text database is published separately at [https://github.com/shikeda/krm](https://github.com/shikeda/krm) (see [Resource Documented](/en/docs/krm/#resource-documented) for the current version and citation).
 
 Please note that the above URLs are subject to change in the future. Maintaining and managing the constructed data is a significant challenge.
+
+## Development of the KRM Documentation
+
+The repository history begins with a commit dated 6 January 2022. The documentation repository began that January as a collection of KRM notes and explanatory pages. During 2022–2025, it gradually accumulated descriptions of the manuscript, data structure, input procedures, annotation methods, progress records, and research case studies. In 2026, the repository was expanded to support automated site deployment and external data integration. From July 2026, the accumulated materials were reorganized explicitly as the KRM Documentation Project, with the introduction of a Project Charter, Documentation Blueprint, Roadmap, editorial conventions, style guides, and review procedures. This reorganization led to the first complete English draft, Version 0.9, on 15 August 2026.
