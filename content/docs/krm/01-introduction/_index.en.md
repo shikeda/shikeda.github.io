@@ -153,7 +153,7 @@ Although only the *Hōbu-jō* (Upper Dharma) section of the original compilation
 ### Original Compilation
 
 **Zushoryō Manuscript**  
-Formerly held in the collection of the Shimizudani Kimiyasu family and currently preserved by the Archives and Mausolea Department of the Imperial Household Agency (*Kunai-chō Shoryōbu*), this manuscript was first published in 1950 as a facsimile edition titled *Zushoryōbon Ruiju Myōgishō*, retaining its original Japanese-style binding. The edition includes an introductory essay by Hashimoto Fumio and is available for viewing via the National Diet Library Digital Collections.
+Formerly held in the collection of the Shimizudani Kimiyasu family and currently preserved by the Archives and Mausolea Department of the Imperial Household Agency (*Kunai-chō Shoryōbu*), this manuscript was first published in 1950 as a facsimile edition titled *Zushoryōbon Ruiju Myōgishō*, retaining its original Japanese-style binding. The edition includes an introductory essay by Hashimoto Fumio and is available for viewing via the [National Diet Library Digital Collections](https://dl.ndl.go.jp/info:ndljp/pid/2458012).
 
 A Western-style bound edition was reissued in 1969, followed by a revised edition in 1976 featuring a complete set of indices—for sources, *kana* glosses, and Chinese characters—accompanied by commentary by Tsukishima Hiroshi, a *kana* index by Miyazawa Toshimasa, and a kanji index by Sakai Kenji.
 
@@ -167,7 +167,7 @@ On March 26, 2025, a color version of the manuscript was made publicly available
 Originally housed at Tō-ji’s Kanchi-in, this complete manuscript—consisting of one volume of section headings and ten volumes of main text—is now preserved at the Tenri Central Library. According to colophons, it was copied by Jinen in 1241 (Ninji 2) and later recopied by Kenkei in 1251 (Kenchō 3).  
 Several facsimile and reproduction editions exist. The commonly cited versions are listed below, followed by brief descriptions:
 
-  - **Kichōtosho Edition (1937):** A collotype facsimile edition in its original format, published by the Kichōtosho Fukuseikai, with commentary by Yamada Yoshio. Available via the National Diet Library Digital Collections.
+  - **Kichōtosho Edition (1937):** A collotype facsimile edition in its original format, published by the Kichōtosho Fukuseikai, with commentary by Yamada Yoshio. Available via the [National Diet Library Digital Collections](https://dl.ndl.go.jp/info:ndljp/pid/2609857?tocOpened=1).
 
   - **Koten Zenshū Edition (1938–1940):** Reproduced using letterpress printing by the Nihon Koten Zenshū Kankōkai, including kana and kanji indexes edited by Masamune Atsuo.
 
@@ -187,8 +187,8 @@ Formerly held at Kōsan-ji and now preserved at the Tenri Central Library via th
 It consists of two fragmentary volumes corresponding to *Butsu-jō* and *Butsu-chū* of the Kanchi-in Manuscript. The first folio lists section headings under the title *Sanbō Ruiji-shū Kan-jō*, and the main text begins with *Butsuhō Ruiji-shū Kan-jō I / Section 1: Jin*. This corresponds to the entry in the *Kōsan-ji Shōgyō Mokuroku* (Kenchō Inventory), which records *Sanpō Ruiji-shū* as a six-volume work. In 2016, a high-resolution color facsimile was published as Vol. 8 of the *Shin Tenri Toshokan Zenpon Sōsho*, with commentary by Yamamoto Hideto.
 
 **Sainen-ji Manuscript**  
-A one-volume fragment transcribed in 1767 (Meiwa 4), based on the Eissatsu Manuscript, preserving portions of *Butsu-jō* and *Butsu-chū*. Now held by both the Tenri Central Library and Kansai University. Although no printed facsimile exists, images of the Kansai University copy are publicly available.  
-A version preserved by the Archives and Mausolea Department of the Imperial Household Agency is also accessible and more closely resembles the Tenri copy than the Kansai University one. While the Tenri copy has often been used in prior scholarship, the lack of a published facsimile once required researchers to visit the library to obtain photographic reproductions. The Shoryōbu copy now allows readers to access the same textual content as the Tenri Sainen-ji Manuscript.
+A one-volume fragment transcribed in 1767 (Meiwa 4), based on the Eissatsu Manuscript, preserving portions of *Butsu-jō* and *Butsu-chū*. Now held by both the Tenri Central Library and Kansai University. Although no printed facsimile exists, [images of the Kansai University copy](https://kotenseki.nijl.ac.jp/biblio/100302544/viewer/1) are publicly available.  
+[A version preserved by the Archives and Mausolea Department of the Imperial Household Agency](https://kokusho.nijl.ac.jp/biblio/100256105/4?ln=ja) is also accessible and more closely resembles the Tenri copy than the Kansai University one. While the Tenri copy has often been used in prior scholarship, the lack of a published facsimile once required researchers to visit the library to obtain photographic reproductions. The Shoryōbu copy now allows readers to access the same textual content as the Tenri Sainen-ji Manuscript.
 
 **Hōbodai-in Manuscript**  
 A one-volume fragment covering the “Ship” (舟) through “Dog” (犬) sections of *Butsu-ge* in the Kanchi-in Manuscript, likely copied in the late Kamakura period.  
@@ -204,11 +204,11 @@ A facsimile edition was published in 2002 by Taishō University Press, with comm
 
 **Wakun (Japanese Reading) Indexes**
 
-  - Masamune Atsuo (ed.), *Ruiju Myōgishō: Kana Index*, Nihon Koten Zenshū Kankōkai, 1939–1940. Available via the National Diet Library Digital Collections.
+  - Masamune Atsuo (ed.), *Ruiju Myōgishō: Kana Index*, Nihon Koten Zenshū Kankōkai, 1939–1940. Available via the [National Diet Library Digital Collections](https://dl.ndl.go.jp/info:ndljp/pid/1212353).
 
   - Masamune Atsuo (ed.), *Ruiju Myōgishō, Vol. 2: Kanji Index & Kana Index*, Kazama Shobō, 1955.
 
-  - Mochizuki Ikuko (ed.), *Ruiju Myōgishō: Compilation of Japanese Readings with Four Types of Accent Marks* (*Kasama Index Series*, No. 44), Kasama Shoin, 1974. Available via the National Institute of Japanese Literature Academic Repository.
+  - Mochizuki Ikuko (ed.), *Ruiju Myōgishō: Compilation of Japanese Readings with Four Types of Accent Marks* (*Kasama Index Series*, No. 44), Kasama Shoin, 1974. Available via the [National Institute of Japanese Literature Academic Repository](https://kokubunken.repo.nii.ac.jp/index.php?action=pages_view_main&active_action=repository_view_main_item_snippet&index_id=187&pn=1&count=20&order=17&lang=japanese&page_id=13&block_id=21).
 
   - Kusakawa Noboru (ed.), *Collected Japanese Readings from Five Editions of Ruiju Myōgishō*, Kyūko Shoin, 2000.
 
