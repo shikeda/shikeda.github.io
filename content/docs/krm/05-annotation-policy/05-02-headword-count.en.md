@@ -11,7 +11,7 @@ weight: 18
 
 # Calculation of Headword Character Count
 
-This page is detailed reference data supporting the policy set out in [Basic Principles and Analytical Focus for Annotation Creation](./05-01-basic-policy/). For definitions of the character-form terms used below (Miswritten Characters, Omitted Characters, Superfluous Characters, etc.), see [Handling Issues in Transcription, Notation, and Annotation](/en/docs/krm/04-entry-input/04-03-handling/).
+This page is detailed reference data supporting the policy set out in [Basic Principles and Analytical Focus for Annotation Creation](../05-01-basic-policy/). For definitions of the character-form terms used below (Miswritten Characters, Omitted Characters, Superfluous Characters, etc.), see [Handling Issues in Transcription, Notation, and Annotation](/en/docs/krm/04-entry-input/04-03-handling/).
 
 This section will explain issues such as **`Miswritten Characters`** (誤字, *goji*), **`Omitted Characters`** (脱字, *datsuji*), **`Superfluous Characters`** (衍字, *enji*), interpolations (補入, *honyū*), **`Embedded Items`** (埋字, *umeji*; referring to entries incorporated within another entry), **`Substitution Marks`** (代用符号, *daiyō fugō*), and **`Iteration Marks`** (踊り字, *odoriji*). Following this discussion, it will proceed to calculate the *keishutsuji-sū* (掲出字数). The *keishutsuji-sū* refers to the total number of characters that constitute all **`Headwords`**.
 

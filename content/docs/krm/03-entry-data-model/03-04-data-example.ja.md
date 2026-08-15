@@ -19,7 +19,7 @@ weight: 7
 ここでは項目データファイルの基本データとなる`krm_main` を例にその内容を解説する。
 
 
-[項目データ構造](./03-01-data-structure/)において
+[項目データ構造](../03-01-data-structure/)において
 具体例として示した、「加復」と「ー之」、「助」とその異体字、「功」の三つの 項目を例にしてみよう。
 
 TSV形式のファイルを次に示す。
@@ -126,7 +126,7 @@ No  entry_id	hanzi_id	kazama_location	tenri_location	volume_name	radical_name	vo
 
 名義抄の項目のデータはkrm_main.tsvおよびkrm_main.jsonに格納される。これが基本データとなる。
 
-カラム名とその内容説明の詳細は、[公開データの概要](../02-data-overview/)を参照されたい。
+カラム名とその内容説明の詳細は、[公開データの概要](../../02-data-overview/)を参照されたい。
 
 ## GitHub を利用した公開・更新
 

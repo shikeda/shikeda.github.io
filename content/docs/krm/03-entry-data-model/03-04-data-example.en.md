@@ -19,7 +19,7 @@ A list of the publicly available data files is provided in the [Overview of Publ
 Here, we will explain the content of `krm_main`, which is the core **`Entry Data File`**, using it as an example.
 
 
-Let's consider as examples the three **`Entries`** that were presented as specific illustrations in the [**`Entry Data Structure`**](./03-01-data-structure/) section: '加復', 'ー之', '助' (along with its **`variant characters` (*itaiji*)**), and '功'.
+Let's consider as examples the three **`Entries`** that were presented as specific illustrations in the [**`Entry Data Structure`**](../03-01-data-structure/) section: '加復', 'ー之', '助' (along with its **`variant characters` (*itaiji*)**), and '功'.
 
 The data in TSV format is shown below. A "No." column has been added on the far left for explanatory purposes.
 
