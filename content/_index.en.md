@@ -9,7 +9,7 @@ type: docs
 
 The "H" in HDIC is a combination of the "H" from Heian (平安時代), the "H" from Hanzi (漢字), and the "H" from Hokkaido University (北海道大学), the representative's affiliated institution.
 
-The project to construct and publish the HDIC database is called the HDIC Project. This HDIC Project is being carried out with support from a Grant-in-Aid for Scientific Research from the Japan Society for the Promotion of Science. The grant numbers are 16H03422, 19H00526, and 23K17500.
+The project to construct and publish the HDIC database is called the HDIC Project. This HDIC Project is being carried out with support from a Grant-in-Aid for Scientific Research from the Japan Society for the Promotion of Science. The grant numbers are 16H03422, 19H00526, 23K17500, 25K00466 and 26K21717.
 
 At the inception of the HDIC Project, the 'Steering Committee for Integrated Database of Hanzi Dictionaries in Early Japan' was established on February 13, 2014, to serve as the project's core entity. The representative was Shōju Ikeda (then a professor in the Graduate School of Humanities and Human Sciences at Hokkaido University).
 
