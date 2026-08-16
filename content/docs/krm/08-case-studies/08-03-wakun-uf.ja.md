@@ -1,6 +1,6 @@
 ---
 title: "和訓の使用頻度"
-weight: 53
+weight: 52
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

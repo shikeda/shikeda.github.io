@@ -1,6 +1,6 @@
 ---
 title: "和訓「ウゴク」の調査"
-weight: 51
+weight: 54
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

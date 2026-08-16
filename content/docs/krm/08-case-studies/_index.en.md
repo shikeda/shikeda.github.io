@@ -16,15 +16,17 @@ This chapter is Examples and Applications, presented primarily in Japanese. This
 
 *Wakun* is a valuable resource for the vocabulary and phonological history of Japanese, and phonetic notations such as *fanqie* (反切), similar sound glosses (類音注), *kana* glosses (仮名注), and *shōten* (声点) are important resources for the history of Japanese *kanji* readings, with a significant body of research accumulated to date. It is our hope that this research will contribute to providing new analytical perspectives.
 
-The following topics will be addressed as case studies. We plan to add content sequentially.
+The following topics will be addressed as case studies. We plan to add content sequentially. The
+pages below present an abstract only; the full account for each, including detailed evidence, is
+available in the Japanese version linked from each page.
 
 **Note on Terminology:**
 
 * I have kept the Japanese terms *wakun* and *kanji* as they are, as they are commonly used in academic contexts related to Japanese linguistics. I have also provided brief explanations in parentheses.
 * For the phonetic notations, I have provided the Japanese terms along with their English equivalents where applicable, for clarity.
 
-1. [Investigating Wakun "Ugoku"](/en/docs/krm/08-case-studies/08-01-ugoku/)　
-2. [Investigating Wakun "Miru"](/en/docs/krm/08-case-studies/08-02-miru/)　
-3. [Wakun Usage Frequency](/en/docs/krm/08-case-studies/08-03-wakun-uf/)　
-4. [Homograph Distinction](/en/docs/krm/08-case-studies/08-04-kana-split/)　
-5. [DHSJR Collaboration](/en/docs/krm/08-case-studies/08-05-dhsjr/)
+1. [DHSJR Collaboration](/en/docs/krm/08-case-studies/08-05-dhsjr/)
+2. [Wakun Usage Frequency](/en/docs/krm/08-case-studies/08-03-wakun-uf/)
+3. [Homograph Distinction](/en/docs/krm/08-case-studies/08-04-kana-split/)
+4. [Investigating Wakun "Ugoku"](/en/docs/krm/08-case-studies/08-01-ugoku/)
+5. [Investigating Wakun "Miru"](/en/docs/krm/08-case-studies/08-02-miru/)

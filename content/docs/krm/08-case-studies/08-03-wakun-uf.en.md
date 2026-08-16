@@ -1,6 +1,6 @@
 ---
 title: "Wakun Usage Frequency"
-weight: 53
+weight: 52
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

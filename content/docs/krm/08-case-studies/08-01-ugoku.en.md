@@ -1,6 +1,6 @@
 ---
 title: 'Investigating Wakun "Ugoku"'
-weight: 51
+weight: 54
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

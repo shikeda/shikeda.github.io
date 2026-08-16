@@ -20,8 +20,8 @@ bookCollapseSection: true
 事例研究として次のトピックを取り上げる。順次、内容を追加してゆく予定である。
 
 
-1. [和訓「ウゴク」の調査](/docs/krm/08-case-studies/08-01-ugoku/)　
-2. [和訓「ミル」の調査](/docs/krm/08-case-studies/08-02-miru/)　
-3. [和訓の使用頻度](/docs/krm/08-case-studies/08-03-wakun-uf/)　
-4. [同仮名異語の区別](/docs/krm/08-case-studies/08-04-kana-split/)　
-5. [DHSJRとの連携](/docs/krm/08-case-studies/08-05-dhsjr/)
+1. [DHSJRとの連携](/docs/krm/08-case-studies/08-05-dhsjr/)
+2. [和訓の使用頻度](/docs/krm/08-case-studies/08-03-wakun-uf/)
+3. [同仮名異語の区別](/docs/krm/08-case-studies/08-04-kana-split/)
+4. [和訓「ウゴク」の調査](/docs/krm/08-case-studies/08-01-ugoku/)
+5. [和訓「ミル」の調査](/docs/krm/08-case-studies/08-02-miru/)

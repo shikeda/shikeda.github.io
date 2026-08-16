@@ -1,6 +1,6 @@
 ---
 title: "同仮名異語の区別"
-weight: 54
+weight: 53
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false
