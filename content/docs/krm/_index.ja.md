@@ -23,9 +23,9 @@ weight: 1
 
 - **著者：** 池田証寿、北海道大学名誉教授
 - **文書バージョン：** 0.9（完全なドラフト。今回の再編の完了をもってVersion 1.0とする予定）
-- **ドラフト完成日：** 2026年8月15日
+- **ドラフト完成日：** 2026年8月16日
 - **公開日：** *ドラフト — Version 1.0の時点で確定*
-- **最終更新日：** 2026年8月15日
+- **最終更新日：** 2026年8月16日
 - **プロジェクトサイト：** [https://shikeda.github.io/](https://shikeda.github.io/)
 - **文書サイト：** [https://shikeda.github.io/docs/krm/](https://shikeda.github.io/docs/krm/)
 - **文書のライセンス：** [CC BY-SA 4.0](https://github.com/shikeda/krm/blob/main/LICENSE)

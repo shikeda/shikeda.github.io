@@ -1,7 +1,7 @@
 title: KRM Documentation
 subtitle: Scholarly and Technical Documentation for the KRM Database
 author: Shōju Ikeda
-date: "15 August 2026"
+date: "16 August 2026"
 version: "Version 0.9 (complete draft)"
 # Only `title` is actually read by scripts/build-krm-docx.sh (as a -M
 # override, since --file-scope would otherwise let the last chapter

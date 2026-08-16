@@ -1,7 +1,7 @@
 title: KRM Documentation
 subtitle: 観智院本類聚名義抄データベース(KRM)のための学術的・技術的文書
 author: 池田証壽
-date: "15 August 2026"
+date: "16 August 2026"
 version: "Version 0.9 (complete draft)"
 # title のみが scripts/build-krm-docx.sh から実際に読み込まれる（-M による上書き。
 # --file-scope では各章ファイル自身の title: が勝ってしまうため）。他のフィールドは

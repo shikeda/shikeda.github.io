@@ -23,9 +23,9 @@ This documentation is intended for readers working with the KRM data directly �
 
 - **Author:** Shōju Ikeda, Professor Emeritus, Hokkaido University
 - **Documentation Version:** 0.9 (complete draft; Version 1.0 planned on completion of this reorganization)
-- **Draft Completion Date:** 15 August 2026
+- **Draft Completion Date:** 16 August 2026
 - **Publication Date:** *draft — to be finalized at Version 1.0*
-- **Last Updated:** 15 August 2026
+- **Last Updated:** 16 August 2026
 - **Project Website:** [https://shikeda.github.io/](https://shikeda.github.io/)
 - **Documentation Website:** [https://shikeda.github.io/docs/krm/](https://shikeda.github.io/docs/krm/)
 - **Documentation License:** [CC BY-SA 4.0](https://github.com/shikeda/krm/blob/main/LICENSE)
