@@ -24,7 +24,13 @@ Documentation Version
 :   2026年8月16日
 
 公開日
-:   *ドラフト — Version 1.0の時点で確定*
+:   2026年8月16日
+
+文書のDOI
+:   [10.5281/zenodo.21962578](https://doi.org/10.5281/zenodo.21962578)
+
+ステータス
+:   外部レビュー向けに整備した完全なドラフト
 
 最終更新日
 :   2026年8月16日
@@ -47,11 +53,8 @@ Documentation Website
 Documentation License
 :   CC BY-SA 4.0
 
-文書のDOI
-:   [10.5281/zenodo.21962578](https://doi.org/10.5281/zenodo.21962578)
-
 推奨引用形式（Documentation）
-:   *(ドラフト — Version 1.0の時点で確定)* Ikeda, Shōju. (2026). *KRM Documentation*. Version 0.9. Zenodo. <https://doi.org/10.5281/zenodo.21962578>.
+:   Ikeda, Shōju. (2026). *KRM Documentation*. Version 0.9. Zenodo. <https://doi.org/10.5281/zenodo.21962578>.
 
 Relationship
 :   KRM DocumentationはKRM Databaseの文書である。KRM DatabaseはGitHubおよびZenodoで公開されている。

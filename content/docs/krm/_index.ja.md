@@ -24,13 +24,14 @@ weight: 1
 - **著者：** 池田証寿、北海道大学名誉教授
 - **文書バージョン：** 0.9（完全なドラフト。今回の再編の完了をもってVersion 1.0とする予定）
 - **ドラフト完成日：** 2026年8月16日
-- **公開日：** *ドラフト — Version 1.0の時点で確定*
+- **公開日：** 2026年8月16日
+- **文書のDOI：** [10.5281/zenodo.21962578](https://doi.org/10.5281/zenodo.21962578)
+- **ステータス：** 外部レビュー向けに整備した完全なドラフト
 - **最終更新日：** 2026年8月16日
 - **プロジェクトサイト：** [https://shikeda.github.io/](https://shikeda.github.io/)
 - **文書サイト：** [https://shikeda.github.io/docs/krm/](https://shikeda.github.io/docs/krm/)
 - **文書のライセンス：** [CC BY-SA 4.0](https://github.com/shikeda/krm/blob/main/LICENSE)
-- **文書のDOI：** [10.5281/zenodo.21962578](https://doi.org/10.5281/zenodo.21962578)
-- **推奨引用形式：** *（ドラフト — Version 1.0の時点で確定）* Ikeda, Shōju. (2026). *KRM Documentation*. Version 0.9. Zenodo. [https://doi.org/10.5281/zenodo.21962578](https://doi.org/10.5281/zenodo.21962578).
+- **推奨引用形式：** Ikeda, Shōju. (2026). *KRM Documentation*. Version 0.9. Zenodo. [https://doi.org/10.5281/zenodo.21962578](https://doi.org/10.5281/zenodo.21962578).
 - **関係：** KRM DocumentationはKRMデータベースを記述する文書である。KRMデータベースはGitHubおよびZenodoを通じて配布されている（後述の[対象データベースについて](#対象データベースについて)を参照）。
 
 なお、ここでの解説は、 池田証壽・劉冠偉・鄭門鎬・張馨方・李媛「観智院本『類聚名義抄』全文テキストデータベース―その構築方法と掲出項目数等の計量―」(『訓点語と訓点資料』144、2020)に述べたところと重複するところがあるが、筆頭著者の池田が、全面的な見直しをはかり、用語を整理し、その後の調査内容を大幅に追加して新たにまとめ直したものである。
