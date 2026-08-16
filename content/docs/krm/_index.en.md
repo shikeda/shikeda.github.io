@@ -25,7 +25,7 @@ This documentation is intended for readers working with the KRM data directly â€
 - **Documentation Version:** 0.9 (complete draft; Version 1.0 planned on completion of this reorganization)
 - **Draft Completion Date:** 16 August 2026
 - **Publication Date:** 16 August 2026
-- **Documentation DOI:** [10.5281/zenodo.21962578](https://doi.org/10.5281/zenodo.21962578)
+- **Documentation DOI:** [10.5281/zenodo.21962578](https://doi.org/10.5281/zenodo.21962578) [![DOI](/images/zenodo.21962578.svg)](https://doi.org/10.5281/zenodo.21962578)
 - **Status:** Complete draft prepared for external review
 - **Last Updated:** 16 August 2026
 - **Project Website:** [https://shikeda.github.io/](https://shikeda.github.io/)
