@@ -31,7 +31,7 @@ This documentation is intended for readers working with the KRM data directly �
 - **Project Website:** [https://shikeda.github.io/](https://shikeda.github.io/)
 - **Documentation Website:** [https://shikeda.github.io/docs/krm/](https://shikeda.github.io/docs/krm/)
 - **Documentation License:** [CC BY-SA 4.0](https://github.com/shikeda/krm/blob/main/LICENSE)
-- **Suggested Citation:** Ikeda, Shōju. (2026). *KRM Documentation*. Version 0.9. Zenodo. [https://doi.org/10.5281/zenodo.21962578](https://doi.org/10.5281/zenodo.21962578).
+- **Suggested Citation:** Ikeda, Shōju. (2026). *KRM Documentation: Scholarly and Technical Documentation for the KRM Database*. Version 0.9. Zenodo. [https://doi.org/10.5281/zenodo.21962578](https://doi.org/10.5281/zenodo.21962578).
 - **Relationship:** KRM Documentation documents the KRM Database, which is distributed through GitHub and Zenodo (see [Resource Documented](#resource-documented) below).
 
 Note that while the explanation in this documentation overlaps in part with what is stated in the paper by Shōju Ikeda, Liu Guanwei, Jung Munho, Zhang Xinfang, and Li Yuan, “Full-text Database of *Ruiju Myōgishō*, Kanchi-in MS : A Look at Development Methods and Calculating the Number of Headwords." (*Kuntengo to Kuten Shiryō* 144, 2020), it has been completely overhauled and rewritten by the first author, Ikeda, who organized the terminology and substantially added subsequent research findings.

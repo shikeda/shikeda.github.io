@@ -54,7 +54,7 @@ Documentation License
 :   CC BY-SA 4.0
 
 Suggested Citation (Documentation)
-:   Ikeda, Shōju. (2026). *KRM Documentation*. Version 0.9. Zenodo. <https://doi.org/10.5281/zenodo.21962578>.
+:   Ikeda, Shōju. (2026). *KRM Documentation: Scholarly and Technical Documentation for the KRM Database*. Version 0.9. Zenodo. <https://doi.org/10.5281/zenodo.21962578>.
 
 Relationship
 :   KRM Documentation documents the KRM Database. The KRM Database is distributed through GitHub and Zenodo.

@@ -31,7 +31,7 @@ weight: 1
 - **プロジェクトサイト：** [https://shikeda.github.io/](https://shikeda.github.io/)
 - **文書サイト：** [https://shikeda.github.io/docs/krm/](https://shikeda.github.io/docs/krm/)
 - **文書のライセンス：** [CC BY-SA 4.0](https://github.com/shikeda/krm/blob/main/LICENSE)
-- **推奨引用形式：** Ikeda, Shōju. (2026). *KRM Documentation*. Version 0.9. Zenodo. [https://doi.org/10.5281/zenodo.21962578](https://doi.org/10.5281/zenodo.21962578).
+- **推奨引用形式：** Ikeda, Shōju. (2026). *KRM Documentation: Scholarly and Technical Documentation for the KRM Database*. Version 0.9. Zenodo. [https://doi.org/10.5281/zenodo.21962578](https://doi.org/10.5281/zenodo.21962578).
 - **関係：** KRM DocumentationはKRMデータベースを記述する文書である。KRMデータベースはGitHubおよびZenodoを通じて配布されている（後述の[対象データベースについて](#対象データベースについて)を参照）。
 
 なお、ここでの解説は、 池田証壽・劉冠偉・鄭門鎬・張馨方・李媛「観智院本『類聚名義抄』全文テキストデータベース―その構築方法と掲出項目数等の計量―」(『訓点語と訓点資料』144、2020)に述べたところと重複するところがあるが、筆頭著者の池田が、全面的な見直しをはかり、用語を整理し、その後の調査内容を大幅に追加して新たにまとめ直したものである。
