@@ -78,7 +78,7 @@ This documentation is organized into the following chapters:
 5. **[Basic Policy for Annotation Creation](./05-annotation-policy/)** — annotation policy and methodology, with worked examples.
 6. **[Typesetting Configuration](./06-typesetting/)** — the typesetting environment for transcriptions and annotations.
 7. **[Project Progress](/docs/krm/07-progress/)** — development records (Japanese only).
-8. **[Case Studies](/en/docs/krm/08-case-studies/)** — applied research examples (Japanese only).
+8. **[Case Studies](/en/docs/krm/08-case-studies/)** — applied research examples (English: abstracts only; the full account is in Japanese).
 9. **[Development History](./09-development-history/)** — how the KRM Database was constructed.
 
 Use the navigation sidebar to move between chapters and pages.
