@@ -31,9 +31,9 @@ content/docs/krm/06-typesetting/06-03-sfkanbun-sty.ja.md
 content/docs/krm/06-typesetting/06-04-vscode-texlive.ja.md
 content/docs/krm/06-typesetting/06-05-online-tools.ja.md
 content/docs/krm/08-case-studies/_index.ja.md
-content/docs/krm/08-case-studies/08-01-ugoku.ja.md
-content/docs/krm/08-case-studies/08-02-miru.ja.md
+content/docs/krm/08-case-studies/08-05-dhsjr.ja.md
 content/docs/krm/08-case-studies/08-03-wakun-uf.ja.md
 content/docs/krm/08-case-studies/08-04-kana-split.ja.md
-content/docs/krm/08-case-studies/08-05-dhsjr.ja.md
+content/docs/krm/08-case-studies/08-01-ugoku.ja.md
+content/docs/krm/08-case-studies/08-02-miru.ja.md
 content/docs/krm/09-development-history/_index.ja.md
