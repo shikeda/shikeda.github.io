@@ -1,6 +1,6 @@
 ---
 title: KRM Documentation
-subtitle: 観智院本類聚名義抄データベース(KRM)のための学術・技術文書
+subtitle: 観智院本類聚名義抄データベース(KRM)のための学術的・技術的文書
 author:
   - 池田証壽
   - "北海道大学名誉教授"
@@ -15,7 +15,7 @@ date: "Version 0.9（完全なドラフト）— 2026年8月15日"
 :   KRM Documentation
 
 副題
-:   観智院本類聚名義抄データベース(KRM)のための学術・技術文書
+:   観智院本類聚名義抄データベース(KRM)のための学術的・技術的文書
 
 Documentation Version
 :   0.9（完全なドラフト。本再構成の完了後にVersion 1.0を予定）
