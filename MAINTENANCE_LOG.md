@@ -5,6 +5,38 @@ per `MAINTENANCE_CONVENTIONS.md` §11. Newest entries first. Scholarly content,
 bibliography, examples, identifiers, and specifications are out of scope for
 these entries (see `PROJECT_CHARTER.md` preservation policy).
 
+> **On every 07-progress statistics refresh, also update the figures in
+> `07-progress/_index.en.md`** (the English summary). It is the only English page
+> in this section and is kept in sync by hand.
+
+---
+
+## 2026-09-02 — 07-progress: add English summary page
+
+Issue or item: `content/docs/krm/07-progress/` was Japanese-only; English readers
+hit a dead end at this section.
+
+File or path: `content/docs/krm/07-progress/_index.en.md` (new);
+`content/docs/krm/_index.en.md` and `_index.ja.md` (chapter-list wording).
+
+Classification: Records section — English summary added under I18N_POLICY §5
+("Records and progress pages: language-specific allowed"); the detailed
+per-fascicle tables remain Japanese-only.
+
+Changes:
+- New `_index.en.md`: prose summary of the current entry/gloss counts and the
+  *wakun* → *Nihon Kokugo Daijiten* linkage progress, citing data versions, with
+  a link to the Japanese detail pages. No per-fascicle tables.
+- Main chapter list: item 7 now points to `/en/docs/krm/07-progress/` and states
+  the English/Japanese coverage split; JA wording adjusted to match.
+
+Verification: `hugo --minify` build clean; `/en/docs/krm/07-progress/` now builds.
+
+Workflow status: applied to working tree, pending user review / commit.
+
+Unresolved notes: the summary figures must be refreshed whenever the JA tables
+are (note added at the top of this file).
+
 ---
 
 ## 2026-09-02 — 07-progress/02-04-wakun.md: statistics refresh (wakun)

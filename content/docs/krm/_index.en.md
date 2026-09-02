@@ -79,7 +79,7 @@ This documentation is organized into the following chapters:
 4. **[Input of Entry Data](./04-entry-input/)** — headwords, IDs, character encoding, and transcription conventions.
 5. **[Basic Policy for Annotation Creation](./05-annotation-policy/)** — annotation policy and methodology, with worked examples.
 6. **[Typesetting Configuration](./06-typesetting/)** — the typesetting environment for transcriptions and annotations.
-7. **[Project Progress](/docs/krm/07-progress/)** — development records (Japanese only).
+7. **[Project Progress](/en/docs/krm/07-progress/)** — development records (English: summary of current figures only; the detailed per-fascicle tables are in Japanese).
 8. **[Case Studies](/en/docs/krm/08-case-studies/)** — applied research examples (English: abstracts only; the full account is in Japanese).
 9. **[Development History](./09-development-history/)** — how the KRM Database was constructed.
 
