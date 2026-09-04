@@ -98,6 +98,16 @@ In Ikeda et al. (2020), these were treated as two separate **`Entries`**, priori
 
 Please refer to the right side of the [corresponding page](https://dl.ndl.go.jp/info:ndljp/pid/2586892/19) in the National Diet Library Digital Collections.
 
+A subsequent review (cross-checking `krm_main.tsv` against `krm_headword_chars.tsv`) found two further errors:
+
+  * `kazama_location`: K02051221, `hanzi_entry`: 咥 — the constituent characters were still recorded as three characters (𠰍, 𠰍, 咥), a leftover from an earlier reading preserved in the `original_entry` field of the preceding **`Entry`** (K02051210 "𠰍") as "ー（𠰍）／〻（𠰍）／〇". `krm_notes.tsv` already excludes this from the **`Entry`** count ("the "ー〻" should originally be a note on the preceding **`Entry`**"); the constituent-character data has now been corrected to the single character 咥.
+  * `kazama_location`: K02060310, `hanzi_entry`: 嘻／［囉］ — the omitted character "囉" had not been registered as a constituent character; it has been added.
+
+This revises the breakdown for the "口" (Mouth) radical section as follows (the **`Entry`** count remains 1,035):
+
+| No. | Radical  | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|----------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+| 014 | 口 (Mouth) | 858    | 147    | 16     | 9      | 4      | 1       | 1,035          | 1,273        |
 
 ## *Butsuge-hon* (仏下本 – Lower "Buddha" Fascicle, First Part)
 
@@ -189,6 +199,15 @@ As a result of this correction, the number of **`Entries`** in the "木" (Tree) 
 |-----|------------|-------:|--------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
 | 029 | 木 (Tree)  | 1,044  | **245** | 40     | **4** | 0      | 1       | **1,334** | 1,676        |
 
+A further error was subsequently found:
+
+* `kazama_location`: K03117830, `hanzi_entry`: 櫫 — the **`Headword`** is the single character 櫫 (though the source text could be misread as two characters, "豬木"), but the constituent-character data erroneously carried an extra character, "木". It has been corrected to a single character.
+
+This revises the breakdown for the "木" (Tree) radical section as follows (the **`Entry`** count remains 1,334):
+
+| No. | Radical    | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|------------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+| 029 | 木 (Tree)  | 1,045  | 244    | 40     | 4      | 0      | 1       | 1,334          | 1,675        |
 
 ## *Butsuge-matsu* (仏下末 – Lower "Buddha" Fascicle, Last Part)
 
@@ -246,7 +265,16 @@ The string '月ー（水）' (moon-[substituting for] water; referring to menstr
 
 The original text for this section can be referred to on the left side of the [corresponding page](https://dl.ndl.go.jp/info:ndljp/pid/2586895/4) in the National Diet Library Digital Collections.
 
+A subsequent review found two further errors in the constituent-character data for the "水" (Water) radical section (the **`Entry`** count is unaffected):
 
+* `kazama_location`: K05003131, `hanzi_entry`: ー（洞）／逹 — the character "洞" (the **`Headword`** of the preceding **`Entry`**, referenced here by the **`Substitution Mark`** "ー") had not been registered as a constituent character; the **`Entry`** was recorded as a single character, "逹", only. "洞" has been added, making it two characters.
+* `kazama_location`: K05039810→K05039811, `hanzi_entry`: 風／［流］ — the constituent-character data recorded a single, garbled character ("？風"), apparently the result of a mis-cropped image. The **`Headword`**'s position has been corrected by one segment, giving the two characters "風" and "流" (the omitted character). The corresponding `kazama_location`/`tenri_location` fields in `krm_main.tsv`, `krm_notes.tsv`, and `krm_wakun.tsv` were updated to match.
+
+This revises the breakdown for the "水" (Water) radical section as follows (the **`Entry`** count remains 1,321):
+
+| No. | Radical    | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|------------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+| 041 | 水 (Water) | 1,136  | 150    | 27     | 4      | 0      | 4       | 1,321          | 1,565        |
 
 For the **"足" (Foot) radical section** (足部, *Sokubu*), Sakai (1967) counts 494 **`Entries`**, while Ikeda et al. (2020) count 493 **`Entries`**, a difference of one **`Entry`**. The following instance is likely related to this discrepancy:
 
@@ -287,7 +315,11 @@ The **`Entry`** count and total headword character count for the "石" (Stone) r
 |-----|-------------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
 | 051 | 石 (Stone)  | 307    | 56     | 6      | 3      | 0      | 4       | 375            | 472          |
 
+For the "桃／花／［石］" **`Entry`** (K06012741) above, the omitted character "石" had not been registered as a constituent character; it has been supplied in `krm_headword_chars.tsv` (this does not change the **`Entry`** count or the total headword character count). A further check found that only three **`Entries`** in this radical section have 6 or more constituent characters (K06004811, K06007621, K06011231), so the "6+ char" figure above should read 3, not 4:
 
+| No. | Radical     | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|-------------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+| 051 | 石 (Stone)  | 307    | 56     | 6      | 3      | 0      | 3       | 375            | 472          |
 
 For the **"玉" (Jade) radical section** (玉部, *Gyokubu*), Sakai (1967) counts 384 **`Entries`**, while Ikeda et al. (2020) count 383 **`Entries`**, a difference of one **`Entry`**. The following **`Entry`** is likely related to this discrepancy:
 
@@ -304,6 +336,16 @@ For the **"心" (Heart) radical section** (心部, *Shinbu*), Sakai (1967) count
 Since '⿺⻎偘古' and '⿱保言𠐨' are written in large characters, there is a possibility of counting them as **`Headwords`**. However, they are not characters that would typically be assigned to the "心" (Heart) radical section, and furthermore, they are explicitly marked with '注' (annotation). Therefore, it is unlikely that Ikeda et al. (2020) miscounted by including these as separate **`Entries`** (implying the discrepancy may originate from Sakai's count or another unclarified instance).
 
 The original text for this section can be referred to on the right side of the [corresponding page](https://dl.ndl.go.jp/info:ndljp/pid/2586896/46) in the National Diet Library Digital Collections.
+
+Separately from the discrepancy with Sakai (1967), a subsequent review found the following:
+
+* `kazama_location`: K06100631, `hanzi_entry`: 喜／憘／⿱⿱二口⿱廾心 — the preceding **`Entry`** (K06100620, "憙") has the **`Semantic Gloss in Chinese`** "喜「注也」" (glossed with 喜, marked "注也" — "this is a note"); this "喜" had been mistakenly transcribed in large characters, making it appear to be the **`Headword`** of the following **`Entry`**. Since it carries the red-ink annotation "注也" to its left, it has been identified as part of the gloss rather than a **`Headword`**, and removed, giving the corrected reading "憘／⿱⿱二口⿱廾心" (two characters). Both `krm_main.tsv` and `krm_notes.tsv` were corrected accordingly.
+
+This revises the breakdown for the "心" (Heart) radical section as follows (the **`Entry`** count remains 908):
+
+| No. | Radical     | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|-------------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+| 057 | 心 (Heart)  | 730    | 162    | 12     | 1      | 2      | 1       | 908            | 1,110        |
 
 For the **"糸" (Silk) radical section** (糸部, *Shibu*), there is no difference in the number of **`Entries`** between Sakai (1967) and Ikeda et al. (2020). However, a correction is made to the character count of the **`Headword`** in the following **`Entry`**:
 
@@ -517,6 +559,15 @@ There is a line break between ![𩜻](https://glyphwiki.org/glyph/hdic-tanki10_h
 
 The original text for this section in the Kanchi-in manuscript can be referred to on the right side of the [corresponding page](https://dl.ndl.go.jp/info:ndljp/pid/2586898/59) in the National Diet Library Digital Collections.
 
+For the **"竹" (Bamboo) radical section** (竹部, *Chikubu*), there is no difference in the number of **`Entries`** between Sakai (1967) and Ikeda et al. (2020), but cross-checking against `krm_headword_chars.tsv` found an error in the constituent-character data for the following **`Entry`**:
+
+* `kazama_location`: K08079831, `hanzi_entry`: 𥲄／竹 — the constituent characters had been recorded as three characters, "竹・淡・竹", the result of a mis-cropped image. The correct reading is the two characters "𥲄・竹"; this has been corrected (the image reference for the first character is left blank pending verification).
+
+This revises the breakdown for the "竹" (Bamboo) radical section as follows (the **`Entry`** count remains 492):
+
+| No. | Radical      | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
+|-----|--------------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
+| 082 | 竹 (Bamboo)  | 300    | 159    | 30     | 1      | 2      | 0       | 492            | 722          |
 
 ## Sōchū (僧中 – Middle "Sangha" Fascicle)
 
@@ -647,177 +698,175 @@ As a result of these corrections, the breakdown of **`Entry`** counts by headwor
 
 It was necessary to correct the **`Entry`** counts from Ikeda et al. (2020) for the following three radical sections: No. 001 "人" (Man), No. 029 "木" (Tree), and No. 080 "寸" (Inch).
 For other radical sections where discrepancies with other tallies (e.g., Sakai (1967)) exist, these variations are generally due to differences in the criteria for identifying and counting **`Entries`**. In such cases, the counts from Ikeda et al. (2020) have been retained as is.
-Reflecting the corrections made based on the [verifications discussed above](../05-02-headword-count/#verification-of-entry-counts), a complete list of **`Entry`** counts for all radical sections is provided below. The presented total headword character counts (*keishutsuji-sū*, 掲出字数) also incorporate corrections for clear instances of **`Omitted Characters`**.
 
+A subsequent review, cross-checking `krm_main.tsv` against `krm_headword_chars.tsv` (which records **`Headwords`** at the level of individual constituent characters) using `scripts/headword_count_by_radical.py` (in the krm repository), found that further corrections were needed for No. 014 "口" (Mouth), No. 029 "木" (Tree, an additional correction), No. 041 "水" (Water), No. 051 "石" (Stone), No. 057 "心" (Heart), No. 082 "竹" (Bamboo), and No. 120 "雑" (Miscellaneous, see the Addendum) — omitted characters that had not been reflected in the constituent-character data, and errors in that data. Details are given under the corresponding fascicle above. No. 015 "目" (Eye) originally showed no discrepancy with Sakai (1967); re-tallying it alongside the above review gives an **`Entry`** count of 462.
 
+Reflecting the corrections made based on the [verifications discussed above](../05-02-headword-count/#verification-of-entry-counts), and the further review described above, a complete list of **`Entry`** counts for all radical sections is provided below. The presented total headword character counts (*keishutsuji-sū*, 掲出字数) also incorporate corrections for clear instances of **`Omitted Characters`**.
 
- ***Butsujō*** **(仏上 – Upper "Buddha" Fascicle)** 
-
+***Butsujō*** **(仏上 – Upper "Buddha" Fascicle)**
 | No. | Radical | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
 |-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
-| 001 | 人 (Man)  | 614    | 205    | 28     | 4      | 2      | 3       | 856            | 1,153        |
-| 002 | 彳 (Step) | 144  | 38   | 3   | 0  | 0  | 0  | 185  | 229    |
-| 003 | 辵 (Walk) | 368  | 81   | 10  | 2  | 0  | 1  | 462  | 575    |
-| 004 | 匚 (Box Frame) | 48   | 5    | 2   | 0  | 0  | 0  | 55   | 64     |
-| 005 | 走 (Run) | 162  | 16   | 1   | 1  | 0  | 0  | 180  | 201    |
-| 006 | 麥 (Wheat) | 72   | 12   | 1   | 3  | 1  | 0  | 89   | 116    |
-| 007 | 一 (One) | 65   | 65   | 3   | 2  | 0  | 0  | 135  | 212    |
-| 008 | 丨 (Line) | 46   | 20   | 2   | 1  | 0  | 0  | 69   | 96     |
-| 009 | 十 (Ten) | 58   | 21   | 2   | 0  | 0  | 0  | 81   | 106    |
-| 010 | 身 (Body) | 73   | 6    | 1   | 0  | 0  | 0  | 80   | 88     |
+| 001 | 人 (Man) | 614 | 205 | 28 | 4 | 2 | 3 | 856 | 1,153 |
+| 002 | 彳 (Step) | 144 | 38 | 3 | 0 | 0 | 0 | 185 | 229 |
+| 003 | 辵 (Walk) | 368 | 81 | 10 | 2 | 0 | 1 | 462 | 575 |
+| 004 | 匚 (Box Frame) | 48 | 5 | 2 | 0 | 0 | 0 | 55 | 64 |
+| 005 | 走 (Run) | 162 | 16 | 1 | 1 | 0 | 0 | 180 | 201 |
+| 006 | 麥 (Wheat) | 72 | 12 | 1 | 3 | 1 | 0 | 89 | 116 |
+| 007 | 一 (One) | 65 | 65 | 3 | 2 | 0 | 0 | 135 | 212 |
+| 008 | 丨 (Line) | 46 | 20 | 2 | 1 | 0 | 0 | 69 | 96 |
+| 009 | 十 (Ten) | 58 | 21 | 2 | 0 | 0 | 0 | 81 | 106 |
+| 010 | 身 (Body) | 73 | 6 | 1 | 0 | 0 | 0 | 80 | 88 |
 
-***Butsuchū*** **(仏中 – Middle "Buddha" Fascicle)** 
+***Butsuchū*** **(仏中 – Middle "Buddha" Fascicle)**
 | No. | Radical | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
 |-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
-| 011 | 耳 (Ear) | 114  | 12   | 2   | 1  | 1  | 0  | 130    | 153    |
-| 012 | 女 (Woman) | 421  | 94   | 8   | 3  | 1  | 0  | 527    | 650    |
-| 013 | 舌 (Tongue) | 26   | 5    | 2   | 1  | 1  | 0  | 35     | 51     |
-| 014 | 口 (Mouth) | 857  | 147  | 17  | 9  | 4  | 2  | 1,036  | 1,275  |
-| 015 | 目 (Eye) | 399  | 55   | 4   | 2  | 0  | 3  | 463    | 552    |
-| 016 | 鼻 (Nose) | 30   | 6    | 1   | 0  | 0  | 0  | 37     | 45     |
-| 017 | 見 (See) | 117  | 10   | 0   | 0  | 0  | 0  | 127    | 137    |
-| 018 | 日 (Sun) | 450  | 96   | 7   | 2  | 1  | 0  | 556    | 676    |
-| 019 | 田 (Field) | 129  | 29   | 2   | 0  | 0  | 0  | 160    | 193    |
-| 020 | 肉 (Flesh) | 580  | 119  | 12  | 2  | 1  | 3  | 717    | 888    |
+| 011 | 耳 (Ear) | 114 | 12 | 2 | 1 | 1 | 0 | 130 | 153 |
+| 012 | 女 (Woman) | 421 | 94 | 8 | 3 | 1 | 0 | 527 | 650 |
+| 013 | 舌 (Tongue) | 26 | 5 | 2 | 1 | 1 | 0 | 35 | 51 |
+| 014 | 口 (Mouth) | 858 | 147 | 16 | 9 | 4 | 1 | 1,035 | 1,273 |
+| 015 | 目 (Eye) | 399 | 55 | 4 | 2 | 0 | 2 | 462 | 552 |
+| 016 | 鼻 (Nose) | 30 | 6 | 1 | 0 | 0 | 0 | 37 | 45 |
+| 017 | 見 (See) | 117 | 10 | 0 | 0 | 0 | 0 | 127 | 137 |
+| 018 | 日 (Sun) | 450 | 96 | 7 | 2 | 1 | 0 | 556 | 676 |
+| 019 | 田 (Field) | 129 | 29 | 2 | 0 | 0 | 0 | 160 | 193 |
+| 020 | 肉 (Flesh) | 580 | 119 | 12 | 2 | 1 | 3 | 717 | 888 |
 
 ***Butsuge-hon*** **(仏下本 – Lower "Buddha" Fascicle, First Part)**
 | No. | Radical | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
 |-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
-| 021 | 舟 (Boat) | 86     | 16   | 1   | 1  | 0  | 0  | 104    | 125    |
-| 022 | 骨 (Bone)| 96     | 18   | 3   | 0  | 0  | 0  | 117    | 141    |
-| 023 | 角 (Horn) | 104    | 20   | 2   | 0  | 0  | 0  | 126    | 150    |
-| 024 | 貝 (Shell) | 187    | 23   | 4   | 0  | 0  | 1  | 215    | 251    |
-| 025 | 頁 (Head) | 230    | 54   | 2   | 0  | 0  | 1  | 287    | 352    |
-| 026 | 彡 (Bristle) | 22     | 2    | 2   | 0  | 0  | 0  | 26     | 32     |
-| 027 | 髟 (Hair) | 127    | 28   | 5   | 2  | 3  | 0  | 165    | 221    |
-| 028 | 手 (Hand) | 886    | 220  | 37  | 3  | 2  | 1  | 1,149  | 1,467  |
-| 029 | 木 (Tree) | 1,044  | 243  | 40  | 6  | 0  | 1  | 1,334  | 1,680  |
-| 030 | 犬 (Dog) | 245    | 53   | 4   | 3  | 0  | 0  | 305    | 375    |
-
+| 021 | 舟 (Boat) | 86 | 16 | 1 | 1 | 0 | 0 | 104 | 125 |
+| 022 | 骨 (Bone) | 96 | 18 | 3 | 0 | 0 | 0 | 117 | 141 |
+| 023 | 角 (Horn) | 104 | 20 | 2 | 0 | 0 | 0 | 126 | 150 |
+| 024 | 貝 (Shell) | 187 | 23 | 4 | 0 | 0 | 1 | 215 | 251 |
+| 025 | 頁 (Head) | 230 | 54 | 2 | 0 | 0 | 1 | 287 | 352 |
+| 026 | 彡 (Bristle) | 22 | 2 | 2 | 0 | 0 | 0 | 26 | 32 |
+| 027 | 髟 (Hair) | 127 | 28 | 5 | 2 | 3 | 0 | 165 | 221 |
+| 028 | 手 (Hand) | 886 | 220 | 37 | 3 | 2 | 1 | 1,149 | 1,467 |
+| 029 | 木 (Tree) | 1,045 | 244 | 40 | 4 | 0 | 1 | 1,334 | 1,675 |
+| 030 | 犬 (Dog) | 245 | 53 | 4 | 3 | 0 | 0 | 305 | 375 |
 
 ***Butsuge-matsu*** **(仏下末 – Lower "Buddha" Fascicle, Last Part)**
 | No. | Radical | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
 |-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
-| 031 | 牛 (Cow) | 156  | 20  | 2   | 0  | 0  | 0  | 178  | 202  |
-| 032 | 片 (Slice) | 56   | 9   | 0   | 0  | 0  | 0  | 65   | 74   |
-| 033 | 豸 (Small Beast) | 116  | 14  | 0   | 0  | 0  | 0  | 130  | 144  |
-| 034 | 乙 (Twisting stroke) | 22   | 10  | 0   | 0  | 0  | 0  | 32   | 42   |
-| 035 | 儿 (Legs) | 156  | 52  | 10  | 3  | 0  | 0  | 221  | 302  |
-| 036 | 𠬞 (Joined Hands) | 90   | 16  | 1   | 0  | 0  | 0  | 107  | 125  |
-| 037 | 八 (Eight) | 77   | 26  | 1   | 5  | 0  | 0  | 109  | 152  |
-| 038 | 大 (Big) | 119  | 19  | 3   | 0  | 0  | 0  | 141  | 166  |
-| 039 | 火 (Fire) | 407  | 91  | 11  | 1  | 1  | 2  | 513  | 648  |
-| 040 | 黒 (Black) | 88   | 7   | 0   | 0  | 0  | 1  | 96   | 108  |
-
+| 031 | 牛 (Cow) | 156 | 20 | 2 | 0 | 0 | 0 | 178 | 202 |
+| 032 | 片 (Slice) | 56 | 9 | 0 | 0 | 0 | 0 | 65 | 74 |
+| 033 | 豸 (Small Beast) | 116 | 14 | 0 | 0 | 0 | 0 | 130 | 144 |
+| 034 | 乙 (Twisting stroke) | 22 | 10 | 0 | 0 | 0 | 0 | 32 | 42 |
+| 035 | 儿 (Legs) | 156 | 52 | 10 | 3 | 0 | 0 | 221 | 302 |
+| 036 | 𠬞 (Joined Hands) | 90 | 16 | 1 | 0 | 0 | 0 | 107 | 125 |
+| 037 | 八 (Eight) | 77 | 26 | 1 | 5 | 0 | 0 | 109 | 152 |
+| 038 | 大 (Big) | 119 | 19 | 3 | 0 | 0 | 0 | 141 | 166 |
+| 039 | 火 (Fire) | 407 | 91 | 11 | 1 | 1 | 2 | 513 | 648 |
+| 040 | 黒 (Black) | 88 | 7 | 0 | 0 | 0 | 1 | 96 | 108 |
 
 ***Hōjō*** **(法上 – Upper "Dharma" Fascicle)**
 | No. | Radical | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
 |-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
-| 041 | 水 (Water) | 1,137  | 149  | 27  | 4  | 0  | 4  | 1,321  | 1,564  |
-| 042 | 冫 (Ice) | 75     | 7    | 3   | 0  | 0  | 0  | 85     | 98     |
-| 043 | 言 (Speech) | 615    | 74   | 9   | 0  | 1  | 0  | 699    | 795    |
-| 044 | 足 (Foot) | 418    | 62   | 9   | 2  | 1  | 1  | 493    | 589    |
-| 045 | 立 (Stand) | 79     | 17   | 0   | 0  | 0  | 0  | 96     | 113    |
-| 046 | 豆 (Bean) | 62     | 19   | 4   | 0  | 0  | 0  | 85     | 112    |
-| 047 | 卜 (Divination) | 97     | 26   | 1   | 0  | 0  | 0  | 124    | 152    |
-| 048 | 面 (Face) | 47     | 6    | 1   | 0  | 0  | 0  | 54     | 62     |
-| 049 | 齒 (Tooth) | 94     | 18   | 2   | 1  | 1  | 2  | 118    | 157    |
-| 050 | 山 (Mountain) | 430    | 59   | 5   | 1  | 1  | 1  | 497    | 584    |
+| 041 | 水 (Water) | 1,136 | 150 | 27 | 4 | 0 | 4 | 1,321 | 1,565 |
+| 042 | 冫 (Ice) | 75 | 7 | 3 | 0 | 0 | 0 | 85 | 98 |
+| 043 | 言 (Speech) | 615 | 74 | 9 | 0 | 1 | 0 | 699 | 795 |
+| 044 | 足 (Foot) | 418 | 62 | 9 | 2 | 1 | 1 | 493 | 589 |
+| 045 | 立 (Stand) | 79 | 17 | 0 | 0 | 0 | 0 | 96 | 113 |
+| 046 | 豆 (Bean) | 62 | 19 | 4 | 0 | 0 | 0 | 85 | 112 |
+| 047 | 卜 (Divination) | 97 | 26 | 1 | 0 | 0 | 0 | 124 | 152 |
+| 048 | 面 (Face) | 47 | 6 | 1 | 0 | 0 | 0 | 54 | 62 |
+| 049 | 齒 (Tooth) | 94 | 18 | 2 | 1 | 1 | 2 | 118 | 157 |
+| 050 | 山 (Mountain) | 430 | 59 | 5 | 1 | 1 | 1 | 497 | 584 |
 
 ***Hōchū*** **(法中 – Middle "Dharma" Fascicle)**
 | No. | Radical | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
 |-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
-| 051 | 石 (Stone) | 307  | 56   | 6   | 3  | 0  | 4  | 376  | 472    |
-| 052 | 玉 (Jade) | 294  | 76   | 8   | 1  | 3  | 1  | 383  | 496    |
-| 053 | 色 (Colour) | 23   | 7    | 0   | 0  | 0  | 0  | 30   | 37     |
-| 054 | 邑 (Town/City) | 306  | 13   | 5   | 3  | 0  | 0  | 327  | 359    |
-| 055 | 阜 (Mound) | 235  | 40   | 3   | 0  | 1  | 0  | 279  | 329    |
-| 056 | 土 (Earth) | 496  | 77   | 5   | 4  | 1  | 2  | 585  | 700    |
-| 057 | 心 (Heart) | 730  | 161  | 13  | 1  | 2  | 1  | 908  | 1,111  |
-| 058 | 巾 (Cloth) | 212  | 42   | 7   | 0  | 0  | 0  | 261  | 317    |
-| 059 | 糸 (Silk) | 631  | 94   | 8   | 3  | 0  | 0  | 736  | 855    |
-| 060 | 衣 (Clothes) | 389  | 56   | 6   | 0  | 0  | 0  | 451  | 519    |
+| 051 | 石 (Stone) | 307 | 56 | 6 | 3 | 0 | 3 | 375 | 472 |
+| 052 | 玉 (Jade) | 294 | 76 | 8 | 1 | 3 | 1 | 383 | 496 |
+| 053 | 色 (Colour) | 23 | 7 | 0 | 0 | 0 | 0 | 30 | 37 |
+| 054 | 邑 (Town/City) | 306 | 13 | 5 | 3 | 0 | 0 | 327 | 359 |
+| 055 | 阜 (Mound) | 235 | 40 | 3 | 0 | 1 | 0 | 279 | 329 |
+| 056 | 土 (Earth) | 496 | 77 | 5 | 4 | 1 | 2 | 585 | 700 |
+| 057 | 心 (Heart) | 730 | 162 | 12 | 1 | 2 | 1 | 908 | 1,110 |
+| 058 | 巾 (Cloth) | 212 | 42 | 7 | 0 | 0 | 0 | 261 | 317 |
+| 059 | 糸 (Silk) | 631 | 94 | 8 | 3 | 0 | 0 | 736 | 855 |
+| 060 | 衣 (Clothes) | 389 | 56 | 6 | 0 | 0 | 0 | 451 | 519 |
 
 ***Hōge*** **(法下 – Lower "Dharma" Fascicle)**
 | No. | Radical | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
 |-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
-| 061 | 示 (Altar/Display) | 198  | 27  | 6   | 0  | 1  | 0  | 232  | 275  |
-| 062 | 禾 (Grain Stalk) | 454  | 53  | 5   | 3  | 0  | 1  | 516  | 593  |
-| 063 | 米 (Rice) | 194  | 42  | 9   | 1  | 1  | 1  | 248  | 321  |
-| 064 | 丶 (Dot) | 79   | 39  | 4   | 0  | 0  | 0  | 122  | 169  |
-| 065 | 宀 (Roof) | 215  | 81  | 10  | 0  | 0  | 1  | 307  | 415  |
-| 066 | 勹 (Wrap) | 29   | 4   | 0   | 0  | 0  | 0  | 33   | 37   |
-| 067 | 穴 (Cave) | 162  | 27  | 2   | 0  | 0  | 0  | 191  | 222  |
-| 068 | 雨 (Rain) | 177  | 43  | 6   | 1  | 1  | 0  | 228  | 290  |
-| 069 | 門 (Gate) | 208  | 40  | 3   | 0  | 0  | 1  | 252  | 306  |
-| 070 | 囗 (Enclosure) | 67   | 18  | 1   | 0  | 0  | 0  | 86   | 106  |
-| 071 | 尸 (Corpse) | 149  | 34  | 7   | 2  | 0  | 2  | 194  | 260  |
-| 072 | 虍 (Tiger) | 67   | 14  | 7   | 1  | 0  | 1  | 90   | 127  |
-| 073 | 广 (Shelter) | 233  | 59   | 12  | 0  | 1  | 0  | 305  | 392  |
-| 074 | 鹿 (Deer) | 33   | 18   | 6   | 1  | 0  | 0  | 58   | 91   |
-| 075 | 疒 (Sickness) | 234  | 138  | 23  | 1  | 1  | 2  | 399  | 603  |
-| 076 | 歹 (Death) | 121  | 59   | 9   | 0  | 0  | 0  | 189  | 266  |
-| 077 | 子 (Child) | 44   | 26   | 24  | 0  | 0  | 0  | 94   | 168  |
-| 078 | 斗 (Dipper) | 22   | 9    | 0   | 0  | 0  | 0  | 31   | 40   |
-| 079 | 倝 (Rising Sun) | 17   | 6    | 0   | 0  | 0  | 0  | 23   | 29   |
-| 080 | 寸 (Inch) | 18   | 23   | 0   | 0  | 0  | 0  | 41   | 64   |
+| 061 | 示 (Altar/Display) | 198 | 27 | 6 | 0 | 1 | 0 | 232 | 275 |
+| 062 | 禾 (Grain Stalk) | 454 | 53 | 5 | 3 | 0 | 1 | 516 | 593 |
+| 063 | 米 (Rice) | 194 | 42 | 9 | 1 | 1 | 1 | 248 | 321 |
+| 064 | 丶 (Dot) | 79 | 39 | 4 | 0 | 0 | 0 | 122 | 169 |
+| 065 | 宀 (Roof) | 215 | 81 | 10 | 0 | 0 | 1 | 307 | 415 |
+| 066 | 勹 (Wrap) | 29 | 4 | 0 | 0 | 0 | 0 | 33 | 37 |
+| 067 | 穴 (Cave) | 162 | 27 | 2 | 0 | 0 | 0 | 191 | 222 |
+| 068 | 雨 (Rain) | 177 | 43 | 6 | 1 | 1 | 0 | 228 | 290 |
+| 069 | 門 (Gate) | 208 | 40 | 3 | 0 | 0 | 1 | 252 | 306 |
+| 070 | 囗 (Enclosure) | 67 | 18 | 1 | 0 | 0 | 0 | 86 | 106 |
+| 071 | 尸 (Corpse) | 149 | 34 | 7 | 2 | 0 | 2 | 194 | 260 |
+| 072 | 虍 (Tiger) | 67 | 14 | 7 | 1 | 0 | 1 | 90 | 127 |
+| 073 | 广 (Shelter) | 233 | 59 | 12 | 0 | 1 | 0 | 305 | 392 |
+| 074 | 鹿 (Deer) | 33 | 18 | 6 | 1 | 0 | 0 | 58 | 91 |
+| 075 | 疒 (Sickness) | 234 | 138 | 23 | 1 | 1 | 2 | 399 | 603 |
+| 076 | 歹 (Death) | 121 | 59 | 9 | 0 | 0 | 0 | 189 | 266 |
+| 077 | 子 (Child) | 44 | 26 | 24 | 0 | 0 | 0 | 94 | 168 |
+| 078 | 斗 (Dipper) | 22 | 9 | 0 | 0 | 0 | 0 | 31 | 40 |
+| 079 | 倝 (Rising Sun) | 17 | 6 | 0 | 0 | 0 | 0 | 23 | 29 |
+| 080 | 寸 (Inch) | 18 | 23 | 0 | 0 | 0 | 0 | 41 | 64 |
 
 ***Sōjō*** **(僧上 – Upper "Sangha" Fascicle)**
 | No. | Radical | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
 |-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
-| 081 | 艸 (Grass) | 986  | 513  | 95  | 10  | 4  | 1  | 1,609  | 2,363  |
-| 082 | 竹 (Bomboo) | 300  | 159  | 30  | 1   | 2  | 0  | 492    | 722    |
-| 083 | 力 (Power) | 73   | 30   | 2   | 0   | 0  | 0  | 105    | 139    |
-| 084 | 刀 (Sword) | 151  | 79   | 9   | 1   | 0  | 0  | 240    | 340    |
-| 085 | 羽 (Feather) | 68   | 30   | 5   | 1   | 0  | 0  | 104    | 147    |
-| 086 | 毛 (Fur) | 59   | 30   | 8   | 4   | 0  | 2  | 103    | 173    |
-| 087 | 食 (Eat) | 120  | 73   | 17  | 1   | 0  | 2  | 213    | 333    |
-| 088 | 金 (Metal) | 469  | 186  | 19  | 6   | 0  | 0  | 680    | 922    |
+| 081 | 艸 (Grass) | 986 | 513 | 95 | 10 | 4 | 1 | 1,609 | 2,363 |
+| 082 | 竹 (Bomboo) | 300 | 159 | 30 | 1 | 2 | 0 | 492 | 722 |
+| 083 | 力 (Power) | 73 | 30 | 2 | 0 | 0 | 0 | 105 | 139 |
+| 084 | 刀 (Sword) | 151 | 79 | 9 | 1 | 0 | 0 | 240 | 340 |
+| 085 | 羽 (Feather) | 68 | 30 | 5 | 1 | 0 | 0 | 104 | 147 |
+| 086 | 毛 (Fur) | 59 | 30 | 8 | 4 | 0 | 2 | 103 | 173 |
+| 087 | 食 (Eat) | 120 | 73 | 17 | 1 | 0 | 2 | 213 | 333 |
+| 088 | 金 (Metal) | 469 | 186 | 19 | 6 | 0 | 0 | 680 | 922 |
 
 ***Sōchū*** **(僧中 – Middle "Sangha" Fascicle)**
 | No. | Radical | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
 |-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
-| 089 | 亼 (Assemble) | 49   | 31   | 0   | 1  | 0  | 0  | 81   | 115  |
-| 090 | 爪 (Claw) | 34   | 18   | 1   | 0  | 1  | 0  | 54   | 78   |
-| 091 | 网 (Net) | 73   | 39   | 8   | 1  | 0  | 1  | 122  | 188  |
-| 092 | 皿 (Dish) | 73   | 37   | 4   | 1  | 0  | 0  | 115  | 163  |
-| 093 | 瓦 (Tile) | 73   | 39   | 7   | 1  | 0  | 0  | 120  | 176  |
-| 094 | 缶 (Can) | 35   | 6    | 0   | 0  | 0  | 0  | 41   | 47   |
-| 095 | 弓 (Bow) | 61   | 32   | 7   | 1  | 0  | 0  | 101  | 150  |
-| 096 | 㫃 (Fluttering Flags) | 54   | 18   | 1   | 0  | 0  | 0  | 73   | 93   |
-| 097 | 矢 (Arrow) | 30   | 6    | 1   | 0  | 0  | 0  | 37   | 45   |
-| 098 | 斤 (Axe) | 48   | 10   | 0   | 1  | 0  | 0  | 59   | 72   |
-| 099 | 矛 (Spear) | 25   | 14   | 0   | 0  | 0  | 0  | 39   | 53   |
-| 100 | 戈 (Halberd) | 93   | 31   | 2   | 2  | 0  | 1  | 129  | 175  |
-| 101 | 欠 (Yawn) | 87   | 32   | 3   | 1  | 0  | 0  | 123  | 164  |
-| 102 | 又 (Right Hand) | 50   | 30   | 5   | 0  | 0  | 0  | 85   | 125  |
-| 103 | 攴 (Strike) | 157  | 58   | 8   | 2  | 0  | 0  | 225  | 305  |
-| 104 | 殳 (Weapon) | 62   | 15   | 4   | 0  | 0  | 0  | 81   | 104  |
-| 105 | 皮 (Skin) | 54   | 32   | 2   | 0  | 0  | 1  | 89   | 130  |
-| 106 | 革 (Leather) | 134  | 70   | 14  | 0  | 1  | 1  | 220  | 328  |
-| 107 | 韋 (Tanned Leather) | 34   | 19   | 1   | 0  | 0  | 0  | 54   | 75   |
-| 108 | 車 (Cart) | 147  | 74   | 8   | 4  | 0  | 0  | 233  | 335  |
-| 109 | 羊 (Sheep) | 47   | 25   | 6   | 1  | 0  | 0  | 79   | 119  |
-| 110 | 馬 (Horse) | 188  | 87   | 14  | 1  | 1  | 1  | 292  | 419  |
-| 111 | 鳥 (Bird) | 307  | 184  | 35  | 6  | 1  | 0  | 533  | 809  |
-| 112 | 隹 (Short-tailed Bird) | 59   | 32   | 2   | 0  | 0  | 0  | 93   | 129  |
+| 089 | 亼 (Assemble) | 49 | 31 | 0 | 1 | 0 | 0 | 81 | 115 |
+| 090 | 爪 (Claw) | 34 | 18 | 1 | 0 | 1 | 0 | 54 | 78 |
+| 091 | 网 (Net) | 73 | 39 | 8 | 1 | 0 | 1 | 122 | 188 |
+| 092 | 皿 (Dish) | 73 | 37 | 4 | 1 | 0 | 0 | 115 | 163 |
+| 093 | 瓦 (Tile) | 73 | 39 | 7 | 1 | 0 | 0 | 120 | 176 |
+| 094 | 缶 (Can) | 35 | 6 | 0 | 0 | 0 | 0 | 41 | 47 |
+| 095 | 弓 (Bow) | 61 | 32 | 7 | 1 | 0 | 0 | 101 | 150 |
+| 096 | 㫃 (Fluttering Flags) | 54 | 18 | 1 | 0 | 0 | 0 | 73 | 93 |
+| 097 | 矢 (Arrow) | 30 | 6 | 1 | 0 | 0 | 0 | 37 | 45 |
+| 098 | 斤 (Axe) | 48 | 10 | 0 | 1 | 0 | 0 | 59 | 72 |
+| 099 | 矛 (Spear) | 25 | 14 | 0 | 0 | 0 | 0 | 39 | 53 |
+| 100 | 戈 (Halberd) | 93 | 31 | 2 | 2 | 0 | 1 | 129 | 175 |
+| 101 | 欠 (Yawn) | 87 | 32 | 3 | 1 | 0 | 0 | 123 | 164 |
+| 102 | 又 (Right Hand) | 50 | 30 | 5 | 0 | 0 | 0 | 85 | 125 |
+| 103 | 攴 (Strike) | 157 | 58 | 8 | 2 | 0 | 0 | 225 | 305 |
+| 104 | 殳 (Weapon) | 62 | 15 | 4 | 0 | 0 | 0 | 81 | 104 |
+| 105 | 皮 (Skin) | 54 | 32 | 2 | 0 | 0 | 1 | 89 | 130 |
+| 106 | 革 (Leather) | 134 | 70 | 14 | 0 | 1 | 1 | 220 | 328 |
+| 107 | 韋 (Tanned Leather) | 34 | 19 | 1 | 0 | 0 | 0 | 54 | 75 |
+| 108 | 車 (Cart) | 147 | 74 | 8 | 4 | 0 | 0 | 233 | 335 |
+| 109 | 羊 (Sheep) | 47 | 25 | 6 | 1 | 0 | 0 | 79 | 119 |
+| 110 | 馬 (Horse) | 188 | 87 | 14 | 1 | 1 | 1 | 292 | 419 |
+| 111 | 鳥 (Bird) | 307 | 184 | 35 | 6 | 1 | 0 | 533 | 809 |
+| 112 | 隹 (Short-tailed Bird) | 59 | 32 | 2 | 0 | 0 | 0 | 93 | 129 |
 
 ***Sōge*** **(僧下 – Lower "Sangha" Fascicle)**
 | No. | Radical | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
 |-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
-| 113 | 魚 (Fish) | 232    | 104  | 41  | 2   | 0  | 0  | 379    | 571    |
-| 114 | 虫 (Insect) | 365    | 257  | 27  | 9   | 1  | 5  | 664    | 1,041  |
-| 115 | 鼠 (Rat) | 34     | 20   | 6   | 1   | 0  | 0  | 61     | 96     |
-| 116 | 龜 (Turtle) | 23     | 13   | 4   | 0   | 0  | 0  | 40     | 61     |
-| 117 | 鬼 (Ghost) | 51     | 18   | 1   | 2   | 1  | 2  | 75     | 121    |
-| 118 | 風 (Wind) | 70     | 32   | 6   | 2   | 0  | 0  | 110    | 160    |
-| 119 | 酉 (Wine) | 146    | 53   | 9   | 0   | 0  | 1  | 209    | 289    |
-| 120 | 雑 (Miscellaneous) | 1,075  | 332  | 73  | 14  | 4  | 3  | 1,501  | 2,057  |
+| 113 | 魚 (Fish) | 232 | 104 | 41 | 2 | 0 | 0 | 379 | 571 |
+| 114 | 虫 (Insect) | 365 | 257 | 27 | 9 | 1 | 5 | 664 | 1,041 |
+| 115 | 鼠 (Rat) | 34 | 20 | 6 | 1 | 0 | 0 | 61 | 96 |
+| 116 | 龜 (Turtle) | 23 | 13 | 4 | 0 | 0 | 0 | 40 | 61 |
+| 117 | 鬼 (Ghost) | 51 | 18 | 1 | 2 | 1 | 2 | 75 | 121 |
+| 118 | 風 (Wind) | 70 | 32 | 6 | 2 | 0 | 0 | 110 | 160 |
+| 119 | 酉 (Wine) | 146 | 53 | 9 | 0 | 0 | 1 | 209 | 289 |
+| 120 | 雑 (Miscellaneous) | 1,074 | 333 | 73 | 14 | 4 | 3 | 1,501 | 2,058 |
 
 **Overall Total**
 |     | **Total** | 1-char | 2-char | 3-char | 4-char | 5-char | 6+ char | No. of Entries | No. of Chars |
 |-----|---------|-------:|-------:|-------:|-------:|-------:|--------:|---------------:|-------------:|
-|     |         | 24,681 | 6,670  | 977    | 167    | 50     | 65      | 32,610         | 42,344       |
+|     |         | 24,681 | 6,674 | 975 | 165 | 50 | 62 | 32,607 | 42,338 |
 
 
 ## Addendum
@@ -835,5 +884,7 @@ This interpretation would affect the calculation of the total headword character
 (Noted December 15, 2022).
 
 March 14, 2024: Corrected errors in the aggregated numerical figures (in the preceding tables).
+
+September 2026: `krm_main.tsv` already gave the **`Headword`** ('陟厘') as two characters, but `krm_headword_chars.tsv` had not been synchronized and still recorded it as the single ligature character '⿱陟厘'. It has now been corrected to the two characters '陟' and '厘', and the "雑" (Miscellaneous) and overall-total figures in the Summary table above reflect this.
 
 
